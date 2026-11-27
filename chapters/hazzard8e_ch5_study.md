@@ -28,7 +28,7 @@ Study summary of Chapter 5; the book and the full chapter are the reference.
 
 ### Reading levels, slopes and causes of death
 
- About half of deaths occurred before age five, while most adult deaths occurred much later. A historical life expectancy at birth can therefore say more about infant and childhood mortality than about what an adult who survived childhood could expect (p83).
+In Sweden in 1773, when period life expectancy at birth fell to 18 years, about half of deaths occurred before age five while most adults died in their 40s and 50s. A historical life expectancy at birth can therefore say more about infant and childhood mortality than about what an adult who survived childhood could expect (p83).
 
 On a logarithmic mortality plot, the height of a curve at a given age describes the level of mortality. Its slope describes how rapidly mortality rises with age. From age 50 the mortality rate doubled in approximately **8 years** in the US periods compared, even though survival improved greatly between them. The distinction matters when deciding whether women “age more slowly” (p84–85, p87).
 

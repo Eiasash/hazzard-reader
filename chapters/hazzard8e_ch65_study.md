@@ -16,7 +16,7 @@ Ask which core symptom qualifies. Five or more qualifying symptoms including low
 
 PHQ-9 scoring: **0–4** = no/insignificant symptoms, **5–9** = mild/subsyndromal depression, **≥10** = typically correlates with major depression and warrants further evaluation and clinical intervention (<a href="?chapter=65#p1009">p1009</a>, <a href="?chapter=65#p1012">p1012</a>).
 
-<a href="?chapter=65#book-figure-65-2">Figure 65-2</a> combines symptom count, depressed mood or loss of interest, duration and functional impairment to guide diagnostic assessment. Its chronic-depression row specifies mood symptoms for two years. For standardized **PHQ-9 severity**, 10–14 is moderate, 15–19 moderately severe, and 20–27 severe (<a href="?chapter=65#p1011">p1011</a>, Kroenke et al.). The score supports evaluation and does not independently diagnose major depression.
+<a href="?chapter=65#book-figure-65-2">Figure 65-2</a> combines symptom count, depressed mood or loss of interest, duration and functional impairment to guide diagnostic assessment. Its chronic-depression row specifies mood symptoms for two years. On <a href="?chapter=65#p1011">p1011</a>, Figure 65-2 labels 15–19 “Moderate” and a score of 20 “Severe”, whereas the [Kroenke PHQ-9 validation study](https://doi.org/10.1046/j.1525-1497.2001.016009606.x) defines **10–14** as moderate, **15–19** as moderately severe, and **20–27** as severe. The score supports evaluation and does not independently diagnose major depression.
 
 Item 9 asks about death wishes or more intensive suicidal ideation — clearly an important part of the assessment (<a href="?chapter=65#p1012">p1012</a>).
 
@@ -78,7 +78,7 @@ Hazzard gives **2–4 weeks** as a rough taper for most SSRIs, SNRIs and mirtaza
 
 Hazzard states that **fluoxetine does not require tapering** because of its long half-life. If withdrawal symptoms occur despite a long taper of an antidepressant, the chapter suggests considering **a single 20 mg dose of fluoxetine** (<a href="?chapter=65#p1016">p1016</a>).
 
-> **Current practice: Individualized antidepressant taper.** reduce doses in stages, tailoring the pace to the medicine and symptoms. For fluoxetine 20 mg/day, alternate-day dosing can be a step down. At 40–60 mg/day, withdraw gradually — [NICE NG222, recommendations 1.4.16–1.4.18, 2022](https://www.nice.org.uk/guidance/ng222/chapter/Recommendations#stopping-antidepressant-medication).
+> <span id="current-practice-2" data-reader-metadata="navigation"></span>**Current practice: Individualized antidepressant taper.** reduce doses in stages, tailoring the pace to the medicine and symptoms. For fluoxetine 20 mg/day, alternate-day dosing can be a step down. At 40–60 mg/day, withdraw gradually — [NICE NG222, recommendations 1.4.16–1.4.18, 2022](https://www.nice.org.uk/guidance/ng222/chapter/Recommendations#stopping-antidepressant-medication).
 
 Discontinuation symptoms (sweating, chills, dizziness, **flu-like symptoms**, GI upset, **insomnia**, vivid and excessive dreaming, **depressed mood**, vertigo, numbness, shock-like sensations) can be confused with relapse/lack of efficacy — misdiagnosis may lead to unnecessary tests, useless treatments, and increased costs (<a href="?chapter=65#p1015">p1015</a>–<a href="?chapter=65#p1016">1016</a>).
 
@@ -92,7 +92,7 @@ Discontinuation symptoms (sweating, chills, dizziness, **flu-like symptoms**, GI
 
 For a severely depressed patient losing weight, becoming psychotic or failing adequate medication trials, discuss ECT early. Hazzard gives an average initial course of 3–6 treatments per week for 2–4 weeks (<a href="?chapter=65#p1014">p1014</a>). Response means substantial clinical improvement, whereas remission means few or no remaining symptoms. In most studies summarized here, over 80% responded and over 60% remitted. Older adults often responded particularly well. Assess medical and anesthetic suitability. Hazzard says short-term memory loss almost always resolves within a few weeks after the course (<a href="?chapter=65#p1014">p1014</a>).
 
-> **Current practice: ECT frequency and duration.** ECT is commonly given **2–3 times weekly**, often for **6–12 treatments**. Some patients experience longer-lasting gaps in autobiographical memory — [American Psychiatric Association, What Is Electroconvulsive Therapy?](https://www.psychiatry.org/patients-families/ect/).
+> <span id="current-practice-1" data-reader-metadata="navigation"></span>**Current practice: ECT frequency and duration.** ECT is commonly given **2–3 times weekly**, often for **6–12 treatments**. Some patients experience longer-lasting gaps in autobiographical memory — [American Psychiatric Association, What Is Electroconvulsive Therapy?](https://www.psychiatry.org/patients-families/ect/).
 
 ECT should be considered early for severe or psychotic depression, or after limited medication response (<a href="?chapter=65#p1014">p1014</a>).
 

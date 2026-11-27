@@ -26,15 +26,7 @@ Chronic conditions are the major causes of morbidity and mortality among adults 
 
 1. People living with chronic diseases must “self-manage” these diseases every day. Self-management support for these patients is a key component of clinical chronic disease management.
 
-2. Behavioral health theories and chronic disease management models are the basis of many self-management support interventions. Much research has investigated self-management support for chronic diseases, especially diabetes, hypertension, COPD, and heart diseases, and there are many high-quality systematic reviews in the literature that demonstrate improvements (Continued)
-
-For people with chronic conditions, the vast majority of their health care management is done by them in their homes. Even when people have MCC and see many clinicians sometimes many times a month, they still spend the vast majority of their time at home, and are implementing recommended clinical interventions by themselves, or with a family member or care partner, in their homes. Clinicians, researchers, and policy makers have long recognized that patients should not be left alone in their self-management efforts. Self-management support is now understood to be an important component of ongoing clinical care and that achieving good outcomes of chronic disease management depends on patients’ engagement and partnership in their care. Clinicians, practices, and the health system have roles in assuring that patients and their care partners can self-manage chronic diseases. Because self-management support was not historically considered clinical care, it is only beginning to be reimbursed by payers. Now because it is understood to be central to the management of chronic diseases care, it is often a component of value-based payment models and some self-management support interventions (eg, diabetes education) are reimbursed.
-
-The basic premise of patient self-management and self-management support is that self-management
-
-<a id="p346"></a>**[p. 346]**
-
-in outcomes related to self-management support.
+2. Behavioral health theories and chronic disease management models are the basis of many self-management support interventions. Much research has investigated self-management support for chronic diseases, especially diabetes, hypertension, COPD, and heart diseases, and there are many high-quality systematic reviews in the literature that demonstrate improvements in outcomes related to self-management support.
 
 3. However, there is minimal evidence upon which to base chronic disease management among people who have MCC and therefore self-management. People with MCC are not generally included in the studies that provided the evidence. Adherence to disease-specific guidelines may not improve care for patients with MCC and may sometimes cause harm.
 
@@ -42,7 +34,9 @@ in outcomes related to self-management support.
 
 5. Patient Priorities Care (PPC) and VA Whole Health are examples of care approaches for older adults with MCC that base care on what matters to patients, and incorporate self-management support within a comprehensive, team-based, whole person approach to care.
 
-is guided by disease-specific guidelines, often based on treatment randomized controlled trials (RCTs) that most often did not include older adults, people with multimorbidity, or people with complex health status. Therefore, clinical management based on these guidelines may not apply to the many older adults with MCC, frailty, or serious, life-limiting conditions. This chapter will explore the complex landscape of chronic disease self-management and self-management support in older adults through the lens of the heterogeneity of the older population. Many older adults are healthy and functional, while some are experiencing severe, life-limiting conditions. There is a big middle group who are accumulating or already have MCC and functional or cognitive impairments and disabilities. Self-management and self-management support interventions, and the clinical paradigms behind them, differ with health status complexity.
+For people with chronic conditions, the vast majority of their health care management is done by them in their homes. Even when people have MCC and see many clinicians sometimes many times a month, they still spend the vast majority of their time at home, and are implementing recommended clinical interventions by themselves, or with a family member or care partner, in their homes. Clinicians, researchers, and policy makers have long recognized that patients should not be left alone in their self-management efforts. Self-management support is now understood to be an important component of ongoing clinical care and that achieving good outcomes of chronic disease management depends on patients’ engagement and partnership in their care. Clinicians, practices, and the health system have roles in assuring that patients and their care partners can self-manage chronic diseases. Because self-management support was not historically considered clinical care, it is only beginning to be reimbursed by payers. Now because it is understood to be central to the management of chronic diseases care, it is often a component of value-based payment models and some self-management support interventions (eg, diabetes education) are reimbursed.
+
+The basic premise of patient self-management and self-management support is that self-management <a id="p346"></a>**[p. 346]** is guided by disease-specific guidelines, often based on treatment randomized controlled trials (RCTs) that most often did not include older adults, people with multimorbidity, or people with complex health status. Therefore, clinical management based on these guidelines may not apply to the many older adults with MCC, frailty, or serious, life-limiting conditions. This chapter will explore the complex landscape of chronic disease self-management and self-management support in older adults through the lens of the heterogeneity of the older population. Many older adults are healthy and functional, while some are experiencing severe, life-limiting conditions. There is a big middle group who are accumulating or already have MCC and functional or cognitive impairments and disabilities. Self-management and self-management support interventions, and the clinical paradigms behind them, differ with health status complexity.
 
 This chapter will review foundational behavioral concepts related to self-management of chronic diseases, and how both behavioral theory, and system-based concepts of chronic disease management, have been used to develop, implement, and evaluate disease-specific self-management support interventions.
 
@@ -81,14 +75,12 @@ Self-management support interventions are recognized as an integral component of
 *TABLE 25-1 ■ KEY CHARACTERISTICS OF FOUR HEALTH BEHAVIOR THEORIES AND MODELS THAT ARE THE THEORETICAL BASIS OF MANY PATIENT-FACING AND COMMUNITY-BASED SELF-MANAGEMENT SUPPORT INTERVENTIONS*
 
 
-The chronic care model was developed as a framework to describe the effective delivery of care for chronic diseases. It considers how the community, health care system, practice setting, and patients interact through six components of chronic care delivery: delivery system
+The chronic care model was developed as a framework to describe the effective delivery of care for chronic diseases. It considers how the community, health care system, practice setting, and patients interact through six components of chronic care delivery: delivery system design, self-management support, decision support, clinical information systems, leading to a proactive practice team and informed, engaged patients.
 
 ![Table 25-2](hazzard8e_ch25_table-25-2_p348.webp)
 
 *TABLE 25-2 ■ KEY CHARACTERISTICS OF THREE COMMON FRAMEWORKS FOR CHRONIC DISEASE MANAGEMENT*
 
-
-design, self-management support, decision support, clinical information systems, leading to a proactive practice team and informed, engaged patients.
 
 The Patient-Centered Medical Home was developed over 15 years ago by the major primary care professional organizations: the American Academy of Pediatrics, the American Academy of Family Physicians, the American College of Physicians, and the American Osteopathic Association. Although it has evolved over the years, it is based on several key principles including continuity and accessibility of care, team-based care, trained and prepared staff and efficient clinical operation, patient engagement, care coordination and integration, effective health information, and ongoing quality improvement. Similarly, the 10 principles of effective primary care were articulated in 2014 by Bodenheimer as including “4 foundational elements— engaged leadership, data-driven improvement, empanelment, and team-based care—that assist the implementation of the other 6 building blocks—patient-team partnership, population management, continuity of care, prompt access to care, comprehensiveness and care coordination, and a template of the future.” These models are completely consistent with ambulatory geriatric practice and have in common team-based and coordinated care, “whole-patient” orientation, access and continuity of care, and recognition of the importance of ongoing quality improvement. Geriatrics care, however, also explicitly recognizes the challenges of multimorbidity, functional impairment, frailty, and serious illness among older adult patients, which adds even more complexity to chronic care delivery for these patients.
 
@@ -220,14 +212,12 @@ Evidence for self-management interventions targeting older adults with multiple 
 
 Many clinicians, investigators, and experts, supported by the emerging literature, realize that the current approach to self-management and self-management support for patients with MCC, based on managing chronic conditions by adherence to single-disease clinical practice guidelines, is inadequate to improve outcomes for these patients. Among potential reasons why this may occur, three stand out. First, older adults with MCC are at increased risk of adverse outcomes from the application of multiple clinical practice guidelines, including drug-drug, disease-disease, and drug-disease interactions and the harms of polypharmacy. These adverse outcomes may be of greater importance than the disease-specific outcomes that guidelines often target. Self-management support for all of their conditions based on disease-specific guidelines could well increase adverse events. Second, clinical practice guidelines fail to focus on outcomes most important to older adults, including living independently in one’s home, increasing physical function, and engaging in meaningful social relationships. People may not be engaged in self-management that does not help them achieve the outcomes they care about. Third, older adults, caregivers and clinicians are burdened by the workload of multiple disease-specific interventions, and may wish to decrease this burden, particularly when the workload is not aligned with the goals of the older adult and caregiver. Self-management support interventions may sometimes actually add to this burden.
 
-The presence of MCC exposes an older adult to significant risk for adverse outcomes arising from acute exacerbations from a serious illness and interactions of one or more chronic illnesses. This burden of multimorbid illnesses is defined as the “cumulative impact on the older adult from numerous acute and chronic diseases and general impairments, affecting multiple domains rather than a single organ system or isolated impairment.” High levels of illness burden significantly impact quality of life, daily
+The presence of MCC exposes an older adult to significant risk for adverse outcomes arising from acute exacerbations from a serious illness and interactions of one or more chronic illnesses. This burden of multimorbid illnesses is defined as the “cumulative impact on the older adult from numerous acute and chronic diseases and general impairments, affecting multiple domains rather than a single organ system or isolated impairment.” High levels of illness burden significantly impact quality of life, daily functioning, symptom burden, and carry a significant economic impact on personal finances.
 
 ![Table 25-4](hazzard8e_ch25_table-25-4_p355.webp)
 
 *TABLE 25-4 ■ PATIENT SELF-MANAGEMENT ACTIVITIES*
 
-
-functioning, symptom burden, and carry a significant economic impact on personal finances.
 
 In addition to the burden of illness, adults with MCC face an excessive burden of treatment that impacts their daily life, relationships, and well-being. Multimorbidity imposes burdens on older adults and their caregivers related to frequent health system interactions, demands for self-care activities, and medication burdens from polypharmacy and drug interactions (Table 25-4). Burden of treatment consists of the everyday demands arising from interacting with the health system and frequent clinician visits, negotiating conflicting information about symptoms and treatments, adapting recommendations into daily routines, managing medications, and relying on supportive services.
 
@@ -269,35 +259,70 @@ Case scenario: Older adult with MCC Mr. T is an 80-year-old man with type 2 diab
 
 Over the past several months Mr. T’s blood pressure has been at goal. His hemoglobin A1c values have been between 7.5% and 7.8%. He saw a podiatrist within 6 months, but he has missed two ophthalmology visits over the past year. He is taking two oral hypoglycemics as well as insulin, five evidence-based medications, and three medications for symptoms. He has six specialists.
 
-Mr. T’s primary complaint over the past few months is that he is weak and tired. He has been skipping church, where he was very active for years, because he can’t climb
-
-MEDICAL CHART FOR MR. T
-
-up steps. A medical evaluation has ruled out acute illnesses or new conditions. Side effects of medications are being considered as contributing to some symptoms. Mr. T has been getting mixed messages from his health care team. His primary care clinician decreased his beta-blocker, but his cardiologist increased the dosage again. The primary care clinician then initiated a trial of decreasing Mr. T’s insulin, but his endocrinologist increased the insulin at a later visit.
+Mr. T’s primary complaint over the past few months is that he is weak and tired. He has been skipping church, where he was very active for years, because he can’t climb up steps. A medical evaluation has ruled out acute illnesses or new conditions. Side effects of medications are being considered as contributing to some symptoms. Mr. T has been getting mixed messages from his health care team. His primary care clinician decreased his beta-blocker, but his cardiologist increased the dosage again. The primary care clinician then initiated a trial of decreasing Mr. T’s insulin, but his endocrinologist increased the insulin at a later visit.
 
 Mr. T and wife are frustrated with conflicting recommendations and he states that he does not feel any better. His wife is stressed and angry that his clinicians “can’t get on the same page.” Both Mr. T and his wife say that “we don’t know who to listen to and it scares us—we don’t know the right thing to do.”
 
 The primary care physician is also frustrated with the conflicting recommendations and concerned that the patient has missed several appointments and may start skipping some meds. What Mr. T wants from his health care is to have more energy, go to church, and have less “work of being a patient.” Is this approach to managing Mr. T’s chronic conditions, while guideline-driven and well-intentioned, helping Mr. T and his wife? How do Mr. T and his wife decide upon and implement self-management tasks, given conflicting recommendations, treatment burden, and their realization that the treatments for all his conditions are not helping him do what matters to him.
 
+#### Medical chart for Mr. T
+
+**Diagnoses**
+
+- Diabetes mellitus, type 2
+- Congestive heart failure
+- Hypertension
+- Hyperlipidemia
+- Osteoarthritis
+- Benign prostatic hyperplasia
+- Age-related macular degeneration
+
+**Medications**
+
+- Metformin 500 mg twice daily
+- Glyburide 10 mg twice daily
+- Insulin glargine 15 units nightly
+- Aspirin 81 mg daily
+- Furosemide 40 mg twice daily
+- Metoprolol XL 100 mg daily
+- Lisinopril 10 mg twice daily
+- Spironolactone 25 mg daily
+- Atorvastatin 80 mg daily
+- Tamsulosin 0.4 mg nightly
+- Acetaminophen 650 mg twice daily
+
+**Clinician Visit Schedules**
+
+- Primary care physician every 3 months
+- Cardiology every 6 months
+- Endocrinology every 6 months
+- Podiatry every 3 months
+- Ophthalmology every 6 months
+- Urology every year
+
+**Self-Management and Monitoring Tasks**
+
+- Daily medications as above
+- Check blood sugar twice daily and as needed
+- Check feet daily
+- Daily weight
+- DASH diet daily
+- Physician visits as above
+- Hemoglobin A1c and basic metabolic panel quarterly
+- Prostate-specific antigen and lipid panel annually
+- Echocardiogram and electrocardiogram annually
+
 ### Management of MCC Including Self-Management Support for Mr. T
 
-Management of Mr. T’s multimorbidity would be based on delivering care that matters to Mr. T and helping him achieve his health outcome goals while respecting his care preferences. Such support would be connected to his primary care or geriatrics practice, or perhaps the practice where he receives most of his care (eg, cardiology,
+Management of Mr. T’s multimorbidity would be based on delivering care that matters to Mr. T and helping him achieve his health outcome goals while respecting his care preferences. Such support would be connected to his primary care or geriatrics practice, or perhaps the practice where he receives most of his care (eg, cardiology, <a id="p358"></a>**[p. 358]** endocrine). The practice would include team-based care and a member of the care team, perhaps a nurse, social worker, care management professional, or other team member, and would coordinate Mr. T’s self-management. Self-management support activities would be incorporated into several care delivery components that could include:
 
-Medications Metformin 500 mg twice daily Glyburide 10 mg twice daily Insulin glargine 15 units nightly Aspirin 81 mg daily Furosemide 40 mg twice daily Metoprolol XL 100 mg daily Lisinopril 10 mg twice daily Spironolactone 25 mg daily Atorvastatin 80 mg daily Tamsulosin 0.4 mg nightly Acetaminophen 650 mg twice daily
-
-Diagnoses Diabetes mellitus, type 2 Congestive heart failure Hypertension Hyperlipidemia Osteoarthritis Benign prostatic hyperplasia Age-related macular degeneration
-
-Clinician Visit Schedules Primary care physician every 3 months Cardiology every 6 months Endocrinology every 6 months Podiatry every 3 months Ophthalmology every 6 months Urology every year
-
-Self-Management and Monitoring Tasks
-
-Daily medications as above Check blood sugar twice daily and as needed Check feet daily Daily weight DASH diet daily Physician visits as above Hemoglobin A1c and basic metabolic panel quarterly Prostate-specific antigen and lipid panel annually Echocardiogram and electrocardiogram annually
-
-<a id="p358"></a>**[p. 358]**
-
-endocrine). The practice would include team-based care and a member of the care team, perhaps a nurse, social worker, care management professional, or other team member, and would coordinate Mr. T’s self-management. Self-management support activities would be incorporated into several care delivery components that could include:
-
-1. Identifying What Matters to Mr. T (his goals and preferences): A trained member of the care team would work with Mr. T and his wife to find out what he wants from his health care, what matters to him—framed as specific outcome goals—and what he is able and willing to do to achieve his goals. 2. Coordinating with community resources so Mr. T can access those resources that will help him achieve his goals (physical therapy, fall prevention programs, and faith-based activities). 3. Using available evidence for targets of management for his chronic diseases. For example, evidence is available regarding HbA1c and BP targets, and DM management interventions appropriate for his age and health status. 4. Coordinating medications among different clinicians involved in Mr. T’s care, using emerging evidence regarding regimen simplification and de-intensification of medication and other self-management activities, reducing Mr. T’s self-management burden. 5. Using emerging telehealth standards to determine which clinical visits are appropriate for telehealth so Mr. T. can go in-person only to those visits that need to be in-person (ophthalmology). Innovative use of telehealth could allow two to three specialists on the same telehealth visit with patient to coordinate care. Fewer clinical visits would reduce self-management burden. 6. Using technology such as phone or tablet apps, the EHR patient portal, or physiological monitoring, to engage Mr. T in relevant self-management activities and maintain between-visit communication. 7. Communicating the patient’s health outcomes goals and preferences through the EHR/HIE, fully visible to Mr. T and his wife, to drive care integration so his various specialists and community care (PT) clinician can align their clinical interventions to help him achieve the outcomes that matter to him (go to church, be less tired, have less work of being a patient) from his health care.
+1. Identifying What Matters to Mr. T (his goals and preferences): A trained member of the care team would work with Mr. T and his wife to find out what he wants from his health care, what matters to him—framed as specific outcome goals—and what he is able and willing to do to achieve his goals.
+2. Coordinating with community resources so Mr. T can access those resources that will help him achieve his goals (physical therapy, fall prevention programs, and faith-based activities).
+3. Using available evidence for targets of management for his chronic diseases. For example, evidence is available regarding HbA1c and BP targets, and DM management interventions appropriate for his age and health status.
+4. Coordinating medications among different clinicians involved in Mr. T’s care, using emerging evidence regarding regimen simplification and de-intensification of medication and other self-management activities, reducing Mr. T’s self-management burden.
+5. Using emerging telehealth standards to determine which clinical visits are appropriate for telehealth so Mr. T. can go in-person only to those visits that need to be in-person (ophthalmology). Innovative use of telehealth could allow two to three specialists on the same telehealth visit with patient to coordinate care. Fewer clinical visits would reduce self-management burden.
+6. Using technology such as phone or tablet apps, the EHR patient portal, or physiological monitoring, to engage Mr. T in relevant self-management activities and maintain between-visit communication.
+7. Communicating the patient’s health outcomes goals and preferences through the EHR/HIE, fully visible to Mr. T and his wife, to drive care integration so his various specialists and community care (PT) clinician can align their clinical interventions to help him achieve the outcomes that matter to him (go to church, be less tired, have less work of being a patient) from his health care.
 
 ### Patient Priorities Care
 

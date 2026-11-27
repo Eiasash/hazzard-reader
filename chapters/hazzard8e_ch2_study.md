@@ -38,7 +38,7 @@ Measure the level at which a difficulty occurs. Impaired balance or slow gait ca
 
 Begin with the denominator. An increase in the number of older people can occur in a growing population without an increase in their proportion. Population aging means that the age distribution itself has shifted. Declining fertility narrows the base of the age distribution, while improved survival allows more members of earlier birth cohorts to reach later ages. Table 2-1 combines observed and projected US counts: the share aged **65 or older** rose from **4.1%** around the start of the twentieth century to about **12%** around the start of the next. Observed past change and a projection built from assumptions should not be reported as the same kind of evidence (p23–24).
 
-Figure 2-1 compares older population shares across countries and projected dates. Countries can reach a similar older share by different routes and at different speeds. Rapid reductions in mortality and fertility can allow a transition within a few generations, leaving less time to develop long-term support and health services. The absolute number of older adults depends on population size as well as the percentage. A country with a relatively small older share may therefore need services for more older people than a much smaller country whose percentage is higher (p23–25).
+Figure 2-1 compares older population shares across six world regions and projected dates. Countries can reach a similar older share by different routes and at different speeds. Rapid reductions in mortality and fertility can allow a transition within a few generations, leaving less time to develop long-term support and health services. The absolute number of older adults depends on population size as well as the percentage. A country with a relatively small older share may therefore need services for more older people than a much smaller country whose percentage is higher (p23–25).
 
 Figure 2-2 illustrates the shape of survival curves. When many early deaths are prevented, a larger proportion of a birth cohort survives into late life and deaths become more concentrated at older ages. This rectangularization of survival does not specify when chronic illness or disability begins. Compression of morbidity would require onset to move closer to death, shortening the period spent ill or disabled. It is possible to live longer while also living longer with disease, so compare disease-free or disability-free time when answering a question about healthy life expectancy (p25–26).
 
@@ -84,7 +84,7 @@ In a US cohort aged 50–64 at onset of ADL impairment, **2 years** later **4% h
 
 The disablement pathway moves from disease or injury to an impairment, an altered capacity to perform a task and potentially a restriction in everyday activities. Both the person and the environment modify each step. A stroke can produce an abrupt change; accumulating disease and reduced reserve can produce gradual loss. Figure 2-14 follows contrasting patterns of disability near death and shows why the approach to a medically similar endpoint need not look alike. Planning for a person with longstanding severe dependence differs from planning for someone who had little disability until a final rapid decline (p36–37).
 
-Figure 2-15 relates the number of chronic conditions to predicted limitations across age and sex groups. It illustrates aggregation of risk rather than a deterministic conversion of one diagnosis into one lost activity. Figure 2-16 then asks how the number of people needing ADL help changes as cohorts age. Even a declining individual probability at a given age can leave more people requiring care if the group reaching that age grows. For services planning, examine both age-specific rates and the projected absolute number needing assistance (p38–39).
+Figure 2-15 relates the number of chronic conditions to predicted limitations across age and sex groups. It illustrates aggregation of risk rather than a deterministic conversion of one diagnosis into one lost activity. Figure 2-16 shows the estimated numbers of Tuscan men and women with ADL disability, with or without dementia, across ages in 1999. The dip near age 80 reflects fewer births around World War I. For services planning, examine both age-specific rates and the projected absolute number needing assistance (p38–39).
 
 ### Cognition and biomarkers in population studies
 
@@ -107,7 +107,7 @@ When comparing decline across racial or ethnic groups, ask which exposures, soci
 ## Exam traps
 
 - Life expectancy at birth and remaining life expectancy after reaching an older age have different denominators (p25–26).
-- A large number of people with a disease can reflect longer survival after onset as well as new cases (p23–26).
+- A large number of people with a disease can reflect longer survival after onset as well as new cases (p36).
 - A transition into disability may be followed by recovery. Cross-sectional prevalence does not show the direction of change (p36–37).
 
 ## Past exam questions

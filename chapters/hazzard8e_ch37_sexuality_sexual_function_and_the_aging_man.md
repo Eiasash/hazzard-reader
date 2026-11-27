@@ -26,7 +26,7 @@ Sexuality is a basic human need that exists throughout life and is a significant
 
 2. The most common causes for ED in older men are vascular in origin, not hormonal, and thus current predominant therapies are phosphodiesterase-5 (PDE-5) inhibitors and vacuum devices.
 
-3. Testosterone treatment improves libido, sexual activity, and erectile function in older men with hypogonadism (ie, men with symptoms and signs of testosterone deficiency and consistently low morning serum testosterone concentrations), but not in older men with normal testosterone concentrations. The Aging Gay, Bisexual, or Transgender (GBT) Male
+3. Testosterone treatment improves libido, sexual activity, and erectile function in older men with hypogonadism (ie, men with symptoms and signs of testosterone deficiency and consistently low morning serum testosterone concentrations), but not in older men with normal testosterone concentrations.
 
 ## SEXUALITY AND SEXUAL FUNCTION IN OLDER MEN
 
@@ -43,6 +43,8 @@ Reasons reported by older men for not engaging in sexual activity are varied, in
 Overall there is a gradual slowing of sexual physical response time as men age. It takes more time to achieve sexual arousal, complete the sexual act, and become rearoused
 
 for further sexual activity. Table 37-1 lists the specific changes in the male sexual response cycle with age. Some of the changes have been shown to be impacted, at least in part, by low testosterone levels, while others are unaffected by hormone levels.
+
+### The Aging Gay, Bisexual, or Transgender (GBT) Male
 
 As of 2017, somewhere between 1.4% and 2.4% of older men identified themselves as GBT. Older GBT men have similar sexual problems as older heterosexual men, but
 
@@ -161,11 +163,9 @@ have similar efficacy. Tadalafil has a longer duration of action and avanafil ma
 
 <span id="ch37-nitrates"></span>PDE-5 inhibitors have some vasodilatory activity and interact with nitrates. Therefore they are contraindicated in men taking nitrates. Men with LUTS/BPH who are taking α-adrenergic blockers, medications which also can lower blood pressure, should be cautioned when starting a PDE-5 inhibitor. Most common side effects of these agents are headaches, flushing, rhinitis, dyspepsia, myalgias, dizziness, back pain, and lowering of blood pressure. Sildenafil and vardenafil have some cross-reactivity with PDE-6, which may explain some reports of visual disturbances (usually a “blue haze”) with use of these medications.
 
-<span id="ch37-local"></span>Intracavernous injections with prostaglandin E1 (PGE1) or a PDE-5 inhibitor, with or without intracavernosal co-injection of an α-adrenergic blocker, have efficacy of 65% to 90%. Side effects include mild local pain (10%–15%), penile fibrosis, prolonged erections, and rhinitis. PGE1 (Alprostadil) also can be delivered via urethral insertion, followed by vigorous penile massage to assist with medication delivery. Reported efficacy is between 45% and 65% and side effects include mild pain, minor urethral
+<span id="ch37-local"></span>Intracavernous injections with prostaglandin E1 (PGE1) or a PDE-5 inhibitor, with or without intracavernosal co-injection of an α-adrenergic blocker, have efficacy of 65% to 90%. Side effects include mild local pain (10%–15%), penile fibrosis, prolonged erections, and rhinitis. PGE1 (Alprostadil) also can be delivered via urethral insertion, followed by vigorous penile massage to assist with medication delivery. Reported efficacy is between 45% and 65% and side effects include mild pain, minor urethral bleeding, dizziness, and lowered blood pressure; there is a rare risk of anterior optic neuropathy.
 
 > *[sic — Alprostadil is a local prostaglandin E1 treatment. Its injection label describes penile pain, prolonged erection, priapism and fibrosis. Oral PDE5 inhibitors are a separate treatment class. The adverse effects and routes in the printed paragraph should not be interchanged.]* [FDA Caverject prescribing information](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=4dec1dbd-c63b-4a1b-81cb-c8d29696cc40).
-
-bleeding, dizziness, and lowered blood pressure; there is a rare risk of anterior optic neuropathy.
 
 Vacuum erection devices consist of a vacuum cylinder connected to a pump to create controlled negative pressure, and one or more constriction rings that go at the base of the penis after vacuum-induced engorgement has occurred. Intercourse occurs with rings in place, but the ring should not be left on for more than 30 minutes. Erection satisfactory for intercourse occurs in 75% to 90% of users. Overall satisfaction rate is 65% to 70% if the method is chosen and used, but only about 12% of men select the vacuum device as an initial choice of therapy. Side effects or reasons for dissatisfaction include pain, inconvenience, and premature loss of rigidity. There are few contraindications to its use, but if on anticoagulants, these devices should be used with care.
 

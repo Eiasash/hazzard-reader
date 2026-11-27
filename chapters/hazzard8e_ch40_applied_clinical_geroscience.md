@@ -12,6 +12,8 @@ Sara E. Espinoza, Jamie N. Justice, John C. Newman, Robert J. Pignolo, George A.
 
 “There is nothing more deceptive than an obvious fact. Besides, we may chance to hit upon some other obvious facts which may have been by no means obvious.”
 
+Sherlock Holmes in The Adventures of Sherlock Holmes. Arthur Conan Doyle (1892)
+
 #### Learning Objectives
 
 - Understand how hallmarks of biological aging contribute to age-related diseases and conditions in older adults.
@@ -28,9 +30,11 @@ Sara E. Espinoza, Jamie N. Justice, John C. Newman, Robert J. Pignolo, George A.
 
 2. Common sense clinical judgment should prevail when providers are asked about using such substances ahead of rigorous clinical data and Food and Drug Administration (FDA) approvals. A plausible link to mechanisms of aging does not mean an intervention will be effective or risk-free. Unregulated clinics are not the same thing as carefully controlled and regulated clinical trials.
 
-3. Attempting to reverse the many ways our bodies change as we age is not always appropriate or helpful, as some changes may be adaptive, or represent consequences rather than causes of aging. (Continued)
+3. Attempting to reverse the many ways our bodies change as we age is not always appropriate or helpful, as some changes may be adaptive, or represent consequences rather than causes of aging.
 
-Sherlock Holmes in The Adventures of Sherlock Holmes. Arthur Conan Doyle (1892)
+4. Providers and consumers should remember that most investigational drugs and therapies fail, and that typically older adults are at greater risk for harm by the misuse of medications or procedures.
+
+5. Geriatricians will need to gain knowledge in geroscience so that they can function as content experts in geroscience-guided therapies as they are developed and approved for clinical use.
 
 ## WHAT IS THE GEROSCIENCE HYPOTHESIS?
 
@@ -40,13 +44,7 @@ Geroscience is based on evidence that a set of interrelated cellular biologic pr
 
 ### Hallmarks of Aging
 
-Aging is no longer a mysterious “black box.” It used to be common for a researcher studying a certain component of aging to argue that they were studying the single most important part of the aging process. Fortunately, such arguments and competing theories or visions of aging have been mostly superseded by a realization that there are several biological contributors to aging, and that the manipulation of one modulator of aging has implications for the entire system. Discovery of mutations in genes that radically alter lifespan and rates of aging in simple model organisms such as the nematode worm Caenorhabditis elegans, which have clear analogues to human biology, demonstrate that aging is a malleable biological process. Many fundamental discoveries in cell biology have shown that biological regulation is a normal part of aging in vivo. Finite cellular replicative lifespan is one such example. It is apparent that manipulating the rates of biological aging can be accomplished using genetic manipulations and drug-like molecules. Therefore,
-
-<a id="p594"></a>**[p. 594]**
-
-4. Providers and consumers should remember that most investigational drugs and therapies fail, and that typically older adults are at greater risk for harm by the misuse of medications or procedures.
-
-5. Geriatricians will need to gain knowledge in geroscience so that they can function as content experts in geroscience-guided therapies as they are developed and approved for clinical use.
+Aging is no longer a mysterious “black box.” It used to be common for a researcher studying a certain component of aging to argue that they were studying the single most important part of the aging process. Fortunately, such arguments and competing theories or visions of aging have been mostly superseded by a realization that there are several biological contributors to aging, and that the manipulation of one modulator of aging has implications for the entire system. Discovery of mutations in genes that radically alter lifespan and rates of aging in simple model organisms such as the nematode worm Caenorhabditis elegans, which have clear analogues to human biology, demonstrate that aging is a malleable biological process. Many fundamental discoveries in cell biology have shown that biological regulation is a normal part of aging in vivo. Finite cellular replicative lifespan is one such example. It is apparent that manipulating the rates of biological aging can be accomplished using genetic manipulations and drug-like molecules. Therefore, <a id="p594"></a>**[p. 594]** a wealth of diverse research into the biology of aging has led to the identification of “clusters” of biological mechanisms, now referred to as hallmarks or pillars, that individually and collectively appear to “drive” aging (see Figure 40-1; Table 40-2).
 
 ![Table 40-1](hazzard8e_ch40_table-40-1_p594.webp)
 
@@ -57,8 +55,6 @@ Aging is no longer a mysterious “black box.” It used to be common for a rese
 
 *FIGURE 40-1. Hallmarks/pillars of aging.*
 
-
-a wealth of diverse research into the biology of aging has led to the identification of “clusters” of biological mechanisms, now referred to as hallmarks or pillars, that individually and collectively appear to “drive” aging (see Figure 40-1; Table 40-2).
 
 These insightful discoveries suggest that aging processes can be modified to increase lifespan through more than one pathway intervention. Such an approach was first shown viable with laboratory-based genetic interventions that extended median lifespan, and this approach is further supported by decades of research demonstrating the aging-related benefits of dietary restriction (see Chapter 1, Biology of Aging and Longevity). It was first observed in the 1930s that restricting the food intake of laboratory rodents, without malnutrition, would extend their lifespan up to 40%. While there are important genetic and environmental variables, this basic effect has now been replicated in many species including non-human primates. Careful mechanistic studies in model organisms revealed that many of the biological effects of dietary restriction on conditions of aging are mediated by specific molecular signaling pathways that can be manipulated genetically or pharmacologically. We are now witnessing an emergence of pharmacological approaches that may extend median lifespan and healthspan in model organisms. First among these were studies conducted using worms (C. elegans), fruit flies (Drosophila), and rodents, demonstrating that targeting pathways such as mammalian target of rapamycin (mTOR) signaling with drugs or drug-like molecules could also extend lifespan and healthspan.
 
@@ -80,13 +76,17 @@ These insightful discoveries suggest that aging processes can be modified to inc
 
 Aging represents the major shared risk factor for death from most chronic diseases (Figure 40-2). The promise of geroscience is that interventions will be found that target aging processes, thereby simultaneously preventing, delaying the onset of, or slowing the progression of multiple chronic diseases. Supporting observations and discoveries are listed in Table 40-2. While grounded to a large extent in the biological sciences, the geroscience hypothesis is highly congruent with clinical observations that overlapping and interacting predisposing factors influence the risk of multiple different chronic diseases or geriatric syndromes, and that interventions designed to target such shared upstream or downstream risk factors may help improve highly diverse and varied clinical phenotypes and outcomes. Targeting the overlapping and interacting molecular and cellular mechanisms of aging via hallmarks or pillars that drive many chronic predisposing factors is the translational geroscience approach.
 
-Multifactorial complexity
+#### Multifactorial complexity
 
-Some Challenges The term “geriatric syndrome” has been used to capture the unifying features of distinct and disparate clinical conditions that do not fit into discrete disease
+#### Some Challenges
+
+The term “geriatric syndrome” has been used to capture the unifying features of distinct and disparate clinical conditions that do not fit into discrete disease
 
 categories. Research into common geriatric syndromes has shown that no single risk factor typically determines their onset. Instead, in the case of conditions as varied and complex as delirium, falls, incontinence, and frailty, multiple coexisting risk factors need to be considered, with each individual risk factor contributing only modestly to the overall risk of such conditions. Given the nature of this type of multifactorial complexity, it has been difficult to envision a path from basic mechanistic studies to interventions with the potential to prevent or slow the progression of these complex conditions.
 
-Early Insights The observation that multifactorial risk profiles often include both predisposing and precipitating risk factors has raised the possibility that some chronic factors may contribute as “drivers” throughout the entire disease process, while other more acute events may play a role as precipitating events in later stages. Similarly, four independent predisposing risk factors (slow-timed chair stands, decreased arm strength, decreased vision and hearing, and either a high anxiety or depression score) were associated with the risk of distinct and disparate outcomes raised for the first time the specter of shared risk factors for these geriatric syndromes (Figures 40-3 and 40-4).
+#### Early Insights
+
+The observation that multifactorial risk profiles often include both predisposing and precipitating risk factors has raised the possibility that some chronic factors may contribute as “drivers” throughout the entire disease process, while other more acute events may play a role as precipitating events in later stages. Similarly, four independent predisposing risk factors (slow-timed chair stands, decreased arm strength, decreased vision and hearing, and either a high anxiety or depression score) were associated with the risk of distinct and disparate outcomes raised for the first time the specter of shared risk factors for these geriatric syndromes (Figures 40-3 and 40-4).
 
 ![Figure 40-3](hazzard8e_ch40_figure-40-3_p595.webp)
 
@@ -104,7 +104,9 @@ Therefore, interventions such as exercise and physical activity may result in fu
 
 opens the possibility of targeting such points of risk factor synergism.
 
-The Path to Geroscience The pathophysiology of many conditions, particularly those that are inherited, can be viewed along a traditional linear model in which a single or one major predominant risk factor results in disordered physiology which then progresses to overt clinical disease
+#### The Path to Geroscience
+
+The pathophysiology of many conditions, particularly those that are inherited, can be viewed along a traditional linear model in which a single or one major predominant risk factor results in disordered physiology which then progresses to overt clinical disease
 
 <a id="p597"></a>**[p. 597]**
 
@@ -112,13 +114,21 @@ The Path to Geroscience The pathophysiology of many conditions, particularly tho
 
 However, in spite of its simplicity and appeal, this linear model does not apply to most adult chronic diseases since the etiology of such conditions is typically multifactorial. Such multifactorial complexity is particularly important when seeking to understand and manage geriatric syndromes. While extremely heterogeneous, geriatric syndromes share a number of overarching features. First, these conditions are highly prevalent in frail older adults with a substantial impact on function, independence, and quality of life. Second, clinical features and functional effects of any given geriatric syndrome often involve multiple different and even distant organ systems, defying and challenging traditional organ and discipline-based boundaries. Third, the underlying etiology and pathophysiology of all geriatric syndromes is highly multifactorial with each single risk factor contributing only modestly to the overall risk of such conditions. Moreover, this multifactorial complexity is further enhanced by temporal factors whereby multiple different chronic predisposing risk factors collectively enhance the future risk of these conditions, while other more acute precipitating factors can subsequently induce declines in function and the emergence of a clinical diagnosis of a specific geriatric syndrome (see Figure 40-4B).
 
-Functional domains as shared risk factors for common geriatric syndromes In addition to a multifactorial pathogenesis involving each specific geriatric syndrome, many individual risk factors, especially those involving varied measures of function, are shared by different geriatric syndromes (Figure 40-4C). For example, it has been shown that declines in lower extremity function, declines in upper extremity function, and neurobehavioral changes in the form of anxiety or depression represent independent but shared risk factors for urinary incontinence, falls, and functional dependence. Although published nearly three decades ago, this description of shared functional risk factors for varied geriatric syndromes offers seminal insights into translational geroscience when examining the role of varied individual facets of biological aging as shared predictors and/or drivers of different geriatric syndromes (Figures 40-4D and E). Moreover, these considerations provide an explanation of why an intervention such as exercise can have benefits on conditions as diverse as urinary incontinence, falls, and functional dependence since it can positively influence each of the above risk factors (Figure 40-4B).
+#### Functional domains as shared risk factors for common geriatric syndromes
 
-Aging as a major risk factor for chronic diseases and geriatric syndromes The much belated recognition that aging represents the single largest risk factor for most chronic diseases and geriatric syndromes represented one foundational element for the emergence of the geroscience hypothesis. Nevertheless, a need arose to reconcile these observations drawn mostly from the study of populations toward more mechanistic research. Most evidence suggest a role for biological aging exerting its predisposing effects over time while other more traditional risk factors also enhance the risk and progression of chronic diseases and geriatric syndromes (Figure 40-4B).
+In addition to a multifactorial pathogenesis involving each specific geriatric syndrome, many individual risk factors, especially those involving varied measures of function, are shared by different geriatric syndromes (Figure 40-4C). For example, it has been shown that declines in lower extremity function, declines in upper extremity function, and neurobehavioral changes in the form of anxiety or depression represent independent but shared risk factors for urinary incontinence, falls, and functional dependence. Although published nearly three decades ago, this description of shared functional risk factors for varied geriatric syndromes offers seminal insights into translational geroscience when examining the role of varied individual facets of biological aging as shared predictors and/or drivers of different geriatric syndromes (Figures 40-4D and E). Moreover, these considerations provide an explanation of why an intervention such as exercise can have benefits on conditions as diverse as urinary incontinence, falls, and functional dependence since it can positively influence each of the above risk factors (Figure 40-4B).
 
-Varied biological hallmarks of aging as shared and modifiable risk factors for chronic diseases and geriatric syndromes Since many diverse biological processes clearly contribute to the aging process, no one single molecule or biological pathway should be considered responsible. As in the case of shared functional predictors, such as lower extremity performance, a growing body of knowledge supports varied biological hallmarks of aging as shared risk factors or drivers for multiple different chronic conditions (Figure 40-4D). Moreover, evidence that modifying hallmarks of aging using genetic and pharmacological manipulations can slow biological aging provided additional support for the geroscience hypothesis. Finally, the ability of geroscience-guided interventions to target one or more biological hallmarks of aging, each representing a shared risk factor for different chronic diseases, offers insights into why interventions focused on a primary biological mechanism may offer such broad and pleiotropic beneficial effects (Figure 40-4E).
+#### Aging as a major risk factor for chronic diseases and geriatric syndromes
 
-Impact of targeting upstream vs downstream hallmarks of aging While hallmarks of aging generally have broad effects on aging-related conditions (including other hallmarks; Figure 40-4E), some appear to have more widespread effects because of the ability to target such hallmarks “upstream” of other hallmarks. This offers insight into why some geroscience-guided interventions focused on more downstream biological pathways (eg, inflammation) have at times shown lesser functional and clinical benefit compared to interventions targeting more upstream biological pathways (eg, cellular senescence) that have biological effects on multiple downstream pathways, including inflammation.
+The much belated recognition that aging represents the single largest risk factor for most chronic diseases and geriatric syndromes represented one foundational element for the emergence of the geroscience hypothesis. Nevertheless, a need arose to reconcile these observations drawn mostly from the study of populations toward more mechanistic research. Most evidence suggest a role for biological aging exerting its predisposing effects over time while other more traditional risk factors also enhance the risk and progression of chronic diseases and geriatric syndromes (Figure 40-4B).
+
+#### Varied biological hallmarks of aging as shared and modifiable risk factors for chronic diseases and geriatric syndromes
+
+Since many diverse biological processes clearly contribute to the aging process, no one single molecule or biological pathway should be considered responsible. As in the case of shared functional predictors, such as lower extremity performance, a growing body of knowledge supports varied biological hallmarks of aging as shared risk factors or drivers for multiple different chronic conditions (Figure 40-4D). Moreover, evidence that modifying hallmarks of aging using genetic and pharmacological manipulations can slow biological aging provided additional support for the geroscience hypothesis. Finally, the ability of geroscience-guided interventions to target one or more biological hallmarks of aging, each representing a shared risk factor for different chronic diseases, offers insights into why interventions focused on a primary biological mechanism may offer such broad and pleiotropic beneficial effects (Figure 40-4E).
+
+#### Impact of targeting upstream vs downstream hallmarks of aging
+
+While hallmarks of aging generally have broad effects on aging-related conditions (including other hallmarks; Figure 40-4E), some appear to have more widespread effects because of the ability to target such hallmarks “upstream” of other hallmarks. This offers insight into why some geroscience-guided interventions focused on more downstream biological pathways (eg, inflammation) have at times shown lesser functional and clinical benefit compared to interventions targeting more upstream biological pathways (eg, cellular senescence) that have biological effects on multiple downstream pathways, including inflammation.
 
 ### Basic and Preclinical Research in Support of Geroscience
 
@@ -162,14 +172,18 @@ Moreover, in the context of COVID-19, for which aging and chronic diseases joint
 
 Translation of therapies rooted in the basic concepts of the geroscience hypothesis includes the following general principles:
 
-• Any pharmacological, dietary, or exercise-derived intervention that targets fundamental aging processes;
+- Any pharmacological, dietary, or exercise-derived intervention that targets fundamental aging processes;
+
+- Geroscience-based clinical trials are built upon strong findings from preclinical studies utilizing relevant animal models and/or human studies demonstrating efficacy for single, chronic disease states with supporting evidence for age-related pleiotropic effects;
+- The intervention ultimately works to prevent, delay, ameliorate, or reverse multiple chronic conditions or geriatric syndromes (Figure 40-6);
+- Efficacy of geroscience interventions are based on clinically meaningful outcomes that will benefit healthspan, resiliency, and possibly lifespan;
+- Pilot or proof-of-concept human studies provide early insight into safety and administration (dosing, etc), possible efficacy in terms of surrogate biological outcomes and aging mechanistic target engagement, as well as initial data on clinical outcomes that inform the design of larger clinical trials; and
+- The successful intervention is generally applicable to older adults with multimorbidity, functional decline, and decreased resilience, and to those of racial, ethnic, and gender diversity who also live in diverse residential settings.
 
 ![Figure 40-6](hazzard8e_ch40_figure-40-6_p599.webp)
 
 *FIGURE 40-6. Targeting biological aging processes could delay the incidence of multiple age-related diseases. (Reproduced with permission from Justice JN, Niedernhofer L, Robbins PD, et al. Development of clinical trials to extend healthy lifespan. Cardiovasc Endocrinol Metab. 2018;7(4):80–83.)*
 
-
-• Geroscience-based clinical trials are built upon strong findings from preclinical studies utilizing relevant animal models and/or human studies demonstrating efficacy for single, chronic disease states with supporting evidence for age-related pleiotropic effects; • The intervention ultimately works to prevent, delay, ameliorate, or reverse multiple chronic conditions or geriatric syndromes (Figure 40-6); • Efficacy of geroscience interventions are based on clinically meaningful outcomes that will benefit healthspan, resiliency, and possibly lifespan; • Pilot or proof-of-concept human studies provide early insight into safety and administration (dosing, etc), possible efficacy in terms of surrogate biological outcomes and aging mechanistic target engagement, as well as initial data on clinical outcomes that inform the design of larger clinical trials; and • The successful intervention is generally applicable to older adults with multimorbidity, functional decline, and decreased resilience, and to those of racial, ethnic, and gender diversity who also live in diverse residential settings.
 
 These general principles of translational geroscience serve to identify and target primary aging mechanisms in older adults; confirm efficacy through disease-based, functional, and other outcomes; “de-risk” interventions in a vulnerable population; and assure wide applicability in real-world settings.
 

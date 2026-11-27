@@ -4,7 +4,7 @@ Kristine M. Erlandson, Kenneth Schmader
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> **Source and method.** Printed pages 1719-1732, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 1719-1731, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p1719"></a>**[p. 1719]**
 
@@ -118,27 +118,19 @@ In summary, people aged 50 or older now account for a majority of PWH as a conse
 
 ## HERPES ZOSTER
 
-### Learning Objectives
+#### Learning Objectives
 
-- Understand the impact of aging on the incidence of herpes
+- Understand the impact of aging on the incidence of herpes zoster.
 
-zoster.
+- Recognize typical and atypical presentations of herpes zoster in older adults.
 
-- Recognize typical and atypical presentations of herpes
+- Know when to order microbiological testing for the diagnosis of herpes zoster and what tests to order.
 
-zoster in older adults.
+- Employ the appropriate use of different treatments for the management of herpes zoster.
 
-- Know when to order microbiological testing for the diagno-
+- Summarize Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention (CDC), recommendations for the use of the recombinant zoster vaccine.
 
-sis of herpes zoster and what tests to order.
-
-- Employ the appropriate use of different treatments for the
-
-management of herpes zoster.
-
-- Summarize Advisory Committee on Immunization Practices
-
-(ACIP), Centers for Disease Control and Prevention (CDC), recommendations for the use of the recombinant zoster vaccine.
+#### Key Clinical Points
 
 1. All cases of herpes zoster are caused by the reactivation of endogenous varicella-zoster virus (VZV) from latent infection of dorsal sensory or cranial nerve ganglia and not by exogenous transmission of VZV from an individual with herpes zoster or varicella.
 
@@ -262,7 +254,7 @@ Given that frailty is strongly associated with adverse health outcomes, investig
 
 ![Table 107-2](hazzard8e_ch107_table-107-2_p1729.webp)
 
-*TABLE 107-2 ■ RZV LOCAL AND GENERAL ADVERSE EVENTS (%) BY AGEa*
+*TABLE 107-2 ■ RZV LOCAL AND GENERAL ADVERSE EVENTS (%) BY AGE<sup>a</sup>*
 
 RZV VE, immunogenicity, reactogenicity, and safety. In secondary analyses of ZOE-50 and ZOE-70 studies, a baseline frailty index (FI) was created retrospectively following previously validated methods using preexisting comorbidities and patient reported outcomes. Participants were categorized as nonfrail (FI ≤ 0.08), prefrail (FI = 0.08–0.25), or frail (FI ≥ 0.25) for stratified analyses. RZV VE against HZ was consistently above 90% for all frailty categories (nonfrail: 96% [95% CI: 91.6–98.2], prefrail: 90% [84.4– 94.4], frail: 90% [75.4–97.0]). The RZV group demonstrated robust antibody responses postdose 2 across frailty categories. In the RZV group, the percentage of participants reporting postvaccination reactions decreased with increasing frailty.
 
@@ -355,5 +347,3 @@ incidence and complications of herpes zoster: towards a global perspective. BMJ 
 reactogenicity after the first dose of recombinant zoster vaccine upon the physical functioning and quality of life of older adults: an open phase III trial. J Gerontol A Biol Sci Med Sci. 2019;74:1212–1224. Yawn BP, Saddier P, Wollan PC, St Sauver JL, Kurland MJ,
 
 Sy LS. A population-based study of the incidence and complication rates of herpes zoster before zoster vaccine introduction. Mayo Clin Proc. 2007;82:1341–1349.
-
-<a id="p1732"></a>**[p. 1732]**

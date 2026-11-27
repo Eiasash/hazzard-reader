@@ -152,12 +152,14 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Contraindications to testosterone: active prostate or breast cancer; use caution with PSA **>4.0 ng/mL**, hematocrit **>50**, severe LUTS (IPSS **>19**), or recent MI/stroke (p1534).
 - Reversible causes of functional hypogonadism to screen for before treating: obesity; medications (opioids, glucocorticoids, megestrol); hyperprolactinemia (usually drug-induced); malnutrition/energy deficit; chronic systemic illness (eg, malignancy); organ failure (lung, heart, liver, kidney) (Table 97-5, p1534).
 
+- Hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.
+
 ### Calcium, Parathyroid, Vitamin D
 - Primary hyperparathyroidism etiology: single adenoma **80%**, diffuse hyperplasia **10–15%**, multiple adenomas **<5%**, carcinoma **<1%** (p1536).
 - Incidence peaks at **6.3 per 1000 person-years** at age **65–74**; women:men **2:1** (p1536).
 - Parathyroidectomy indications: serum calcium **>1 mg/dL above ULN**, DXA T-score **<−2.5**, creatinine clearance **<60 mL/min**, or 24-hour urine calcium **>400 mg/24h** (p1526 KCP, p1538–1539).
 - Hypercalcemia causes split by PTH status: **PTH-dependent** (common: primary hyperparathyroidism; uncommon: tertiary hyperparathyroidism, lithium, familial hypocalciuric hypercalcemia, ectopic PTH) vs **PTH-independent** (common: malignancy — osteolytic or PTHrP-humoral — and 1,25(OH)₂-vitamin D-mediated lymphoma; uncommon: thiazides, AKI, parenteral nutrition, immobilization with malignancy/Paget, granulomatous disease, hyperthyroidism/adrenal insufficiency, vitamin D/A toxicity, milk-alkali, hyperproteinemia) (Table 97-9, p1538).
-- **Vitamin D thresholds differ within the chapter.** Key Clinical Point 2 defines deficiency in older patients as serum 25-hydroxyvitamin D **<30 ng/mL** (p1525). Page 1539 separately reports AGS sufficiency **>30 ng/mL** for frail, high-risk older adults and IOM sufficiency **>20 ng/mL**, insufficiency **12–20 ng/mL**, and deficiency **<12 ng/mL**.
+- **Vitamin D thresholds differ within the chapter.** Key Clinical Point 2 defines deficiency in older patients as serum 25-hydroxyvitamin D **<30 ng/mL** (p1526). Page 1539 separately reports AGS sufficiency **>30 ng/mL** for frail, high-risk older adults and IOM sufficiency **>20 ng/mL**, insufficiency **12–20 ng/mL**, and deficiency **<12 ng/mL**.
 - Vitamin D deficiency prevalence **40–50%** in community-dwelling older adults (p1539).
 - Treatment: mild-moderate deficiency → vitamin D2/D3 **800–1000 IU/day**; severe deficiency → vitamin D3 **2000 IU/day for 6–12 months**, or vitamin D2 **50,000 IU weekly for 8–12 weeks** then vitamin D3 800–1000 IU daily (p1540).
 - Toxicity is rare up to the IOM safe upper limit of **4000 IU/day**; early biochemical toxicity signs appear **>90 ng/mL**, severe toxicity **>150 ng/mL** (p1540).
@@ -167,8 +169,6 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Distribution: pelvis **~70%**, lumbar spine/proximal femur **~50%**, skull **~40%**, proximal tibia/humerus **~30%** (p1541).
 - Serum alkaline phosphatase is elevated in **90%** of patients; normal/near-normal AP does not exclude monostotic disease (p1542).
 - Treatment of choice: **zoledronic acid 5 mg IV** over 15–20 minutes, often a single dose sustaining remission **5–6 years**; contraindicated if creatinine clearance **<35 mL/min** (p1542).
-
-* Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
 
 ## Recall
 

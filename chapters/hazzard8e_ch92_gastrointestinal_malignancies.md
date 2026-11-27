@@ -8,10 +8,6 @@ Ryan D. Nipp, Nadine J. McCleary
 
 <a id="p1435"></a>**[p. 1435]**
 
-## INTRODUCTION
-
-Gastrointestinal (GI) cancers are primarily diseases of persons in their sixth, seventh, and eighth decades of life. GI cancers are expected to account for 18% of new cancer cases and 28% of cancer-related deaths in the United States in 2020. Both incidence and mortality of GI cancers increase with advancing age (Figures 92-1, 92-2, and 92-3). Despite overall decreases in incidence of some GI malignancies, older age is associated with higher prevalence of GI malignancies. Many older persons, however, have additional medical conditions, functional limitations, and social isolation that almost certainly contribute to inferior survival and morbidity outcomes. This chapter will explore the epidemiology, presentation, treatment options, and disparities in the care of older persons with GI malignancies.
-
 #### Learning Objectives
 
 - Identify effective methods of colorectal cancer (CRC) screening.
@@ -28,17 +24,7 @@ Gastrointestinal (GI) cancers are primarily diseases of persons in their sixth, 
 
 3. Medicare covers surveillance fecal occult blood testing (FOBT) plus sigmoidoscopy or barium enema or colonoscopy for all beneficiaries; it may be reasonable to discontinue screening when life expectancy is shorter than the time a polyp progresses to a cancer, that is, 5 to 10 years.
 
-4. Early genomic testing of advanced cancers can identify opportunities for use of novel (Continued)
-
-In general, the symptoms and presentation of GI cancers in older adults appear similar to those of younger adults. Although treatments for these cancers have been developed primarily in younger adults, greater expertise over time has permitted similarly safe and efficacious therapy to be extended to older age groups. Since the greatest percentage of GI cancers are located in the colon and rectum, most of the information regarding older persons focuses on colorectal cancer (CRC). Unfortunately, there is a paucity of information concerning the treatment of older adults with other GI malignancies. Where we lack data specific to efficacy of individual therapies for older adults, attention should be paid to the toxicities of the treatments, with consideration of adults’ concurrent medical conditions, functional status, and/or social support. Additionally, early referral to an oncologist to facilitate decision-making is advised. In this chapter, GI malignancies are ordered by incidence in the US population.
-
-## CLINICAL TRIALS
-
-Older adults are disproportionately underrepresented in clinical trials by which treatment standards are derived. The US Food and Drug Administration evaluated the proportion of older adults participating in registration trials for new drugs or new indications for existing drugs. Adults older than 65, 70, or 75 represent 36%, 20%, and 9% of those participating in cancer clinical trials compared to 60%, 46%, and 31% of older adults diagnosed with cancer in the
-
-<a id="p1436"></a>**[p. 1436]**
-
-targeted therapies or immunotherapy and identify adults eligible for clinical trial.
+4. Early genomic testing of advanced cancers can identify opportunities for use of novel targeted therapies or immunotherapy and identify adults eligible for clinical trial.
 
 5. Perioperative mortality is lower for CRC surgery in high-volume centers versus lowvolume centers. Further, less aggressive surgical intervention is more likely in low-volume centers and in older adults, and increases the risk of recurrence and cancer-related death. Finally, laparoscopic procedures have lower mortality and equivalent outcomes in older adults.
 
@@ -50,7 +36,15 @@ targeted therapies or immunotherapy and identify adults eligible for clinical tr
 
 9. African-American adults age 65 or older are approximately 44% more likely to die from colon cancer despite better reduction in mortality among those receiving oxaliplatinbased therapy compared to Caucasian counterparts.
 
-United States. Whereas 70% to 75% of CRCs are diagnosed in adults older than 65 years, only 40% to 48% of adults enrolled in National Cancer Institute (NCI)-sponsored or cooperative group trials are drawn from the age group. Similar data are not available for the less common GI malignancies.
+## INTRODUCTION
+
+Gastrointestinal (GI) cancers are primarily diseases of persons in their sixth, seventh, and eighth decades of life. GI cancers are expected to account for 18% of new cancer cases and 28% of cancer-related deaths in the United States in 2020. Both incidence and mortality of GI cancers increase with advancing age (Figures 92-1, 92-2, and 92-3). Despite overall decreases in incidence of some GI malignancies, older age is associated with higher prevalence of GI malignancies. Many older persons, however, have additional medical conditions, functional limitations, and social isolation that almost certainly contribute to inferior survival and morbidity outcomes. This chapter will explore the epidemiology, presentation, treatment options, and disparities in the care of older persons with GI malignancies.
+
+In general, the symptoms and presentation of GI cancers in older adults appear similar to those of younger adults. Although treatments for these cancers have been developed primarily in younger adults, greater expertise over time has permitted similarly safe and efficacious therapy to be extended to older age groups. Since the greatest percentage of GI cancers are located in the colon and rectum, most of the information regarding older persons focuses on colorectal cancer (CRC). Unfortunately, there is a paucity of information concerning the treatment of older adults with other GI malignancies. Where we lack data specific to efficacy of individual therapies for older adults, attention should be paid to the toxicities of the treatments, with consideration of adults’ concurrent medical conditions, functional status, and/or social support. Additionally, early referral to an oncologist to facilitate decision-making is advised. In this chapter, GI malignancies are ordered by incidence in the US population.
+
+## CLINICAL TRIALS
+
+Older adults are disproportionately underrepresented in clinical trials by which treatment standards are derived. The US Food and Drug Administration evaluated the proportion of older adults participating in registration trials for new drugs or new indications for existing drugs. Adults older than 65, 70, or 75 represent 36%, 20%, and 9% of those participating in cancer clinical trials compared to 60%, 46%, and 31% of older adults diagnosed with cancer in the <a id="p1436"></a>**[p. 1436]** United States. Whereas 70% to 75% of CRCs are diagnosed in adults older than 65 years, only 40% to 48% of adults enrolled in National Cancer Institute (NCI)-sponsored or cooperative group trials are drawn from the age group. Similar data are not available for the less common GI malignancies.
 
 Plausible explanations for the lack of participation of older adults in clinical trials may include lack of social and home care support, physician reluctance to offer research protocols to older individuals, difficulties with access to clinics and hospitals, potential noncoverage of investigational treatments by Medicare, patient refusal, increasing concomitant medication usage and comorbidities with advancing age, and fewer trials specifically aimed at older adults. The North Central Cancer Treatment Group (NCCTG) attempted a prospective study in collaboration with Cancer and Leukemia Group B (CALGB) (now combined with other clinical trial groups as the alliance) evaluating the benefit of oxaliplatin added to 5-FU/capecitabine and bevacizumab among untreated older adults with metastatic colon cancer (N0949). This study was terminated early due to poor accrual, which may be related to the concern oncologists have about the use of oxaliplatin in older adults.
 
@@ -122,7 +116,7 @@ Since only a small percentage of persons at risk for colorectal neoplasia underg
 
 Most older adults have a stated preference to continue CRC screening, feeling that their own life expectancy does not factor into this decision. Since the risk of advanced neoplasia and CRC is highest in older adults, it seems doubtful that screening should be arbitrarily discontinued after a certain age. In the United States, an individual who reaches the age of 80 has an average life expectancy of an additional 10 years for women and 8 years for men. At age 85, average survival is 7 years for women and 6 years for men. This estimate must be adjusted for the number and severity of chronic diseases affecting the individual, as well as his or her functional status. Prognostic tools, such as ePrognosis, incorporate actuarial data along with baseline health, cognition, and comorbid medical conditions. It may be reasonable to discontinue screening when life expectancy is shorter than the time a polyp progresses to a cancer, that is, 5 to 10 years.
 
-## Localized CRC
+### Localized CRC
 
 Surgery—localized colon cancer Cancers of the colon are typically resected with a hemicolectomy. Whether older age is an adverse prognostic factor in resection of localized colon cancer is controversial. Data on 20,862 adults undergoing surgery in 1997 for colon cancer from the Nationwide Inpatient Sample, a claims-based database, suggested that perioperative mortality increases gradually with advancing age until the age of 80, after which a substantial increase in mortality is seen (6.9% for adults older than 80 years). Older adults in the Nationwide Inpatient Sample from 1997 had lower mortality rates at highvolume hospitals than at low-volume institutions: 3.1% versus 4.5% for adults older than 65 years (p = 0.03). This effect was even more pronounced for adults older than 80 years, where 4.6% of adults died at high-volume centers compared to 7.3% at smaller institutions (p = 0.04). Therefore, it may be preferable to send the very oldest adults with colon cancer to high-volume hospitals for their resections. Yet a recent study of 24,426 adults (44% age ≥ 75) from the New York State Cancer Registry and the Statewide Planning and Research Cooperative System showed that older adults tended to have surgery in community hospitals rather than academic medical centers. Older age was associated with higher rate of death at 1-year (2.8% for those < 65, 13.9% for those age ≥ 75, p < 0.0001) and postoperative complication (22.6% vs 35.5%, p < 0.0001). Mortality rates in the older age group in this US cohort were like the 11.9% to 14% rates noted in European studies. Following death from CRC (45.6%), most frequent cause of death among the 2171 who died was cardiovascular disease (24.5%) and another primary cancer (7.4%).
 
@@ -166,7 +160,7 @@ Neoadjuvant/adjuvant therapy—localized rectal cancer Chemoradiation before or 
 
 Postoperative surveillance—localized CRC There is general agreement that all adults with resected CRC should undergo regular surveillance screening with colonoscopy, carcinoembryonic antigen (CEA) testing, and possibly an annual CT scan. Analysis of 52,283 Medicare beneficiaries treated for locoregional CRC between 1986 and 1996 suggested that younger adults are more likely to undergo periodic surveillance endoscopies and that the median time to first follow-up endoscopy is significantly shorter (p < 0.0001) for adults at younger ages.
 
-## Advanced CRC
+### Advanced CRC
 
 Surgery—advanced CRC Removal of the primary cancer is indicated in adults who have an (impending) obstruction, uncontrollable bleeding, or oligometastatic disease that may potentially be cured with aggressive therapy. In spite of these restrictive criteria, a recent pattern of care study, utilizing the SEER database revealed that the majority of adults 65 years or older with stage IV CRC undergo resection of their primary tumor. Overall, 72% of adults underwent this primary cancer–directed surgery. The percentage of adults undergoing surgery declined gradually from 76% in adults 65 to 69 years old to 70% in adults 80 to 84 years old, and then dropped to 62% in adults 85 years or older.
 
@@ -384,7 +378,7 @@ trial enrollment of older adults with cancer: a qualitative study of the percept
 
 patients in clinical trials for cancer drug registration: a 7-year experience by the US Food and Drug Administration. J Clin Oncol. 2004;22(22):4626–4631. The American Cancer Society. Cancer Facts & Figures 2020:
 
-Revised June 2020. [https://www.cancer.org/content/](<https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2020.html>) dam/cancer-org/research/cancer-facts-and-statistics/ annual-cancer-facts-and-figures/2020/cancer-facts-andfigures-2020.pdf. Colorectal Cancer André T, Meyerhardt J, Iveson T, et al. Effect of duration
+Revised June 2020. [https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2020/cancer-facts-and-figures-2020.pdf](<https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2020.html>). Colorectal Cancer André T, Meyerhardt J, Iveson T, et al. Effect of duration
 
 of adjuvant chemotherapy for patients with stage III colon cancer (IDEA collaboration): final results from a prospective, pooled analysis of six randomized, phase 3 trials. Lancet Oncol. 2020;21(12):1620–1629. André T, Shiu K-K, Kim T W, et al. Pembrolizumab in
 
@@ -392,9 +386,7 @@ microsatellite-instability–high advanced colorectal cancer. N Engl J Med. 2020
 
 vant chemotherapy and radiation therapy for colorectal cancer in a population-based cohort. J Clin Oncol. 2003;21(7):1293–1300. Conroy T, Lamfichekh N, Etienne P-L, et al. Total neoadju-
 
-vant therapy with mFOLFIRINOX versus preoperative chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. [http://cancer-](<https://eprognosis.ucsf.edu/cancer/>)
-
-screening.eprognosis.org/screening/. Goldberg RM, Rabah-Fisch I, Bleiberg H, et al. Pooled
+vant therapy with mFOLFIRINOX versus preoperative chemoradiation in patients with locally advanced rectal cancer: final results of PRODIGE 23 phase III trial, a UNICANCER GI trial. J Clin Oncol. 2020;38(15): 4007. ePrognosis. Colorectal Screening Survey. [http://cancer-screening.eprognosis.org/screening/](<https://eprognosis.ucsf.edu/cancer/>). Goldberg RM, Rabah-Fisch I, Bleiberg H, et al. Pooled
 
 analysis of safety and efficacy of oxaliplatin plus fluorouracil/leucovorin administered bimonthly in older adult patients with colorectal cancer. J Clin Oncol. 2006; 24(25):4085–4091. Gross CP, Andersen MS, Krumholz HM, McAvay GJ,
 

@@ -275,11 +275,15 @@ Cross-sectional and cohort studies generally demonstrate that PACE programs enab
 
 ### Fall Prevention Programs: STEADI and STRIDE
 
-Stopping elderly accidents, death and injuries Stopping Elderly Accidents, Death and Injuries (STEADI) is a fall prevention initiative for health care providers designed by the Centers for Disease Control and Prevention (CDC). This is a coordinated care plan that focuses on older adults at risk for falls or those who already have a history of multiple falls. This model has three core elements: (1) screen patients at risk for falls, (2) assess modifiable risk factors, and (3) intervene to reduce risk factors. The intervention creates strategies to address gait, balance, and strengthening, optimize medications, and discontinue medications that increase fall risk. These strategies also include collaboration with other disciplines to evaluate sensory impairment (ophthalmologist), footwear issues (podiatrist), and home safety evaluations.
+#### Stopping elderly accidents, death and injuries
+
+Stopping Elderly Accidents, Death and Injuries (STEADI) is a fall prevention initiative for health care providers designed by the Centers for Disease Control and Prevention (CDC). This is a coordinated care plan that focuses on older adults at risk for falls or those who already have a history of multiple falls. This model has three core elements: (1) screen patients at risk for falls, (2) assess modifiable risk factors, and (3) intervene to reduce risk factors. The intervention creates strategies to address gait, balance, and strengthening, optimize medications, and discontinue medications that increase fall risk. These strategies also include collaboration with other disciplines to evaluate sensory impairment (ophthalmologist), footwear issues (podiatrist), and home safety evaluations.
 
 This coordinated approach has been demonstrated to reduce falls, improve health outcomes, and reduce health care expenditures.
 
-Strategies to reduce injuries and develop confidence in elders program Strategies to Reduce Injuries and Develop Confidence in Elders (STRIDE) is a multifactorial intervention to prevent serious fall injuries. The STRIDE program is a patient-centered intervention delivered by nurses that partner with patient’s primary care physicians. (Note there is another program for older people named STRIDE [assiSTed eaRly mobIlity for hospitalizeD older vEterans].) This intervention assesses risk factors for fall injuries such as gait impairment, postural hypotension, vitamin D deficiency, home safety hazards, sensory impairment, and high-risk medications. This program deploys standardized protocols for management of specific risk factors. The care plans are individualized and reviewed by primary care physicians. Follow-up care conducted by phone or in person
+#### Strategies to reduce injuries and develop confidence in elders program
+
+Strategies to Reduce Injuries and Develop Confidence in Elders (STRIDE) is a multifactorial intervention to prevent serious fall injuries. The STRIDE program is a patient-centered intervention delivered by nurses that partner with patient’s primary care physicians. (Note there is another program for older people named STRIDE [assiSTed eaRly mobIlity for hospitalizeD older vEterans].) This intervention assesses risk factors for fall injuries such as gait impairment, postural hypotension, vitamin D deficiency, home safety hazards, sensory impairment, and high-risk medications. This program deploys standardized protocols for management of specific risk factors. The care plans are individualized and reviewed by primary care physicians. Follow-up care conducted by phone or in person
 
 and a review of care plans are other essential components of this intervention. A recent pragmatic, cluster-randomized trial that evaluated the effectiveness of this intervention did not show a significant lower rate of a first adjudicated serious fall injury. Nevertheless, clinicians can use these interventions to care for community-dwelling older adults, understanding the limitations of the evidence.
 
@@ -363,86 +367,82 @@ components of Project ECHO include: (1) using technology to leverage scarce reso
 
 ## FURTHER READING
 
-Allen K, Hazelett S, Martin M, et al. An innovation center
+Allen K, Hazelett S, Martin M, et al. An innovation center model to transform health systems to improve care of older adults. J Am Geriatr Soc. 2020;68:15–22.
 
-model to transform health systems to improve care of older adults. J Am Geriatr Soc. 2020;68:15–22. American College of Surgeons. Geriatric Surgery Verifica-
+American College of Surgeons. Geriatric Surgery Verification Program. https://www.facs.org/Quality-Programs/geriatric-surgery.
 
-tion Program. https://www.facs.org/Quality-Programs/ geriatric-surgery. American Geriatrics Society. CoCare: HELP. [https://help](<https://help.agscocare.org>).
+American Geriatrics Society. CoCare: HELP. [https://help.agscocare.org](<https://help.agscocare.org>).
 
-agscocare.org. American Geriatrics Society. CoCare: Ortho. [https://ortho](<https://ortho.agscocare.org>).
+American Geriatrics Society. CoCare: Ortho. [https://ortho.agscocare.org](<https://ortho.agscocare.org>).
 
-agscocare.org. Bhasin S, Gill TM, Reuben DB, et al. A randomized trial of
+Bhasin S, Gill TM, Reuben DB, et al. A randomized trial of a multifactorial strategy to prevent serious fall injuries. N Engl J Med. 2020;383(2):129-140.
 
-a multifactorial strategy to prevent serious fall injuries. N Engl J Med. 2020;383(2):129-140. Boltz M, Capezuti E, Bower-Ferres S, et al. Changes in
+Boltz M, Capezuti E, Bower-Ferres S, et al. Changes in the geriatric care environment associated with NICHE. Geriatr Nurs. 2008;29(3):176–185.
 
-the geriatric care environment associated with NICHE. Geriatr Nurs. 2008;29(3):176–185. De Jonge KE, Jamshed N, Gilden D, et al. Effects of home-
+De Jonge KE, Jamshed N, Gilden D, et al. Effects of homebased primary care on Medicare costs in high-risk elders. J Am Geriatr Soc. 2014;62:1825–1831.
 
-based primary care on Medicare costs in high-risk elders. J Am Geriatr Soc. 2014;62:1825–1831. Flood KL, Booth K, Vickers J, et al. Acute Care for Elders
+Flood KL, Booth K, Vickers J, et al. Acute Care for Elders (ACE) team model of care: a clinical overview. Geriatrics (Basel). 2018;3(3):50.
 
-(ACE) team model of care: a clinical overview. Geriatrics (Basel). 2018;3(3):50. Friedman SM, Mendelson DA, Kates SL, et al. Geriatric
+Friedman SM, Mendelson DA, Kates SL, et al. Geriatric co-management of proximal femur fractures: total quality management and protocol-driven care result in better outcomes for a frail patient population. J Am Geriatr Soc. 2008;56:1349–1356.
 
-co-management of proximal femur fractures: total quality management and protocol-driven care result in better outcomes for a frail patient population. J Am Geriatr Soc. 2008;56:1349–1356. Fulmer T, Mate KS, Berman A. The age-friendly health sys-
+Fulmer T, Mate KS, Berman A. The age-friendly health system imperative. J Am Geriatr Soc. 2018;66:22–24.
 
-tem imperative. J Am Geriatr Soc. 2018;66:22–24. Fulmer T, Patel P, Levy N, et al. Moving toward a global
+Fulmer T, Patel P, Levy N, et al. Moving toward a global age-friendly ecosystem. J Am Geriatr Soc. 2020;68: 1936–1940.
 
-age-friendly ecosystem. J Am Geriatr Soc. 2020;68: 1936–1940. Ganz DA, Latham NK. Prevention of falls in community-
+Ganz DA, Latham NK. Prevention of falls in communitydwelling older adults. N Engl J Med. 2020;382(8): 734–743.
 
-dwelling older adults. N Engl J Med. 2020;382(8): 734–743. Gill TM, McGloin JM, Shelton A, et al. Optimizing reten-
+Gill TM, McGloin JM, Shelton A, et al. Optimizing retention in a pragmatic trial of community-living older persons: the STRIDE Study. J Am Geriatr Soc. 2020;68: 1242–1249.
 
-tion in a pragmatic trial of community-living older persons: the STRIDE Study. J Am Geriatr Soc. 2020;68: 1242–1249.
+GRACE. [http://graceteamcare.indiana.edu/home.html](<https://cdn.iuhealth.org/resources/GRACE-Brochure_2021_web.pdf>).
 
-GRACE. [http://graceteamcare.indiana.edu/home.html](<https://cdn.iuhealth.org/resources/GRACE-Brochure_2021_web.pdf>). Hastings N, Sloane R, Morey MC, et al. Assisted early
+Hastings N, Sloane R, Morey MC, et al. Assisted early mobility for hospitalized older veterans: preliminary data from the STRIDE Program. J Am Geriatr Soc. 2014; 62:2180–2184.
 
-mobility for hospitalized older veterans: preliminary data from the STRIDE Program. J Am Geriatr Soc. 2014; 62:2180–2184. Hastings SN, Choate AL, Mahanna EP, et al. Early mobil-
+Hastings SN, Choate AL, Mahanna EP, et al. Early mobility in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61.
 
-ity in the hospital: lessons learned from the STRIDE Program. Geriatrics 2018;3:61. Hospital at Home. [http://www.hospitalathome.org/about-](<https://publichealth.jhu.edu/2005/burton-hospital-home> "Johns Hopkins Hospital at Home program, published results and history")
+Hospital at Home. [http://www.hospitalathome.org/about-us/history.php](<https://publichealth.jhu.edu/2005/burton-hospital-home> "Johns Hopkins Hospital at Home program, published results and history").
 
-us/history.php. Hung WW, Macias Tejada, Soryal S, et al. The Acute Care
+Hung WW, Macias Tejada, Soryal S, et al. The Acute Care for Elders Consult Program. In: Malone ML, Capezuti EA, Palmer RM, eds. Geriatric Models of Care: Bringing ‘Best Practice’ to an Aging America. Switzerland: Springer International Publishing; 2015:39-49.
 
-for Elders Consult Program. In: Malone ML, Capezuti EA, Palmer RM, eds. Geriatric Models of Care: Bringing ‘Best Practice’ to an Aging America. Switzerland: Springer International Publishing; 2015:39-49. Hung WW, Ross JS, Farber J, Siu AL. Evaluation of the
+Hung WW, Ross JS, Farber J, Siu AL. Evaluation of the mobile acute care of the elderly (MACE) service. JAMA. 2013;173:990–996.
 
-mobile acute care of the elderly (MACE) service. JAMA. 2013;173:990–996. Independence at Home. http://innovation.cms.gov/ initiatives/independence-at-home/. Jennings LA, Laffan AM, Schlissel AC, et al. Health care uti-
+Independence at Home. [http://innovation.cms.gov/initiatives/independence-at-home/](https://www.cms.gov/priorities/innovation/innovation-models/independence-at-home).
 
-lization and cost outcomes of a comprehensive dementia care program for Medicare beneficiaries. JAMA Intern Med. 2019;179(2):161–166. Jennings LA, Tan Z, Wengner NS, et al. Quality of care pro-
+Jennings LA, Laffan AM, Schlissel AC, et al. Health care utilization and cost outcomes of a comprehensive dementia care program for Medicare beneficiaries. JAMA Intern Med. 2019;179(2):161–166.
 
-vided by a comprehensive dementia care comanagement program. J Am Geriatr Soc. 2016;64:1724-1730. Landefeld CS, Palmer RM, Kresevic DM, et al. Randomized
+Jennings LA, Tan Z, Wengner NS, et al. Quality of care provided by a comprehensive dementia care comanagement program. J Am Geriatr Soc. 2016;64:1724-1730.
 
-trial of care in a hospital medical unit especially designed to improve the functional outcomes of acutely ill older patients. N Engl J Med. 1995;332:1338–1344. Leff B, Burton L, Mader SL, et al. Hospital at Home:
+Landefeld CS, Palmer RM, Kresevic DM, et al. Randomized trial of care in a hospital medical unit especially designed to improve the functional outcomes of acutely ill older patients. N Engl J Med. 1995;332:1338–1344.
 
-feasibility and outcomes of a program to provide hospital-level care at home for acutely ill older patients. Ann Intern Med. 2005;143:798–808. Malone ML, Vollbrecht M, Stephenson J, et al. Acute care
+Leff B, Burton L, Mader SL, et al. Hospital at Home: feasibility and outcomes of a program to provide hospital-level care at home for acutely ill older patients. Ann Intern Med. 2005;143:798–808.
 
-for elders (ACE) tracker and e-geriatrician: methods to disseminate ACE concepts to hospitals with no geriatricians on staff. J Am Geriatr Soc. 2000;58:161–167.
+Malone ML, Vollbrecht M, Stephenson J, et al. Acute care for elders (ACE) tracker and e-geriatrician: methods to disseminate ACE concepts to hospitals with no geriatricians on staff. J Am Geriatr Soc. 2000;58:161–167. <a id="p206"></a>**[p. 206]**
 
-<a id="p206"></a>**[p. 206]**
+McDonald SR, Heflin MT, Whitson HE, et al. Association of integrated care coordination with postsurgical outcomes in high-risk older adults: The Perioperative Optimization of Senior Health (POSH) Initiative. JAMA Surg. 2018;153(5):454–462.
 
-McDonald SR, Heflin MT, Whitson HE, et al. Associa-
+Morey MC, Lee CC, Castle S, et al. Should structured exercise be promoted as a model of care? Dissemination of the Department of Veterans Affairs Gerofit Program. J Am Geriatr Soc. 2018;66:1009–1016.
 
-tion of integrated care coordination with postsurgical outcomes in high-risk older adults: The Perioperative Optimization of Senior Health (POSH) Initiative. JAMA Surg. 2018;153(5):454–462. Morey MC, Lee CC, Castle S, et al. Should structured exer-
+Naylor MD, Brooten D, Campbell R, et al. Comprehensive discharge planning and home follow-up of hospitalized elders: a randomized clinical trial. JAMA. 1999;281:613–620.
 
-cise be promoted as a model of care? Dissemination of the Department of Veterans Affairs Gerofit Program. J Am Geriatr Soc. 2018;66:1009–1016. Naylor MD, Brooten D, Campbell R, et al. Compre-
+PACE. [http://www.npaonline.org/website/article.asp?id=12&title=Who,_What_and_Where_Is_PACE?](<https://www.npaonline.org/connect-learn/pace-learning-center>)
 
-hensive discharge planning and home follow-up of hospitalized elders: a randomized clinical trial. JAMA. 1999;281:613–620. PACE. [http://www.npaonline.org/website/article.asp?id=](<https://www.npaonline.org/connect-learn/pace-learning-center>) 12&title=Who,_What_and_Where_Is_PACE? Reuben DB, Ganz DA, Roth CP, et al. Effect of a nurse prac-
+Reuben DB, Ganz DA, Roth CP, et al. Effect of a nurse practitioner comanagement on the care of geriatric conditions. J Am Geriatr Soc. 2013;61:857–867.
 
-titioner comanagement on the care of geriatric conditions. J Am Geriatr Soc. 2013;61:857–867. Reuben DB, Tan ZS, Romero T, et al. Patient and care-
+Reuben DB, Tan ZS, Romero T, et al. Patient and caregiver benefit from a comprehensive dementia care program: 1-year results from the UCLA Alzheimer’s and Dementia Care Program. J Am Geriatr Soc. 2019;67: 2267–2273.
 
-giver benefit from a comprehensive dementia care program: 1-year results from the UCLA Alzheimer’s and Dementia Care Program. J Am Geriatr Soc. 2019;67: 2267–2273. Rotenberg J, Kinosian B, Boling P, et al. Home-based
+Rotenberg J, Kinosian B, Boling P, et al. Home-based primary care: beyond extension of the independence at home demonstration. J Am Geriatr Soc. 2018;66: 812–817.
 
-primary care: beyond extension of the independence at home demonstration. J Am Geriatr Soc. 2018;66: 812–817. Rubin FH, Bellon J, Bilderback A, et al. Effect of the Hospital
+Rubin FH, Bellon J, Bilderback A, et al. Effect of the Hospital Elder Life Program on risk of 30-day readmission. J Am Geriatr Soc. 2018;66:145–149.
 
-Elder Life Program on risk of 30-day readmission. J Am Geriatr Soc. 2018;66:145–149.
+Schubert CC, Parks R, Coffing JM, et al. Lessons and outcomes of mobile acute care for elders consultation in a Veterans Affairs Medical Center. J Am Geriatr Soc. 2019;67:818–824.
 
-Schubert CC, Parks R, Coffing JM, et al. Lessons and out-
+Simpson M, Macias Tejada J, Driscoll A, et al. The Bundled Hospital Elder Life Program—HELP and HELP in Home Care—and its association with clinical outcomes among older adults discharged to home healthcare. J Am Geriatr Soc. 2019;67:1730–1736.
 
-comes of mobile acute care for elders consultation in a Veterans Affairs Medical Center. J Am Geriatr Soc. 2019;67:818–824. Simpson M, Macias Tejada J, Driscoll A, et al. The Bun-
+Sinvani L, Goldin M, Roofeh R, et al. Implementation of hip fracture co-management program (AGS CoCare: Ortho<sup>®</sup>) in a large health system. J Am Geriatr Soc. 2020; 68:1706–1713.
 
-dled Hospital Elder Life Program—HELP and HELP in Home Care—and its association with clinical outcomes among older adults discharged to home healthcare. J Am Geriatr Soc. 2019;67:1730–1736. Sinvani L, Goldin M, Roofeh R, et al. Implementation of
+Smith PD, Boyd C, Bellantoni J, et al. Communication between office-based primary care providers and nurses working within patients’ homes: an analysis of process data from CAPABLE. J Clin Nurs. 2016;25(3–4):454–462.
 
-hip fracture co-management program (AGS CoCare: Ortho<sup>®</sup>) in a large health system. J Am Geriatr Soc. 2020; 68:1706–1713. Smith PD, Boyd C, Bellantoni J, et al. Communication
+Spoelstra SL, Sikorskii A, Gitlin LN, et al. Dissemination of the CAPABLE Model of Care in a Medicaid Waiver program to improve physical function. J Am Geriatr Soc. 2019;67: 363–370.
 
-between office-based primary care providers and nurses working within patients’ homes: an analysis of process data from CAPABLE. J Clin Nurs. 2016;25(3–4):454–462. Spoelstra SL, Sikorskii A, Gitlin LN, et al. Dissemination
+Summary of the Updated American Geriatrics Society/ British Geriatrics Society Clinical Practice Guideline for Prevention of Falls in Older Persons. J Am Geriatr Soc. 2011;59:148–157.
 
-of the CAPABLE Model of Care in a Medicaid Waiver program to improve physical function. J Am Geriatr Soc. 2019;67: 363–370. Summary of the Updated American Geriatrics Society/
-
-British Geriatrics Society Clinical Practice Guideline for Prevention of Falls in Older Persons. J Am Geriatr Soc. 2011;59:148–157. Szanton SL, Thorpe RJ, Boyd C, et al. Community
-
-aging in place, advancing better living for elders: a bio-behavioral-environmental intervention to improve function and health-related quality of life in disabled older adults. J Am Geriatr Soc. 2011;59:2314–2320.
+Szanton SL, Thorpe RJ, Boyd C, et al. Community aging in place, advancing better living for elders: a bio-behavioral-environmental intervention to improve function and health-related quality of life in disabled older adults. J Am Geriatr Soc. 2011;59:2314–2320.

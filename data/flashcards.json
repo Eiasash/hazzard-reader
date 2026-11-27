@@ -10361,7 +10361,7 @@
     "id": "ch57-study-recall-8",
     "chapter": "57",
     "front": "What fraction of patients diagnosed with MCI progress to AD, and over what time frame?",
-    "back": "About 80% progress to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population (p869).",
+    "back": "In the longitudinal studies cited, up to 80% progressed to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population, while 15–40% may revert to normal on later testing (p869).",
     "questionIds": [],
     "recallKeys": [
       "57s:recall-8"
@@ -10374,7 +10374,7 @@
     "id": "ch57-study-recall-14",
     "chapter": "57",
     "front": "What percentage of dementia cases does normal pressure hydrocephalus (NPH) make up, and what are its shunt-surgery gait/memory outcomes at 6 months vs 5 years?",
-    "back": "NPH makes up about 6% of dementia cases. At 6 months post-shunt, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).",
+    "back": "NPH makes up about 6% of dementia cases. In one five-year observational study, at six months after shunting, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).",
     "questionIds": [],
     "recallKeys": [
       "57s:recall-14"
@@ -10439,7 +10439,7 @@
     "id": "ch68-study-recall-9",
     "chapter": "68",
     "front": "Which two HLA alleles should prompt genotype screening before starting carbamazepine, and why?",
-    "back": "HLA-B15:02 is linked to carbamazepine- and oxcarbazepine-associated SJS/TEN. HLA-A31:01 is associated with several carbamazepine hypersensitivity reactions and occurs across multiple ancestries. The genes do not have the same geographic distribution (p1065, CPIC).",
+    "back": "HLA-B15:02 is linked to carbamazepine- and oxcarbazepine-associated SJS/TEN. HLA-A31:01 is associated with several carbamazepine hypersensitivity reactions and occurs across multiple ancestries. Hazzard groups the two alleles together geographically [sic], whereas CPIC describes different population distributions (p1065, CPIC).",
     "questionIds": [],
     "recallKeys": [
       "68s:recall-9"
@@ -11076,14 +11076,14 @@
     "id": "ch104-study-recall-3",
     "chapter": "104",
     "front": "What two culture practices should almost always be avoided in older adults, and why?",
-    "back": "Hazzard says that, almost universally, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671). Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. IDSA, recommendations 45–46.",
+    "back": "Hazzard says that, almost universally, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1668; p1671). Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. IDSA, recommendations 45–46.",
     "questionIds": [],
     "recallKeys": [
       "104s:recall-3"
     ],
     "fromRecall": true,
-    "anchor": "p1667",
-    "page": 1667
+    "anchor": "p1668",
+    "page": 1668
   },
   {
     "id": "ch104-study-recall-6",
@@ -11493,7 +11493,7 @@
     "id": "ch108-study-recall-13",
     "chapter": "108",
     "front": "Which receptor does SARS-CoV-2 use to enter cells, and why does its upper-respiratory-tract tropism matter for transmission?",
-    "back": "The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; the early modeling estimate of 79% concerned previously undocumented infections, including infections with mild symptoms (p1738).",
+    "back": "The ACE2 receptor. Unlike SARS-CoV/MERS (which replicate mainly in the lower respiratory tract), SARS-CoV-2 achieves high viral loads in the upper respiratory tract, and shedding peaks at the very start of infection — enabling presymptomatic spread; the chapter attributes up to 79% of documented cases to asymptomatic or presymptomatic spread [sic: Li et al. modeled transmission from undocumented infections, which also included mild symptomatic infections; Science 2020] (p1738).",
     "questionIds": [],
     "recallKeys": [
       "108s:recall-13"
@@ -11896,7 +11896,7 @@
     "id": "ch77-study-recall-1",
     "chapter": "77",
     "front": "In a nursing-home resident, orthostatic hypotension is defined by what blood-pressure drop, and how prevalent is it in frail older nursing-home residents?",
-    "back": "SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of frail nursing-home residents (p1193).",
+    "back": "Sustained SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of frail nursing-home residents (p1193).",
     "questionIds": [],
     "recallKeys": [
       "77s:recall-1"
@@ -12304,7 +12304,7 @@
     "id": "ch0-study-6",
     "chapter": "law",
     "front": "מהו סדר הקדימויות למקבל החלטות זמני?",
-    "back": "כשאין מסמך קודם חל סדר הקדימויות: בן זוג, ילד, הורה, אח (§14ב). בני המשפחה רשאים להסכים על אדם בגיר אחר לפי התנאים שבחוק. ייפוי כוח שהופקד וטרם נכנס לתוקף, או מועמד בהנחיות מקדימות למינוי אפוטרופוס, מקנה קדימות לאדם ששמו נקבע, בכפוף לתנאי §14א.",
+    "back": "כשאין מסמך קודם חל סדר הקדימויות: בן זוג, ילד, הורה, אח (§14ב). בהסכמת בני המשפחה הקודמים בסדר הקדימויות ובני אותו מדרג, אפשר לבחור אחד או יותר מבני המשפחה המנויים בסעיף ולסכם אם יחליטו יחד או לחוד (§14ב(ד)). ייפוי כוח שהופקד וטרם נכנס לתוקף, או מועמד בהנחיות מקדימות למינוי אפוטרופוס, מקנה קדימות לאדם ששמו נקבע, בכפוף לתנאי §14א.",
     "questionIds": [],
     "recallKeys": [
       "laws:6"
@@ -14932,7 +14932,7 @@
     "id": "ch84-study-1",
     "chapter": "84",
     "front": "Why can a relatively benign abdominal examination be misleading?",
-    "back": "Visceral sensation can decline with aging. Serious ischemia or perforation may produce little tenderness. (p1299, p1302)",
+    "back": "Visceral sensation can decline with aging. Serious ischemia or perforation may produce little tenderness. (p1299)",
     "questionIds": [],
     "recallKeys": [
       "84s:1"
@@ -15621,14 +15621,14 @@
     "id": "ch34-study-9",
     "chapter": "34",
     "front": "What does a downward slope to the right on a conventional audiogram represent?",
-    "back": "The listener needs increasingly intense tones to hear higher pitches. Bilateral sloping loss can impair speech understanding in noise (p495).",
+    "back": "The listener needs increasingly intense tones to hear higher pitches. Bilateral sloping loss can impair speech understanding in noise (p496).",
     "questionIds": [],
     "recallKeys": [
       "34s:9"
     ],
     "fromRecall": true,
-    "anchor": "p495",
-    "page": 495
+    "anchor": "p496",
+    "page": 496
   },
   {
     "id": "ch34-study-11",
@@ -15738,7 +15738,7 @@
     "id": "ch64-study-4",
     "chapter": "64",
     "front": "How should the May exam's accepted Alzheimer answer be interpreted?",
-    "back": "It received credit alongside normal pressure hydrocephalus. One study reported a broader dementia association and negative Alzheimer-specific studies (p997).",
+    "back": "It received credit alongside normal pressure hydrocephalus. Large cohort studies reported an association with dementia, whereas two large autopsy studies found no association with Alzheimer-specific pathology (p997).",
     "questionIds": [],
     "recallKeys": [
       "64s:4"
@@ -17052,7 +17052,7 @@
     "id": "ch23-study-15",
     "chapter": "23",
     "front": "Why arrange follow-up after an apparently successful brief intervention?",
-    "back": "Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p323–324).",
+    "back": "Use and related harms can recur. Reassess goals, progress, medications and need for additional psychosocial or specialty support (p321, p324, p326).",
     "questionIds": [],
     "recallKeys": [
       "23s:15"
@@ -17520,7 +17520,7 @@
     "id": "ch29-study-6",
     "chapter": "29",
     "front": "Which outcomes have been associated with geriatric co-management?",
-    "back": "Shorter admissions and fewer complications and deaths in that patient series (p399–401).",
+    "back": "Shorter admissions and fewer complications and deaths with geriatric co-management in the chapter’s general discussion (p399–401).",
     "questionIds": [],
     "recallKeys": [
       "29s:6"
@@ -20185,14 +20185,14 @@
     "id": "ch24-study-13",
     "chapter": "24",
     "front": "What distinguishes tai chi from taking a supplement for fall prevention?",
-    "back": "It practices coordinated movement and balance, with attention to the movement itself. The chapter discusses trial evidence for reducing falls. (p338–340)",
+    "back": "It practices coordinated movement and balance, with attention to the movement itself. The chapter discusses trial evidence for reducing falls. (p339)",
     "questionIds": [],
     "recallKeys": [
       "24s:13"
     ],
     "fromRecall": true,
-    "anchor": "p338",
-    "page": 338
+    "anchor": "p339",
+    "page": 339
   },
   {
     "id": "ch24-study-14",

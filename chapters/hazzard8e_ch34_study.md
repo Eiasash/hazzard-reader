@@ -14,7 +14,7 @@ Study summary of Chapter 34; the book and the full chapter are the reference.
 
 <span id="ch34-study-genetics" data-exam-ids="mcq-db9b505b636e803c1bb580ce" data-reader-metadata="exam"></span>The Framingham comparison found that blood relatives had more similar hearing thresholds than spouses. Key Clinical Point 2 gives **over 55%** (p489): it describes the proportion of variation in the study population attributable to genetic differences, and cannot count how many individual cases are inherited. A patient can inherit susceptibility and also sustain cochlear injury from diabetes, vascular disease, noise or ototoxic medication. Men generally develop deficits earlier, and sex differences narrow later in life (pp489–491).
 
-Ask whether conversation becomes unintelligible in company and whether the patient avoids social situations. The short Hearing Handicap Inventory for the Elderly measures perceived functional difficulty. A typical gradual bilateral history supports a presumptive clinical diagnosis after checking for other causes. A bedside whisper test has variable sensitivity. Otoscopy can reveal obstructing wax, and audiometry measures each ear’s thresholds and helps distinguish sensorineural and conductive causes. Both B and D received credit in September 2024; a clinic screen alone cannot confirm the type or degree of loss (p493).
+Ask whether conversation becomes unintelligible in company and whether the patient avoids social situations. The short Hearing Handicap Inventory for the Elderly measures perceived functional difficulty. A typical gradual bilateral history supports a presumptive clinical diagnosis after checking for other causes. Chapter 45 lists a whispered-voice test or an audioscope for bedside hearing screening (p673). Otoscopy can reveal obstructing wax (chapter 45, p673), and audiometry (chapter 34, p493) measures each ear’s thresholds and helps distinguish sensorineural and conductive causes. Both B and D received credit in September 2024; a clinic screen alone cannot confirm the type or degree of loss (p493).
 
 > Current practice (not the book): Sudden unilateral hearing loss warrants urgent assessment. [Lin, NEJM 2024, pp1506–1507](https://doi.org/10.1056/NEJMcp2306778).
 
@@ -22,7 +22,7 @@ Ask whether conversation becomes unintelligible in company and whether the patie
 
 <span id="ch34-study-speech" data-exam-ids="mcq-ca570710752bad38efb708ba" data-exam-read-page="495" data-reader-metadata="exam"></span>A voice can be loud enough to hear while its words are indistinct. Reduced sensitivity at high frequencies obscures consonants that distinguish one word from another. In June 2025, **ספר (sefer)** contains both /s/ and /f/. Table 34-2 places /sh/ in **שלום (shalom)** at **1000–2000 Hz**, whereas /f/, /k/, /s/, /t/ and /th/ are **3000–8000 Hz** (p494). Vowels and context can carry a quiet conversation until competing voices mask those remaining cues (pp494–495, Table 34-2).
 
- In panel B a flatter pattern spans low and high frequencies; panel C shows a unilateral notch typical of noise exposure. At the same pure-tone threshold, two people can have different speech-in-noise performance. The QuickSIN test measures the signal advantage a listener needs over competing noise. Slower delivery and a quieter room can immediately improve communication (pp495–497).
+In Figure 34-5, panel A shows bilateral sloping high-frequency loss; in panel B a flatter pattern spans low and high frequencies; panel C shows a unilateral notch typical of noise exposure. At the same pure-tone threshold, two people can have different speech-in-noise performance. The QuickSIN test measures the signal advantage a listener needs over competing noise. Slower delivery and a quieter room can immediately improve communication (pp495–497).
 
 ## Hearing aids and referral for an implant
 
@@ -73,7 +73,7 @@ Permanent hair-cell loss limits recovery. In mice, apparently transient noise da
 
 ### Reading an audiogram alongside the history
 
-The horizontal axis moves from low to high frequencies. The vertical axis runs downward as more intense sound is needed for detection. In the book's bilateral sloping example, low-frequency tones remain audible and higher-frequency thresholds are poor. A person can follow a voice in a quiet room yet miss the consonants that distinguish similar words in a group. A flat loss suggests a different pattern; a unilateral notch calls for an exposure history rather than attribution to age alone (p494–495).
+The horizontal axis moves from low to high frequencies. The vertical axis runs downward as more intense sound is needed for detection. In the book's bilateral sloping example, low-frequency tones remain audible and higher-frequency thresholds are poor. A person can follow a voice in a quiet room yet miss the consonants that distinguish similar words in a group. A flat loss suggests a different pattern; a unilateral notch calls for an exposure history rather than attribution to age alone (p495–496).
 
 Pure-tone detection and word recognition answer different questions. Tympanometry and acoustic reflexes assess middle-ear function. Speech-in-noise assessment challenges auditory and cognitive processing under competing signals. Ask what listening situations the person wants to recover before choosing and fitting a device; then assess how it works in those situations (p493–497, p499–500).
 
@@ -95,7 +95,7 @@ In Figure 34-5A an audiogram from a man aged **62** slopes downward in both ears
 
 ### Choosing tests for the complaint
 
-Start with the patient's actual communication difficulty. Someone may report that others mumble, respond to the wrong word at dinner, or stop attending gatherings long before saying that sounds are too quiet. Ask about time course, differences between ears, noise and drug exposures, and effects on everyday life. Examine the canal and tympanic membrane. Wax or a middle-ear problem can produce a conductive component, while gradual bilateral impairment is more compatible with age-related sensorineural loss. The family history and a screening inventory can uncover a problem; neither finding localizes the lesion. The book notes that even a result described as normal for age may leave substantial disability that merits rehabilitation (p489–493, p495).
+Start with the patient's actual communication difficulty. Someone may report that others mumble, respond to the wrong word at dinner, or stop attending gatherings long before saying that sounds are too quiet. Ask about time course, differences between ears, noise and drug exposures, and effects on everyday life. Current practice (not the book): examine the canal and tympanic membrane for cerumen impaction ([AAO-HNSF, 2017](https://doi.org/10.1177/0194599816671491)). Wax or a middle-ear problem can produce a conductive component, while gradual bilateral impairment is more compatible with age-related sensorineural loss. The family history and a screening inventory can uncover a problem; neither finding localizes the lesion. The book notes that even a result described as normal for age may leave substantial disability that merits rehabilitation (p489–493, p495).
 
 Use the test that addresses the patient's difficulty. Pure-tone testing measures the least intense sound detectable at selected frequencies in each ear. Tympanometry and reflex testing address middle-ear function and reflex pathways. Otoacoustic emissions give information about outer hair cells, whereas an auditory brainstem response assesses neural transmission. Word-recognition testing adds the demand to identify a spoken signal, and a speech-in-noise task measures performance against competing sound. These tests can diverge without any inconsistency in the patient's account. A person who hears a pure tone reliably may still require a much larger speech-to-noise advantage to extract words (p493, p495–497).
 
@@ -174,7 +174,7 @@ Improved hearing has immediate value for participation, confidence and communica
 
 **9. What does a downward slope to the right on a conventional audiogram represent?**
 
-<details><summary>Answer</summary>The listener needs increasingly intense tones to hear higher pitches. Bilateral sloping loss can impair speech understanding in noise (p495).</details>
+<details><summary>Answer</summary>The listener needs increasingly intense tones to hear higher pitches. Bilateral sloping loss can impair speech understanding in noise (p496).</details>
 
 **10. Why did the past paper select sefer from the four spoken words?**
 

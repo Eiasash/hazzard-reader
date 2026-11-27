@@ -36,6 +36,10 @@ Discuss dialysis preferences once eGFR falls **<~20** (<a href="?chapter=83#p128
 
 Nephrology referral triggers (KCP list, <a href="?chapter=83#p1278">p1278</a>): AKI, red cell casts, refractory HTN, K⁺ abnormalities, recurrent/extensive stones, hereditary kidney disease, **CKD stage 4–5**, severely increased albuminuria. K/DIGO's own restated list (<a href="?chapter=83#p1290">p1290</a>) phrases the GFR trigger as **GFR <30** instead.
 
+**Phosphate binders** (calcium acetate, sevelamer, lanthanum carbonate) — for hyperphosphatemia not controlled by diet alone (<a href="?chapter=83#p1280">p1280</a>).
+
+**Calcitriol** (active vitamin D analog) — for PTH unresponsive to plain vitamin D supplementation; caution: hypercalcemia and hyperphosphatemia (<a href="?chapter=83#p1280">p1280</a>).
+
 ## Acute kidney injury
 
 ### Localizing acute kidney injury and deciding when dialysis is urgent
@@ -55,10 +59,6 @@ Give isotonic fluid for a demonstrable volume deficit and reassess respiration, 
 Classified by urine output: nonoliguric **>400 mL/day**, oliguric **100–400**, anuric **<100** — nonoliguric has the better prognosis (<a href="?chapter=83#p1280">p1280</a>).
 
 > **Current practice: Diagnostic thresholds for acute kidney injury.** KDIGO defines AKI by a creatinine increase ≥0.3 mg/dL within 48 hours, a rise to ≥1.5 times baseline within seven days, or urine output <0.5 mL/kg/h for at least six hours. Interpret these changes against the patient’s actual baseline. [KDIGO AKI criteria, 2012](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf).
-
-**Phosphate binders** (calcium acetate, sevelamer, lanthanum carbonate) — for hyperphosphatemia not controlled by diet alone (<a href="?chapter=83#p1280">p1280</a>).
-
-**Calcitriol** (active vitamin D analog) — for PTH unresponsive to plain vitamin D supplementation; caution: hypercalcemia and hyperphosphatemia (<a href="?chapter=83#p1280">p1280</a>).
 
 ## Glomerular and diabetic disease
 
@@ -98,11 +98,11 @@ Drug-induced acute interstitial nephritis may follow a new antibiotic, proton pu
 
 Most cases in older adults are drug-induced (antibiotics, PPIs, NSAIDs, diuretics); stopping the offending drug is the key intervention (<a href="?chapter=83#p1287">p1287</a>).
 
+In acute interstitial nephritis, corticosteroids may improve outcomes if started within **14 days** of first symptoms (<a href="?chapter=83#p1287">p1287</a>, main text).
+
+Rarely, airway involvement in an acute hypersensitivity reaction can cause bronchospasm (<a href="?chapter=83#p1287">p1287</a>).
+
 Suspect renovascular disease when hypertension is difficult to control or renal function deteriorates unexpectedly. Duplex ultrasound can identify a stenosis, but finding an anatomic lesion does not prove it determines the patient's pressure. A renal vein renin ratio of at least 1.5 favors a pressure response to intervention, with substantial uncertainty for an individual. Medical therapy is first-line for stable disease. CORAL found no overall benefit from adding revascularization. Rapid deterioration with bilateral disease or a solitary functioning kidney warrants a different assessment from stable unilateral narrowing (<a href="?chapter=83#p1287">p1287</a>–<a href="?chapter=83#p1289">1289</a>).
-
-Corticosteroids improve outcomes if started within **14 days** of first symptoms (<a href="?chapter=83#p1287">p1287</a>, main text).
-
-Rare: airway involvement can cause bronchospasm (<a href="?chapter=83#p1287">p1287</a>).
 
 Prevalence **2–3%** of general hypertensive population; up to **40%** of refractory hypertension (<a href="?chapter=83#p1287">p1287</a>).
 
@@ -188,7 +188,7 @@ Separate marrow production from smear appearance. Lack of erythropoietin can pro
 
 AV fistula matures over **~3 months** before it's usable (<a href="?chapter=83#p1292">p1292</a>).
 
-**1-year survival** for octogenarians/nonagenarians after starting dialysis: **50%** per the chapter's own Key Clinical Points (<a href="?chapter=83#p1278">p1278</a>) — the text and table differ.
+**1-year survival** for octogenarians/nonagenarians after starting dialysis: **50%** per the chapter's own Key Clinical Points (<a href="?chapter=83#p1278">p1278</a>) — the Prognosis and Survival text reports **54%** (<a href="?chapter=83#p1296">p1296</a>).
 
 ## Key numbers
 

@@ -90,7 +90,7 @@ Study summary of Chapter 26; the book and the full chapter are the reference.
 **Valid decisions & capacity**
 - Valid medical decisions require voluntariness, adequate information and decision-making capacity (p364).
 - Explain the intervention, risks, benefits, alternatives and refusal; consent is a process, not merely a signed form (p364–365).
-- Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Table 26-3 (p364) describes implied consent. Emergency treatment when the patient cannot give consent and no surrogate is available is a separate legal question.
+- Implied consent comes from a patient’s behavior demonstrating willingness to undergo the intervention. Table 26-3 (p364) lists the elements of a valid decision; implied consent is discussed on p365. Emergency treatment when the patient cannot give consent and no surrogate is available is a separate legal question.
 - Capacity is functional and decision-specific, may fluctuate, and may improve with support or a better setting (p365–366).
 - Incapacity does not remove the consent obligation: work with an appropriate surrogate (p365).
 

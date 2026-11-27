@@ -60,7 +60,7 @@ Sleep testing follows clues to obstructive sleep apnea, such as snoring and witn
 
 ## Choosing a drug when another condition matters
 
-**Previous myocardial infarction.** In a patient with hypertension and established coronary disease, ACE inhibition can address both blood pressure and secondary prevention. Follow creatinine and potassium after starting. Hazzard reserves beta blockers for compelling indications, specifically secondary prevention after MI or in coronary artery disease. Diabetes alone does not favor beta blockade, a diuretic in kidney disease is especially useful for volume overload, and verapamil or diltiazem can worsen reduced systolic function (pp. 1225–1226).
+**Previous myocardial infarction.** In a patient with hypertension and established coronary disease, ACE inhibition can address both blood pressure and secondary prevention. Follow creatinine and potassium after starting. Hazzard reserves beta blockers for compelling indications, specifically secondary prevention after MI or coronary artery disease, or treatment in selected patients with systolic dysfunction. Diabetes alone does not favor beta blockade, a diuretic in kidney disease is especially useful for volume overload, and verapamil or diltiazem can worsen reduced systolic function (pp. 1225–1226).
 
 > Current practice (not the book): Long-term beta blockade for a prior MI may be reassessed after one year in patients without reduced ventricular function, angina, arrhythmia or uncontrolled hypertension. [AHA/ACC chronic coronary disease guideline, sections 4.3.2–4.3.3](https://doi.org/10.1161/CIR.0000000000001168).
 

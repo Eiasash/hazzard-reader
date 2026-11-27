@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v338",
+      "date": "2026-11-28",
+      "changes": [
+        "Corrected chapter text, study summaries, page references and practice questions against the printed sources. Restored missing tables and figures. Official questions with a source discrepancy now carry a note after the explanation."
+      ]
+    },
+    {
       "version": "v337",
       "date": "2026-11-27",
       "changes": [

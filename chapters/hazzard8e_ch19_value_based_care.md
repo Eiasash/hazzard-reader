@@ -134,9 +134,8 @@ Institutional Special Needs Plans (I-SNPs) are MA Special Needs Plans that restr
 
 Institutional Equivalent Special Needs Plans (Ie-SNPs) care for individuals who are living in the community, but qualify for an institutional level of care (LOC). For an I-SNP to enroll MA eligible individuals living in the community, but requiring an institutional LOC, the following two conditions must be met:
 
-1. A determination of institutional LOC that is based on the use of a state assessment tool. The assessment tool used for persons living in the community must be the
-
-same as that used for individuals residing in an institution. In states and territories without a specific tool, I-SNPs must use the same LOC determination methodology used in the respective state or territory in which the I-SNP is authorized to enroll eligible individuals. 2. The I-SNP must arrange to have the LOC assessment administered by an independent, impartial party (ie, an entity other than the respective I-SNP) with the requisite professional knowledge to identify accurately the institutional LOC needs. Importantly, the I-SNP cannot own or control the entity.
+1. A determination of institutional LOC that is based on the use of a state assessment tool. The assessment tool used for persons living in the community must be the same as that used for individuals residing in an institution. In states and territories without a specific tool, I-SNPs must use the same LOC determination methodology used in the respective state or territory in which the I-SNP is authorized to enroll eligible individuals.
+2. The I-SNP must arrange to have the LOC assessment administered by an independent, impartial party (ie, an entity other than the respective I-SNP) with the requisite professional knowledge to identify accurately the institutional LOC needs. Importantly, the I-SNP cannot own or control the entity.
 
 I-SNPs/Ie-SNPs are full risk-bearing value payment models. The I-SNP/Ie-SNP health plans must submit bids that demonstrate the ability to perform within CMS FFS established benchmarks each year to continue its contract with CMS. All Medicare premiums paid to these health plans are based on the hierarchical condition category (HCC) payment model, which adjusts payments for the presence of specific chronic conditions. All medical, behavioral, special supplemental benefits and prescription drug costs are paid out of the plan premium amounts on a per member per month basis. I-SNPs must manage member costs of care within the plan premium payments amounts.
 
@@ -172,7 +171,14 @@ The PACE model of care can be traced to the early 1970s, when the Chinatown-Nort
 
 The PACE program is able to provide the entire continuum of care and services to seniors with chronic care needs, while maintaining their independence in their homes for as long as possible. Services include:
 
-• Adult day care that offers nursing; physical, occupational, and recreational therapies; meals; nutritional counseling; social work and personal care; • Medical care provided by a PACE physician familiar with the history, needs, and preferences of each participant; • Home health care and personal care; • All necessary prescription drugs; • Social services; • Medical specialties, such as audiology, dentistry, optometry, podiatry, and speech therapy; • Respite care; and • Hospital and nursing home care when necessary
+- Adult day care that offers nursing; physical, occupational, and recreational therapies; meals; nutritional counseling; social work and personal care;
+- Medical care provided by a PACE physician familiar with the history, needs, and preferences of each participant;
+- Home health care and personal care;
+- All necessary prescription drugs;
+- Social services;
+- Medical specialties, such as audiology, dentistry, optometry, podiatry, and speech therapy;
+- Respite care; and
+- Hospital and nursing home care when necessary
 
 Similar to an Ie-SNP, the PACE model is a full risk-bearing program that receives premium payments for both Medicare and Medicaid services rendered to members using the HCC model by CMS blended with Medicaid waiver program funding by the states. These services are typically provided in a defined geographical location and are paid for through the full risk-reimbursement model.
 
@@ -184,7 +190,12 @@ Medicare hospice is a program where the hospice provider is paid per member per 
 
 hospice-related care and services. In this context it is a form of a value-based program. Hospice services covered under the daily payment include:
 
-• All items and services needed for pain relief and symptom management • Medical, nursing, and social services • Drugs for pain management • Durable medical equipment for pain relief and symptom management • Aide and homemaker services • Other covered services needed to manage pain and other symptoms, as well as spiritual and grief counseling
+- All items and services needed for pain relief and symptom management
+- Medical, nursing, and social services
+- Drugs for pain management
+- Durable medical equipment for pain relief and symptom management
+- Aide and homemaker services
+- Other covered services needed to manage pain and other symptoms, as well as spiritual and grief counseling
 
 Other related medical services are paid for under the original Medicare fee-for-service program. Medicare beneficiaries become eligible for hospice services after being certified by a provider as terminally ill (life expectancy 6 months or less), if they choose to participate in a comfort care not curative care, AND only if they sign a hospice election form with the selected hospice organization.
 
@@ -204,27 +215,39 @@ such as those dual-eligible, and improve the coordination and efficiency of heal
 
 Under the Hospice Benefit Component of the VBID Model, participating MAOs retain responsibility for all original Medicare services, including hospice care. The Hospice Benefit Component of the Model implements a set of changes recommended by the Medicare Payment Advisory Commission (MedPAC), the Health and Human Services (HHS) Office of Inspector General (OIG), and other stakeholders.
 
-Patient-centered medical homes PCMH is a model of primary care where a patient engages in a relationship with a provider who seeks to center the patient’s need through the whole care process. While there is no one model that constitutes a PCMH, the common functions and attributes of a PCMH include comprehensive care, patient-centeredness, coordinated care, accessible services, and a focus on quality and safety. Comprehensive care typically involves including a team of care providers across disciplines such as mental health professionals, social workers, and nutritionists to come together to create a care plan for a patient that addresses all of their needs. Patient-centeredness includes a focus on ensuring that patients or their caregivers are directly involved in the processes of care. Coordinated care includes ensuring that patients have smooth transitions between sites of care. Accessible services typically include longer in-person hours, and the creation of different channels the patient can use to communicate with providers. Quality and safety includes the use of registries to track disease and pay-for-performance in an effort to improve patient outcomes.
+#### Patient-centered medical homes
+
+PCMH is a model of primary care where a patient engages in a relationship with a provider who seeks to center the patient’s need through the whole care process. While there is no one model that constitutes a PCMH, the common functions and attributes of a PCMH include comprehensive care, patient-centeredness, coordinated care, accessible services, and a focus on quality and safety. Comprehensive care typically involves including a team of care providers across disciplines such as mental health professionals, social workers, and nutritionists to come together to create a care plan for a patient that addresses all of their needs. Patient-centeredness includes a focus on ensuring that patients or their caregivers are directly involved in the processes of care. Coordinated care includes ensuring that patients have smooth transitions between sites of care. Accessible services typically include longer in-person hours, and the creation of different channels the patient can use to communicate with providers. Quality and safety includes the use of registries to track disease and pay-for-performance in an effort to improve patient outcomes.
 
 An example of a PCMH in the Medicare program is the Comprehensive Primary Care (CPC), and Comprehensive Primary Care Plus (CPC+) models. In the CPC programs, participating provider groups are paid a care management fee, which is per patient per month payment to incentivize care coordination activities. Practices that perform well on quality metrics may receive bonus payments. Otherwise, most other payment follows the fee-forservice risk schedule.
 
-Accountable care organizations Accountable care organizations (ACOs) are groups of doctors, hospitals, and other healthcare providers that come together in an effort to coordinate care and share risk. ACOs differ from PCMHs in that PCMHs typically focus on single outpatient clinics,
+#### Accountable care organizations
+
+Accountable care organizations (ACOs) are groups of doctors, hospitals, and other healthcare providers that come together in an effort to coordinate care and share risk. ACOs differ from PCMHs in that PCMHs typically focus on single outpatient clinics,
 
 while ACOs encompass a wider range of providers. In an ACO there is typically some degree of coordination and integration between different provider types, often facilitated by a shared electronic health record. While most ACOs still operate under a fee-for-service pay schedule, there is typically some degree of either upside or two-sided risk.
 
 The primary example of ACOs that care for older adults is the Medicare Shared Savings Program (MSSP). Under the MSSP, organizations voluntarily come together as ACOs to care for the needs of Traditional Medicare beneficiaries. While there are different tracks within the MSSP, they typically include several key features. First, patients are attributed to specific ACOs that are accountable for their care through the year. Attribution can either be retrospective, when patients are assigned after seeing which ACO provided for the majority of their care at the end of the year, or prospective, when patients are assigned to an ACO for the upcoming year based on prior year care use. ACOs may also decide whether to take on one-sided risk, receiving payment bonuses for hitting quality and efficiency benchmarks, or two-sided risk, which provides a greater opportunity to save money, but also exposes the ACO to a greater potential for financial loss. ACOs also must typically meet certain scores on a set of quality metrics if they are to be eligible for shared savings. Despite the voluntary nature of the program, participation in ACOs are steadily increasing over time, although most ACOs still prefer to engage in the one-sided risk track.
 
-Hospital value-based purchasing and the readmissions reduction program After the Affordable Care Act, CMS implemented two new value-based programs for acute care hospitals nationally: the Hospital Value-Based Purchasing Program (VBP) and the Hospital Readmissions Reduction Program (HRRP). Under the VBP, hospitals are evaluated on a number of quality metrics including preventable hospital acquired infections, mortality rates for acute myocardial infarction (AMI), heart failure, and pneumonia, spending per beneficiary, and patient rating of care experience. If a hospital performs well on these metrics, they may receive a bonus payment from CMS at the end of the year. If a hospital performs poorly, then it may receive a financial penalty up to 2% of payments. Similarly, in the HRRP, hospitals are evaluated on readmissions rates for select health conditions. If a hospital has readmission rates higher than a benchmark, they may be penalized up to 3% of Medicare payments. Neither of these models includes a stated care coordination or population health component, but are intended to reduce adverse events through strong financial incentives. Outside of the payment adjustments, hospitals subject to these programs are paid using the feefor-service fee schedule.
+#### Hospital value-based purchasing and the readmissions reduction program
 
-Merit-based incentive program The Merit-Based Incentive Program (MIPS) was implemented by CMS in 2017 to add a value-based care focus to most outpatient providers who
+After the Affordable Care Act, CMS implemented two new value-based programs for acute care hospitals nationally: the Hospital Value-Based Purchasing Program (VBP) and the Hospital Readmissions Reduction Program (HRRP). Under the VBP, hospitals are evaluated on a number of quality metrics including preventable hospital acquired infections, mortality rates for acute myocardial infarction (AMI), heart failure, and pneumonia, spending per beneficiary, and patient rating of care experience. If a hospital performs well on these metrics, they may receive a bonus payment from CMS at the end of the year. If a hospital performs poorly, then it may receive a financial penalty up to 2% of payments. Similarly, in the HRRP, hospitals are evaluated on readmissions rates for select health conditions. If a hospital has readmission rates higher than a benchmark, they may be penalized up to 3% of Medicare payments. Neither of these models includes a stated care coordination or population health component, but are intended to reduce adverse events through strong financial incentives. Outside of the payment adjustments, hospitals subject to these programs are paid using the feefor-service fee schedule.
+
+#### Merit-based incentive program
+
+The Merit-Based Incentive Program (MIPS) was implemented by CMS in 2017 to add a value-based care focus to most outpatient providers who
 
 <a id="p272"></a>**[p. 272]**
 
 see Medicare patients. Under MIPS, individual providers or group practices select from a set of possible quality measures that they would like to be evaluated on. The MIPS program also evaluates whether providers meet certain interoperability standards for their health records as well as certain spending benchmarks. Each of these metrics is combined together into an overall score. Very low performing providers may be subject to a 9% payment reduction; however, most penalties that have occurred in the program so far have been around 1%. Very high performing practices may also receive a small increase to their payments. All provider groups that meet a minimum number of patients are subject to MIPS unless they participate in an Alternative Payment Model (APM), such as the MSSP or the CPC. As a result, virtually all providers that receive Medicare payments are subject to at least some form of value-based care.
 
-Skilled nursing facility value-based purchasing In 2018, CMS implemented the Skilled Nursing Facility ValueBased Purchasing (SNF VBP) program. All SNFs that receive Medicare payments were required to participate in the program, which evaluates SNF performance on hospital readmissions. SNFs that performed poorly on the readmission’s metric could be subject to a 2% reduction in Medicare payments, while top performing SNFs could receive bonus payments of up to 2% of Medicare payments. In 2019, SNFs with readmission rates above 18% were penalized. Similar to the hospital VPB programs, there are no other structural components that facilities subject to this model needed to implement, but the strong financial incentive is designed to encourage SNFs to change their practices to reduce adverse outcomes.
+#### Skilled nursing facility value-based purchasing
 
-Bundled payment programs The Bundled Payments for Care Improvement (BPCI) and the Comprehensive Care for Joint Replacement (CJR) programs are two examples of episode-based payment models. In bundled payments, providers or a group of providers are paid a single set amount to cover all of the care needs a patient requires during a specific procedure and typically 90 days post procedure. The Medicare prospective payment system, which pays hospitals for patient care on the basis of an assigned Diagnosis-Related Group (DRG), is in essence a bundled payment for the hospital care a patient requires. The newer episode-based bundle models expand on that concept and cover all costs related to the episode of care which may include postacute care use following a procedure and rehabilitation services. If a patient has an unnecessary readmission following a procedure, the bundle would need to cover that care as well. If a provider is efficient in delivering care, bundles present an opportunity for them to save substantially; however, if a provider is not efficient, then they may lose money on a patient’s episode. Bundled payment programs typically involve substantial care coordination and partnerships between hospitals and postacute care providers in order to deliver patients the most efficient care possible.
+In 2018, CMS implemented the Skilled Nursing Facility ValueBased Purchasing (SNF VBP) program. All SNFs that receive Medicare payments were required to participate in the program, which evaluates SNF performance on hospital readmissions. SNFs that performed poorly on the readmission’s metric could be subject to a 2% reduction in Medicare payments, while top performing SNFs could receive bonus payments of up to 2% of Medicare payments. In 2019, SNFs with readmission rates above 18% were penalized. Similar to the hospital VPB programs, there are no other structural components that facilities subject to this model needed to implement, but the strong financial incentive is designed to encourage SNFs to change their practices to reduce adverse outcomes.
+
+#### Bundled payment programs
+
+The Bundled Payments for Care Improvement (BPCI) and the Comprehensive Care for Joint Replacement (CJR) programs are two examples of episode-based payment models. In bundled payments, providers or a group of providers are paid a single set amount to cover all of the care needs a patient requires during a specific procedure and typically 90 days post procedure. The Medicare prospective payment system, which pays hospitals for patient care on the basis of an assigned Diagnosis-Related Group (DRG), is in essence a bundled payment for the hospital care a patient requires. The newer episode-based bundle models expand on that concept and cover all costs related to the episode of care which may include postacute care use following a procedure and rehabilitation services. If a patient has an unnecessary readmission following a procedure, the bundle would need to cover that care as well. If a provider is efficient in delivering care, bundles present an opportunity for them to save substantially; however, if a provider is not efficient, then they may lose money on a patient’s episode. Bundled payment programs typically involve substantial care coordination and partnerships between hospitals and postacute care providers in order to deliver patients the most efficient care possible.
 
 The BPCI program is a voluntary bundled payment program that providers can choose to participate in for up to 48 different clinical conditions, the most common of which was lower joint replacement. Under the program, depending on the selected tracks, a spending benchmark was set for each condition and adjusted for patient complexity. If the hospital performed under the benchmark, they were permitted to keep all the savings during an endof-year adjustment. If they performed above the threshold, their payments would be reduced at the end of the year. Given the voluntary nature of the program, the providers who tended to participate already performed well for those episodes of care. In 2016, CMS launched the CJR program for hip or knee replacement. While the program operates similarly to the BPCI, it was a mandatory program for providers who operated in randomly assigned service areas.
 
@@ -250,22 +273,26 @@ Measuring the quality of care in older adults has many similarities, but also so
 
 conditions such as osteoporosis, osteoarthritis, ischemic heart disease, and mild cognitive impairment. Attention has to be given to interactions between drugs and diseases, drug-drug interactions, and the potential for recommending multiple nonpharmacologic interventions that may be impractical in a vulnerable older person.
 
-Improving quality and safety for older adults Robust methods for improving quality and safety remain an elusive goal. There is no cookbook that can be followed that will produce consistent results in all settings. Quality improvement interventions depend on implementation and are frequently context-sensitive, meaning that their success depends on a host of local factors, such as leadership support and other factors both internal and external to the organization. The Consolidated Framework for Implementation Research lists five major domains important to an understanding of quality improvement interventions: intervention characteristics, the outer setting, the inner setting, characteristics of the individuals involved, and the process of implementation. Various constructs for each major domain are listed in Table 19-4.
+#### Improving quality and safety for older adults
+
+Robust methods for improving quality and safety remain an elusive goal. There is no cookbook that can be followed that will produce consistent results in all settings. Quality improvement interventions depend on implementation and are frequently context-sensitive, meaning that their success depends on a host of local factors, such as leadership support and other factors both internal and external to the organization. The Consolidated Framework for Implementation Research lists five major domains important to an understanding of quality improvement interventions: intervention characteristics, the outer setting, the inner setting, characteristics of the individuals involved, and the process of implementation. Various constructs for each major domain are listed in Table 19-4.
 
 ## CURRENT CHALLENGES IN VALUE-BASED CARE
 
 As the health care delivery moves toward value-based care approaches, it is inevitable that challenges with these approaches will continue to arise. Two of the more pressing issues facing value-based care today are the burdens that measurement may have and how to best risk-adjust performance measures.
 
-Burdens and challenges of measurement One potential concern that has arisen in value-based payment models is the number of different measurement schemes that a single provider may be subject to. A single hospital for instance may be subject to the value-based purchasing, may be organized as an ACO, and may participate in bundled payment programs. Each of these programs brings its own success metrics, spending targets, and quality measures. As such providers may need to spend considerable amounts of time devoted to meeting each of these different administrative requirements. One study of four common specialties estimates that physicians in the United States may spend more than $15 billion a year in quality reporting. Another study found that CMS itself may have spent $1.3 billion alone in the development of quality measures for value-based care models. Despite these burdens, value-based care may have the potential to substantially impact patient care positively; however, this challenge may call for a greater harmonization of success metrics across models of care. In addition, measures that are appropriate, and not counterproductive, for older adults with multiple comorbidities and those with life-limiting illness are essential to improving the quality of care for this population. For example, tightly controlling diabetes or hypertension in these patients is not evidence-based. Quality measures that do not consider
+#### Burdens and challenges of measurement
+
+One potential concern that has arisen in value-based payment models is the number of different measurement schemes that a single provider may be subject to. A single hospital for instance may be subject to the value-based purchasing, may be organized as an ACO, and may participate in bundled payment programs. Each of these programs brings its own success metrics, spending targets, and quality measures. As such providers may need to spend considerable amounts of time devoted to meeting each of these different administrative requirements. One study of four common specialties estimates that physicians in the United States may spend more than $15 billion a year in quality reporting. Another study found that CMS itself may have spent $1.3 billion alone in the development of quality measures for value-based care models. Despite these burdens, value-based care may have the potential to substantially impact patient care positively; however, this challenge may call for a greater harmonization of success metrics across models of care. In addition, measures that are appropriate, and not counterproductive, for older adults with multiple comorbidities and those with life-limiting illness are essential to improving the quality of care for this population. For example, tightly controlling diabetes or hypertension in these patients is not evidence-based. Quality measures that do not consider the many patient-centered factors related to treatment decisions in vulnerable older patients could result in more harm than good in terms of driving episodes of hypoglycemia and their consequences, and hypotension and near syncope and falls.
 
 ![Table 19-4](hazzard8e_ch19_table-19-4_p274.webp)
 
 *TABLE 19-4 ■ CONSOLIDATED FRAMEWORK FOR IMPLEMENTATION RESEARCH*
 
 
-the many patient-centered factors related to treatment decisions in vulnerable older patients could result in more harm than good in terms of driving episodes of hypoglycemia and their consequences, and hypotension and near syncope and falls.
+#### Risk adjustment
 
-Risk adjustment The issue of risk adjustment is central to the success of value-based care. Risk adjustment is a statistical process that considers the underlying health status and spending of enrollees when setting quality and spending benchmarks. In a value-based model that takes quality and spending into consideration, without risk adjustment there may be an incentive not to provide care for patients with more complex care needs. Under capitation for instance, a patient with advanced needs will almost definitely cost more money to take care of than a healthy patient, so a health plan or a hospital would have a strong incentive to
+The issue of risk adjustment is central to the success of value-based care. Risk adjustment is a statistical process that considers the underlying health status and spending of enrollees when setting quality and spending benchmarks. In a value-based model that takes quality and spending into consideration, without risk adjustment there may be an incentive not to provide care for patients with more complex care needs. Under capitation for instance, a patient with advanced needs will almost definitely cost more money to take care of than a healthy patient, so a health plan or a hospital would have a strong incentive to
 
 <a id="p275"></a>**[p. 275]**
 
@@ -284,50 +311,40 @@ The shift from fee-for-service toward value-based care models is likely to conti
 
 ## FURTHER READING
 
-Agency for Health Care Policy and Research. (2014). Care
+Agency for Health Care Policy and Research. (2014). Care Coordination Measures Atlas. https://www.ahrq.gov/ncepcr/care/coordination/atlas.html. Accessed December 14, 2021.
 
-Coordination Measures Atlas. https://www.ahrq.gov/ ncepcr/care/coordination/atlas.html. Accessed December 14, 2021. Barnett ML, Wilcock A, McWilliams JM, et al. Two-year
+Barnett ML, Wilcock A, McWilliams JM, et al. Two-year evaluation of mandatory bundled payments for joint replacement. N Engl J Med. 2019;380(3):252–262.
 
-evaluation of mandatory bundled payments for joint replacement. N Engl J Med. 2019;380(3):252–262.
+Centers for Medicare and Medicaid Services. (n.d.). CMS Innovation Center. https://www.cms.gov/Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs. Accessed December 14, 2021.
 
-Centers for Medicare and Medicaid Services. (n.d.).
+Centers for Medicare and Medicaid Services. (n.d.). Institutional Special Needs Plans (I-SNPs). Retrieved <a id="p276"></a>**[p. 276]** January 13, 2021. [https://www.cms.gov/Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs](<https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/institutional>).
 
-CMS Innovation Center. https://www.cms.gov/ Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs. Accessed December 14, 2021. Centers for Medicare and Medicaid Services. (n.d.).
+Choosing Wisely. (2019). American Geriatrics Society: Ten Things Clinicians and Patients Should Question. https://www.choosingwisely.org/societies/americangeriatrics-society/. Accessed December 14, 2021.
 
-Institutional Special Needs Plans (I-SNPs). Retrieved
+Daras LC, Vadnais A, Pogue YZ, et al. Nearly one in five skilled nursing facilities awarded positive incentives under value-based purchasing. Health Aff. 2021;40(1): 146–155.
 
-<a id="p276"></a>**[p. 276]**
+Dhingra L, Lipson K, Dieckmann NF, Chen J, Bookbinder M, Portenoy R. Institutional special needs plans and hospice enrollment in nursing homes: a national analysis. J Am Geriatr Soc. 2019;67(12):2537–2544.
 
-January 13, 2021. [https://www.cms.gov/Medicare/](<https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/institutional>) Health-Plans/SpecialNeedsPlans/I-SNPs. Choosing Wisely. (2019). American Geriatrics Society:
+McGarry BE, Grabowski DC. Managed care for longstay nursing home residents: an evaluation of institutional special needs plans. Am J Manag Care. 2019; 25(9):438–443.
 
-Ten Things Clinicians and Patients Should Question. https://www.choosingwisely.org/societies/americangeriatrics-society/. Accessed December 14, 2021. Daras LC, Vadnais A, Pogue YZ, et al. Nearly one in five
+McWilliams JM, Hatfield LA, Chernew ME, Landon BE, Schwartz AL. Early performance of Accountable Care Organizations in Medicare. N Engl J Med. 2016;374(24):2357–2366.
 
-skilled nursing facilities awarded positive incentives under value-based purchasing. Health Aff. 2021;40(1): 146–155. Dhingra L, Lipson K, Dieckmann NF, Chen J, Bookbinder M,
+National PACE Association. (n.d.). The History of PACE. Retrieved January 13, 2021. [https://www.npaonline.org/policy-advocacy/value-pace](https://www.npaonline.org/starting-expanding-a-pace-program/understanding-the-pace-model-of-care/pace-history).
 
-Portenoy R. Institutional special needs plans and hospice enrollment in nursing homes: a national analysis. J Am Geriatr Soc. 2019;67(12):2537–2544. McGarry BE, Grabowski DC. Managed care for long-
+Neuman P, Jacobson GA. Medicare Advantage checkup. N Engl J Med. 2018;379(22):2163–2172.
 
-stay nursing home residents: an evaluation of institutional special needs plans. Am J Manag Care. 2019; 25(9):438–443. McWilliams JM, Hatfield LA, Chernew ME, Landon
+Peikes D, Dale S, Ghosh A, et al. The comprehensive primary care initiative: effects on spending, quality, patients, and physicians. Health Aff. 2018;37(6):890–899.
 
-BE, Schwartz AL. Early performance of Accountable Care Organizations in Medicare. N Engl J Med. 2016;374(24):2357–2366. National PACE Association. (n.d.). The History of PACE.
+Porter ME. What is value in health care? N Engl J Med. 2010;363(26):2477–2481.
 
-Retrieved January 13, 2021. https://www.npaonline.org/ policy-advocacy/value-pace. Neuman P, Jacobson GA. Medicare Advantage checkup.
+Rosenthal MB. Beyond pay for performance—emerging models of provider-payment reform. N Engl J Med. 2008;359(12):1197–1200.
 
-N Engl J Med. 2018;379(22):2163–2172.
+Segelman M, Szydlowski J, Kinosian B, et al. Hospitalizations in the Program of All-Inclusive Care for the Elderly. J Am Geriatr Soc. 2014;62(2):320–324.
 
-Peikes D, Dale S, Ghosh A, et al. The comprehensive primary
+Sinaiko AD, Landrum MB, Meyers DJ, et al. Synthesis of research on patient-centered medical homes brings systematic differences into relief. Health Aff (Project Hope). 2017;36(3):500–508.
 
-care initiative: effects on spending, quality, patients, and physicians. Health Aff. 2018;37(6):890–899. Porter ME. What is value in health care? N Engl J Med.
+Teisberg E, Wallace S, O’Hara S. Defining and implementing value-based health care: a strategic framework. Acad Med. 2020;95(5):682–685.
 
-2010;363(26):2477–2481. Rosenthal MB. Beyond pay for performance—emerging
+Tkatch R, Musich S, MacLeod S, Alsgaard K, Hawkins K, Yeh CS. Population health management for older adults: review of interventions for promoting successful aging across the health continuum. Gerontol Geriatr Med. 2016;2:1-13.
 
-models of provider-payment reform. N Engl J Med. 2008;359(12):1197–1200. Segelman M, Szydlowski J, Kinosian B, et al. Hospital-
-
-izations in the Program of All-Inclusive Care for the Elderly. J Am Geriatr Soc. 2014;62(2):320–324. Sinaiko AD, Landrum MB, Meyers DJ, et al. Synthesis of
-
-research on patient-centered medical homes brings systematic differences into relief. Health Aff (Project Hope). 2017;36(3):500–508. Teisberg E, Wallace S, O’Hara S. Defining and implement-
-
-ing value-based health care: a strategic framework. Acad Med. 2020;95(5):682–685. Tkatch R, Musich S, MacLeod S, Alsgaard K, Hawkins K,
-
-Yeh CS. Population health management for older adults: review of interventions for promoting successful aging across the health continuum. Gerontol Geriatr Med. 2016;2:1-13. Zuckerman RB, Stearns SC, Sheingold SH. Hospice use,
-
-hospitalization, and Medicare spending at the end of life. J Gerontol B Psychol Sci Soc Sci. 2016;71(3): 569–580.
+Zuckerman RB, Stearns SC, Sheingold SH. Hospice use, hospitalization, and Medicare spending at the end of life. J Gerontol B Psychol Sci Soc Sci. 2016;71(3): 569–580.

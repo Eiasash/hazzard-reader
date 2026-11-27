@@ -39262,7 +39262,9 @@
         {
           "chapter": "89",
           "page": 1404,
-          "quote": "HER2-targeted therapy, Table 89-4. Trastuzumab can cause cardiomyopathy and infusion reactions."
+          "quote": "Trastuzumab — Cardiomyopathy, infusion reactions",
+          "printedOnly": true,
+          "image": "chapters/hazzard8e_ch89_table-89-4_p1404.webp"
         }
       ],
       "israeliBrands": [

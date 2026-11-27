@@ -10,7 +10,7 @@ Read the fracture pattern before choosing repair. Timing, medical stability and 
 
 Painful, shortened, externally rotated leg is typical; nondisplaced fractures may still permit walking. Persistent suspicion with negative radiographs → MRI, more sensitive than CT. (<a href="?chapter=53#p794">p. 794</a>)
 
-**Follow the screw.** A screw that passes through the neck into the native head and joins a short nail in the proximal femur. This construct points to an intertrochanteric fracture. The trochanteric region has enough collateral circulation to heal once stable. A stable pattern can receive a sliding hip screw. A subtrochanteric break lies **within 5 cm below the lesser trochanter**, and displaced subtrochanteric fragments require a nail spanning the break (<a href="?chapter=53#p794">p794</a> and the [2017 hip-fracture review](https://doi.org/10.1056/NEJMcp1611090), <a href="?chapter=2#book-figure-2-3">Figures 2–3</a> and <a href="https://doi.org/10.1056/NEJMcp1611090">pp. 2059</a>–<a href="https://doi.org/10.1056/NEJMcp1611090">2060</a>).
+**Follow the screw.** A screw that passes through the neck into the native head and joins a short nail in the proximal femur. This construct points to an intertrochanteric fracture. The trochanteric region has enough collateral circulation to heal once stable. A stable pattern can receive a sliding hip screw. A subtrochanteric break lies **within 5 cm below the lesser trochanter**, and displaced subtrochanteric fragments require a nail spanning the break (<a href="?chapter=53#p794">p794</a> and the [2017 hip-fracture review](https://doi.org/10.1056/NEJMcp1611090), Figures 2–3 and <a href="https://doi.org/10.1056/NEJMcp1611090">pp. 2059</a>–<a href="https://doi.org/10.1056/NEJMcp1611090">2060</a>).
 
 Displaced femoral-neck fractures threaten the head's blood supply and are usually treated with arthroplasty; intertrochanteric fractures have better blood supply and generally heal with internal fixation. (<a href="?chapter=53#p794">p. 794</a>)
 
@@ -96,9 +96,9 @@ The chapter describes a US bundled payment spanning 90 postoperative days. Posta
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-85ecd5f34b95bd4208559b25"><span>2020 Q25</span> Operative timing and mobilization</a> <a class="study-source-link" href="?chapter=53#p795" aria-label="8e teaching passage, p795">p795</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-75d3bab7b0cbdfbc7293b06a"><span>2020 Q57</span> Fixation for unstable fractures</a> <a class="study-source-link" href="?chapter=53#p795" aria-label="8e teaching passage, p795">p795</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-75d3bab7b0cbdfbc7293b06a"><span>2020 Q57</span> Fixation for unstable fractures</a> <a class="study-source-link" href="?chapter=53#p794" aria-label="8e teaching passage, p794">p794</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b3939c33f45491551d8ea87"><span>December 2021 Q58</span> Total versus hemiarthroplasty</a> <a class="study-source-link" href="?chapter=53#p795" aria-label="8e teaching passage, p795">p795</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b3939c33f45491551d8ea87"><span>December 2021 Q58</span> Total versus hemiarthroplasty</a> <a class="study-source-link" href="?chapter=53#p794" aria-label="8e teaching passage, p794">p794</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b0c5d8693a2a6b69ff477c9"><span>June 2022 Q82</span> Timing and survival</a> <a class="study-source-link" href="?chapter=53#p795" aria-label="8e teaching passage, p795">p795</a></p>
 

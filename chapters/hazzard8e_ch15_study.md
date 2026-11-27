@@ -92,7 +92,7 @@ Informant cAD8 can be used when the patient is unavailable or uncooperative and 
 
 **Elder abuse:** physical/psychological harm, financial exploitation and neglect. Up to **10%** of older US adults experience abuse annually; as few as **1 in 14** cases are reported. Fear of retaliation can suppress disclosure. The chapter describes Senior Aid as sensitive and reasonably specific, while still requiring external validation, feasibility and outcome-impact assessment (<a href="?chapter=15#p213">p213</a>).
 
-**Falls:** among community-dwelling adults over **65**, about **one-third** fall yearly, increasing to **50%** after **80**. Following an initial fall, **36–50%** experience recurrent fall, ED revisit or death within **1 year**. These are a composite adverse outcome, not a recurrent-fall rate alone. Risk is multifactorial, and no widely accepted post-ED risk instrument exists (<a href="?chapter=15#p213">p213</a>).
+**Falls:** among community-dwelling adults over **65**, about **one-third** fall yearly, increasing to **50%** after **80**. After ED evaluation for an initial fall, **36–50%** experience recurrent fall, ED revisit or death within **1 year**. These are a composite adverse outcome, not a recurrent-fall rate alone. Risk is multifactorial, and no widely accepted post-ED risk instrument exists (<a href="?chapter=15#p213">p213</a>).
 
 Before deciding on discharge, ask whether the patient can understand the plan now, recall it later and obtain practical help with new medicines or follow-up. Brief instruments identify patients who may need this extra support, but do not by themselves diagnose dementia or determine admission. [Interpreting a cognitive screen, p. 213](?chapter=15#exam-p213-mcq-be0342d1614ce894a9a67d87).
 
@@ -134,7 +134,7 @@ Fall interventions show mixed results: ED medication deprescribing alone did not
 
 Frailty denotes vulnerability to incomplete restoration of homeostasis after a stressor. The Clinical Frailty Scale appears feasible and useful for **30-day mortality** prediction, but prediction of returns/functional decline and benefit from acting on its result remain unestablished here. <a href="?chapter=15#book-table-15-4">Table 15-4</a> compares Pro-Age, CFS, APOP, interRAI, ISAR, Rowland, Runciman, Silver Code, TRST and Variables Indicative of Placement; their outcomes and accuracy vary (<a href="?chapter=15#p217">p217</a>).
 
-**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. A universal medication reduction strategy did not reduce falls at a year in the ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
+**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. An ED trial of deprescribing fall-risk-increasing medications did not reduce falls at a year in the ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
 
 <a id="p216"></a>**[<a href="?chapter=15#p216">p. 216</a>]**
 

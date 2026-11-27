@@ -160,25 +160,25 @@ DLB declines faster: about 4–5 points/year vs about 3 points/year in AD (p984)
 
 </details>
 
-**9. What proportion of nfvPPA cases show TDP-43 pathology versus tau pathology at autopsy?**
+**4. What proportion of nfvPPA cases show TDP-43 pathology versus tau pathology at autopsy?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="63s:recall-9"><summary>Answer</summary>
 
 About 20% show TDP-43 (usually type A); the majority show tau pathology (CBD most common, then PSP, then Pick) (p988).
 
 </details>
 
-**11. What is the approximate 3-year survival in ALS, and what is the most common cause of death?**
+**5. What is the approximate 3-year survival in ALS, and what is the most common cause of death?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="63s:recall-11"><summary>Answer</summary>
 
 About 50% survival at 3 years; aspiration or respiratory failure is the most common cause of death (p991).
 
 </details>
 
-**13. In PSP, is downward or upward vertical gaze palsy more diagnostically specific, and why?**
+**6. In PSP, is downward or upward vertical gaze palsy more diagnostically specific, and why?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="63s:recall-13"><summary>Answer</summary>
 
 Downward gaze palsy is more specific, because mild vertical gaze limitation is normal with aging (p992).
 

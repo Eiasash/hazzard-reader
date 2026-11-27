@@ -4,7 +4,7 @@ Timothy W. Farrell, Caroline A. Vitale, Christina L. Bell, Elizabeth K. Vig
 
 > **Status.** Fast build from the book; not lane-reviewed.
 
-> **Source and method.** Printed pages 1097-1114, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 1097-1111, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p1097"></a>**[p. 1097]**
 
@@ -42,18 +42,6 @@ Health care professionals who work with older individuals in diverse settings su
 
 3. Moral distress is a condition in which clinicians feel forced to provide care they believe is wrong, which can lead to burnout and to them leaving their jobs and professions.
 
-In this chapter, we will discuss a framework for approaching ethical dilemmas, and provide an overview of the ethics topics especially relevant to the care of older adults. Sections include: an approach to thinking about ethical dilemmas, moral distress in professional caregivers, breaking bad news, surrogate decision-making, ethical decisions at the end of life, dilemmas between honoring self-determination and individual/societal safety, ethical challenges in the nursing home setting, and resource allocation and ageism.
-
-## AN APPROACH TO THINKING ABOUT ETHICAL DILEMMAS
-
-Case Mrs. C is an 88-year-old woman with congestive heart failure, hypertension, atrial fibrillation, and chronic kidney disease. She lives alone in her own home. She was hospitalized last month for delirium secondary to a urinary tract infection. She is admitted again this month after a fall. While in the hospital, she is evaluated by physical therapy and occupational therapy who both recommend a short stay in a nursing home for rehabilitation. Mrs. C refuses to go to a nursing home and demands to return to her home. Her medical team insists that going directly home is not a safe discharge plan, and wants to require her to go to rehab.
-
-Question: What is an ethically appropriate discharge plan for Mrs. C?
-
-Health care professionals working with older patients may encounter ethical dilemmas, regardless of their discipline
-
-<a id="p1098"></a>**[p. 1098]**
-
 4. The majority of people want to be told if they have dementia.
 
 5. Making medical decisions for loved ones can be very stressful for surrogate decision-makers.
@@ -72,7 +60,15 @@ Health care professionals working with older patients may encounter ethical dile
 
 12. Triage committees, and not front-line health care providers, should make decisions about allocation of limited heath care resources under conditions of resource scarcity, and patient age should not factor into these decisions.
 
-or work setting. Ethical dilemmas usually stem from a conflict in values between stakeholders. For example, an older patient with multiple comorbidities, who values being alive regardless of his condition, may disagree with his physician
+In this chapter, we will discuss a framework for approaching ethical dilemmas, and provide an overview of the ethics topics especially relevant to the care of older adults. Sections include: an approach to thinking about ethical dilemmas, moral distress in professional caregivers, breaking bad news, surrogate decision-making, ethical decisions at the end of life, dilemmas between honoring self-determination and individual/societal safety, ethical challenges in the nursing home setting, and resource allocation and ageism.
+
+## AN APPROACH TO THINKING ABOUT ETHICAL DILEMMAS
+
+Case Mrs. C is an 88-year-old woman with congestive heart failure, hypertension, atrial fibrillation, and chronic kidney disease. She lives alone in her own home. She was hospitalized last month for delirium secondary to a urinary tract infection. She is admitted again this month after a fall. While in the hospital, she is evaluated by physical therapy and occupational therapy who both recommend a short stay in a nursing home for rehabilitation. Mrs. C refuses to go to a nursing home and demands to return to her home. Her medical team insists that going directly home is not a safe discharge plan, and wants to require her to go to rehab.
+
+Question: What is an ethically appropriate discharge plan for Mrs. C?
+
+Health care professionals working with older patients may encounter ethical dilemmas, regardless of their discipline <a id="p1098"></a>**[p. 1098]** or work setting. Ethical dilemmas usually stem from a conflict in values between stakeholders. For example, an older patient with multiple comorbidities, who values being alive regardless of his condition, may disagree with his physician
 
 about the best way to manage his advanced kidney disease. To add complexity, older adults are a heterogeneous group with diverse values, preferences, and goals that may or may not be influenced by their race, ethnicity, or religious backgrounds. In terms of their beliefs about end-of-life care, for example, older patients may have more heterogeneous views than their clinicians. Because of this heterogeneity, clinicians should not assume that they know a patient’s values and goals without engaging in a conversation with the patient.
 
@@ -359,8 +355,6 @@ guidance for pandemics 2020. Available at [http://vaww](<https://www.publichealt
 eating and drinking. J Am Geriatr Soc. 2018;66(3): 441–445. Wright JL, Jaggard PM, Holahan T. Stopping eating
 
 and drinking by advance directives (SED by AD) in assisted living and nursing homes. J Am Med Dir Assoc. 2019;20(11):1362–1366.
-
-<a id="p1112"></a>**[p. 1112]**
 
 ## Israeli context — החוק והספרות המקצועית בישראל
 

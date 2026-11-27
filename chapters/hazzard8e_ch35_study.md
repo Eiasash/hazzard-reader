@@ -23,7 +23,7 @@ Study summary of Chapter 35; the book and the full chapter are the reference.
 - The book lists conjugated estrogen, ospemifene and intravaginal prasterone for postmenopausal sexual symptoms; treatment must match the specific problem (p523).
 
 > Current practice (not the book): Low-dose estradiol vaginal inserts are another US-labeled option for moderate-to-severe dyspareunia due to menopausal vulvovaginal atrophy. Local and systemic formulations have different indications and risk considerations. [Imvexxy US label](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/208564Orig1s000Approv.pdf).
-- Testosterone is used off-label in some women; adverse effects may be irreversible and safety in older women is unestablished. reviews of systemic DHEA have not shown efficacy (p523).
+- Testosterone is used off-label in some women; adverse effects may be irreversible and safety in older women is unestablished. Reviews of systemic DHEA have not shown efficacy (p523).
 - Flibanserin is taken daily orally and bremelanotide by pre-encounter injection; the chapter states neither was approved for postmenopausal women (p523).
 - Older women are poorly represented in treatment trials; preserve that uncertainty when discussing benefits and harms (p522-523).
 

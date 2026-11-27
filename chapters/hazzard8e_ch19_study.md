@@ -13,7 +13,7 @@ Study summary of Chapter 19; the book and the full chapter are the reference.
 **Models in the United States**
 - Medicare Advantage receives risk-adjusted capitation. Institutional special-needs plans serve institutional-level needs; equivalent plans extend this approach into the community (p267).
 - PACE: **55 or older**, state-certified nursing-home level of care, living in its service area and able to live safely in the community at enrollment; provides integrated medical and long-term support (p270).
-- Payment varies by care setting/intensity (p270).
+- Medicare hospice requires certification of a life expectancy of six months or less and election of the hospice benefit; its daily payment varies with the level of care (p270).
 - Medical homes coordinate comprehensive, accessible primary care; ACOs span wider provider networks and share savings or risk (p271).
 - Hospital value-based purchasing/readmission programs, MIPS and SNF value-based purchasing tie payment to selected performance measures. Bundled programs extend accountability across an episode and postacute care (p271-272).
 

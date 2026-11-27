@@ -93,7 +93,7 @@ ECOG measures activity and time spent confined to bed or a chair. An active pati
 - **Radiation**: normal-tissue radiation effects **may be** enhanced by **10–15%** in older patients; hypofractionated whole-breast RT is safe in older breast cancer; SBRT is an option when comorbidities preclude surgery for early NSCLC/pancreatic cancer; intermediate-risk prostate cancer may use **4–6 months** hormonal therapy + EBRT (p1389).
 - **Chemotherapy**: dose by creatinine clearance, not merely creatinine (↓lean body mass in older adults); watch H2 blockers/antacids/PPIs with oral agents; more common/severe in older adults — neurotoxicity (taxanes, platinum, vincristine, high-dose cytarabine, bortezomib), cardiotoxicity (doxorubicin), mucositis (5-FU) (p1390).
 - **Hormonal therapy**: **70–80%** of breast tumors in older patients are ER-positive. Tamoxifen ↑ thromboembolism/CVA risk — caution with venous insufficiency, HTN, AF. Aromatase inhibitors ↑ osteoporosis/fracture risk. Bone-directed therapy threshold: T-score **< −2.0 SD** alone, OR **< −1.5 SD** with one additional risk factor, OR two or more risk factors (without BMD) (p1390).
-- **Targeted therapy**: mostly oral, CYP450-metabolized — high drug-interaction risk with polypharmacy; higher rate of dose reduction/discontinuation in older vs younger patients (p1390).
+- **Targeted therapy**: many agents are oral and can interact with CYP450 inhibitors or inducers — high drug-interaction risk with polypharmacy; higher rate of dose reduction/discontinuation in older vs younger patients (p1390).
 - **Immunotherapy (ICIs)**: one retrospective cohort observed similar frequencies of high-grade immune-related events by age. Among those with high-grade events, the older group had shorter median survival. Susceptibility to complications of steroids or hospitalization is one proposed explanation (p1391). [Original cohort, Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8184608/)
 - **HSCT**: historically allogeneic SCT limited to age **<50**; autologous SCT now performed in fit patients **>70**. Delirium occurs in up to **50%** of allogeneic HSCT recipients (p1391).
 
@@ -108,7 +108,7 @@ ECOG measures activity and time spent confined to bed or a chair. An active pati
 
 ### Survivorship & Caregivers
 - By **2030**, **70%** of cancer patients will be 65+, with incidence in this group rising **~70%** from 2010–2030. The chapter counted **16 million** US cancer survivors at the time of writing, **~60%** age 65+; by **2040**, projected **26 million** survivors, **73%** age 65+, almost **50%** age 75+ (p1392–1393).
-- **63%** of home care for older cancer patients comes from informal caregivers; nearly **40%** of these caregivers have their own comorbidities and rate their own health fair/poor (p1393).
+- In the United States, **63%** of home care for older cancer patients comes from informal caregivers; nearly **40%** of these caregivers have their own comorbidities and are likely to rate their own health fair/poor (p1393).
 
 ### Exam traps
 - Do not equate "more indolent tumor biology" with "better survival" — older women have more ER-positive, longer-doubling-time breast cancers (favorable biology) yet still have *lower* overall cancer-related survival than younger women (p1385).

@@ -32,21 +32,7 @@ Peripheral vascular disease (PVD) is primarily a disease of aging and is strongl
 
 3. The decision to intervene in a patient with claudication is a lifestyle choice and should be pursued only after a trial of exercise therapy has been performed.
 
-4. Intervention for patients with asymptomatic carotid artery stenosis utilizing carotid artery stenting (CAS) is not currently
-
-## PERIPHERAL ARTERIAL DISEASE
-
-Definition Lower extremity arterial disease is commonly referred to as peripheral arterial disease (PAD). As a whole this disease encompasses atherosclerotic narrowing of arteries from the infrarenal aorta to the level of the tibial arteries at the foot.
-
-Epidemiology Risk factors for PAD are similar to those of coronary artery disease and include smoking history, advanced age, male gender, and positive family history. The prevalence of PAD increases with increasing age with up to 20% of people older than 75 years having some form of lower extremity arterial disease, although classic claudication symptoms are present in less than half of these individuals.
-
-> *[sic — The same printed page gives a different age denominator in its introduction and Key Clinical Point 1 (older than 70). The epidemiology paragraph says older than 75. Keep each percentage associated with its own wording.]* [Hazzard Ch78, p1209](?chapter=78#p1209).
-
-Presentation The presentation of PAD includes a range of symptoms. The most common presentation is that of claudication, or cramping of the lower extremity muscles after walking a fixed distance. The cramping or aching is primarily in the calves and buttocks and is relieved within 10 minutes of cessation of activity. The above classic presentation of claudication has unfortunately been shown to be present
-
-<a id="p1210"></a>**[p. 1210]**
-
-indicated due to the significant risk of perioperative stroke.
+4. Intervention for patients with asymptomatic carotid artery stenosis utilizing carotid artery stenting (CAS) is not currently indicated due to the significant risk of perioperative stroke.
 
 5. Carotid endarterectomy is the generally accepted intervention for older patients with both asymptomatic and symptomatic carotid artery stenosis with CAS acceptable for patients with specific indications.
 
@@ -60,7 +46,15 @@ indicated due to the significant risk of perioperative stroke.
 
 10. Recent data support ablation of the saphenous vein as initial treatment in appropriate patients with venous stasis ulceration.
 
-in less than half of patients with documented PAD and leg symptoms. Therefore, in the geriatric population, one must have a high index of suspicion for PAD as an underlying cause of ambulatory difficulties and leg symptoms. Additionally, in the older patient, coexisting conditions are common. The two most common conditions are osteoarthritis of the hip or knee and neurogenic claudication secondary to spinal stenosis. Osteoarthritis generally localizes to the joint, improves with pain medications, and has a varying course of improvement and worsening throughout the day. Neurogenic claudication is the most difficult to differentiate from vasculogenic disease because spinal stenosis is common in the older population. Neurogenic claudication most commonly presents with pain in the calves and posterior thigh and buttocks. In contrast to vasculogenic disease, neurogenic claudication has variable distance to onset, often takes 15 minutes to over hours to resolve, and claudication distance can be significantly increased with use of an assistive device such as a walker on which the patient can lean over and relieve the pressure on the spinal nerves.
+## PERIPHERAL ARTERIAL DISEASE
+
+Definition Lower extremity arterial disease is commonly referred to as peripheral arterial disease (PAD). As a whole this disease encompasses atherosclerotic narrowing of arteries from the infrarenal aorta to the level of the tibial arteries at the foot.
+
+Epidemiology Risk factors for PAD are similar to those of coronary artery disease and include smoking history, advanced age, male gender, and positive family history. The prevalence of PAD increases with increasing age with up to 20% of people older than 75 years having some form of lower extremity arterial disease, although classic claudication symptoms are present in less than half of these individuals.
+
+> *[sic — The same printed page gives a different age denominator in its introduction and Key Clinical Point 1 (older than 70). The epidemiology paragraph says older than 75. Keep each percentage associated with its own wording.]* [Hazzard Ch78, p1209](?chapter=78#p1209).
+
+Presentation The presentation of PAD includes a range of symptoms. The most common presentation is that of claudication, or cramping of the lower extremity muscles after walking a fixed distance. The cramping or aching is primarily in the calves and buttocks and is relieved within 10 minutes of cessation of activity. The above classic presentation of claudication has unfortunately been shown to be present <a id="p1210"></a>**[p. 1210]** in less than half of patients with documented PAD and leg symptoms. Therefore, in the geriatric population, one must have a high index of suspicion for PAD as an underlying cause of ambulatory difficulties and leg symptoms. Additionally, in the older patient, coexisting conditions are common. The two most common conditions are osteoarthritis of the hip or knee and neurogenic claudication secondary to spinal stenosis. Osteoarthritis generally localizes to the joint, improves with pain medications, and has a varying course of improvement and worsening throughout the day. Neurogenic claudication is the most difficult to differentiate from vasculogenic disease because spinal stenosis is common in the older population. Neurogenic claudication most commonly presents with pain in the calves and posterior thigh and buttocks. In contrast to vasculogenic disease, neurogenic claudication has variable distance to onset, often takes 15 minutes to over hours to resolve, and claudication distance can be significantly increased with use of an assistive device such as a walker on which the patient can lean over and relieve the pressure on the spinal nerves.
 
 A focused history of pain with ambulation is usually sufficient to confirm or provide high suspicion for the diagnosis of claudication in the majority of patients and provide a differential as to arterial, spinal, or muscular/joint etiology. The patient with true vasculogenic claudication will complain of pain with ambulation that starts after a known, relatively fixed, distance (two to three blocks are common as this interferes with activities of daily living). Upon cessation of ambulation and rest, the pain will subside and upon resuming ambulation will reoccur at a similar distance. This cycle in vasculogenic claudication can be repeated indefinitely. Often all three conditions (arterial, spinal, or muscular/joint) can coexist in the older patient and the diagnosis which is the primary limiting condition is of utmost concern to achieve an optimal outcome and maintain ambulatory independence.
 
@@ -80,7 +74,7 @@ The majority of the vascular system, including retroperitoneal vascular structur
 
 typically reserved for situations when an intervention is planned. Invasive procedures are not commonly used as the initial diagnostic study due to the improvements in resolution and lack of morbidity for noninvasive evaluations. The study of choice following an abnormal ABI varies based on historical use of specific modalities and is best ordered by the specialist treating the patient to avoid unnecessary tests and cost to the patient.
 
-## Management
+### Management
 
 Lifestyle modification The most important initial management strategies for patients with PAD are smoking cessation and continued ambulation. It has been shown that among patients who are smokers who subsequently stop smoking, the risk of amputation becomes exceedingly low with stabilization of PAD progression and often improvement of walking distance. Also, patients should be encouraged to ambulate even if they experience pain. There is no known negative impact of ambulation on the musculature. In fact, ambulation is the first-line treatment for patients presenting with symptomatic PAD. Supervised exercise therapy has been systematically shown to have a positive and sustainable improvement in ambulatory distances.
 
@@ -126,7 +120,7 @@ Multiple noninvasive imaging studies can assess the carotid arteries including D
 
 DUS is an accurate, reliable, noninvasive imaging modality and is often the initial study to identify patients with disease. The degree of stenosis and plaque morphology of the carotids can be readily assessed but is operator dependent. CTA and MRA use contrast and can provide accurate imaging of the carotid arteries. Both tests are limited by allergic reactions with anaphylaxis or preexisting renal disease. However, both studies are very effective at imaging with high resolution both the cervical and intracranial carotid and vertebral circulation in addition to the brain itself. Both imaging modalities are more expensive than duplex imaging and both suffer from artifact such that an experienced interpretation is needed to accurately assess carotid plaque morphology and stenosis. DSA or catheter-based digital angiography provide excellent images which are easy to interpret regarding degree of stenosis, location, and plaque morphology. Again, it is reserved in patients with conflicting imaging prior to operation with limitations including risk of stroke, cost, and morbidity.
 
-## Management
+### Management
 
 Pharmacologic Initial management of both symptomatic and asymptomatic patients includes maximizing medical therapy with appropriate antiplatelet agents to prevent platelet aggregation and embolization in conjunction with lipid-lowering agents to stabilize the at-risk plaque in the carotid distribution. For patients who smoke, the risk of stroke nearly doubles with continuance and cessation will markedly reduce stroke risk. For the asymptomatic patient, aggressive medical management is thought to be equivalent to invasive intervention and ongoing trials are underway to address this issue. New data emphasize the additional need for tight blood pressure control (SBP < 120 mm Hg) and optimized diabetic management in stroke prevention. For symptomatic patients, in addition to medical management, the next step is confirming the presence of significant stenosis that would benefit from invasive intervention.
 
@@ -172,7 +166,7 @@ Current CT imaging in the form of CT angiography provides excellent detail of th
 
 more commonly used to follow patients after intervention but exposes the patient to contrast dye and radiation, hence the preference to use DUS whenever feasible. MRI can also be used to evaluate AAA; however, due to expense, time, and limited access, MRI should not be first-line imaging for AAA. Its use should be reserved for patients in whom a CT scan is otherwise contraindicated.
 
-## Management
+### Management
 
 Pharmacologic Optimal medical management is directed at controlling comorbidities in patients with AAA. This includes smoking cessation, hypertension control, lipid control, diabetes management, diet and exercise, lifestyle modifications, and regular primary care provider follow-up. It should be noted that exercise and transient increases in blood pressure are not predictors or causes of rupture and therefore patients with an AAA diagnosis should continue to be active while being monitored. Aerobic activity including walking, jogging, biking, and swimming should be encouraged. Standard medical therapy for atherosclerotic occlusive disease should be provided including antiplatelet agents and statin therapy when indicated. Although it would seem β-blockade would reduce vessel stress and thus rupture, this has not been the case and antihypertensive regimens should follow accepted guidelines. A recent trial to determine the efficacy of doxycycline to slow the growth of small aneurysms failed to show any benefit, therefore leaving the patient with AAA with only surgical management options to reduce mortality risk from rupture.
 
@@ -212,7 +206,7 @@ to traumatic injuries to the superficial veins of the lower extremities. Particu
 
 Evaluation The gold standard for initial evaluation of CVI is duplex ultrasonography. Utilizing ultrasound images of the affected vein can be obtained to look specifically for valvular dysfunction and size changes consistent with narrowing or dilation. Additionally, ultrasound can be used to assess venous reflux. Reflux time of greater than or equal to 0.5 seconds is considered significant within a superficial venous segment. CT venogram can be obtained if one has a suspicion for a proximal obstructing process such as May Thurner or more commonly in older adults extrinsic compression from a tumor. Rarely is invasive venography utilized for diagnostic purposes and is usually based on findings of noninvasive studies leading to a therapeutic intervention. Venous plethysmography is still utilized in specific circumstances by physicians specializing in venous disease.
 
-## Management
+### Management
 
 Noninvasive The mainstay of treatment is relieving venous hypertension with elevation of the legs when not ambulating and the application of compression therapy.
 

@@ -84,7 +84,7 @@ Study summary of Chapter 89 - Breast Disease; the book and the full chapter are 
 ## Summary
 
 **Disease & initial assessment**
-- Breast cancer incidence increases with age; US lifetime diagnosis risk is **12.8%** in the chapter's cited data (p1395).
+- Breast cancer incidence increases with age; US lifetime diagnosis risk in women is **12.8%** in the chapter's cited data (p1395).
 - Older patients can benefit from endocrine therapy and chemotherapy as much as younger patients, but chemotherapy toxicity may be greater (p1395).
 - Use geriatric assessment and estimated life expectancy apart from breast cancer to guide treatment choices (p1395).
 - A new palpable breast mass after menopause needs prompt investigation and biopsy; mammography can characterize the mass and identify other lesions (p1397).

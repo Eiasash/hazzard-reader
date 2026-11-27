@@ -10,10 +10,6 @@ Mark S. Lachs, Tony Rosen
 
 <a id="p719"></a>**[p. 719]**
 
-## DEFINITIONS
-
-In the broadest context, elder mistreatment subsumes a variety of activities perpetrated upon an older person by others. There is as yet no universally agreed definition or classification of elder mistreatment. Proposed strategies for defining or classifying elder mistreatment have included using the type of abuse (eg, physical vs verbal abuse), motive (eg, intentional vs unintentional neglect), perpetrator relationship (eg, family vs paid caregiver), and setting (eg, community vs nursing home). Nonetheless, the clinician attempting to care for a victimized older person or to understand the spectrum of elder mistreatment will encounter several thematically similar definitions. For example, the Older Americans Act of 1975 defines elder abuse as “the willful infliction of pain, injury, or mental anguish.” This definition has been adopted, and/or modified, by many state protective service agencies that investigate cases of abuse. An encompassing definition created by a 2002 expert panel convened by the National Academy of Sciences added the concept that elder mistreatment involves a trusting relationship between an older person and another individual in which that trust is violated in some way. The definition that likely best captures current understanding of elder mistreatment is that developed for the 2014 Elder Justice Roadmap, a report prepared by a large, multidisciplinary team of stakeholders inside and outside the US government:
-
 #### Learning Objectives
 
 - Elder mistreatment, including physical abuse, sexual abuse, neglect, financial exploitation, psychological abuse, and abandonment, is common and may have serious medical and social consequences.
@@ -24,7 +20,13 @@ In the broadest context, elder mistreatment subsumes a variety of activities per
 
 1. Though researchers have described potential risk factors and are working to identify forensic markers associated with elder mistreatment, a high index of clinical suspicion in all encounters with geriatric patients and routine screening are currently the best tools physicians have to identify this often subtle geriatric syndrome.
 
-• Physical, sexual, or psychological abuse, as well as neglect, abandonment, and financial exploitation of an older person by another person or entity • That occurs in any setting (eg, home, community, or facility) • Either in a relationship where there is an expectation of trust and/or when an older person is targeted based on age or disability
+## DEFINITIONS
+
+In the broadest context, elder mistreatment subsumes a variety of activities perpetrated upon an older person by others. There is as yet no universally agreed definition or classification of elder mistreatment. Proposed strategies for defining or classifying elder mistreatment have included using the type of abuse (eg, physical vs verbal abuse), motive (eg, intentional vs unintentional neglect), perpetrator relationship (eg, family vs paid caregiver), and setting (eg, community vs nursing home). Nonetheless, the clinician attempting to care for a victimized older person or to understand the spectrum of elder mistreatment will encounter several thematically similar definitions. For example, the Older Americans Act of 1975 defines elder abuse as “the willful infliction of pain, injury, or mental anguish.” This definition has been adopted, and/or modified, by many state protective service agencies that investigate cases of abuse. An encompassing definition created by a 2002 expert panel convened by the National Academy of Sciences added the concept that elder mistreatment involves a trusting relationship between an older person and another individual in which that trust is violated in some way. The definition that likely best captures current understanding of elder mistreatment is that developed for the 2014 Elder Justice Roadmap, a report prepared by a large, multidisciplinary team of stakeholders inside and outside the US government:
+
+- Physical, sexual, or psychological abuse, as well as neglect, abandonment, and financial exploitation of an older person by another person or entity
+- That occurs in any setting (eg, home, community, or facility)
+- Either in a relationship where there is an expectation of trust and/or when an older person is targeted based on age or disability
 
 Table 48-1 lists representative examples of types of elder mistreatment. Whatever definition is employed, a consistent and important feature of elder mistreatment, and other forms of family violence, is that multiple types of mistreatment, such as physical and verbal abuse, neglect, and financial exploitation frequently coexist in the same abuser-victim dyad.
 

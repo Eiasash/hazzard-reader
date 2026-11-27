@@ -84,7 +84,7 @@ Before prescribing weight loss, ask whether a weight-related condition is limiti
 
 **Nutrition & assessment**
 - Aging increases the fat-to-body-mass ratio; muscle preservation depends on both diet and activity. Obesity can coexist with serious protein undernutrition (p405–406).
-- The chapter also cites at least 5% in three months or at least 10% over six months to three years (p422). Voluntary loss warrants attention in frail older adults.
+- Investigate weight loss of at least 5% of baseline over 6–12 months (pp406, 424); the chapter also cites at least 5% in three months or at least 10% over six months to three years (p422). Voluntary loss warrants attention in frail older adults.
 - Assess intake, physical findings, illness, medications and social barriers. Albumin/prealbumin chiefly reflect inflammation and disease severity and are not stand-alone nutritional diagnoses (p406, p425).
 - Starvation-related losses may reverse with feeding; inflammatory cachexia includes muscle catabolism that refeeding may not reverse (p424).
 

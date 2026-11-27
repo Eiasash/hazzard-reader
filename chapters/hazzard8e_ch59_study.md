@@ -46,7 +46,7 @@ Hallmarks: amyloid (Aβ) plaques + neurofibrillary tangles (tau); neuritic plaqu
 
 Nonpharmacologic care: exercise, cognitive/social stimulation, safety review (driving, firearms, stove), caregiver support/respite.
 
-Behavioral symptoms: nonpharmacologic management first-line (see Ch. 60 for detail).
+Behavioral symptoms: generally try nonpharmacologic measures first unless agitation threatens safety or the person’s living situation (<a href="?chapter=59#p915">p915</a>, see chapter 60).
 
 <a href="?chapter=59#book-table-59-5">Table 59-5</a>
 
@@ -158,13 +158,13 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f1b068fb860ad775dde65af8"><span>June 2022 Q18</span> Age and Alzheimer risk</a> <a class="study-source-link" href="?chapter=59#p894" aria-label="8e teaching passage, p894">p894</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0971fea2ad0a50b32c98cc69"><span>2020 Q5</span> Expected benefit of cholinesterase inhibition</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0971fea2ad0a50b32c98cc69"><span>2020 Q5</span> Expected benefit of cholinesterase inhibition</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6d95836c1f971f2123c4f768"><span>2020 Q34</span> Progression in probable AD</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-41b2b9e9aed4c3e21ea1a031"><span>2020 Q83</span> Vascular risks and decline</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-98ec853f03c4ddcd93ba163a"><span>December 2021 Q12</span> Interpreting a screening score</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-98ec853f03c4ddcd93ba163a"><span>December 2021 Q12</span> Interpreting a screening score</a> <a class="study-source-link" href="?chapter=59#p906" aria-label="8e teaching passage, p906">p906</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a68f3e9d6b27e3350372761f"><span>December 2021 Q74</span> Cognition after delirium</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
@@ -190,19 +190,19 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-68133d1fcd7810143b5b5659"><span>September 2024 Q10</span> Early-onset presenilin disease</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="exam reference, p897">p897</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-be30faa89f4f223edef3ac59"><span>June 2025 Q15</span> Lecanemab and CDR-SB</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-be30faa89f4f223edef3ac59"><span>June 2025 Q15</span> Lecanemab and CDR-SB</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a27bfbe9359d6d1da40dbdc6"><span>June 2026 Q65</span> Mixed vascular and Alzheimer disease</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a27bfbe9359d6d1da40dbdc6"><span>June 2026 Q65</span> Mixed vascular and Alzheimer disease</a> <a class="study-source-link" href="?chapter=59#p908" aria-label="8e teaching passage, p908">p908</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4bec111cf773419535c13cb7"><span>June 2025 Q61</span> Genetic versus modifiable risk</a> <a class="study-source-link" href="?chapter=59#p906" aria-label="8e teaching passage, p906">p906</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4bec111cf773419535c13cb7"><span>June 2025 Q61</span> Genetic versus modifiable risk</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-50913261c9d08f2875dc46ce"><span>June 2026 Q23</span> Plasma biomarkers and diagnosis</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-50913261c9d08f2875dc46ce"><span>June 2026 Q23</span> Plasma biomarkers and diagnosis</a> <a class="study-source-link" href="?chapter=59#p908" aria-label="8e teaching passage, p908">p908</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2ef61450ff3feeb769b59483"><span>December 2021 Q28</span> Irritability in depression</a> <a class="study-source-link" href="?chapter=59#p901" aria-label="8e teaching passage, p901">p901</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5df16a1d0d61c7ad67f08df6"><span>June 2026 Q56</span> Vascular cognitive impairment</a> <a class="study-source-link" href="?chapter=59#p903" aria-label="8e teaching passage, p903">p903</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-141fb224311d4c71ea10eacd"><span>December 2021 Q72</span> When to start an AChE inhibitor</a> <a class="study-source-link" href="?chapter=59#p905" aria-label="8e teaching passage, p905">p905</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-141fb224311d4c71ea10eacd"><span>December 2021 Q72</span> When to start an AChE inhibitor</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a1dae018a6c6f55cc5b317e8"><span>June 2026 Q73</span> Clinical staging of AD</a> <a class="study-source-link" href="?chapter=59#p906" aria-label="8e teaching passage, p906">p906</a></p>
 
@@ -244,19 +244,19 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Drug-related presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="Supporting evidence: donepezil adverse effects, Table 59-7, p912">p912</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-26ba0a6e4969ec4edfbd0987"><span>June 2026 Q16</span> Modifiable dementia risks</a> <a class="study-source-link" href="?chapter=59#p913" aria-label="8e teaching passage, p913">p913</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-26ba0a6e4969ec4edfbd0987"><span>June 2026 Q16</span> Modifiable dementia risks</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d174954cc165e4a4bf4cb9e3"><span>June 2023 Q54</span> Blood pressure and risk reduction</a> <a class="study-source-link" href="?chapter=59#p914" aria-label="8e teaching passage, p914">p914</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d174954cc165e4a4bf4cb9e3"><span>June 2023 Q54</span> Blood pressure and risk reduction</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-14495b2b993ed80a455dcf47"><span>2020 Q16</span> Six-month hospice indicators</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-14495b2b993ed80a455dcf47"><span>2020 Q16</span> Six-month hospice indicators</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-825df84a1ac736a4d39649d1"><span>2020 Q40</span> Cognitive training goals</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-22ad374d60860dc3b36fced5"><span>June 2022 Q46</span> Complications of advanced dementia</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-22ad374d60860dc3b36fced5"><span>June 2022 Q46</span> Complications of advanced dementia</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-99b3495842400fac1e566ca7"><span>May 2024 Q33</span> Advanced dementia and hospice</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-99b3495842400fac1e566ca7"><span>May 2024 Q33</span> Advanced dementia and hospice</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7f8661f001992e760b345025"><span>September 2024 Q57</span> Nutritional markers at FAST 7C</a> <a class="study-source-link" href="?chapter=59#p915" aria-label="8e teaching passage, p915">p915</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7f8661f001992e760b345025"><span>September 2024 Q57</span> Nutritional markers at FAST 7C</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-afc59f4904977cff5ceae519"><span>December 2021 Q68</span> Antibiotics in late dementia</a> <a class="study-source-link" href="?chapter=59#p916" aria-label="8e teaching passage, p916">p916</a></p>
 

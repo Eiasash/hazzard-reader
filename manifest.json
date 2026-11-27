@@ -209,7 +209,7 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/63s.json",
-      "drillCount": 6
+      "drillCount": 3
     },
     {
       "number": "87s",
@@ -413,8 +413,7 @@
       "file": "hazzard8e_ch101_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/101s.json",
-      "drillCount": 11
+      "markUnits": "data/mark-units/101s.json"
     },
     {
       "number": "102s",
@@ -432,7 +431,6 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/104s.json",
-      "drillCount": 12,
       "textLayout": "data/chapter-layout/104s.json"
     },
     {
@@ -450,7 +448,7 @@
       "file": "hazzard8e_ch108_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "drillCount": 14
+      "drillCount": 8
     },
     {
       "number": "65",
@@ -980,7 +978,8 @@
       "title": "Fibromyalgia and Myofascial Pain Syndromes",
       "file": "hazzard8e_ch103_fibromyalgia_and_myofascial_pain_syndromes.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/103.json"
     },
     {
       "number": "78",
@@ -1072,7 +1071,8 @@
       "title": "Management of Common Nonpain Symptoms",
       "file": "hazzard8e_ch69_management_of_common_nonpain_symptoms.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/69.json"
     },
     {
       "number": "69s",
@@ -1104,7 +1104,8 @@
       "title": "Upper Gastrointestinal Disorders",
       "file": "hazzard8e_ch85_upper_gastrointestinal_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/85.json"
     },
     {
       "number": "34",
@@ -1268,7 +1269,8 @@
       "title": "Hepatic, Pancreatic, and Biliary Diseases",
       "file": "hazzard8e_ch86_hepatic_pancreatic_and_biliary_diseases.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/86.json"
     },
     {
       "number": "86s",
@@ -1420,7 +1422,8 @@
       "number": "28",
       "title": "Anesthesia",
       "file": "hazzard8e_ch28_anesthesia.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/28.json"
     },
     {
       "number": "28s",
@@ -1462,7 +1465,8 @@
       "number": "33",
       "title": "Low Vision: Assessment and Rehabilitation",
       "file": "hazzard8e_ch33_low_vision_assessment_and_rehabilitation.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/33.json"
     },
     {
       "number": "33s",
@@ -1490,7 +1494,8 @@
       "number": "37",
       "title": "Sexuality, Sexual Function, and the Aging Man",
       "file": "hazzard8e_ch37_sexuality_sexual_function_and_the_aging_man.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/37.json"
     },
     {
       "number": "37s",
@@ -1532,7 +1537,8 @@
       "number": "71",
       "title": "Effective Communication Strategies For Patients with Serious Illness",
       "file": "hazzard8e_ch71_effective_communication_strategies_for_patients_with_serious_illness.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/71.json"
     },
     {
       "number": "71s",
@@ -1560,7 +1566,8 @@
       "number": "1",
       "title": "Biology of Aging and Longevity",
       "file": "hazzard8e_ch1_biology_of_aging_and_longevity.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/1.json"
     },
     {
       "number": "1s",
@@ -1576,7 +1583,8 @@
       "number": "40",
       "title": "Applied Clinical Geroscience",
       "file": "hazzard8e_ch40_applied_clinical_geroscience.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/40.json"
     },
     {
       "number": "40s",
@@ -1590,7 +1598,8 @@
       "number": "18",
       "title": "Transitions of Care",
       "file": "hazzard8e_ch18_transitions_of_care.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/18.json"
     },
     {
       "number": "18s",
@@ -1604,7 +1613,8 @@
       "number": "25",
       "title": "Patient-Centered Management of Chronic Diseases",
       "file": "hazzard8e_ch25_patient_centered_management_of_chronic_diseases.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/25.json"
     },
     {
       "number": "25s",
@@ -1634,7 +1644,8 @@
       "number": "14",
       "title": "Models of Hospital and Outpatient Care",
       "file": "hazzard8e_ch14_models_of_hospital_and_outpatient_care.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/14.json"
     },
     {
       "number": "14s",
@@ -1648,7 +1659,8 @@
       "number": "12",
       "title": "Age-Friendly Care",
       "file": "hazzard8e_ch12_age_friendly_care.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/12.json"
     },
     {
       "number": "12s",
@@ -1662,7 +1674,8 @@
       "number": "24",
       "title": "Integrative Medicine and Health",
       "file": "hazzard8e_ch24_integrative_medicine_and_health.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/24.json"
     },
     {
       "number": "24s",
@@ -1676,7 +1689,8 @@
       "number": "19",
       "title": "Value-Based Care",
       "file": "hazzard8e_ch19_value_based_care.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/19.json"
     },
     {
       "number": "19s",
@@ -1690,7 +1704,8 @@
       "number": "20",
       "title": "The Role of Social Workers",
       "file": "hazzard8e_ch20_the_role_of_social_workers.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/20.json"
     },
     {
       "number": "20s",
@@ -1718,7 +1733,8 @@
       "number": "13",
       "title": "Geriatrics Around the World",
       "file": "hazzard8e_ch13_geriatrics_around_the_world.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/13.json"
     },
     {
       "number": "13s",
@@ -1789,7 +1805,8 @@
       "number": "6",
       "title": "Social Determinants of Health, Health Disparities, and Health Equity",
       "file": "hazzard8e_ch6_social_determinants_of_health_health_disparities_and_health_equity.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/6.json"
     },
     {
       "number": "6s",

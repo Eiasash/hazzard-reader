@@ -6,7 +6,7 @@ Laura Block, W. Ryan Powell, Andrea Gilmore-Bykovskyi, Amy J. H. Kind
 
 > Excluded from the IMA required reading list (P005-2026); not cited in the 2020-2026 past papers.
 
-> **Source and method.** Printed pages 95-108, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 95-105, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p95"></a>**[p. 95]**
 
@@ -71,20 +71,14 @@ Health disparities are differences in health outcomes driven by unjust, inequita
 
 population or groups of individuals. The presence and persistence of health disparities require understanding their sources and addressing their occurrence. Though health disparities have long existed in the United States, groundbreaking reports, including the 1984 Department of Health and Human Services Report, “Health, United States, 1983,” and the 2003 Institute of Medicine Report “Unequal Treatment: Confronting Racial and Ethnic Disparities” brought broader attention to these inequities by highlighting the social and structural health system factors involved.
 
-Older adults may experience age-related health disparities that result from unjust, inequitable access to aging-specific care, supports, and services. They may experience the accumulation of health disparities across the lifespan, resulting in long-standing and new negative health outcomes. Within the context of aging, the National Institute on Aging (NIA) provides a framework for understanding the environmental, sociocultural, behavioral, and biological factors that shape health and lead to health disparities across the lifespan (Figure 6-2). The NIA framework
+Older adults may experience age-related health disparities that result from unjust, inequitable access to aging-specific care, supports, and services. They may experience the accumulation of health disparities across the lifespan, resulting in long-standing and new negative health outcomes. Within the context of aging, the National Institute on Aging (NIA) provides a framework for understanding the environmental, sociocultural, behavioral, and biological factors that shape health and lead to health disparities across the lifespan (Figure 6-2). The NIA framework <a id="p98"></a>**[p. 98]** provides nested classifications for each factor, helping us to consider some of the potential underlying drivers of health at each level—and to also consider the timing and influence of each on health across the lifespan.
 
 ![Figure 6-2](hazzard8e_ch6_figure-6-2_p97.webp)
 
 *FIGURE 6-2. The National Institute on Aging health disparities framework helps to recognize the variety of reasons why health disparities exist. (Reproduced with permission from Hill CV, Pérez-Stable EJ, Anderson NA, et al: The National Institute on Aging Health Disparities Research Framework. Ethn Dis. 2015;25(3):245–254.)*
 
 
-<a id="p98"></a>**[p. 98]**
-
-## Note:
-
-Though health disparities often exist for historically disenfranchised populations (eg, Indigenous, Black, or rural populations), a person’s group membership or identity itself does not create health disparities. However, these individuals may be disproportionately impacted or intentionally targeted by systemic, contextual, and relational forces that result in health disparities. To illustrate this point, a common misconception is that race is a risk factor for poor health—for example, that Black identity directly leads to early mortality. However, the true driver in this association is the systemic racism operating at multiple levels that results in the development and perpetuation of a health disparity, for example, shaping access to resources needed for health. Race is a social construct. It is not a biological construct. Yet, this erroneous perception of race as a biological construct remains pervasive across a wide array of venues. Such flawed interpretations support the need for better medical education and training, and the need for wider efforts to address the structural factors that promulgate such errors.
-
-provides nested classifications for each factor, helping us to consider some of the potential underlying drivers of health at each level—and to also consider the timing and influence of each on health across the lifespan.
+> **Note.** Though health disparities often exist for historically disenfranchised populations (eg, Indigenous, Black, or rural populations), a person’s group membership or identity itself does not create health disparities. However, these individuals may be disproportionately impacted or intentionally targeted by systemic, contextual, and relational forces that result in health disparities. To illustrate this point, a common misconception is that race is a risk factor for poor health—for example, that Black identity directly leads to early mortality. However, the true driver in this association is the systemic racism operating at multiple levels that results in the development and perpetuation of a health disparity, for example, shaping access to resources needed for health. Race is a social construct. It is not a biological construct. Yet, this erroneous perception of race as a biological construct remains pervasive across a wide array of venues. Such flawed interpretations support the need for better medical education and training, and the need for wider efforts to address the structural factors that promulgate such errors.
 
 ### Health Equity
 
@@ -281,5 +275,3 @@ fundamental causes of health inequalities: theory, evidence, and policy implicat
 American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;288(3):368–370. US Department of Health and Human Services, Office of
 
 Disease Prevention and Health Promotion: Healthy People 2030. [https://health.gov/healthypeople/objectives-anddata/social-determinants-health](<https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health>). Accessed March 23, 2021.
-
-<a id="p106"></a>**[p. 106]**

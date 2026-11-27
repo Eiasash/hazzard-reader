@@ -237,7 +237,7 @@ window.HazzardFlashcards = (() => {
       if(!answer.dataset.checkKey&&!(previous?.tagName==='P'&&label&&/^(answer|show answer|תשובה)$/iu.test(summary.textContent.trim())))continue;
       let heading=previous?.previousElementSibling;
       while(heading&&!/^H[1-6]$/.test(heading.tagName))heading=heading.previousElementSibling;
-      const key=answer.dataset.checkKey||chapter+':'+(heading?.textContent.trim()==='Recall'?'recall-':'')+label[1];
+      const key=answer.dataset.checkKey||answer.dataset.recallKey||chapter+':'+(heading?.textContent.trim()==='Recall'?'recall-':'')+label[1];
       const prompt=answer.dataset.checkKey?summary:previous;
       blocks.push({answer,prompt,key,summary});
     }

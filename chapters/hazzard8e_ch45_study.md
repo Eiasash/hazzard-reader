@@ -120,7 +120,7 @@ For OH or postprandial hypotension, <a href="?chapter=45#p675">p675</a> lists mo
 
 > **Current practice: Fludrocortisone dose.** When drug treatment is appropriate, fludrocortisone is generally dosed at **0.05–0.2 mg/day**. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. [OH review, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/) · [AHA scientific statement, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/).
 
-High-risk features include persistently abnormal vital signs, GI bleed or acute change in hematocrit to <30, volume depletion, acute coronary syndrome, implantable cardiac device dysfunction, valvular heart disease, new undiagnosed murmur, family history of sudden death, new dyspnea/CHF features, prolonged QT or other conduction disease, slow AF (<40 bpm), persistent bradycardia (<40 bpm), Brugada pattern on ECG, or syncope during exertion/supine/sitting (<a href="?chapter=45#p673">p673</a> — any three of these).
+High-risk features include persistently abnormal vital signs, GI bleed or acute change in hematocrit to <30, volume depletion, acute coronary syndrome, implantable cardiac device dysfunction, valvular heart disease, new undiagnosed murmur, family history of sudden death, new dyspnea/CHF features, prolonged QT or other conduction disease, slow AF (<40 bpm), persistent bradycardia (<40 bpm), Brugada pattern on ECG, or syncope during exertion/supine/sitting (<a href="?chapter=45#p673">p673</a>).
 
 ## Key numbers
 

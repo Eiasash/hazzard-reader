@@ -38,7 +38,19 @@ The liver and pancreas are remarkable in their ability to preserve function desp
 
 3. Drug-induced liver injury occurs more frequently in older patients and tends to be more severe.
 
-4. Chronic fatty liver diseases, alcohol-related and non-alcohol-related, are the two most (Continued)
+4. Chronic fatty liver diseases, alcohol-related and non-alcohol-related, are the two most common causes of end-stage liver disease in older patients in the developed world. The advent of direct-acting antiviral agents for the treatment of hepatitis C virus (HCV) has changed the landscape of chronic liver disease.
+
+5. Age is a major risk factor for gallstones, which are more common among older adults, especially women.
+
+6. Acute cholecystitis may present atypically in older patients without fever, nausea, vomiting, or severe abdominal pain.
+
+7. Ultrasound is the initial diagnostic test of choice, and incidental discovery of gallstones is not an indication for treatment. When appropriate, early laparoscopic cholecystectomy is the treatment of choice in older patients.
+
+8. In the absence of gallstones and alcohol use disorder, the most common cause of acute pancreatitis in older adults is malignancy.
+
+9. Alcohol use disorder is the most common cause of chronic pancreatitis in older patients.
+
+10. The significance of alcohol use disorder in patients presenting with alcohol-related liver or pancreatic disease is frequently not recognized, and the opportunity to intervene with treatment of alcohol use disorder is missed.
 
 As will be discussed multiple times in this chapter, most of the therapies available for younger patients are safe and appropriate for use in the geriatric population. However, older patients with advanced pancreatic, liver, or biliary disease may not be eligible for curative treatments in some circumstances. For example, due to comorbid disease, few patients older than 70 years meet entry criteria for liver transplantation. Similarly, geriatric patients with newly diagnosed neoplasms of the pancreas or hepatobiliary system may not tolerate the extensive surgery that may be appropriate in a younger patient. Palliative care for patients with advanced pancreatic and hepatobiliary disease has become a well-recognized subspecialty and provides valuable therapies and counseling to alleviate suffering near the end of life.
 
@@ -46,35 +58,7 @@ As will be discussed multiple times in this chapter, most of the therapies avail
 
 ### Liver Morphology
 
-For a number of years, liver volume was thought to decrease with age. More recently, it was determined that liver volume remains unchanged over time when adjusting for body surface area. Tagged albumin scans have shown that while corrected liver volume remains constant with age, functional hepatocyte volume decreases significantly. There is also a contemporaneous decrease in hepatic blood flow by approximately 35% to 40%. The cause of decreased blood flow is likely multifactorial—as a result of changes in cardiovascular output, diminished splanchnic blood flow, reduced portal vein blood flow, and increased resistance to
-
-<a id="p1338"></a>**[p. 1338]**
-
-common causes of end-stage liver disease in older patients in the developed world. The advent of direct-acting antiviral agents for the treatment of hepatitis C virus (HCV) has changed the landscape of chronic liver disease.
-
-5. Age is a major risk factor for gallstones,
-
-which are more common among older adults, especially women.
-
-6. Acute cholecystitis may present atypically
-
-in older patients without fever, nausea, vomiting, or severe abdominal pain.
-
-7. Ultrasound is the initial diagnostic test of
-
-choice, and incidental discovery of gallstones is not an indication for treatment. When appropriate, early laparoscopic cholecystectomy is the treatment of choice in older patients.
-
-8. In the absence of gallstones and alcohol use
-
-disorder, the most common cause of acute pancreatitis in older adults is malignancy.
-
-9. Alcohol use disorder is the most com-
-
-mon cause of chronic pancreatitis in older patients.
-
-10. The significance of alcohol use disorder in patients presenting with alcohol-related liver or pancreatic disease is frequently not recognized, and the opportunity to intervene with treatment of alcohol use disorder is missed.
-
-portal flow. On the cellular level, both hepatocytes and the mitochondria of hepatocytes become hypertrophied, but decrease in overall number with age. Hepatocytes accumulate lipofuscin with age while undergoing a decrease in the concentration of smooth endoplasmic reticulum (SER), telomere length, and the activity of several liver microsomal enzymes.
+For a number of years, liver volume was thought to decrease with age. More recently, it was determined that liver volume remains unchanged over time when adjusting for body surface area. Tagged albumin scans have shown that while corrected liver volume remains constant with age, functional hepatocyte volume decreases significantly. There is also a contemporaneous decrease in hepatic blood flow by approximately 35% to 40%. The cause of decreased blood flow is likely multifactorial—as a result of changes in cardiovascular output, diminished splanchnic blood flow, reduced portal vein blood flow, and increased resistance to <a id="p1338"></a>**[p. 1338]** portal flow. On the cellular level, both hepatocytes and the mitochondria of hepatocytes become hypertrophied, but decrease in overall number with age. Hepatocytes accumulate lipofuscin with age while undergoing a decrease in the concentration of smooth endoplasmic reticulum (SER), telomere length, and the activity of several liver microsomal enzymes.
 
 ### Liver Function
 

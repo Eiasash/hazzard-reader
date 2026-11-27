@@ -36,7 +36,11 @@ The population of older women, generally defined as those greater than 65 years 
 
 4. Although ultrasound and serum (CA-125) screening for ovarian cancer is ineffective in a low-risk population, imaging should be considered in women with suspicious symptoms involving abdominal and pelvic pain/ discomfort, bloating, gastrointestinal disturbances, and urinary complaints.
 
-5. Pelvic pain is not commonly due to pathology of reproductive organs; the urinary tract, gastrointestinal (GI) tract, and musculoskeletal systems should be thoroughly (Continued)
+5. Pelvic pain is not commonly due to pathology of reproductive organs; the urinary tract, gastrointestinal (GI) tract, and musculoskeletal systems should be thoroughly investigated with history and physical examination.
+
+6. Pessaries can successfully relieve symptoms for many types of POP and stress urinary incontinence and should be offered.
+
+7. Genitourinary syndrome of menopause and atrophic vaginitis are results of hypoestrogenism and can be readily treated using vaginal estrogen without systemic effects.
 
 ## GYNECOLOGIC WELL-WOMAN VISIT
 
@@ -45,12 +49,6 @@ Gynecologic history and review of systems and medication list are mainstays of t
 Key points in the gynecologic history and physical examination are listed in Table 36-1. If gynecologic surgery was performed, note the indication. For pain, prolapse, and incontinence surgeries, determine whether symptoms are resolved. Lifetime hormonal status and exposure, family cancer history, and cancer screening since age 55 are important in assessing current cancer risks.
 
 <a id="p528"></a>**[p. 528]**
-
-investigated with history and physical examination.
-
-6. Pessaries can successfully relieve symptoms for many types of POP and stress urinary incontinence and should be offered.
-
-7. Genitourinary syndrome of menopause and atrophic vaginitis are results of hypoestrogenism and can be readily treated using vaginal estrogen without systemic effects.
 
 Diethylstilbestrol (DES) is an often-forgotten cancer risk factor that should be assessed. It was synthesized in 1938 and prescribed to pregnant women until 1971 in the United States and the early 1980s in some European countries. An estimated 5 to 10 million women worldwide took DES during pregnancy. An increased breast cancer
 
@@ -65,7 +63,7 @@ The physical examination serves four main purposes: (1) to understand the patien
 *TABLE 36-1 ■ GYNECOLOGIC HISTORY AND EXAMINATION*
 
 
-aSuggestions for examination in the cognitively impaired older woman (moderate or severe impairment) are based on clinical experience (Level D evidence).
+<sup>a</sup> Suggestions for examination in the cognitively impaired older woman (moderate or severe impairment) are based on clinical experience (Level D evidence).
 
 <a id="p529"></a>**[p. 529]**
 
@@ -128,16 +126,11 @@ is present, begin the “bimanual” examination of the uterus and ovaries using
 
 ### Examination of the Vulva
 
-Normal vulvar architecture consists of labia minora, labia majora, clitoris, clitoral hood, and intact urethral meatus (Figure 36-2). Advanced age and estrogen deficiency
-
-Caruncle
+Normal vulvar architecture consists of labia minora, labia majora, clitoris, clitoral hood, and intact urethral meatus (Figure 36-2). Advanced age and estrogen deficiency may lead to a loss of vulvar architecture, especially of the labia minora. Cherry angiomata and epithelial inclusion cysts on the labia majora are common and not concerning. Asymmetrical pigmented lesions should be noted and considered for either biopsy or follow-up examinations. Punch biopsies of the vulva are simple, rarely become infected, and can be performed in the office under local anesthesia. Bartholin glands are in the inferior (dorsal) aspect of each labium majus. An asymptomatic Bartholin cyst does not require referral if there is no detectable mass associated with the cyst, but rare Bartholin gland malignancies do occur. Thus, a symptomatic Bartholin cyst or abscess in the postmenopausal woman should be drained and biopsied and consideration given to full excision if symptoms persist.
 
 ![Figure 36-2](hazzard8e_ch36_figure-36-2_p531.webp)
 
 *FIGURE 36-2. Illustration of pelvic examination landmarks and a urethral caruncle.*
-
-
-may lead to a loss of vulvar architecture, especially of the labia minora. Cherry angiomata and epithelial inclusion cysts on the labia majora are common and not concerning. Asymmetrical pigmented lesions should be noted and considered for either biopsy or follow-up examinations. Punch biopsies of the vulva are simple, rarely become infected, and can be performed in the office under local anesthesia. Bartholin glands are in the inferior (dorsal) aspect of each labium majus. An asymptomatic Bartholin cyst does not require referral if there is no detectable mass associated with the cyst, but rare Bartholin gland malignancies do occur. Thus, a symptomatic Bartholin cyst or abscess in the postmenopausal woman should be drained and biopsied and consideration given to full excision if symptoms persist.
 
 ### Benign Conditions of the Vulva
 
@@ -417,18 +410,11 @@ A rectocele is a protrusion of the rectum through the posterior wall of the vagi
 
 An enterocele is a herniation of small bowel and peritoneum through the apical vagina or between the uterosacral ligaments and rectovaginal space (Figure 36-6). It is the only true hernia among the various forms of POP. It is more common in women who have undergone prior hysterectomy. However, it can be present in any posterior vaginal wall prolapse, and rarely in anterior compartment prolapse.
 
-Rectal prolapse involves protrusion of the rectum through the anal sphincter with tissue extending beyond the anal verge. It may or may not be associated with hemorrhoids. Symptoms of rectal prolapse can include pain, bleeding, or defecatory dysfunction. Many patients experience both fecal incontinence and constipation. Careful examination is needed to determine if the rectal prolapse can be reduced. In cases where reduction is not possible,
-
-<a id="p543"></a>**[p. 543]**
+Rectal prolapse involves protrusion of the rectum through the anal sphincter with tissue extending beyond the anal verge. It may or may not be associated with hemorrhoids. Symptoms of rectal prolapse can include pain, bleeding, or defecatory dysfunction. Many patients experience both fecal incontinence and constipation. Careful examination is needed to determine if the rectal prolapse can be reduced. In cases where reduction is not possible, <a id="p543"></a>**[p. 543]** tissue incarceration and necrosis may develop. Patients with rectal prolapse should be referred to a colorectal surgeon or gastroenterologist for additional evaluation and treatment.
 
 ![Figure 36-4](hazzard8e_ch36_figure-36-4_p543.webp)
 
 *FIGURE 36-4. Anterior and sagittal views of a cystocele. Note the increasing size of a cystocele (A) and that it can cause angulation of the urethra and contribute to symptoms of voiding difficulty and urinary retention (B).*
-
-
-A
-
-tissue incarceration and necrosis may develop. Patients with rectal prolapse should be referred to a colorectal surgeon or gastroenterologist for additional evaluation and treatment.
 
 Several different systems have been designed to grade the degree of POP based on anatomic changes. The
 

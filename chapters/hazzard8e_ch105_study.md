@@ -49,7 +49,7 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 
 <span data-exam-page="1688"></span>
 
-- CAP treatment tiers (Table 105-8, p1688): non-frail patients get cephalosporin or amoxicillin/clavulanate + azithromycin/fluoroquinolone, escalating in severe disease to ± linezolid/vancomycin, ± antipseudomonal agent, ± oseltamivir; **prefrail** patients get amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline + azithromycin/fluoroquinolone; **frail** patients get a different regimen, not the same combo broadened — ertapenem, or amoxicillin/clavulanate, or ceftriaxone + clindamycin.
+- In Table 105-8 (p1688), the non-frail outpatient row lists amoxicillin/clavulanate or a second-generation cephalosporin with azithromycin/fluoroquinolone; the nonsevere inpatient row lists amoxicillin/clavulanate or ceftriaxone/cefotaxime/ceftaroline with azithromycin/fluoroquinolone; the severe row lists ceftriaxone, cefotaxime, ceftaroline or ertapenem plus azithromycin or a fluoroquinolone, with linezolid/vancomycin, an antipseudomonal beta-lactam or oseltamivir added only if indicated. In prefrailty the table lists the nonsevere inpatient regimen; in frailty it lists ertapenem, amoxicillin/clavulanate, or ceftriaxone plus clindamycin.
 
 > Current practice (not the book): For an adult inpatient with nonsevere CAP and no MRSA or Pseudomonas risk factors, ATS/IDSA recommends either a beta-lactam plus a macrolide or respiratory fluoroquinolone monotherapy. Hazzard’s printed table puts a plus sign before the azithromycin/fluoroquinolone alternatives. [ATS](https://doi.org/10.1164/rccm.201908-1581ST).
 

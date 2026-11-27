@@ -135,7 +135,7 @@ When someone already has dementia, an additional microscopic diagnosis need not 
 
 **4. How should the May exam's accepted Alzheimer answer be interpreted?**
 
-<details><summary>Answer</summary>It received credit alongside normal pressure hydrocephalus. One study reported a broader dementia association and negative Alzheimer-specific studies (p997).</details>
+<details><summary>Answer</summary>It received credit alongside normal pressure hydrocephalus. Large cohort studies reported an association with dementia, whereas two large autopsy studies found no association with Alzheimer-specific pathology (p997).</details>
 
 **5. Which injury history is associated with CTE?**
 

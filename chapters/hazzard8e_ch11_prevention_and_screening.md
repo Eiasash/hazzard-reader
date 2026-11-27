@@ -28,21 +28,17 @@ Prevention and screening hold the promise of maintaining health by intervening b
 
 3. Treatments for many asymptomatic chronic medical conditions such as hypertension, diabetes, and hyperlipidemia impose immediate risks and burdens on patients with the promise of delayed benefits, and so should only be considered in patients whose life expectancy exceeds the expected time-to-benefit.
 
+4. The risks associated with immunizations, healthy behavior counseling, and counseling against unhealthy behaviors are much lower than the benefits. Thus, targeting is less important and nearly all older adults should receive these preventive medical interventions.
+
+5. Older adults with serious illness, advanced dementia, or those who are residing in skilled nursing facilities have limited life expectancy and are more likely to experience adverse effects from interventions, decreasing the likelihood of net benefit for many preventive interventions. Eliciting patient and family values and preferences can help clinicians align available preventive interventions with the goals of individual patients.
+
 In this chapter, the authors will present the evidence for several preventive interventions in older patients. First, the authors will focus on preventive interventions that impose some risks and burdens on patients, starting with a framework for targeting these preventive interventions and then focusing on the benefits and risks for each preventive intervention in greater detail. These interventions include cancer screening as well as treatment for asymptomatic chronic conditions such as hypertension or diabetes. Second, the authors will review the evidence for interventions with minimal risks. These interventions include behavioral and lifestyle modification as well as immunizations.
 
 Screening for geriatric syndromes such as falls and incontinence are discussed in detail in their respective chapters.
 
 ## FRAMEWORK FOR INDIVIDUALIZING PREVENTION
 
-One challenge of appropriately targeting prevention in older adults is that few studies of preventive interventions have enrolled persons older than 75 years. The absence of age-specific data requires clinicians to extrapolate data about the benefits and harms of preventive interventions in younger persons and apply it to older persons. Furthermore, even if trials suggest that the effectiveness of a preventive intervention is similar in younger and older populations, challenges remain about how to apply data from trials to an individual older person. Trials show the
-
-<a id="p158"></a>**[p. 158]**
-
-4. The risks associated with immunizations, healthy behavior counseling, and counseling against unhealthy behaviors are much lower than the benefits. Thus, targeting is less important and nearly all older adults should receive these preventive medical interventions.
-
-5. Older adults with serious illness, advanced dementia, or those who are residing in skilled nursing facilities have limited life expectancy and are more likely to experience adverse effects from interventions, decreasing the likelihood of net benefit for many preventive interventions. Eliciting patient and family values and preferences can help clinicians align available preventive interventions with the goals of individual patients.
-
-average effectiveness of an intervention, but they generally do not address individual patient characteristics, such as comorbid conditions or functional status, which may change the likelihood of receiving benefit or harm from a
+One challenge of appropriately targeting prevention in older adults is that few studies of preventive interventions have enrolled persons older than 75 years. The absence of age-specific data requires clinicians to extrapolate data about the benefits and harms of preventive interventions in younger persons and apply it to older persons. Furthermore, even if trials suggest that the effectiveness of a preventive intervention is similar in younger and older populations, challenges remain about how to apply data from trials to an individual older person. Trials show the <a id="p158"></a>**[p. 158]** average effectiveness of an intervention, but they generally do not address individual patient characteristics, such as comorbid conditions or functional status, which may change the likelihood of receiving benefit or harm from a
 
 preventive intervention. Given these challenges, the need to individualize prevention and screening decisions is especially important for older people, because individuals become increasingly heterogeneous in their particular combination of health, function, remaining life expectancy, and values with advancing age.
 
@@ -152,7 +148,9 @@ may lead to unnecessary invasive testing, including surgical procedures and biop
 
 Recommendations The American Cancer Society and USPSTF recommend annual low-dose CT scans for lung cancer screening in adults 55 to 74 years old (or up to 80 in USPSTF guidelines) who have a 30-pack-year history and currently smoke or quit within the last 15 years. Guidelines suggest avoiding screening in older adults with a short life expectancy (< 10 years) or comorbidities that would make curative surgery or cancer-directed therapies not a reasonable option (see Table 11-1). The authors recommend lowdose CT scans when older adults are at high risk of lung cancer, are current or former heavy smokers, and have a low risk of a competing cause of death. Older adults considering screening should be counseled on the possibility of false positive results (including in the thyroid and other organs), potential downstream interventions, and the need for frequent follow-up for nodule tracking.
 
-Prostate Cancer Screening Although prostate-specific antigen (PSA) testing is frequently performed, there is conflicting evidence and guidelines regarding the benefits and harms of PSA testing. The mortality benefit is small and takes over 10 years to be realized. In contrast the harms from testing can include anxiety, unneeded prostate biopsies (associated with hematuria, pain, and infections), and overdiagnosis and unnecessary treatments of screen-detected cancers (associated with urinary incontinence, sexual dysfunction, and premature death). The USPSTF and American Cancer Society recommend that men age 55 to 69 make an individualized decision about PSA screening after discussion with a clinician
+### Prostate Cancer Screening
+
+Although prostate-specific antigen (PSA) testing is frequently performed, there is conflicting evidence and guidelines regarding the benefits and harms of PSA testing. The mortality benefit is small and takes over 10 years to be realized. In contrast the harms from testing can include anxiety, unneeded prostate biopsies (associated with hematuria, pain, and infections), and overdiagnosis and unnecessary treatments of screen-detected cancers (associated with urinary incontinence, sexual dysfunction, and premature death). The USPSTF and American Cancer Society recommend that men age 55 to 69 make an individualized decision about PSA screening after discussion with a clinician
 
 and consideration of life expectancy (typically greater than 10–15 years), and recommend against screening in men older than 70 years old (see Table 11-1). The authors do not recommend routine screening for prostate cancer in older men based on the available evidence.
 

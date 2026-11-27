@@ -30,19 +30,7 @@ Geriatric assessment describes the health evaluation of the older patient and em
 
 2. Observing patients walking and performing balance maneuvers best assesses balance and gait disorders. Qualitative gait assessment can be performed while the patient is entering or leaving the examining room and can be augmented by measuring gait speed.
 
-3. Although in 2020, the US Preventive Services Task Force (USPSTF) concluded that there is insufficient evidence on the balance of benefits and harms of screening
-
-Although in the strictest sense geriatric assessment is a diagnostic process, many use the term to include both evaluation and management. Moreover, geriatric assessment is sometimes used to refer to evaluation by the individual clinician and at other times is used to refer to a more interdisciplinary process, comprehensive geriatric assessment (CGA) and adaptations by various specialties.
-
-This chapter is divided into four components: (1) geriatric assessment by the individual clinician, with an emphasis on the outpatient setting; (2) a strategic approach to geriatric assessment for the practicing clinician; (3) CGA and evidence for its effectiveness; and (4) lessons learned from geriatric assessment that have been applied to health care delivery of older persons.
-
-## GERIATRIC ASSESSMENT BY THE INDIVIDUAL CLINICIAN
-
-Geriatric assessment (Figure 8-1) by the individual clinician extends beyond the traditional disease-oriented medical evaluation of older persons’ health to include assessment of cognitive, affective, social, economic, environmental, spiritual, functional, and frailty status, as well as a discussion of patient preferences regarding advance care planning. Assessment instruments can be used to guide these evaluations but do not substitute for clinical skills and judgment, including the skill of eliciting important items from the patient’s history and physical examination. Systematic assessment of the multiple domains noted above ensures that the evaluation is comprehensive. Some clinicians may prefer to rely on less formal questions to probe
-
-<a id="p118"></a>**[p. 118]**
-
-for cognitive impairment, clinicians should assess cognition when there is suspicion of impairment or when conducting a Medicare Annual Wellness Visit.
+3. Although in 2020, the US Preventive Services Task Force (USPSTF) concluded that there is insufficient evidence on the balance of benefits and harms of screening for cognitive impairment, clinicians should assess cognition when there is suspicion of impairment or when conducting a Medicare Annual Wellness Visit.
 
 4. Much of the germane information of the medical history can be obtained from old records, other professional or nonprofessional staff, or by self-report from patients or family members completing forms prior to office visits.
 
@@ -56,11 +44,17 @@ for cognitive impairment, clinicians should assess cognition when there is suspi
 
 9. Geriatric comanagement programs for older patients with hip fractures have shown to shorten length of stay and reduce complications and discharge to an increased level of care compared to their prehospitalization living situation.
 
+Although in the strictest sense geriatric assessment is a diagnostic process, many use the term to include both evaluation and management. Moreover, geriatric assessment is sometimes used to refer to evaluation by the individual clinician and at other times is used to refer to a more interdisciplinary process, comprehensive geriatric assessment (CGA) and adaptations by various specialties.
+
+This chapter is divided into four components: (1) geriatric assessment by the individual clinician, with an emphasis on the outpatient setting; (2) a strategic approach to geriatric assessment for the practicing clinician; (3) CGA and evidence for its effectiveness; and (4) lessons learned from geriatric assessment that have been applied to health care delivery of older persons.
+
+## GERIATRIC ASSESSMENT BY THE INDIVIDUAL CLINICIAN
+
+Geriatric assessment (Figure 8-1) by the individual clinician extends beyond the traditional disease-oriented medical evaluation of older persons’ health to include assessment of cognitive, affective, social, economic, environmental, spiritual, functional, and frailty status, as well as a discussion of patient preferences regarding advance care planning. Assessment instruments can be used to guide these evaluations but do not substitute for clinical skills and judgment, including the skill of eliciting important items from the patient’s history and physical examination. Systematic assessment of the multiple domains noted above ensures that the evaluation is comprehensive. Some clinicians may prefer to rely on less formal questions to probe <a id="p118"></a>**[p. 118]** into potential problems but the responses to these should be documented in the patient’s record.
+
 ![Figure 8-1](hazzard8e_ch8_figure-8-1_p118.webp)
 
 *Figure 8-1 — printed p. 118.*
-
-into potential problems but the responses to these should be documented in the patient’s record.
 
 Geriatric assessment differs according to the setting where the patient is being evaluated. In the hospital setting, the initial assessment is usually directed at the acute medical problem that precipitated the hospitalization and change from baseline. As the patient begins to recover and plans are initiated for discharge, other components (eg, social support, environment) assume increasing importance in the assessment. The inpatient setting can be problematic for geriatric assessment because of the rapidly changing status of several key dimensions. For example, a patient may temporarily become “dependent” on all measures of functional status when acutely ill and gradually improve prior to discharge. Because patients may overestimate their functional status based on their previous level of functioning, direct observational methods (eg, by nurses or rehabilitation therapists) provide a more accurate assessment. The patient’s full potential to participate in rehabilitation may not be known until near the time of discharge.
 
