@@ -5928,8 +5928,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "9d0d3fcfe9fb83d7878555dc2580b6e583209f19fe90271f7457d8ec23132398",
-      "bytes": 27370
+      "sha256": "b276cccd209d70f540e9d0265879c598511a772e5432f1f461b205eed3a2609f",
+      "bytes": 27376
     },
     {
       "url": "./css/reading-companion.css",
@@ -9528,8 +9528,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "d047e32dd80d844769d5b9284aaab2120d3eae7c4f4991ab1941543b6e778a31",
-      "bytes": 350874
+      "sha256": "2c2d246a671492f2c7e2b2df30a607429505df493995c796e7952f24a585b58c",
+      "bytes": 350981
     },
     {
       "url": "./js/changed-questions.js",

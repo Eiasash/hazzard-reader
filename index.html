@@ -1865,7 +1865,6 @@ function renderScreen(state){
   closeStatistics();
   const id=state?.hazzardView||'reader',changed=id!==currentView;
   hidePanel();currentView=id;syncLibraryHeader();
-  const studyTabs=chapterHeader.querySelector('.study-header-views');if(studyTabs)studyTabs.hidden=id!=='reader';
   for(const v of ['reader','desk','library'])$('#'+v).hidden=v!==id;
   $('#readerViewport').hidden=id!=='reader';
   examBar.hidden=!state?.hazzardExam;document.body.classList.toggle('examining',!examBar.hidden);if(examBar.hidden)for(const p of examPages)p.classList.remove('exam-current');
@@ -2087,6 +2086,10 @@ function syncMarkingUI(){
 function syncTabs(){
   const pane=document.body.classList.contains('flashcards-open')?'flashcards':panel.open?panel.dataset.currentPane:null;
   const active=activeTab();
+  const modes=chapterHeader.querySelector('.chapter-switch');
+  const showModes=readingPage&&currentView==='reader'&&!pane&&!$('#statsViewport')&&findBar.hidden&&examBar.hidden&&modes.childElementCount>0;
+  modes.hidden=!showModes;
+  chapterHeader.classList.toggle('study-header',showModes);
   for(const b of appTabs.querySelectorAll('[data-tab]')){if(b.dataset.tab===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');if(b.dataset.panel)b.setAttribute('aria-expanded',String(b.dataset.tab===active&&!!pane))}
   if(active==='tools')fab.setAttribute('aria-current','page');else fab.removeAttribute('aria-current');
   for(const button of chapterHeader.querySelectorAll('[data-panel="contents"]'))button.setAttribute('aria-expanded',String(pane==='contents'));
@@ -3377,7 +3380,7 @@ function chapterNavigation(){
   $('#reader .chapter-nav.endcap')?.remove();
   const base=cid==='laws'?'law':cid.replace(/s$/,''),chapter=orderedChapters.find(c=>String(c.number)===base);
   const title=$('#chapterHeaderTitle');title.textContent=copy.dataset.notLoaded?(copy.querySelector('h1')?.textContent||'Chapter unavailable'):chapter?(base==='law'?'':base+' · ')+shortChapter(chapter):(cid==='home'?'Home':cid==='drugs'?'Drugs':cid==='bank'?(new URL(location.href).searchParams.get('review')==='1'?'Review':'Question bank'):new URL(location.href).searchParams.get('simulation')==='1'?'Exam simulation':'Mock builder');title.title=chapter?.title||title.textContent;title.setAttribute('aria-label',title.textContent+' - Chapter contents');
-  const modes=chapterHeader.querySelector('.chapter-switch');modes.replaceChildren();modes.hidden=!chapter;
+  const modes=chapterHeader.querySelector('.chapter-switch');modes.replaceChildren();
   $('#findToggle').setAttribute('aria-label',mcq?.active?'Find questions':'Find on this page');
   title.disabled=!chapter;
   if(!chapter){delete title.dataset.panel;return;}
@@ -3394,7 +3397,6 @@ function chapterNavigation(){
     questions.dataset.chapterQuestions='';
     questions.onclick=()=>openChapter(study,{view:'questions'});if(currentMode==='questions')questions.setAttribute('aria-current','page');
     chapterHeader.querySelector('.chapter-switch').append(questions);
-    chapterHeader.classList.add('study-header');
   }
   const sequence=isStudy?orderedChapters.filter(c=>manifestChapters.some(s=>String(s.number)===(c.number==='law'?'laws':c.number+'s'))):orderedChapters;
   const index=sequence.indexOf(chapter),nav=document.createElement('nav');nav.className='chapter-nav';nav.setAttribute('aria-label','Previous and next chapters');

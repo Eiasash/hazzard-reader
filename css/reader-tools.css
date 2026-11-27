@@ -177,7 +177,8 @@ body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
 #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
 #chapterHeader.study-header #headerHome{display:none}
 #chapterHeader.study-header .chapter-heading{flex:1;min-inline-size:0}
-body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) .chapter-switch{display:flex!important;flex:0 0 auto!important;width:auto!important;gap:0}
+#chapterHeader.study-header .chapter-switch:not([hidden]){flex:0 0 auto;width:auto;gap:0}
+body:has(dialog:modal,.question-search:not([hidden]),.mcq-question-menu:popover-open,#highlightEditor:not([hidden])) #chapterHeader .chapter-switch{display:none}
 #chapterHeader.study-header .chapter-switch button{flex:none!important;min-width:44px;width:auto!important;padding:3px 6px}
 #chapterHeader.study-header .study-header-views{display:flex;align-items:center}
 #chapterHeader .study-header-views button[aria-selected=true]{background:var(--accent-soft);color:var(--accent);box-shadow:inset 0 -2px var(--accent)}
