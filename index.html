@@ -6702,8 +6702,9 @@ function readJSON(k,d){try{return HazzardStorage.readProtected(k,()=>d)??d}catch
 function writeJSON(k,v){try{HazzardStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const cid=String(copy.dataset.chapterId||'');
 // A fresh Study route opens its Summary. Explicit destinations and browser Back retain their own place.
-const startOnStudySummary=/^(?:\d+s|laws)$/.test(cid)&&!location.hash&&launchParams.get('resume')!=='1'&&launchParams.get('view')!=='questions'&&!history.state?.hazzardView;
+const startOnStudySummary=/^(?:\d+s|laws)$/.test(cid)&&!location.hash&&launchParams.get('resume')!=='1'&&launchParams.get('view')!=='questions'&&(!history.state?.hazzardView||history.state.hazzardStudySummaryStart===true);
 let preserveStudyPlace=startOnStudySummary;
+if(startOnStudySummary&&!history.state?.hazzardStudySummaryStart)history.replaceState({...history.state,hazzardStudySummaryStart:true},'');
 if(cid==='law'||cid==='laws')copy.lang='he';
 function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law';if(id==='laws')return 'Israeli law — study';return 'Chapter '+id.replace(/s$/,'')+(entry.kind==='study'?' study':'')+' — '+entry.title.replace(/ — Study$/i,'')}
 function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
@@ -7192,7 +7193,9 @@ window.visualViewport?.addEventListener('scroll',()=>followScroll(document.scrol
 document.addEventListener('reader-scroll-bars',event=>setReadingBarsHidden(event.detail===true));
 readerScroll.addEventListener('scroll',()=>{
   if(mcq?.active)return;
-  if(performance.now()<scrollIntentUntil&&readerScroll.scrollTop>0)preserveStudyPlace=false;
+  if(preserveStudyPlace&&performance.now()<scrollIntentUntil&&readerScroll.scrollTop>0){
+    preserveStudyPlace=false;history.replaceState({...history.state,hazzardStudySummaryStart:false},'');
+  }
   const y=Math.max(0,readerScroll.scrollTop);syncBookmark();
   if(!copy.dataset.notLoaded&&currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   const now=performance.now();if(now-lastPlaceWrite>=1000){rememberPlace();lastPlaceWrite=now;}
