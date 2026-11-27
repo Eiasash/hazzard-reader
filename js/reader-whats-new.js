@@ -8,7 +8,7 @@
   try { seen = localStorage.getItem(KEY) || ''; } catch {}
   const version = () => window.HazzardRelease?.version || '';
   function dot() {
-    button.textContent = version() + ' · What’s new';
+    button.textContent = 'What’s new';
     document.querySelector('#appTabs [data-tab="tools"]')?.classList.toggle('has-new-release', !!version() && seen !== version());
   }
   function markVisible() {

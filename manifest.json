@@ -608,7 +608,8 @@
       "file": "hazzard8e_ch92_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "drillCount": 3
+      "drillCount": 15,
+      "markUnits": "data/mark-units/92s.json"
     },
     {
       "number": "95s",
@@ -626,7 +627,7 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/106s.json",
-      "drillCount": 8
+      "drillCount": 15
     },
     {
       "number": "50s",
@@ -634,7 +635,8 @@
       "file": "hazzard8e_ch50_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/50s.json"
+      "markUnits": "data/mark-units/50s.json",
+      "drillCount": 15
     },
     {
       "number": "8s",
@@ -650,7 +652,8 @@
       "file": "hazzard8e_ch9_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/9s.json"
+      "markUnits": "data/mark-units/9s.json",
+      "drillCount": 15
     },
     {
       "number": "96s",
@@ -658,7 +661,8 @@
       "file": "hazzard8e_ch96_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/96s.json"
+      "markUnits": "data/mark-units/96s.json",
+      "drillCount": 15
     },
     {
       "number": "16s",
@@ -666,14 +670,17 @@
       "file": "hazzard8e_ch16_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions + exam-cited book images",
-      "markUnits": "data/mark-units/16s.json"
+      "markUnits": "data/mark-units/16s.json",
+      "drillCount": 15
     },
     {
       "number": "39s",
       "title": "Systems Physiology of Aging and Selected Disorders of Homeostasis — Study",
       "file": "hazzard8e_ch39_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/39s.json",
+      "drillCount": 15
     },
     {
       "number": "74s",
@@ -712,21 +719,27 @@
       "title": "Upper Gastrointestinal Disorders — Study",
       "file": "hazzard8e_ch85_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/85s.json",
+      "drillCount": 15
     },
     {
       "number": "103s",
       "title": "Fibromyalgia and Myofascial Pain Syndromes — Study",
       "file": "hazzard8e_ch103_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/103s.json",
+      "drillCount": 15
     },
     {
       "number": "107s",
       "title": "Other Viruses: Human Immunodeficiency Virus Infection and Herpes Zoster — Study",
       "file": "hazzard8e_ch107_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions + exam-cited book images"
+      "description": "Concept summary + linked exam questions + exam-cited book images",
+      "markUnits": "data/mark-units/107s.json",
+      "drillCount": 15
     },
     {
       "number": "49",
@@ -877,7 +890,9 @@
       "title": "Skin Cancer — Study",
       "file": "hazzard8e_ch93_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/93s.json",
+      "drillCount": 15
     },
     {
       "number": "107",
@@ -947,7 +962,9 @@
       "title": "Aging of the Gastrointestinal System and Selected Lower GI Disorders — Study",
       "file": "hazzard8e_ch84_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/84s.json",
+      "drillCount": 15
     },
     {
       "number": "30",
@@ -978,7 +995,9 @@
       "title": "Prostate Cancer — Study",
       "file": "hazzard8e_ch90_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/90s.json",
+      "drillCount": 15
     },
     {
       "number": "11",
@@ -1008,7 +1027,9 @@
       "title": "Management of Common Nonpain Symptoms — Study",
       "file": "hazzard8e_ch69_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/69s.json",
+      "drillCount": 15
     },
     {
       "number": "31",
@@ -1047,7 +1068,8 @@
       "file": "hazzard8e_ch34_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/34s.json"
+      "markUnits": "data/mark-units/34s.json",
+      "drillCount": 15
     },
     {
       "number": "38",
@@ -1094,7 +1116,9 @@
       "title": "Traumatic Brain Injury and Chronic Traumatic Encephalopathy — Study",
       "file": "hazzard8e_ch64_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/64s.json",
+      "drillCount": 15
     },
     {
       "number": "70",
@@ -1109,7 +1133,9 @@
       "title": "Palliative Care Across Care Settings — Study",
       "file": "hazzard8e_ch70_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/70s.json",
+      "drillCount": 15
     },
     {
       "number": "72",
@@ -1187,7 +1213,9 @@
       "title": "Hepatic, Pancreatic, and Biliary Diseases — Study",
       "file": "hazzard8e_ch86_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/86s.json",
+      "drillCount": 15
     },
     {
       "number": "91",
@@ -1201,7 +1229,9 @@
       "title": "Lung Cancer — Study",
       "file": "hazzard8e_ch91_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/91s.json",
+      "drillCount": 15
     },
     {
       "number": "66",
@@ -1216,7 +1246,9 @@
       "title": "General Topics in Geriatric Psychiatry — Study",
       "file": "hazzard8e_ch66_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/66s.json",
+      "drillCount": 15
     },
     {
       "number": "48",
@@ -1247,7 +1279,9 @@
       "title": "Assessment of Decisional Capacity and Competencies — Study",
       "file": "hazzard8e_ch10_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/10s.json",
+      "drillCount": 15
     },
     {
       "number": "7",
@@ -1278,7 +1312,8 @@
       "file": "hazzard8e_ch23_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/23s.json"
+      "markUnits": "data/mark-units/23s.json",
+      "drillCount": 15
     },
     {
       "number": "36",
@@ -1293,7 +1328,9 @@
       "title": "Gynecologic Disorders — Study",
       "file": "hazzard8e_ch36_study.md",
       "kind": "study",
-      "description": "Concept summary + linked exam questions"
+      "description": "Concept summary + linked exam questions",
+      "markUnits": "data/mark-units/36s.json",
+      "drillCount": 15
     },
     {
       "number": "26",
@@ -1321,7 +1358,9 @@
       "number": "28s",
       "title": "Anesthesia — Study",
       "file": "hazzard8e_ch28_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/28s.json",
+      "drillCount": 15
     },
     {
       "number": "29",
@@ -1333,7 +1372,9 @@
       "number": "29s",
       "title": "Surgical Quality and Outcomes — Study",
       "file": "hazzard8e_ch29_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/29s.json",
+      "drillCount": 15
     },
     {
       "number": "32",
@@ -1345,7 +1386,9 @@
       "number": "32s",
       "title": "Oral Health — Study",
       "file": "hazzard8e_ch32_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/32s.json",
+      "drillCount": 15
     },
     {
       "number": "33",
@@ -1357,7 +1400,9 @@
       "number": "33s",
       "title": "Low Vision: Assessment and Rehabilitation — Study",
       "file": "hazzard8e_ch33_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/33s.json",
+      "drillCount": 15
     },
     {
       "number": "35",
@@ -1369,7 +1414,9 @@
       "number": "35s",
       "title": "Sexuality, Sexual Function, and the Aging Woman — Study",
       "file": "hazzard8e_ch35_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/35s.json",
+      "drillCount": 15
     },
     {
       "number": "37",
@@ -1394,7 +1441,9 @@
       "number": "54s",
       "title": "Therapeutic Exercise — Study",
       "file": "hazzard8e_ch54_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/54s.json",
+      "drillCount": 15
     },
     {
       "number": "41",
@@ -1406,7 +1455,9 @@
       "number": "41s",
       "title": "Managing the Care of Patients with Multiple Chronic Conditions — Study",
       "file": "hazzard8e_ch41_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/41s.json",
+      "drillCount": 15
     },
     {
       "number": "71",
@@ -1418,7 +1469,9 @@
       "number": "71s",
       "title": "Effective Communication Strategies For Patients with Serious Illness — Study",
       "file": "hazzard8e_ch71_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/71s.json",
+      "drillCount": 15
     },
     {
       "number": "56",
@@ -1430,7 +1483,9 @@
       "number": "56s",
       "title": "The Aging Brain — Study",
       "file": "hazzard8e_ch56_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/56s.json",
+      "drillCount": 15
     },
     {
       "number": "1",
@@ -1443,7 +1498,8 @@
       "title": "Biology of Aging and Longevity — Study",
       "file": "hazzard8e_ch1_study.md",
       "kind": "study",
-      "markUnits": "data/mark-units/1s.json"
+      "markUnits": "data/mark-units/1s.json",
+      "drillCount": 15
     },
     {
       "number": "40",
@@ -1455,7 +1511,9 @@
       "number": "40s",
       "title": "Applied Clinical Geroscience — Study",
       "file": "hazzard8e_ch40_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/40s.json",
+      "drillCount": 15
     },
     {
       "number": "18",
@@ -1467,7 +1525,9 @@
       "number": "18s",
       "title": "Transitions of Care — Study",
       "file": "hazzard8e_ch18_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/18s.json",
+      "drillCount": 15
     },
     {
       "number": "25",
@@ -1479,7 +1539,9 @@
       "number": "25s",
       "title": "Patient-Centered Management of Chronic Diseases — Study",
       "file": "hazzard8e_ch25_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/25s.json",
+      "drillCount": 15
     },
     {
       "number": "17",
@@ -1505,7 +1567,9 @@
       "number": "14s",
       "title": "Models of Hospital and Outpatient Care — Study",
       "file": "hazzard8e_ch14_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/14s.json",
+      "drillCount": 15
     },
     {
       "number": "12",
@@ -1517,7 +1581,9 @@
       "number": "12s",
       "title": "Age-Friendly Care — Study",
       "file": "hazzard8e_ch12_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/12s.json",
+      "drillCount": 15
     },
     {
       "number": "24",
@@ -1529,7 +1595,9 @@
       "number": "24s",
       "title": "Integrative Medicine and Health — Study",
       "file": "hazzard8e_ch24_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/24s.json",
+      "drillCount": 15
     },
     {
       "number": "19",
@@ -1541,7 +1609,9 @@
       "number": "19s",
       "title": "Value-Based Care — Study",
       "file": "hazzard8e_ch19_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/19s.json",
+      "drillCount": 15
     },
     {
       "number": "20",
@@ -1553,7 +1623,9 @@
       "number": "20s",
       "title": "The Role of Social Workers — Study",
       "file": "hazzard8e_ch20_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/20s.json",
+      "drillCount": 15
     },
     {
       "number": "21",
@@ -1565,7 +1637,9 @@
       "number": "21s",
       "title": "The Patient Perspective — Study",
       "file": "hazzard8e_ch21_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/21s.json",
+      "drillCount": 15
     },
     {
       "number": "13",
@@ -1577,7 +1651,9 @@
       "number": "13s",
       "title": "Geriatrics Around the World — Study",
       "file": "hazzard8e_ch13_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/13s.json",
+      "drillCount": 15
     },
     {
       "number": "2",
@@ -1589,7 +1665,9 @@
       "number": "2s",
       "title": "Demography and Epidemiology — Study",
       "file": "hazzard8e_ch2_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/2s.json",
+      "drillCount": 15
     },
     {
       "number": "3",
@@ -1615,7 +1693,9 @@
       "number": "4s",
       "title": "Psychosocial Aspects of Aging — Study",
       "file": "hazzard8e_ch4_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/4s.json",
+      "drillCount": 15
     },
     {
       "number": "5",
@@ -1627,7 +1707,9 @@
       "number": "5s",
       "title": "Sex Differences in Health and Longevity — Study",
       "file": "hazzard8e_ch5_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/5s.json",
+      "drillCount": 15
     },
     {
       "number": "6",
@@ -1639,7 +1721,9 @@
       "number": "6s",
       "title": "Social Determinants of Health, Health Disparities, and Health Equity — Study",
       "file": "hazzard8e_ch6_study.md",
-      "kind": "study"
+      "kind": "study",
+      "markUnits": "data/mark-units/6s.json",
+      "drillCount": 15
     }
   ],
   "examYieldOrder": [

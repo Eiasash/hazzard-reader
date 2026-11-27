@@ -54,7 +54,7 @@ manifest['examYieldOrder'] = sorted(
     (item['number'] for item in manifest['chapters'] if item['kind'] == 'chapter' and item['number'].isdigit()),
     key=exam_yield_key,
 )
-paths = {'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
+paths = {'js/reader-input.js', 'js/reader-debug.js', 'js/reader-whats-new.js', 'css/reader-tools.css', 'data/changelog.json', 'index.html', 'manifest.json', 'js/marked.min.js', 'js/mcq.js', 'js/question-search.js', 'js/mcq-review.js', 'js/exam-simulation.js', 'js/reader-storage.js', 'js/reader-status.js', 'js/reader-cloud.js', 'css/mcq.css', 'data/mcq/index.json', 'data/mcq/topics.json', 'data/mcq/collections.json', 'data/mcq/official-overrides.json', 'data/mcq/id-aliases.json', 'data/mcq/exam-references.json', 'data/mcq/hazzard8e-toc.json', 'js/exam-evidence.js', 'js/law-cards.js', 'css/law-cards.css', 'data/law-cards.json', 'js/memory-aids.js', 'css/memory-aids.css', 'data/memory-aids.json', 'js/drug-index.js', 'css/drug-index.css', 'data/drug-index.json'}
 paths.update({'app.webmanifest','icons/hazzard-192.png','icons/hazzard-512.png','data/highlight-aliases.json'})
 paths.update(question_files)
 paths.update({'js/question-data.js','data/verification-registry.json'})
@@ -109,6 +109,8 @@ manifest_text = json.dumps(manifest, ensure_ascii=False, indent=2) + '\n'
 if manifest_text != manifest_path.read_text(encoding='utf-8'):
     manifest_path.write_text(manifest_text, encoding='utf-8', newline='\n')
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
+paths.update(re.findall(r'<script\b[^>]*\bsrc="(js/[^"?#]+\.js)"', html, re.I))
+paths.update(re.findall(r'<link\b[^>]*\bhref="(css/[^"?#]+\.css)"', html, re.I))
 paths.update(re.findall(r'(?:src|data-src)="(chapters/[^"?#]+\.(?:png|jpe?g|gif|svg|webp))"', html, re.I))
 files = []
 for path in sorted(paths):

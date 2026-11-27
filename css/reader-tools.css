@@ -12,11 +12,8 @@
 .release-entry h3 { margin-block:4px 8px; }
 .release-entry ul { padding-inline-start:22px; }
 .release-entry li { margin-block:8px; line-height:1.5; }
-#readerDebug { box-sizing:border-box; position:fixed; inset:0; margin:auto; width:min(680px,calc(100vw - 20px)); max-width:calc(100vw - 20px); max-height:calc(100dvh - 24px); padding:14px; border:1px solid var(--rule,#68737f); border-radius:12px; background:var(--surface,#fffdf8); color:var(--ink,#263029); font:calc(14px * var(--fs,1))/1.45 system-ui,sans-serif; overflow:auto; }
-#readerDebug::backdrop { background:rgb(0 0 0 / .45); }
-#readerDebug[open] { display:block; }
-#readerDebug h2 { font-size:calc(18px*var(--fs,1)); margin:0 0 10px; }
-#readerDebug .debug-actions { display:flex; flex-wrap:wrap; gap:8px; position:sticky; inset-block-start:-14px; background:var(--surface,#fffdf8); padding-block:8px; }
+#readerDebug { min-inline-size:0; }
+#readerDebug .debug-actions {display:flex;flex-wrap:wrap;gap:8px;margin-block:6px}
 #readerDebug button { min-height:44px; min-width:44px; padding:8px 12px; background:var(--soft,#eeece3); color:inherit; border:1px solid var(--rule,#68737f); border-radius:8px; font:inherit; cursor:pointer; }
 #readerDebug pre { white-space:pre-wrap; overflow-wrap:anywhere; direction:ltr; unicode-bidi:isolate; font:calc(12px * var(--fs,1))/1.5 monospace; }
 #readerDebug textarea { box-sizing:border-box; width:100%; min-height:150px; direction:ltr; font:calc(12px * var(--fs,1))/1.5 monospace; color:inherit; background:var(--page,#f8f5ed); }
@@ -44,7 +41,8 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 
 /* Answer-key excerpts use the existing Notebook rows and actions. */
 .nb-answer-highlight>.nb-highlight-remove{margin-inline-start:calc(8px*var(--fs,1))}
-.nb-answer-text{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
+.nb-answer-text{white-space:pre-wrap;overflow-wrap:anywhere;box-decoration-break:clone;-webkit-box-decoration-break:clone;background:var(--mark-colour);color:var(--hl-ink)}
+.nb-answer-text[data-marked="green"]{background:transparent;color:inherit;text-decoration:underline 2px var(--underline-red);text-underline-offset:.18em}
 .nb-answer-highlight small{display:block;margin-block-start:calc(3px*var(--fs,1));line-height:1.4;overflow-wrap:anywhere}
 .nb-answer-list{margin-block:calc(4px*var(--fs,1)) calc(8px*var(--fs,1))}
 
@@ -80,40 +78,192 @@ body:has(#readerUpdateButton:not([hidden])) #markBar{bottom:calc(var(--vv-bottom
 #tableViewer button { min-width:44px; min-height:44px; }
 #tableViewer .table-scroll { flex:1; overflow:auto; overscroll-behavior:contain; }
 #tableViewer table :is(td,th) { min-inline-size:10em; }
-
-.mark-tools,#inkDots { display:flex;align-items:center; }
-#highlightEditor button { min-width:32px;min-height:38px;padding:2px 4px;border:0;background:transparent;color:inherit; }
-#highlightEditor button[aria-pressed="true"] { background:var(--accent-soft);outline:1px solid var(--accent);outline-offset:-2px; }
-:is(#inkDots,#penDots) button::before { content:"";display:block;margin:auto;width:17px;height:17px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--muted); }
-:is(#inkDots,#penDots) [data-ink="green"]::before { height:3px;border:0;border-radius:0;background:var(--underline-red); }
-#highlightEditor input { display:block;width:100%;font:16px var(--ui); }
-[data-point]::before { content:attr(data-point);display:inline-block;min-width:1.35em;padding-inline:.15em;box-sizing:border-box;text-align:center;border:1px solid currentColor;border-radius:1em;line-height:1.2;vertical-align:super;font-size:.72em;font-weight:bold;font-family:var(--ui);color:var(--accent);background:var(--surface);margin-inline:.16em; }
+#tableViewer[dir="rtl"] table :is(td,th) { min-inline-size:0; padding-inline:var(--s2); }
 
 
-#penDots { display:flex;align-items:center; }
-#markBar #penDots button { padding:2px;min-width:28px;min-height:44px; }
-#penDots [aria-pressed="true"],#penNumbers[aria-pressed="true"] { outline:2px solid var(--accent);outline-offset:-3px; }
-#markBar,#markBar.answer-mark-bar { flex-wrap:nowrap;gap:2px; }
-#markBar #penNumbers { white-space:nowrap; }
-#penMore { position:relative;margin-inline-start:auto; }
-#penMore summary { cursor:pointer;list-style:none;display:grid;place-items:center;min-width:32px;min-height:44px; }
-#penMore summary::-webkit-details-marker { display:none; }
-#markBar #bookmark { position:absolute;bottom:100%;right:0;white-space:nowrap;background:var(--surface);border:1px solid var(--rule); }
-@media(max-width:450px){
-  #markBar button { min-width:28px;padding-inline:4px; }
-  #markBar #penDots button { min-width:clamp(24px,8vw,36px);padding-inline:2px; }
+/* One fixed footer. Question actions stay in their question, so the six
+   destinations (including Text and Notebook) remain reachable there. */
+#bottomSlot {position:fixed;inset-inline:0;bottom:var(--vv-bottom-gap,0px);z-index:9;background:var(--surface)}
+#bottomSlot :is(#appTabs,#markBar,#examBar) {position:static;inset:auto;margin:0;width:100%;transform:none}
+#bottomSlot [hidden] {display:none!important}
+#bottomSlot:has(#examBar:not([hidden])) #appTabs {display:none}
+body:has(#panel[open]) #bottomSlot #examBar {display:none}
+body:has(#panel[open]) #bottomSlot #appTabs:not([hidden]) {display:grid}
+#markBar:not([hidden]) {display:flex;align-items:center;justify-content:space-evenly;padding:4px 8px max(4px,env(safe-area-inset-bottom));min-height:48px}
+#highlightEditor {width:100%;font:500 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#highlightEditor .mark-tools {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
+#markBar button {min-height:44px;border:1px solid var(--rule);border-radius:7px;color:var(--accent);background:var(--surface);font:600 calc(12px * var(--fs,1))/1.2 var(--ui);padding:3px 5px}
+
+#highlightEditor textarea {display:block;box-sizing:border-box;width:100%;min-height:44px;resize:vertical;font:16px/1.35 var(--ui)}
+.keyboard-open #bottomSlot #markBar:not([hidden]) {display:flex!important}
+.mcq-page>.mcq-docked-actions {position:static}
+.mcq-page:has(>.mcq-docked-actions) .mcq-citations {padding-block-end:var(--s2)}
+body.mark-bar-open #mcqViewport {padding-bottom:0}
+
+:is(#copy,.mcq-explanation),:is(#copy,.mcq-explanation) * {user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none}
+:is(#copy,.mcq-explanation) {touch-action:pan-x pan-y pinch-zoom}
+:root[data-mark-style="underline"]::highlight(pen-preview) {text-decoration:underline 2px var(--underline-red)}
+::highlight(pen-preview) {background:var(--current-mark,var(--hl-yellow));color:var(--hl-ink)}
+:is(#copy,.mcq-explanation) :is(p,li,td,th,h1,h2,h3,h4,figcaption,blockquote) {position:relative}
+/* Reserve the rail regardless of the number of marks. The label has no
+   inline width and therefore cannot push the first word or the next line. */
+#reader.page,.mcq-explanation {padding-inline-start:max(var(--gutter),calc(30px * var(--fs,1)))}
+#copy,.mcq-explanation {position:relative}
+.point-rail {position:absolute;inset:0 0 auto;height:0;pointer-events:none;z-index:1}
+.point-badge {position:absolute;pointer-events:auto;cursor:pointer;min-inline-size:0;min-block-size:0;padding:0 2px;box-sizing:border-box;
+  border:1px solid color-mix(in srgb,var(--badge-ink) 64%,var(--muted));border-radius:5px;
+  font:700 calc(12px * var(--fs,1))/1.25 var(--ui);font-variant-numeric:tabular-nums;text-align:center;
+  background:var(--badge-ink);color:var(--hl-ink)}
+.point-badge:focus-visible {outline:2px solid var(--accent);outline-offset:1px}
+.point-badge[data-ink="green"] {color:var(--underline-red);background:var(--surface);border-color:var(--underline-red)}
+#highlightEditor .mark-palette {display:flex;align-items:center;justify-content:space-between;gap:4px;padding-bottom:3px}
+#inkDots {display:flex;align-items:center}
+#markBar #inkDots button {display:grid;place-items:center;min-width:0;width:clamp(30px,10vw,44px);min-height:44px;padding:0;border:0;background:transparent}
+#inkDots button::before {content:'';display:block;box-sizing:border-box;width:19px;height:19px;border-radius:50%;background:var(--ink-dot);border:1px solid var(--control)}
+#inkDots [data-ink="green"]::before {height:4px;border:0;border-radius:2px;background:var(--underline-red)}
+#inkDots [aria-pressed="true"] {outline:1px solid var(--accent);outline-offset:-4px;background:var(--accent-soft)}
+#markBar #penNumbers {display:flex;align-items:center;gap:6px;color:var(--ink);border:0;background:transparent;padding-inline:4px;text-align:start}
+.number-switch {width:27px;height:16px;flex:none;border-radius:20px;border:1px solid var(--control);background:var(--soft);display:flex;align-items:center;padding:2px}
+.number-switch::after {content:'';width:10px;height:10px;border-radius:50%;background:var(--muted)}
+#penNumbers[aria-checked="true"] .number-switch {justify-content:flex-end;background:var(--accent);border-color:var(--accent)}
+#penNumbers[aria-checked="true"] .number-switch::after {background:var(--surface)}
+.edition-note {margin-block:var(--s2);border-block:1px solid var(--rule)}
+.edition-note>summary {padding:8px 4px;min-height:44px;align-content:center;cursor:pointer;font:600 calc(13px * var(--fs,1))/1.35 var(--ui);color:var(--accent)}
+.edition-note>.note {margin:0 0 8px;padding:4px;border:0}
+
+#bottomSlot.is-collapsed {transform:translateY(100%);visibility:hidden;pointer-events:none}
+body.reading-bars-hidden #chapterHeader {transform:translateY(-100%);visibility:hidden}
+body.reading-bars-hidden #readerViewport {inset-block-end:var(--vv-bottom-gap,0px)}
+body.reading-bars-hidden #mcqViewport {inset-block-start:0}
+body.reading-bars-hidden #findBar {visibility:hidden;pointer-events:none}
+body.mark-bar-open .mcq-docked-actions {visibility:hidden;pointer-events:none}
+
+#bottomSlot #appTabs{block-size:calc(52px + env(safe-area-inset-bottom,0px));min-block-size:0;max-block-size:calc(52px + env(safe-area-inset-bottom,0px));align-items:stretch;box-sizing:border-box}
+#bottomSlot #appTabs button{height:auto;min-block-size:44px;align-self:stretch}
+#bottomSlot #highlightEditor [hidden]{display:none!important}
+:is(#copy,.mcq-explanation) :is(input,textarea,[contenteditable]:not([contenteditable="false"])){user-select:text;-webkit-user-select:text;touch-action:auto}
+@media(max-width:450px){#chapterHeader :is(#headerPrevious,#headerNext){display:none!important}}
+
+.reader-range-paint :is(#copy,.mcq-explanation) :is([data-range],[data-answer-highlight],[data-unit])[data-marked]:not(img,svg,[data-prior-excerpt] *){
+  background:transparent!important;border-radius:0!important;text-decoration:none!important;color:inherit
 }
-:is(#copy,.mcq-explanation),:is(#copy,.mcq-explanation) :is(span,a) { -webkit-user-drag:none; }
-:is(#copy,.mcq-explanation),:is(#copy,.mcq-explanation) * { user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none; }
-:root[data-mark-style="underline"]::highlight(pen-preview) { text-decoration:underline 2px var(--underline-red); }
-::highlight(pen-preview) { background:var(--current-mark,var(--hl-yellow)); }
+::highlight(reader-yellow){background-color:var(--hl-yellow);color:var(--hl-ink)}
+::highlight(reader-blue){background-color:var(--hl-blue);color:var(--hl-ink)}
+::highlight(reader-pink){background-color:var(--hl-pink);color:var(--hl-ink)}
+::highlight(reader-purple){background-color:var(--hl-purple);color:var(--hl-ink)}
+::highlight(reader-green){text-decoration:underline 2px var(--underline-red)}
 
-body.mark-bar-open { --tabs-height:0px; }
-body.mark-bar-open #appTabs { display:none; }
-#penDots:not(.expanded) button:not([aria-pressed="true"]) { display:none; }
-#markBar:not([hidden]) { display:flex;align-items:center;padding-bottom:max(2px,env(safe-area-inset-bottom)); }
-#markBar:has(#highlightEditor:not([hidden])) > :not(#highlightEditor):not(#markDone) { display:none; }
-#highlightEditor { flex:1;min-width:0;font:normal 13px/1.2 var(--ui); }
-#highlightEditor .mark-tools { flex-wrap:wrap; }
-#markBar #highlightEditor button { min-width:28px;min-height:38px;padding:2px 4px; }
-body.keyboard-open.mark-bar-open #markBar:not([hidden]) { display:flex!important; }
+#bottomSlot #markNumber:focus,#bottomSlot #markNote:focus{outline:1px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+
+.choice-chips{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+.choice-chips button{min-height:44px;padding:4px 10px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);color:var(--muted);font:600 calc(12px * var(--fs,1))/1.2 var(--ui)}
+.choice-chips button[aria-pressed=true]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"]){display:flex!important;height:52px!important;padding:4px 10px!important}
+#chapterHeader:is([data-library="home"],[data-library="chapters"],[data-library="drugs"])>:not(.library-header){display:none!important}
+.library-header:not([hidden]){display:flex;gap:10px;width:100%;align-items:center}
+.library-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+.library-header input{flex:1;min-inline-size:0;min-height:44px;margin:0;padding:7px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);font:500 max(16px,calc(14px * var(--fs,1)))/1.2 var(--ui)}
+#library>.eyebrow,#library>h1,.drug-index>h1{display:none}
+#library .library-search{position:static;padding:0}
+#chapterRows .library-row{position:relative;grid-template-columns:minmax(0,1fr) auto;gap:8px;min-height:0;padding:5px 0}
+#chapterRows .library-row>.chapter-name{border:0;background:transparent;padding:6px 0;text-align:start;align-self:stretch;color:var(--ink);font:650 calc(15px * var(--fs,1))/1.3 var(--ui)}
+#chapterRows .chapter-name::after{content:"";position:absolute;inset:0}
+#chapterRows .library-study{position:relative;z-index:1;min-width:44px;padding-inline:7px}
+.library-status,.library-exams{display:block;margin-block-start:3px;color:var(--muted);font:500 calc(11px * var(--fs,1))/1.35 var(--ui)}
+.library-exams{font-weight:400}
+
+#chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]){display:flex!important;height:50px!important;gap:3px;padding-inline:5px!important}
+#chapterHeader.study-header #headerHome{display:none}
+#chapterHeader.study-header .chapter-heading{flex:1;min-inline-size:0}
+body:not(.nav-page-open):not(.flashcards-open) #chapterHeader.study-header:not([data-library=home]):not([data-library=chapters]):not([data-library=drugs]) .chapter-switch{display:flex!important;flex:0 0 auto!important;width:auto!important;gap:0}
+#chapterHeader.study-header .chapter-switch button{flex:none!important;min-width:44px;width:auto!important;padding:3px 6px}
+#chapterHeader.study-header .study-header-views{display:flex;align-items:center}
+#chapterHeader .study-header-views button[aria-selected=true]{background:var(--accent-soft);color:var(--accent);box-shadow:inset 0 -2px var(--accent)}
+#chapterHeader.study-header #headerCloud{width:44px;min-width:44px}
+#chapterHeader.study-header #headerCloudLabel{display:none}
+#readerViewport.has-study-views #reader{padding-top:calc(50px + var(--s4))}
+#readerViewport.has-study-views #mcqViewport{inset-block-start:50px}
+body.reading-bars-hidden #readerViewport.has-study-views #mcqViewport{inset-block-start:0}
+#chapterHeader .flash-header{display:none}
+body.flashcards-open #chapterHeader>:not(.flash-header){display:none!important}
+body.flashcards-open #chapterHeader{display:flex!important;height:50px!important}
+body.flashcards-open #chapterHeader .flash-header{display:flex!important;align-items:center;gap:12px;width:100%}
+.flash-header strong{font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+#flashcardView:not([hidden]){position:fixed;inset:0 0 calc(var(--vv-bottom-gap,0px) + var(--tabs-height)) 0;z-index:5;overflow:auto;scrollbar-width:thin;background:var(--page);color:var(--ink);padding:calc(var(--vv-top,0px) + 58px) max(var(--gutter),calc((100vw - 750px)/2)) 20px}
+body.reading-bars-hidden #flashcardView{inset-block-end:var(--vv-bottom-gap,0px)}
+#flashcardView #flashcardArticle,#flashcardView #flashcardCompletion{padding:var(--s4);border:1px solid var(--rule);border-radius:var(--radius);background:var(--surface)}
+#flashcardView .flashcard-actions{margin-block:10px}
+#flashcardView .flashcard-actions button{flex:1;min-height:44px;border:1px solid var(--rule);border-radius:6px}
+#flashcardView .flashcard-actions button:disabled{opacity:.55}
+#flashcardView #flashcardAnswer summary{min-height:44px;align-content:center;cursor:pointer}
+.study-page{display:flex;flex-direction:column}
+.study-group[data-study-continuation]>summary{display:none}
+.study-group>summary,.study-current-practice>summary,.study-practice-reference{min-height:44px;align-content:center;cursor:pointer;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.3 var(--ui)}
+
+#copy.study-page>.eyebrow:not(:has([data-marked])){display:none}
+#copy.study-page>h1{margin-block:0 .35em}
+#copy.study-page .study-flashcards{margin-block:4px 8px}
+#copy.study-page>.study-group{margin-block:0;border:0;border-block-end:1px solid var(--rule);border-radius:0}
+#copy.study-page>.study-group>summary{padding-block:6px}
+#copy.study-page>.study-group[data-study-continuation]{border:0}
+
+#panel[open][data-primary=true]{
+  position:fixed;inset:0 0 calc(var(--vv-bottom-gap,0px) + var(--tabs-height));margin:0;
+  width:100%;inline-size:100%;max-width:none;height:auto!important;max-height:none!important;max-block-size:none!important;
+  padding:calc(var(--vv-top,0px) + 56px) max(var(--gutter),calc((100vw - 780px)/2)) 8px;background:var(--page);
+  border:0;border-radius:0;box-shadow:none;transform:none;z-index:5;display:flex;flex-direction:column
+}
+#panel[data-primary=true]>.dialog-head{display:none}
+#panel[data-primary=true]>[data-pane]:not([hidden]){flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:0 3px 12px}
+#panel[data-primary=true] [data-pane] [data-pane]:not([hidden]){display:block;overflow:visible;padding:6px 1px}
+#panel[data-primary=true] .settings-group{display:block;border:0;border-block-end:1px solid var(--rule);margin:5px 0;background:transparent}
+.settings-group>summary{min-height:44px;align-content:center;color:var(--accent);font:600 calc(14px * var(--fs,1))/1.4 var(--ui);cursor:pointer}
+#chapterHeader>.nav-page-title{display:none}
+body.nav-page-open #chapterHeader{display:flex!important;height:50px!important;padding-inline:12px!important}
+body.nav-page-open #chapterHeader>:not(.nav-page-title){display:none!important}
+body.nav-page-open #chapterHeader>.nav-page-title{display:block!important;font:700 calc(16px * var(--fs,1))/1.2 var(--ui);color:var(--ink)}
+body.nav-page-open #bottomSlot{z-index:10}
+body.reading-bars-hidden #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0}
+body.nav-page-open.keyboard-open #panel[data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px)}
+#chapterHeader.show-resume-note>:not(#resumeNotice){visibility:hidden}
+#resumeNotice{position:absolute;inset:0;display:flex;align-items:center;pointer-events:none;padding-inline:12px;color:var(--ink);font:600 calc(14px * var(--fs,1))/1.25 var(--ui)}
+#readerViewport>#readerScroll{margin-block-start:var(--reader-header-space,48px)}
+#readerScroll>#reader{padding-top:var(--s4)}
+body.reading-bars-hidden #readerViewport>#readerScroll{margin-block-start:0}
+
+#panel[open][data-primary=true][data-current-pane=tools]>[data-pane=tools]{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px}
+#panel[open][data-primary=true][data-current-pane=tools]>[data-pane=tools]>*{flex:0 0 auto;max-inline-size:100%;min-inline-size:0}
+#panel[data-primary=true] .settings-group>summary{box-sizing:border-box;width:100%}
+
+body.nav-page-open,body.flashcards-open{overflow:hidden}
+#panel[open][data-primary=true] .settings-controls{display:flex;flex-direction:column;align-items:stretch;gap:7px}
+#panel[open][data-primary=true] #sizeChoices{display:flex;gap:4px}
+#panel[open][data-primary=true] #sizeChoices button{width:auto;flex:1}
+#panel[open][data-primary=true] #toggleTheme{display:flex;width:auto;justify-content:center;gap:6px;align-items:center}
+.settings-label{font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+
+/* Keep scroll extents stable while the bars disappear. Otherwise a short
+   card can scroll 20px, grow by 52px and immediately snap back to the top. */
+body #flashcardView:not([hidden]){inset-block-end:var(--vv-bottom-gap,0px);padding-block-end:calc(20px + var(--tabs-height))}
+body #panel[open][data-primary=true]{inset-block-end:var(--vv-bottom-gap,0px);padding-block-start:0;padding-block-end:0}
+body #panel[open][data-primary=true]>[data-pane]:not([hidden]){padding-block-start:calc(var(--vv-top,0px) + 56px);padding-block-end:calc(12px + var(--tabs-height))}
+body.reading-bars-hidden #readerScroll{padding-block-end:var(--tabs-height)}
+body.reading-bars-hidden #mcqViewport{padding-block-end:calc(var(--tabs-height) + 50px)}
+
+button:disabled[data-unavailable]::after{content:attr(data-unavailable);display:block;font:400 .85em/1.35 var(--ui);white-space:normal}
+#panel button:disabled[data-unavailable]{height:auto;white-space:normal}
+
+#markUndoToast:not([hidden]){min-height:48px;display:flex;align-items:center;justify-content:center;gap:18px;color:var(--ink);font:600 calc(13px * var(--fs,1))/1.3 var(--ui)}
+#highlightEditor:has(>#markUndoToast:not([hidden])){display:flex;flex-direction:column}
+#highlightEditor>#markUndoToast{order:-1}
+#markUndoToast button{min-height:44px;min-width:64px;color:var(--accent)}
+
+@media(max-width:450px){
+  #bottomSlot #appTabs button,#bottomSlot #appTabs [data-tab="tools"]{font-size:clamp(10px,3.1vw,calc(12px * var(--fs,1)));min-inline-size:0;padding-inline:0}
+}
+
+.mcq-review-back{display:inline-flex;align-items:center;min-height:44px;color:var(--accent);font-weight:600}
+.mcq-explanation [data-prior-excerpt]{border-inline-start:2px solid var(--control);padding-inline-start:.7em;margin-block:.7em}
+.mcq-explanation [data-prior-excerpt]>small{display:block;color:var(--muted);font:600 .8em/1.5 var(--ui);margin-bottom:.25em}
+.mcq-explanation [data-prior-excerpt] [data-marked]{background:var(--mark-colour);color:var(--hl-ink);box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.mcq-explanation [data-prior-excerpt] [data-marked="green"]{background:transparent;text-decoration:underline var(--underline-red)}

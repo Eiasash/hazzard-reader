@@ -22,13 +22,14 @@ window.HazzardChanged = (() => {
       return !!(answer?.checked && Number.isInteger(answer.selected) && Number.isFinite(answer.at) && answer.at < q.at);
     }).sort((a,b)=>a.label.localeCompare(b.label,'en',{numeric:true}));
   }
+  const legacy=()=>[...V115,...V116,...V120,...V121,...V122,...V123,...V124,...V125,...V126];
   async function load() {
     if (data) return data;
     return loading ||= Promise.all([fetch('data/redo-history.json'),fetch('data/mcq/content-changes.json')]).then(async ([response,content]) => {
       if (!content.ok) throw Error('Changed questions unavailable');
       if (!response.ok) throw Error('Changed questions unavailable');
       const value = await response.json();
-      data = [...(await content.json()), ...value.questions, ...V115, ...V116, ...V120, ...V121, ...V122, ...V123, ...V124, ...V125, ...V126];
+      data = [...(await content.json()), ...value.questions, ...legacy()];
       if (!data.length) throw Error('Changed questions unavailable');
       return data;
     }).catch(error => { data = null; loading = null; throw error; });
@@ -40,7 +41,7 @@ window.HazzardChanged = (() => {
       const entries = await load();
       await HazzardMCQ.loadAliases();
       const pendingEntries = pending(entries, answers());
-      const bank = new Map(pendingEntries.length ? (await HazzardQuestionData.catalog()).map(q=>[q.id,q]) : []);
+      const bank = new Map(pendingEntries.length ? (await HazzardStudyHome.catalog()).map(q=>[q.id,q]) : []);
       const questions = pendingEntries.filter(entry=>{
         const q=bank.get(entry.id);
         return q?.content_changed && !q.retired && !HazzardMCQ.bad(q.id) && !HazzardMCQ.excluded(q.id) && !HazzardMCQ.standoutHidden(q.id);
@@ -66,10 +67,11 @@ window.HazzardChanged = (() => {
         link.textContent = q.label + ' — redo this question'; row.append(link); list.append(row);
       }
       details.append(list);
-      const row = document.createElement(questions.length ? 'a' : 'div');
+      if(!questions.length){host.replaceChildren();return;}
+      const row = document.createElement('a');
       row.className = 'sim-entry changed-run';
       const title = document.createElement('strong'), count = document.createElement('small');
-      title.textContent = questions.length ? 'Redo changed questions' : 'Changed questions \u2014 all done';
+      title.textContent = 'Redo changed questions';
       if (questions.length) {
         row.href = '?chapter=bank&redo=1&q=' + encodeURIComponent(questions[0].id);
         count.textContent = questions.length + ' to redo \u00b7 one after another';
@@ -113,5 +115,5 @@ window.HazzardChanged = (() => {
     }
     return result;
   }
-  return {pending, load, answers, refresh};
+  return {legacy, pending, load, answers, refresh};
 })();

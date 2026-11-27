@@ -130,7 +130,7 @@ Cognitive impairment calls for an assessment of ability to learn and follow inst
 - Sarcopenia: **60% to 80% of 1RM**, **two to three times a week** (p832).
 
 **Modalities**
-- MIRE: **890-nm**, **30-min × 3/week × 12 treatments**; mostly no better than placebo (p826).
+- MIRE: **890-nm**, **30-min × 3/week × 12 treatments**. Most studies showed no improvement in sensation over placebo (p826).
 - "Cool" pool **<90°F** for heat-intolerant patients (e.g., MS) (p826).
 
 **Adaptive aids**
@@ -144,7 +144,8 @@ Cognitive impairment calls for an assessment of ability to learn and follow inst
   - CR vs. none: mortality **2.3% vs. 5.3%**; benefit sustained at 5 years, **16% vs. 25%** (p830).
   - **≥25 sessions** → **20% lower** 5-yr mortality vs. fewer sessions (p830).
   - Heart failure: stable **at least 3 to 4 weeks** before starting; CR → **28%** lower mortality/hospitalization, **29%** lower death rate, peak VO2 **+15% to 30%**, symptoms/ADLs/well-being **+15% to 50%**; QoL gains seen as early as **2 months** (p830).
-- **PAD with claudication:** supervised exercise uses intermittent walking to moderate-to-maximum symptoms, alternating with rest. A standard program is **30–45 minutes of active exercise at least 3 times/week for at least 12 weeks**; continue training thereafter. The six-month period described on p830 is not a minimum time to benefit ([2024 ACC/AHA PAD guideline](https://doi.org/10.1161/CIR.0000000000001251)).
+- **PAD with claudication.** The book advises intermittent walking **to the onset of pain** to increase walking distance before claudication begins (p825). It describes a program lasting **at least 6 months** and reports better gains with **treadmill walking than strength training** (p830).
+  > Current practice (not the book): supervised exercise alternates walking to moderate-to-maximum claudication with rest, working toward 30–45 minutes of active walking per session, at least 3 sessions weekly for at least 12 weeks. [2024 ACC/AHA PAD guideline, Table 14](https://doi.org/10.1161/CIR.0000000000001251).
 - Lower extremity amputation: **60% to 80%** get phantom limb pain; **~10%** of those with phantom pain rate it severe enough to be disabling (p830).
 - Stroke: rehab can begin as early as **24 to 48 hours** poststroke once the patient is medically stable (p831).
   - Dysphagia can be silent in **up to one-third of patients with dysphagia**; aphasia in **one-third** (p831).
@@ -195,7 +196,7 @@ The stronger/less-affected limb is constrained (cast or mitt) to force use of th
 
 </details>
 
-**7. What is the MIRE treatment protocol, and does it work for neuropathic pain?**
+**7. What is the MIRE protocol, and how did sensation after treatment compare with placebo?**
 
 <details><summary>Answer</summary>
 

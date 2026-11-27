@@ -13,7 +13,8 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 ## C. difficile at three different clinical encounters
 
-**New diarrhea on an antibiotic.** Ask about the number and consistency of stools, laxatives, abdominal pain and recent antimicrobial exposure. A positive stool toxin with new diarrhea fits active disease. In the stable patient on cefuroxime, discontinue unnecessary cefuroxime and give an oral CDI agent. Fidaxomicin reduces subsequent recurrence and is preferred when feasible. Oral vancomycin remains effective and was the appropriate listed treatment. Drug withdrawal alone leaves active CDI untreated. Hazzard, pp. 1672–1673, Table 104-1. [SHEA/IDSA 2021 focused update, Table 1](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/).
+**New diarrhea on an antibiotic.** Ask about the number and consistency of stools, laxatives, abdominal pain and recent antimicrobial exposure. A positive stool toxin with new diarrhea fits active disease. In the stable patient on cefuroxime, discontinue unnecessary cefuroxime and give an oral CDI agent. The book’s first-line agent is **oral vancomycin**. Table 104-1 describes fidaxomicin as equivalent for cure with fewer recurrences, with cost limiting its use. Stopping cefuroxime alone leaves active CDI untreated (p1672).
+> Current practice (not the book): IDSA/SHEA conditionally favors fidaxomicin for initial nonfulminant CDI when feasible; oral vancomycin is an acceptable alternative. [SHEA/IDSA 2021 focused update, Table 1](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/).
 
 **Shock changes the route and urgency.** The older man with five watery stools has a pressure of 82/45 mmHg, leukocytosis and kidney injury. Hypotension is enough to recognize fulminant CDI. Give fluids and urgent multidisciplinary care, including early surgical assessment when appropriate. Start enteral vancomycin 500 mg every six hours with intravenous metronidazole 500 mg every eight hours. Consider rectal vancomycin if ileus prevents effective delivery. Avoid loperamide in this presentation. Hazzard, p. 1673, Table 104-1. [SHEA/IDSA, fulminant CDI](https://www.idsociety.org/globalassets/idsa/practice-guidelines/cdi-2021-focused-update.pdf).
 
@@ -23,9 +24,11 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-1eb064d03b4a7940c7ca9ab5" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 
-**Recovery followed by pneumonia without diarrhea.** This is a prevention decision. Hazzard describes oral vancomycin prophylaxis favorably and ACG in 2021 allowed selective use in people at high risk during subsequent systemic antibiotic treatment. The AGA update published after the June 2026 exam advises against giving it for that purpose. Long-term suppression for selected people with multiple recurrences is a different indication. Treat the pneumonia, minimize unnecessary antibiotic exposure and investigate recurrent diarrhea if it appears (pp. 1672, 1675). [ACG, recommendation 18](https://gi.org/guideline/diagnosis-and-management-of-c-difficile-associated-diarrhea-and-colitis/) · [AGA, 30 June 2026, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
+**Recovery followed by pneumonia without diarrhea.** Hazzard reports **4% recurrence with oral vancomycin prophylaxis versus 26% without** when systemic antibiotics are needed after recent CDI (Table 104-1, p1672). Page 1675 also describes benefit from prophylaxis. Treat the pneumonia, minimize unnecessary antibiotic exposure and investigate recurrent diarrhea if it appears.
+> Current practice (not the book): ACG 2021 allowed selective use in high-risk patients. AGA 2026 advises against using vancomycin during systemic antibiotic treatment solely to prevent CDI. Long-term suppression in selected patients with multiple recurrences is a separate indication. [ACG, recommendation 18](https://gi.org/guideline/diagnosis-and-management-of-c-difficile-associated-diarrhea-and-colitis/) · [AGA, 30 June 2026, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
 
-**Recurrent disease and adjuncts.** Fidaxomicin and a vancomycin taper are options after relapse. Microbiota restoration after an appropriate course of antimicrobial treatment can help selected patients with recurrent CDI. The chapter's success estimate of 80–90% refers to transplantation for refractory relapse. Bezlotoxumab, an antibody against toxin B, was used with CDI treatment to reduce recurrence in selected patients at high risk. It was not a stand-alone treatment or general prophylaxis before unrelated antibiotics. The EU withdrew marketing authorization for commercial reasons on 20 October 2026 (p. 1675). [SHEA/IDSA, recommendations II–III](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [European Medicines Agency, Zinplava](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava).
+**Recurrent disease and adjuncts.** Hazzard describes a prolonged vancomycin taper after relapse, fecal microbiota transplantation for refractory relapse (80–90% success), and passive antibody administration **before a subsequent antibiotic course** in older adults with recurrent CDI (p1675).
+> Current practice (not the book): Bezlotoxumab, directed against toxin B, was given with treatment of active CDI to reduce recurrence in selected patients. It was not stand-alone treatment or general prophylaxis before unrelated antibiotics. EMA records EU withdrawal for commercial reasons on 20 October 2026. [SHEA/IDSA, recommendations II–III](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [European Medicines Agency, Zinplava](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava).
 
 ## Severe pneumonia after hospitalization
 
@@ -35,7 +38,8 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-f487d5826d3f57bd7350d653" data-exam-read-page="1675" data-reader-metadata="exam"></span>
 
-**Why two vancomycin routes appeared together.** Intravenous vancomycin in the pneumonia regimen reaches the systemic circulation. The additional oral drug in the vignette was intended to prevent recurrent CDI after the recent hospitalization. No diarrhea is described. The choice about gut prophylaxis leaves the need for adequate pneumonia therapy unchanged (p. 1675). [AGA, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
+**Why two vancomycin routes appeared together.** Intravenous vancomycin in the pneumonia regimen reaches the systemic circulation. The additional oral drug in the vignette was intended to prevent recurrent CDI after the recent hospitalization. No diarrhea is described. Hazzard describes oral prophylaxis after recent CDI, reporting **26% to 4% recurrence** (Table 104-1, p1672; p1675).
+> Current practice (not the book): AGA 2026 advises against vancomycin prescribed during systemic antibiotic administration solely to prevent CDI. [AGA, Best Practice Advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
 
 ## Fever of unknown origin in older adults
 
@@ -53,7 +57,8 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <span data-exam-ids="mcq-c8b02247f79a908e51cd5f6b" data-exam-read-page="1676" data-reader-metadata="exam"></span>
 
-**Investigate clues to arteritis promptly.** Headache, jaw claudication or visual symptoms are important, but isolated fever with persistently high inflammatory markers can be the presenting feature. Hazzard discusses temporal artery biopsy even without classic cranial symptoms when the ESR is elevated. History, examination, medication review, basic laboratory studies, appropriate cultures and chest radiography come first in undifferentiated FUO. Cross-sectional imaging can reveal occult infection or malignancy. FDG-PET/CT can localize large-vessel inflammation, and glucocorticoids can reduce imaging sensitivity (p. 1676). A negative cranial PET alone cannot exclude GCA when clinical suspicion persists. Arrange additional imaging or temporal artery biopsy as appropriate. If GCA is strongly suspected, particularly with visual ischemia, begin treatment urgently without waiting for imaging or biopsy. [EULAR imaging recommendations, principles A and C](https://ard.bmj.com/content/83/6/741).
+**Investigate clues to arteritis promptly.** Headache, jaw claudication or visual symptoms are important, but isolated fever with persistently high inflammatory markers can be the presenting feature. Hazzard discusses temporal artery biopsy even without classic cranial symptoms when the ESR is elevated. History, examination, medication review, basic laboratory studies, appropriate cultures and chest radiography come first in undifferentiated FUO. Cross-sectional imaging can reveal occult infection or malignancy. FDG-PET/CT can localize large-vessel inflammation, and glucocorticoids can reduce imaging sensitivity (p. 1676).
+> Current practice (not the book): A negative cranial PET alone cannot exclude GCA when clinical suspicion persists. Arrange additional imaging or temporal artery biopsy as appropriate. If GCA is strongly suspected, particularly with visual ischemia, begin treatment urgently without waiting for imaging or biopsy. [EULAR imaging recommendations, principles A and C](https://ard.bmj.com/content/83/6/741).
 
 ## Tuberculosis testing and atypical presentation
 
@@ -86,15 +91,18 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 **Why older adults get infected more, and present differently**
 - Comorbidity is the single most important infection risk factor with age; innate immunity (skin/mucociliary barriers, PMN migration/killing) slows, and adaptive immunity loses naive T-cell diversity — collectively "immune senescence" (p1667–1668)
 - Vaccine response decline starts as early as the **third/fourth decade**, but disability-adjusted life-years lost to vaccine-preventable illness show a major inflection point at about **age 70** (p1668)
-- The chapter reports protein-energy malnutrition in **30–60%** of hospitalized adults over 65 and reduced vaccine responses in outpatients with **albumin 3.0–3.5 g/dL** (p1668). Inflammation can lower albumin. Serum albumin alone cannot diagnose or grade malnutrition. [ASPEN position paper](https://doi.org/10.1002/ncp.10588)
+- The chapter reports protein-energy malnutrition in **30–60%** of hospitalized adults over 65 and reduced vaccine responses in outpatients with **albumin 3.0–3.5 g/dL** (p1668).
+  > Current practice (not the book): Inflammation can lower albumin. Serum albumin alone cannot diagnose or grade malnutrition. [ASPEN position paper](https://doi.org/10.1002/ncp.10588)
 - Fever is **absent in up to one-third** of older adults with serious infection — lower baseline temperature plus a blunted febrile response means many never reach the fever threshold of **≥100.4°F/38°C** (p1669)
-- Avoid routine surface swabs of pressure ulcers and surveillance urine cultures from asymptomatic catheterized residents. Colonization is common. For **suspected symptomatic catheter-associated UTI**, obtain a urine culture before antibiotics when feasible, including when sepsis is absent. Collect from the freshly placed catheter if it is replaced (pp1668, 1671, 1673; [IDSA, recommendations 45–46](https://academic.oup.com/cid/article/50/5/625/324341)).
+- Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).
+  > Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. [IDSA, recommendations 45–46](https://academic.oup.com/cid/article/50/5/625/324341).
 
 **Antibiotic dosing and stewardship principles**
 - "Start low, go slow" does **NOT** apply to antibiotic dosing — full initial (even loading) doses are critical, with later doses adjusted for renal/hepatic function (KCP #2, p1667; detail p1670)
 - Any regimen needing **more than twice-daily** dosing is linked to reduced adherence (p1670)
 - Just living in a high-antibiotic-use long-term care facility raises an individual resident's risk of an antibiotic-related adverse event, **even if that resident never received antibiotics** (p1670, Figure 104-2)
-- US home OPAT coverage depends on the drug, equipment, services and insurance benefit. Part D drug coverage alone does not establish coverage for supplies and nursing. Part B covers qualifying home infusion drugs, equipment and services. Coverage gaps can influence the discharge setting (p1670). [Medicare, home infusion coverage](https://www.medicare.gov/coverage/home-infusion-therapy-services-equipment-supplies)
+- Hazzard describes US Medicare Part D coverage for home OPAT and difficulty securing reimbursement for both antibiotics and the necessary equipment, sometimes influencing discharge placement (p1670).
+  > Current practice (not the book): Medicare Part B covers qualifying home infusion drugs, equipment and services. Actual coverage depends on the drug, equipment and benefit. [Medicare, home infusion coverage](https://www.medicare.gov/coverage/home-infusion-therapy-services-equipment-supplies).
 
 **Sepsis, endocarditis, prosthetic device infection**
 - Early (30-day) sepsis mortality is **50% higher** in adults >65 than in younger adults (p1671)
@@ -103,14 +111,15 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 - Prosthetic device infection: **skin flora** (coagulase-negative staph, *S aureus*, diphtheroids) predominate in **early (<60 day)** infections; **late (>60 day)** infections are more likely due to asymptomatic bacteremia seeding the implant, with a wider array of organisms including GI/GU sources — but staphylococci still predominate (p1671, p1674)
 - Evidence for prophylaxis in PJ (prosthetic joint) patients is even weaker than for prosthetic valves; the historical discussion describes considering antibiotic prophylaxis for PJs deemed **"high risk"** — placed within **2 years**, or in immunosuppressed patients (including diabetes, rheumatoid arthritis, malnourishment), or with prior joint infection (p1674–1675)
   > <span id="current-practice-1" data-reader-metadata="navigation"></span>Current practice (not the book): in general, prophylactic antibiotics are not recommended before dental procedures to prevent prosthetic joint infection — ADA clinical practice guideline, 2015.
-- Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1668; detail p1674)
+- Age alone should **not** be a reason to withhold curative therapy for device infection — function at baseline and the likely long-term outcome should drive the decision (KCP #4, p1667; detail p1674)
 - Empiric regimen for acute bacterial meningitis: ampicillin + ceftriaxone + vancomycin (vancomycin covers a small percentage of ceftriaxone-resistant *S pneumoniae*; give dexamethasone with or before antibiotics); severe penicillin allergy: vancomycin + aztreonam + TMP-SMX (p1672, Table 104-1)
 
 **GI infections and *C difficile***
 - Asymptomatic *C difficile* carriage: **2%** community, **10%** community with outpatient healthcare exposure, **20–50%** hospital/long-term care (p1675)
 - About **15%** of asymptomatic carriers develop symptomatic CDI after receiving antibiotics (p1675)
 - Fecal microbiota transplantation (FMT) for refractory relapse: **80–90%** success (p1675)
-- For initial nonfulminant CDI, IDSA/SHEA favors fidaxomicin when feasible; oral vancomycin remains an acceptable alternative; metronidazole is not first-line monotherapy (p1672); for fulminant CDI, combine enteral vancomycin and IV metronidazole, especially with ileus (p1673); a study of patients with recent CDI needing other antibiotics reported recurrence of **4% with oral vancomycin prophylaxis versus 26% without it**; this was a historical study result. AGA 2026 advises against giving vancomycin during systemic antibiotics for the purpose of CDI prevention (p1672–1673, Table 104-1; [AGA, advice 12](https://doi.org/10.1016/j.cgh.2026.05.007))
+- **C. difficile:** Table 104-1 lists **oral vancomycin first-line**. In severe disease it pairs vancomycin with IV metronidazole. After recent CDI, prophylactic oral vancomycin during a subsequent antibiotic course reduced recurrence **from 26% to 4%** in the study the chapter cites (pp1672–1673, 1675).
+  > Current practice (not the book): IDSA/SHEA favors fidaxomicin when feasible for initial nonfulminant CDI, with oral vancomycin acceptable. AGA 2026 advises against giving oral vancomycin during systemic antibiotics solely to prevent CDI. [SHEA/IDSA 2021 focused update, Table 1](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/) · [AGA, advice 12](https://doi.org/10.1016/j.cgh.2026.05.007).
 
 **Tuberculosis**
 - Older adults present atypically — more nonspecific dizziness/pain/"dullness" than classic fever/night sweats/hemoptysis; more widespread (vs isolated upper-lobe) infiltrates (p1675)
@@ -119,12 +128,13 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 **Fever of unknown origin (FUO)**
 - Classic definition: temperature **>101°F (38.3°C)** for **≥3 weeks**, undiagnosed after **1 week** of evaluation (p1675)
 - A cause is found in **~90%** of cases; about **one-third** are treatable infections (intraabdominal abscess, endocarditis, TB, occult osteomyelitis) (p1675)
-- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1668; detail p1675)
-- **Table 104-2** breakdown of FUO causes: infections **35%**, inflammatory disorders **28%** (temporal arteritis/PMR **19%**, polyarteritis nodosa **6%**), malignancy **19%**, no diagnosis **13%** (p1675)
-- Several small studies estimate 18F-FDG uptake in the temporal, maxillary, or vertebral arteries occurs in **64–82%** of GCA patients, with very high specificity; those historical studies do not support ruling out GCA from a negative cranial PET alone. With persistent suspicion, investigate further. Do not delay treatment when clinical suspicion is strong, particularly with threatened vision (p1676; [EULAR, principles A and C](https://ard.bmj.com/content/83/6/741))
+- Autoimmune disease causes nearly **one in four** FUOs in adults >60 (vs SLE-predominant in young adults, essentially absent in the older cohort) — replaced by **GCA** and polyarteritis nodosa; GCA alone accounts for nearly **one in six** FUOs ≥60 (KCP #5, p1667; detail p1675)
+- **Table 104-2** breakdown of FUO causes: infections **35%**, inflammatory disorders **28%** (temporal arteritis/PMR **19%**, polyarteritis nodosa **6%**), malignancy **19%**, other causes (pulmonary emboli, drug fever) **5%**, no diagnosis **13%** (p1675)
+- Several small studies estimate 18F-FDG uptake in the temporal, maxillary, or vertebral arteries occurs in **64–82%** of GCA patients, with very high specificity. Hazzard reports that some authors inferred cranial-artery biopsy could be avoided after absent cranial uptake (p1676).
+  > Current practice (not the book): With persistent clinical suspicion after negative imaging, pursue additional imaging or biopsy. Strong suspicion, particularly with ischemic symptoms, warrants urgent treatment. [EULAR, principles A and C](https://ard.bmj.com/content/83/6/741).
 
 **Vaccines and travel**
-- The chapter highlights **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1668; detail p1676).
+- The chapter highlights **high-dose influenza**, **adjuvanted recombinant zoster**, and **mRNA SARS-CoV-2** vaccines as examples of achieving protection in older adults. Their comparative evidence and endpoints differ by disease, product and season (KCP #6, p1667; detail p1676).
 - "Cocooning" older adults from exposure by immunizing family, caregivers, and staff is another strategy to address immune senescence (eg, nursing home staff immunization; childhood conjugate pneumococcal vaccines reduce pneumonia risk in older adults) (p1676)
 - Older travelers are **6×** more likely than young adults to have a serious adverse event from **yellow fever** vaccine; travelers' diarrhea affects **25–50%** of visitors to developing countries (p1676)
 
@@ -134,7 +144,8 @@ Study summary of Chapter 104; the book and the full chapter are the reference.
 
 <details><summary>Answer</summary>
 
-Up to one-third may have a serious infection without reaching the conventional 38°C threshold (p1669). For nursing-home residents, a single oral temperature above 37.8°C, repeated oral temperatures above 37.2°C, or a rise above usual temperature of more than 1.1°C can identify fever earlier. [IDSA long-term-care fever guideline](https://www.idsociety.org/practice-guideline/fever-and-infection-in-long-term-care-facilities/).
+Up to one-third may have a serious infection without reaching the conventional 38°C threshold (p1669).
+> Current practice (not the book): For nursing-home residents, a single oral temperature above 37.8°C, repeated oral temperatures above 37.2°C, or a rise above usual temperature of more than 1.1°C can identify fever earlier. [IDSA long-term-care fever guideline](https://www.idsociety.org/practice-guideline/fever-and-infection-in-long-term-care-facilities/).
 
 </details>
 
@@ -142,7 +153,8 @@ Up to one-third may have a serious infection without reaching the conventional 3
 
 <details><summary>Answer</summary>
 
-Routine superficial wound swabs and surveillance urine cultures in asymptomatic catheterized residents often detect colonization. Compatible new symptoms justify a urine culture before treatment when feasible, even without sepsis. Culture the fresh catheter if replaced (pp1668, 1671, 1673).
+Hazzard says that, **almost universally**, skin surface swabs and urine cultures in patients with a long-term indwelling catheter should be avoided. Colonization makes these results misleading for antibiotic selection (Key Clinical Point 3, p1667; p1671).
+> Current practice (not the book): For suspected symptomatic CAUTI, IDSA advises culture before antibiotics when feasible. If the catheter is replaced, culture urine from the freshly placed catheter. [IDSA, recommendations 45–46](https://academic.oup.com/cid/article/50/5/625/324341).
 
 </details>
 
@@ -191,7 +203,7 @@ About 15% develop symptomatic CDI; FMT success rate is 80–90% (p1675).
 
 <details><summary>Answer</summary>
 
-IGRA is preferred after BCG because the vaccine does not cause a positive blood test. It requires one blood draw. A positive IGRA or skin test warrants assessment for active TB before diagnosing latent infection (p1675).
+IGRA is preferred after BCG because the vaccine does not cause a positive blood test. It requires one blood draw. A positive IGRA or skin test warrants assessment for active TB before diagnosing latent infection (Ch 104 p1675 for aging and TST sensitivity; Ch 105 pp1693–1694 for BCG, IGRA and assessing active disease).
 
 </details>
 
@@ -211,11 +223,11 @@ Nearly one in four; giant cell arteritis (GCA) and polyarteritis nodosa (PAN) re
 
 </details>
 
-**14. According to Table 104-2, what are the four major category percentages for causes of FUO in older patients?**
+**14. What percentage of FUO cases in older patients falls into each of the five major categories in Table 104-2?**
 
 <details><summary>Answer</summary>
 
-Infections 35%, inflammatory disorders 28%, malignancy 19%, no diagnosis 13% (p1675).
+Infections **35%**, inflammatory disorders **28%**, malignancy **19%**, other causes (pulmonary emboli or drug fever) **5%**, and no diagnosis **13%** (Table 104-2, p1675).
 
 </details>
 

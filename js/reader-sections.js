@@ -137,6 +137,7 @@ window.HazzardSections = (() => {
     }
   }
 
+  let loadCounts=()=>{};
   function mount({copy, scroll, landOnHeading, embedded}) {
     const chapter = copy.dataset.chapterId;
     if (!/^(?:\d+s?|laws?)$/.test(chapter) || copy.dataset.notLoaded) return;
@@ -166,7 +167,7 @@ window.HazzardSections = (() => {
     const picker = document.createElement('ul');
     picker.className = 'section-picker-list';
     picker.append(makeList(rows, existing));
-    list.before(legend(), picker);
+    list.before(picker);
     pane.append(pane.querySelector('.contents-steps'));
     const trigger = document.getElementById('chapterHeaderTitle');
     trigger.dataset.sections = 'Sections';
@@ -205,19 +206,25 @@ window.HazzardSections = (() => {
       desktop.addEventListener('change', layout);
       layout();
     }
-    officialCounts(copy, chapter, rows).then(() => updateCounts(true), () => updateCounts(false));
+    const desktopCounts=matchMedia('(min-width:1200px)');
+    loadCounts=()=>{
+      loadCounts=()=>{};desktopCounts.removeEventListener('change',visible);
+      officialCounts(copy,chapter,rows).then(()=>updateCounts(true),()=>updateCounts(false));
+    };
+    function visible(){if(embedded||desktopCounts.matches||pane.closest('[open]')?.dataset.currentPane==='contents')loadCounts();}
+    desktopCounts.addEventListener('change',visible);visible();
     function updateCounts(available) {
       for (const row of rows) {
         const n = row.ids.size;
         const description = available ? n + ' official exam question' + (n === 1 ? '' : 's') +
           (row.heading.tagName === 'H1' ? ' at the chapter heading' : ' in this section') : 'Official exam count unavailable';
         for (const badge of row.counts) {
-          badge.textContent = available ? String(n) : '—';
+          badge.textContent = available && n ? n + (n === 1 ? ' question' : ' questions') : '';
           badge.setAttribute('aria-label', description);
           badge.title = description;
         }
       }
     }
   }
-  return {mount, jump};
+  return {loadCounts:()=>loadCounts(),mount, jump};
 })();

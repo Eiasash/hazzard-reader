@@ -63,3 +63,4 @@
 }
 
 #panel[open][data-current-pane="flashcards"][data-expanded="true"] { height: auto; }
+#flashcardBack { white-space: pre-line; }

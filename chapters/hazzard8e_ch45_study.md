@@ -28,9 +28,9 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 <span data-exam-ids="mcq-b83da14732e3306ed9970cce" data-reader-metadata="exam"></span>
 
-**Either pressure component can meet the threshold.** A fall from 130/80 to 125/65 includes a diastolic decline of 15 mm Hg despite little change in systolic pressure. Prefer a resting supine baseline followed by pressure and pulse at one and three minutes standing, with assistance when needed. Ask when symptoms occur. A fall of at least 20 mm Hg systolic or 10 mm Hg diastolic supports classical OH. Heat and straining can aggravate it. The September paper's listed intervention was head-up sleeping at 30–45 degrees (pp. 667, 672, 675).
+**Either pressure component can meet the threshold.** A fall from 130/80 to 125/65 includes a diastolic decline of 15 mm Hg despite little change in systolic pressure. Prefer a resting supine baseline followed by pressure and pulse at one and three minutes standing, with assistance when needed. Ask when symptoms occur. A fall of at least 20 mm Hg systolic or 10 mm Hg diastolic supports classical OH. Heat and straining can aggravate it. The chapter describes sleeping with the head raised **30–45 degrees** as potentially helpful, the September paper’s listed intervention (pp. 667, 672, 675).
 
-**How to interpret the angle.** In patients with severe autonomic impairment and supine hypertension, overnight pressure diuresis can worsen morning OH. The American Heart Association notes that the steep whole-bed tilt used in small studies can be impractical or unsafe. The exam angle should not be prescribed routinely to a frail patient transferring out of bed at night. Individualize fluid, sodium and compression measures, especially with cardiac or renal disease. [American Heart Association scientific statement, nocturnal hypertension and Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/).
+> Current practice (not the book): **How to interpret the angle.** In patients with severe autonomic impairment and supine hypertension, overnight pressure diuresis can worsen morning OH. The American Heart Association notes that the steep whole-bed tilt used in small studies can be impractical or unsafe. The exam angle should not be prescribed routinely to a frail patient transferring out of bed at night. Individualize fluid, sodium and compression measures, especially with cardiac or renal disease. [American Heart Association scientific statement, nocturnal hypertension and Figure 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/).
 
 ## A faint, a seizure, bleeding or an arrhythmia?
 
@@ -44,15 +44,19 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 **Use tests that could capture the suspected mechanism.** Start with history, an eyewitness account when available, medication review, examination, an ECG and postural measurements. A new murmur may justify echocardiography. Match rhythm-monitor duration to event frequency. A short Holter has low yield with infrequent spells, whereas a loop recorder may capture the symptom and rhythm together. Consider tilt testing for suspected reflex syncope after an inconclusive initial assessment. EEG or brain imaging has low yield in uncomplicated syncope without neurologic clues (pp. 671–673).
 
-**A neck trigger suggests a different reflex.** Head turning or a tight collar can precipitate bradycardia, hypotension or both. In a suitable patient, a trained clinician uses monitored carotid sinus massage after screening for contraindications. An abnormal hemodynamic response can also occur in asymptomatic older adults. Reproducing the patient's usual symptoms helps distinguish carotid sinus syndrome from hypersensitivity. Dual-chamber pacing is an option in selected patients over 40 with severe recurrent unpredictable syncope and a documented cardioinhibitory response. A vasodepressor component can persist (pp. 669, 672, 675). [European Society of Cardiology pacing guideline, §5.4](https://doi.org/10.1093/eurheartj/ehab364).
+**A neck trigger suggests a different reflex.** Head turning or a tight collar can precipitate bradycardia, hypotension or both. In a suitable patient, a trained clinician uses monitored carotid sinus massage after screening for contraindications. An abnormal hemodynamic response can also occur in asymptomatic older adults. Reproducing the patient's usual symptoms helps distinguish carotid sinus syndrome from hypersensitivity. For symptomatic cardioinhibitory carotid sinus syndrome, the book calls dual-chamber pacing the treatment of choice (pp669, 672, 675).
+
+> Current practice (not the book): Dual-chamber pacing can be used in selected patients over 40 with severe recurrent unpredictable syncope and a documented cardioinhibitory response. A vasodepressor component can persist. [European Society of Cardiology pacing guideline, §5.4](https://doi.org/10.1093/eurheartj/ehab364).
 
 ## Vertigo by timing and trigger
 
-**Rolling over in bed and standing up test different systems.** Repeated, brief attacks on rolling in bed, looking up or lying back suggest BPPV. In posterior-canal disease, Dix–Hallpike testing elicits a characteristic transient upbeating, torsional nystagmus. The chapter describes a short latency and fatigue with repetition. Epley repositioning then uses gravity to guide particles from the posterior canal back to the utricle. Routine post-maneuver positional restrictions and routine vestibular suppressants are discouraged (pp. 670, 673–674, 676, Figures 45-1 and 45-2). [AAO-HNSF BPPV guideline, statements 1a, 4a–4b and 6](https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/).
+**Rolling over in bed and standing up test different systems.** Repeated, brief attacks on rolling in bed, looking up or lying back suggest BPPV. In posterior-canal disease, Dix–Hallpike testing elicits a characteristic transient upbeating, torsional nystagmus. The chapter describes a short latency and fatigue with repetition. Epley repositioning then uses gravity to guide particles from the posterior canal back to the utricle. After the maneuver, the book advises avoiding lying flat for **24–48 hours**, or using a cervical collar (pp. 670, 673–674, 676, Figures 45-1 and 45-2).
+
+> Current practice (not the book): Routine post-maneuver positional restrictions and routine vestibular suppressants are discouraged. [AAO-HNSF BPPV guideline, statements 1a, 4a–4b and 6](https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/).
 
 **Auditory features change the differential.** Ménière disease causes spontaneous episodes with fluctuating hearing, tinnitus or fullness in the affected ear. Progressive unilateral hearing loss and imbalance suggest a vestibular schwannoma. Recurrent vestibulopathy classically causes discrete attacks without associated auditory or neurologic features. A history of dizziness for a year says little about the duration or trigger of each attack (pp. 670, 673–674).
 
-**Continuous acute vertigo needs a stroke assessment.** An adult in the emergency department with new persistent continuous dizziness and spontaneous nystagmus has a different presentation from brief positional spells. In this setting a clinician trained in HINTS examines head impulse, nystagmus and skew and checks hearing. Central or equivocal findings warrant MRI/MRA. Without nystagmus, assess gait severity. A normal head CT cannot reliably exclude posterior circulation ischemia. Brief position-triggered attacks call for positional testing. [Society for Academic Emergency Medicine, GRACE-3, recommendations 2–7 and 11–13](https://www.saem.org/publications/grace/grace-3).
+> Current practice (not the book): **Continuous acute vertigo needs a stroke assessment.** An adult in the emergency department with new persistent continuous dizziness and spontaneous nystagmus has a different presentation from brief positional spells. In this setting a clinician trained in HINTS examines head impulse, nystagmus and skew and checks hearing. Central or equivocal findings warrant MRI/MRA. Without nystagmus, assess gait severity. A normal head CT cannot reliably exclude posterior circulation ischemia. Brief position-triggered attacks call for positional testing. [Society for Academic Emergency Medicine, GRACE-3, recommendations 2–7 and 11–13](https://www.saem.org/publications/grace/grace-3).
 
 **Chronic disequilibrium often has several treatable contributors.** Look at vision, hearing, proprioception, strength, gait, mood and the medicines that affect alertness or blood pressure. Correct sensory deficits and reversible systemic illness. For persistent vestibular symptoms, supervised exercises use coordinated head, eye and body movements to retrain balance. Continuing sedating suppressants such as meclizine or diazepam can delay compensation and increase falls (pp. 670–671, 673–676).
 
@@ -94,7 +98,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 **Carotid sinus hypersensitivity / carotid sinus syndrome (CSS)**
 - CSH definition: asystole **≥3 sec** (cardioinhibitory) and/or systolic BP fall **>50 mmHg** (vasodepressor) during carotid sinus massage (p669)
 - Massage technique: done sequentially on each side; recommended duration **5 to 10 sec**; maximal HR fall occurs within **5 sec** of onset (p669)
-- CSS requires an abnormal response that reproduces the patient’s usual spontaneous symptoms in a compatible clinical history; vasovagal syncope or OH coexists in **one-third** of CSH patients; about **half** of CSS patients sustain an injury/fracture during episodes (p669)
+- The chapter calls an abnormal massage response CSH and uses CSS when carotid sinus stimulation produces syncope; vasovagal syncope or OH coexists in **one-third** of CSH patients; about **half** of CSS patients sustain an injury/fracture during episodes (p669)
 
 **Evaluation of syncope**
 - Presence of heart disease independently predicts cardiac syncope: sensitivity **95%**, specificity **45%** (p671)
@@ -104,15 +108,19 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 - In a review of 2106 patients ≥65 admitted after syncope, postural BP was measured in only **38%** of episodes, yet had the highest diagnostic yield of any test: affected diagnosis **18%–26%**, management **25%–30%**, and determined etiology **15%–21%** (p672)
 - ~**10%** of ED syncope patients have a serious outcome within **7 to 30 days** of the visit (p673)
 - Dix-Hallpike maneuver (Figure 45-1) BPPV criteria: latency **1 to 5 sec** between maneuver completion and onset, nystagmus/vertigo lasting **10–20 sec**, and fatigability (decreasing intensity) with repeated testing (p673–674)
-- **Episode duration is a clue.** BPPV typically causes positional attacks lasting **less than 1 minute**. Spontaneous attacks can overlap in TIA, vestibular migraine and Ménière disease. Definite Ménière disease includes attacks lasting **20 minutes–12 hours** with characteristic auditory findings; probable episodes can last up to **24 hours** (p670; [Bárány Society criteria](https://pubmed.ncbi.nlm.nih.gov/25882471/)).
+- **Episode duration.** Spells under **1 minute** suggest BPPV, **20–120 minutes** suggests TIA or migraine, and **over 120 minutes through 2 days** suggests Ménière disease or recurrent vestibulopathy (p670).
+
+  > Current practice (not the book): The Bárány criteria use **20 minutes–12 hours** for definite Ménière disease and up to **24 hours** for probable disease, with accompanying auditory criteria. [Bárány Society, 2015](https://pubmed.ncbi.nlm.nih.gov/25882471/).
 
 **Management**
 - Vestibular rehabilitation: improvement usually seen after **6 to 8 weeks** (p676)
 - Epley canalith repositioning maneuver (Figure 45-2): each of the 5 head positions held **10 to 15 sec** or until vertigo subsides (p676)
 - Cardioinhibitory CSS: dual-chamber cardiac pacing abolishes syncope in **85% to 90%** of patients (p675)
-- Syncope caused by sustained VT warrants electrophysiologic assessment for an ICD, including ventricular function and reversible causes. After a previous MI, **unexplained syncope with inducible sustained VT on electrophysiologic study** is an ICD indication. Previous MI alone does not justify implantation (p675; [ESC syncope guideline](https://doi.org/10.1093/eurheartj/ehy037)).
-- For severe symptomatic **OH**, specialist options include midodrine **2.5–10 mg up to three times daily** while awake (avoid near bedtime) or fludrocortisone **0.05–0.2 mg daily** with potassium, edema and supine BP monitoring. Avoid fludrocortisone in heart failure. For **postprandial hypotension**, the chapter discusses caffeine **250 mg** in the morning and a small study of subcutaneous octreotide **50 micrograms** before a glucose load (p675; [OH review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/), [AHA statement](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/)).
-  > Octreotide was studied in **micrograms**. The textbook’s milligram unit overstates the trial dose by a factor of 1,000 ([Jansen et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2646315/)).
+- On p675 the chapter lists ICD indications as syncope due to VT with EF **<35%**, syncope with previous MI, and VT induced during electrophysiologic testing. It also discusses an ICD for recurrent VT syncope with EF **>35%** after drug therapy and ablation fail.
+
+  > Current practice (not the book): After prior MI, unexplained syncope with inducible sustained VT on electrophysiologic study is an ICD indication. A history of MI alone does not establish this indication. [ESC syncope guideline, 2018](https://doi.org/10.1093/eurheartj/ehy037).
+- For OH or postprandial hypotension, p675 lists morning caffeine **250 mg**, oral fludrocortisone **0.1–0.5 mg daily**, oral midodrine **2.5–10 mg three times daily**, and subcutaneous octreotide 30 minutes before a meal. The printed octreotide dose is **50 mg [sic — the cited study used 50 micrograms, not milligrams]**. [Jansen et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2646315/).
+  > Current practice (not the book): When drug treatment is appropriate, fludrocortisone is generally dosed at **0.05–0.2 mg/day**. Monitor potassium, edema and supine blood pressure and avoid it in heart failure. Avoid midodrine near bedtime. [OH review, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/) · [AHA scientific statement, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/).
 
 ## Recall
 
@@ -120,7 +128,7 @@ Study summary of Chapter 45 — Syncope and Dizziness; the book and the full cha
 
 <details><summary>Answer</summary>
 
-Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Other transient causes of LOC (eg, vertebrobasilar ischemia, hypoxemia, hypoglycemia) are technically not syncope if they involve focal neurologic abnormalities or do not recover spontaneously without intervention (eg, oxygen or glucose). Brief myoclonic jerks can occur during syncope from hypoperfusion. They do not, by themselves, establish an epileptic seizure (p665).
+Transient loss of consciousness from cerebral hypoperfusion, with loss of postural tone and spontaneous, complete recovery. Other transient causes of LOC (eg, vertebrobasilar ischemia, hypoxemia, hypoglycemia) are technically not syncope if they involve focal neurologic abnormalities or do not recover spontaneously without intervention (eg, oxygen or glucose). Brief myoclonic jerks can occur during syncope from hypoperfusion. They do not, by themselves, establish an epileptic seizure (pp665, 669).
 
 </details>
 
@@ -192,7 +200,7 @@ Only in 38% of episodes — yet they had the highest diagnostic yield of any tes
 
 <details><summary>Answer</summary>
 
-BPPV commonly causes positional spells under 1 minute. TIA and vestibular migraine can overlap in duration. Definite Ménière attacks last 20 minutes–12 hours with characteristic auditory findings, and probable attacks can last up to 24 hours (p670; Bárány Society criteria, PMID 25882471).
+On p670, positional spells under 1 minute suggest BPPV, spells lasting 20–120 minutes suggest TIA or migraine, and spells lasting over 120 minutes through 2 days suggest Ménière disease or recurrent vestibulopathy.
 
 </details>
 

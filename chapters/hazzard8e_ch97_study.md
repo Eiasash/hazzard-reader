@@ -93,7 +93,9 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 
 **Resistant hypertension plus hypokalemia suggests aldosterone excess.** Increased distal sodium retention favors potassium loss. Screen with paired morning aldosterone and renin, correcting low potassium and accounting for interfering medicines and age-related low renin. By contrast, an incidental serum potassium of 6.4, as in May 2024 Q55, requires timely confirmation and assessment. Marked thrombocytosis can release potassium during clotting. Plasma potassium can reveal the discrepancy (pp. 1270–1271, 1532–1533).
 
-**An incidentally detected adrenal mass raises two questions.** Assess hormone secretion and the likelihood of malignancy separately. A homogeneous mass measuring at most 10 HU on unenhanced CT is characteristic of a lipid-rich adenoma and requires no further imaging under current ESE guidance. Other lesions need individualized evaluation for pheochromocytoma and imaging risk. Paroxysmal hypertension with headache, palpitations and sweating supports testing with plasma free or urinary fractionated metanephrines. Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp. 1532–1533). [ESE/ENSAT, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066).
+**An incidentally detected adrenal mass raises two questions.** Assess hormone secretion and the likelihood of malignancy separately. The book says lipid-rich attenuation **<10 HU** on CT excludes malignancy and pheochromocytoma (p1532). Paroxysmal hypertension with headache, palpitations and sweating supports testing with plasma free or urinary fractionated metanephrines. Consider autonomous cortisol secretion and screen for primary aldosteronism when appropriate (pp1532–1533).
+
+> Current practice (not the book): <span id="current-adrenal-hu" data-reader-metadata="navigation"></span>A homogeneous lesion measuring **≤10 HU on unenhanced CT** needs no further imaging. Hormonal assessment is a separate decision. [ESE/ENSAT 2023, recommendations 2.3 and 3.2–3.10](https://doi.org/10.1093/ejendo/lvad066).
 
 ## Focal bone pain, vitamin D and ovarian aging
 
@@ -132,7 +134,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Usual glucocorticoid replacement: **15–20 mg hydrocortisone/day in divided doses**, avoiding late-afternoon/evening dosing (insomnia risk) (p1531).
 - The standard cosyntropin test measures peak serum cortisol at 30 or 60 minutes; the traditional, assay-dependent threshold is **18 μg/dL** (500 nmol/L), and p1531 misprints the unit as mg/dL ([Endocrine Society, recommendation 2.1](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency)).
   > Current practice (not the book): peak cortisol below 500 nmol/L (18 μg/dL, assay dependent) at 30 or 60 min indicates adrenal insufficiency — Endocrine Society primary adrenal insufficiency guideline, 2016.
-- The chapter reports incidental adrenal masses in **~4%** of high-resolution abdominal CT scans and greater malignancy risk above **4 cm** (p1532); a **homogeneous mass measuring ≤10 HU on unenhanced CT** has benign imaging features and needs no further imaging under [ESE/ENSAT recommendation 2.3](https://academic.oup.com/ejendo/article/189/1/G1/7198474).
+- The chapter reports incidental adrenal masses in **about 4%** of high-resolution abdominal CT scans and greater malignancy risk above **4 cm**. Its printed low-attenuation cutoff for excluding malignancy and pheochromocytoma is **<10 HU** (p1532). [Current practice note](#current-adrenal-hu).
 - Primary hyperaldosteronism affects **5–10%** of hypertensive patients; workup = plasma aldosterone:renin ratio, withdraw **spironolactone for 4 weeks** before testing when safe and feasible; primary hyperaldosteronism suggested by aldosterone **>10 ng/dL** with renin activity **<1 ng/mL/hr** (p1532–1533).
 - Pheochromocytoma incidence **<5 per million/year** but becomes more common after age 50 (p1533).
 
@@ -149,7 +151,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Incidence peaks at **6.3 per 1000 person-years** at age **65–74**; women:men **2:1** (p1536).
 - Parathyroidectomy indications: serum calcium **>1 mg/dL above ULN**, DXA T-score **<−2.5**, creatinine clearance **<60 mL/min**, or 24-hour urine calcium **>400 mg/24h** (p1526 KCP, p1538–1539).
 - Hypercalcemia causes split by PTH status: **PTH-dependent** (common: primary hyperparathyroidism; uncommon: tertiary hyperparathyroidism, lithium, familial hypocalciuric hypercalcemia, ectopic PTH) vs **PTH-independent** (common: malignancy — osteolytic or PTHrP-humoral — and 1,25(OH)₂-vitamin D-mediated lymphoma; uncommon: thiazides, AKI, parenteral nutrition, immobilization with malignancy/Paget, granulomatous disease, hyperthyroidism/adrenal insufficiency, vitamin D/A toxicity, milk-alkali, hyperproteinemia) (Table 97-9, p1538).
-- Vitamin D sufficiency thresholds: American Geriatrics Society **>30 ng/mL**; Institute of Medicine **>20 ng/mL**; deficiency **<12 ng/mL** (p1526 KCP, p1539).
+- **Vitamin D thresholds differ within the chapter.** Key Clinical Point 2 defines deficiency in older patients as serum 25-hydroxyvitamin D **<30 ng/mL** (p1525). Page 1539 separately reports AGS sufficiency **>30 ng/mL** for frail, high-risk older adults and IOM sufficiency **>20 ng/mL**, insufficiency **12–20 ng/mL**, and deficiency **<12 ng/mL**.
 - Vitamin D deficiency prevalence **40–50%** in community-dwelling older adults (p1539).
 - Treatment: mild-moderate deficiency → vitamin D2/D3 **800–1000 IU/day**; severe deficiency → vitamin D3 **2000 IU/day for 6–12 months**, or vitamin D2 **50,000 IU weekly for 8–12 weeks** then vitamin D3 800–1000 IU daily (p1540).
 - Toxicity is rare up to the IOM safe upper limit of **4000 IU/day**; early biochemical toxicity signs appear **>90 ng/mL**, severe toxicity **>150 ng/mL** (p1540).
@@ -160,7 +162,7 @@ Study summary of Chapter 97; the book and the full chapter are the reference.
 - Serum alkaline phosphatase is elevated in **90%** of patients; normal/near-normal AP does not exclude monostotic disease (p1542).
 - Treatment of choice: **zoledronic acid 5 mg IV** over 15–20 minutes, often a single dose sustaining remission **5–6 years**; contraindicated if creatinine clearance **<35 mL/min** (p1542).
 
-*Exam traps: the historical AGS fall-prevention goal in high-risk patients was a minimum of 30 ng/mL. Falling short of that goal does not itself diagnose vitamin D deficiency. The IOM classified values below 12 ng/mL as deficient (p1539) — know which guideline a question is citing. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
+*Exam traps: Key Clinical Point 2 defines vitamin D deficiency in older patients as **<30 ng/mL** (p1525). Page 1539 gives a separate IOM deficiency threshold of **<12 ng/mL** and an AGS sufficiency target of **>30 ng/mL** for high-risk older patients. Also, hematocrit >50 is the caution threshold before starting testosterone (p1534) but >54 is the threshold to stop/reduce it during treatment (p1535–1536) — these are not the same number.*
 
 ## Recall
 

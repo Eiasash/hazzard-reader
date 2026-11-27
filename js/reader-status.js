@@ -1,6 +1,6 @@
 /* Release status is transient UI only; it never writes notebook data. */
 (() => {
-  const VERSION = 'v324', RELEASED = '26.11.2026';
+  const VERSION = 'v325', RELEASED = '26.11.2026';
   window.HazzardRelease = Object.freeze({version:VERSION});
   function start() {
     const chip = document.getElementById('readerStatusChip'), button = chip.closest('button');
@@ -43,6 +43,12 @@
       const at = window.HazzardStorage?.status.snapshotAt;
       const time = at ? new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Jerusalem', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(at) : 'none yet';
       detail.textContent = 'Version ' + VERSION + ' (released ' + RELEASED + ') - ' + (navigator.onLine ? 'Online' : 'Offline') + ' - Offline copy: ' + (downloading ? progressText : complete ? 'complete' : 'incomplete') + ' - Last snapshot: ' + time;
+      const download=document.getElementById('downloadOffline');
+      if(download){
+        const why=complete?'The offline copy is already saved.':!sw?'This browser does not support offline storage.':
+          !navigator.onLine?'Reconnect to download the offline copy.':waiting()?'Use the update control to activate the saved copy.':'The live reader downloads its offline copy automatically.';
+        setButtonUnavailable(download,why);
+      }
       const summary = document.getElementById('appearanceSummary');
       summary.textContent = downloading ? progressText : VERSION + ' · ' + (complete ? 'Offline ready' : 'Offline incomplete');
       summary.title = summary.textContent + ' — tap for details';

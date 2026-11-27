@@ -2,10 +2,22 @@
 window.HazzardEvidence = (() => {
   let promise, referencePromise;
   function references() {
-    return referencePromise ||= fetch('data/mcq/exam-references.json').then(r=>{
+    return referencePromise ||= (window.HazzardEarlyFetch?.get('data/mcq/exam-references.json')||fetch('data/mcq/exam-references.json')).then(r=>{
       if (!r.ok) throw Error('Exam references unavailable. Reconnect and reload.');
       return r.json();
-    }).catch(e=>{referencePromise=null;throw e;});
+    }).catch(e=>{window.HazzardEarlyFetch?.delete('data/mcq/exam-references.json');referencePromise=null;throw e;});
+  }
+  const chapters=new Map();
+  function forChapter(id){
+    const chapter=String(id).replace(/s$/,'');
+    if(!window.HazzardHomeSummary||!/^\d+$/.test(chapter))return references();
+    const path='data/reader-references/'+chapter+'.json';
+    if(!chapters.has(chapter)){
+      const request=window.HazzardEarlyFetch?.get(path)||fetch(path);
+      window.HazzardEarlyFetch?.delete(path);
+      chapters.set(chapter,request.then(r=>{if(!r.ok)throw Error('Chapter references unavailable');return r.json();}).catch(()=>{chapters.delete(chapter);return references();}));
+    }
+    return chapters.get(chapter);
   }
   function load() {
     return promise ||= Promise.all([references(),HazzardQuestionData.catalog()]).then(([data,bank]) => {
@@ -38,7 +50,7 @@ window.HazzardEvidence = (() => {
     return [...totals].sort((a,b) => sittingDate(b[0])-sittingDate(a[0]));
   }
   async function citationLine(chapter, open, reader=false) {
-    const data = await load(), entries = counts(data, chapter);
+    const data = window.HazzardHomeSummary?await forChapter(chapter):await load(), entries = counts(data, chapter);
     if (!entries.length) return null;
     const link = document.createElement('a');
     link.className = 'chapter-exams'; link.href = '?chapter='+chapter+(data.study[chapter]?'s':'')+'&view=questions&source=past';
@@ -159,6 +171,14 @@ window.HazzardEvidence = (() => {
   const rowObserver=new ResizeObserver(changes=>{
     for(const badge of new Set(changes.map(change=>change.target.closest('.exam-links'))))fitRows.get(badge)?.();
   });
+  const visibleBadges=new IntersectionObserver(entries=>{
+    for(const {target,isIntersecting} of entries){
+      const row=target.querySelector('.exam-link-line');
+      if(!row)continue;
+      if(isIntersecting){rowObserver.observe(row);rowObserver.observe(row.firstElementChild);}
+      else{rowObserver.unobserve(row);rowObserver.unobserve(row.firstElementChild);}
+    }
+  },{rootMargin:'150px'});
   function askedBadge(entries, description, anchor, prefix='Asked') {
     const badge = document.createElement('span');
     badge.className = 'exam-evidence exam-links';
@@ -221,7 +241,7 @@ window.HazzardEvidence = (() => {
     }
     preview(1);
     toggle.addEventListener('click',()=>{open=!open;disclose();});
-    fitRows.set(badge,fit);rowObserver.observe(headline);rowObserver.observe(count);
+    fitRows.set(badge,fit);visibleBadges.observe(badge);
     return badge;
   }
   function refreshExamList(copy,chapter,data){
@@ -250,7 +270,7 @@ window.HazzardEvidence = (() => {
   async function decorate(copy, chapter) {
     const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=isRebuilt(sourceChapter);
     if(!/^\d+$/.test(sourceChapter))return;
-    const data=await references(), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
+    const data=await forChapter(sourceChapter), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
     if(study)refreshExamList(copy,sourceChapter,data);
     if(!study)await addPassages(copy,sourceChapter,data);
     const memberIds=new Set(data.study[sourceChapter]?.ids||[]);
@@ -391,17 +411,17 @@ window.HazzardEvidence = (() => {
       if(end)end.before(line);else copy.append(line);
       counts.push({element:status,ids:[...ids]});
     }
-    const bank=new Map((await HazzardQuestionData.catalog()).map(q=>[q.id,q]));
+    const accepted=data.accepted||Object.fromEntries((await HazzardStudyHome.catalog()).map(q=>[q.id,q.accepted]));
     function refresh(){
       let answers;
       try{answers=HazzardMCQ.currentAnswers(HazzardMCQ.rawValue(HazzardMCQ.KEY,HazzardMCQ.validStore,()=>({version:1,answers:{}})).answers);}catch{}
       function record(ids){
         let answered=0,missed=0;
         for(const id of ids){
-          const a=answers?.[id],q=bank.get(id);
-          if(q && a?.checked===true && Number.isInteger(a.selected)){
+          const a=answers?.[id],keys=accepted[id];
+          if(keys && a?.checked===true && Number.isInteger(a.selected)){
             answered++;
-            if(!q.accepted.includes(a.selected))missed++;
+            if(!keys.includes(a.selected))missed++;
           }
         }
         return {answered,missed};
@@ -431,5 +451,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
+  return {sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();

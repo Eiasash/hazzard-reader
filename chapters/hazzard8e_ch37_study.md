@@ -29,7 +29,9 @@ Ask what has changed for the patient and what he would like to regain. Loss of d
 
 An erection requires both arterial inflow and trapping of blood within the corpora. Atherosclerosis limits inflow. Chronic hypoxia can also replace cavernosal smooth muscle with connective tissue, so expansion no longer compresses the draining venules adequately. This explains how a man can achieve initial tumescence yet lose rigidity (p. 550, Table 37-2).
 
-**Chest discomfort changes the priority.** Diabetes, hypertension, smoking and dyslipidemia increase both coronary and penile vascular risk. The association between new erectile dysfunction and previously unrecognized vascular disease is especially informative below age 70. In the practice case the man already has exertional symptoms. Evaluate possible ischemia and exercise tolerance before treatment. Stress testing can clarify indeterminate risk when clinically appropriate (p. 550, Figure 37-2). [EAU, 2026, Figure 5.3, adapted from Princeton IV](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction).
+**Chest discomfort changes the priority.** Diabetes, hypertension, smoking and dyslipidemia increase both coronary and penile vascular risk. The association between new erectile dysfunction and previously unrecognized vascular disease is especially informative below age 70. In the practice case the man already has exertional symptoms (p550, Figure 37-2).
+
+> Current practice (not the book): Evaluate possible ischemia and exercise tolerance before treatment. Stress testing can clarify indeterminate risk when clinically appropriate. [EAU, 2026, Figure 5.3, adapted from Princeton IV](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction).
 
 **Diabetes affects two pathways.** Autonomic neuropathy can impair initiation of the response while vascular injury limits blood supply. Age, diabetes duration and evidence of complications predict erectile difficulty better than the degree of hyperglycemia. A markedly elevated HbA1c matters for diabetes care, but it cannot identify the cause on its own. Erectile difficulty sometimes prompts the first diagnosis of diabetes (p. 550).
 
@@ -39,7 +41,9 @@ An erection requires both arterial inflow and trapping of blood within the corpo
 
 **Neurologic disease.** A history of stroke, spinal cord disease or neuropathy suggests disruption of erectile pathways. In multiple sclerosis, erectile symptoms can recur during a relapse and improve in remission. After stroke, difficulty with ejaculation can accompany erectile dysfunction (pp. 550–551).
 
-**Renal and pulmonary disease.** In renal failure, vascular disease, autonomic neuropathy and sometimes severe hypogonadism coexist. Neither is an established erectile treatment for kidney failure itself. A small uncontrolled series found improved erection scores with testosterone in hypogonadal men receiving dialysis. Whether testosterone caused the improvement is uncertain. [Skiba et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36014950/). Hypoxemic COPD has a different mechanism. Less cavernosal nitric oxide is available for smooth-muscle relaxation, and oxygen therapy for hypoxemia may improve erections in some men (p. 551).
+**Renal and pulmonary disease.** In renal failure, vascular disease, autonomic neuropathy and sometimes severe hypogonadism coexist. The chapter states that neither hemodialysis nor testosterone replacement has been shown to improve erectile dysfunction in men with renal failure. Hypoxemic COPD has a different mechanism. Less cavernosal nitric oxide is available for smooth-muscle relaxation, and oxygen therapy for hypoxemia may improve erections in some men (p. 551).
+
+> Current practice (not the book): A small uncontrolled series found improved erection scores during testosterone treatment of hypogonadal men receiving dialysis. Causation is uncertain. [Skiba et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36014950/).
 
 **Medication chronology.** Ask about baseline function, then align the onset of symptoms with new prescriptions or dose changes. SSRIs, venlafaxine, tricyclic antidepressants, beta blockers, diuretics, antiandrogens and chronic opioids can contribute. In the practice case, starting sertraline six months earlier matters alongside bereavement, diabetes and antihypertensive use (p. 551).
 
@@ -54,7 +58,9 @@ An erection requires both arterial inflow and trapping of blood within the corpo
 For someone who smokes or drinks heavily, the history identifies a potentially reversible contributor. Physical activity can help even without weight loss. Review drugs and address depression or relationship difficulties alongside the vascular evaluation. Ask whether the patient wants to try oral treatment, a local treatment or a device (pp. 551–552).
 
 - Sildenafil, vardenafil, tadalafil and avanafil have broadly similar efficacy; all require sexual stimulation (p551-552).
-- High-fat meals can delay the effect of sildenafil or vardenafil. Tadalafil and avanafil may be taken with or without food, although a high-fat meal can also delay peak avanafil concentration. Tadalafil has a longer window of action (p552). [FDA avanafil prescribing information, §§2.1 and 12.3](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202276s020lbl.pdf).
+- The chapter directs that sildenafil and vardenafil be taken on an **empty stomach** because high-fat meals or alcohol delay absorption. Food does not significantly interfere with tadalafil or avanafil absorption, and tadalafil has a longer duration of action (p552).
+
+  > Current practice (not the book): Avanafil may be taken with or without food. A high-fat meal can delay peak concentration. [FDA prescribing information, 2022, §§2.1, 12.3](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202276s020lbl.pdf).
 - These agents are contraindicated with nitrates; caution with alpha blockers because of hypotension. Headache, flushing and dyspepsia are common (p552).
 
 Sildenafil preserves the cyclic GMP signal generated during arousal. A nitrate increases production of that signal, so combining the two can cause profound hypotension. An alpha blocker also lowers blood pressure. Sildenafil and vardenafil may produce a transient blue tinge to vision. Tadalafil offers a longer window of activity and avanafil may act sooner (p. 552).
@@ -73,7 +79,9 @@ Alprostadil can be injected into the corpora or placed in the urethra. In a man 
 
 Testosterone relates more consistently to libido than to erections in older men. Androgen deprivation for advanced prostate cancer deliberately suppresses androgen action, so diminished desire and reduced sexual activity are expected. In contrast, erectile difficulty in a man with preserved desire often calls for a vascular, neurologic or medication evaluation (pp. 550–552).
 
-**One low result with snoring and obesity.** Repeat morning testosterone, assess the cause if persistently low, and investigate the snoring and disturbed sleep. Obesity can suppress gonadotropins and testosterone and can alter sex hormone–binding globulin. Weight reduction may help. Defer testosterone in untreated severe obstructive sleep apnea. [Sleep evaluation, p. 647](?chapter=44#p647) · [Reversible causes and precautions, p. 1534](?chapter=97#p1534) · [Endocrine Society, recommendation 2.2](https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy).
+**One low result with snoring and obesity.** Repeat morning testosterone, assess the cause if persistently low, and investigate the snoring and disturbed sleep. Obesity can suppress gonadotropins and testosterone and can alter sex hormone–binding globulin. Weight reduction may help. The book advises caution with testosterone in untreated obstructive sleep apnea (Ch 97 p1534). [Sleep evaluation, p. 647](?chapter=44#p647) · [Reversible causes and precautions, p. 1534](?chapter=97#p1534)
+
+> Current practice (not the book): Defer testosterone in untreated severe obstructive sleep apnea. [Endocrine Society, recommendation 2.2](https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy).
 
 - Testosterone can modestly improve desire, activity and erectile function in hypogonadal men; it does not improve these outcomes in eugonadal men (p553).
 - Adding testosterone after failure of an oral erectile-dysfunction drug may help severe hypogonadism, not normal testosterone status (p553).

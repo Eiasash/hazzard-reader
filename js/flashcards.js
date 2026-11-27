@@ -74,7 +74,7 @@ window.HazzardFlashcards = (() => {
     return ranks;
   }
 
-  const isShowing = () => pane && !pane.hidden && pane.closest('dialog')?.open;
+  const isShowing = () => pane && !pane.hidden && document.body.classList.contains('flashcards-open');
   const element = id => pane.querySelector('#' + id);
   function saveSession() {
     history.replaceState({...history.state, hazzardFlashcards: session}, '');
@@ -94,7 +94,7 @@ window.HazzardFlashcards = (() => {
     const article = element('flashcardArticle'), completion = element('flashcardCompletion');
     article.hidden = !card;
     completion.hidden = !!card;
-    element('flashcardOrder').value = session.order;
+    for(const button of element('flashcardOrder').children)button.setAttribute('aria-pressed',String(button.dataset.order===session.order));
     element('flashcardError').hidden = true;
     if (card) {
       article.dataset.cardId = card.id;
@@ -104,7 +104,9 @@ window.HazzardFlashcards = (() => {
       const priority = session.order === 'missed' && rank != null ? [' · Missed question', ' · Missed topic', ' · Missed chapter'][rank] || '' : '';
       element('flashcardCount').textContent = 'Chapter ' + card.chapter + ' · ' + (session.position + 1) + ' of ' + session.ids.length + priority + grade;
       question.textContent = card.front;
-      element('flashcardBack').textContent = card.back;
+      const [printed,...practice]=card.back.split(/\n(?:>\s*)?Current practice \(not the book\):\s*/);
+      const back=element('flashcardBack');back.replaceChildren(document.createTextNode(printed));
+      for(const text of practice){const note=document.createElement('details'),label=document.createElement('summary');label.textContent='Current practice';note.className='study-current-practice';note.append(label,document.createTextNode(text));back.append(note);}
       const source = element('flashcardSource'), sourceChapter = card.readChapter || card.chapter;
       const sourceURL = new URL(location.href);
       sourceURL.search = new URLSearchParams({chapter: sourceChapter, cardSource: card.id});
@@ -121,6 +123,7 @@ window.HazzardFlashcards = (() => {
         context.textContent = 'Study reference · ' + card.studyReference.label;
       } else context.removeAttribute('href');
       answer.open = !!session.revealed;
+      for(const button of pane.querySelectorAll('[data-flash-grade]'))button.disabled=!answer.open;
       if (focus) question.focus();
     } else {
       const again = session.ids.filter(id => records[id]?.grade === 'again').length;
@@ -207,15 +210,16 @@ window.HazzardFlashcards = (() => {
     pane.dataset.pane = 'flashcards';
     pane.dataset.title = 'Flashcards';
     pane.dataset.readerMetadata = 'flashcards';
-    pane.innerHTML = '<label class="flashcard-order">Order <select id="flashcardOrder"><option value="all">All cards</option><option value="due">Due cards</option><option value="missed">Missed topics first</option></select></label>' +
+    pane.id='flashcardView';pane.setAttribute('aria-label','Flashcards');
+    pane.innerHTML = '<div id="flashcardOrder" class="choice-chips" role="group" aria-label="Card order"><button type="button" data-order="all">All</button><button type="button" data-order="due">Due</button><button type="button" data-order="missed">Missed first</button></div>' +
       '<p id="flashcardCount" class="meta" role="status"></p>' +
       '<article id="flashcardArticle" hidden><h3 id="flashcardFront" tabindex="-1"></h3><details id="flashcardAnswer"><summary>Show answer</summary>' +
-      '<p id="flashcardBack"></p><div class="flashcard-sources"><a id="flashcardSource"></a><a id="flashcardContext" hidden></a></div><div class="flashcard-actions"><button type="button" data-flash-grade="again">Again</button>' +
-      '<button type="button" class="primary" data-flash-grade="know">Know</button></div></details></article>' +
+      '<div id="flashcardBack"></div><div class="flashcard-sources"><a id="flashcardSource"></a><a id="flashcardContext" hidden></a></div></details><div class="flashcard-actions"><button type="button" data-flash-grade="again" disabled>Again</button>' +
+      '<button type="button" class="primary" data-flash-grade="know" disabled>Know</button></div></article>' +
       '<div id="flashcardCompletion" hidden><h3 id="flashcardDone" tabindex="-1">Deck complete</h3><p id="flashcardTotals"></p>' +
       '<div class="flashcard-actions"><button type="button" id="flashcardReviewAgain">Review Again cards</button><button type="button" id="flashcardRestart">Restart deck</button></div></div>' +
       '<p role="alert" id="flashcardError" hidden></p>';
-    document.getElementById('panel').append(pane);
+    document.querySelector('main').append(pane);
     function buttonFor(scope) {
       const button = document.createElement('button');
       button.type = 'button';
@@ -230,7 +234,7 @@ window.HazzardFlashcards = (() => {
     }
     const dueButton=document.getElementById('homeFlashDue');
     dueButton.onclick=()=>{requested={scope:'all',order:'due'};open(dueButton);};
-    refreshDue();
+    if(!document.querySelector('#desk')?.hidden)refreshDue();
     document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDue();});
     addEventListener('hazzard-flashcards-change',refreshDue);
     addEventListener('storage',e=>{if(!e.key||e.key===KEY)refreshDue();});
@@ -249,7 +253,7 @@ window.HazzardFlashcards = (() => {
       entry.className = 'study-flashcards';
       copy.querySelector('h1')?.after(entry);
     }
-    element('flashcardOrder').addEventListener('change', event => restart(event.target.value));
+    element('flashcardOrder').onclick=event=>{const choice=event.target.closest('[data-order]');if(choice&&choice.dataset.order!==session?.order)restart(choice.dataset.order);};
     element('flashcardRestart').addEventListener('click', () => restart(session.order));
     element('flashcardReviewAgain').addEventListener('click', () => {
       const grades = progress().cards;
@@ -259,7 +263,7 @@ window.HazzardFlashcards = (() => {
       if (!session || !isShowing()) return;
       session.revealed = event.currentTarget.open;
       saveSession();
-      if (session.revealed) expand?.();
+      for(const button of pane.querySelectorAll('[data-flash-grade]'))button.disabled=!session.revealed;
       onResize();
     });
     for (const button of pane.querySelectorAll('[data-flash-grade]')) button.addEventListener('click', () => {
@@ -268,6 +272,7 @@ window.HazzardFlashcards = (() => {
     pane.querySelector('.flashcard-sources').addEventListener('click', event => {
       const link = event.target.closest('a[href]');
       if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      saveSession();
       if (link.pathname !== location.pathname || link.search !== location.search) return;
       // A same-document fragment would leave the flashcard sheet over the passage.
       // Give Read its own entry so Back can still return to this card and answer.

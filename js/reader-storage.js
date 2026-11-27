@@ -2,8 +2,8 @@
    IndexedDB holds five checksummed, complete reader-only snapshots. */
 window.HazzardStorage = (() => {
   const DB_NAME='hazzard-reader-snapshots-v1',STORE='snapshots',KEEP=5;
-  const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1',TIMER_KEY='hazzard-timer-v2';
-  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,TIMER_KEY,'hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
+  const PLACE_KEY='hazzard-place-v1',BOOKMARK_KEY='hazzard-bookmarks-v1',MOCK_KEY='hazzard-mock-v1',DRILL_KEY='hazzard-drills-v1',READING_KEY='hazzard-reading-progress-v1',MISSED_KEY='hazzard-missed-v1';
+  const keys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,'hazzard-timer-v2','hazzard-timer-v1','stage-a-display-v4','hazzard-chapters-sort-v1',HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY,'hazzard-last-backup-v1']);
   keys.add('hazzard-removals-v1');
   keys.add(HazzardAnswerHighlights.KEY);
   keys.add(HazzardMCQ.MIGRATION_KEY);
@@ -20,7 +20,6 @@ window.HazzardStorage = (() => {
   const colours=HazzardAnswerHighlights.highlightColours;
   const validHighlight=mark=>mark&&colours.includes(mark.colour)&&typeof mark.text==='string';
   const sizes={small:12,medium:13.5,large:15};
-  const validTimer=state=>Number.isInteger(state?.phase)&&state.phase>=0&&state.phase<3&&Number.isFinite(state.left)&&state.left>=0&&state.left<=[1500,300,300][state.phase]&&typeof state.running==='boolean'&&Number.isFinite(state.end)&&state.end>=0&&(!state.running||state.end>0);
 
   const REMOVALS_KEY='hazzard-removals-v1',REMOVALS_MAX=5000,REMOVALS_AGE=365*86400000;
   const emptyRemovals=()=>({version:1,bookmarks:{},generatedFlags:{},highlights:{}});
@@ -102,21 +101,23 @@ window.HazzardStorage = (() => {
   else if(key===HazzardReview.KEY)valid=HazzardReview.valid(value);
   else if(key===HazzardSimulation.KEY)valid=HazzardSimulation.valid(value);
   else if(key===HazzardMCQ.VIEW_KEY)valid=HazzardMCQ.validView(value);
-  else if(key===TIMER_KEY||key==='hazzard-timer-v1')valid=validTimer(value);
+  else if(key==='hazzard-timer-v2'||key==='hazzard-timer-v1')valid=isRecord(value);
   else if(key==='hazzard-chapters-sort-v1')valid=['number','title','yield','recent'].includes(value);
   else if(key==='stage-a-display-v4')valid=isRecord(value)&&Object.hasOwn(sizes,value.size)&&colours.includes(value.colour)&&['light','dark'].includes(value.theme);
   if(!valid)throw new Error('This backup contains unreadable notebook data. Nothing was restored.');
 }
+  const validatedRaw=new Map();
   function validRaw(key,raw){
     try{
       if(typeof raw!=='string'||!owns(key))return false;
+      if(validatedRaw.get(key)===raw)return true;
       if(key==='hazzard-last-backup-v1')return Number.isFinite(Number(raw))&&Number(raw)>=0;
       if(key===HazzardMCQ.MIGRATION_KEY)return raw==='1';
-      validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));return true;
+      validateNotebookValue(key,key==='hazzard-chapters-sort-v1'?raw:JSON.parse(raw));validatedRaw.set(key,raw);return true;
     }catch{return false;}
   }
   // Unreadable stores stay byte-for-byte intact until an explicit recovery.
-  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===TIMER_KEY||key===REMOVALS_KEY||key===HazzardFlashcards.KEY;
+  const sharedRecoveryStore=key=>key===DRILL_KEY||key===MOCK_KEY||key===MISSED_KEY||key===REMOVALS_KEY||key===HazzardFlashcards.KEY;
   const readerStore=key=>key===PLACE_KEY||key===BOOKMARK_KEY||key===READING_KEY||sharedRecoveryStore(key)||key===HazzardAnswerHighlights.KEY||highlightKey(key);
   const protectedStores=new Map([
     [HazzardFlashcards.KEY,{label:'Flashcard progress',fresh:'flashcard progress',empty:HazzardFlashcards.empty}],
@@ -127,7 +128,6 @@ window.HazzardStorage = (() => {
     [DRILL_KEY,{label:'Drill grades',fresh:'drill grades',empty:()=>({})}],
     [MOCK_KEY,{label:'Legacy mock progress',fresh:'legacy mock progress',empty:()=>({ids:[],grades:{},revealed:[]})}],
     [MISSED_KEY,{label:'Missed questions',fresh:'missed questions',empty:()=>({questions:{}})}],
-    [TIMER_KEY,{label:'Study timer',fresh:'study timer',empty:()=>({phase:0,left:1500,running:false,end:0})}],
     [REMOVALS_KEY,{label:'Deletion records',fresh:'deletion records',empty:emptyRemovals}],
     [HazzardMCQ.SETTINGS_KEY,{label:'Practice settings',fresh:'practice settings',empty:()=>({version:1,includeStandout:false,shufflePastOptions:true,generatedSelected:true,drillSelected:true,at:0})}],
     [HazzardMCQ.PLACE_KEY,{label:'Practice place',fresh:'practice place',empty:()=>({version:1,screen:'bank',id:null,scroll:0})}],
@@ -266,10 +266,11 @@ window.HazzardStorage = (() => {
     status.restored++;return true;
   }
   function recoveryHTML(reader=false){
+    const cloudAvailable=window.HazzardCloud?.available!==false;
     const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     return blockedKeys().filter(key=>reader===null||readerStore(key)===reader||sharedRecoveryStore(key)).map(rawKey=>{const spec=protectedStores.get(rawKey),saved=recoverySnapshots.get(rawKey),key=escape(rawKey);
       const local=saved?'<button data-storage-snapshot="'+key+'">Restore latest local snapshot ('+snapshotTime(saved.at)+')</button> ':'';
-      return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+'<button data-storage-cloud>Restore from cloud</button> <button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">Cloud paused: a saved store could not be read. This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
+      return '<section class="mcq-recovery" role="alert"><p>'+escape(spec.label)+' could not be read.</p>'+local+(cloudAvailable?'<button data-storage-cloud>Restore from cloud</button> ':'')+'<button data-storage-file>Restore from file</button> <button data-storage-fresh="'+key+'">Start '+spec.fresh+' fresh</button><p class="meta">'+(cloudAvailable?'Cloud paused: a saved store could not be read. ':'')+'This history stays unchanged until you restore or start fresh; temporary changes last only in this tab.</p></section>';
     }).join('');
   }
   blockedKeys();
@@ -280,18 +281,51 @@ window.HazzardStorage = (() => {
     try{await navigator.storage?.persist?.();status.persisted=await navigator.storage?.persisted?.()??false;}catch{status.persisted=false;}notify();return status.persisted;
   }
   let db=null,tail=Promise.resolve(),queuedPayload=null;
+  // Retired records remain in the existing checksummed snapshots and exports.
+  // Remove the active key only when its committed copy has the same raw bytes.
+  const retiredKeys=new Set(['hazzard-timer-v1','hazzard-timer-v2']),archived={};
+  const archivedValues=()=>({...archived});
+  const archiveId='retired-notebook-values';
+  async function archiveRetired(previous={}){
+    const active={};
+    for(const key of retiredKeys){
+      const raw=localStorage.getItem(key);
+      if(raw!==null)active[key]=raw;
+    }
+    await new Promise((resolve,reject)=>{
+      const tx=transaction('readwrite'),store=tx.objectStore(STORE),get=store.get(archiveId);
+      get.onsuccess=()=>{
+        const values={...get.result?.values};
+        for(const key of retiredKeys)if(values[key]===undefined&&typeof previous[key]==='string')values[key]=previous[key];
+        Object.assign(values,active);
+        if(Object.keys(values).length)store.put({id:archiveId,values});
+      };
+      tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error);tx.onerror=()=>{};
+    });
+    const verified=await new Promise((resolve,reject)=>{
+      const tx=transaction('readonly'),get=tx.objectStore(STORE).get(archiveId);
+      get.onsuccess=()=>resolve(get.result?.values||{});get.onerror=()=>reject(get.error);
+    });
+    Object.assign(archived,verified);
+    for(const [key,raw] of Object.entries(active)){
+      if(verified[key]!==raw)throw Error('A historical backup value could not be verified.');
+      if(localStorage.getItem(key)===raw)localStorage.removeItem(key);
+    }
+  }
   function capture(preserveInvalid=false){
-    const storage={};for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
+    const storage=archivedValues();for(const key of Object.keys(localStorage).filter(owns).sort()){const raw=localStorage.getItem(key);if(!preserveInvalid&&!protectedStores.has(key)&&!validRaw(key,raw))continue;if(!(preserveInvalid&&!protectedStores.has(key))&&!validRaw(key,raw))throw Error('A saved reader item is unreadable. Automatic copies have been kept.');storage[key]=raw;}
     return storage;
   }
   async function hash(storage){const bytes=new TextEncoder().encode(JSON.stringify(storage));const digest=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');}
   function transaction(mode){try{return db.transaction(STORE,mode,{durability:'strict'});}catch{return db.transaction(STORE,mode);}}
-  function rows(){return new Promise((resolve,reject)=>{const tx=transaction('readonly'),request=tx.objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
+  function rows(){return new Promise((resolve,reject)=>{const tx=transaction('readonly'),request=tx.objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result.filter(row=>row.id!==archiveId));request.onerror=()=>reject(request.error);});}
   async function usable(row){return row?.version===1&&Number.isFinite(row.at)&&isRecord(row.storage)&&Object.entries(row.storage).every(([k,v])=>validRaw(k,v))&&typeof row.hash==='string'&&row.hash===await hash(row.storage);}
   async function indexSnapshots(){
     const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
     recoverySnapshots.clear();
-    for(const row of saved){if(await usable(row)){
+    for(const row of saved){
+      if(latest&&Object.keys(row.storage||{}).every(key=>Object.hasOwn(latest.storage,key)||recoverySnapshots.has(key)))continue;
+      if(await usable(row)){
       latest??=row;
       for(const key of Object.keys(row.storage))protectedStore(key);
       for(const key of protectedStores.keys())if(!recoverySnapshots.has(key)&&Object.hasOwn(row.storage,key))recoverySnapshots.set(key,{id:row.id,at:row.at,hash:row.hash});
@@ -301,6 +335,9 @@ window.HazzardStorage = (() => {
   function snapshot({preserveInvalid=false}={}){
     // Capture the whole reader state at the change, not at pagehide. Primary
     // localStorage has already acknowledged this write before we get here.
+    if(db&&[...retiredKeys].some(key=>localStorage.getItem(key)!==null)){
+      tail=tail.then(()=>archiveRetired()).catch(error=>{status.error=error.message;notify();});
+    }
     if(blockedKeys().length){notify();return tail;}
     let storage;try{storage=capture(preserveInvalid);}catch(error){status.error=error.message;notify();return tail;}
     const payload=JSON.stringify(storage),at=Date.now();
@@ -311,7 +348,7 @@ window.HazzardStorage = (() => {
       const digest=await hash(storage);
       await new Promise((resolve,reject)=>{
         const tx=transaction('readwrite'),store=tx.objectStore(STORE);store.add({version:1,at,storage,hash:digest});
-        const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
+        const request=store.getAll();request.onsuccess=()=>{const ordered=request.result.filter(row=>row.id!==archiveId).sort((a,b)=>b.at-a.at||b.id-a.id);for(const row of ordered.slice(KEEP))store.delete(row.id);};
         tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error||Error('Automatic snapshot could not be written'));tx.onerror=()=>{};
       });
       await indexSnapshots();
@@ -324,14 +361,18 @@ window.HazzardStorage = (() => {
     try{
       db=await new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,1);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Automatic snapshots are blocked by another tab.'));});
       const latest=await indexSnapshots();
+      await archiveRetired(latest?.storage);
       await recoverLocalPlace();
       if(latest){
-        status.snapshotAt=latest.at;
+        status.snapshotAt=latest.at;if(queuedPayload===null)queuedPayload=JSON.stringify(latest.storage);
         // Restore only absent or invalid values. Valid empty marks/grades are
         // intentional changes and must not be resurrected from older copies.
-        for(const [key,raw]of Object.entries(latest.storage))if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
+        for(const [key,raw] of Object.entries(latest.storage)){
+          if(retiredKeys.has(key))continue;
+          if(key!==HazzardMCQ.SETTINGS_KEY&&!protect(key)&&!validRaw(key,localStorage.getItem(key))){localStorage.setItem(key,raw);status.restored++;}
+        }
       }
-      await snapshot();
+      snapshot(); // Recovery is complete. The queued safety copy is still awaited by flush().
     }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
     notify();
   })();
@@ -353,5 +394,5 @@ window.HazzardStorage = (() => {
     }
     snapshot();
   });
-  return {colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {archivedValues,colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();

@@ -134,9 +134,10 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 - **MCI noted in up to 15–20%** of older adults; progresses to dementia at **~12–15%/year** (p907).
 
 **Drugs**
-- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the patch (p912); **18–48%** show cognitive improvement, most others just have slowed decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
+- **AChEIs** (mainstay): **donepezil (Aricept)**, **galantamine (Razadyne)**, **rivastigmine (Exelon)** — the text says start low with dose increases approximately every 2 months (p911), while Table 59-7 lists drug-specific steps: donepezil **4–6 wk** before 5→10 mg (the 10→23 mg step after **3 months** on 10 mg) (p912), galantamine **≥4 wk** per step (p912), rivastigmine **≥2 wk** per oral step or **4–6 wk** for the initial patch step, with a maximum of **13.3 mg/24 h** (Table 59-7, p913); **18–48%** show cognitive improvement, most others have a plateau or slower cognitive decline (p911). Cautions: GI upset (take with food); bradycardia/AV block/syncope/weight loss are triggers to deprescribe.
 - **Memantine (Namenda)** — NMDA-receptor antagonist, approved for **moderate-to-severe AD**; combo with an AChEI has not been shown to be superior to either drug alone (p911).
-- **Aducanumab** received FDA accelerated approval in June 2021 after trials in MCI due to AD or mild AD dementia (p911, Table 59-7, p914). EMERGE found 22% less worsening on CDR-SB over 18 months. ENGAGE did not show significant benefit. In the pooled 10 mg/kg groups, **35.2%** had ARIA-E, **41.3%** had any ARIA-E or ARIA-H, and **75.8%** of participants with any ARIA were asymptomatic (EMERGE/ENGAGE safety analysis, Tables 1 and 3).
+- **Aducanumab** received FDA accelerated approval in June 2021 after trials in MCI due to AD or mild AD dementia (p911, Table 59-7, p914). EMERGE found 22% less worsening on CDR-SB over 18 months. ENGAGE did not show significant benefit. Hazzard reports MRI abnormalities (ARIA-E or ARIA-H) in **34–36%** of high-dose participants, with **about 80% of affected participants asymptomatic** (p911).
+  > Current practice (not the book): the pooled trial safety analysis found ARIA-E in **35.2%** and any ARIA in **41.3%** of the 10 mg/kg group. Of those with any ARIA, **75.8%** had no reported symptoms — [Salloway et al., EMERGE/ENGAGE safety analysis, Tables 1 and 3](https://jamanetwork.com/journals/jamaneurology/fullarticle/2786606).
 
 **Prevention, safety, and end-of-life**
 - **SPRINT-MIND**: SBP goal **120 mmHg** (vs 140) → **19%** reduction in incident MCI (p915).
@@ -174,7 +175,7 @@ Donepezil (Aricept), galantamine (Razadyne), rivastigmine (Exelon) (p911).
 
 <details><summary>Answer</summary>
 
-Of 1,029 high-dose participants, 425 (41.3%) had ARIA-E or ARIA-H, including 362 (35.2%) with ARIA-E. Among the 425 with any ARIA, 103 (24.2%) had symptoms and 322 (75.8%) did not (p911, EMERGE/ENGAGE integrated safety analysis, Tables 1 and 3).
+Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with ARIA, approximately **80% were asymptomatic**, so about **20% were symptomatic** (p911).
 
 </details>
 

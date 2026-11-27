@@ -197,7 +197,7 @@ Coordinate primary care, endocrinology, nursing education, nutrition, eye and fo
 - **Meglitinides** (repaglinide 0.5–4 mg before meals) (p1578). Cautions: hypoglycemia; avoid combining with gemfibrozil (p1580).
 
 **Drugs — insulin (Table 99-12, p1579; dosing p1581–1582)**
-- **Glargine** (basal): no peak, duration **20→>24 h**; start **10 units** qd or **0.2 units/kg/day**.
+- **Glargine U-100** has no peak and lasts **20 to >24 hours**. **Glargine U-300** also has no peak and lasts **28–36 hours** (Table 99-12, p1579). The chapter gives an initial glargine dose of **10 units once daily** or **0.2 units/kg/day** (p1581).
 - **Degludec** (ultra-long): duration **>40 h**.
 - **Rapid-acting**: Table 99-12 prints onset **5–15 min**, duration **2–4 h** on the lispro line only (aspart/glulisine cells blank); rapid-acting analogs are given just before meals and can even be given within 20 min after starting a meal.
 - Total daily dose: type 1 **~0.5–1.0 units/kg**; type 2 up to **1.0–2.0 units/kg**; start low, **0.1–0.2 units/kg/day**.

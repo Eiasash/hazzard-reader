@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v324'; // On-demand reading and question data.
+const CACHE_VERSION = 'v325'; // On-demand reading and question data.
 // Release caches activate only after the reader's update tap.
 const SHELL_CACHE = 'hazzard-shell-' + CACHE_VERSION + '-sources';
 const SHELL_URL = './index.html';
@@ -108,6 +108,8 @@ self.addEventListener('activate', event => {
 });
 self.addEventListener('fetch', event => {
   const req = event.request;
+  const lookup=new URL(req.url);
+  if(lookup.pathname===new URL('manifest.json',self.registration.scope).pathname&&lookup.searchParams.get('check-newer')==='1')return;
   if (req.method !== 'GET' || !req.url.startsWith(self.registration.scope)) return;
   event.respondWith((async () => {
     const cache = await caches.open(SHELL_CACHE);

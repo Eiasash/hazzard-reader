@@ -31,6 +31,14 @@ window.HazzardReadingCompanion = (() => {
     element.focus({preventScroll: true});
   }
 
+  function syncMode(){
+    const id=new URL(location.href).searchParams.get('chapter')||chapter;
+    for(const button of document.querySelectorAll('#chapterHeader .chapter-switch > button[data-chapter]')){
+      if(button.dataset.chapter===id)button.setAttribute('aria-current','page');
+      else button.removeAttribute('aria-current');
+    }
+  }
+
   function sourceAt(url) {
     let id;
     try { id = decodeURIComponent(url.hash.slice(1)); } catch { return false; }
@@ -44,7 +52,7 @@ window.HazzardReadingCompanion = (() => {
       history.pushState({...history.state, companionSource: true}, '', next);
     }
     readingSource = true;
-    land(target);
+    syncMode();land(target);
     focusAt(target);
     return true;
   }
@@ -78,21 +86,12 @@ window.HazzardReadingCompanion = (() => {
       if (!primary?.contains(link) || !route(url, false)) return;
     } else {
       if (link.getAttribute('href').startsWith('#')) return;
-      // MCQ citations have their own source preview. Its explicit "Open fully"
-      // link can then move the primary reading column to the cited paragraph.
-      if (link.closest('#mcqViewport') && readerURL(url) && /^(?:\d+s?|laws?)$/.test(url.searchParams.get('chapter') || '')) return;
       if (!parent.HazzardReadingCompanion.route(url, true)) {
         link.target = '_blank';
         link.relList.add('noopener');
         return;
       }
-      const preview = link.closest('dialog.mcq-preview');
-      if (preview?.open) {
-        if (url.searchParams.get('chapter') === owner.dataset.chapter) {
-          preview.addEventListener('close', () => parent.HazzardReadingCompanion.route(url, true), {once: true});
-        }
-        preview.close();
-      }
+
     }
     event.preventDefault();
     event.stopPropagation();
@@ -163,7 +162,7 @@ window.HazzardReadingCompanion = (() => {
     const toggle=document.createElement('button');
     toggle.id='toggleCompanion';toggle.type='button';
     toggle.setAttribute('aria-controls',pane.id);
-    document.querySelector('[data-pane="contents"] .chapter-actions').prepend(toggle);
+    document.querySelector('[data-pane="tools"]').append(toggle);
     function setOpen(open){
       preference=String(open);
       try { localStorage.setItem(prefKey,preference); } catch {}
@@ -205,7 +204,7 @@ window.HazzardReadingCompanion = (() => {
     addEventListener('popstate', event => {
       const wasSource = readingSource;
       readingSource = !!event.state?.companionSource;
-      layout();
+      syncMode();layout();
       if (pane.hidden) return;
       if (readingSource) {
         const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : primary.querySelector('h1');

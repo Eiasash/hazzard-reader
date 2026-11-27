@@ -735,7 +735,7 @@
     "id": "ch61-motor-onset",
     "chapter": "61",
     "front": "What does substantial posterior putaminal terminal loss at the onset of motor symptoms imply?",
-    "back": "The chapter estimates that around 60–80% of these terminals are already lost by motor onset. In the Braak model, nigral involvement is stage 3; olfactory, sleep or autonomic changes can come earlier. Hazzard 8e, p. 938.",
+    "back": "By motor onset the chapter describes the loss of “over 60% to 80%” of posterior putaminal dopaminergic terminals (Hazzard 8e, p. 938). In the Braak model nigral involvement is stage 3; olfactory, sleep and autonomic symptoms may precede diagnosis (p. 939).",
     "page": 938,
     "anchor": "hl-u713",
     "questionIds": [
@@ -2862,7 +2862,7 @@
     "id": "ch65-ect-memory",
     "chapter": "65",
     "front": "How should an older adult be counseled about cognition after ECT?",
-    "back": "Brief confusion and difficulty learning new information usually improve. Some people have longer-lasting gaps in autobiographical memory. Discuss these risks alongside the benefit for severe depression and assess anesthetic suitability. Hazzard 8e, p. 1014.",
+    "back": "Hazzard 8e, p. 1014, says that short-term memory loss almost always resolves within a few weeks after the course of ECT.\n\n> Current practice (not the book): Some patients report persistent gaps in memory for personal events before treatment. Discuss this separately from short-term difficulty learning new information (Royal College of Psychiatrists, Electroconvulsive therapy, 2026).",
     "page": 1014,
     "anchor": "exam-p1014-mcq-e7a9b86ecadd6d67e6f524b1",
     "questionIds": [
@@ -3522,7 +3522,7 @@
     "chapter": "62",
     "readChapter": "62",
     "front": "How do acute stroke and Alzheimer disease enter the differential for a first seizure in an older adult?",
-    "back": "Stroke may provoke an immediate seizure or lead to later epilepsy. Hemorrhagic stroke overall had more first-day seizures than ischemic stroke in the cited cohort. Neurodegeneration independently predisposes to seizures. Harrison 21e, p. 3310, and Szaflarski et al., Epilepsia 2008. Related ICH care in Hazzard 8e, p. 976.",
+    "back": "Harrison 21e (p. 3310) says seizures at the time of stroke are more frequent with embolic than with hemorrhagic or thrombotic stroke. Harrison 22e (p. 3414) describes a different comparison: within the first 24 hours, seizures are more common after hemorrhagic than ischemic stroke. Both editions also identify neurodegenerative disease as a cause of seizures in older adults. Hazzard 8e, p. 976, covers management of seizures after intracerebral hemorrhage.",
     "page": 976,
     "anchor": "ch62-seizure",
     "questionIds": [
@@ -4527,7 +4527,7 @@
     "id": "ch51-prednisone-bone",
     "chapter": "51",
     "front": "Does 5 mg/day of prednisone for eight months exclude the need for bone-protective therapy?",
-    "back": "No. Assess fracture risk and determine whether drug treatment is indicated. Chronic glucocorticoids impair formation and increase resorption. The ACR assessment threshold is ≥2.5 mg/day for longer than three months. Hazzard 8e, p. 769.",
+    "back": "No. Hazzard 8e, p. 769, describes bone loss chiefly in the first six months, usually with prednisone-equivalent doses of at least 7.5 mg/day for longer than three months. This is a usual exposure associated with bone loss, not a treatment threshold.\n\n> Current practice (not the book): Assess fracture risk in adults taking at least 2.5 mg/day for longer than three months. Treatment depends on fracture risk (ACR 2022 glucocorticoid-induced osteoporosis guideline).",
     "page": 769,
     "anchor": "exam-p769-mcq-0dd3353be9d7e981544cb1cf",
     "questionIds": [
@@ -7962,8 +7962,8 @@
     "chapter": "97",
     "page": 1532,
     "anchor": "ch97-adrenal-ct",
-    "front": "What must be specified before 10 Hounsfield units can reassure you about an adrenal incidentaloma?",
-    "back": "The mass must be homogeneous and the measurement taken on unenhanced CT. At 10 HU or below this appearance is characteristic of a benign lipid-rich lesion. Hazzard 8e, p. 1532; ESE/ENSAT 2023, recommendation 2.3.",
+    "front": "How does the printed CT attenuation cutoff for an adrenal incidentaloma compare with the ESE/ENSAT imaging criterion?",
+    "back": "Hazzard 8e, p. 1532, says that fat-related attenuation below 10 HU on CT excludes malignancy and pheochromocytoma.\n\n> Current practice (not the book): A homogeneous adrenal mass measuring 10 HU or less on unenhanced CT needs no further imaging under ESE/ENSAT 2023, recommendation 2.3.",
     "questionIds": [
       "mcq-38e4e7a93de1d3642f3d9d86"
     ]
@@ -9072,7 +9072,7 @@
     "id": "ch57-pdd-one-year",
     "chapter": "57",
     "front": "How does the chapter separate PDD from DLB?",
-    "back": "By timing: dementia after 1 year of well-established parkinsonian motor symptoms is PDD; motor symptoms after the dementia, or within one year of motor onset, is DLB. Hazzard 8e, p. 870.",
+    "back": "Printed wording (Hazzard 8e, p. 870): dementia developing after a year of established parkinsonian motor symptoms is PDD. The DLB sentence describes motor symptoms after dementia and adds “or within one year of motor symptom onset” without naming the event in the parenthesis. Standard one-year rule: use DLB when dementia precedes parkinsonism or begins within one year of motor onset; use PDD for later dementia in established PD (DLB Consortium, 2017).",
     "page": 870,
     "anchor": "p870",
     "questionIds": [
@@ -9288,9 +9288,9 @@
     "id": "ch82-hyperkalemia-susceptibility",
     "chapter": "82",
     "front": "Why are older patients more susceptible to hyperkalemia?",
-    "back": "Lower kidney function and muscle mass, altered muscle ion regulation, lower renin and aldosterone, and drugs such as ACE inhibitors, ARBs and potassium-sparing diuretics. Hazzard 8e, p. 1271.",
-    "page": 1271,
-    "anchor": "p1271",
+    "back": "Lower kidney function and muscle mass, altered muscle ion regulation, lower renin and aldosterone, and drugs such as ACE inhibitors, ARBs and potassium-sparing diuretics. Hazzard 8e, p. 1270.",
+    "page": 1270,
+    "anchor": "p1270",
     "questionIds": [
       "mcq-f7f1da57f641c281b8dd1d40"
     ]

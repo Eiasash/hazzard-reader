@@ -53,7 +53,9 @@ For an older adult with major depression, mild anxiety and ischemic heart diseas
 
 SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormone secretion. Consider the drug and other contributors if new confusion or gait instability follows initiation. Both mirtazapine and bupropion were accepted as lower-risk options in the September item. Neither guarantees normal sodium. Mirtazapine can increase appetite and daytime sleepiness, even at a low dose. Hazzard pp. 929–930, Table 60-9. <span data-exam-ids="mcq-63bf3798074f1dec36283b45" data-reader-metadata="exam"></span>
 
-**Read the ECG from the beginning of QRS to the end of T.** Citalopram prolongs ventricular repolarization in a dose-dependent manner. The label limits dosing to 20 mg daily above age 60. Hypokalemia and other QT-prolonging drugs increase concern. In CitAD, a target of 30 mg daily improved selected agitation outcomes but caused cognitive and cardiac adverse effects. The trial found no significant improvement in daily functioning or rescue lorazepam use. The subsequent S-CitAD trial did not find significant improvement in agitation at 12 weeks with escitalopram and found QT prolongation. Hazzard pp. 929–930. [CitAD trial, Table 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4086818/) · [S-CitAD trial, primary outcome and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC12951298/) <span data-exam-ids="mcq-6655a23a9c4d6fc4c36f3cf9" data-reader-metadata="exam"></span>
+**Read the ECG from the beginning of QRS to the end of T.** Citalopram prolongs ventricular repolarization in a dose-dependent manner. Table 60-9 gives a maximum of 20 mg daily above age 60. Hypokalemia and other QT-prolonging drugs increase concern. Hazzard describes improved agitation, lower caregiver stress, better ADL performance and less rescue lorazepam with citalopram in CitAD (p929). <span data-exam-ids="mcq-6655a23a9c4d6fc4c36f3cf9" data-reader-metadata="exam"></span>
+
+> Current practice (not the book): the published CitAD trial found improvement in selected agitation and caregiver-distress measures, with cognitive worsening and QT prolongation at its target of 30 mg/day. ADL performance and rescue lorazepam use did **not** differ significantly. S-CitAD found no significant improvement in agitation at 12 weeks with escitalopram and reported QT prolongation. [CitAD trial, 2014, Table 2](https://pubmed.ncbi.nlm.nih.gov/24549548/) · [S-CitAD trial, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12951298/).
 
 **Lithium and a new thiazide.** Sodium loss can reduce renal lithium clearance. New tremor, falls, altered consciousness or clonus warrant prompt evaluation of lithium level, electrolytes and kidney function. A routine urine toxicology screen does not measure lithium. For agitation in Alzheimer disease, the completed Lit-AD trial found no significant advantage over placebo on its primary agitation and aggression measure. Hazzard p. 931. [Lithium prescribing information, sections 5.1 and 7.1](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7dc9c6d2-6d9a-49e4-a8ab-437b0ed5f84e&type=display) · [Lit-AD results](https://pubmed.ncbi.nlm.nih.gov/34059401/)
 
@@ -100,13 +102,15 @@ SSRIs and SNRIs can lower serum sodium through inappropriate antidiuretic hormon
 - Quetiapine **12.5–150 mg**/day — sedation, orthostatic hypotension; with clozapine, less likely than other antipsychotics to worsen parkinsonian symptoms (p928).
 - Aripiprazole **5–10 mg**/day — most effective for overall NPS per AHRQ review; lower EPS, nausea (p928).
 - Haloperidol **0.5–5** mg/day — high EPS risk; should not be a first-line neuroleptic in nonemergent situations (p928). Retrospective cohorts: higher mortality than risperidone, olanzapine, aripiprazole, ziprasidone, or quetiapine (p927).
-- Clozapine **6.25–75 mg**/day — lower motor risk than potent dopamine blockers, but it can still cause serious harm. Evidence of benefit comes from Parkinson disease psychosis. Efficacy and tolerability specifically in DLB remain uncertain. Seek specialist input if persistent dangerous or severely distressing psychosis warrants a trial. [DLB Consortium consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC5496518/). Use is limited by neutropenia/agranulocytosis — weekly blood draws in the first **6 months** (p928).
+- **Clozapine, 6.25–75 mg/day.** Hazzard calls clozapine a good option for psychotic symptoms in DLB because it has a low risk of extrapyramidal effects. Neutropenia or agranulocytosis limits its use. The table specifies weekly blood draws during the first **6 months** (p928).
+  > Current practice (not the book): <span id="current-clozapine-dlb" data-reader-metadata="navigation"></span>The DLB Consortium cites benefit in Parkinson disease psychosis. Efficacy and tolerability in DLB itself remain unestablished. [Fourth consensus report, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5496518/).
 - Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; confusion, edema, hypotension (p928); Current practice (not the book): brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, Table 3 footnote e, p12; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs
 
 **Drugs — antidepressants**
 - Citalopram — initial **5–10** mg, max **20** mg/day; CitAD trial showed benefit for agitation, but QTc prolongation and worsened cognition may limit its use (p929).
 - Sertraline — initial **25** mg, max **200** mg/day; despite early promise, not shown superior to placebo for depression in dementia (p929).
-- Escitalopram — the S-enantiomer of citalopram. S-CitAD, ongoing when p930 was written, later found no significant benefit for agitation at 12 weeks. [S-CitAD trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC12951298/).
+- Escitalopram is the S-enantiomer of citalopram. Hazzard describes S-CitAD as ongoing at press time (p930).
+  > Current practice (not the book): S-CitAD subsequently found no significant benefit for agitation at 12 weeks and observed drug-related QT prolongation. [S-CitAD trial, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12951298/).
 - Paroxetine — anticholinergic properties, should be avoided in older adults (p930); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (p929).
 - Mirtazapine — sedating at lower doses; in the sleep pilot, 8 received mirtazapine and 16 placebo (24 total). Nighttime sleep did not improve and daytime sleepiness increased. Page 930 misstates the treatment-group size. [Scoralick et al., methods and results](https://pubmed.ncbi.nlm.nih.gov/26818096/).
 - Bupropion — avoid with a history of seizures or psychotic symptoms (p930).
@@ -168,11 +172,11 @@ Risperidone for psychosis and agitation; olanzapine for agitation; aripiprazole 
 
 </details>
 
-**11. Which antipsychotic has relatively low motor toxicity, and what limits extrapolating its Parkinson psychosis evidence to dementia with Lewy bodies?**
+**11. Which drug does the chapter call a good option for psychotic symptoms in DLB, and which adverse effect limits its use?**
 
 <details><summary>Answer</summary>
 
-Clozapine has lower motor toxicity, but efficacy and tolerability in dementia with Lewy bodies are uncertain. Neutropenia can be life-threatening and requires absolute neutrophil count monitoring, typically weekly in the first six months (p928).
+Hazzard names **clozapine** because of its low risk of extrapyramidal effects. Severe neutropenia requires close laboratory monitoring, with weekly blood draws for the first six months in the book’s table (p928). [Current practice note](#current-clozapine-dlb).
 
 </details>
 

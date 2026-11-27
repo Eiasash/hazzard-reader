@@ -2,6 +2,23 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v325",
+      "date": "2026-11-26",
+      "changes": [
+        "Find questions searches the active review queue. Hebrew law citations and full-screen tables retain their reading direction.",
+        "The highlight editor preserves note line breaks and accepts repeated colour changes. Resuming a chapter keeps its first line below the header.",
+        "Exam simulation keeps previous bank answers and schedules only questions you answer. Exit lets you keep a timed attempt for later or discard it.",
+        "Notebook answer highlights show their saved ink. Diagnostics opens inside Settings. Drugs loads rows as you scroll and searches the full index.",
+        "Practice, question search and source pages follow browser Back. Reviews and the sitting chooser load only the question data they need.",
+        "Drag across an entirely highlighted passage to erase it. Drag across mixed text to replace it with one colour. Tap a point badge to edit its mark. Points follow reading order. Undo is available after creating, recolouring or deleting a highlight.",
+        "Settings, Notebook and Practice are full pages. Scrolling down hides the bars. The study timer has been retired.",
+        "Study pages group related material once. Flashcards have a full view with Again and Know. Chapters have one search, sort chips and a single progress line.",
+        "The Drugs index links printed passages, verified Israeli brands and matching bank questions. Book search and Home now fetch only the data they need.",
+        "The second content pass checked 72 Study pages against their sources. Official question keys are unchanged.",
+        "Study opens with Summary expanded. Unrecognized page addresses offer a link Home."
+      ]
+    },
+    {
       "version": "v324",
       "date": "2026-11-26",
       "changes": [

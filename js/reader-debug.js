@@ -1,11 +1,10 @@
 /* Local diagnostics only. Loaded before the application; no network operations. */
 (() => {
   'use strict';
-  const KEY = 'hazzard-debug-log-v1', MARKER = 'hazzardDebugOverlayV1';
+  const KEY = 'hazzard-debug-log-v1';
   const LIMIT = 100, MAX_BYTES = 128 * 1024;
   const encoder = new TextEncoder();
-  let entries = [], persistTimer, lastPersist = 0, dialog, prepared = '', restoreFocus;
-  let closing = false, taps = 0, lastTap = 0, uiTimer;
+  let entries = [], persistTimer, lastPersist = 0, section, prepared = '', uiTimer;
   const workers = new Map();
   const version = () => window.HazzardRelease?.version || 'startup (version not loaded)';
   // Preserve canonical reader IDs, not arbitrary strings with a familiar prefix.
@@ -107,12 +106,13 @@
     return {schema:1, capturedAt:new Date().toISOString(), pageVersion:version(), serviceWorker:{supported:'serviceWorker' in navigator, controlling:workerInfo(navigator.serviceWorker?.controller), waiting:workerInfo(registration?.waiting), installing:workerInfo(registration?.installing)}, online:navigator.onLine, userAgent:scrub(navigator.userAgent), viewport:{width:innerWidth,height:innerHeight,dpr:devicePixelRatio}, route:route(), cloudSignedIn:window.HazzardCloud?.signedIn === true, storageAvailable, storageByteConvention:'UTF-8 value bytes; names and sizes only', storage, log:entries.map(e => ({...e})), limits:{memoryEntries:100,persistedEntries:50,messageCharacters:1000,serializedLogBytes:MAX_BYTES}, note:'Local page warnings/errors only. Service-worker-internal errors and some browser warnings are not captured.'};
   }
   function render() {
-    if (!dialog?.open) return;
+    if (!section?.open) return;
+    setButtonUnavailable(section.querySelector('[data-debug="clear"]'),entries.length?'':'The log is already empty.');
     prepared = JSON.stringify(diagnostics(), null, 2);
-    dialog.querySelector('pre').textContent = prepared;
-    dialog.querySelector('textarea').value = prepared;
+    section.querySelector('pre').textContent = prepared;
+    section.querySelector('textarea').value = prepared;
   }
-  function scheduleRender() { if (dialog?.open && !uiTimer) uiTimer = setTimeout(() => { uiTimer = null; render(); }, 200); }
+  function scheduleRender() { if (section?.open && !uiTimer) uiTimer = setTimeout(() => { uiTimer = null; render(); }, 200); }
   function refreshWorkers() {
     const sw = navigator.serviceWorker;
     if (!sw) return;
@@ -128,47 +128,31 @@
     if (event.data?.type !== 'HAZZARD_OFFLINE_STATUS' || !event.source) return;
     workers.set(event.source, {version:scrub(event.data.version), complete:event.data.complete === true}); scheduleRender();
   });
-  function finishClose() {
-    if (!dialog?.open) return;
-    dialog.close(); closing = false; taps = 0;
-    restoreFocus?.focus?.({preventScroll:true});
-  }
-  function close() {
-    if (closing || !dialog?.open) return;
-    if (history.state?.[MARKER]) { closing = true; history.back(); }
-    else finishClose();
-  }
-  function open(push = true) {
-    if (!dialog || dialog.open) return;
-    restoreFocus = document.activeElement;
-    if (push && !history.state?.[MARKER]) history.pushState({...history.state, [MARKER]:true}, '');
-    closing = false; dialog.showModal(); render(); refreshWorkers();
-    dialog.querySelector('[data-debug="close"]').focus({preventScroll:true});
-  }
-  // Capture before reader popstate/Escape handlers: the overlay owns exactly one entry.
-  addEventListener('popstate', event => {
-    if (history.state?.[MARKER]) { event.stopImmediatePropagation(); open(false); }
-    else if (dialog?.open) { event.stopImmediatePropagation(); finishClose(); }
-  }, true);
-  document.addEventListener('keydown', event => {
-    if (dialog?.open && event.key === 'Escape') { event.preventDefault(); event.stopImmediatePropagation(); close(); }
-  }, true);
   function start() {
-    dialog = document.createElement('dialog'); dialog.id = 'readerDebug'; dialog.setAttribute('aria-labelledby','readerDebugTitle');
-    dialog.innerHTML = '<h2 id="readerDebugTitle">Reader debug</h2><div class="debug-actions"><button data-debug="copy">Copy</button><button data-debug="save">Save as file</button><button data-debug="clear">Clear log</button><button data-debug="close">Close</button></div><p role="status" id="readerDebugStatus">Diagnostics stay on this device.</p><textarea aria-label="Select diagnostics to copy" readonly hidden></textarea><pre></pre>';
-    document.body.append(dialog);
-    dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
-    dialog.addEventListener('click', event => {
+    section = document.getElementById('readerDebug');
+    if (!section) return;
+    section.insertAdjacentHTML('beforeend', '<div class="debug-actions"><button type="button" data-debug="copy">Copy</button><button type="button" data-debug="save">Save as file</button><button type="button" data-debug="clear">Clear log</button></div><p role="status" id="readerDebugStatus">Diagnostics stay on this device.</p><textarea aria-label="Select diagnostics to copy" readonly hidden></textarea><pre></pre>');
+    function refreshSection(){
+      const panel=document.getElementById('panel');
+      if (!panel?.open || panel.dataset.currentPane !== 'tools') return;
+      const url=new URL(location.href);
+      if (section.open) url.searchParams.set('debug','1');
+      else url.searchParams.delete('debug');
+      if (url.href !== location.href) history.replaceState(history.state,'',url);
+      if (section.open) { render(); refreshWorkers(); }
+    }
+    section.addEventListener('toggle',refreshSection);
+    if (section.open) refreshSection();
+    section.addEventListener('click', event => {
       const action = event.target.closest('[data-debug]')?.dataset.debug;
-      const status = dialog.querySelector('[role="status"]');
-      if (action === 'close') close();
+      const status = section.querySelector('[role="status"]');
       if (action === 'clear') {
         clearTimeout(persistTimer); persistTimer = null; entries = [];
         try { localStorage.removeItem(KEY); } catch {}
         render(); status.textContent = 'Log cleared.';
       }
       if (action === 'copy') {
-        const fallback = () => { const area = dialog.querySelector('textarea'); area.hidden = false; area.focus({preventScroll:true}); area.select(); status.textContent = 'Copy unavailable. Select and copy the text below.'; };
+        const fallback = () => { const area = section.querySelector('textarea'); area.hidden = false; area.focus({preventScroll:true}); area.select(); status.textContent = 'Copy unavailable. Select and copy the text below.'; };
         try {
           if (!navigator.clipboard?.writeText) return fallback();
           navigator.clipboard.writeText(prepared).then(() => { status.textContent = 'Copied.'; }, fallback);
@@ -178,22 +162,15 @@
         try {
           const url = URL.createObjectURL(new Blob([prepared], {type:'application/json'})), link = document.createElement('a');
           link.href = url; link.download = 'hazzard-debug-' + new Date().toISOString().replace(/[:.]/g,'-') + '.json';
-          dialog.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 60000);
+          section.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 60000);
           status.textContent = 'Debug download started.';
         } catch { status.textContent = 'Download could not be started. Use Copy instead.'; }
       }
     });
-    const panel = document.getElementById('panel');
-    document.getElementById('panelTitle')?.addEventListener('click', () => {
-      if (!panel?.open || panel.dataset.currentPane !== 'tools') { taps = 0; return; }
-      const now = performance.now(); taps = now - lastTap > 1000 ? 1 : taps + 1; lastTap = now;
-      if (taps >= 7) { taps = 0; open(); }
-    });
-    if (panel) new MutationObserver(() => { if (!panel.open || panel.dataset.currentPane !== 'tools') taps = 0; }).observe(panel, {attributes:true,attributeFilter:['open','data-current-pane']});
-    if (new URL(location.href).searchParams.get('debug') === '1' || history.state?.[MARKER]) open();
+
   }
   addEventListener('online', scheduleRender); addEventListener('offline', scheduleRender); addEventListener('resize', scheduleRender);
   addEventListener('hazzard-cloud-status', scheduleRender);
-  addEventListener('pageshow', () => { if (history.state?.[MARKER]) open(false); if (dialog?.open) { render(); refreshWorkers(); } });
+  addEventListener('pageshow', () => { if (section?.open) { render(); refreshWorkers(); } });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true}); else start();
 })();

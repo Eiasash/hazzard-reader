@@ -114,20 +114,50 @@ window.HazzardStudyHome = (() => {
     }, 3600000 - Date.now() % 3600000 + 100);
   }
 
+  let homeSummary;
+  function summary(){
+    return homeSummary ||= (window.HazzardEarlyFetch?.get(window.HazzardHomeSummary)||fetch(window.HazzardHomeSummary)).then(async response=>{
+      if(!response.ok)throw Error('Home data unavailable');
+      const data=await response.json();
+      const catalog=data.questions.map(([id,past,accepted,flags])=>({id,kind:past?'past':'practice',accepted,retired:!!(flags&1),content_changed:!!(flags&2)}));
+      for(const [i,t,examNumber] of data.officialSlots||[])Object.assign(catalog[i],{t,examNumber});
+      const ids=indexes=>indexes.map(i=>catalog[i].id);
+      const currentChapters=Object.fromEntries(Object.entries(data.chapters).map(([key,indexes])=>[key,ids(indexes)]));
+      const questions=Object.fromEntries(Object.entries(data.sittings).map(([i,sitting])=>[catalog[i].id,{sitting}]));
+      const changes=data.changes.map(([id,date])=>({id:typeof id==='number'?catalog[id].id:id,changedAt:data.changeDates[date]}));
+      const review={catalog,toc:{chapters:data.toc},topics:data.topics,collections:{israeliLawEthics:{ids:ids(data.law)},suppliedArticles:{ids:ids(data.articles||[])},topicFallbacks:{}},
+        evidence:{questions:{},study:Object.fromEntries((data.studyIds||[]).map(ch=>[ch,true]))}};
+      return {catalog,review,changes:[...changes,...HazzardChanged.legacy()],evidence:{currentChapters,study:{},questions},law:ids(data.law)};
+    }).catch(error=>{window.HazzardEarlyFetch?.delete(window.HazzardHomeSummary);homeSummary=null;throw error;});
+  }
+  function catalog(){return window.HazzardHomeSummary?summary().then(x=>x.catalog):HazzardQuestionData.catalog();}
+  async function libraryStats(){
+    if(window.HazzardHomeSummary){
+      const home=await summary();
+      return {stats:{all:home.catalog,changes:home.changes},evidence:home.evidence,law:home.law};
+    }
+    const [stats,evidence,meta]=await Promise.all([HazzardStats.files(),HazzardEvidence.load(),HazzardMCQ.preload()]);
+    return {stats,evidence,law:meta[3].israeliLawEthics.ids};
+  }
   async function refresh(chapters, keys) {
     const ticket = ++generation;
     readingCoverage(chapters, keys);
     HazzardFlashcards.refreshDue();
     const [catalog, changes, evidence, aliases, metadata] = await Promise.allSettled([
-      HazzardQuestionData.catalog(), HazzardChanged.load(), HazzardEvidence.load(), HazzardMCQ.loadAliases(), HazzardMCQ.preload()
+      window.HazzardStudyHome.catalog(), window.HazzardHomeSummary?summary().then(x=>x.changes):HazzardChanged.load(),
+      window.HazzardHomeSummary?summary().then(x=>x.evidence):HazzardEvidence.load(), HazzardMCQ.loadAliases(),
+      window.HazzardHomeSummary?summary().then(x=>[null,null,null,{israeliLawEthics:{ids:x.law}}]):HazzardMCQ.preload()
     ]);
     if (ticket !== generation || element('desk').hidden) return;
     const stores = HazzardStats.snapshot(), now = Date.now(), today = HazzardReview.day(now);
     const hasCatalog = catalog.status === 'fulfilled' && aliases.status === 'fulfilled';
-    let due, recommended = false, answered = null, total = 0;
+    let official,due, recommended = false, answered = null, total = 0;
     if (hasCatalog && stores.review.ok && stores.bad.ok && stores.settings.ok) {
-      try { due = HazzardReview.catalogDue(catalog.value, now).length; } catch { /* Legacy answers may be unreadable. */ }
+      try { due = HazzardReview.catalogDue(catalog.value, now).length;official=HazzardReview.officialDue(catalog.value).length; } catch { /* Legacy answers may be unreadable. */ }
     }
+    const shortcut=element('officialDue');
+    element('officialCount').textContent=official==null?'Queue unavailable':official?' '+official+' due':'None due today';
+    if(official>0)shortcut.href='?chapter=bank&review=1&queue=official';else shortcut.removeAttribute('href');
     element('homeReviewCount').textContent = due == null ? 'Queue unavailable' :
       due + (due === 1 ? ' question due' : ' questions due');
     if (hasCatalog && changes.status === 'fulfilled' && stores.answers.ok && stores.bad.ok) {
@@ -154,5 +184,5 @@ window.HazzardStudyHome = (() => {
     watchDay(today, chapters, keys);
   }
 
-  return {refresh, startReading};
+  return {refresh, startReading, catalog, libraryStats,reviewContext:()=>summary().then(x=>x.review)};
 })();
