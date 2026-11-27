@@ -75,7 +75,8 @@ def write_package(out):
                 ids.add(qid)
         current = [catalog[i]["id"] for i in chapters.get(chapter, [])]
         ids.update(current)
-        subset = {"study": {chapter: membership}, "currentChapters": {chapter: current},
+        subset = {"accepted": {qid: catalog[positions[qid]]["accepted"] for qid in ids if qid in positions},
+                  "study": {chapter: membership}, "currentChapters": {chapter: current},
                   "questions": {qid: record for qid, record in evidence["questions"].items() if qid in ids}}
         path = f"data/reader-references/{chapter}.json"
         (out / path).parent.mkdir(parents=True, exist_ok=True)
@@ -221,11 +222,35 @@ window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request
     chapter_manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
     chapter_assets = {str(c["number"]): [template_files.get(str(c["number"])) or "chapters/" + c["file"], c.get("markUnits")]
                       for c in chapter_manifest["chapters"] if c.get("file") or str(c["number"]) in template_files}
-    early = early.replace("window.HazzardEarlyFetch=", "const assets=" + json.dumps(chapter_assets, separators=(",", ":"))
-                          + ";const chapter=assets[params.get('chapter')];if(chapter&&!params.has('home')&&!params.has('tab'))"
-                          + "urls.push(...chapter.filter(Boolean),'data/highlight-aliases.json','data/home-question-summary.json');"
-                          + "if(chapter&&/^[0-9]+s?$/.test(params.get('chapter')))urls.push('data/reader-references/'+params.get('chapter').replace(/s$/,'')+'.json');"
-                          + "window.HazzardEarlyFetch=")
+    aliases = json.loads((ROOT / "data/highlight-aliases.json").read_bytes())
+    for chapter, assets in chapter_assets.items():
+        content, units = assets
+        base = chapter.removesuffix("s")
+        refs = f"data/reader-references/{base}.json" if base.isdigit() else None
+        pack = {content: (out / content).read_text(encoding="utf-8"),
+                "data/highlight-aliases.json": [row for row in aliases if str(row["chapter"]) == chapter]}
+        if units:
+            pack[units] = json.loads((out / units).read_bytes())
+        if refs and (out / refs).is_file():
+            pack[refs] = json.loads((out / refs).read_bytes())
+        raw = json.dumps(pack, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+        url = f"reader-start/{chapter}-{hashlib.sha256(raw).hexdigest()[:16]}.json"
+        (out / url).parent.mkdir(parents=True, exist_ok=True)
+        (out / url).write_bytes(raw)
+        chapter_assets[chapter] = [url, *pack]
+    # Optional content-addressed packs save round trips on first reading.
+    # Every constituent is also in the verified offline manifest.
+    early = early.replace("window.HazzardEarlyFetch=new Map", "const files=CHAPTER_ASSETS[params.get('chapter')];window.HazzardEarlyFetch=new Map")
+    early = early.replace("})();</script>", """
+if(files&&!params.has('home')&&!params.has('tab')&&navigator.onLine){
+  const pack=fetch(files[0]).then(r=>{if(!r.ok)throw Error('Chapter pack unavailable');return r.json()});
+  for(const path of files.slice(1)){
+    const request=pack.then(data=>{if(!Object.hasOwn(data,path))throw Error('Missing chapter asset');
+      return {ok:true,text:async()=>data[path],json:async()=>data[path]};}).catch(()=>fetch(path));
+    request.catch(()=>{});window.HazzardEarlyFetch.set(path,request);
+  }
+}
+})();</script>""").replace("CHAPTER_ASSETS", json.dumps(chapter_assets, separators=(",", ":")))
     html = html.replace("<head>", "<head>"+policy+early+preload,1).replace("</body>", '<script src="js/preview-start.js"></script></body>')
     (out / "index.html").write_text(html,encoding="utf-8",newline="\n")
     corpus = ROOT / "data/search-index.json"
@@ -260,6 +285,9 @@ window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request
 """
     (out/"js/preview-start.js").write_text(bootstrap.replace("SCRIPTS", json.dumps(scripts)).replace("BOOK_SEARCH",search).replace("TEMPLATE_FILES",json.dumps(template_files)), encoding="utf-8",newline="\n")
     paths.add("js/preview-start.js")
+    inline_boot = (out / "js/preview-start.js").read_text(encoding="utf-8").replace("</script", "<\\/script")
+    html = html.replace('<script src="js/preview-start.js"></script>', '<script>' + inline_boot + '</script>')
+    (out / "index.html").write_text(html, encoding="utf-8", newline="\n")
     files = []
     for name in sorted(paths):
         raw = (out/name).read_bytes()
@@ -274,7 +302,7 @@ window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request
     worker = template.replace("__RELEASE__", json.dumps(version)).replace("__BUILD__", json.dumps(build_id))
     worker = worker.replace("__SHELL__", json.dumps(shell, separators=(",", ":")))
     (out / "sw.js").write_text(worker, encoding="utf-8", newline="\n")
-    (out / "_headers").write_text("/sw.js\n  Cache-Control: no-cache, must-revalidate\n/index.html\n  Cache-Control: no-cache, must-revalidate\n", encoding="utf-8", newline="\n")
+    (out / "_headers").write_text("/sw.js\n  Cache-Control: no-cache, must-revalidate\n/index.html\n  Cache-Control: no-cache, must-revalidate\n/reader-start/*\n  Cache-Control: public, max-age=31536000, immutable\n", encoding="utf-8", newline="\n")
     print(out,source_list["version"],len(files),"verified assets")
 
 

@@ -411,17 +411,17 @@ window.HazzardEvidence = (() => {
       if(end)end.before(line);else copy.append(line);
       counts.push({element:status,ids:[...ids]});
     }
-    const bank=new Map((await HazzardStudyHome.catalog()).map(q=>[q.id,q]));
+    const accepted=data.accepted||Object.fromEntries((await HazzardStudyHome.catalog()).map(q=>[q.id,q.accepted]));
     function refresh(){
       let answers;
       try{answers=HazzardMCQ.currentAnswers(HazzardMCQ.rawValue(HazzardMCQ.KEY,HazzardMCQ.validStore,()=>({version:1,answers:{}})).answers);}catch{}
       function record(ids){
         let answered=0,missed=0;
         for(const id of ids){
-          const a=answers?.[id],q=bank.get(id);
-          if(q && a?.checked===true && Number.isInteger(a.selected)){
+          const a=answers?.[id],keys=accepted[id];
+          if(keys && a?.checked===true && Number.isInteger(a.selected)){
             answered++;
-            if(!q.accepted.includes(a.selected))missed++;
+            if(!keys.includes(a.selected))missed++;
           }
         }
         return {answered,missed};
