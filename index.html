@@ -6701,6 +6701,9 @@ function revealReading(el,options){if(!el)return;HazzardStudyPage.reveal(el);lan
 function readJSON(k,d){try{return HazzardStorage.readProtected(k,()=>d)??d}catch{return d}}
 function writeJSON(k,v){try{HazzardStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const cid=String(copy.dataset.chapterId||'');
+// A fresh Study route opens its Summary. Explicit destinations and browser Back retain their own place.
+const startOnStudySummary=/^(?:\d+s|laws)$/.test(cid)&&!location.hash&&launchParams.get('resume')!=='1'&&launchParams.get('view')!=='questions'&&!history.state?.hazzardView;
+let preserveStudyPlace=startOnStudySummary;
 if(cid==='law'||cid==='laws')copy.lang='he';
 function searchLabel(entry){const id=String(entry.number);if(id==='law')return 'Israeli law';if(id==='laws')return 'Israeli law — study';return 'Chapter '+id.replace(/s$/,'')+(entry.kind==='study'?' study':'')+' — '+entry.title.replace(/ — Study$/i,'')}
 function chapterLabel(ch){ch=String(ch);if(ch==='mock')return 'Mock paper';const e=manifestChapters.find(c=>String(c.number)===ch);if(ch==='law')return 'Israeli law';if(ch==='laws')return 'Israeli law — study';return (/s$/.test(ch)?'Chapter '+ch.slice(0,-1)+' study':'Chapter '+ch)+(e&&!/s$/.test(ch)?' — '+e.title:'')}
@@ -7117,7 +7120,7 @@ function showResumeNotice(){
   setTimeout(()=>{chapterHeader.classList.remove('show-resume-note');text.remove();},2200);
 }
 function goToPlace(p,exact=false){if(!p)return;landingUntil=performance.now()+500;setReadingBarsHidden(false);if(exact&&Number.isFinite(p.ratio)){readerScroll.scrollTo(0,p.ratio*(readerScroll.scrollHeight-readerScroll.clientHeight));alignFirstReadingLine();return}const u=p.unit&&unitMap.get(p.unit),el=u&&(u.parts.find(x=>x.isConnected&&x.textContent.trim()));if(el&&(!p.snippet||highlightText(u).slice(0,100)===p.snippet)){revealReading(el,{block:'start'});readerScroll.scrollBy(0,-12)}else readerScroll.scrollTo(0,(p.ratio||0)*(readerScroll.scrollHeight-readerScroll.clientHeight))}
-function rememberPlace(){if(lightHome||companionFrame||$('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
+function rememberPlace(){if(preserveStudyPlace||lightHome||companionFrame||$('#statsViewport')||copy.dataset.notLoaded||cid==='drugs'||cid==='bank'||mcq?.active||$('#reader').hidden||panel.open||zoom.open)return true;const p=currentPlace(),all=readJSON(PLACE_KEY,{});all.chapters=all.chapters||{};all.chapters[cid]=p;if(cid!=='mock')all.last=p;const saved=writeJSON(PLACE_KEY,all);if(!saved)flash('Reading position could not be saved. Keep this page open.',6000);const progressSaved=rememberFurthest(p);refreshResume();return saved&&progressSaved!==false}
 let placeTimer=null,userScrolled=false,lastPlaceWrite=0;
 const scrollPositions=new WeakMap();
 function expectUserScroll(){scrollIntentUntil=performance.now()+900;}
@@ -7189,6 +7192,7 @@ window.visualViewport?.addEventListener('scroll',()=>followScroll(document.scrol
 document.addEventListener('reader-scroll-bars',event=>setReadingBarsHidden(event.detail===true));
 readerScroll.addEventListener('scroll',()=>{
   if(mcq?.active)return;
+  if(performance.now()<scrollIntentUntil&&readerScroll.scrollTop>0)preserveStudyPlace=false;
   const y=Math.max(0,readerScroll.scrollTop);syncBookmark();
   if(!copy.dataset.notLoaded&&currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
   const now=performance.now();if(now-lastPlaceWrite>=1000){rememberPlace();lastPlaceWrite=now;}
@@ -7242,7 +7246,7 @@ function refreshResume(){
   $('.resume-card .eyebrow').textContent=saved?'Pick up where you left off':start?.reread?'Read again':'Start reading';
   $('.resume-card .meta').textContent=saved?.snippet?'“'+saved.snippet.slice(0,80)+'…”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':target?chapterLabel(target).split(' — ')[0]:'';
   $('.resume-card .meta').dir=snippetDirection(saved?.snippet||'');
-  $('#resume').href=target?'?chapter='+encodeURIComponent(target):'#chapters';
+  $('#resume').href=target?'?chapter='+encodeURIComponent(target)+(saved&&/^(?:\d+s|laws)$/.test(target)?'&resume=1':''):'#chapters';
   $('#resume').textContent=saved?'Resume reading →':target?'Open chapter →':'Browse chapters →';
   $('#resume').onclick=target?null:event=>{event.preventDefault();navigateUI('library');};
   HazzardStudyHome.refresh(manifestChapters,homeReadingKeys);
@@ -7761,7 +7765,7 @@ installTableViewer();
 HazzardSections.mount({copy,scroll:readerScroll,landOnHeading:landOnMatch,embedded:companionFrame});
 HazzardStudyPage.mount(copy,cid);
 // Deep links: #hl-<id> (a highlight), #bm-<time> (a saved place), #p946 (a book page).
-{const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=new URL(location.href).searchParams.get('chapterTop')==='1';
+{const h=pairedStudy?'':decodeURIComponent(location.hash.slice(1));let done=startOnStudySummary||launchParams.get('chapterTop')==='1';
   if(done)scrollReadingTo(0);
   if(h.startsWith('search-')){done=revealSearch(h.slice(7))}
   else if(h.startsWith('hl-')){const id=h.slice(3),u=unitMap.get(id),r=rangeMarks.get(id),el=r?.spans[0]||u?.parts.find(p=>p.isConnected);if(el){setTimeout(()=>revealReading(el,{block:'center'}),60);done=true}}
