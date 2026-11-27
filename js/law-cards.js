@@ -25,12 +25,20 @@ window.HazzardLawCards = (() => {
     const block='p,li,td,th,summary,h1,h2,h3,h4,h5,h6,button,figcaption,blockquote,div,section';
     const skip='bdi,script,style,textarea,input,option,svg,[contenteditable="true"]';
     const pattern=/(?<![\d.])\d+(?:[.,]\d+)?(?:[ \t]*[–—−-][ \t]*\d+(?:[.,]\d+)?)+(?:[%‰])?[.,;:!?]*(?!\d)/gu;
-    const latin=/\p{Script=Latin}[\p{Script=Latin}\p{M}\d]*(?:(?:[-’'/_.:]|[ \t]+|,[ \t]+)[\p{Script=Latin}\d][\p{Script=Latin}\p{M}\d]*)*/u;
+    const latin=/\p{Script=Latin}[\p{Script=Latin}\p{M}\d]*(?:(?:[-–—−’'/_.:]|[ \t]+|,[ \t]+)[\p{Script=Latin}\d][\p{Script=Latin}\p{M}\d]*)*/u;
     const date=/\d{1,2}\.\d{1,2}\.\d{4}/u;
     const mixed=new RegExp([pattern.source,date.source,latin.source].join('|'),'gu');
     const hebrew=/[\u0590-\u05ff]/u;
     function hebrewLed(el){
-      return el.matches('p,li')&&el.closest('.reading-copy')&&hebrew.test(el.textContent.match(/\p{L}/u)?.[0]||'');
+      if(!el.matches('p,li')||!el.closest('.reading-copy')||!hebrew.test(el.textContent))return false;
+      const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+      while(walker.nextNode()){
+        const part=walker.currentNode;
+        if(part.parentElement.closest('[data-reader-metadata],script,style'))continue;
+        const first=part.data.match(/\p{L}/u);
+        if(first)return hebrew.test(first[0]);
+      }
+      return false;
     }
     function format(el){
       const text=el.textContent;
