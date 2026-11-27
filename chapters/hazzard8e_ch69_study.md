@@ -37,6 +37,11 @@ Study summary of Chapter 69; the book and the full chapter are the reference.
 - Opioids may help refractory dyspnea after optimal disease treatment, but evidence is inconsistent. Morphine metabolites can accumulate in renal impairment and cause neurotoxicity (p1074).
 - Cognitive adverse effects may outweigh breathing relief for some patients. Choose symptom treatment around individual priorities for function, cognition, comfort and survival (p1074–1075).
 
+## Exam traps
+
+- The comparison of nasal oxygen with nasal air in nonhypoxemic cancer patients cannot answer the survival question in hypoxemic COPD (p1074).
+- A lower opioid requirement during noninvasive ventilation does not establish that the mask is tolerable for the individual wearing it (p1074–1075).
+
 ## Past exam questions
 
 - [2024-May Q77](?chapter=bank&q=mcq-04041334b8bb59711f917744) — Printed pages 1073, 1074.

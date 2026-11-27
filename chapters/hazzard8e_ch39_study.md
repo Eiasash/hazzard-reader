@@ -37,6 +37,11 @@ Study summary of Chapter 39; the book and the full chapter are the reference.
 - A BUN/creatinine ratio above **20:1** may reflect low muscle mass rather than volume depletion; low protein intake can instead mask the expected rise (p589).
 - Older adults may have reduced sensation of bladder filling (p589). Anticholinergic drugs may provoke cognitive change, constipation, dry mouth and urinary retention; disease and aging-related susceptibility both contribute (p590).
 
+## Exam traps
+
+- Hyperosmolality and volume depletion are different stimuli for vasopressin. The response may be increased to the former and impaired to the latter (p581, p586).
+- When severe hypernatremia is accompanied by hypotension and compromised circulation, restore perfusion before concentrating on the free-water deficit (p588).
+
 ## Exam-cited book images
 
 Book images cited by past exams. Tap an image to zoom.

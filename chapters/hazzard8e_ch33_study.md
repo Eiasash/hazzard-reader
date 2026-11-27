@@ -4,20 +4,20 @@ Study summary of Chapter 33; the book and the full chapter are the reference.
 
 ## Summary
 
-### Recognize functional vision loss
+**Recognize functional vision loss**
 - Normal aging can reduce accommodation, contrast sensitivity and light/dark adaptation while increasing glare sensitivity (pp471–472). Under high contrast, visual acuity in older people without visual impairment shows only a **modest decline**; low light, lower contrast and glare produce much greater losses (p471, Table 33-1).
 - Macular disease commonly impairs central vision; glaucoma can cause peripheral field loss, and cataract affects acuity, glare and contrast (p473, Table 33-2).
 - Assess task performance, not acuity alone: field loss, contrast, glare, visual perception and lighting all matter (p475, p478).
 - Rehabilitation may help with better-eye acuity below **20/50**, field loss despite intact acuity, reduced contrast or adaptation difficulties (p475).
 
-### Assess and refer
+**Assess and refer**
 - Obtain the person's goals for reading, mobility, medication use, household activities and social participation (p475-476).
 - Arrange low-vision eye assessment and task-specific device prescription, plus certified rehabilitation professionals for training and environmental assessment (p474-475).
 - Evaluate acuity and contrast sensitivity; the book recommends the Pelli-Robson chart for practical contrast testing (p475).
 - Ask about emotional adjustment, depression and family strain; offer counseling or support-group referral when needed (p475).
 - Functional assessment should occur in relevant settings and include real daily tasks and safety (p477-478).
 
-### Rehabilitation and environment
+**Rehabilitation and environment**
 - Match optical, electronic and nonoptical aids to the desired task; demonstration, instruction and practice are part of treatment (p478-481).
 - Train fixation, scanning and use of remaining vision; a device alone may not restore useful reading (p479-482).
 - Adjust lighting and control glare individually; use contrast, color, organization and consistent object locations (p482-484).

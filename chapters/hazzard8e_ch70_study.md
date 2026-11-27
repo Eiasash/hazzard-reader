@@ -39,6 +39,11 @@ Home visits can reveal whether medicines, equipment and caregiver help are actua
 - A hospital consultation alone does not create longitudinal care; transitions need shared goals, follow-up and continued caregiver support (p1078–1079, p1086).
 - Uncertain prognosis and ongoing restorative treatment do not erase palliative needs; the chapter advocates integrating care earlier across the trajectory (p1084–1086).
 
+## Exam traps
+
+- Difficult symptoms can prompt a palliative consultation on admission. An opioid prescription alone does not establish that symptoms are difficult to manage (p1082).
+- A person receiving restorative care or lacking a clear hospice prognosis can still benefit from palliative care at home (p1083–1085).
+
 ## Past exam questions
 
 - [2024-May Q84](?chapter=bank&q=mcq-a4591cf08e389264496b6571) — Printed page 1082.

@@ -34,6 +34,8 @@ Look for phosphorylated tau in **neurons** around a small vessel deep in a corti
 
 The map also assigns May 2024 Q66 to this chapter because the exam's chapter column says 64. Its cited page is in Chapter 60. In DICE, first describe the episode, then investigate causes such as pain, medication effects or constipation. Create a plan with the patient and caregiver, then evaluate whether it was tried and helped. Constipation belongs to **Investigate** (Chapter 60, p924).
 
+## Exam traps
+
 **Clinical implications & exam traps**
 - Do not equate all post-TBI dementia with either Alzheimer pathology or CTE; distinguish single injury from repetitive impact exposure (p997–999).
 - Selected brain-bank case frequencies are not population prevalence estimates; the chapter notes that prevalence in neurodegenerative brain banks remains uncertain (p998).

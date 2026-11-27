@@ -4,12 +4,12 @@ Study summary of Chapter 21; the book and the full chapter are the reference.
 
 ## Summary
 
-### Listen to what patients experience
+**Listen to what patients experience**
 - The US National Poll on Healthy Aging surveys adults aged **50-80**; the chapter draws on selected reports, not a single universal patient profile (p287).
 - Primary care clinicians are trusted sources. Elicit concerns that may remain unspoken, including sexual health, emergency preparation and prescription costs (p287, p300).
 - Brain-health concerns can coexist with little discussion with clinicians; ask about memory concerns and information needs (p287-288).
 
-### Medicines and overlooked symptoms
+**Medicines and overlooked symptoms**
 - Medication review should include actual use, nonprescription products, multiple prescribers/pharmacies, adverse effects and affordability (p288).
 - Explain antibiotic indications, harms and resistance; unnecessary prescriptions and leftover use remain concerns (p288-289).
 - Most respondents discussed **how often to take** an opioid with the prescriber. Fewer discussed side effects, when to reduce the dose, overdose or addiction. Ask about leftover pills and safe disposal (p289–290).
@@ -17,7 +17,7 @@ Study summary of Chapter 21; the book and the full chapter are the reference.
 - Invite sexual-health discussions. Ask about urinary incontinence: some women do not raise it because they consider it mild or a normal part of aging (p290–292).
 - Dental coverage/costs affect access. Explain why a requested test or treatment may provide little benefit rather than assuming patients want more care (p292).
 
-### Access, decisions and daily life
+**Access, decisions and daily life**
 - Telehealth and patient portals can improve access but technical barriers, privacy, examination limits and unequal uptake matter (p293).
 - Discuss expected health-care costs around retirement. In the poll, 13% of adults aged 50–64 went without medical care because of cost in the prior year. Some postponed retirement to retain employer-sponsored coverage (p294).
 - Advance planning links care to values and chosen decision makers. Everyday ageism includes messages, interpersonal experiences and internalized beliefs (p294-295).

@@ -45,6 +45,12 @@ Study summary of Chapter 9; the book and the full chapter are the reference.
 - Examine how an abnormal task went wrong. A clock with numbers confined to one side suggests neglect, while an excessively small clock face can reflect poor planning. Compare delayed free recall with recognition to distinguish a retrieval or executive problem from failure to store the material (p139–141).
 - Test the significance of reflexes in context. An extensor plantar response points to corticospinal disease. A grasp response can occur in advanced diffuse disease or a focal medial frontal lesion. The level of the knee reflex and the side of any other motor signs help distinguish generalized age changes from a localizing deficit (p133–134, p147).
 
+## Exam traps
+
+- A patient with nonfluent speech who can repeat a sentence may have transcortical motor aphasia. Test repetition before labeling it Broca aphasia (p138).
+- A unilateral facial droop with forehead sparing points toward a central lesion. Test brow movement and eye closure as well as the smile (p143).
+- A grasp reflex can localize to a medial frontal lesion as well as occur in advanced diffuse disease (p147).
+
 ## Exam-cited book images
 
 Book images cited by past exams. Tap an image to zoom.

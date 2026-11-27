@@ -42,13 +42,13 @@ June 2022 Q71 asked for the exception among four genes. The candidate-gene studi
 
 ## Summary
 
-### Aging is modifiable in model organisms
+**Aging is modifiable in model organisms**
 - Aging predisposes to multiple diseases and loss of homeostasis; delaying a single illness is not equivalent to slowing the aging process (p3-4).
 - Dietary and single-gene manipulations can postpone multiple age-associated disorders together in animals (p4-5).
 - Rodents fed **30–40% less** typically live up to **40% longer**; benefits depend on diet composition, timing and model (p5).
 - Dietary restriction improves human metabolic risk measures, but whether restriction without malnutrition extends human longevity is unknown (p6).
 
-### Interacting biological pathways
+**Interacting biological pathways**
 - Insulin/IGF signaling and FoxO connect nutrient availability with stress resistance; effects vary by tissue and organism (p7-8).
 - TOR regulates growth, translation and protein quality control; autophagy removes damaged material (p8-9).
 - Sirtuins link NAD availability to protein modification and metabolism; mammalian family members have distinct effects (p9-10).
@@ -56,7 +56,7 @@ June 2022 Q71 asked for the exception among four genes. The candidate-gene studi
 - Telomere loss can limit cell replication; senescence intersects with tumor suppression, tissue dysfunction and cancer. Cell-culture senescence is not the whole aging process (p13-14).
 - Mouse longevity effects may depend on sex, genetic background and laboratory conditions (p14-16).
 
-### Translation and its limits
+**Translation and its limits**
 - Rapamycin, canagliflozin, acarbose and estradiol-related interventions extend mouse survival in the studies discussed; these are experimental longevity findings, not human dosing recommendations (p17).
 - Genetic factors account for about **15–20%** of human lifespan variation; disease susceptibility and longevity are difficult to separate (p17-19).
 - APOE associations replicate more consistently than many candidate longevity loci; a healthy-aging phenotype is more informative than age at death alone (p19).

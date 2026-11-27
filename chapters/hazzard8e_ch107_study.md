@@ -42,6 +42,12 @@ Study summary of Chapter 107; the book and the full chapter are the reference.
 
 > Current practice (not the book): ACIP recommends two doses for adults aged 19 or older who are or will be immunocompromised. The usual interval is 2–6 months. It can be shortened to 1–2 months when completing the series earlier would be beneficial. - [CDC clinical considerations, 2024](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html).
 
+## Exam traps
+
+- Pain can precede the zoster eruption or occur without the expected rash. The history and distribution still matter (p1726).
+- The trial enrollment window is not a reason to withhold treatment from a patient with ophthalmic zoster or continuing new vesicles (p1726–1728).
+- Acute pain relief with a corticosteroid does not establish prevention of postherpetic neuralgia (p1728).
+
 ## Exam-cited book images
 
 Book images cited by past exams. Tap an image to zoom.

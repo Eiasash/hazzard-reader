@@ -9,27 +9,27 @@ Fast build from the book; not lane-reviewed.
 ## Summary
 
 ### Epidemiology & diagnosis
-- Older adults are underrepresented in treatment trials; consider function, comorbidity, toxicity and social support, and refer early for oncology input. (p1435)
+- Older adults are underrepresented in treatment trials; consider function, comorbidity, toxicity and social support, and refer early for oncology input. (p. 1435)
 <a id="p1437"></a>
-- Older adults appear to have more right-sided CRC, obstruction and perforation; stage distribution is similar to younger adults. Men treated with curative radiotherapy for localized prostate cancer have a reported **70% higher risk** of cancer in the previously irradiated bowel (p1437–1438).
-- Individualize CRC screening; stopping may be reasonable when life expectancy is shorter than the **5-10 years** for polyp-to-cancer progression. (p1440)
+- Older adults appear to have more right-sided CRC, obstruction and perforation; stage distribution is similar to younger adults. Men treated with curative radiotherapy for localized prostate cancer have a reported **70% higher risk** of cancer in the previously irradiated bowel (pp1437–1438).
+- Individualize CRC screening; stopping may be reasonable when life expectancy is shorter than the **5-10 years** for polyp-to-cancer progression. (p. 1440)
 
 ### Management
-- Localized colon cancer: resection; adequate nodal evaluation examines at least **12 nodes**. Higher-volume hospitals had lower operative mortality in cited older cohorts. (p1440)
-- Resected stage III colon cancer: adjuvant fluoropyrimidines benefit older adults; added oxaliplatin benefit is less certain in older subgroups and neuropathy may worsen falls/function. Consider fitness and comorbidities. (p1441)
+- Localized colon cancer: resection; adequate nodal evaluation examines at least **12 nodes**. Higher-volume hospitals had lower operative mortality in cited older cohorts. (p. 1440)
+- Resected stage III colon cancer: adjuvant fluoropyrimidines benefit older adults; added oxaliplatin benefit is less certain in older subgroups and neuropathy may worsen falls/function. Consider fitness and comorbidities. (p. 1441)
 <a id="p1445"></a>
-- Pancreatic cancer: avoid assigning a poor prognosis without accurate pathological diagnosis; resection is potentially curative and can be safe in carefully selected older adults. (p1445)
+- Pancreatic cancer: avoid assigning a poor prognosis without accurate pathological diagnosis; resection is potentially curative and can be safe in carefully selected older adults. (p. 1445)
 <a id="p1446"></a>
-- Gastric cancer: gastrectomy is the curative treatment described; most, but not all, studies suggest similar perioperative risk across age groups. (p1446)
+- Gastric cancer: gastrectomy is the curative treatment described; most, but not all, studies suggest similar perioperative risk across age groups. (p. 1446)
 <a id="p1448"></a>
 - Liver-confined HCC: resection, transplantation, ablation or locoregional treatments may be options; geriatric assessment helps selection. In the cited study, **five-year survival and complication rates** after transarterial chemoembolization were similar in adults **75 or older** and younger adults (p1448).
 <a id="p1449"></a>
 - Esophageal surgery evidence is mixed: most, but not all, studies suggest age alone is not limiting; assess fitness and cardiopulmonary risk. For Barrett-associated adenocarcinoma, evidence on whether incidence increases with advanced age is conflicting (p1449).
 
 ### Drugs & supportive care
-- Olaparib **300 mg twice daily**: POLO maintenance after at least **16 weeks** of continuous first-line platinum without progression in germline BRCA-mutated metastatic pancreatic cancer; improved progression-free survival, but interim overall survival did not differ. (p1446)
-- Gemcitabine: liver-enzyme elevation, rarely hemolytic uremic syndrome; FOLFIRINOX: febrile neutropenia and sensory neuropathy are among its toxicities. (p1445)
-- Pancreatic palliation may include drainage/stenting for biliary obstruction, lipase for pancreatic insufficiency, and celiac plexus neurolysis for pain. (p1446)
+- Olaparib **300 mg twice daily**: POLO maintenance after at least **16 weeks** of continuous first-line platinum without progression in germline BRCA-mutated metastatic pancreatic cancer; improved progression-free survival, but interim overall survival did not differ. (p. 1446)
+- Gemcitabine: liver-enzyme elevation, rarely hemolytic uremic syndrome; FOLFIRINOX: febrile neutropenia and sensory neuropathy are among its toxicities. (p. 1445)
+- Pancreatic palliation may include drainage/stenting for biliary obstruction, lipase for pancreatic insufficiency, and celiac plexus neurolysis for pain. (p. 1446)
 
 
 ### Interpreting a colorectal cancer vignette
@@ -45,8 +45,8 @@ Fast build from the book; not lane-reviewed.
 - For hepatocellular carcinoma confined to the liver, assess tumor extent, hepatic reserve, procedural risk and life expectancy. A cited comparison found similar five-year survival and complication rates after chemoembolization in selected adults aged **75 or older** and younger patients. The surgery-versus-ablation SURF cohort excluded adults aged **80** and older, limiting extrapolation to that group (p1448).
 
 ### Exam traps
-- Poorer overall survival can reflect noncancer deaths; do not equate it automatically with worse cancer-specific survival. (p1438)
-- Sigmoidoscopy can miss proximal tumors, which are more common in older adults. (p1439)
+- Poorer overall survival can reflect noncancer deaths; do not equate it automatically with worse cancer-specific survival. (p. 1438)
+- Sigmoidoscopy can miss proximal tumors, which are more common in older adults. (p. 1439)
 
 ## Past exam questions
 
@@ -65,7 +65,7 @@ Fast build from the book; not lane-reviewed.
 
 **2. What CRC presentation differences are described in older adults?**
 
-<details><summary>Answer</summary>More right-sided tumors, obstruction and perforation, with a greater likelihood of acute presentation; stage distribution is similar to younger adults. (p1437)</details>
+<details><summary>Answer</summary>More right-sided tumors, obstruction and perforation, with a greater likelihood of acute presentation; stage distribution is similar to younger adults. (p. 1437)</details>
 
 **3. Why can overall and cancer-specific survival tell different stories?**
 
@@ -105,7 +105,7 @@ Fast build from the book; not lane-reviewed.
 
 **12. Which patients received olaparib maintenance in POLO, and at what dose?**
 
-<details><summary>Answer</summary>Patients with germline BRCA-mutated metastatic pancreatic adenocarcinoma without progression after at least <strong>16 weeks</strong> of continuous first-line platinum-based chemotherapy; olaparib <strong>300 mg twice daily</strong>. (p1446)</details>
+<details><summary>Answer</summary>Patients with germline BRCA-mutated metastatic pancreatic adenocarcinoma without progression after at least <strong>16 weeks</strong> of continuous first-line platinum-based chemotherapy; olaparib <strong>300 mg twice daily</strong>. (p. 1446)</details>
 
 **13. Did POLO's progression-free benefit establish an overall-survival benefit in its interim analysis?**
 
@@ -113,7 +113,7 @@ Fast build from the book; not lane-reviewed.
 
 **14. What symptom-directed interventions are described for pancreatic cancer?**
 
-<details><summary>Answer</summary>Biliary stents or percutaneous drainage for obstruction, microencapsulated lipase for pancreatic insufficiency, and possible celiac plexus neurolysis for pain. (p1446)</details>
+<details><summary>Answer</summary>Biliary stents or percutaneous drainage for obstruction, microencapsulated lipase for pancreatic insufficiency, and possible celiac plexus neurolysis for pain. (p. 1446)</details>
 
 **15. Does the chapter describe age as an absolute exclusion from esophageal surgery?**
 
