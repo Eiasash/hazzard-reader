@@ -1708,7 +1708,16 @@ window.HazzardAnswerHighlights = (() => {
   function attach(root,q,order){
     current=root&&q?{root,q,order}:null;
     if(root&&q){
-      root.querySelector(':scope > h3')?.setAttribute('data-answer-heading','');repaint();
+      const heading=root.querySelector(':scope > h3');
+      if(heading){
+        heading.setAttribute('data-answer-heading','');
+        if(!heading.querySelector('[data-select-reader-text]')){
+          const select=document.createElement('button');
+          select.type='button';select.dataset.selectReaderText='';select.dir='ltr';select.lang='en';select.textContent='Select text';
+          heading.append(select);
+        }
+      }
+      repaint();
       bridge()?.disableTextDrag(root);
     }
     dispatchEvent(new Event('hazzard-answer-highlights-ready'));

@@ -1,5 +1,5 @@
 {
-  "version": "v333",
+  "version": "v334",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -5918,18 +5918,18 @@
     },
     {
       "url": "./css/reader-accessibility.css",
-      "sha256": "85116054e51b37c82c8b746711de1c21bb4f029f062f07e58197298175aa488f",
-      "bytes": 9911
+      "sha256": "0bce4b6aa391a48e2078c9707e4d94c64d809d08b8388b78469ca196207b2f34",
+      "bytes": 10236
     },
     {
       "url": "./css/reader-sections.css",
-      "sha256": "5aa52cd34f6194a9bf19869c0c99056207440b5b91d710a74c0e38e8fedd860c",
-      "bytes": 4437
+      "sha256": "6ea8b0aa32a90a0e651b8fa5133cee74b00afe859880fb96bc5827d707da440a",
+      "bytes": 4145
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "4a20d27dc1053be2dbaba7a4c2fd4239bb6cd28304d62a1295a09aaec5bc509e",
-      "bytes": 27386
+      "sha256": "add2bc91ada19bca971ae9c65f56d9f8ef983ec2f01d3053f5910f5579322d06",
+      "bytes": 28613
     },
     {
       "url": "./css/reading-companion.css",
@@ -5938,8 +5938,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "1d8308dacdf1774cc4b9d283aa2edfcbd046a04b7bdee54a2bc221b5f1e93f77",
-      "bytes": 82809
+      "sha256": "c90e235ef96214afc366e26106a3855b4eaf5f62efec0a08bc72276665374705",
+      "bytes": 83083
     },
     {
       "url": "./data/chapter-layout/100s.json",
@@ -9528,8 +9528,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "d498f556505bd1dbd28e6d2c365d9fa26b1f821a4f0efc59ebc34722a3573c9c",
-      "bytes": 350990
+      "sha256": "1304fb27f6dde1c9774f8c8d9700efd7f0d18070e6f03f281f50aeadee337623",
+      "bytes": 353424
     },
     {
       "url": "./js/changed-questions.js",
@@ -9578,8 +9578,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "5c4958fac8c126593ac876cb5ab154775d2ae6e2e11a3b6fb5396137bbbb24d5",
-      "bytes": 173042
+      "sha256": "d372d795a6629649463d2d0be2c2fcd06a3a097ba8cad5e0e4c9e3c08a3a6195",
+      "bytes": 173406
     },
     {
       "url": "./js/memory-aids.js",
@@ -9618,7 +9618,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "17a36ff10c69edf13abf73e4004e4b0285108ada0715e2def7febaed1a73bf17",
+      "sha256": "4a83827980da09c8eea529ea4f435dcb3332920b9a41e9d809190084665d2e6c",
       "bytes": 8171
     },
     {

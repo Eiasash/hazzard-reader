@@ -104,8 +104,15 @@ html.browser-text-selection :is(#copy,.mcq-explanation) :is(button,summary) {
 #chapterRows .chapter-name::after { content:none; }
 #chapterRows .chapter-actions { display:flex; gap:4px; align-items:center; }
 #chapterRows .chapter-actions button { padding-inline:9px; min-width:44px; }
-#chapterRows .library-exams { grid-column:1/-1; margin:0; }
-#chapterRows .exam-count, .law-card .exam-count { display:inline-flex; flex-wrap:wrap; align-items:center; }
+#chapterRows .library-exams:not([hidden]) {
+  grid-column:1/-1; display:grid; grid-template-columns:minmax(0,1fr) auto;
+  align-items:center; column-gap:8px; margin:0;
+}
+#chapterRows .library-exams[hidden] { display:none; }
+#chapterRows .library-exams .library-status { margin:0; }
+#chapterRows .library-exams .exam-count { display:contents; }
+#chapterRows .library-exams .exam-count-list { grid-column:1/-1; }
+.law-card .exam-count { display:inline-flex; flex-wrap:wrap; align-items:center; }
 .exam-count .exam-count-toggle, #chapterRows .exam-count-toggle {
   display:inline-flex; min-height:44px; align-items:center; width:auto; padding:3px 8px;
   border:1px solid var(--control); border-radius:6px; color:var(--accent); background:var(--surface);
