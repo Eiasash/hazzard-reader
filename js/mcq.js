@@ -1304,6 +1304,10 @@ window.HazzardMCQ = (() => {
       const list=visible();position=Math.min(position,reviewMode?list.length:Math.max(0,list.length-1));const q=list[position];
       if(bodyOnly!==true){
       host.innerHTML=HazzardStorage.recoveryHTML()+'<div class="mcq-page">'+header(list)+(flagsView||savedView||bankMode&&!reviewMode&&!redoMode?'':hiddenNotice(visible(true).length-list.length))+'<div class="mcq-question"></div></div>';
+      if(!bankMode&&!mockMode){
+        const related=HazzardEvidence.relatedQuestions(chapter);
+        if(related)host.querySelector('.mcq-question').before(related);
+      }
       filtersObserver.disconnect();const sticky=host.querySelector('nav.mcq-filters');if(sticky)filtersObserver.observe(sticky);
       }
       const content=host.querySelector('.mcq-question');

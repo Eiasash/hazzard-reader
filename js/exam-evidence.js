@@ -267,10 +267,81 @@ window.HazzardEvidence = (() => {
     }
     details.append(items);original.after(details);
   }
+  const relatedByChapter = new Map();
+  function questionDisclosure(entries, caption) {
+    const details=document.createElement('details'),summary=document.createElement('summary'),links=document.createElement('div');
+    details.className='study-exam-chip';details.dataset.readerMetadata='exam';
+    summary.textContent=caption+' '+entries.length;
+    links.className='study-exam-choices';
+    for(const [id,q] of [...entries].sort((a,b)=>sittingDate(b[1].sitting)-sittingDate(a[1].sitting)||a[1].number-b[1].number)){
+      const link=document.createElement('a');link.href=questionURL(id);link.textContent=sittingLabel(q.sitting)+' Q'+q.number;links.append(link);
+      if(q.studyContext){const note=document.createElement('small');note.textContent=q.studyContext;links.append(note);}
+    }
+    details.append(summary,links);return details;
+  }
+  function relatedQuestions(chapter){
+    const rows=relatedByChapter.get(String(chapter));
+    return rows?.length?questionDisclosure(rows,'Related exams ·'):null;
+  }
+  function prototypeEvidence(copy,chapter,data){
+    const wanted=new Set(data.study[chapter]?.ids||[]),asked=new Map(),related=new Map(),practice=[];
+    function directlyAsked(q){
+      return q.pages.some(p=>p.available&&!p.citationOnly&&String(p.readerChapter||p.chapter)===chapter)||
+        (!q.pages.length&&q.chapters.includes(chapter));
+    }
+    for(const id of wanted){
+      const q=data.questions[id];if(!q)continue;
+      (directlyAsked(q)?asked:related).set(id,q);
+    }
+    const sections=[];
+    for(const node of copy.querySelectorAll('h2,[data-exam-ids],[data-practice-ids]')){
+      if(node.matches('h2')){sections.push({heading:node,asked:new Map(),ids:new Set()});continue;}
+      const section=sections.at(-1);if(!section)continue;
+      for(const id of (node.dataset.examIds||'').split(/\s+/).filter(Boolean)){
+        const q=data.questions[id];if(!q)continue;
+        if(directlyAsked(q)){asked.set(id,q);section.asked.set(id,q);}else related.set(id,q);
+        section.ids.add(id);
+      }
+      for(const id of (node.dataset.practiceIds||'').split(/\s+/).filter(Boolean)){
+        const q=data.questions[id];if(!q)continue;
+        section.ids.add(id);if(!directlyAsked(q))related.set(id,q);
+      }
+    }
+    for(const note of copy.querySelectorAll('[data-related-question]')){
+      const id=note.dataset.relatedQuestion,q=data.questions[id];
+      if(q)related.set(id,{...q,studyContext:note.dataset.examContext});
+    }
+    for(const id of asked.keys())related.delete(id);
+    relatedByChapter.set(chapter,[...related]);
+    const actions=document.createElement('div');actions.className='study-actions';actions.dataset.readerMetadata='exam';
+    if(asked.size)actions.append(questionDisclosure([...asked],'Asked'));
+    const cards=copy.querySelector('.study-flashcards');if(cards)actions.append(cards);
+    copy.querySelector('h1').after(actions);
+    for(let i=0;i<sections.length;i++){
+      const section=sections[i],ids=[...section.ids];if(!ids.length)continue;
+      if(section.asked.size)section.heading.after(questionDisclosure([...section.asked],'Asked'));
+      const line=document.createElement('p'),link=document.createElement('a'),count=document.createElement('span');line.dataset.readerMetadata='exam';line.className='section-practice';
+      link.href=HazzardMCQ.sessionURL(ids)+'&sectionPractice=1';link.append('Practise '+ids.length+' question'+(ids.length===1?'':'s'),count);line.append(link);
+      const next=sections[i+1]?.heading;if(next)next.before(line);else copy.append(line);practice.push({count,ids});
+    }
+    function refresh(){
+      let data;
+      try{data=HazzardMCQ.readStore();}catch{/* Preserve access to questions if the answer record needs recovery. */}
+      for(const {count,ids} of practice){
+        const n=ids.filter(id=>data?.answers?.[id]?.checked&&Number.isInteger(data.answers[id].selected)).length;
+        count.textContent=data?' · '+n+' answered':' · Answer record unavailable';
+      }
+    }
+    refresh();window.addEventListener('pageshow',refresh);
+    window.addEventListener('storage',event=>{if(!event.key||event.key===HazzardMCQ.KEY)refresh();});
+    window.addEventListener('hazzard-saved-change',refresh);
+  }
+
   async function decorate(copy, chapter) {
     const sourceChapter=chapter.replace(/s$/,''), study=sourceChapter!==chapter, compact=isRebuilt(sourceChapter);
     if(!/^\d+$/.test(sourceChapter))return;
     const data=await forChapter(sourceChapter), byPage=new Map(), earlier=[], chapterOnly=[], related=[];
+    if(study&&['61','62'].includes(sourceChapter)){prototypeEvidence(copy,sourceChapter,data);return;}
     if(study)refreshExamList(copy,sourceChapter,data);
     if(!study)await addPassages(copy,sourceChapter,data);
     const memberIds=new Set(data.study[sourceChapter]?.ids||[]);
@@ -451,5 +522,5 @@ window.HazzardEvidence = (() => {
     const button = document.createElement('button');button.textContent = 'Back to question';
     button.onclick = () => history.back();bar.append(button);viewport.append(bar);viewport.classList.add('has-exam-return');
   }
-  return {sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
+  return {sittingLabel,load,forChapter,preload:references, label, questionURL, openPage, relatedQuestions, decorate, addPassages, backControl,studyIds,counts,citationLine,isRebuilt};
 })();

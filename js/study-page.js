@@ -123,6 +123,15 @@ window.HazzardStudyPage = (() => {
   }
 
   function foldPractice(copy,register) {
+    if(['61s','62s'].includes(copy.dataset.chapterId)){
+      for(const note of copy.querySelectorAll('.note')){
+        const title=note.querySelector('p:first-child>strong:first-child');
+        if(!title?.textContent.startsWith('Current practice: '))continue;
+        const details=practiceDisclosure(),summary=details.firstElementChild;
+        summary.textContent=title.textContent.replace(/\.$/,'');
+        title.hidden=true;note.before(details);details.append(note);
+      }
+    }
     const labelled = /(?:current practice\s*\(not the book\)|current guidance\s*\(separate from the book\)|current clinical distinction)\s*[:.]/i;
     for (const paragraph of copy.querySelectorAll('p,li')) {
       if (paragraph.closest(generated + ',summary,.study-current-practice,.study-inline-body') || paragraph.querySelector('p,li')) continue;
@@ -196,6 +205,24 @@ window.HazzardStudyPage = (() => {
     let major = 'summary', current = major, key = null, fragment = null;
     copy.classList.add('study-page');
     numberRecall(copy);
+    if(chapter==='61s'||chapter==='62s'){
+      copy.classList.add('study-prototype');
+      const headings=[...copy.querySelectorAll(':scope > h2')];
+      for(const heading of headings){
+        const title=sourceText(heading);
+        if(title==='Key numbers'){
+          const box=document.createElement('aside');box.className='study-key-numbers';
+          const numbers=heading.nextElementSibling;heading.before(box);box.append(heading);
+          if(numbers?.matches('p'))box.append(numbers);
+        }
+        if(!['Past exam questions','Exam traps','Recall','Israeli context'].includes(title))continue;
+        const details=document.createElement('details'),summary=document.createElement('summary');
+        details.className='study-closing';heading.before(details);
+        summary.append(heading);details.append(summary);
+        while(details.nextSibling && !details.nextSibling.matches?.('h2,.chapter-nav'))details.append(details.nextSibling);
+      }
+      return;
+    }
     for (const node of [...copy.childNodes]) {
       if (node.nodeType !== Node.ELEMENT_NODE) { if (fragment) fragment.append(node); continue; }
       if (node.matches('h1,.eyebrow,.study-flashcards,.law-cards,.memory-aids,.article-cards')) {

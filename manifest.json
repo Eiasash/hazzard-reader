@@ -1101,7 +1101,8 @@
       "file": "hazzard8e_ch62_study.md",
       "kind": "study",
       "description": "Concept summary + linked exam questions",
-      "markUnits": "data/mark-units/62s.json"
+      "markUnits": "data/mark-units/62s.json",
+      "drillCount": 2
     },
     {
       "number": "64",

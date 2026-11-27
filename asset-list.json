@@ -3493,8 +3493,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch61_study.md",
-      "sha256": "4337b2cbd106898cac8ee290876bb865496d6d04ea53fda231b2ef17442187c7",
-      "bytes": 31889
+      "sha256": "41a127ff940d19a243413b367ca25c2731800907458236b53d7caaab22d62407",
+      "bytes": 26213
     },
     {
       "url": "./chapters/hazzard8e_ch62_cerebrovascular_disease.md",
@@ -3528,8 +3528,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch62_study.md",
-      "sha256": "078808edd84a234f9a863f661a011d0c9bf2638b42d6ef02f57fc8b9ebc22e93",
-      "bytes": 20403
+      "sha256": "103e8a42e62a305efd1d501eff6d6d50f5f2a61d76f0a6ba8bca2ec08c007efa",
+      "bytes": 20197
     },
     {
       "url": "./chapters/hazzard8e_ch62_table-62-1_p961.webp",
@@ -5983,8 +5983,8 @@
     },
     {
       "url": "./css/reader-tools.css",
-      "sha256": "31f0a8027e89fc7bb4c76ba54a32ea4da225b1092c46b898b95015ef848e26a5",
-      "bytes": 24690
+      "sha256": "e4dfe4f3ac1d003dcae18594641aa24ea3fd8f712607f038de71f675e56edfe4",
+      "bytes": 26588
     },
     {
       "url": "./css/reading-companion.css",
@@ -5998,8 +5998,8 @@
     },
     {
       "url": "./data/drug-index.json",
-      "sha256": "ccf7184501aa57a61c3bf0c8791a5a885771567f0c19a712d30bd9e50d69809d",
-      "bytes": 8905914
+      "sha256": "f823fd2af0a0154d9a855f967033118c7b281dae64c80cca703615b3a50e4cf4",
+      "bytes": 8894605
     },
     {
       "url": "./data/flashcards.json",
@@ -6508,8 +6508,8 @@
     },
     {
       "url": "./data/mark-units/61s.json",
-      "sha256": "7f89461574d2ac73398b31d774f00327c70c26da638bd303071c46fca404bd63",
-      "bytes": 33602
+      "sha256": "f55602c48beca4d51a4cc2b90e19a2d4f3d85d4d519d2dd89c5dfc392aae6518",
+      "bytes": 33654
     },
     {
       "url": "./data/mark-units/62.json",
@@ -8608,8 +8608,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "6b2c270854ca48b06fedfb4d16b6e790c7a3d053bc2e46e1f69dd7b6c3481ac6",
-      "bytes": 9725517
+      "sha256": "a43ffcb19d325ae4acc326bb4796318f7b4cc6d2355bb50e82785dddb240a013",
+      "bytes": 9720999
     },
     {
       "url": "./data/verification-registry.json",
@@ -8643,8 +8643,8 @@
     },
     {
       "url": "./js/exam-evidence.js",
-      "sha256": "f86e42909f5bb519da7e3d04adabcb1c001f66c06e45185e8351ed8f102c0e79",
-      "bytes": 26491
+      "sha256": "55e6e683bdb6ef26e66b0e4764276f205bd44da9c589e03fb494d9d84a155b4b",
+      "bytes": 30837
     },
     {
       "url": "./js/exam-simulation.js",
@@ -8673,8 +8673,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "e217b51f4e32503228e2ca9f7e311f8346e95802e1190f24fb72601465841bf5",
-      "bytes": 179705
+      "sha256": "b2e82015168ae0b3904079d6e81ea6761903143d46644ac06d4e088e68c18b89",
+      "bytes": 179882
     },
     {
       "url": "./js/memory-aids.js",
@@ -8748,13 +8748,13 @@
     },
     {
       "url": "./js/study-page.js",
-      "sha256": "6b6e708aa1e9cc0cd945cbf7432ed9608a44cdd51a48f337c94921f6fce5bcb7",
-      "bytes": 10616
+      "sha256": "a4c47fd93ff4db590502af48655362708d3e9f78d45324b71f86e1775abafc59",
+      "bytes": 12092
     },
     {
       "url": "./manifest.json",
-      "sha256": "841e5cc077c13de414d9ca121236ec96231257139b1ef903d3baf5f6da34424f",
-      "bytes": 60619
+      "sha256": "b1c41cfd3b4f716b3eba4f9762ac30e1cafd203b16460032459a400eed64dadb",
+      "bytes": 60642
     }
   ]
 }
