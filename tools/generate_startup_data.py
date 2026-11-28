@@ -1,6 +1,7 @@
 """Small view-specific projections of the canonical bank and flashcard data."""
 from pathlib import Path
 from datetime import datetime, timezone
+import hashlib
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,13 +10,22 @@ def generate(out, paths):
     # The chapter search needs drug names, not the full book and exam passages.
     drugs = json.loads((ROOT / "data/drug-index.json").read_bytes())["entries"]
     lookup = []
+    buckets = {}
     for drug in drugs:
         aliases = list(drug.get("aliases", []))
         for brand in drug.get("israeliBrands", []):
             aliases.extend([brand.get("name"), brand.get("hebrewName"), *brand.get("searchNames", [])])
-        lookup.append({"id": drug["id"], "name": drug["name"], "class": drug.get("class", ""),
+        bucket = hashlib.sha256(drug["id"].encode()).hexdigest()[:1]
+        part = f"data/drug-details/{bucket}.json"
+        buckets.setdefault(part, {})[drug["id"]] = drug
+        lookup.append({"detailFile": part, "bankOnly": drug.get("bankOnly", False), "id": drug["id"], "name": drug["name"], "class": drug.get("class", ""),
                        "kind": drug["kind"], "aliases": list(dict.fromkeys(a for a in aliases if a)),
                        "passages": len(drug["passages"]), "questions": len(drug["questions"])})
+    for name, entries in buckets.items():
+        path = out / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
+        paths.add(name)
     drug_lookup = "data/drug-lookup.json"
     (out / drug_lookup).write_text(json.dumps(lookup, ensure_ascii=False, separators=(",", ":"))+"\n", encoding="utf-8", newline="\n")
     paths.add(drug_lookup)

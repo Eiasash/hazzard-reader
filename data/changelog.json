@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v340",
+      "date": "2026-11-28",
+      "changes": [
+        "Notebook highlights open and remove the saved passage you selected. The drug list opens faster and links to verified classes and Israeli registrations. Corrected book figures, Study summaries, law references and five practice explanations."
+      ]
+    },
+    {
       "version": "v339",
       "date": "2026-11-28",
       "changes": [

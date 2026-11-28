@@ -35,21 +35,6 @@ def write_package(out):
                         "use Back up to keep a separate copy of your notebook.")
     from generate_startup_data import generate as generate_startup_data
     generate_startup_data(out, paths)
-    drug_source = (ROOT / "data/drug-index.json").read_bytes().replace(b"\r\n", b"\n")
-    drugs = json.loads(drug_source)
-    drug_root = "drug-content/" + hashlib.sha256(drug_source).hexdigest()[:16]
-    (out / drug_root).mkdir(parents=True)
-    brief = []
-    for number, entry in enumerate(drugs["entries"]):
-        name = f"{drug_root}/{number}.json"
-        (out / name).write_text(json.dumps(entry, ensure_ascii=False, separators=(",", ":")), encoding="utf-8", newline="\n")
-        summary = {key: entry[key] for key in ("id","name","kind","class","aliases")}
-        summary["brandNames"] = sorted({value for brand in entry.get("israeliBrands", []) for value in (brand.get("name"),brand.get("hebrewName")) if value})
-        summary.update(part=name, bankOnly=entry.get("bankOnly", False), passageCount=len(entry["passages"]), questionCount=len(entry["questions"]))
-        brief.append(summary)
-    drug_summary = "data/drug-summary.json"
-    (out / drug_summary).write_text(json.dumps({"entries":brief,"counts":drugs["counts"]},ensure_ascii=False,separators=(",",":")),encoding="utf-8",newline="\n")
-    paths.add(drug_summary)
     scripts = []
     def executable(match):
         attrs, body = match.groups()
@@ -125,7 +110,7 @@ def write_package(out):
 if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev'))return;
 const urls=['manifest.json','data/mcq/id-aliases.json'];
 const params=new URLSearchParams(location.search);if(['home','practice','review','simulation'].some(key=>params.get(key)==='1')||(!location.search&&!location.hash))urls.push('data/home-question-summary.json');
-if(params.get('chapter')==='drugs')urls.push('data/drug-summary.json');
+if(params.get('chapter')==='drugs')urls.push('data/drug-lookup.json');
 window.HazzardEarlyFetch=new Map(urls.map(url=>{const request=fetch(url);request.catch(()=>{});return [url,request];}));
 })();</script>"""
     chapter_manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
@@ -176,7 +161,7 @@ if(files&&!params.has('home')&&!params.has('tab')&&navigator.onLine){
  if(!['localhost','127.0.0.1','[::1]'].includes(host)&&!host.endsWith('.netlify.app')&&!host.endsWith('.pages.dev')){
    document.body.textContent='Open the preview on its separate host.';return;
  }
- window.HazzardDrugSummary="data/drug-summary.json";window.HazzardHomeSummary="data/home-question-summary.json";
+ window.HazzardHomeSummary="data/home-question-summary.json";
  window.HazzardBookSearch=BOOK_SEARCH;
  function load(src,module){
    return new Promise((resolve,reject)=>{

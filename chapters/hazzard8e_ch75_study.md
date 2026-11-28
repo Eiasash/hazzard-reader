@@ -302,7 +302,7 @@ The printed table lists **clindamycin 600 mg PO** or **cephalexin 2 g PO**, give
 
 Hazzard 8e, p.1152 · [Read source](?chapter=75#p1152)
 
-> **Indications for valve replacement in aortic stenosis**
+> **Indications for valve replacement in aortic stenosis (excerpt)**
 >
 > - Symptomatic patients with severe aortic stenosis
 > - Asymptomatic patients with severe aortic stenosis and left ventricular dysfunction (ejection fraction < 50%)
