@@ -237,8 +237,8 @@ html:not([data-keyboard-navigation]) :is(#bookmark,.practice-due):focus {outline
 @media (max-width:600px) {
   #copy .rehab-table:has(td[data-field]) table,#copy .rehab-table:has(td[data-field]) tbody,#copy .rehab-table:has(td[data-field]) tr {display:block;width:100%;min-width:0}
   #copy .rehab-table:has(td[data-field]) thead {position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}
-  #copy .rehab-table td[data-field] {display:block;min-width:0;width:auto;padding:.22em .35em .22em 6.3em;border:0;text-align:start}
-  #copy .rehab-table td[data-field]::before {content:attr(data-field);float:inline-start;margin-inline-start:-6em;width:5.6em;font:600 var(--type-label)/1.45 var(--ui);color:var(--muted)}
+  #copy .rehab-table td[data-field] {display:block;min-width:0;width:auto;padding:.22em .35em;border:0;text-align:start}
+  #copy .rehab-table td[data-field]::before {content:attr(data-field) " · ";font:600 var(--type-label)/1.45 var(--ui);color:var(--muted)}
   #copy .rehab-table td[data-field]:first-child {font-weight:650;background:var(--surface);border-top:1px solid var(--rule);padding:.65em .35em .25em}
   #copy .rehab-table td[data-field]:first-child::before {content:none}
   #copy .rehab-table td[data-field]:last-child {padding-block-end:.65em}
