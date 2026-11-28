@@ -5918,8 +5918,8 @@
     },
     {
       "url": "./css/practice.css",
-      "sha256": "d849d5a231040925769deec994244300fb895c24867cee5f3ba412aeab76f7b4",
-      "bytes": 21689
+      "sha256": "9682785b4bbfb25c0e3adab7842a0bc3f1ef87c2cdf766aeed15880e0784aedf",
+      "bytes": 21619
     },
     {
       "url": "./css/reader-accessibility.css",
@@ -9833,8 +9833,8 @@
     },
     {
       "url": "./js/mcq.js",
-      "sha256": "0fca87a973e3233c0221f42dd3ad75a15e2464b8ca0a1f3721b5790b80c64e06",
-      "bytes": 184453
+      "sha256": "8e1bd7c12caba8a37720df168bd1f2191b8c5a0b0de9a056dd3b5a30126cc40b",
+      "bytes": 184446
     },
     {
       "url": "./js/memory-aids.js",
