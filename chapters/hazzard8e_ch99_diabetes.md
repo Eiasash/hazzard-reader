@@ -134,7 +134,7 @@ Type 2 diabetes is a growing worldwide problem, becoming the 10th leading cause 
 
 Diabetes was the seventh leading cause of death in the United States in 2019 based on death certificate records. In fact, diabetes may be underreported as a cause of death. Only 35% to 40% of people who died with diabetes had it listed anywhere on the death certificate, and only 10% to 15% had it listed as the underlying cause of death. Overall, risk for death among those with diabetes is about twice that of people with similar age but without diabetes. Over 70% of diabetes attributed deaths occurred among people age 70 and older.
 
-Figure 99-1 describes the prevalence of diabetes (diagnosed and undiagnosed) by age groups in the United States in 2013 to 2016, along with the prevalence of people with prediabetes ([https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report](<https://stacks.cdc.gov/view/cdc/85309>). pdf, accessed 5/31/2021). Among people aged 65 or older in the United States, the total prevalence of diabetes is about 27% and the prevalence of prediabetes is nearly 50%, both higher than younger age groups. About 20% of people meeting criteria for diabetes are undiagnosed. The incidence rate of newly diagnosed diabetes is the highest among those aged 45 to 64 and 65 to 79, estimated at 10 new cases/1000 people and 9 new cases/1000 people in 2017 to 2018, respectively.
+Figure 99-1 describes the prevalence of diabetes (diagnosed and undiagnosed) by age groups in the United States in 2013 to 2016, along with the prevalence of people with prediabetes ([https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report.pdf](<https://stacks.cdc.gov/view/cdc/85309>), accessed 5/31/2021). Among people aged 65 or older in the United States, the total prevalence of diabetes is about 27% and the prevalence of prediabetes is nearly 50%, both higher than younger age groups. About 20% of people meeting criteria for diabetes are undiagnosed. The incidence rate of newly diagnosed diabetes is the highest among those aged 45 to 64 and 65 to 79, estimated at 10 new cases/1000 people and 9 new cases/1000 people in 2017 to 2018, respectively.
 
 Older adults with diabetes mellitus are susceptible to all the usual complications of diabetes. Rates of end-stage renal disease (ESRD), loss of vision, myocardial infarction, stroke, peripheral vascular disease (PVD), and peripheral neuropathy all increase with age in the absence of diabetes, and their incidence and co-occurrence are all exaggerated by the presence of diabetes in older adults, as shown in Figure 99-2. Patients with diabetes are at very high risk for CVD, and this risk increases dramatically with age. In 2011, the percentage of US adults with diabetes reporting heart disease or stroke was 28% among those aged 35 to 64, 43% among those aged 65 to 74, and 55% among those aged 75 or older.
 
@@ -599,6 +599,8 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 > Current practice (not the book): Avoid sulfonylureas as first- or second-line therapy unless substantial barriers limit safer options. If one is needed, prefer short-acting glipizide. In type 2 diabetes with CKD, use an SGLT2 inhibitor at eGFR ≥20 mL/min/1.73 m² and generally continue below 20 until kidney replacement therapy starts or intolerance develops. Consider finerenone for persistent albuminuria >30 mg/g despite maximally tolerated renin–angiotensin system blockade, with eGFR >25 and normal potassium. [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372) · [KDIGO CKD guideline, 2024, §§3.7–3.8](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).
 
+<a id="p1579"></a>**[p. 1579]**
+
 **Table 99-12 — Insulin for treatment of type 2 diabetes**  *(printed 1579)*
 
 | Insulin agents | Onset of action | Peak effect | Duration of action |
@@ -634,7 +636,7 @@ As the different classes of drugs have different mechanisms of action, there is 
 
 > Current practice (not the book): Simplify complex insulin plans when their burden or hypoglycemia risk exceeds the benefit. Match injections, glucose monitoring and device use to cognitive and functional ability and available caregiver support. [ADA Standards of Care, 2026, §13](https://doi.org/10.2337/dc26-s013) (13.14a–c).
 
-<a id="p1579"></a>**[p. 1579]**
+
 
 *(The paragraph above, from p. 1576, runs on here; pages 1577–1578 carry only Table 99-11.)*
 

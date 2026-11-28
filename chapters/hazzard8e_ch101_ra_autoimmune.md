@@ -235,7 +235,7 @@ Rituximab may be of benefit in patients with RA refractory to other biologic the
 
 are more efficacious in reducing specific symptoms such as fatigue in RA patients, compared to csDMARDs.
 
-**Table 101-5 — 2021 ACR guidelines for phamacologic management of RA**
+**Table 101-5 — 2021 ACR guidelines for phamacologic [sic; pharmacologic] management of RA**
 
 | CLINICAL CONTEXT/PRESENTATION | RECOMMENDATIONS |
 |---|---|

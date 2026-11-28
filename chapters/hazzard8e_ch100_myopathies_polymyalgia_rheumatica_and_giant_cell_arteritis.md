@@ -28,11 +28,15 @@ Healthy muscle contributes to metabolic processes and functional status in human
 
 The age-unrestricted list of conditions that can cause muscle disease symptoms is extensive. Candidate conditions are typically categorized as either acquired (autoimmune, endocrine disorder-related, toxin or drug-associated, amyloid, infectious, cancer-related, and others) or inherited (muscular dystrophies, metabolic myopathies, muscle channelopathies). The approach to the individual with myopathic symptoms is not age-specific, but the results must account for age-related variations within each component of the evaluation (see Figure 100-1). Most importantly, it is essential to factor in the coexistent medical conditions, impact on the activities of daily living (ADL) and instrumental activities of daily living (IADL), and the risks versus benefits of initiating the treatments for the underlying medical condition.
 
-History As most extremity muscle bulk is proximal, symptoms of myopathic weakness tend to be associated with shoulder and hip girdle motions. Patients may report the inability to perform a specific task due to weakness or poor stamina in performing tasks once readily accomplished. Independence with ADLs, maintenance of balance and gait, and freedom from falling should be addressed as all are sustained in part
+### History
+
+As most extremity muscle bulk is proximal, symptoms of myopathic weakness tend to be associated with shoulder and hip girdle motions. Patients may report the inability to perform a specific task due to weakness or poor stamina in performing tasks once readily accomplished. Independence with ADLs, maintenance of balance and gait, and freedom from falling should be addressed as all are sustained in part
 
 by maintaining muscle strength. Muscle pain is an uncommon symptom of primary myopathy in older people. It can be seen in polymyalgia rheumatica (PMR) or a regional or generalized musculoskeletal disorder, such a rotator cuff tendinopathy, subacromial or trochanteric bursitis, or fibromyalgia syndrome.
 
-Examination Documenting the severity of initial and serial assessments of muscle strength should be based on the MRC grading scale of 0 to 5. The healthy older person should sustain
+### Examination
+
+Documenting the severity of initial and serial assessments of muscle strength should be based on the MRC grading scale of 0 to 5. The healthy older person should sustain
 
 <a id="p1590"></a>**[p. 1590]**
 
@@ -42,11 +46,15 @@ Examination Documenting the severity of initial and serial assessments of muscle
 
 muscle contraction against full resistance for 2 to 4 seconds, usually allotted to test individual muscles. More physiologically complex yet standard functional assessments, such as arising from a chair without the use of the arms, measuring the time necessary to perform this maneuver 5 to 10 times, or squatting from the standing position then arising without assistance, should be accomplished without difficulty by normal younger adults but may be difficult even for the healthy older person. The distribution of weakness may provide clues as to broad categorical etiologies: symmetric proximal extremity weakness with a normal neurologic exam suggests a myopathy, whereas distal weakness, distal and proximal weakness, or asymmetric weakness, suggests an underlying neuropathic problem or inclusion body myositis (IBM). Compared with objective muscle weakness, muscle tenderness is a less common finding in most primary myopathies. Muscle tenderness in older people, without demonstrated significant weakness, may be seen with fibromyalgia (chronic widespread pain), regional musculoskeletal disorders (focal findings), and rarely in some patients with PMR (symmetric proximal extremities).
 
-<span id="ch100-muscle-enzymes" data-reader-metadata="exam"></span>Laboratory Markers Routine laboratory measurements of electrolytes (sodium, potassium, calcium, magnesium, and phosphorous) and muscle enzymes (primarily creatine kinase [CK] and aldolase, secondarily AST, ALT, and LDH) are essential
+### <span id="ch100-muscle-enzymes" data-reader-metadata="exam"></span>Laboratory Markers
+
+Routine laboratory measurements of electrolytes (sodium, potassium, calcium, magnesium, and phosphorous) and muscle enzymes (primarily creatine kinase [CK] and aldolase, secondarily AST, ALT, and LDH) are essential
 
 components of muscle disease evaluation. Older people have an age-related decrease in CK and aldolase-specific activity per unit DNA in muscle. Despite this fall in mean CK levels with age, the diagnostic accuracy of an elevated CK level in patients older than age 65 with histologically proven myopathy is equal to that in patients younger than age 65 in two retrospective studies.
 
-<span id="ch100-emg" data-reader-metadata="exam"></span>Electromyography Electromyogram (EMG) assessment can identify myopathic changes that help to distinguish myopathy from neuropathic causes of motor weakness such as motor neuron disease, peripheral polyneuropathy, or myasthenia gravis. Changes in the voluntary motor unit action potentials (MUAP) and spontaneous muscle electrical activity on EMG can categorize muscle symptoms as arising primarily from either muscle or nerve and provide information on the distribution and severity. If done serially, the progression of myopathic changes can be tracked. MUAP duration best distinguishes between myopathy and neuropathy: total duration increases in neuropathies but decreases in myopathies. Other myopathic findings include MUAPs of small amplitude and polyphasic composition. Increased needle insertional activity (increased in damaged muscles, decreased in muscles replaced by fat or scarring) and spontaneous activity (fibrillation potentials [a degenerating muscle fiber with an unstable membrane fires
+### <span id="ch100-emg" data-reader-metadata="exam"></span>Electromyography
+
+Electromyogram (EMG) assessment can identify myopathic changes that help to distinguish myopathy from neuropathic causes of motor weakness such as motor neuron disease, peripheral polyneuropathy, or myasthenia gravis. Changes in the voluntary motor unit action potentials (MUAP) and spontaneous muscle electrical activity on EMG can categorize muscle symptoms as arising primarily from either muscle or nerve and provide information on the distribution and severity. If done serially, the progression of myopathic changes can be tracked. MUAP duration best distinguishes between myopathy and neuropathy: total duration increases in neuropathies but decreases in myopathies. Other myopathic findings include MUAPs of small amplitude and polyphasic composition. Increased needle insertional activity (increased in damaged muscles, decreased in muscles replaced by fat or scarring) and spontaneous activity (fibrillation potentials [a degenerating muscle fiber with an unstable membrane fires
 
 <a id="p1591"></a>**[p. 1591]**
 
@@ -308,46 +316,41 @@ Although the life expectancy of patients with GCA is similar to that of the age-
 
 ## FURTHER READING
 
-Aggarwal R, Bandos A, Reed AM, et al. Predictors of clin-
 
-ical improvement in rituximab-treated refractory adult and juvenile dermatomyositis and adult polymyositis. Arthritis Rheumatol. 2014;66(3):740–749. Alemo Munters L, Dastmalchi M, Andgren V, et al. Improve-
+- Aggarwal R, Bandos A, Reed AM, et al. Predictors of clinical improvement in rituximab-treated refractory adult and juvenile dermatomyositis and adult polymyositis. Arthritis Rheumatol. 2014;66(3):740–749.
 
-ment in health and possible reduction in disease activity using endurance exercise in patients with established polymyositis and dermatomyositis: a multicenter randomized controlled trial with a 1-year open extension followup. Arthritis Care Res (Hoboken). 2013;65(12):1959–1968. Allenbach Y, Benveniste O, Stenzel W, Boyer O. Immune-
+- Alemo Munters L, Dastmalchi M, Andgren V, et al. Improvement in health and possible reduction in disease activity using endurance exercise in patients with established polymyositis and dermatomyositis: a multicenter randomized controlled trial with a 1-year open extension followup. Arthritis Care Res (Hoboken). 2013;65(12):1959–1968.
 
-mediated necrotizing myopathy: clinical features and pathogenesis. Nat Rev Rheumatol. 2020;16(12):689–701. Balakrishnan A, Aggarwal R, Agarwal V, Gupta L. Inclu-
+- Allenbach Y, Benveniste O, Stenzel W, Boyer O. Immunemediated necrotizing myopathy: clinical features and pathogenesis. Nat Rev Rheumatol. 2020;16(12):689–701.
 
-sion body myositis in the rheumatology clinic. Int J Rheum Dis. 2020;23(9):1126–1135. Buttgereit F, Matteson EL, Dejaco C. Polymyalgia rheumat-
+- Balakrishnan A, Aggarwal R, Agarwal V, Gupta L. Inclusion body myositis in the rheumatology clinic. Int J Rheum Dis. 2020;23(9):1126–1135.
 
-ica and giant cell arteritis. JAMA. 2020;324(10):993–994. Cortese A, Machado P, Morrow J, et al. Longitudinal observa-
+- Buttgereit F, Matteson EL, Dejaco C. Polymyalgia rheumatica and giant cell arteritis. JAMA. 2020;324(10):993–994.
 
-tional study of sporadic inclusion body myositis: implications for clinical trials. Neuromuscul Disord. 2013;23(5):404–412. Dasgupta B, Cimmino MA, Kremers HM, et al. 2012 pro-
+- Cortese A, Machado P, Morrow J, et al. Longitudinal observational study of sporadic inclusion body myositis: implications for clinical trials. Neuromuscul Disord. 2013;23(5):404–412.
 
-visional classification criteria for polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative. Arthritis Rheum. 2012;64(4):943–954. Dejaco C, Singh YP, Perel P, et al. 2015 recommendations for
+- Dasgupta B, Cimmino MA, Kremers HM, et al. 2012 provisional classification criteria for polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative. Arthritis Rheum. 2012;64(4):943–954.
 
-the management of polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative. Arthritis Rheumatol. 2015;67(10):2569–2580. Doran MF, Crowson CS, O’Fallon WM, Hunder GG,
+- Dejaco C, Singh YP, Perel P, et al. 2015 recommendations for the management of polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative. Arthritis Rheumatol. 2015;67(10):2569–2580.
 
-Gabriel SE. Trends in the incidence of polymyalgia rheumatica over a 30 year period in Olmsted County, Minnesota, USA. J Rheumatol. 2002;29(8):1694–1697. Feng C, Liu W, Sun X, et al. Myocardial involvement charac-
+- Doran MF, Crowson CS, O’Fallon WM, Hunder GG, Gabriel SE. Trends in the incidence of polymyalgia rheumatica over a 30 year period in Olmsted County, Minnesota, USA. J Rheumatol. 2002;29(8):1694–1697.
 
-teristics by cardiac MR imaging in patients with polymyositis and dermatomyositis. Rheumatology (Oxford). 2021; 20:keab271.
+- Feng C, Liu W, Sun X, et al. Myocardial involvement characteristics by cardiac MR imaging in patients with polymyositis and dermatomyositis. Rheumatology (Oxford). 2021; 20:keab271.
 
-Katzberg HD, Kassardjian CD. Toxic and endocrine myop-
+- Katzberg HD, Kassardjian CD. Toxic and endocrine myopathies. Continuum (Minneap Minn). 2016;22(6, Muscle and Neuromuscular Junction Disorders):1815–1828.
 
-athies. Continuum (Minneap Minn). 2016;22(6, Muscle and Neuromuscular Junction Disorders):1815–1828. Lundberg IE, Tjärnlund A, Bottai M, et al. 2017 European
+- Lundberg IE, Tjärnlund A, Bottai M, et al. 2017 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Adult and Juvenile Idiopathic Inflammatory Myopathies and Their Major Subgroups. Arthritis Rheumatol. 2017;69(12): 2271–2282.
 
-League Against Rheumatism/American College of Rheumatology Classification Criteria for Adult and Juvenile Idiopathic Inflammatory Myopathies and Their Major Subgroups. Arthritis Rheumatol. 2017;69(12): 2271–2282. Mammen AL, Chung T, Christopher-Stine L, et al. Autoan-
+- Mammen AL, Chung T, Christopher-Stine L, et al. Autoantibodies against 3-hydroxy-3-methylglutaryl-coenzyme A reductase in patients with statin-associated autoimmune myopathy. Arthritis Rheum. 2011;63(3):713–721.
 
-tibodies against 3-hydroxy-3-methylglutaryl-coenzyme A reductase in patients with statin-associated autoimmune myopathy. Arthritis Rheum. 2011;63(3):713–721. Mariampillai K, Granger B, Amelin D, et al. Development
+- Mariampillai K, Granger B, Amelin D, et al. Development of a new classification system for idiopathic inflammatory myopathies based on clinical manifestations and myositis-specific autoantibodies. JAMA Neurol. 2018;75(12):1528–1537. Matteson EL, Dejaco C. Polymyalgia rheumatica. Ann Intern Med. 2017;166(9):ITC65–ITC80.
 
-of a new classification system for idiopathic inflammatory myopathies based on clinical manifestations and myositis-specific autoantibodies. JAMA Neurol. 2018;75(12):1528–1537. Matteson EL, Dejaco C. Polymyalgia rheumatica. Ann
+- Moreira A, Loquai C, Pföhler C, et al. Myositis and neuromuscular side-effects induced by immune checkpoint inhibitors. Eur J Cancer. 2019;106:12–23.
 
-Intern Med. 2017;166(9):ITC65–ITC80. Moreira A, Loquai C, Pföhler C, et al. Myositis and neu-
+- Motomura K, Yamashita H, Yamada S, Takahashi Y, Kaneko H. Clinical characteristics and prognosis of polymyositis and dermatomyositis associated with malignancy: a 25-year retrospective study. Rheumatol Int. 2019;39(10):1733–1739.
 
-romuscular side-effects induced by immune checkpoint inhibitors. Eur J Cancer. 2019;106:12–23. Motomura K, Yamashita H, Yamada S, Takahashi Y,
+- Naddaf E, Paul P, AbouEzzeddine OF. Chloroquine and hydroxychloroquine myopathy: clinical spectrum and treatment outcomes. Front Neurol. 2020;11:616075.
 
-Kaneko H. Clinical characteristics and prognosis of polymyositis and dermatomyositis associated with malignancy: a 25-year retrospective study. Rheumatol Int. 2019;39(10):1733–1739. Naddaf E, Paul P, AbouEzzeddine OF. Chloroquine and
+- Pinal-Fernandez I, Casal-Dominguez M, Huapaya JA, et al. A longitudinal cohort study of the anti-synthetase syndrome: increased severity of interstitial lung disease in black patients and patients with anti-PL7 and anti-PL12 autoantibodies. Rheumatology (Oxford). 2017;56(6):999–1007.
 
-hydroxychloroquine myopathy: clinical spectrum and treatment outcomes. Front Neurol. 2020;11:616075. Pinal-Fernandez I, Casal-Dominguez M, Huapaya JA,
-
-et al. A longitudinal cohort study of the anti-synthetase syndrome: increased severity of interstitial lung disease in black patients and patients with anti-PL7 and anti-PL12 autoantibodies. Rheumatology (Oxford). 2017;56(6):999–1007. Stone JH, Klearman M, Collinson N. Trial of tocilizumab
-
-in giant-cell arteritis. N Engl J Med. 2017;377(15): 1494–1495.
+- Stone JH, Klearman M, Collinson N. Trial of tocilizumab in giant-cell arteritis. N Engl J Med. 2017;377(15): 1494–1495.

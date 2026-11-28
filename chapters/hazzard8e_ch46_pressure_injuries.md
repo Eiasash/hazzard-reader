@@ -341,8 +341,6 @@ In general, if a PI contains necrotic debris or is infected, then reducing antim
 
 Topical therapy for PI should be provided using moist wound healing dressings. Randomized controlled trials as well as several comparative studies provide compelling support for use of moist wound healing dressings instead of any form of dry gauze dressings for PI. Moist wound healing allows wounds to re-epithelialize up to 40% faster than wounds left open to air. Controlled trials suggest that the use of semi-occlusive dressings such as hydrocolloid dressings and foam dressings improve healing of stage 2 PI. These dressings are changed every 3 to 5 days, which allows wound fluid to gather underneath the dressing, facilitating epithelial migration. As noted above, regular gauze should not be used when dressing changes are more frequent; only dressings with nonstick surfaces should be used. Table 46-2 presents general characteristics of moisture retentive dressing categories.
 
-### Biofilm Formation
-
 **Table 46-2 — General characteristics of moisture retentive dressing categories**  *(printed 693–694)*
 
 | Dressing category | Definition | Uses | Notes |
@@ -358,6 +356,8 @@ Topical therapy for PI should be provided using moist wound healing dressings. R
 | **Hydrofibers**<br>Pads, wafers, ropes | <span id="exam-mcq-c42934955cd7ee9c0f7b5a69" data-exam-ids="mcq-c42934955cd7ee9c0f7b5a69" data-exam-read-page="694" data-reader-metadata="exam"></span>Soft nonwoven pad or ribbon dressings made from sodium carboxymethyl-cellulose fibers, similar absorbent material used in hydrocolloid dressings | Absorptive (moderate to large)<br>Autolysis<br>Thermal insulation<br>Reduces pain | • Nonadherent, requires secondary dressing to hold in place<br>• Hemostatic properties<br>• May require wound irrigation for removal<br>• No reinjury on removal |
 
 > **Unarbitrated join.** The hydrocolloid cell (p693) and the hydrofiber cell (p694) both break the word at "car-" / "boxymethyl…". Joined here as "carboxymethyl…"; no copy in this chapter, nor the reflow witness (which has no tables), prints the joined form mid-line, so the join is not arbitrated. The hydrofiber cell keeps its printed hyphen: "carboxymethyl-cellulose".
+
+### Biofilm Formation
 
 PIs are colonized with bacteria and the longer the wound is open and not healed, the greater the risk for biofilm formation. PIs are typically colonized with greater than or equal to 10⁵ organisms/mL of normal skin flora. Although greater than or equal to 10⁵ organisms/mL of normal skin <a id="p694"></a>**[p. 694]** flora can cause local infection in intact skin and impair wound healing in surgical wounds, chronic wounds such as PI may bear microbial growth at this level for prolonged periods without noticeable clinical manifestations of infection and with evidence of some healing. While not healing, the wound stays inflamed. Chronic inflammation impairs healing because the proinflammatory cytokines (interleukin 1 and tumor necrosis factor) increase the level of matrix metalloproteinases (MMPs). The MMP family is a group of calcium-dependent zinc-containing enzymes that are involved in the degradation of extracellular matrix. MMPs play a crucial role in all stages of wound healing by modifying the wound matrix, allowing for cell migration and tissue remodeling. However, in chronic wounds, there is excessive expression of MMPs, which retards healing while promoting ongoing inflammation.
 

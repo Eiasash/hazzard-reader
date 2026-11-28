@@ -274,7 +274,7 @@ receiving chemotherapy: ASCO Guideline for Geriatric Oncology. _J Clin Oncol._ 2
 
 - Muhandiramge J, Orchard S, Haydon A, et al. The acceleration of ageing in older patients with cancer. _J Geriatr Oncol_ . 2021;12(3):343–351.
 
-- National Comprehensive Cancer Network (NCCN) guidelines for Senior Adult Oncology version 1.2020. [http://www](<https://www.nccn.org/professionals/physician_gls/pdf/senior.pdf> "NCCN Older Adult Oncology guidelines. Previous editions may require sign-in.") .nccn.org/professionals/physician_gls/f_guidelines.asp#age.
+- National Comprehensive Cancer Network (NCCN) guidelines for Senior Adult Oncology version 1.2020. [http://www.nccn.org/professionals/physician_gls/f_guidelines.asp#age](<https://www.nccn.org/professionals/physician_gls/pdf/senior.pdf> "NCCN Older Adult Oncology guidelines. Previous editions may require sign-in.").
 
 - Peterson LL, Hurria A, Feng T, et al. Association between renal function and chemotherapy-related toxicity in older adults with cancer. _J Geriatr Oncol_ . 2017;8(2):96–101.
 

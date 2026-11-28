@@ -1148,7 +1148,7 @@
     },
     {
       "name": "Tadalafil",
-      "class": "Phosphodiesterase inhibitors",
+      "class": "Phosphodiesterase-5 inhibitors",
       "aliases": [],
       "sources": [
         {
@@ -1341,7 +1341,11 @@
             "טאדם"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Tadalafil"
+      }
     },
     {
       "name": "5-Alpha reductase inhibitor",
@@ -8738,7 +8742,7 @@
     },
     {
       "name": "Carbamazepine",
-      "class": "Sodium channel blockers",
+      "class": "Antiepileptic drugs",
       "aliases": [],
       "sources": [
         {
@@ -8846,11 +8850,15 @@
             "טימוניל"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Carbamazepine"
+      }
     },
     {
       "name": "Oxcarbazepine",
-      "class": "Sodium channel blockers",
+      "class": "Antiepileptic drugs",
       "aliases": [],
       "sources": [
         {
@@ -8888,7 +8896,11 @@
             "טרילפטין"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Oxcarbazepine"
+      }
     },
     {
       "name": "Biguanide",
@@ -11354,7 +11366,7 @@
     },
     {
       "name": "Teriparatide",
-      "class": "Synthetic analogue of PTH",
+      "class": "Anabolics / Parathyroid hormone analogues",
       "aliases": [],
       "sources": [
         {
@@ -11399,7 +11411,11 @@
             "S.C"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Teriparatide"
+      }
     },
     {
       "name": "Anabolics",
@@ -11416,7 +11432,7 @@
     },
     {
       "name": "Romosozumab",
-      "class": "Anabolics",
+      "class": "Anabolics / Sclerostin inhibitors",
       "aliases": [],
       "sources": [
         {
@@ -11436,7 +11452,11 @@
             "S.C"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "Prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=471baba2-7154-4488-9891-0db2f46791e7"
+      }
     },
     {
       "name": "Vitamin K antagonist",
@@ -13882,7 +13902,7 @@
     },
     {
       "name": "Metolazone",
-      "class": "Diuretics",
+      "class": "Thiazide-like diuretics",
       "aliases": [],
       "sources": [
         {
@@ -13895,7 +13915,11 @@
           "page": 1182,
           "quote": "The relationship between diuretics and serum creatinine is complex. Patients with volume overload may have hemodilution, whereby seru"
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Metolazone"
+      }
     },
     {
       "name": "Digoxin",
@@ -15796,7 +15820,7 @@
     },
     {
       "name": "Anakinra",
-      "class": "IL-1 receptor antagonist",
+      "class": "IL-1 inhibitors / IL-1 receptor antagonist",
       "aliases": [],
       "sources": [
         {
@@ -15820,7 +15844,11 @@
             "קינרט"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Anakinra"
+      }
     },
     {
       "name": "Janus kinase inhibitor",
@@ -17443,7 +17471,7 @@
     },
     {
       "name": "Amikacin",
-      "class": "Antibiotics",
+      "class": "Aminoglycosides",
       "aliases": [],
       "sources": [
         {
@@ -17519,7 +17547,11 @@
             "I.V"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Amikacin"
+      }
     },
     {
       "name": "Amoxicillin/clavulanate",
@@ -17900,7 +17932,7 @@
     },
     {
       "name": "Ciprofloxacin",
-      "class": "Antibiotics",
+      "class": "Fluoroquinolones",
       "aliases": [],
       "sources": [
         {
@@ -18020,7 +18052,11 @@
             "OTIC"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Ciprofloxacin"
+      }
     },
     {
       "name": "Ertapenem",
@@ -18104,7 +18140,7 @@
     },
     {
       "name": "Levofloxacin",
-      "class": "Antibiotics / Fluoroquinolones",
+      "class": "Fluoroquinolones",
       "aliases": [],
       "sources": [
         {
@@ -18171,7 +18207,11 @@
             "טאבניק טבליות"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Levofloxacin"
+      }
     },
     {
       "name": "Linezolid",
@@ -18397,7 +18437,7 @@
     },
     {
       "name": "Moxifloxacin",
-      "class": "Antibiotics / Fluoroquinolones",
+      "class": "Fluoroquinolones",
       "aliases": [],
       "sources": [
         {
@@ -18466,7 +18506,11 @@
             "OCULAR"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Moxifloxacin"
+      }
     },
     {
       "name": "Piperacillin/tazobactam",
@@ -18615,7 +18659,7 @@
     },
     {
       "name": "Tobramycin",
-      "class": "Antibiotics",
+      "class": "Aminoglycosides",
       "aliases": [],
       "sources": [
         {
@@ -18684,7 +18728,11 @@
             "OCULAR"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Tobramycin"
+      }
     },
     {
       "name": "Estazolam",
@@ -18849,7 +18897,7 @@
     },
     {
       "name": "Diazepam",
-      "class": "Benzodiazepines / Muscle relaxants",
+      "class": "Benzodiazepines",
       "aliases": [],
       "sources": [
         {
@@ -18964,7 +19012,11 @@
             "דיאזפם גרינדקס"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Diazepam"
+      }
     },
     {
       "name": "Baclofen",
@@ -19064,7 +19116,7 @@
     },
     {
       "name": "Meperidine",
-      "class": "Opioids / Narcotics",
+      "class": "Opioids",
       "aliases": [],
       "sources": [
         {
@@ -19083,7 +19135,11 @@
           "page": 883,
           "quote": "Meperidine"
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Meperidine"
+      }
     },
     {
       "name": "H2-receptor antagonists",
@@ -20965,7 +21021,7 @@
     },
     {
       "name": "Valproic acid",
-      "class": "Anticonvulsants",
+      "class": "Antiepileptic drugs",
       "aliases": [
         "Valproate"
       ],
@@ -21042,7 +21098,11 @@
             "I.V"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Valproic+acid"
+      }
     },
     {
       "name": "Antiepileptic drugs",
@@ -22521,7 +22581,7 @@
     },
     {
       "name": "Doxycycline",
-      "class": "Antibiotics",
+      "class": "Tetracyclines",
       "aliases": [],
       "sources": [
         {
@@ -22569,7 +22629,11 @@
             "דוקסילין"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Doxycycline"
+      }
     },
     {
       "name": "Atorvastatin",
@@ -26692,7 +26756,7 @@
     },
     {
       "name": "Prochlorperazine",
-      "class": "Antiemetics",
+      "class": "Phenothiazines / Antiemetics",
       "aliases": [],
       "sources": [
         {
@@ -26700,7 +26764,11 @@
           "page": 883,
           "quote": "and paroxetine, antimuscarinics, antispasmodics, antiemetics including prochlorperazine and promethazine)"
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Prochlorperazine"
+      }
     },
     {
       "name": "Gentamicin",
@@ -30036,7 +30104,7 @@
     },
     {
       "name": "Canakinumab",
-      "class": "IL-1 inhibitors",
+      "class": "IL-1 inhibitors / IL-1β blockers",
       "aliases": [],
       "sources": [
         {
@@ -30060,7 +30128,11 @@
             "אילאריס"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "Prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e"
+      }
     },
     {
       "name": "Sarilumab",
@@ -32090,7 +32162,7 @@
     },
     {
       "name": "Physostigmine",
-      "class": "Acetylcholinesterase inhibitors",
+      "class": "Antidotes",
       "aliases": [],
       "sources": [
         {
@@ -32098,7 +32170,11 @@
           "page": 881,
           "quote": "and serum anticholinergic activity is increased in patients with delirium. Physostigmine can reverse delirium associated with anticholinergic drugs, and cholinesterase inhibitors appear to have"
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Physostigmine"
+      }
     },
     {
       "name": "Atropine",
@@ -40596,7 +40672,7 @@
     },
     {
       "name": "Ipilimumab",
-      "class": "Cancer therapies",
+      "class": "Immune checkpoint inhibitors",
       "aliases": [],
       "sources": [
         {
@@ -40620,7 +40696,11 @@
             "יירבוי"
           ]
         }
-      ]
+      ],
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Ipilimumab"
+      }
     },
     {
       "name": "Daratumumab",
@@ -41878,7 +41958,7 @@
         {
           "chapter": "84",
           "page": 1302,
-          "quote": "intestine involve coating the colonic mucosa with a contrast medium, usually barium sulfate, following thorough colonic preparation. Barium enemas may be performed by either the singleor"
+          "quote": "intestine involve coating the colonic mucosa with a contrast medium, usually barium sulfate, following thorough colonic preparation. Barium enemas may be performed by either the single- or"
         }
       ],
       "classSource": {
@@ -49234,7 +49314,7 @@
     },
     {
       "name": "Supplemental oxygen",
-      "class": "Drug class",
+      "class": "Medical gases",
       "aliases": [
         "oxygen supplementation",
         "oxygen therapy"
@@ -49247,7 +49327,11 @@
           "printedOnly": true
         }
       ],
-      "kind": "class"
+      "kind": "drug",
+      "classSource": {
+        "label": "NLM RxClass",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byDrugName.json?drugName=Oxygen"
+      }
     },
     {
       "name": "Prothrombin complex concentrate",

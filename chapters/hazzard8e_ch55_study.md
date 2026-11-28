@@ -190,7 +190,7 @@ A US Medicare inpatient rehabilitation facility generally provides 3 hours of th
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2f6126281b7935fddb54098c"><span>June 2023 Q13</span> Choosing a two-wheeled walker</a> <a class="study-source-link" href="?chapter=55#p828" aria-label="exam reference, p828">p828</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e494106a09620abcbc2a7e06"><span>June 2025 Q94</span> Occupational therapy for ADLs</a> <a class="study-source-link" href="?chapter=55#p825" aria-label="exam reference, p825">p825</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e494106a09620abcbc2a7e06"><span>June 2025 Q94</span> Occupational therapy for ADLs</a> <a class="study-source-link" href="?chapter=55#p823" aria-label="Related teaching, p823">p823</a></p>
 
 <details class="study-self-check" data-check-key="55s:recall-7"><summary>What is the MIRE protocol, and how did sensation after treatment compare with placebo?</summary>
 

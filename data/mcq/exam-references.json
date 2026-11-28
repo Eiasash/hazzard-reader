@@ -9354,7 +9354,7 @@
           "chapter": "57",
           "available": true,
           "anchor": "exam-p876-mcq-fd46d1f8dfade18bbb3c4376",
-          "passage": "Although there is often the perception that geriatric patients are not at risk for human imm"
+          "passage": "palliative care often consists largely of hospice care"
         }
       ],
       "tables": [],
@@ -9633,8 +9633,9 @@
           "page": 1082,
           "chapter": "70",
           "available": true,
+          "imageFile": "hazzard8e_ch70_figure-70-3_p1082.webp",
           "anchor": "exam-p1082-mcq-a4591cf08e389264496b6571",
-          "passage": "Across the inpatient setting, collaboration between palliative care teams and patients’ long"
+          "passage": "Figure 70-3"
         }
       ],
       "tables": [],
@@ -10081,7 +10082,7 @@
           "chapter": "105",
           "available": true,
           "anchor": "exam-p1682-mcq-58ac2b29058e672521531e55",
-          "passage": "It has been published that the probability of Ps or MRSA infection is increased in severe CA"
+          "passage": "Health care–associated pneumonia (HCAP) can be defined as pneumonia"
         }
       ],
       "tables": [],
@@ -13753,7 +13754,7 @@
           "chapter": "58",
           "available": true,
           "anchor": "exam-p880-mcq-b14f606286b7110d9c822ade",
-          "passage": "The fundamental pathophysiologic mechanisms of delirium remain unclear. Delirium is thought "
+          "passage": "Dementia is the underlying risk factor in up to two-thirds of cases of delirium"
         },
         {
           "page": 881,
@@ -13779,12 +13780,16 @@
         {
           "page": 883,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "anchor": "exam-p883-mcq-b14f606286b7110d9c822ade",
+          "passage": "Delirium and dementia frequently coexist"
         },
         {
           "page": 884,
           "chapter": "58",
-          "available": true
+          "available": true,
+          "anchor": "exam-p884-mcq-b14f606286b7110d9c822ade",
+          "passage": "patients who develop delirium are at increased risk for development of dementia"
         }
       ]
     },
@@ -15720,8 +15725,9 @@
           "page": 1710,
           "chapter": "106",
           "available": true,
+          "imageFile": "hazzard8e_ch106_table-106-7_p1710.webp",
           "anchor": "exam-p1710-mcq-60d358f39722f9df5a3990cc",
-          "passage": "In men, all UTI episodes have been considered as complicated in the past. However, it is not"
+          "passage": "Table 106-7"
         },
         {
           "page": 1711,
@@ -17949,8 +17955,7 @@
           "page": 825,
           "chapter": "55",
           "available": true,
-          "anchor": "exam-p825-mcq-e494106a09620abcbc2a7e06",
-          "passage": "Task-Oriented Exercises to Improve Motor Control Older persons may lose their ability to per"
+          "citationOnly": true
         }
       ],
       "tables": [],
@@ -17962,7 +17967,10 @@
         {
           "page": 823,
           "chapter": "55",
-          "available": true
+          "available": true,
+          "imageFile": "hazzard8e_ch55_table55-4_p823.png",
+          "anchor": "exam-p823-mcq-e494106a09620abcbc2a7e06",
+          "passage": "Table 55-4"
         }
       ]
     },
@@ -23134,7 +23142,7 @@
       "past": 6,
       "resolved": 4,
       "fallback": 2,
-      "practice": 6,
+      "practice": 7,
       "chapterLinked": 0
     },
     "10": {
@@ -23145,7 +23153,7 @@
       "past": 1,
       "resolved": 1,
       "fallback": 0,
-      "practice": 6,
+      "practice": 7,
       "chapterLinked": 0
     },
     "11": {
@@ -23347,7 +23355,7 @@
       "past": 6,
       "resolved": 0,
       "fallback": 6,
-      "practice": 1,
+      "practice": 0,
       "chapterLinked": 0
     },
     "27": {
@@ -23447,7 +23455,7 @@
       "past": 3,
       "resolved": 1,
       "fallback": 1,
-      "practice": 11,
+      "practice": 10,
       "chapterLinked": 1
     },
     "35": {

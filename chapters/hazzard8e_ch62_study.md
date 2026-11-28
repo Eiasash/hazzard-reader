@@ -126,7 +126,6 @@ Plan recovery around the tasks that matter to the patient, with physical, occupa
 
 The 2026 required reading list excludes this chapter. Past examinations still cover stroke.
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7a90308e12b3ad9cc1b6f81a"><span>June 2025 Q11</span> Levodopa motor fluctuations</a> <a class="study-source-link" href="?chapter=61#p943" aria-label="exam reference, p943">p943</a></p>
 
 <details class="study-self-check" data-check-key="62s:clinical-dwi"><summary>Symptoms resolved and the early CT is normal. Which imaging finding still establishes infarction?</summary>
 

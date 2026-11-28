@@ -202,7 +202,7 @@ Anticonvulsants ("mood stabilizers") are generally disappointing: valproate is i
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-663fcbfa80f7875e874f04c2"><span>June 2022 Q42</span> Anticholinergic burden</a> <a class="study-source-link" href="?chapter=60#p928" aria-label="8e teaching passage, p928">p928</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4ea0e38022bf9d5645f8e014"><span>May 2024 Q80</span> Bupropion and seizures</a> <a class="study-source-link" href="?chapter=60#p928" aria-label="exam reference, p928">p928</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4ea0e38022bf9d5645f8e014"><span>May 2024 Q80</span> Haloperidol and seizures</a> <a class="study-source-link" href="?chapter=60#p928" aria-label="exam reference, p928">p928</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-e912594a9fb26110b2414061"><span>June 2022 Q77</span> Citalopram and QT prolongation</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="8e teaching passage, p929">p929</a></p>
 

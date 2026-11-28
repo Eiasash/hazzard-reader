@@ -38,7 +38,7 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 - History clues (Table 102-5, p1634): **abrupt onset** suggests intervertebral disc herniation, muscle strain, vertebral compression fracture or mechanical low back pain; an **insidious onset with a progressive, nonpositional course** suggests tumor, infection, nonspinal visceral pain, degenerative disc disease or osteoarthritis. Positional pain on lying-to-sitting or bending suggests mechanical low back pain; pain on standing and walking, relieved with sitting, suggests lumbar spinal stenosis; nonpositional pain suggests tumor or infection.
 - Severe pain in any position, aggravated even by rolling over in bed and coming on abruptly, suggests a vertebral compression fracture. Pain worse going from sitting to standing, with a limp or radiation to the groin, indicates possible hip disease (p1634).
 - Passive hip ROM benchmarks: **40°** abduction before the pelvis tilts, **> 100°** flexion, **50°–60°** external rotation, **20°** internal rotation (p1634).
-- L4/L5 tested via hip abduction (gluteus medius), foot dorsiflexion (tibialis anterior), and great toe extension (extensor hallucis longus); L5/S1 tested via hip extension and foot eversion (p1634–1635; Figures 102-1 to 102-3).
+- L4/L5 tested via hip abduction (gluteus medius), foot dorsiflexion (tibialis anterior), and great toe extension (extensor hallucis longus); L5/S1 tested via hip extension and foot eversion (p1634–1635; Figures 102-2 and 102-3).
 
 <span data-exam-page="1636"></span>
 
@@ -64,65 +64,65 @@ Study summary of Chapter 102 — Back Pain and Spinal Stenosis; the book and the
 
 ## Recall
 
-**3. What historical clue helps differentiate an osteoporotic sacral (insufficiency) fracture, and how often is there a preceding fall?**
+**1. What historical clue helps differentiate an osteoporotic sacral (insufficiency) fracture, and how often is there a preceding fall?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-3"><summary>Answer</summary>
 
 Persistent low back/groin/buttock pain with marked tenderness on sacral pressure; about 50% of patients had a preceding fall (p1631).
 
 </details>
 
-**5. What is the most common spinal level for lumbar spinal stenosis, and which nerve root is most often affected?**
+**2. What is the most common spinal level for lumbar spinal stenosis, and which nerve root is most often affected?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-5"><summary>Answer</summary>
 
 L4-L5 most common (followed by L3-L4 and L5-S1); lateral recess stenosis there most often causes an L5 radiculopathy (p1632).
 
 </details>
 
-**6. What position worsens lumbar spinal stenosis symptoms, and what position relieves them?**
+**3. What position worsens lumbar spinal stenosis symptoms, and what position relieves them?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-6"><summary>Answer</summary>
 
 Extension (standing, walking, walking downhill) worsens symptoms; flexion (sitting, bending forward, leaning on a walker/cart) relieves them — the "shopping cart sign" (p1632).
 
 </details>
 
-**8. After what age does lumbar disc herniation become less common, and why?**
+**4. After what age does lumbar disc herniation become less common, and why?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-8"><summary>Answer</summary>
 
 Beyond age 55, because the nucleus pulposus loses water content with aging (p1633).
 
 </details>
 
-**9. What defines diffuse idiopathic skeletal hyperostosis (DISH) radiographically?**
+**5. What defines diffuse idiopathic skeletal hyperostosis (DISH) radiographically?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-9"><summary>Answer</summary>
 
 Flowing calcification/ossification along the anterolateral aspect of at least 4 contiguous vertebral bodies, with relative preservation of disc height and no apophyseal joint ankylosis (p1633).
 
 </details>
 
-**10. List the passive hip range-of-motion benchmarks used to help distinguish hip from back pathology.**
+**6. List the passive hip range-of-motion benchmarks used to help distinguish hip from back pathology.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-10"><summary>Answer</summary>
 
 40 degrees of abduction before the pelvis tilts, more than 100 degrees of flexion, 50–60 degrees of external rotation, and 20 degrees of internal rotation (p1634).
 
 </details>
 
-**11. According to Table 102-7, name at least 5 imaging "red flags" for back pain due to systemic disease.**
+**7. According to Table 102-7, name at least 5 imaging "red flags" for back pain due to systemic disease.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-11"><summary>Answer</summary>
 
 Age > 70, recent significant (or milder if age > 50) trauma, unexplained weight loss/fever, immunosuppression (eg, diabetes), history of cancer, osteoporosis/prolonged glucocorticoid use, progressive/disabling focal neurologic deficits, symptom duration > 6 weeks, IV drug use (p1636).
 
 </details>
 
-**15. What is the reported complication rate range for lumbar decompressive surgery, and name 3 complication types?**
+**8. What is the reported complication rate range for lumbar decompressive surgery, and name 3 complication types?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="102s:recall-15"><summary>Answer</summary>
 
 1.8% to 18%; complications include wound infection, durotomy, nerve root injury, vascular complications, epidural hematoma, implant failure, adjacent-segment degeneration, and nonunion (p1639).
 

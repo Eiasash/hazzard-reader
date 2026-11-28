@@ -134,7 +134,7 @@ The ethical question is not merely how long life could be prolonged. Consider wh
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b50ef7b89d34aea2228e11f4"><span>June 2022 Q51</span> Diet composition and lifespan</a> <a class="study-source-link" href="?chapter=1#p5" aria-label="8e teaching passage, p5">p5</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-b50ef7b89d34aea2228e11f4"><span>June 2022 Q51</span> Diet composition and lifespan</a> <a class="study-source-link" href="?chapter=1#p6" aria-label="Related teaching, p6">p6</a></p>
 
 <details class="study-self-check" data-check-key="1s:5"><summary>What did primate studies show, and where did they disagree?</summary>
 

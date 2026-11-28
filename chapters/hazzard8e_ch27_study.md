@@ -187,9 +187,9 @@ More than 10% over 6 months or more than 5% over 1 month before surgery; screen 
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c69b8e39936a3e480b518b24"><span>2020 Q12</span> Cardiac perioperative mortality</a> <a class="study-source-link" href="?chapter=27#p371" aria-label="8e teaching passage, p371">p371</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c69b8e39936a3e480b518b24"><span>2020 Q12</span> Cardiac perioperative mortality</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="Related teaching, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77f06f1660813e299868c240"><span>December 2021 Q36</span> Creatinine and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p373" aria-label="8e teaching passage, p373">p373</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77f06f1660813e299868c240"><span>December 2021 Q36</span> Creatinine and cardiac risk</a> <a class="study-source-link" href="?chapter=27#ch27-rcri" aria-label="Related teaching, Related teaching">Related teaching</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-368d1c6ff706583ac2c3f156"><span>June 2023 Q31</span> Stroke history and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
@@ -197,9 +197,9 @@ More than 10% over 6 months or more than 5% over 1 month before surgery; screen 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-18b0ad7f9e472a626caf7cbe"><span>June 2025 Q39</span> Gas exchange and respiratory reserve</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7b6cc300fca7b2feb736490d"><span>June 2022 Q4</span> Preoperative stress imaging</a> <a class="study-source-link" href="?chapter=27#p374" aria-label="8e teaching passage, p374">p374</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7b6cc300fca7b2feb736490d"><span>June 2022 Q4</span> Preoperative stress imaging</a> <a class="study-source-link" href="?chapter=27#ch27-stress-imaging" aria-label="Related teaching, Related teaching">Related teaching</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0bc3f87851eec6c1dbe14f6a"><span>June 2022 Q11</span> When to stop clopidogrel</a> <a class="study-source-link" href="?chapter=27#p378" aria-label="8e teaching passage, p378">p378</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0bc3f87851eec6c1dbe14f6a"><span>June 2022 Q11</span> When to stop clopidogrel</a> <a class="study-source-link" href="?chapter=27#ch27-clopidogrel" aria-label="Related teaching, Related teaching">Related teaching</a></p>
 
 <details class="study-self-check" data-check-key="27s:recall-14"><summary>After DVT/PE, how long should elective surgery ideally wait, and when does the discussed warfarin bridging pathway apply?</summary>
 
@@ -207,7 +207,7 @@ At least 3 months. If delay is impossible, the book describes LMWH bridging whil
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f065ded45c3214b7bc02b061"><span>June 2026 Q66</span> Postoperative aspiration risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f065ded45c3214b7bc02b061"><span>June 2026 Q66</span> Postoperative aspiration risk</a> <a class="study-source-link" href="?chapter=27#p376" aria-label="Related teaching, p376">p376</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-10f0de0773043fed8129feaf"><span>June 2026 Q21</span> Postoperative stiffness</a> <a class="study-source-link" href="?chapter=27#ch27-harrison-shoulder" aria-label="Harrison 22e, ch. 387, pp. 2974–2975, Harrison p2974–2975">Harrison p2974–2975</a></p>
 

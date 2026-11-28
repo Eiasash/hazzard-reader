@@ -154,11 +154,11 @@ Medically complex, cognitively impaired, or bipolar/psychotic-feature depression
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4641bad3c4f4169ea022ed51"><span>September 2024 Q94</span> Paroxetine and delirium</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="exam reference, p929">p929</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6592a4a2447a4a4222a125e5"><span>December 2021 Q79</span> Pain and depression in cancer</a> <a class="study-source-link" href="?chapter=65#p1008" aria-label="8e teaching passage, p1008">p1008</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6592a4a2447a4a4222a125e5"><span>December 2021 Q79</span> Pain and depression in cancer</a> <a class="study-source-link" href="?chapter=88#p1392" aria-label="Related teaching, Ch 88 · p1392">Ch 88 · p1392</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-4b2eecbd346cf984c3b9e3ed"><span>June 2022 Q19</span> Depression with cognitive symptoms</a> <a class="study-source-link" href="?chapter=65#p1008" aria-label="8e teaching passage, p1008">p1008</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b7cd8474f47b3387f03b012"><span>June 2022 Q47</span> Risk of prolonged grief</a> <a class="study-source-link" href="?chapter=65#p1008" aria-label="8e teaching passage, p1008">p1008</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b7cd8474f47b3387f03b012"><span>June 2022 Q47</span> Risk of prolonged grief</a> <a class="study-source-link" href="?chapter=66#p1024" aria-label="Related teaching, Ch 66 · p1024">Ch 66 · p1024</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d999fc66e84432d68688a775"><span>2020 Q37</span> Interpreting PHQ-9</a> <a class="study-source-link" href="?chapter=65#p1009" aria-label="8e teaching passage, p1009">p1009</a></p>
 
@@ -178,7 +178,7 @@ PHQ Question 9 ≥1, MADRS Question 10 ≥3, or QIDS-SR Question 12 ≥1 (<a hre
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2375b0f8bb50a6874cdcb40d"><span>June 2026 Q13</span> Non-drug treatment in dementia</a> <a class="study-source-link" href="?chapter=65#p1012" aria-label="exam reference, p1012">p1012</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-05456f388b60d0b72b35923e"><span>2020 Q44</span> Serotonergic drug interactions</a> <a class="study-source-link" href="?chapter=65#p1014" aria-label="8e teaching passage, p1014">p1014</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-05456f388b60d0b72b35923e"><span>2020 Q44</span> Serotonergic drug interactions</a> <a class="study-source-link" href="?chapter=60#p929" aria-label="Related teaching, Ch 60 · p929">Ch 60 · p929</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d06be14df3b5c357b755243d"><span>June 2026 Q87</span> Explaining antidepressant benefit</a> <a class="study-source-link" href="?chapter=65#p1014" aria-label="exam reference, p1014">p1014</a></p>
 

@@ -284,13 +284,13 @@ Serum luteinizing hormone (LH) and follicle-stimulating hormone (FSH) concentrat
 
 Prior to considering testosterone replacement therapy for hypogonadism, it is important to determine the etiology of hypogonadism and whether low testosterone is due to organic or functional hypogonadism. Organic hypogonadism is caused by a congenital, structural, or destructive disease of the hypothalamus, pituitary, or testes and is irreversible. Functional hypogonadism is caused by a nondestructive gonadotropin suppression that is potentially reversible with treatment of the underlying causative condition or discontinuation of the offending medication and may not require testosterone treatment ( **Table 97-5** ).
 
-Once the diagnosis of hypogonadism is confirmed whether organic or functional and prior to or in conjunction with initiating testosterone treatment, geriatricians should consider alternative or adjunctive treatments of clinical manifestations of hypogonadism (eg, phosphodiesterase type 5 inhibitor for ED; exercise and weight loss for low energy, depressed mood and muscle weakness; or bisphosphonates for osteoporosis). Also, treatment or
+Once the diagnosis of hypogonadism is confirmed whether organic or functional and prior to or in conjunction with initiating testosterone treatment, geriatricians should consider alternative or adjunctive treatments of clinical manifestations of hypogonadism (eg, phosphodiesterase type 5 inhibitor for ED; exercise and weight loss for low energy, depressed mood and muscle weakness; or bisphosphonates for osteoporosis). Also, treatment or management of potentially reversible functional causes of testosterone deficiency (eg, discontinuation of opioids) should be considered prior to or in addition to starting testosterone therapy.
 
 ![Table 97-5](hazzard8e_ch97_table97-5_p1534.png)
 
 > *Table 97-5 reproduced as a page image (printed p. 1534) — the grid did not extract reliably as text for this fast build.*
 
-management of potentially reversible functional causes of testosterone deficiency (eg, discontinuation of opioids) should be considered prior to or in addition to starting testosterone therapy. In many instances however, the cause of functional hypogonadism might not be treatable (eg, older patients taking opioids for chronic pain or morbidly obese older men who have failed attempts to lose weight and are not candidates for bariatric surgery). Older men with severe clinical and biochemical testosterone deficiency due to organic hypogonadism should be referred to an endocrinologist for further evaluation and management.
+In many instances however, the cause of functional hypogonadism might not be treatable (eg, older patients taking opioids for chronic pain or morbidly obese older men who have failed attempts to lose weight and are not candidates for bariatric surgery). Older men with severe clinical and biochemical testosterone deficiency due to organic hypogonadism should be referred to an endocrinologist for further evaluation and management.
 
 Contraindications to testosterone treatment are active prostate cancer and breast cancer, as these malignancies might be stimulated by testosterone and its active metabolite, estradiol, respectively. Testosterone should be used with caution in older patients with an abnormal digital rectal examination or prostate-specific antigen (PSA) greater than 4.0 ng/mL, hematocrit greater than 50, untreated obstructive sleep apnea, severe lower urinary tract symptoms (LUTS), for example, International Prostate Symptom Score (IPSS) greater than 19, uncontrolled heart failure, myocardial infarction or stroke within the last 6 months, and thrombophilia.
 
@@ -595,4 +595,3 @@ Many thanks to Christine Swanson, Kenneth Lyles, and Eric Orwoll for their contr
 - Singer FR, Bone HG 3rd, Hosking DJ, et al. Paget’s disease of bone: an Endocrine Society clinical practice guideline. _J Clin Endocrinol Metab_ . 2014;99:4408–4422.
 
 - West CD, Brown H, Simons EL, Carter DB, Kumagai LF, Englert E Jr. Adrenocortical function and cortisol metabolism in old age. _J Clin Endocrinol Metab_ . 1961;21:1197–1207.
-

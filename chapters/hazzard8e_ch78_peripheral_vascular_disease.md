@@ -38,7 +38,7 @@ Peripheral vascular disease (PVD) is primarily a disease of aging and is strongl
 
 6. Intervention of patients with AAA is generally accepted when aneurysmal diameter exceeds 5 to 5.5 cm.
 
-7. Outcomes for patients with acceptable anatomy for open or endovascular repair of infrarenal AAAs are similar based on current randomized trials, although shortterm mortality appears to benefit patients undergoing endovascular repair.
+7. Outcomes for patients with acceptable anatomy for open or endovascular repair of infrarenal AAAs are similar based on current randomized trials, although short-term mortality appears to benefit patients undergoing endovascular repair.
 
 8. Long-term follow-up of patients undergoing endovascular repair of AAA using computed tomographic scanning is currently recommended based on changing morphology of the residual aneurysm.
 
@@ -70,7 +70,7 @@ The majority of the vascular system, including retroperitoneal vascular structur
 
 ![Figure 78-1](hazzard8e_ch78_figure-78-1_p1211.webp)
 
-*FIGURE 78-1. The natural history of patients with intermittent claudication including fate of the limb and the relation- ship to cardiovascular outcome. Note the benign nature of intermittent claudication with regard to the limb yet the high incidence of cardiovascular events. (Reproduced with permission from Weitz JI, Byrne J, Clagett GP, et al. Diagnosis and treatment of chronic arterial insufficiency of the lower extremities: a critical review. Circulation. 1996;94[11]:3026–3049.)*
+*FIGURE 78-1. The natural history of patients with intermittent claudication including fate of the limb and the relationship to cardiovascular outcome. Note the benign nature of intermittent claudication with regard to the limb yet the high incidence of cardiovascular events. (Reproduced with permission from Weitz JI, Byrne J, Clagett GP, et al. Diagnosis and treatment of chronic arterial insufficiency of the lower extremities: a critical review. Circulation. 1996;94[11]:3026–3049.)*
 
 typically reserved for situations when an intervention is planned. Invasive procedures are not commonly used as the initial diagnostic study due to the improvements in resolution and lack of morbidity for noninvasive evaluations. The study of choice following an abnormal ABI varies based on historical use of specific modalities and is best ordered by the specialist treating the patient to avoid unnecessary tests and cost to the patient.
 

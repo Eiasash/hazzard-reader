@@ -176,67 +176,59 @@ As noted above, decision making with older adults is challenging in many ways. F
 
 ## FURTHER READING
 
-Beauchamp TL, Childress JF. Principles of Biomedical Ethics.
 
-6th ed. New York, NY: Oxford University Press; 2008. Bernacki RE, Block SD, Force ACoPHVCT. Communi-
+- Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 6th ed. New York, NY: Oxford University Press; 2008.
 
-cation about serious illness care goals: a review and synthesis of best practices. JAMA Intern Med. 2014; 174(12):1994–2003.
+- Bernacki RE, Block SD, Force ACoPHVCT. Communication about serious illness care goals: a review and synthesis of best practices. JAMA Intern Med. 2014; 174(12):1994–2003.
 
-Boockvar KS, Lachs MS. Predictive value of nonspecific
+- Boockvar KS, Lachs MS. Predictive value of nonspecific symptoms for acute illness in nursing home residents. J Am Geriatr Soc. 2003;51:1111–1115.
 
-symptoms for acute illness in nursing home residents. J Am Geriatr Soc. 2003;51:1111–1115. Boyd CM, Darer J, Boult C, et al. Clinical practice guide-
+- Boyd CM, Darer J, Boult C, et al. Clinical practice guidelines and quality of care for older patients with multiple <a id="p116"></a>**[p. 116]** comorbid diseases: implications for pay for performance. JAMA. 2005;294:716–724.
 
-lines and quality of care for older patients with multiple
+- Fried TR, Bradley EH, Towle VR, et al. Understanding the treatment preferences of seriously ill patients. N Engl J Med. 2002;346:1061–1066.
 
-<a id="p116"></a>**[p. 116]**
+- Guyatt GH, Oxman AD, Ali M, et al. Laboratory diagnosis of iron-deficiency anemia: an overview. J Gen Intern Med. 1992;7:145–153.
 
-comorbid diseases: implications for pay for performance. JAMA. 2005;294:716–724. Fried TR, Bradley EH, Towle VR, et al. Understanding the
+- Hirsch C. The Mini-cog had high sensitivity and specificity for diagnosing dementia in community-dwelling older adults. ACP J Club. 2001;74.
 
-treatment preferences of seriously ill patients. N Engl J Med. 2002;346:1061–1066. Guyatt GH, Oxman AD, Ali M, et al. Laboratory diagno-
+- Ilic D, Neuberger MM, Djulbegovic M, et al. Screening for prostate cancer. Cochrane Database Syst Rev. 2013;(1):CD004720.
 
-sis of iron-deficiency anemia: an overview. J Gen Intern Med. 1992;7:145–153. Hirsch C. The Mini-cog had high sensitivity and specificity
+- Kelly A, Holloway RG. Noninvasive imaging techniques may be useful for diagnosing 70 to 99% carotid stenosis in symptomatic patients. ACP J Club. 2006; 145(3):77.
 
-for diagnosing dementia in community-dwelling older adults. ACP J Club. 2001;74. Ilic D, Neuberger MM, Djulbegovic M, et al. Screen-
+- Kim S, Goldstein D, Hasher L, et al. Framing effects in younger and older adults. J Gerontol. 2005;60: P215–P218.
 
-ing for prostate cancer. Cochrane Database Syst Rev. 2013;(1):CD004720. Kelly A, Holloway RG. Noninvasive imaging techniques
+- King JS, Moulton BW. Rethinking informed consent: the case for shared medical decision-making. Am J Law Med. 2006;32(4):429–501.
 
-may be useful for diagnosing 70 to 99% carotid stenosis in symptomatic patients. ACP J Club. 2006; 145(3):77. Kim S, Goldstein D, Hasher L, et al. Framing effects
+- Lum HD, Sudore RL, Bekelman DB. Advance care planning in the elderly. Med Clin North Am. 2015;99(2):391–403.
 
-in younger and older adults. J Gerontol. 2005;60: P215–P218. King JS, Moulton BW. Rethinking informed consent: the
+- Periyakoil VS, Neri E, Kraemer H. Patient-reported barriers to high-quality, end-of-life care: a multiethnic, multilingual, mixed-methods study. J Palliat Med. 2016; 19(4):373–379.
 
-case for shared medical decision-making. Am J Law Med. 2006;32(4):429–501. Lum HD, Sudore RL, Bekelman DB. Advance care planning
+- Quill TE, Cassel CK. Nonabandonment: a central obligation for physicians. Ann Intern Med. 1995;122(5):368–374.
 
-in the elderly. Med Clin North Am. 2015;99(2):391–403. Periyakoil VS, Neri E, Kraemer H. Patient-reported
+- Scanlan J, Borson S. The Mini-cog: receiver operating characteristics with expert and naïve raters. Int J Geriatr Psych. 2001;16:216–222.
 
-barriers to high-quality, end-of-life care: a multiethnic, multilingual, mixed-methods study. J Palliat Med. 2016; 19(4):373–379. Quill TE, Cassel CK. Nonabandonment: a central obligation
+- Silveira MJ, Kim SYH, Langa KM. Advance directives and outcomes of surrogate decision making before death. N Engl J Med. 2010;362(13):1211–1218.
 
-for physicians. Ann Intern Med. 1995;122(5):368–374. Scanlan J, Borson S. The Mini-cog: receiver operating char-
+- Sudore RL, Fried TR. Redefining the “planning” in advance care planning: preparing for end-of-life decision making. Ann Intern Med. 2010;153(4):256–261.
 
-acteristics with expert and naïve raters. Int J Geriatr Psych. 2001;16:216–222.
+- Sudore RL, Lum HD, You JJ, et al. Defining advance care planning for adults: a consensus definition from a multidisciplinary Delphi panel. J Pain Symptom Manage. 2017;53(5):821–832.e821.
 
-Silveira MJ, Kim SYH, Langa KM. Advance directives and
+- Teno JM, Fisher ES, Hamel MB, Coppola K, Dawson NV. Medical care inconsistent with patients’ treatment goals: association with 1-year Medicare resource use and survival. J Am Geriatr Soc. 2002;50(3):496–500.
 
-outcomes of surrogate decision making before death. N Engl J Med. 2010;362(13):1211–1218. Sudore RL, Fried TR. Redefining the “planning” in advance
+- Tinetti ME, Bogardus ST Jr, Agostini JV. Potential pitfalls of disease-specific guidelines for patients with multiple conditions. N Engl J Med. 2004;351:2870–2874.
 
-care planning: preparing for end-of-life decision making. Ann Intern Med. 2010;153(4):256–261. Sudore RL, Lum HD, You JJ, et al. Defining advance care
+- Tinetti ME, Fried T. The end of the disease era. Am J Med. 2004;116:179–185.
 
-planning for adults: a consensus definition from a multidisciplinary Delphi panel. J Pain Symptom Manage. 2017;53(5):821–832.e821. Teno JM, Fisher ES, Hamel MB, Coppola K, Dawson NV.
+- Tversky A, Kahneman D. The framing of decisions and the psychology of choice. Science. 1981;211(4481):453–458.
 
-Medical care inconsistent with patients’ treatment goals: association with 1-year Medicare resource use and survival. J Am Geriatr Soc. 2002;50(3):496–500. Tinetti ME, Bogardus ST Jr, Agostini JV. Potential pitfalls
+- US Preventive Services Task Force. Screening for dementia: recommendation and rationale. Ann Intern Med. 2003;138(11):925.
 
-of disease-specific guidelines for patients with multiple conditions. N Engl J Med. 2004;351:2870–2874. Tinetti ME, Fried T. The end of the disease era. Am J Med.
+- Wardlaw JM, Chappell FM, Best JJ, et al. Non-invasive imaging compared with intra-arterial angiography in the diagnosis of symptomatic carotid stenosis: a meta-analysis. Lancet. 2006;367:1503–1512.
 
-2004;116:179–185. Tversky A, Kahneman D. The framing of decisions and the
+- Widera E, Anderson WG, Santhosh L, McKee KY, Smith AK, Frank J. Family meetings on behalf of patients with serious illness. N Engl J Med. 2020;383(11):e71.
 
-psychology of choice. Science. 1981;211(4481):453–458. US Preventive Services Task Force. Screening for demen-
+- Zikmund-Fisher BJ, Couper MP, Singer E, et al. Deficits and variations in patients’ experience with making 9 common medical decisions: the DECISIONS survey. Med Decis Making. 2010;30(suppl 5):S85–S95.
 
-tia: recommendation and rationale. Ann Intern Med. 2003;138(11):925. Wardlaw JM, Chappell FM, Best JJ, et al. Non-invasive
-
-imaging compared with intra-arterial angiography in the diagnosis of symptomatic carotid stenosis: a meta-analysis. Lancet. 2006;367:1503–1512. Widera E, Anderson WG, Santhosh L, McKee KY, Smith
-
-AK, Frank J. Family meetings on behalf of patients with serious illness. N Engl J Med. 2020;383(11):e71. Zikmund-Fisher BJ, Couper MP, Singer E, et al. Deficits
-
-and variations in patients’ experience with making 9 common medical decisions: the DECISIONS survey. Med Decis Making. 2010;30(suppl 5):S85–S95.
 
 ## Israeli law examined alongside this chapter
 

@@ -88,7 +88,7 @@ While the above survival curves are based on observed data, life tables project 
 
 <a id="p26"></a>**[p. 26]**
 
-use, greater health-seeking behavior, differences in occupational hazards, and others. Also apparent in Table 2-2 are the striking disparities in life expectancy by race; nonHispanic Black men born in 2017 are projected to live 4.5 fewer years than their non-Hispanic White counterparts, and non-Hispanic Black women are projected to live 2.7 fewer years than non-Hispanic White women. These disparities reflect the unequal conditions in which people live, as well as the related racial disparities in chronic conditions. Hispanic adults have a longer life expectancy than non-Hispanic White and non-Hispanic Black populations. Various hypotheses have been proposed to explain this difference, commonly referred to as the Hispanic paradox. The most common potential explanations are (1) the healthy migrant effect, which suggests that Hispanic immigrants are in better health compared with their non-migrating peers; (2) the “salmon effect”, which posits that US residents of Hispanic origin may return to their birth country to die or when ill; and (3) differences in culture, including family structure, lifestyle behaviors, and social networks.
+use, greater health-seeking behavior, differences in occupational hazards, and others. Also apparent in Table 2-2 are the striking disparities in life expectancy by race; non-Hispanic Black men born in 2017 are projected to live 4.5 fewer years than their non-Hispanic White counterparts, and non-Hispanic Black women are projected to live 2.7 fewer years than non-Hispanic White women. These disparities reflect the unequal conditions in which people live, as well as the related racial disparities in chronic conditions. Hispanic adults have a longer life expectancy than non-Hispanic White and non-Hispanic Black populations. Various hypotheses have been proposed to explain this difference, commonly referred to as the Hispanic paradox. The most common potential explanations are (1) the healthy migrant effect, which suggests that Hispanic immigrants are in better health compared with their non-migrating peers; (2) the “salmon effect”, which posits that US residents of Hispanic origin may return to their birth country to die or when ill; and (3) differences in culture, including family structure, lifestyle behaviors, and social networks.
 
 ### Extreme Longevity
 
@@ -106,7 +106,7 @@ In 1980, Jim Fries proposed the “compression of morbidity” hypothesis that p
 
 The difference in life expectancy based on year of birth, highlights an important epidemiologic phenomenon known as cohort effects, where people have some common experience based on their year of birth, or another shared temporal experience. This is to be distinguished from age effects, which are effects common to people of a given age. Another time effect is known as period effects, in which people share some common effect due to the occurrence of an event defined by chronologic time. These three effects—age, period, and cohort effects—confound one another and can be difficult to disentangle in epidemiologic studies.
 
-Conceptual differences in age, period, and cohort effects are illustrated in Figure 2-3. In this figure, three birth cohorts are illustrated: those born in 1930, 1940, and 1950. The first panel demonstrates pure age effects—the event rate of some disease increases with age. Age effects are familiar to many in health care, as the incidence of many conditions, such as cardiovascular disease, increases with age. The second panel illustrates pure period effect. Each birth cohort has a spike in event rates at the year 2020. An example of a period effect is the 2020 SARSCoV-2 pandemic, which increased the rate of pneumonia across persons in all three birth cohorts. The third panel illustrates pure cohort effects; those born in 1930 have the highest event rate, and the rate decreases with each decade of birth year. An example of a cohort effect is that children born during the Great Depression may have suffered from malnutrition, and be more likely to develop adult-onset diseases compared with those born in more prosperous times. One can observe how this would confound age effects, by evaluating the rate of disease in 2020 (indicated
+Conceptual differences in age, period, and cohort effects are illustrated in Figure 2-3. In this figure, three birth cohorts are illustrated: those born in 1930, 1940, and 1950. The first panel demonstrates pure age effects—the event rate of some disease increases with age. Age effects are familiar to many in health care, as the incidence of many conditions, such as cardiovascular disease, increases with age. The second panel illustrates pure period effect. Each birth cohort has a spike in event rates at the year 2020. An example of a period effect is the 2020 SARS-CoV-2 pandemic, which increased the rate of pneumonia across persons in all three birth cohorts. The third panel illustrates pure cohort effects; those born in 1930 have the highest event rate, and the rate decreases with each decade of birth year. An example of a cohort effect is that children born during the Great Depression may have suffered from malnutrition, and be more likely to develop adult-onset diseases compared with those born in more prosperous times. One can observe how this would confound age effects, by evaluating the rate of disease in 2020 (indicated
 
 <a id="p27"></a>**[p. 27]**
 
@@ -154,7 +154,7 @@ Recent estimates from the National Vital Statistics Report (Table 2-3) have impl
 
 ![Figure 2-5](hazzard8e_ch2_figure-2-5_p28.webp)
 
-*FIGURE 2-5. Percent distribution of the U.S. population aged 65 and older by race and ethnicity, 2017, 2020, 2030, 2040, 2050, 2060. (Data from the US Census Bureau, 2017 National Populations Projections Tables: Main Series. [https://www](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) .census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html.)*
+*FIGURE 2-5. Percent distribution of the U.S. population aged 65 and older by race and ethnicity, 2017, 2020, 2030, 2040, 2050, 2060. (Data from the US Census Bureau, 2017 National Populations Projections Tables: Main Series. [https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>).)*
 
 
 <a id="p29"></a>**[p. 29]**
@@ -190,7 +190,7 @@ It is important to note that these prevalence estimates were based on Medicare c
 
 ![Figure 2-6](hazzard8e_ch2_figure-2-6_p30.webp)
 
-*FIGURE 2-6. Age-specific death rates for leading cause of death in the older population, United States, 2017. (Data from CDC/ NCHS, National Vital Statistics System, Mortality 2017. National Center for Health Statistics; 2018. [https://www.cdc.gov/nchs/](<https://www.cdc.gov/nchs/data/dvs/lcwk/lcwk1_hr_2017-a.pdf>) data/dvs/lcwk/lcwk1_hr_2017-a.pdf.)*
+*FIGURE 2-6. Age-specific death rates for leading cause of death in the older population, United States, 2017. (Data from CDC/ NCHS, National Vital Statistics System, Mortality 2017. National Center for Health Statistics; 2018. [https://www.cdc.gov/nchs/data/dvs/lcwk/lcwk1_hr_2017-a.pdf](<https://www.cdc.gov/nchs/data/dvs/lcwk/lcwk1_hr_2017-a.pdf>).)*
 
 
 such as individuals experiencing homelessness, those who are incarcerated, and those who reside in long-term care. Population-based surveys and epidemiologic cohort studies can provide more accurate estimates. These types of
@@ -275,7 +275,7 @@ The terminology used to describe functional health is complex, so we begin with 
 
 ![Figure 2-10](hazzard8e_ch2_figure-2-10_p34.webp)
 
-*FIGURE 2-10. Prevalence of heart failure, stroke, and coronary heart disease (CHD) by sex and age in the United States. (Data from the National Health and Nutrition Examination Survey, 2013–2016. https://wwwn.cdc.gov/nchs/nhanes/ Default.aspx.)*
+*FIGURE 2-10. Prevalence of heart failure, stroke, and coronary heart disease (CHD) by sex and age in the United States. (Data from the National Health and Nutrition Examination Survey, 2013–2016. https://wwwn.cdc.gov/nchs/nhanes/Default.aspx.)*
 
 
 some experts have defined dismobility as a measured gait speed less than 0.6 m/s or inability to walk 400 meters. Physical performance measures include objective measures of physical function such as walking, balance, and strength. One of the most common tools for evaluating physical performance is the Short Physical Performance Battery (SPPB), which includes a 4-meter gait speed test, chair stands as a measure of lower body strength, and balance.
@@ -478,44 +478,33 @@ Older adult health outcomes are nested within multilevel determinants at the ind
 
 ## FURTHER READING
 
-Freedman VA, Spillman BC, Andreski PM, et al. Trends
 
-in late-life activity limitations in the United States: an update from five national surveys. Demography. 2013; 50(2):661–671. Fried LP, Tangen CM, Walston J, et al. Frailty in older adults:
+- Freedman VA, Spillman BC, Andreski PM, et al. Trends in late-life activity limitations in the United States: an update from five national surveys. Demography. 2013; 50(2):661–671.
 
-evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–156. Fries JF. Aging, natural death, and the compression of
+- Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–156.
 
-morbidity. N Engl J Med. 1980;303(3):130–135. Gill TM, Gahbauer EA, Han L, Allore HG. Trajectories
+- Fries JF. Aging, natural death, and the compression of morbidity. N Engl J Med. 1980;303(3):130–135.
 
-of disability in the last year of life. N Engl J Med. 2010; 362(13):1173–1180. Gill TM, Robison JT, Tinetti ME. Difficulty and dependence:
+- Gill TM, Gahbauer EA, Han L, Allore HG. Trajectories of disability in the last year of life. N Engl J Med. 2010; 362(13):1173–1180.
 
-two components of the disability continuum among community-living older persons. Ann Intern Med. 1998; 128(2):96–101. Jani BD, Hanlon P, Nicholl BI, et al. Relationship between
+- Gill TM, Robison JT, Tinetti ME. Difficulty and dependence: two components of the disability continuum among community-living older persons. Ann Intern Med. 1998; 128(2):96–101.
 
-multimorbidity, demographic factors and mortality: findings from the UK Biobank cohort. BMC Med. 2019;17(1):1–13.
+- Jani BD, Hanlon P, Nicholl BI, et al. Relationship between multimorbidity, demographic factors and mortality: findings from the UK Biobank cohort. BMC Med. 2019;17(1):1–13.
 
-Lobo A, Launer LJ, Fratiglioni L, et al. Prevalence of demen-
+- Lobo A, Launer LJ, Fratiglioni L, et al. Prevalence of dementia and major subtypes in Europe: a collaborative study of population-based cohorts. Neurologic diseases in the elderly research group. Neurology. 2000;54(11suppl 5): S4–9.
 
-tia and major subtypes in Europe: a collaborative study of population-based cohorts. Neurologic diseases in the elderly research group. Neurology. 2000;54(11suppl 5): S4–9. Marden JR, Tchetgen Tchetgen EJ, Kawachi I, Glymour
+- Marden JR, Tchetgen Tchetgen EJ, Kawachi I, Glymour MM. Contribution of socioeconomic status at 3 lifecourse periods to late-life memory function and decline: early and late predictors of dementia risk. Am J Epidemiol. 2017;186(7):805–814.
 
-MM. Contribution of socioeconomic status at 3 lifecourse periods to late-life memory function and decline: early and late predictors of dementia risk. Am J Epidemiol. 2017;186(7):805–814. Newman AB, Kritchevsky SB, Guralnik JM, et al. Acceler-
+- Newman AB, Kritchevsky SB, Guralnik JM, et al. Accelerating the search for interventions aimed at expanding the health span in humans: the role of epidemiology. J Gerontol A Biol Sci Med Sci. 2020;75(1):77–86.
 
-ating the search for interventions aimed at expanding the health span in humans: the role of epidemiology. J Gerontol A Biol Sci Med Sci. 2020;75(1):77–86. Newman AB, Murabito JM. The epidemiology of longevity
+- Newman AB, Murabito JM. The epidemiology of longevity and exceptional survival. Epidemiol Rev. 2013;35(1): 181–197.
 
-and exceptional survival. Epidemiol Rev. 2013;35(1): 181–197. Newman AB, Sachs MC, Arnold AM, et al. Total and
+- Newman AB, Sachs MC, Arnold AM, et al. Total and cause-specific mortality in the cardiovascular health study. J Gerontol A Biol Sci Med Sci. 2009;64(12):1251–1261. <a id="p45"></a>**[p. 45]**
 
-cause-specific mortality in the cardiovascular health study. J Gerontol A Biol Sci Med Sci. 2009;64(12):1251–1261.
+- Pahor M, Guralnik JM, Ambrosius WT, et al. Effect of structured physical activity on prevention of major mobility disability in older adults: the LIFE study randomized clinical trial. JAMA. 2014;311(23):2387–2396.
 
-<a id="p45"></a>**[p. 45]**
+- Revelas M, Thalamuthu A, Oldmeadow C, et al. Review and meta-analysis of genetic polymorphisms associated with exceptional human longevity. Mech Ageing Dev. 2018;175:24–34.
 
-Pahor M, Guralnik JM, Ambrosius WT, et al. Effect of struc-
+- Salomon JA, Wang H, Freeman MK, et al. Healthy life expectancy for 187 countries, 1990-2010: a systematic analysis for the Global Burden Disease Study 2010. Lancet. 2012;380(9859):2144–2162.
 
-tured physical activity on prevention of major mobility disability in older adults: the LIFE study randomized clinical trial. JAMA. 2014;311(23):2387–2396. Revelas M, Thalamuthu A, Oldmeadow C, et al. Review
-
-and meta-analysis of genetic polymorphisms associated with exceptional human longevity. Mech Ageing Dev. 2018;175:24–34.
-
-Salomon JA, Wang H, Freeman MK, et al. Healthy life
-
-expectancy for 187 countries, 1990-2010: a systematic analysis for the Global Burden Disease Study 2010. Lancet. 2012;380(9859):2144–2162. Verbrugge LM, Jette AM. The disablement process. Soc Sci
-
-Med. 1994;83(1):1–14.
-
-<a id="p46"></a>**[p. 46]**
+- Verbrugge LM, Jette AM. The disablement process. Soc Sci Med. 1994;83(1):1–14. <a id="p46"></a>**[p. 46]**

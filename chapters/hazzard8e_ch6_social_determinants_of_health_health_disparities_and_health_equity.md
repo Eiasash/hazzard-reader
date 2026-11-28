@@ -145,7 +145,7 @@ Applying a life course perspective to health disparities among older adults allo
 
 ![Figure 6-4](hazzard8e_ch6_figure-6-4_p101.webp)
 
-*FIGURE 6-4. Social determinants of health and health outcomes interact across life course stages and foci. (Data from 2017 National Population Projections Tables: Main Series [https://www.census.gov/data/tables/2017/](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>) demo/popproj/2017-summary-tables.html.)*
+*FIGURE 6-4. Social determinants of health and health outcomes interact across life course stages and foci. (Data from 2017 National Population Projections Tables: Main Series [https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html](<https://www.census.gov/data/tables/2017/demo/popproj/2017-summary-tables.html>).)*
 
 
 Life course perspectives have been applied to and investigated in common chronic health conditions, including diabetes, cardiovascular disease, respiratory disease, and specific cancers. Life course perspectives also examine trajectories in both exposures and health, and the intergenerational transmission of exposure-related health determinants. As historical and social structures remain in place across generations, exposures and related health impacts may be experienced across time.
@@ -246,32 +246,29 @@ Reflection questions: (1) How does intersectionality play a role in this case st
 
 ## FURTHER READING
 
-Bailey ZD, Krieger N, Agénor M, Graves J, Linos N,
 
-Bassett MT. Structural racism and health inequities in the USA: evidence and interventions. Lancet. 2017;389(10077):1453–1463. Ben-Shlomo Y, Kuh D. A life course approach to chronic
+- Bailey ZD, Krieger N, Agénor M, Graves J, Linos N, Bassett MT. Structural racism and health inequities in the USA: evidence and interventions. Lancet. 2017;389(10077):1453–1463.
 
-disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives. Int J Epidemiol. 2002;31(2):285–293. Bharmal N, Derose KP, Felician MF, Weden MM. Under-
+- Ben-Shlomo Y, Kuh D. A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives. Int J Epidemiol. 2002;31(2):285–293.
 
-standing the Upstream Social Determinants of Health. Santa Monica, CA: RAND Corporation; 2015. Braveman P. What are health disparities and health equity?
+- Bharmal N, Derose KP, Felician MF, Weden MM. Understanding the Upstream Social Determinants of Health. Santa Monica, CA: RAND Corporation; 2015.
 
-We need to be clear. Public Health Rep. 2014;129 (Suppl 2): 5–8. Carbado DW, Crenshaw KW, Mays VM, Tomlinson B.
+- Braveman P. What are health disparities and health equity? We need to be clear. Public Health Rep. 2014;129 (Suppl 2): 5–8.
 
-Intersectionality: mapping the movements of a theory. Du Bois Rev. 2013;10(2):303–312. Czyzewski K. Colonialism as a broader social determinant
+- Carbado DW, Crenshaw KW, Mays VM, Tomlinson B. Intersectionality: mapping the movements of a theory. Du Bois Rev. 2013;10(2):303–312.
 
-of health. Int Indig Policy J. 2011;2(1):5. Hammonds EM, Reverby SM. Toward a historically
+- Czyzewski K. Colonialism as a broader social determinant of health. Int Indig Policy J. 2011;2(1):5.
 
-informed analysis of racial health disparities since 1619. Am J Public Health. 2019;109(10):1348–1349.
+- Hammonds EM, Reverby SM. Toward a historically informed analysis of racial health disparities since 1619. Am J Public Health. 2019;109(10):1348–1349.
 
-Hill CV, Pérez-Stable EJ, Anderson NA, Bernard MA. The
+- Hill CV, Pérez-Stable EJ, Anderson NA, Bernard MA. The National Institute on Aging Health Disparities Research Framework. Ethn Dis. 2015;25(3):245–254.
 
-National Institute on Aging Health Disparities Research Framework. Ethn Dis. 2015;25(3):245–254. Jones NL, Gilman SE, Cheng TL, Drury SS, Hill CV, Geroni-
+- Jones NL, Gilman SE, Cheng TL, Drury SS, Hill CV, Geronimus AT. Life course approaches to the causes of health disparities. Am J Public Health. 2019;109(Suppl 1): S48–S55.
 
-mus AT. Life course approaches to the causes of health disparities. Am J Public Health. 2019;109(Suppl 1): S48–S55. National Academies of Sciences, Engineering, and
+- National Academies of Sciences, Engineering, and Medicine. Integrating social care into the delivery of health care: moving upstream to improve the Nation’s health. Washington, DC, National Academies of Sciences, Engineering, and Medicine, 2019.
 
-Medicine. Integrating social care into the delivery of health care: moving upstream to improve the Nation’s health. Washington, DC, National Academies of Sciences, Engineering, and Medicine, 2019. Phelan JC, Link BG, Tehranifar P. Social conditions as
+- Phelan JC, Link BG, Tehranifar P. Social conditions as fundamental causes of health inequalities: theory, evidence, and policy implications. J Health Soc Behav. 2010; 51 Suppl:S28–40.
 
-fundamental causes of health inequalities: theory, evidence, and policy implications. J Health Soc Behav. 2010; 51 Suppl:S28–40. Tsai J, Cerdeña JP, Khazanchi R, et al. There is no ‘African
+- Tsai J, Cerdeña JP, Khazanchi R, et al. There is no ‘African American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;288(3):368–370.
 
-American Physiology’: the fallacy of racial essentialism. J Intern Med. 2020;288(3):368–370. US Department of Health and Human Services, Office of
-
-Disease Prevention and Health Promotion: Healthy People 2030. [https://health.gov/healthypeople/objectives-anddata/social-determinants-health](<https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health>). Accessed March 23, 2021.
+- US Department of Health and Human Services, Office of Disease Prevention and Health Promotion: Healthy People 2030. [https://health.gov/healthypeople/objectives-anddata/social-determinants-health](<https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health>). Accessed March 23, 2021.

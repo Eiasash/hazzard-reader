@@ -53,7 +53,8 @@
       "title": "Frailty",
       "file": "hazzard8e_ch42_frailty.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Concept, phenotype and deficit-accumulation models, biology and management"
+      "description": "Lane-reviewed 25 Sep. Concept, phenotype and deficit-accumulation models, biology and management",
+      "markUnits": "data/mark-units/42.json"
     },
     {
       "number": "43",
@@ -328,7 +329,8 @@
       "title": "Influenza, COVID-19, and Other Respiratory Viruses",
       "file": "hazzard8e_ch108_influenza_covid_respiratory_viruses.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Presentation, prevention and management in older adults"
+      "description": "Lane-reviewed 25 Sep. Presentation, prevention and management in older adults",
+      "markUnits": "data/mark-units/108.json"
     },
     {
       "number": "45s",
@@ -366,8 +368,7 @@
       "file": "hazzard8e_ch57_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/57s.json",
-      "drillCount": 10
+      "markUnits": "data/mark-units/57s.json"
     },
     {
       "number": "68s",
@@ -423,8 +424,7 @@
       "file": "hazzard8e_ch102_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/102s.json",
-      "drillCount": 8
+      "markUnits": "data/mark-units/102s.json"
     },
     {
       "number": "104s",
@@ -441,8 +441,7 @@
       "file": "hazzard8e_ch105_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "markUnits": "data/mark-units/105s.json",
-      "drillCount": 12
+      "markUnits": "data/mark-units/105s.json"
     },
     {
       "number": "108s",
@@ -1288,7 +1287,8 @@
       "title": "Lung Cancer",
       "file": "hazzard8e_ch91_lung_cancer.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/91.json"
     },
     {
       "number": "91s",
@@ -1374,7 +1374,8 @@
       "title": "Substance Use and Disorders",
       "file": "hazzard8e_ch23_substance_use_and_disorders.md",
       "kind": "chapter",
-      "description": "Fast build from the marked book; not lane-reviewed."
+      "description": "Fast build from the marked book; not lane-reviewed.",
+      "markUnits": "data/mark-units/23.json"
     },
     {
       "number": "23s",
@@ -1482,7 +1483,8 @@
       "number": "35",
       "title": "Sexuality, Sexual Function, and the Aging Woman",
       "file": "hazzard8e_ch35_sexuality_sexual_function_and_the_aging_woman.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/35.json"
     },
     {
       "number": "35s",
@@ -1721,7 +1723,8 @@
       "number": "21",
       "title": "The Patient Perspective",
       "file": "hazzard8e_ch21_the_patient_perspective.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/21.json"
     },
     {
       "number": "21s",
@@ -1750,7 +1753,8 @@
       "number": "2",
       "title": "Demography and Epidemiology",
       "file": "hazzard8e_ch2_demography_and_epidemiology.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/2.json"
     },
     {
       "number": "2s",
@@ -1779,7 +1783,8 @@
       "number": "4",
       "title": "Psychosocial Aspects of Aging",
       "file": "hazzard8e_ch4_psychosocial_aspects_of_aging.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/4.json"
     },
     {
       "number": "4s",
@@ -1793,7 +1798,8 @@
       "number": "5",
       "title": "Sex Differences in Health and Longevity",
       "file": "hazzard8e_ch5_sex_differences_in_health_and_longevity.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/5.json"
     },
     {
       "number": "5s",

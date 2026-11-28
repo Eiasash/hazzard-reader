@@ -270,7 +270,9 @@ The ACIP provides no recommendation, either for or against, the use of RZV in im
 
 ## FURTHER READING
 
-HIV American Academy of HIV Medicine: HIV & Aging Clin-
+### HIV
+
+American Academy of HIV Medicine: HIV & Aging Clin-
 
 ical Recommendations. Available at: [https://aahivmeducation.org/hiv-age/contents](<https://aahivm.org/wp-content/uploads/2017/02/Aging-report-working-document-FINAL-12.1.pdf> "AAHIVM HIV and Aging Consensus Project clinical recommendations"). Updated May 13, 2020. Accessed December 1, 2020. Back D, Marzolini C. The challenge of HIV treatment in an
 
@@ -278,7 +280,7 @@ era of polypharmacy. J Int AIDS Soc. 2020;23(2):e25449. CD4+ Count-Guided Interr
 
 ment. N Engl J Med. 2006;355(22):2283–2296. Centers for Disease Control and Prevention. HIV and
 
-Older Americans. Available at: [https://www.cdc.gov/](<https://stacks.cdc.gov/view/cdc/149188>) hiv/group/age/olderamericans/index.html. Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
+Older Americans. Available at: [https://www.cdc.gov/hiv/group/age/olderamericans/index.html](<https://stacks.cdc.gov/view/cdc/149188>). Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
 
 HIV AIDS. 2014;9(4):294–301. Deeks SG. HIV infection, inflammation, immunosenes-
 
@@ -308,7 +310,7 @@ Associated Comorbidities, Coinfections, and Complications: Summary and Recommend
 
 of accelerated or accentuated aging? J Gerontol A Biol Sci Med Sci. 2014;69(7):833–842. Panel on Antiretroviral Guidelines for Adults and Adoles-
 
-cents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at [https://clinicalinfo](<https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv>). hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf. Accessed December 20, 2020. Piggott DA, Erlandson KM, Yarasheski KE. Frailty in
+cents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at [https://clinicalinfo.hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf](<https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv>). Accessed December 20, 2020. Piggott DA, Erlandson KM, Yarasheski KE. Frailty in
 
 HIV: epidemiology, biology, measurement, interventions, and research needs. Curr HIV/AIDS Rep. 2016; 13(6):340–348. Sangarlangkarn A, Merlin JS, Tucker RO, Kelley AS.
 
@@ -326,7 +328,9 @@ From one syndrome to many: incorporating geriatric consultation into HIV care. C
 
 clinical care of an ageing population infected with HIV: a modelling study. Lancet Infect Dis. 2015;15(7):810–808.
 
-HERPES ZOSTER Cohen JI. Herpes zoster. N Engl J Med. 2013;369:255–263. Cunningham AL, Lal H, Kovac M, et al. ZOE-70 Study Group.
+### HERPES ZOSTER
+
+Cohen JI. Herpes zoster. N Engl J Med. 2013;369:255–263. Cunningham AL, Lal H, Kovac M, et al. ZOE-70 Study Group.
 
 Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375: 1019–1032. Curran D, Kim JH, Matthews S, et al. Recombinant zoster
 

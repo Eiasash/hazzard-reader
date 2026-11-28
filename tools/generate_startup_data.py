@@ -18,7 +18,7 @@ def generate(out, paths):
         bucket = hashlib.sha256(drug["id"].encode()).hexdigest()[:1]
         part = f"data/drug-details/{bucket}.json"
         buckets.setdefault(part, {})[drug["id"]] = drug
-        lookup.append({"detailFile": part, "bankOnly": drug.get("bankOnly", False), "id": drug["id"], "name": drug["name"], "class": drug.get("class", ""),
+        lookup.append({**({"previousId": drug["previousId"]} if "previousId" in drug else {}), "detailFile": part, "bankOnly": drug.get("bankOnly", False), "id": drug["id"], "name": drug["name"], "class": drug.get("class", ""),
                        "kind": drug["kind"], "aliases": list(dict.fromkeys(a for a in aliases if a)),
                        "passages": len(drug["passages"]), "questions": len(drug["questions"])})
     for name, entries in buckets.items():

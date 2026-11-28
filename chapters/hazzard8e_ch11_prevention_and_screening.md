@@ -120,7 +120,7 @@ Harms of colorectal cancer screening Approximately 1 of 10 older adults who subm
 
 <a id="p163"></a>**[p. 163]**
 
-Recommendations The USPSTF recommends colorectal cancer screening for all older adults age 45 to 75 and that screening decisions should be selectively offered to persons 76 to 85 years based on overall health and prior screening history. The American Cancer Society recommends screening begin at age 45, continue until age 75 for individuals with greater than a 10-year life expectancy, individualized decisions for adults age 76 to 85, and screening be discouraged if older than 85. Most guidelines recommend annual screening fecal occult blood testing or fecal immunochemical testing and/or flexible sigmoidoscopy every 5 years or colonoscopy every 10 years for average risk (see Table 11-1). There is no evidence available to determine which screening method is preferable or when screening should stop. However, prior to FOBT or FIT testing, it is important to discuss the risk of false positives and whether individuals would be willing to undergo a colonoscopy if the test returns positive. In addition, individuals should receive information on procedural risks of colonoscopies, sedation, and the need to arrange transportation. The authors recommend against screening for colorectal cancer if a person has an estimated life expectancy of less than 10 years. For persons with life expectancies around 10 years, the decision to screen is a close call, and patient preferences should play a major role in the decision to screen. Notably, colorectal screening may have a larger benefit among older adults if they have never been screened before. For healthy older people who have a life expectancy greater than 10 years, colorectal cancer screening regardless of age, is a reasonable recommendation based on available data. The ePrognosis Cancer Screening guide ([http://cancerscreening](<https://eprognosis.ucsf.edu/cancer/>) .eprognosis.org/) compares a patient’s life expectancy with the time-to-benefit for colorectal cancer screening to help clinicians determine whether colorectal cancer screening is likely to help a patient.
+Recommendations The USPSTF recommends colorectal cancer screening for all older adults age 45 to 75 and that screening decisions should be selectively offered to persons 76 to 85 years based on overall health and prior screening history. The American Cancer Society recommends screening begin at age 45, continue until age 75 for individuals with greater than a 10-year life expectancy, individualized decisions for adults age 76 to 85, and screening be discouraged if older than 85. Most guidelines recommend annual screening fecal occult blood testing or fecal immunochemical testing and/or flexible sigmoidoscopy every 5 years or colonoscopy every 10 years for average risk (see Table 11-1). There is no evidence available to determine which screening method is preferable or when screening should stop. However, prior to FOBT or FIT testing, it is important to discuss the risk of false positives and whether individuals would be willing to undergo a colonoscopy if the test returns positive. In addition, individuals should receive information on procedural risks of colonoscopies, sedation, and the need to arrange transportation. The authors recommend against screening for colorectal cancer if a person has an estimated life expectancy of less than 10 years. For persons with life expectancies around 10 years, the decision to screen is a close call, and patient preferences should play a major role in the decision to screen. Notably, colorectal screening may have a larger benefit among older adults if they have never been screened before. For healthy older people who have a life expectancy greater than 10 years, colorectal cancer screening regardless of age, is a reasonable recommendation based on available data. The ePrognosis Cancer Screening guide ([http://cancerscreening.eprognosis.org/](<https://eprognosis.ucsf.edu/cancer/>)) compares a patient’s life expectancy with the time-to-benefit for colorectal cancer screening to help clinicians determine whether colorectal cancer screening is likely to help a patient.
 
 ### Cervical Cancer
 
@@ -172,23 +172,33 @@ In summary, treatments for many asymptomatic chronic medical conditions impose i
 
 <span id="ch11-age-vaccines" data-reader-metadata="exam"></span>In contrast to screening interventions, the risks associated with immunizations are much lower than the benefits. Thus, targeting is less important and nearly all older adults should receive the pneumococcal vaccination, annual influenza vaccination, and zoster vaccination.
 
-Pneumococcal Vaccination Pneumococcal infections represent a major cause of morbidity and mortality in older adults. The US Advisory Council on Immunization Practices (ACIP) recommends all adults older than age 65 sequentially receive both the Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23). Minor local reactions such as pain or erythema are common with both vaccines; more serious side effects are rare. The ACIP also recommends pneumococcal vaccination for adults younger than 65 who have certain risk factors such as cigarette smoking, diabetes mellitus, or chronic lung disease.
+### Pneumococcal Vaccination
 
-Influenza Vaccination The influenza virus causes annual epidemics of acute respiratory illnesses every winter that disproportionately affects older adults. Vaccination has been shown to decrease the morbidity and mortality associated with influenza and is recommended for all persons older than 6 months. There is some evidence that a high-dose influenza vaccine may be more effective in eliciting immunogenic response in adults older than age 65. The most common adverse events include local soreness. The risk of Guillain-Barre syndrome after influenza vaccination appears small, with estimates of 1 to 2 excess cases per 1 million persons vaccinated.
+Pneumococcal infections represent a major cause of morbidity and mortality in older adults. The US Advisory Council on Immunization Practices (ACIP) recommends all adults older than age 65 sequentially receive both the Pneumococcal Conjugate Vaccine (PCV13) followed in 6 to 12 months by the Pneumococcal Polysaccharide Vaccine (PPSV23). Minor local reactions such as pain or erythema are common with both vaccines; more serious side effects are rare. The ACIP also recommends pneumococcal vaccination for adults younger than 65 who have certain risk factors such as cigarette smoking, diabetes mellitus, or chronic lung disease.
 
-Tetanus/Diphtheria/Pertussis Tetanus is cause by the neurotoxin expressed by Clostridium tetani when the ubiquitous bacteria spores are inoculated into tissues with trauma or deep puncture wounds. Tetanus toxoid vaccine is effective, but waning immunity has led to the large proportion of cases to occur in adults older than 60 years. Diphtheria is a rare, acute respiratory illness caused by a toxin expressed by Corynebacterium diphtheria. National serosurvey between 1988 to 1994 suggested that only 30% of adults age 60 to 69 had appropriate diphtheria antitoxin concentrations. ACIP recommends tetanus/diphtheria (Td) or Tdap revaccination every 10 years for all older adults.
+### Influenza Vaccination
+
+The influenza virus causes annual epidemics of acute respiratory illnesses every winter that disproportionately affects older adults. Vaccination has been shown to decrease the morbidity and mortality associated with influenza and is recommended for all persons older than 6 months. There is some evidence that a high-dose influenza vaccine may be more effective in eliciting immunogenic response in adults older than age 65. The most common adverse events include local soreness. The risk of Guillain-Barre syndrome after influenza vaccination appears small, with estimates of 1 to 2 excess cases per 1 million persons vaccinated.
+
+### Tetanus/Diphtheria/Pertussis
+
+Tetanus is cause by the neurotoxin expressed by Clostridium tetani when the ubiquitous bacteria spores are inoculated into tissues with trauma or deep puncture wounds. Tetanus toxoid vaccine is effective, but waning immunity has led to the large proportion of cases to occur in adults older than 60 years. Diphtheria is a rare, acute respiratory illness caused by a toxin expressed by Corynebacterium diphtheria. National serosurvey between 1988 to 1994 suggested that only 30% of adults age 60 to 69 had appropriate diphtheria antitoxin concentrations. ACIP recommends tetanus/diphtheria (Td) or Tdap revaccination every 10 years for all older adults.
 
 Pertussis or whooping cough is a highly contagious respiratory illness that is underdiagnosed and underreported, especially in older adults. Studies suggest that acellular pertussis vaccination is equally effective among older adults as younger adults with similar low rates of adverse events and high rates of pertussis antibodies. ACIP recommends a onetime booster dose of pertussis vaccination after age 65.
 
 In summary, the ACIP recommends that all adults receive Td (tetanus/diphtheria) or Tdap booster every 10 years. In addition, adults older than age 65 should receive a one-time dose of Tdap (tetanus/diphtheria/acellular pertussis) if they have not received pertussis revaccination after age 19 in lieu of Td vaccination.
 
-Zoster Vaccination Reactivation of herpes zoster is common (30% lifetime risk) and can result in significant morbidity from complications such as postherpetic neuralgia and ophthalmic zoster. The two-dose recombinant zoster vaccination (RZV) appears to be quite effective in persons 70 years or older, with an efficacy for prevention of herpes zoster of 91% and prevention of postherpetic neuralgia of 91%. In comparison, the one-dose live zoster vaccine (ZVL) has an efficacy of 38% among adults 70 years or older and prevention of postherpetic neuralgia of 67% (0.1% vaccine vs 0.4% control). The most common adverse reactions to zoster vaccinations are local injection site reactions (9% in RZV and 1% in ZVL); serious adverse reactions are rare. The ACIP recommends the two-dose RZV vaccination for adults age 50 and older, including those who have previously received the ZVL vaccination. The ZVL remains a recommended vaccine in adults age 60 or older.
+### Zoster Vaccination
+
+Reactivation of herpes zoster is common (30% lifetime risk) and can result in significant morbidity from complications such as postherpetic neuralgia and ophthalmic zoster. The two-dose recombinant zoster vaccination (RZV) appears to be quite effective in persons 70 years or older, with an efficacy for prevention of herpes zoster of 91% and prevention of postherpetic neuralgia of 91%. In comparison, the one-dose live zoster vaccine (ZVL) has an efficacy of 38% among adults 70 years or older and prevention of postherpetic neuralgia of 67% (0.1% vaccine vs 0.4% control). The most common adverse reactions to zoster vaccinations are local injection site reactions (9% in RZV and 1% in ZVL); serious adverse reactions are rare. The ACIP recommends the two-dose RZV vaccination for adults age 50 and older, including those who have previously received the ZVL vaccination. The ZVL remains a recommended vaccine in adults age 60 or older.
 
 ## BEHAVIORS TO MAINTAIN HEALTH
 
 Like immunization, healthy behaviors have few, if any, adverse outcomes, meaning that they can be recommended to nearly all older adults. However, unlike immunizations which are initiated and provided by the health care system, healthy behaviors require a personal commitment from individual patients. While the advice and encouragement from health care professionals are important, the effectiveness of any behavioral modification requires the individual patient to accept primary responsibility for initiating and maintaining healthy behaviors. A summary of recommendations in healthy behavior counseling for older adults is included in Table 11-3.
 
-Nutrition A healthy diet can contribute to an increase in life expectancy, better health, and quality of life as meals can be a source of pleasure and social engagement. Healthy diets have shown the potential to lower blood pressure and blood cholesterol. Optimal diets have also been associated with lower risk of chronic diseases, notably CAD, diabetes, obesity, and some forms of cancer. National Health and
+### Nutrition
+
+A healthy diet can contribute to an increase in life expectancy, better health, and quality of life as meals can be a source of pleasure and social engagement. Healthy diets have shown the potential to lower blood pressure and blood cholesterol. Optimal diets have also been associated with lower risk of chronic diseases, notably CAD, diabetes, obesity, and some forms of cancer. National Health and
 
 <a id="p166"></a>**[p. 166]**
 
@@ -200,7 +210,9 @@ Nutrition Examination Survey (NHANES) III data show potentially important decrea
 
 Older adults can be counseled on the traditional Mediterranean diet, dominated by consumption of olive oil, vegetables, nuts, and fruits, which meets criteria for a healthy diet and is associated with prevention of progression of cardiovascular disease and reversal of the metabolic syndrome. Either antioxidants or fiber may affect a reduction in the transient oxidative stress associated with macronutrient intake. Prevention of malnutrition may require addressing polypharmacy or medications that can contribute to changes in taste or anorexia, monitoring dental health, addressing food insecurity, addressing depression, reducing isolation at mealtimes, and avoiding unnecessarily restricted diets (limiting salt, fat, or sugar), which can contribute to inadequate eating. The latest edition of Nutrition and Your Health: Dietary Guidelines for Americans, available online at http://www.health.gov/dietaryguidelines/, can serve as a reference for providers in counseling adults about healthful eating patterns.
 
-Physical Activity Physical activity and physical fitness can help prevent or delay the onset of chronic illnesses such as CAD, type II diabetes, osteoporosis, obesity, and cognitive impairment; protect against the development of functional decline; improve mood; reduce stress; and, perhaps, increase life expectancy. Physical activities that improve endurance,
+### Physical Activity
+
+Physical activity and physical fitness can help prevent or delay the onset of chronic illnesses such as CAD, type II diabetes, osteoporosis, obesity, and cognitive impairment; protect against the development of functional decline; improve mood; reduce stress; and, perhaps, increase life expectancy. Physical activities that improve endurance,
 
 strength, and flexibility will delay impairments in mobility and may preserve the ability to perform tasks of daily living. Regular, moderate-intensity physical activity increases muscle mass and oxidative capacity, improves immune function, increases antioxidant defense against oxygen free radicals, and reduces oxidative stress. The current recommendation that every American exercise at least 30 minutes on most, and preferably all days, derives from evidence that even moderate physical activity is associated with a substantial drop in all-cause mortality. The cumulative, lifetime activity pattern may be the most influential factor in terms of providing protection from most diseases, especially those with a long developmental period, as well as mediating secondary disease complications associated with CAD, diabetes, and hypertension. The benefits of physical activity appears to outweigh the risks for nearly all older adults, including older adults at high risk for falling. For older adults with joint pain, arthritis, or cardiovascular disease, individualized guidance from clinicians may help patients to safely start a physical activity regimen.
 
@@ -212,7 +224,9 @@ Individualized activity plans should be considered in all older adults. Regular 
 
 Several psychological and environmental factors determine physical activity behavior throughout the life span. Self-efficacy, or confidence in one’s ability to perform a particular behavior (in this case, regular exercise), is strongly associated with both adoption of and adherence to physical activity among adolescents, young adults, and older adults. Strategies suggested to enhance self-efficacy, such as assessing readiness for exercise using a behavior change philosophy, using motivational interviewing techniques, weekly action planning and feedback, collaborative problemsolving, and addressing barriers to exercise may all enhance self-efficacy for exercise. These techniques can be learned and implemented by health care providers. Affective disorders such as depression and anxiety are inversely associated with physical activity participation at any age. Thus, evaluation for the presence of these conditions and institution of treatment may be necessary before adoption of an exercise program can occur. Social influences on physical activity appear to be strong throughout the life span. Peer reinforcement is particularly important in youth, while social support from spouses, friends, and community organizations (eg, Silver Sneakers program) is correlated with vigorous activity in younger and older adult populations. Finally, environmental factors, particularly safety and accessibility, influence activity participation across the age span. These latter factors are increasingly becoming a focus of community intervention efforts.
 
-Social Connection Ongoing involvement in a social network permits social contact (integration), the provision of social support, and
+### Social Connection
+
+Ongoing involvement in a social network permits social contact (integration), the provision of social support, and
 
 the opportunity for social influence, and is associated with positive health outcomes and self-assessed well-being. Through opportunities for social engagement, such as attending social functions, getting together with friends and family, and going to church, meaningful social roles are defined and reinforced, creating a sense of belonging and identity. Measures of social integration or “connectedness” are powerful predictors of mortality likely because ties give meaning to an individual’s life by enabling and obligating them to be fully involved in their community and thereby to feel attached to it. Social connections have been further linked to reduced risks of cognitive impairment.
 
@@ -224,11 +238,15 @@ The authors recommend that clinicians should ask individuals about their social 
 
 enhancing existing relationships may in certain cases be more effective than trying to develop new relationships when an individual is already isolated or lonely.
 
-Depression Depression in older adults is common, underdiagnosed, and often inadequately treated. Rates of depression vary according to the diagnostic criteria used, but 2% of adults older than age 55 meet criteria for major depression while 14% report depressive symptoms. Most depression is recognized and treated in primary care; however, studies suggest that depression is often undiagnosed. Further, depression treatment has been shown to improve outcomes. The USPSTF recommends screening adults for depression in clinical practices that have systems in place to ensure accurate diagnosis, effective treatment, and follow-up.
+### Depression
+
+Depression in older adults is common, underdiagnosed, and often inadequately treated. Rates of depression vary according to the diagnostic criteria used, but 2% of adults older than age 55 meet criteria for major depression while 14% report depressive symptoms. Most depression is recognized and treated in primary care; however, studies suggest that depression is often undiagnosed. Further, depression treatment has been shown to improve outcomes. The USPSTF recommends screening adults for depression in clinical practices that have systems in place to ensure accurate diagnosis, effective treatment, and follow-up.
 
 ## BEHAVIORS WITH ADVERSE HEALTH CONSEQUENCES
 
-Tobacco Use Tobacco use is the largest single preventable cause of illness and premature deaths in the United States. Illnesses related to tobacco use (coronary artery disease [CAD]; cancers of the lung, larynx, oral cavity, esophagus, pancreas, and urinary bladder; stroke and chronic obstructive pulmonary disease) account for one in every five deaths in the United States. Evidence from NHANES indicates that tobacco use predicts shorter survival time for middle-aged (45–54 years) and older (65–74 years) men. Tobacco use can also multiply the risk associated with other carcinogenic agents; for example, heavy alcohol consumption, associated with esophageal cancer, carries an even greater risk when combined with cigarette smoking.
+### Tobacco Use
+
+Tobacco use is the largest single preventable cause of illness and premature deaths in the United States. Illnesses related to tobacco use (coronary artery disease [CAD]; cancers of the lung, larynx, oral cavity, esophagus, pancreas, and urinary bladder; stroke and chronic obstructive pulmonary disease) account for one in every five deaths in the United States. Evidence from NHANES indicates that tobacco use predicts shorter survival time for middle-aged (45–54 years) and older (65–74 years) men. Tobacco use can also multiply the risk associated with other carcinogenic agents; for example, heavy alcohol consumption, associated with esophageal cancer, carries an even greater risk when combined with cigarette smoking.
 
 Tobacco dependence should be viewed as a chronic condition requiring ongoing assessment and repeated intervention. However, effective treatments are available that can lead to long-term, and in some cases, permanent abstinence. Studies have shown that individuals at any age can benefit from quitting the tobacco habit. Benefits include reduction in the risk of CAD, malignancy, stroke, and even hearing loss, along with improved pulmonary function, arterial circulation, and pulmonary perfusion.
 
@@ -238,11 +256,15 @@ quit should be provided with a brief intervention designed to increase their mot
 
 Patients who are willing to quit should be provided with treatments that have been identified as effective. Firstline pharmacotherapies that have been shown to increase smoking cessation include nicotine replacement (gum, inhaler, nasal spray, or patch), varenicline, and bupropion. Varenicline and bupropion appear to lead to increased rates of neuropsychiatric side effects including suicidal ideation. Thus, patients started on either medication should be monitored for neuropsychiatric symptoms including changes in behavior, agitation, depressed mood, hostility, and suicidal ideation.
 
-Alcohol Epidemiological studies support a survival benefit associated with moderate (up to two 8-ounce drinks per day) alcohol consumption, primarily through reduction of cardiovascular risk, including elevation of high-density lipoprotein (HDL) cholesterol. Although initial studies suggested that red wine may be especially beneficial, more recent studies suggest that the type of alcohol is not as important as the amount of alcohol intake and the pattern of use.
+### Alcohol
+
+Epidemiological studies support a survival benefit associated with moderate (up to two 8-ounce drinks per day) alcohol consumption, primarily through reduction of cardiovascular risk, including elevation of high-density lipoprotein (HDL) cholesterol. Although initial studies suggested that red wine may be especially beneficial, more recent studies suggest that the type of alcohol is not as important as the amount of alcohol intake and the pattern of use.
 
 However, consumption of alcohol beyond a moderate level can induce adverse effects on every organ system, including increased risk of hypertension; breast, colon, esophageal, liver, and head and neck cancer; cirrhosis; gastrointestinal bleeding; pancreatitis; cardiomyopathy; seizures; cerebellar degeneration; peripheral neuropathy; cognitive dysfunction; insomnia; depression; and suicide. Nearly 15% of adults older than age 65 drink more than the recommended moderate level (> 7 drinks/week or binge-drinking). Counseling about problem drinking following a few screening questions is a high-impact, cost-effective intervention. Screening can be accomplished by taking a careful history of alcohol use or by using a standardized screening questionnaire. All adults should be counseled on the health risks associated with excess alcohol consumption as well as the risk of injury (ie, motor vehicle crashes or other equipment-related injury) after drinking alcohol. Nondependent heavy drinkers as well as those with alcoholism (a chronic illness involving a state of dependency) should be counseled about the benefits of decreasing alcohol intake. Brief counseling by primary care providers can result in a significant reduction in alcohol use. Dependent drinkers should be referred to formal alcohol treatment programs and considered for a trial of naltrexone, an opioid antagonist that reduces the pleasurable effects of alcohol and may reduce relapse to heavy drinking.
 
-Obesity In adults, obesity is defined as a body mass index (BMI) of 30 kg/m<sup>2</sup> or more; overweight is a BMI of 25 to 30 kg/m<sup>2</sup> or more. Research suggests that although obesity and underweight are associated with increased mortality, being overweight (BMI 25–30) is not associated with increased mortality at any age. Further, increasing evidence suggests
+### Obesity
+
+In adults, obesity is defined as a body mass index (BMI) of 30 kg/m<sup>2</sup> or more; overweight is a BMI of 25 to 30 kg/m<sup>2</sup> or more. Research suggests that although obesity and underweight are associated with increased mortality, being overweight (BMI 25–30) is not associated with increased mortality at any age. Further, increasing evidence suggests
 
 <a id="p169"></a>**[p. 169]**
 
@@ -254,13 +276,17 @@ Because treatment and reversal of obesity is challenging, primary prevention is 
 
 Adults who are trying to maintain a healthy weight after weight loss are advised to get even more physical activity than the 30 min/d (described above) that is currently recommended; the US Department of Agriculture has recommended at least 60 min/d to manage weight. Weight management leading to a slow, steady weight loss is more beneficial that a pattern of weight cycling, which actually contributes to an elevated risk of mortality. The basal metabolic rate decreases with age, in parallel with a decline in lean body mass, and body fat increases proportionally. Thus, in order to most readily achieve normalization of body weight and body composition, an energy-sufficient (but not excessive) diet should be combined with a program of regular physical activity to permit maintenance of basal metabolic rate.
 
-Recreational Drugs The prevalence of injection drug use among older adults is unknown. Injection drug users typically initiate injection drug use during late adolescence (younger than age 21);
+### Recreational Drugs
+
+The prevalence of injection drug use among older adults is unknown. Injection drug users typically initiate injection drug use during late adolescence (younger than age 21);
 
 however, a sizable subgroup begins injecting during early and late adulthood. Persons with a history of recreational drug use on only one or a few occasions are unlikely to self-identify; thus, clinicians should probe for such a pattern of usage.
 
 Noninjection drug use (crack smokers, methamphetamine, intranasal heroin, or cocaine, etc.) contributes to development of gastroduodenal ulcers, chest pain and myocardial infarction, and increased risk of death. Higher levels of drug involvement also were associated with increased age-adjusted mortality. The normalization of recreation drug use through marijuana legalization laws and the aging of the baby boomer generation, which has had greater experience with recreational drugs, are widely expected to increase the rates of recreational drug use in older adults.
 
-Prescription Drug Misuse Prescription drug misuse is poorly described in the medical literature but is currently a more prevalent problem than illicit drug use among older adults. Misuse of prescription medications may be related to insomnia, chronic pain, depression, and anxiety. The potential misuse of benzodiazepines is well recognized and has led to prescribing recommendations that suggest only short-term use and use only for intended indications. Amphetamine-like stimulants have abuse potential, but addiction to these drugs is seldom documented. Other medications that are often misused are sedative hypnotics, opioid analgesics, and barbiturates. Chronic use of such agents may lead to physical dependency and the development of withdrawal symptoms with attempts to discontinue use. Treatment may require detoxification followed by rehabilitation.
+### Prescription Drug Misuse
+
+Prescription drug misuse is poorly described in the medical literature but is currently a more prevalent problem than illicit drug use among older adults. Misuse of prescription medications may be related to insomnia, chronic pain, depression, and anxiety. The potential misuse of benzodiazepines is well recognized and has led to prescribing recommendations that suggest only short-term use and use only for intended indications. Amphetamine-like stimulants have abuse potential, but addiction to these drugs is seldom documented. Other medications that are often misused are sedative hypnotics, opioid analgesics, and barbiturates. Chronic use of such agents may lead to physical dependency and the development of withdrawal symptoms with attempts to discontinue use. Treatment may require detoxification followed by rehabilitation.
 
 ## PREVENTION AMONG NURSING HOME OR SERIOUSLY ILL POPULATIONS
 
@@ -274,54 +300,51 @@ burdensome to patients already managing multiple medical conditions. Moreover, i
 
 ## FURTHER READING
 
-Advisory Committee on Immunization Practices. Vaccine
 
-recommendations of the ACIP. http://www.cdc.gov/ vaccines/hcp/acip-recs/index.html. Accessed Feb 15, 2021. American Cancer Society. Guidelines for the early
+- Advisory Committee on Immunization Practices. Vaccine recommendations of the ACIP. http://www.cdc.gov/ vaccines/hcp/acip-recs/index.html. Accessed Feb 15, 2021.
 
-detection of cancer. https://www.cancer.org/healthy/ find-cancer-early/cancer-screening-guidelines/americancancer-society-guidelines-for-the-early-detection-ofcancer.html. Accessed Feb 15, 2021. Artaud F, Dugravot A, Sabia S, Singh-Manoux A,
+- American Cancer Society. Guidelines for the early detection of cancer. https://www.cancer.org/healthy/ find-cancer-early/cancer-screening-guidelines/americancancer-society-guidelines-for-the-early-detection-ofcancer.html. Accessed Feb 15, 2021.
 
-Tzourio C, Elbaz A. Unhealthy behaviours and disability in older adults: three-city Dijon cohort study. BMJ. 2013; 347:f4240. Berkman LF, Kawachi I. Social Epidemiology. New York,
+- Artaud F, Dugravot A, Sabia S, Singh-Manoux A, Tzourio C, Elbaz A. Unhealthy behaviours and disability in older adults: three-city Dijon cohort study. BMJ. 2013; 347:f4240.
 
-NY: Oxford University Press; 2000. Burns DM. Cigarette smoking among the elderly: disease
+- Berkman LF, Kawachi I. Social Epidemiology. New York, NY: Oxford University Press; 2000.
 
-consequences and the benefits of cessation. Am J Health Promot. 2000;14(6):357–361. de Koning HJ, van der Aalst CM, de Jong PA, et al. Reduced
+- Burns DM. Cigarette smoking among the elderly: disease consequences and the benefits of cessation. Am J Health Promot. 2000;14(6):357–361.
 
-lung-cancer mortality with volume CT screening in a randomized trial. N Engl J Med. 2020;382(6):503–513. DiPietro L. Physical activity in aging: changes in patterns
+- de Koning HJ, van der Aalst CM, de Jong PA, et al. Reduced lung-cancer mortality with volume CT screening in a randomized trial. N Engl J Med. 2020;382(6):503–513.
 
-and their relationship to health and function. J Gerontol A Biol Sci Med Sci. 2001;56 Spec No 2:13–22. Flegal KM, Graubard BI, Williamson DF, Gail MH. Excess
+- DiPietro L. Physical activity in aging: changes in patterns and their relationship to health and function. J Gerontol A Biol Sci Med Sci. 2001;56 Spec No 2:13–22.
 
-deaths associated with underweight, overweight and obesity. JAMA. 2005;293(15):1861–1867. King AC, Guralnik JM. Maximizing the potential of an
+- Flegal KM, Graubard BI, Williamson DF, Gail MH. Excess deaths associated with underweight, overweight and obesity. JAMA. 2005;293(15):1861–1867.
 
-aging population. JAMA. 2010;304(17):1944–1945. Lee SJ, Boscardin WJ, Stijacic-Cenzer I, Conell-Price J,
+- King AC, Guralnik JM. Maximizing the potential of an aging population. JAMA. 2010;304(17):1944–1945.
 
-O’Brien S, Walter LC. Time lag to benefit after screening for breast and colorectal cancer: meta-analysis of survival data from the United States, Sweden, United Kingdom and Denmark. BMJ. 2013;346:e8441. Nelson ME, Rejeski WJ, Blair SN, et al. Physical activity and
+- Lee SJ, Boscardin WJ, Stijacic-Cenzer I, Conell-Price J, O’Brien S, Walter LC. Time lag to benefit after screening for breast and colorectal cancer: meta-analysis of survival data from the United States, Sweden, United Kingdom and Denmark. BMJ. 2013;346:e8441.
 
-public health in older adults: Recommendations from the American College of Sports Medicine and American Heart Association. Circulation. 2007;116(9):1094–1105. Nichol KL, Nordin JD, Nelson DB, Mullooly JP, Hak E. Effec-
+- Nelson ME, Rejeski WJ, Blair SN, et al. Physical activity and public health in older adults: Recommendations from the American College of Sports Medicine and American Heart Association. Circulation. 2007;116(9):1094–1105.
 
-tiveness of influenza vaccine in the community-dwelling elderly. N Engl J Med. 2007;357(14):1373–1381.
+- Nichol KL, Nordin JD, Nelson DB, Mullooly JP, Hak E. Effectiveness of influenza vaccine in the community-dwelling elderly. N Engl J Med. 2007;357(14):1373–1381.
 
-Rollnick S, Mason P, Butler C. Health Behavior
+- Rollnick S, Mason P, Butler C. Health Behavior Change: A Guide for Practitioners. Philadelphia, PA: Churchill Livingstone; 1999.
 
-Change: A Guide for Practitioners. Philadelphia, PA: Churchill Livingstone; 1999. Schoen RE, Pinsky PF, Weissfeld JL, et al. Colorectal-cancer
+- Schoen RE, Pinsky PF, Weissfeld JL, et al. Colorectal-cancer incidence and mortality with screening flexible sigmoidoscopy. N Engl J Med. 2012;366(25):2345–2357.
 
-incidence and mortality with screening flexible sigmoidoscopy. N Engl J Med. 2012;366(25):2345–2357. Schonberg MA, Hamel MB, Davis RB, et al. Development
+- Schonberg MA, Hamel MB, Davis RB, et al. Development and evaluation of a decision aid on mammography screening for women 75 years and older. JAMA Intern Med. 2014;174(3):417–424.
 
-and evaluation of a decision aid on mammography screening for women 75 years and older. JAMA Intern Med. 2014;174(3):417–424. Shaukat A, Mongin SJ, Geisser MS, et al. Long-term
+- Shaukat A, Mongin SJ, Geisser MS, et al. Long-term mortality after screening for colorectal cancer. N Engl J Med. 2013;369(12):1106–1114.
 
-mortality after screening for colorectal cancer. N Engl J Med. 2013;369(12):1106–1114. US Preventive Services Task Force. Recommendations
+- US Preventive Services Task Force. Recommendations for Primary Care Practice. October 2014. [http://www](<https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics>) .uspreventiveservicestaskforce.org/Page/Name/ recommendations. Accessed Jan 27, 2015.
 
-for Primary Care Practice. October 2014. [http://www](<https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics>) .uspreventiveservicestaskforce.org/Page/Name/ recommendations. Accessed Jan 27, 2015. Van Ravesteyn NT, Stout NK, Schechter CB, et al. Benefits
+- Van Ravesteyn NT, Stout NK, Schechter CB, et al. Benefits and harms of mammography screening after age 74 years: model estimates of overdiagnosis. J Natl Cancer Inst. 2015;107(7):djv103.
 
-and harms of mammography screening after age 74 years: model estimates of overdiagnosis. J Natl Cancer Inst. 2015;107(7):djv103. Walter LC, Covinsky KE. Cancer screening in elderly
+- Walter LC, Covinsky KE. Cancer screening in elderly patients: a framework for individualized decision making. JAMA. 2001;285(21):2750–2756.
 
-patients: a framework for individualized decision making. JAMA. 2001;285(21):2750–2756. Walter LC, Lewis CL, Barton MB. Screening for colorectal,
+- Walter LC, Lewis CL, Barton MB. Screening for colorectal, breast and cervical cancer in the elderly: a review of the evidence. Am J Med. 2005;118(10):1078–1086.
 
-breast and cervical cancer in the elderly: a review of the evidence. Am J Med. 2005;118(10):1078–1086. Welch HG. Should I be Tested for Cancer? Maybe Not and Here’s
+- Welch HG. Should I be Tested for Cancer? Maybe Not and Here’s Why. Berkeley, CA: University of California Press; 2004.
 
-Why. Berkeley, CA: University of California Press; 2004. Wiener RS, Schwartz LM, Woloshin S, Welch HG.
+- Wiener RS, Schwartz LM, Woloshin S, Welch HG. Population-based risk for complications after transthoracic needle lung biopsy of a pulmonary nodule: an analysis of discharge records. Ann Intern Med. 2011;155(3): 137–144.
 
-Population-based risk for complications after transthoracic needle lung biopsy of a pulmonary nodule: an analysis of discharge records. Ann Intern Med. 2011;155(3): 137–144. Wilson SR, Knowles SB, Huang Q, Fink A. The prevalence
+- Wilson SR, Knowles SB, Huang Q, Fink A. The prevalence of harmful and hazardous alcohol consumption in older U.S. adults. JGIM. 2014;29(2):312–319.
 
-of harmful and hazardous alcohol consumption in older U.S. adults. JGIM. 2014;29(2):312–319. Zauber AG, Winawer SJ, O’Brien MJ, et al. Colonoscopic
-
-polypectomy and long-term prevention of colorectalcancer deaths. N Engl J Med. 2012;366:687–696.
+- Zauber AG, Winawer SJ, O’Brien MJ, et al. Colonoscopic polypectomy and long-term prevention of colorectalcancer deaths. N Engl J Med. 2012;366:687–696.

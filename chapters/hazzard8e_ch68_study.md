@@ -38,7 +38,6 @@ Biopsychosocial model (<a href="?chapter=68#book-figure-68-1">Fig 68-1</a>): bio
 
 Age-related decreases in gastric secretions and motility can change absorption. Greater fat mass and lower body water, lean mass or albumin alter distribution and the unbound fraction of highly protein-bound drugs. Hepatic blood flow, renal blood flow and filtration may decline. Reduced lung elasticity and increased chest wall rigidity increase vulnerability to respiratory depression. In the US figures quoted in the chapter, about one in three Medicare Part D beneficiaries received an opioid prescription in 2016 (<a href="?chapter=68#p1059">p1059</a>–<a href="?chapter=68#p1060">1060</a>).
 
-<a href="?chapter=68#book-table-68-6">Table 68-6</a>
 
 ## Assessment and goals
 
@@ -193,7 +192,7 @@ Peripheral sensitization (inflammatory mediators like histamine/bradykinin lower
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77c63ac1cd72982a0e62f19f"><span>June 2022 Q78</span> Counseling when starting opioids</a> <a class="study-source-link" href="?chapter=68#p1060" aria-label="8e teaching passage, p1060">p1060</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-34619531f641d311ae985624"><span>May 2024 Q23</span> Bursitis versus arthritis</a> <a class="study-source-link" href="?chapter=68#p1060" aria-label="8e teaching passage, p1060">p1060</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-34619531f641d311ae985624"><span>May 2024 Q23</span> Bursitis versus arthritis</a> <a class="study-source-link" href="?chapter=68#p1058" aria-label="Related teaching, p1058">p1058</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d4597da4db93e15793da0f6a"><span>June 2023 Q38</span> Escalating cancer analgesia</a> <a class="study-source-link" href="?chapter=68#p1061" aria-label="exam reference, p1061">p1061</a></p>
 

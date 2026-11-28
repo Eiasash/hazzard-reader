@@ -34,7 +34,9 @@ Palliative care aims to improve the quality of life for both the patient with se
 
 Specialty palliative care consists of care by an interprofessional team of physicians, nurses, and social workers, chaplains and other individuals with expertise in palliative medicine, who work with patients’ other health care professionals to provide care that matches patients’ goals. In addition to palliative care specialists, the core principles of palliative care can be implemented by all health care professionals (often described as primary palliative care). The key components of primary palliative care include symptom management, coordination of care, communication about goals of care and advance care planning (ACP), caregiver support, and when needed, referral to specialist palliative care teams.
 
-Hospice Care Hospice care is a specialized form of palliative care for patients with limited life expectancy. Hospice care provides
+### Hospice Care
+
+Hospice care is a specialized form of palliative care for patients with limited life expectancy. Hospice care provides
 
 medical, psychosocial, and spiritual support to the patient. Hospice also supports family members coping with the complex consequences of illness, disability, and functional decline as death nears and includes bereavement support after death of the patient. Hospice care does not aim to shorten or prolong life, but rather provides comfort and support services to help people live out the time they have remaining to the fullest extent possible.
 
@@ -68,11 +70,15 @@ more fragmented. Among Medicare fee-for-service decedents in 2015, deaths in the
 
 Palliative medicine is now well established as a discipline, and as the field matures, there is a growing body of literature showing its benefit.
 
-The Evidence for Palliative Care Systems The evidence for specialist palliative care interventions includes multiple randomized trials showing palliative care improves outcomes including quality of life, satisfaction with care, reduced family distress, and increased hospice utilization. The landmark Temel study demonstrated the value of concurrent care, that is, palliative care delivered early and simultaneously with curative, disease-focused care in advanced lung cancer patients. Early palliative care for newly diagnosed metastatic lung cell cancer patients was associated with higher quality of life, less depression, and a statistically significant longer median survival (12 months vs 8.9 months). Subsequent, larger cluster randomized trial of advance cancer patients with good performance status representing a wide variety of cancer types demonstrated improved quality of life with early palliative care. Notably, the statistical significance in many outcomes was not achieved until the fourth month of palliative care, emphasizing the importance of early referral to palliative care to impact quality of life measures beyond pain control. The ENABLE III study showed that initiating concurrent palliative care at the time of a cancer diagnosis had a significant impact on 1-year survival compared to initiating palliative care 3 months after initial cancer diagnosis (63% early vs 48% delayed) and involved multiple types of cancer not only lung cancer.
+### The Evidence for Palliative Care Systems
+
+The evidence for specialist palliative care interventions includes multiple randomized trials showing palliative care improves outcomes including quality of life, satisfaction with care, reduced family distress, and increased hospice utilization. The landmark Temel study demonstrated the value of concurrent care, that is, palliative care delivered early and simultaneously with curative, disease-focused care in advanced lung cancer patients. Early palliative care for newly diagnosed metastatic lung cell cancer patients was associated with higher quality of life, less depression, and a statistically significant longer median survival (12 months vs 8.9 months). Subsequent, larger cluster randomized trial of advance cancer patients with good performance status representing a wide variety of cancer types demonstrated improved quality of life with early palliative care. Notably, the statistical significance in many outcomes was not achieved until the fourth month of palliative care, emphasizing the importance of early referral to palliative care to impact quality of life measures beyond pain control. The ENABLE III study showed that initiating concurrent palliative care at the time of a cancer diagnosis had a significant impact on 1-year survival compared to initiating palliative care 3 months after initial cancer diagnosis (63% early vs 48% delayed) and involved multiple types of cancer not only lung cancer.
 
 Extensive evidence is accumulating for palliative care delivery for noncancer diagnosis as well. A 2020 meta-analysis of 28 trials of palliative care in noncancer patients (13,664 patients, mean age 74) including patients with heart failure (10 studies), dementia (4 studies), chronic obstructive lung disease (3 studies), and multimorbidity (11 studies) showed that palliative care is associated with less emergency department use, less hospitalization, and lower symptom burden. Trials to date of palliative care have been least promising in dementia and highlight opportunities to better tailor palliative care to the special needs of persons living with dementia.
 
-The Evidence for Hospice Hospice has been shown in numerous studies to improve symptom control, increase patient satisfaction and quality of life, and help patients and families prepare for death. The highest-quality outcomes tend to occur for patients
+### The Evidence for Hospice
+
+Hospice has been shown in numerous studies to improve symptom control, increase patient satisfaction and quality of life, and help patients and families prepare for death. The highest-quality outcomes tend to occur for patients
 
 who were enrolled in hospice care for longer than 30 days. Since 2014 the CMS has collected quality data via the Hospice Item Set, which has seven key domains of patient quality.
 
@@ -84,7 +90,9 @@ A specific concern of geriatricians and policy makers is whether hospice adds be
 
 Palliative care and geriatrics are both designed to serve the needs of the most vulnerable patients with a “common central philosophy of patient-centered commitment to holistic and humane care.” Due to the growing geriatric population, there is an unprecedented need to provide excellent palliative care to older adults, especially those with dementia, frailty, and multimorbidity. Partnerships between geriatricians and palliative medicine specialists can be especially useful for management of patients with these conditions, with each specialty working together to ensure the highest level of evidenced-based compassionate care to older adults.
 
-<span id="ch67-dementia-burden" data-reader-metadata="exam"></span>Dementia Older adults with dementia have unique palliative medicine needs given the progressive nature of their illness with significant, prolonged disability and predictable increases in symptom burden as dementia advances. This population especially benefits from combined geriatric and palliative medicine approaches.
+### <span id="ch67-dementia-burden" data-reader-metadata="exam"></span>Dementia
+
+Older adults with dementia have unique palliative medicine needs given the progressive nature of their illness with significant, prolonged disability and predictable increases in symptom burden as dementia advances. This population especially benefits from combined geriatric and palliative medicine approaches.
 
 It is imperative that health care professionals provide appropriate management of behavioral and psychological symptoms of dementia. As discussed in detail in the management of agitation in Chapter 60, management should involve (1) identifying the specific problem behavior and its severity, (2) identifying potential triggers for the behavior, (3) removing underlying physiologic and environmental triggers whenever possible, (4) attempting nonpharmacologic interventions to improve behavior, and (5) as a final resort, using recommended targeted pharmacotherapy for behaviors that do not respond to attempts
 
@@ -100,7 +108,9 @@ Health care professionals caring for older adults with dementia should engage pa
 
 ACP discussions with surrogate decision makers should continue as dementia progresses. Older adults with advanced dementia living in nursing homes who have proxies with an understanding of their terminal prognosis are less likely to receive burdensome interventions. Consideration for hospice care in end-stage dementia is also important as enrollment is associated with greater satisfaction in patient care. Determining a 6-month prognosis in advanced dementia can be challenging. Factors such as irreversible weight loss, low body mass index, functional dependence, and advanced age are associated with limited prognosis. Palliative medicine specialists can also help with prognostication.
 
-Frailty While the exact definition of frailty remains a subject of debate (see Chapter 42), frail patients are particularly vulnerable to adverse outcomes and have significant palliative care needs. For instance, severely frail older adults have shown poor response to treatment and may not benefit from intensive rehabilitation efforts. Attempting rehabilitation of the most frail may in fact cause harm. The key to
+### Frailty
+
+While the exact definition of frailty remains a subject of debate (see Chapter 42), frail patients are particularly vulnerable to adverse outcomes and have significant palliative care needs. For instance, severely frail older adults have shown poor response to treatment and may not benefit from intensive rehabilitation efforts. Attempting rehabilitation of the most frail may in fact cause harm. The key to
 
 ![Table 67-1](hazzard8e_ch67_table-67-1_p1048.webp)
 
@@ -114,9 +124,13 @@ managing the palliative needs of frailty is determining goals and recognizing th
 
 Patients with frailty and multimorbidity may still be eligible for hospice even if they do not have a single terminal illness. While CMS has stated that frailty, debility, or adult failure to thrive are not accepted as the principal hospice diagnosis reported on the Medicare hospice claims form, this does not mean that frail patients are not eligible for the Medicare hospice benefit. A patient is considered hospice eligible if the attending physician and hospice medical director have certified the patient to be terminally ill with a prognosis of less than 6 months. This prognosis is determined based on the severity and irreversibility of the patient’s frailty as well as their multimorbidity. The hospice Medical Director could utilize the hospice LCDs available on the CMS website to support their determination that the patient has a prognosis of less than 6 months.
 
-Multimorbidity Providing optimal care for older adults with multiple chronic conditions, or multimorbidity, presents one of the greatest challenges in geriatrics. Patients with multimorbidity have increased use of health care resources, poorer quality of life, higher rates of institutionalization, disability, and death. To address the challenge of providing patientcentered care to older adults with multimorbidity, a stepwise approach can integrate patient care with the key principles of geriatric and palliative medicine in five domains: (1) patient preferences, (2) interpreting the evidence, (3) prognosis, (4) clinical feasibility, and (5) optimizing therapies and care plans. The American Geriatrics Society’s “PatientCentered Care for Older Adults with Multiple Chronic Conditions: A Stepwise Approach: Expert Panel on the Care of Older Adults with Multimorbidity” is an excellent online resource: https://geriatricscareonline.org/ProductAbstract/ Framework-for-Decision-making-for-Older-Adults/ CL026 [geriatricscareonline.org].
+### Multimorbidity
 
-Considerations for Providing Inclusive Care The US population is ethnically diverse and there may be differences on perceptions and readiness for palliative care based on race and socioeconomic factors. Ornstein’s 2020
+Providing optimal care for older adults with multiple chronic conditions, or multimorbidity, presents one of the greatest challenges in geriatrics. Patients with multimorbidity have increased use of health care resources, poorer quality of life, higher rates of institutionalization, disability, and death. To address the challenge of providing patientcentered care to older adults with multimorbidity, a stepwise approach can integrate patient care with the key principles of geriatric and palliative medicine in five domains: (1) patient preferences, (2) interpreting the evidence, (3) prognosis, (4) clinical feasibility, and (5) optimizing therapies and care plans. The American Geriatrics Society’s “PatientCentered Care for Older Adults with Multiple Chronic Conditions: A Stepwise Approach: Expert Panel on the Care of Older Adults with Multimorbidity” is an excellent online resource: https://geriatricscareonline.org/ProductAbstract/ Framework-for-Decision-making-for-Older-Adults/ CL026 [geriatricscareonline.org].
+
+### Considerations for Providing Inclusive Care
+
+The US population is ethnically diverse and there may be differences on perceptions and readiness for palliative care based on race and socioeconomic factors. Ornstein’s 2020
 
 ![Table 67-2](hazzard8e_ch67_table-67-2_p1049.webp)
 
@@ -152,9 +166,13 @@ Prognostication can be broken into three general steps: (1) estimating the proba
 
 *Table 67-3, printed p. 1051.*
 
-Step 1: Estimating Prognosis Estimating prognosis in geriatric populations is more complicated than in younger populations, as older adults are more likely to have more than one chronic progressive illness that impacts life expectancy. Estimation of prognosis in multimorbid older adults requires clinicians to account for interaction of their medical problems, clinical and laboratory findings, and functional and cognitive status. While prognostication based on clinician judgment is correlated with actual survival, it is subject to numerous biases, most importantly that clinicians tend to overestimate patient survival by a factor of 3 to 5. Prognostic indices that incorporate age and clinical characteristics such as multimorbidity and functional status may improve the accuracy of prognostication compared to clinician judgment alone. A helpful repository of published geriatric prognostic indices can be found at www.ePrognosis.org.
+### Step 1: Estimating Prognosis
 
-Step 2: Communicating Prognosis Numerous studies have shown that most individuals and their families want prognostic information, yet they are often not given the opportunity to discuss it with health care providers. This is despite evidence that effective communication around end-of-life issues can provide benefits to patients and families, without worsening of anxiety, hopelessness, or depression.
+Estimating prognosis in geriatric populations is more complicated than in younger populations, as older adults are more likely to have more than one chronic progressive illness that impacts life expectancy. Estimation of prognosis in multimorbid older adults requires clinicians to account for interaction of their medical problems, clinical and laboratory findings, and functional and cognitive status. While prognostication based on clinician judgment is correlated with actual survival, it is subject to numerous biases, most importantly that clinicians tend to overestimate patient survival by a factor of 3 to 5. Prognostic indices that incorporate age and clinical characteristics such as multimorbidity and functional status may improve the accuracy of prognostication compared to clinician judgment alone. A helpful repository of published geriatric prognostic indices can be found at www.ePrognosis.org.
+
+### Step 2: Communicating Prognosis
+
+Numerous studies have shown that most individuals and their families want prognostic information, yet they are often not given the opportunity to discuss it with health care providers. This is despite evidence that effective communication around end-of-life issues can provide benefits to patients and families, without worsening of anxiety, hopelessness, or depression.
 
 When delivering prognosis, it is first helpful to ask about the patient’s understanding of their illness and perception of what the future may have in store for them. It is also helpful to assess the readiness of the patient and/or family member to have a discussion of prognosis by asking them permission to talk about it. Based on this information, the clinician should deliver prognostic information tailored to the patient’s current desire and level of understanding.
 
@@ -162,7 +180,9 @@ When delivering prognosis, it is first helpful to ask about the patient’s unde
 
 <span id="ch67-prognosis" data-reader-metadata="exam"></span>When delivering prognostic estimates, clinicians should acknowledge the inherent uncertainty in most prognostic estimates. One way to do so is by giving ranges in prognostic estimates (ie, days to weeks, weeks to months, months to years to live) or by giving the best case, worst case, and most common scenarios. In addition, delivering information on prognosis is likely to bring emotional reactions in patients and their family members. Use of empathic statements, including naming the emotion, and the use of therapeutic silence can be helpful in supporting patients and their surrogate decision makers.
 
-Step 3: Interpreting Prognosis Patients’ and surrogates’ personal estimates of prognosis are often different, and generally more optimistic than what is communicated to them by health care providers. Furthermore, few surrogates solely rely on prognostication information delivered by physicians to determine their own prognostic estimates. Rather, their interpretation of prognosis is influenced by many factors, including perceptions of the patient’s strength, will to live, unique history, individual observations of physical appearance, and the surrogate’s presence, optimism, intuition, and faith. Given this information, it is helpful when delivering prognosis to include the factors that influence the clinician’s prognostic estimate, as it may also influence the patient’s or surrogate’s interpretation of prognosis. It is also valuable to enquire how the clinician’s prognostic estimate influenced how the patient or surrogate is currently thinking about the prognosis.
+### Step 3: Interpreting Prognosis
+
+Patients’ and surrogates’ personal estimates of prognosis are often different, and generally more optimistic than what is communicated to them by health care providers. Furthermore, few surrogates solely rely on prognostication information delivered by physicians to determine their own prognostic estimates. Rather, their interpretation of prognosis is influenced by many factors, including perceptions of the patient’s strength, will to live, unique history, individual observations of physical appearance, and the surrogate’s presence, optimism, intuition, and faith. Given this information, it is helpful when delivering prognosis to include the factors that influence the clinician’s prognostic estimate, as it may also influence the patient’s or surrogate’s interpretation of prognosis. It is also valuable to enquire how the clinician’s prognostic estimate influenced how the patient or surrogate is currently thinking about the prognosis.
 
 ## ADVANCE CARE PLANNING AND ADVANCE DIRECTIVES
 
@@ -222,9 +242,9 @@ options for people with dementia: a systematic review. J Am Geriatr Soc. 2011;59
 
 Efficacy of treating pain to reduce behavioural disturbances in residents of nursing homes with dementia: cluster randomised clinical trial. BMJ. 2011;343:d4065. IOM (Institute of Medicine). Dying in America: Improv-
 
-ing Quality and Honoring Individual Preferences Near the End of Life. Washington, DC: The National Academies Press; 2014. [https://www.nap.edu/catalog/18748/](<https://doi.org/10.17226/18748>) dying-in-america-improving-quality-and-honoringindividual-preferences-near [nap.edu]. Accessed February 18, 2022. IOM (Institute of Medicine). Unequal Treatment: Con-
+ing Quality and Honoring Individual Preferences Near the End of Life. Washington, DC: The National Academies Press; 2014. [https://www.nap.edu/catalog/18748/dying-in-america-improving-quality-and-honoring-individual-preferences-near](<https://doi.org/10.17226/18748>) [nap.edu]. Accessed February 18, 2022. IOM (Institute of Medicine). Unequal Treatment: Con-
 
-fronting Racial and Ethnic Disparities in Health Care, 2002. [http://nationalacademies.org/hmd/reports/2002/](<https://doi.org/10.17226/10260>) unequal-treatment-confronting-racial-and-ethnicdisparities-in-health-care.aspx. Accessed May 10, 2016. IOM (Institute of Medicine). (US) Committee on Les-
+fronting Racial and Ethnic Disparities in Health Care, 2002. [http://nationalacademies.org/hmd/reports/2002/unequal-treatment-confronting-racial-and-ethnic-disparities-in-health-care.aspx](<https://doi.org/10.17226/10260>). Accessed May 10, 2016. IOM (Institute of Medicine). (US) Committee on Les-
 
 bian, Gay, Bisexual, and Transgender Health Issues and Research Gaps and Opportunities. The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding. Washington, DC: The National Academies Press; 2011. [https://nationalacademies.org/hmd/reports/2011/the-health-of-lesbiangay-bisexual-and-transgender-people.aspx](<https://doi.org/10.17226/13128>). Accessed May 10, 2016. Johnson KS. Racial and ethnic disparities in palliative care.
 
@@ -232,7 +252,7 @@ J Palliat Med. 2013;16:1329–1334. Mitchell SL, Teno JM, Kiely DK, et al. The c
 
 course of advanced dementia. N Engl J Med. 2009;361: 1529–1538. National Hospice and Palliative Care Organization. NHP-
 
-COs Facts and Figures. Hospice Care in America. [http://www.nhpco.org/hospice-statistics-researchpress-room/facts-hospice-and-palliative-care](<https://www.nhpco.org/wp-content/uploads/NHPCO-Facts-Figures-2020-edition.pdf>). Accessed May 10, 2021. Quinn KL, Shurrab M, Gitau K, et al. Association of
+COs Facts and Figures. Hospice Care in America. [http://www.nhpco.org/hospice-statistics-research-press-room/facts-hospice-and-palliative-care](<https://www.nhpco.org/wp-content/uploads/NHPCO-Facts-Figures-2020-edition.pdf>). Accessed May 10, 2021. Quinn KL, Shurrab M, Gitau K, et al. Association of
 
 receipt of palliative care interventions with health care use, quality of life, and symptom burden among adults with chronic noncancer illness: a systematic review and meta-analysis. JAMA. 2020;324:1439–1450. Sampson EL, Candy B, Jones L. Enteral tube feeding for
 

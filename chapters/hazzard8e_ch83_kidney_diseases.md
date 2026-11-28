@@ -478,7 +478,7 @@ Maintaining health-related quality of life (HRQOL) is very meaningful for older 
 
 > *[sic — The second comparison refers to mental well-being: Figure 83-3 distinguishes the mental and physical component scores. On p1292 “PPD” refers to peritoneal dialysis (PD).]* [Hazzard Ch83, Figure 83-3](?chapter=83#p1291).
 
-### Choice Of Renal Replacement Therapy
+## Choice Of Renal Replacement Therapy
 
 When faced with kidney failure, the older patient has a number of choices to make regarding therapy consistent with their overall level of well-being and goals of care. The most common forms of kidney replacement in the United States are three-times weekly outpatient hemodialysis, peritoneal dialysis (PD), and renal transplantation. There has also been a proliferation of home therapies and therapies tailored to older patients such as nursing home–based dialysis units. The older patient may also choose conservative management and thereby avoid dialysis or opt for palliative care. The patients should have time to develop a relationship with the nephrologist and team in order to have discussions of goals for care and how RRT may be tailored to meet those goals.
 

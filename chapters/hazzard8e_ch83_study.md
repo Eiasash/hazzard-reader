@@ -206,7 +206,6 @@ AV fistula matures over **~3 months** before it's usable (<a href="?chapter=83#p
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5687d58f50abb0a5affaee3d"><span>June 2023 Q67</span> Pulmonary aging and FEV1</a> <a class="study-source-link" href="?chapter=80#p1231" aria-label="8e teaching passage, p1231">p1231</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7e475d72d1c6b9b8c726614b"><span>June 2022 Q3</span> Drug-associated AKI</a> <a class="study-source-link" href="?chapter=83#p1279" aria-label="8e teaching passage, p1279">p1279</a></p>
 

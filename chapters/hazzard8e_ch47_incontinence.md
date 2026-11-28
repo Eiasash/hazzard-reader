@@ -432,7 +432,11 @@ Table 47-12 lists the drugs used to treat incontinence. In general, carefully se
 | Topical | 0.5–1.0 g per application |  |  |
 | Vaginal ring (Estring) (estradiol acetate) | One ring every 3 mo |  |  |
 | **Drugs for Stress Incontinenceᵇ** |  | Increase urethral smooth-muscle contraction |  |
-| <a id="p713"></a>**[p. 713]** | | | |
+
+<a id="p713"></a>**[p. 713]**
+
+| Drugs | Dosages | Mechanisms of action | Potential adverse effects |
+|---|---|---|---|
 | Pseudoephedrineᶜ (Sudafed) | 30–60 mg tid |  | Headache, tachycardia, elevation of blood pressure |
 | Duloxetine (Cymbalta) | 30–60 mg daily |  | Nausea, xerostomia, headache |
 | **Drugs for Overactive Bladder Symptoms including Urgency UI in Menᵈ** |  | Relax smooth muscle of urethra and prostatic capsule |  |
@@ -449,6 +453,7 @@ Table 47-12 lists the drugs used to treat incontinence. In general, carefully se
 | **5-Alpha Reductase Inhibitor** |  | Inhibits type II 5-alpha reductase, interfering with conversion of testosterone to 5-alpha-dihydrotestosterone |  |
 | Finasteride | 5 mg daily |  | Sexual dysfunction, gynecomastia, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
 | Dutasteride | 0.5 mg daily | Inhibits type I and II 5-alpha reductase, inhibiting conversion of testosterone to dihydrotestosterone | Sexual dysfunction, decreased overall risk of prostate cancer with increased risk of high-grade prostate cancer |
+
 
 <sub>ᵃFor urgency UI associated with atrophic vaginitis. ᵇThe primary initial treatment for stress UI is behavioral, with consideration of surgery for severe stress UI; there are no FDA-approved medications for stress UI. ᶜContraindicated in patients with hypertension and cardiovascular disease. ᵈCan be used in combination with bladder relaxants. Adapted with permission from Kane RL, Ouslander JG, Resnick B, et al. Essentials of Clinical Geriatrics. 8th ed. New York, NY: McGraw Hill; 2018.</sub>
 
@@ -511,23 +516,23 @@ Defecation, like urination, is a physiologic process that involves smooth and st
 **Summary of major recommendations**
 
 - *Category I. Strongly Recommended for Adoption*
-- Educate personnel in correct techniques of catheter insertion and care
-- Catheterize only when necessary
-- Emphasize hand washing
-- Insert catheter using clean technique is an acceptable and more practical alternative to sterile technique
-- Secure catheter properly
-- Maintain closed sterile drainage
-- Obtain urine samples aseptically
-- Maintain unobstructed urine flow
+  - Educate personnel in correct techniques of catheter insertion and care
+  - Catheterize only when necessary
+  - Emphasize hand washing
+  - Insert catheter using clean technique is an acceptable and more practical alternative to sterile technique
+  - Secure catheter properly
+  - Maintain closed sterile drainage
+  - Obtain urine samples aseptically
+  - Maintain unobstructed urine flow
 - *Category II. Moderately Recommended for Adoption*
-- Periodically re-educate personnel in catheter care
-- Avoid irrigation unless needed to prevent or relieve obstruction
-- Refrain from daily meatal care with povidone–iodine solution as this may result in an increased infection rate
-- Replace the catheter and collecting system using aseptic technique and sterile equipment when the sterile closed drainage has been violated
+  - Periodically re-educate personnel in catheter care
+  - Avoid irrigation unless needed to prevent or relieve obstruction
+  - Refrain from daily meatal care with povidone–iodine solution as this may result in an increased infection rate
+  - Replace the catheter and collecting system using aseptic technique and sterile equipment when the sterile closed drainage has been violated
 - *Category III. Weakly Recommended for Adoption*
-- Consider alternative techniques of urinary drainage before using an indwelling urethral catheter
-- Use smallest suitable bore catheter
-- Do not change catheters at arbitrary fixed intervals
+  - Consider alternative techniques of urinary drainage before using an indwelling urethral catheter
+  - Use smallest suitable bore catheter
+  - Do not change catheters at arbitrary fixed intervals
 
 <sub>Data from Gould CV, Umscheid CA, Agarwal RK, et al. Guideline for prevention of catheter-associated urinary tract infections 2009. Infect Control Hosp Epidemiol. 2010;31(4):319–326.</sub>
 
@@ -578,7 +583,7 @@ Lightner DJ, Gomelsky A, Souter L, Vasavada SP. Diagnosis and treatment of overa
 
 McVary KT, Roehrborn CG, Avins AL, et al. Update on AUA guideline on the management of benign prostatic hyperplasia. J Urol. 2011;185(5):1793‒1803.
 
-NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. [www.nice](<https://www.nice.org.uk/guidance/ng123>). org.uk/guidance/ng123. Last updated 24 June 2019. Accessed January 31, 2021.
+NICE treatment guidelines (NG 123) for Urinary Incontinence and pelvic organ prolapse in women. [www.nice.org.uk/guidance/ng123](<https://www.nice.org.uk/guidance/ng123>). Last updated 24 June 2019. Accessed January 31, 2021.
 
 Ouslander JG. Management of overactive bladder. N Engl J Med. 2004;350:786–799.
 

@@ -266,48 +266,37 @@ and organ transplantation. Studies of immune system aging have begun to utilize 
 
 ## FURTHER READING
 
-Anderson EJ, Rouphael NG, Widge AT, et al. Safety and
 
-immunogenicity of SARS-CoV-2 mRNA-1273 vaccine in older adults. N Engl J Med. 2020;383:2427–2438. Black S, Gregorio ED, Rappuoli R. Developing vaccines for
+- Anderson EJ, Rouphael NG, Widge AT, et al. Safety and immunogenicity of SARS-CoV-2 mRNA-1273 vaccine in older adults. N Engl J Med. 2020;383:2427–2438.
 
-an aging population. Sci Transl Med. 2015;7(281):281ps8. Bonten MJ, Huijts SM, Bolkenbaas M, et al. Polysaccharide
+- Black S, Gregorio ED, Rappuoli R. Developing vaccines for an aging population. Sci Transl Med. 2015;7(281):281ps8.
 
-conjugate vaccine against pneumococcal pneumonia in adults. N Engl J Med. 2015;372(12):1114–1125. Cunningham AL, Lal H, Kovac M, et al. Efficacy of the her-
+- Bonten MJ, Huijts SM, Bolkenbaas M, et al. Polysaccharide conjugate vaccine against pneumococcal pneumonia in adults. N Engl J Med. 2015;372(12):1114–1125.
 
-pes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375:1019–1032. DiazGranados CA, Dunning AJ, Kimmel M, et al. Efficacy
+- Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375:1019–1032.
 
-of high-dose versus standard-dose influenza vaccine in older adults. N Engl J Med. 2014;371(7):635–645. Franceschi C, Garagnani P, Parini P, Giuliani C, Santoro A.
+- DiazGranados CA, Dunning AJ, Kimmel M, et al. Efficacy of high-dose versus standard-dose influenza vaccine in older adults. N Engl J Med. 2014;371(7):635–645.
 
-Inflammaging: a new immune-metabolic viewpoint for age-related diseases. Nat Rev Endocrinol. 2018; 14(10): 576–590.
+- Franceschi C, Garagnani P, Parini P, Giuliani C, Santoro A. Inflammaging: a new immune-metabolic viewpoint for age-related diseases. Nat Rev Endocrinol. 2018; 14(10): 576–590.
 
-Frasca D, Blomberg BB. B cell function and influenza
+- Frasca D, Blomberg BB. B cell function and influenza vaccine responses in healthy aging and disease. Curr Opin Immunol. 2014;29:112–118.
 
-vaccine responses in healthy aging and disease. Curr Opin Immunol. 2014;29:112–118. Goronzy JJ, Weyand CM. Mechanisms underlying T cell
+- Goronzy JJ, Weyand CM. Mechanisms underlying T cell ageing. Nat Rev Immunol. 2019;19:573–583.
 
-ageing. Nat Rev Immunol. 2019;19:573–583. Hazeldine J, Lord JM. Immunesenescence: a predisposing
+- Hazeldine J, Lord JM. Immunesenescence: a predisposing risk factor for the development of COVID-19? Front Immunol. 2020;11:573662.
 
-risk factor for the development of COVID-19? Front Immunol. 2020;11:573662. Kirkland JL, Tchkonia T. Senolytic drugs: from discovery to
+- Kirkland JL, Tchkonia T. Senolytic drugs: from discovery to translation. J Intern Med. 2020;288:518–536.
 
-translation. J Intern Med. 2020;288:518–536. Kulkarni AS, Gubbi S, Barzilai N. Benefits of metfor-
+- Kulkarni AS, Gubbi S, Barzilai N. Benefits of metformin in attenuating the hallmarks of aging. Cell Metab. 2020;32(1):15–30.
 
-min in attenuating the hallmarks of aging. Cell Metab. 2020;32(1):15–30. Liu GY, Sabatini DM. mTOR at the nexus of nutrition,
+- Liu GY, Sabatini DM. mTOR at the nexus of nutrition, growth, ageing and disease. Nat Rev Mol Cell Biol. 2020;21(4):183–203.
 
-growth, ageing and disease. Nat Rev Mol Cell Biol. 2020;21(4):183–203. Mannick JB, Morris M, Hockey H-U P, et al. TORC1
+- Mannick JB, Morris M, Hockey H-U P, et al. TORC1 inhibition enhances immune function and reduces <a id="p63"></a>**[p. 63]** infections in the elderly. Sci Transl Med. 2018;10(449): eaaq1564.
 
-inhibition enhances immune function and reduces
+- McConeghy KW, Davidson HE, Canaday DH, et al. Clusterrandomized trial of adjuvanted vs. non-adjuvanted trivalent influenza vaccine in 823 U.S. nursing homes. Clin Infect Dis. 2021;73(11);e4237–4243.
 
-<a id="p63"></a>**[p. 63]**
+- Nikolich-Zugich J. The twilight of immunity: emerging concepts in aging of the immune system. Nat Immunol. 2018;19:10–19.
 
-infections in the elderly. Sci Transl Med. 2018;10(449): eaaq1564. McConeghy KW, Davidson HE, Canaday DH, et al. Cluster-
+- Partridge L, Fuentealba M, Kennedy BK. The quest to slow ageing through drug discovery. Nat Rev Drug Discov. 2020;19(8):513–532.
 
-randomized trial of adjuvanted vs. non-adjuvanted trivalent influenza vaccine in 823 U.S. nursing homes. Clin Infect Dis. 2021;73(11);e4237–4243. Nikolich-Zugich J. The twilight of immunity: emerging
-
-concepts in aging of the immune system. Nat Immunol. 2018;19:10–19.
-
-Partridge L, Fuentealba M, Kennedy BK. The quest to slow
-
-ageing through drug discovery. Nat Rev Drug Discov. 2020;19(8):513–532. Shaw AC, Goldstein DR, Montgomery RR. Age-dependent
-
-dysregulation of innate immunity. Nat Rev Immunol. 2013;13(12):875–887.
-
-<a id="p64"></a>**[p. 64]**
+- Shaw AC, Goldstein DR, Montgomery RR. Age-dependent dysregulation of innate immunity. Nat Rev Immunol. 2013;13(12):875–887. <a id="p64"></a>**[p. 64]**

@@ -14,7 +14,7 @@ As populations worldwide age, older adults seek emergency care with increasing f
 
 - Geriatric emergency medicine has emerged internationally as a subspecialty with fellowship training, resident core competencies, guidelines, and research priorities for patient-centered transdisciplinary care.
 
-- Resources such as the Geriatric Emergency Department Collaborative exist to share innovations around older adultappropriate health care during times of emergency.
+- Resources such as the Geriatric Emergency Department Collaborative exist to share innovations around older adult-appropriate health care during times of emergency.
 
 - The components of age-friendly emergency care include infrastructural modifications and protocols focused on geriatric syndromes such as delirium, dementia, and falls.
 
@@ -28,15 +28,13 @@ As populations worldwide age, older adults seek emergency care with increasing f
 
 3. Elder abuse is a hidden epidemic impacting up to 10% of older adults in the ED—but usually unrecognized without coordinated communication between social work, nursing, physicians, and law enforcement.
 
-4. Falls and injurious falls are a threat to many older adults following an episode (Continued)
-
-The aforementioned Geriatric Emergency Department Guidelines, endorsed by the American College of Emergency Physicians (ACEP), American Geriatrics Society, and Society for Academic Emergency Medicine in 2013, provided the requisite framework for ACEP’s Geriatric Emergency Department Accreditation (GEDA) program that launched in 2018 and has accredited nearly 300 EDs worldwide (https://www.acep.org/geda/). In order to attain accreditation, hospitals (not just EDs) must demonstrate a commitment to focused geriatric care processes via quality improvement efforts and their associated metrics that often require transdisciplinary coordination between geriatrics, emergency medicine, physiotherapy, nutrition services, hospitalists, primary care teams, and outpatient services. In addition, the Geriatric Emergency Department Collaborative (GEDC) arose to provide a transdisciplinary learning network of geriatric ED teams to share innovative ideas, solutions, and common lessons around the costeffective improvement of older adult emergency care (https://gedcollaborative.com/). Internationally, the Silver Book II synthesizes best practices for the acute care of frail older adults from a multidisciplinary perspective. This chapter will review components of the Geriatric Emergency Department Guidelines and Silver Book II, as well as facilitators and barriers to widespread implementation of these guidelines.
-
-<a id="p208"></a>**[p. 208]**
-
-of emergency care, and effective fall prevention requires coordination between emergency medicine, physiotherapy, pharmacology, home health, and primary care.
+4. Falls and injurious falls are a threat to many older adults following an episode of emergency care, and effective fall prevention requires coordination between emergency medicine, physiotherapy, pharmacology, home health, and primary care.
 
 5. Multiple measures exist to predict post-ED vulnerability to adverse outcomes, such as preventable returns or functional decline, but currently lack sufficient accuracy to identify either high-risk or low-risk subsets.
+
+The aforementioned Geriatric Emergency Department Guidelines, endorsed by the American College of Emergency Physicians (ACEP), American Geriatrics Society, and Society for Academic Emergency Medicine in 2013, provided the requisite framework for ACEP’s Geriatric Emergency Department Accreditation (GEDA) program that launched in 2018 and has accredited nearly 300 EDs worldwide (https://www.acep.org/geda/). In order to attain accreditation, hospitals (not just EDs) must demonstrate a commitment to focused geriatric care processes via quality improvement efforts and their associated metrics that often require transdisciplinary coordination between geriatrics, emergency medicine, physiotherapy, nutrition services, hospitalists, primary care teams, and outpatient services. In addition, the Geriatric Emergency Department Collaborative (GEDC) arose to provide a transdisciplinary learning network of geriatric ED teams to share innovative ideas, solutions, and common lessons around the cost-effective improvement of older adult emergency care (https://gedcollaborative.com/). Internationally, the Silver Book II synthesizes best practices for the acute care of frail older adults from a multidisciplinary perspective. This chapter will review components of the Geriatric Emergency Department Guidelines and Silver Book II, as well as facilitators and barriers to widespread implementation of these guidelines.
+
+<a id="p208"></a>**[p. 208]**
 
 ## INFRASTRUCTURE, STAFFING, AND TRAINING
 
@@ -56,7 +54,7 @@ which emergency care occurs. Education and protocols should focus on the detecti
 
 ## DELIRIUM
 
-A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop (incident delirium) delirium. Hypoactive delirium is more common than hyperactive delirium, yet has been identified by ED nurses and physicians far less frequently. Delirium is a transient symptom precipitated by an acute stressor or physiological insult, but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression. Common
+A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) or develop (incident delirium) delirium. Hypoactive delirium is more common than hyperactive delirium, yet has been identified by ED nurses and physicians far less frequently. Delirium is a transient symptom precipitated by an acute stressor or physiological insult, but is associated with an increased hospital length of stay, cognitive and functional decline, and post-hospital depression. Common precipitating factors are summarized in Table 15-3.
 
 <span id="ch15-toileting" data-reader-metadata="exam"></span>
 
@@ -64,7 +62,7 @@ A range of 6% to 38% of ED adults over age 65 present with (prevalent delirium) 
 
 *Table 15-1, printed p. 209.*
 
-precipitating factors are summarized in Table 15-3. ED nurse or physician judgment alone is inadequate to identify delirium accurately, so over 20 delirium screening instruments have been evaluated in this setting. Although the Confusion Assessment Method has been studied more frequently, the brief Confusion Assessment Method (bCAM), Richmond Agitation Sedation Scale, and the 4AT more favorably balance brevity, accuracy, and emergency provider acceptability (Figure 15-2). Since delirium is a symptom of an underlying physiological stressor, geriatric emergency care should
+ED nurse or physician judgment alone is inadequate to identify delirium accurately, so over 20 delirium screening instruments have been evaluated in this setting. Although the Confusion Assessment Method has been studied more frequently, the brief Confusion Assessment Method (bCAM), Richmond Agitation Sedation Scale, and the 4AT more favorably balance brevity, accuracy, and emergency provider acceptability (Figure 15-2). Since delirium is a symptom of an underlying physiological stressor, geriatric emergency care should try to identify the precipitant(s) of delirium (Table 15-3).
 
 ![Table 15-2](hazzard8e_ch15_table-15-2_p209.webp)
 
@@ -86,7 +84,7 @@ precipitating factors are summarized in Table 15-3. ED nurse or physician judgme
 
 *Figure 15-2 continued, printed p. 211.*
 
-try to identify the precipitant(s) of delirium (Table 15-3). Accurately identifying and treating the cause of delirium will require collaboration with inpatient services because patients with delirium who are discharged home without treating the delirium will return to the ED.
+Accurately identifying and treating the cause of delirium will require collaboration with inpatient services because patients with delirium who are discharged home without treating the delirium will return to the ED.
 
 At least three pragmatic barriers exist to improving the detection, prevention, and management of delirium in the ED. First, simply publishing research or synthesizing recommendations into guidelines will not modify clinician behavior. Implementation Science or local quality improvement efforts are required, which is the rationale for GEDA and GEDC to
 
@@ -102,7 +100,7 @@ Delirium and dementia frequently overlap in older adults in ED settings. When de
 
 for cognitive dysfunction, specifically dementia. Whether recognized or not, ED patients with dementia (or possible dementia as many lack additional neuropsychiatric evaluation in the weeks to months after an episode of emergency care), this non-delirium cognitive dysfunction is associated with prolonged length of stay, fall risk, admission rates, return visits and readmissions, and patient/care partner dissatisfaction with the care provided. When features concerning for dementia are missed in ED settings, inpatient services also frequently miss subtle findings and opportunities to improve care transitions are neglected.
 
-While eight dementia screening instruments have been evaluated in ED settings, those that balance brevity and accuracy are favored by clinicians, including the Abbreviated Mental Test (AMT-4), Ottawa 3DY (O3DY), and caregiver-administered Alzheimer’s Disease-8 (cAD8) summarized in Figure 15-3. The cAD8 has the advantage
+While eight dementia screening instruments have been evaluated in ED settings, those that balance brevity and accuracy are favored by clinicians, including the Abbreviated Mental Test (AMT-4), Ottawa 3DY (O3DY), and caregiver-administered Alzheimer’s Disease-8 (cAD8) summarized in Figure 15-3. The cAD8 has the advantage of not relying upon an available, communicative, or cooperative patient in the ED where patients are often undergoing various tests and consultant evaluations.
 
 ![Figure 15-3](hazzard8e_ch15_figure-15-3_p212.webp)
 
@@ -110,7 +108,7 @@ While eight dementia screening instruments have been evaluated in ED settings, t
 
 <a id="p213"></a>**[p. 213]**
 
-of not relying upon an available, communicative, or cooperative patient in the ED where patients are often undergoing various tests and consultant evaluations. <span id="ch15-ad8" data-reader-metadata="exam"></span>In addition, whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings for more highly educated individuals, the cAD8 does not because it employs a knowledgeable care partner to report a cognitive change from baseline rather than a memory or performance test of the patient.
+<span id="ch15-ad8" data-reader-metadata="exam"></span>In addition, whereas AMT-4, O3DY, and most other dementia screening instruments often yield false-negative findings for more highly educated individuals, the cAD8 does not because it employs a knowledgeable care partner to report a cognitive change from baseline rather than a memory or performance test of the patient.
 
 The recognition of possible dementia in an older ED patient affects clinical decision-making. While dementia may not be viewed as a medical emergency, the psychosocial model depicted in Figure 15-1B necessitates that effective geriatric emergency care contemplate cognitive capacity. If otherwise medically stabilized, is this patient safe to be discharged? Does the patient understand the discharge instructions, medications prescribed or deprescribed, and follow-up plan? Will the patient remember those factors after discharge? Although reflexive hospital admission is probably not the appropriate management option, transitions of care must be adapted for patients with suspected cognitive dysfunction.
 
@@ -128,7 +126,7 @@ Preventing elder abuse requires a team-based approach that begins in the pre-hos
 
 Individuals over age 65 comprise one-fourth of trauma admissions with ground-level falls becoming an increasing proportion of those cases as populations age. Among community-dwelling older adults over age 65, one-third experience a fall each year, which increases, to 50% for those over age 80. An ED evaluation for a fall is often the only medical contact these patients have and an opportunity to prevent future fall injuries. Yet 36% to 50% of these patients experience a recurrent fall, ED revisit, or death within 1 year of an initial fall.
 
-<span id="ch15-falls" data-reader-metadata="exam"></span>ED nurses and physicians acknowledge a role in proactively preventing future fall injuries for frail older adults, but cite pragmatic barriers to routine fall prevention secondary to inadequate training around risk stratification, insufficient emergency medicine-specific fall assessment tools, and uncertain access to downstream fall prevention resources. Part of the problem is that falls are often complex and multifactorial with predisposing fall risks (Figure 15-5A), diminished physiological factors to avoid fall injuries (Figure 15-5B), and an increased risk of injuries from ground-level falls (Figure 15-5C). Furthermore, there is no widely accepted post-ED fall risk assessment instrument. Another barrier to routine fall prevention initiatives is the perception of therapeutic nihilism since complex and individualized interventions often fail to reduce fall-related injuries. For example, the Strategies to Reduce Injuries and Develop Confidence in Elders pragmatic randomized controlled trial utilized risk assessments to formulate individualized fall prevention interventions, yet failed to effectively prevent the first injurious fall. Similarly, an ED-based randomized controlled trial to deprescribe
+<span id="ch15-falls" data-reader-metadata="exam"></span>ED nurses and physicians acknowledge a role in proactively preventing future fall injuries for frail older adults, but cite pragmatic barriers to routine fall prevention secondary to inadequate training around risk stratification, insufficient emergency medicine-specific fall assessment tools, and uncertain access to downstream fall prevention resources. Part of the problem is that falls are often complex and multifactorial with predisposing fall risks (Figure 15-5A), diminished physiological factors to avoid fall injuries (Figure 15-5B), and an increased risk of injuries from ground-level falls (Figure 15-5C). Furthermore, there is no widely accepted post-ED fall risk assessment instrument. Another barrier to routine fall prevention initiatives is the perception of therapeutic nihilism since complex and individualized interventions often fail to reduce fall-related injuries. For example, the Strategies to Reduce Injuries and Develop Confidence in Elders pragmatic randomized controlled trial utilized risk assessments to formulate individualized fall prevention interventions, yet failed to effectively prevent the first injurious fall. Similarly, an ED-based randomized controlled trial to deprescribe medications associated with increased fall risk did not reduce falls at 1 year.
 
 <a id="p214"></a>**[p. 214]**
 
@@ -136,9 +134,9 @@ Individuals over age 65 comprise one-fourth of trauma admissions with ground-lev
 
 *Figure 15-4, printed p. 214.*
 
-medications associated with increased fall risk did not reduce falls at 1 year. However, another academic ED protocol that incorporated physical therapy and pharmacy to formulate a brief and individualized intervention during a visit for a fall reduced both overall and fall-related revisits at 6 months. Feasible approaches for ED initiated secondary falls prevention undoubtedly require a local champion, transdisciplinary coordination, and accessible resources to promote patient cooperation (Figure 15-6).
+However, another academic ED protocol that incorporated physical therapy and pharmacy to formulate a brief and individualized intervention during a visit for a fall reduced both overall and fall-related revisits at 6 months. Feasible approaches for ED initiated secondary falls prevention undoubtedly require a local champion, transdisciplinary coordination, and accessible resources to promote patient cooperation (Figure 15-6).
 
-Figure 15-6 illustrates the real-world settings of falls prevention research moving forward: the outpatient clinic, the ED, the homes of older patients, the practice sites of nurse case managers and physical therapists, and the community. Identifying effective falls prevention strategies in post-STRIDE research necessitates a multipronged approach incorporating Implementation Science principles and an evolving understanding of impactful shared decision-making. Transdisciplinary alignment and harmonization of fallrelated definitions, screening instruments, and outcome measures while catalyzing impactful change can promote healthy skepticism while avoiding therapeutic nihilism and advance patient-centric falls prevention. Rapidly learning
+Figure 15-6 illustrates the real-world settings of falls prevention research moving forward: the outpatient clinic, the ED, the homes of older patients, the practice sites of nurse case managers and physical therapists, and the community. Identifying effective falls prevention strategies in post-STRIDE research necessitates a multipronged approach incorporating Implementation Science principles and an evolving understanding of impactful shared decision-making. Transdisciplinary alignment and harmonization of fall-related definitions, screening instruments, and outcome measures while catalyzing impactful change can promote healthy skepticism while avoiding therapeutic nihilism and advance patient-centric falls prevention. Rapidly learning
 
 health systems can integrate incremental improvements from multiple settings to improve their research and clinical practice.
 
@@ -172,7 +170,7 @@ Frailty is an increased vulnerability to incomplete homeostasis after a physiolo
 
 ## MEDICATION SAFETY
 
-The ACEP Geriatric Emergency Department Guidelines and emergency medicine resident core curriculum both emphasize the importance of identifying and deprescribing high-risk medications primarily guided by Beers Criteria. However, Beers Criteria generally apply to the longer duration prescriptions provided in long-term care or outpatient clinic settings. The short time frame prescriptions commonly provided in the ED may represent a unique risk–benefit profile that remains relatively untested. Therefore, Beers Criteria are not unquestionably accepted
+The ACEP Geriatric Emergency Department Guidelines and emergency medicine resident core curriculum both emphasize the importance of identifying and deprescribing high-risk medications primarily guided by Beers Criteria. However, Beers Criteria generally apply to the longer duration prescriptions provided in long-term care or outpatient clinic settings. The short time frame prescriptions commonly provided in the ED may represent a unique risk–benefit profile that remains relatively untested. Therefore, Beers Criteria are not unquestionably accepted as an indication of high-risk medications by ED teams.
 
 <a id="p218"></a>**[p. 218]**
 
@@ -180,7 +178,7 @@ The ACEP Geriatric Emergency Department Guidelines and emergency medicine reside
 
 *Figure 15-7, printed p. 218.*
 
-as an indication of high-risk medications by ED teams. Nonetheless, Beers Criteria are frequently used in research and guidelines as one component of inappropriate medication prescribing for older adults. <span id="ch15-equipped" data-reader-metadata="exam"></span>The Enhancing Quality of Provider Practices for Older Adults in the Emergency Department (EQUiPPED) protocol combines education with personal provider feedback and electronic clinical decision support to improve medication safety. Across four Veteran’s Affairs hospitals, EQUiPPED demonstrated a significant and sustained reduction of potentially inappropriate medication prescribing at 1 year. EQUiPPED implementation kits for accelerated uptake of this medication safety initiative have also been developed in nonVeterans Affairs EDs.
+Nonetheless, Beers Criteria are frequently used in research and guidelines as one component of inappropriate medication prescribing for older adults. <span id="ch15-equipped" data-reader-metadata="exam"></span>The Enhancing Quality of Provider Practices for Older Adults in the Emergency Department (EQUiPPED) protocol combines education with personal provider feedback and electronic clinical decision support to improve medication safety. Across four Veteran’s Affairs hospitals, EQUiPPED demonstrated a significant and sustained reduction of potentially inappropriate medication prescribing at 1 year. EQUiPPED implementation kits for accelerated uptake of this medication safety initiative have also been developed in non-Veterans Affairs EDs.
 
 Apart from these protocols, ED clinicians should be continuously aware of the potential of drugs to cause or exacerbate symptoms and interact with each other or with underlying diseases. In addition, many older adults are overtreated with hypoglycemic and antihypertensive medicine, which can result in ED visits. In these circumstances ED clinicians should initiate a deprescribing effort and communicate their findings and recommendations to the patient’s physicians either through the patient or directly.
 
@@ -200,65 +198,55 @@ Sustainable and measurable geriatric emergency medicine advancement requires a v
 
 ## FURTHER READING
 
-Beach SR, Carpenter CR, Rosen T, Sharps P, Gelles R.
+- Beach SR, Carpenter CR, Rosen T, Sharps P, Gelles R. Screening and detection of elder abuse: research opportunities and lessons learned from emergency geriatric care, intimate partner violence, and child abuse. J Elder Abuse Negl. 2016;28(4-5):185–216.
 
-Screening and detection of elder abuse: research opportunities and lessons learned from emergency geriatric care, intimate partner violence, and child abuse. J Elder Abuse Negl. 2016;28(4-5):185–216. Berning MJ, Silva LOJE, Espinoza-Suarez N, et al. Interven-
+- Berning MJ, Silva LOJE, Espinoza-Suarez N, et al. Interventions to improve older adults’ emergency department patient experience: a systematic review. Am J Emerg Med. 2020;38(6):1257–1269.
 
-tions to improve older adults’ emergency department patient experience: a systematic review. Am J Emerg Med. 2020;38(6):1257–1269. Carpenter CR, Avidan MS, Wildes T, Stark S, Fowler SA,
+- Carpenter CR, Avidan MS, Wildes T, Stark S, Fowler SA, Lo AX. Predicting geriatric falls following an episode of emergency department care: a systematic review. Acad Emerg Med. 2014;21(10):1069–1082.
 
-Lo AX. Predicting geriatric falls following an episode of emergency department care: a systematic review. Acad Emerg Med. 2014;21(10):1069–1082. Carpenter CR, Banerjee J, Keyes D, et al. Accuracy of
+- Carpenter CR, Banerjee J, Keyes D, et al. Accuracy of dementia screening instruments in emergency medicine: a diagnostic meta-analysis. Acad Emerg Med. 2019; 26(2):226–245.
 
-dementia screening instruments in emergency medicine: a diagnostic meta-analysis. Acad Emerg Med. 2019; 26(2):226–245. Carpenter CR, Cameron A, Ganz DA, Liu S. Older adult
+- Carpenter CR, Cameron A, Ganz DA, Liu S. Older adult falls in emergency medicine: 2019 update. Clin Geriatr Med. 2019;35(2):205–219.
 
-falls in emergency medicine: 2019 update. Clin Geriatr Med. 2019;35(2):205–219. Carpenter CR, Émond M. Pragmatic barriers to assess-
+- Carpenter CR, Émond M. Pragmatic barriers to assessing post-emergency department vulnerability for poor outcomes in an ageing society. Neth J Med. 2016;74(8): 327–329.
 
-ing post-emergency department vulnerability for poor outcomes in an ageing society. Neth J Med. 2016;74(8): 327–329.
+- Carpenter CR, Hammouda N, Linton EA, et al. Delirium prevention, detection, and treatment in emergency medicine settings: A Geriatric Emergency Care Applied Research (GEAR) Network Scoping Review and Consensus Statement. Acad Emerg Med. 2021;28(1):19–35.
 
-Carpenter CR, Hammouda N, Linton EA, et al. Delirium
+- Carpenter CR, Malone ML. Avoiding therapeutic nihilism for complex geriatric intervention ‘negative’ trials: STRIDE lessons. J Am Geriatr Soc. 2020;68(12): 2752–2756.
 
-prevention, detection, and treatment in emergency medicine settings: A Geriatric Emergency Care Applied Research (GEAR) Network Scoping Review and Consensus Statement. Acad Emerg Med. 2021;28(1):19–35. Carpenter CR, Malone ML. Avoiding therapeutic nihilism for
+- Carpenter CR, Mooijaart SP. Geriatric Screeners 2.0: time for a paradigm shift in emergency department vulnerability research. J Am Geratr Soc. 2020;68(7): 1402–1405.
 
-complex geriatric intervention ‘negative’ trials: STRIDE lessons. J Am Geriatr Soc. 2020;68(12): 2752–2756. Carpenter CR, Mooijaart SP. Geriatric Screeners 2.0:
+- Carpenter CR, Shelton E, Fowler S, Suffoletto B, Platts- Mills TF, Rothman RE, et al. Risk factors and screening instruments to predict adverse outcomes for undifferentiated older emergency department patients: a systematic review and meta-analysis. Acad Emerg Med. 2015;22(1):1–21.
 
-time for a paradigm shift in emergency department vulnerability research. J Am Geratr Soc. 2020;68(7): 1402–1405. Carpenter CR, Shelton E, Fowler S, Suffoletto B, Platts-
+- Conroy S, Carpenter C, Banerjee J. Silver Book II: Quality Urgent Care for Older People, British Geriatrics Society, 2021. Available at https://www.bgs.org.uk/resources/ resource-series/silver-book-ii.
 
-Mills TF, Rothman RE, et al. Risk factors and screening instruments to predict adverse outcomes for undifferentiated older emergency department patients: a systematic review and meta-analysis. Acad Emerg Med. 2015;22(1):1–21. Conroy S, Carpenter C, Banerjee J. Silver Book II: Quality
+- Dresden SM, Hwang U, Garrido MM, et al. Geriatric emergency department innovations: the impact of transitional <a id="p220"></a>**[p. 220]** care nurses on 30-day readmissions for older adults. Acad Emerg Med. 2020;27(1):43–53.
 
-Urgent Care for Older People, British Geriatrics Society, 2021. Available at https://www.bgs.org.uk/resources/ resource-series/silver-book-ii. Dresden SM, Hwang U, Garrido MM, et al. Geriatric emer-
+- Goldberg EM, Marks SJ, Resnik LJ, Long S, Mellott H, Merchant RC. Can an emergency department-initiated intervention prevent subsequent falls and health care use in older adults? A randomized controlled trial Ann Emerg Med. 2020;76(6):739–750.
 
-gency department innovations: the impact of transitional
+- Hwang U, Dresden SM, Rosenberg MS, et al. Geriatric emergency department innovations: transitional care nurses and hospital use. J Am Geratr Soc. 2018;66(3):459–466.
 
-<a id="p220"></a>**[p. 220]**
+- Hwang U, Dresden SM, Vargas-Torres C, et al. Association of a Geriatric Emergency Department Innovation Program with cost outcomes among Medicare beneficiaries. JAMA Netw Open. 2021;4(3):e2037334.
 
-care nurses on 30-day readmissions for older adults. Acad Emerg Med. 2020;27(1):43–53. Goldberg EM, Marks SJ, Resnik LJ, Long S, Mellott H,
+- Hwang U, Morrison RS. The geriatric emergency department. J Am Geriatr Soc. 2007;55(11):1873–1876.
 
-Merchant RC. Can an emergency department-initiated intervention prevent subsequent falls and health care use in older adults? A randomized controlled trial Ann Emerg Med. 2020;76(6):739–750. Hwang U, Dresden SM, Rosenberg MS, et al. Geriatric emer-
+- Kaeppeli T, Rueegg M, Dreher-Hummel T, et al. Validation of the Clinical Frailty Scale for prediction of thirty-day mortality in the emergency department. Ann Emerg Med. 2020;76(3):291–300.
 
-gency department innovations: transitional care nurses and hospital use. J Am Geratr Soc. 2018;66(3):459–466. Hwang U, Dresden SM, Vargas-Torres C, et al. Association
+- Lee JS, Tong T, Tierney MC, Kiss A, Chignell M. Predictive ability of a serious game to identify emergency patients with unrecognized delirium. J Am Geriatr. Soc 2019;67(11):2370–2375.
 
-of a Geriatric Emergency Department Innovation Program with cost outcomes among Medicare beneficiaries. JAMA Netw Open. 2021;4(3):e2037334. Hwang U, Morrison RS. The geriatric emergency depart-
+- Lo AX, Carpenter CR. Balancing evidence and economics while adapting emergency medicine to the 21st century’s geriatric demographic imperative. Acad Emerg Med. 2020;27(10):1070-1073.
 
-ment. J Am Geriatr Soc. 2007;55(11):1873–1876. Kaeppeli T, Rueegg M, Dreher-Hummel T, et al. Validation
+- Rosen T, LoFaso VM, Bloemen EM, et al. Identifying injury patterns associated with physical elder abuse: analysis of legally adjudicated cases. Ann Emerg Med. 2020;76:266–276.
 
-of the Clinical Frailty Scale for prediction of thirty-day mortality in the emergency department. Ann Emerg Med. 2020;76(3):291–300. Lee JS, Tong T, Tierney MC, Kiss A, Chignell M. Predic-
+- Rosenberg M, Carpenter CR, Bromley M, et al. Geriatric emergency department guidelines. Ann Emerg Med. 2014;63(5):e7–e25.
 
-tive ability of a serious game to identify emergency patients with unrecognized delirium. J Am Geriatr. Soc 2019;67(11):2370–2375. Lo AX, Carpenter CR. Balancing evidence and economics
+- Sanon M, Baumlin KM, Kaplan SS, Grudzen CR. Care and Respect for Elders in Emergencies program: a preliminary report of a volunteer approach to enhance care in the emergency department. J Am Geratr Soc. 2014;62(2):365–370.
 
-while adapting emergency medicine to the 21st century’s
+- Southerland LT, Hunold KM, Carpenter CR, Caterino JM, Mion LC. A National dataset analysis of older adults in emergency department observation units. Am J Emerg Med. 2019;37(9):1686–1690.
 
-geriatric demographic imperative. Acad Emerg Med. 2020;27(10):1070-1073. Rosen T, LoFaso VM, Bloemen EM, et al. Identifying
+- Southerland LT, Lo AX, Biese K, et al. Concepts in practice: geriatric emergency departments. Ann Emerg Med. 2020;75(2):162–170.
 
-injury patterns associated with physical elder abuse: analysis of legally adjudicated cases. Ann Emerg Med. 2020;76:266–276. Rosenberg M, Carpenter CR, Bromley M, et al. Geriatric
-
-emergency department guidelines. Ann Emerg Med. 2014;63(5):e7–e25. Sanon M, Baumlin KM, Kaplan SS, Grudzen CR. Care
-
-and Respect for Elders in Emergencies program: a preliminary report of a volunteer approach to enhance care in the emergency department. J Am Geratr Soc. 2014;62(2):365–370. Southerland LT, Hunold KM, Carpenter CR, Caterino JM,
-
-Mion LC. A National dataset analysis of older adults in emergency department observation units. Am J Emerg Med. 2019;37(9):1686–1690. Southerland LT, Lo AX, Biese K, et al. Concepts in prac-
-
-tice: geriatric emergency departments. Ann Emerg Med. 2020;75(2):162–170. Stevens M, Hastings SN, Markland AD, et al. Enhancing
-
-Quality of Provider Practices for Older Adults in the Emergency Department (EQUiPPED). J Am Geratr Soc. 2017;65(7):1609–1614.
+- Stevens M, Hastings SN, Markland AD, et al. Enhancing Quality of Provider Practices for Older Adults in the Emergency Department (EQUiPPED). J Am Geratr Soc. 2017;65(7):1609–1614.
 
 ## Israeli context — מיון ואשפוז בישראל
 

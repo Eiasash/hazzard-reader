@@ -166,7 +166,7 @@ In PDD, established motor parkinsonism begins more than one year before dementia
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5aff8ef3237b31ebc14818a4"><span>June 2026 Q60</span> Early autonomic failure in MSA</a> <a class="study-source-link" href="?chapter=61#p941" aria-label="exam reference, p941">p941</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-3ed537d091c4ac13b638e895"><span>June 2022 Q89</span> Agonist adverse effects</a> <a class="study-source-link" href="?chapter=61#p943" aria-label="8e teaching passage, p943">p943</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-3ed537d091c4ac13b638e895"><span>June 2022 Q89</span> Agonist adverse effects</a> <a class="study-source-link" href="?chapter=61#p944" aria-label="Related teaching, p944">p944</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-991b3e62e78d2629cd03bad6"><span>May 2024 Q61</span> Initial motor treatment</a> <a class="study-source-link" href="?chapter=61#p943" aria-label="exam reference, p943">p943</a></p>
 

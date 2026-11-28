@@ -186,7 +186,7 @@ Transplant: MELD predicts waitlist mortality but predicts posttransplant outcome
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-672a2233d40478f8ffec6636"><span>2020 Q20</span> Postoperative pneumonia risk</a> <a class="study-source-link" href="?chapter=42#p627" aria-label="8e teaching passage, p627">p627</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-709d9ab5d0c401eb1452d6ac"><span>June 2022 Q12</span> Frailty at dialysis initiation</a> <a class="study-source-link" href="?chapter=42#p627" aria-label="8e teaching passage, p627">p627</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-709d9ab5d0c401eb1452d6ac"><span>June 2022 Q12</span> Frailty at dialysis initiation</a> <a class="study-source-link" href="?chapter=42#p628" aria-label="Related teaching, p628">p628</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d50163430af0b0650aca37fe"><span>May 2024 Q54</span> Cognitive frailty and MCI</a> <a class="study-source-link" href="?chapter=42#p627" aria-label="exam reference, p627">p627</a></p>
 

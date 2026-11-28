@@ -411,6 +411,3 @@ Because disability is common among older persons, rehabilitation is an important
 - Urits I, Seifert D, Seats A, et al. Treatment strategies and effective management of phantom limb-associated pain. _Curr Pain Headache Rep_ . 2019;23:64.
 
 - Winstein CJ, Stein J, Arena R, et al. Guidelines for adult stroke rehabilitation and recovery. _Stroke_ . 2016;47:e98–e169.
-
-<a id="p834"></a>**[p. 834]**
-

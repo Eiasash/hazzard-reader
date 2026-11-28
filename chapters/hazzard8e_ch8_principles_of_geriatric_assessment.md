@@ -62,9 +62,13 @@ Nursing home geriatric assessment requires that attention be directed to selecte
 
 Because the primary site of most clinicians’ practices is the office setting, assessment techniques are described primarily for this setting. When appropriate, differing or particularly important information about assessment in other settings is added.
 
-Components of the Geriatric Assessment In addition to the standard medical history and physical examination, the clinician should systematically search for specific conditions that are common among older persons and that might have considerable impact on function. In the course of the traditional medical evaluation, these problems may go unnoticed because older patients fail to report them spontaneously. For example, they may not recognize that falling is a treatable medical problem. They may also be embarrassed to mention problems with maintaining urinary continence. Finally, they may believe that some symptoms, such as hearing loss, are normal aspects of aging that cannot be helped.
+### Components of the Geriatric Assessment
 
-Visual Impairment Visual impairment is a common and often underreported problem in the older population. The four major eye diseases (cataract, age-related macular degeneration, diabetic retinopathy, and glaucoma) increase in prevalence with age. Moreover, developing presbyopia is virtually universal
+In addition to the standard medical history and physical examination, the clinician should systematically search for specific conditions that are common among older persons and that might have considerable impact on function. In the course of the traditional medical evaluation, these problems may go unnoticed because older patients fail to report them spontaneously. For example, they may not recognize that falling is a treatable medical problem. They may also be embarrassed to mention problems with maintaining urinary continence. Finally, they may believe that some symptoms, such as hearing loss, are normal aspects of aging that cannot be helped.
+
+### Visual Impairment
+
+Visual impairment is a common and often underreported problem in the older population. The four major eye diseases (cataract, age-related macular degeneration, diabetic retinopathy, and glaucoma) increase in prevalence with age. Moreover, developing presbyopia is virtually universal
 
 <a id="p119"></a>**[p. 119]**
 
@@ -72,7 +76,9 @@ and the vast majority of older persons require eyeglasses. Visual impairment has
 
 The standard method of screening for problems with visual acuity is the Snellen eye chart, which requires the patient to stand 20 ft from the chart and read letters, using corrective lenses. Patients fail the screen if they are unable to read all the letters on the 20/40 line with their eyeglasses (best corrected vision). A home-printable vision screening test for telemedicine has been validated.
 
-Hearing Impairment Hearing impairment is among the most common medical conditions reported by older persons, affecting approximately one-third of those age 65 or older. Hearing impairment is associated with reduced cognitive, emotional, social, and physical function, leading to increased hospitalizations and delirium. The use of amplification devices has led to improved functional status and quality of life in older persons.
+### Hearing Impairment
+
+Hearing impairment is among the most common medical conditions reported by older persons, affecting approximately one-third of those age 65 or older. Hearing impairment is associated with reduced cognitive, emotional, social, and physical function, leading to increased hospitalizations and delirium. The use of amplification devices has led to improved functional status and quality of life in older persons.
 
 Screening for hearing loss can be accomplished by several methods (Table 8-1). The most accurate of these is the Welch Allyn AudioScope 3 (Welch Allyn, Inc., Skaneateles Falls, NY), a handheld otoscope with a built-in audiometer. The AudioScope 3 can be set at several different levels of intensity, but should be set at 40 dB to evaluate hearing in older persons. A pretone at 60 dB is delivered and then four tones (500, 1000, 2000, and 4000 Hz) at 40 dB are delivered. Patients fail the screening if they are unable to hear either the 1000- or 2000-Hz frequency in both ears or both the 1000- and 2000-Hz frequencies in one ear, indicating the need for formal audiometric testing.
 
@@ -86,7 +92,9 @@ There are several screening questionaries for hearing loss including the Hearing
 
 A 2011 review of the evidence on screening of hearing loss in older adults found that inquiring about self-perceived hearing loss or the whisper test at 2 ft had similar rates of detecting hearing loss as the tone-emitting otoscope or formal hearing questionnaire. The most recent USPSTF review of screening concluded that there is insufficient evidence to formally recommend hearing screening for this population.
 
-Malnutrition/Weight Loss (See Also Chapter 30) Malnutrition is a global term that encompasses many different nutritional problems that are associated with diverse health consequences. Both extremes of body weight place older people at risk for subsequent functional impairment, morbidity, and mortality. Among community-dwelling older persons, the most common nutritional disorder is obesity. In addition, a small percentage of community-dwelling older persons have energy or protein energy undernutrition, which places them at higher risk for death and functional decline. Protein energy undernutrition is defined by the presence of clinical (physical signs such as wasting, low body mass index) and biochemical (albumin or other protein) evidence of insufficient intake.
+### Malnutrition/Weight Loss (See Also Chapter 30)
+
+Malnutrition is a global term that encompasses many different nutritional problems that are associated with diverse health consequences. Both extremes of body weight place older people at risk for subsequent functional impairment, morbidity, and mortality. Among community-dwelling older persons, the most common nutritional disorder is obesity. In addition, a small percentage of community-dwelling older persons have energy or protein energy undernutrition, which places them at higher risk for death and functional decline. Protein energy undernutrition is defined by the presence of clinical (physical signs such as wasting, low body mass index) and biochemical (albumin or other protein) evidence of insufficient intake.
 
 ![Table 8-1](hazzard8e_ch8_table-8-1_p119.webp)
 
@@ -98,7 +106,9 @@ On their initial visit, patients should be asked about weight loss within the pr
 
 In hospitalized older persons, malnutrition has been associated with higher mortality rates, delayed functional recovery, and higher rates of nursing home use. The simplest and most practical method is for the nursing staff to report daily on the percentage of the diet that the patient is eating. Intake can be also measured through formal calorie counts. Laboratory monitoring is less likely to be useful. Although serum albumin levels can drop acutely during inflammatory states, physiologic stress, and in response to trauma or surgical conditions, this protein has a long halflife (approximately 18 days) and may provide an idea of the patient’s baseline nutritional status. Prealbumin, which has a much shorter half-life (approximately 2 days) may be a better means of monitoring response to nutritional treatment. In the nursing home, weight loss or gain of greater than or equal to 5% in the past 30 days or greater than or equal to 10% in the last 180 days are Medicare Minimum Data Set triggers for malnutrition.
 
-Urinary Incontinence Urinary incontinence is common and estimated to affect 11% to 34% of older men and 17% to 55% of older women. Despite its high prevalence, incontinence is often underrecognized. Patients may find it embarrassing to raise the issue or they regard it as a normal aspect of aging. Urinary incontinence has been associated with depressive symptoms in older adults and is a major factor in nursing home placement. Moreover, effective treatments are available for incontinence. As a result, screening for urinary incontinence has been recognized as an indicator of quality of care.
+### Urinary Incontinence
+
+Urinary incontinence is common and estimated to affect 11% to 34% of older men and 17% to 55% of older women. Despite its high prevalence, incontinence is often underrecognized. Patients may find it embarrassing to raise the issue or they regard it as a normal aspect of aging. Urinary incontinence has been associated with depressive symptoms in older adults and is a major factor in nursing home placement. Moreover, effective treatments are available for incontinence. As a result, screening for urinary incontinence has been recognized as an indicator of quality of care.
 
 Screening for urinary incontinence can be done with two questions: (1) “In the last year, have you ever lost your urine and gotten wet?” and if so, (2) “Have you lost urine on at least six separate days?” In a research setting, those who answered positive to both questions had high rates (79% for women and 76% for men) of urinary incontinence as determined by a clinician’s evaluation (see Chapter 47).
 
@@ -110,7 +120,9 @@ The Women’s Preventative Screening Initiative (WPSI) recommends annual screeni
 
 *Table 8-2 — printed p. 120.*
 
-Balance and Gait Impairments and Falling Over one-third of community-dwelling persons older than 65 fall every year. Falls are independently associated with functional and mobility decline.
+### Balance and Gait Impairments and Falling
+
+Over one-third of community-dwelling persons older than 65 fall every year. Falls are independently associated with functional and mobility decline.
 
 Three screening questions, administered at the initial visit and annually, can identify older persons at subsequent risk for injurious falls: “Have you fallen and hurt yourself in the past year?”, “Have you fallen two or more times in the past year?” (the best predictor of falls-related injury), and “Do you fear falling because of balance or gait?” The Centers for Disease Control and Prevention’s 12-item Stay Independent Questionnaire (http://proptrehab.com/wp-content/uploads/2018/09/ document9.pdf) is also a useful screening tool.
 
@@ -128,11 +140,15 @@ Observing patients walking and performing balance maneuvers best assesses balanc
 
 chair stands; side-by-side, semi-tandem, and full-tandem stance; and gait speed to calculate a summary score that assesses quadriceps strength, balance, and gait speed.
 
-Polypharmacy (See Also Chapter 22) Polypharmacy in older patients is associated with adverse drug reactions, reduced adherence, and inappropriate medication usage. Older persons often receive care from multiple providers and fill prescriptions at several pharmacies. Patients should be instructed to bring in all current medications—both prescription and nonprescription medications—to each visit for a thorough medication reconciliation and to check for potential drug-drug interactions.
+### Polypharmacy (See Also Chapter 22)
+
+Polypharmacy in older patients is associated with adverse drug reactions, reduced adherence, and inappropriate medication usage. Older persons often receive care from multiple providers and fill prescriptions at several pharmacies. Patients should be instructed to bring in all current medications—both prescription and nonprescription medications—to each visit for a thorough medication reconciliation and to check for potential drug-drug interactions.
 
 Given the burden of complex comorbid disease in many older adults, it is important to balance guidelines for chronic disease management with the individual’s goals of care, as well as risk factors for adverse drug events such as cognitive impairment, frailty, and renal impairment. <span id="ch8-polypharmacy" data-reader-metadata="exam"></span>A “prescribing cascade” can occur when additional pharmacotherapy is initiated to treat side effects of a prescription. Each new symptom should prompt a medication review and a trial of discontinuation of the suspected agent. The Beer’s Criteria has been developed and periodically updated by the American Geriatrics Society to assist clinicians with identifying and avoiding potentially inappropriate medications for the older adults.
 
-<span id="ch8-cognitive" data-reader-metadata="exam"></span>Cognitive Assessment Because the prevalence of Alzheimer disease, other dementias, and cognitive impairment rises considerably with advancing age, the yield of screening for cognitive impairment increases with age. Although in 2020, the USPSTF concluded that there is insufficient evidence on the balance of benefits and harms of screening for cognitive impairment, clinicians should assess cognition when there is suspicion of impairment or when conducting a Medicare Annual Wellness Visit. Several screens are available for clinical use (Table 8-4) and some can be performed in 5 minutes or less (eg, the Mini-Cog, which combines threeitem recall and clock drawing; the Memory Impairment Screen [MIS]; and the General Practitioner Assessment of Cognition [GPCOG]). Longer screens that are commonly used include the Mini-Mental State Examination (MMSE), which takes 7 to 10 minutes to administer and must be purchased for use, the Montreal Cognitive Assessment (MoCA), which takes 10 to 15 minutes to administer and requires paid certification, and the Rowland Universal Dementia Assessment Scale (RUDAS), which takes 10 minutes to administer. Although normal results on these tests vastly reduce the probability of dementia and abnormal results increase the likelihood that the patient has dementia, these tests are not diagnostic for dementia and normal results do not exclude the possibility of this disorder. Patients who have abnormal findings on a cognitive screening test should
+### <span id="ch8-cognitive" data-reader-metadata="exam"></span>Cognitive Assessment
+
+Because the prevalence of Alzheimer disease, other dementias, and cognitive impairment rises considerably with advancing age, the yield of screening for cognitive impairment increases with age. Although in 2020, the USPSTF concluded that there is insufficient evidence on the balance of benefits and harms of screening for cognitive impairment, clinicians should assess cognition when there is suspicion of impairment or when conducting a Medicare Annual Wellness Visit. Several screens are available for clinical use (Table 8-4) and some can be performed in 5 minutes or less (eg, the Mini-Cog, which combines threeitem recall and clock drawing; the Memory Impairment Screen [MIS]; and the General Practitioner Assessment of Cognition [GPCOG]). Longer screens that are commonly used include the Mini-Mental State Examination (MMSE), which takes 7 to 10 minutes to administer and must be purchased for use, the Montreal Cognitive Assessment (MoCA), which takes 10 to 15 minutes to administer and requires paid certification, and the Rowland Universal Dementia Assessment Scale (RUDAS), which takes 10 minutes to administer. Although normal results on these tests vastly reduce the probability of dementia and abnormal results increase the likelihood that the patient has dementia, these tests are not diagnostic for dementia and normal results do not exclude the possibility of this disorder. Patients who have abnormal findings on a cognitive screening test should
 
 <a id="p122"></a>**[p. 122]**
 
@@ -150,11 +166,15 @@ periodically because older persons are especially prone to develop delirium duri
 
 baseline and the clinical situation. The Confusion Assessment Method, which has an Intensive Care Unit version, provides a guide to interpreting such changes and assesses acute change or fluctuating course, inattention, disorganized thinking, and altered level of consciousness. The Ultra Brief two-item bedside screen asks patients to list the days of the week backward and what day of the week it is. Older persons who develop delirium should have their cognition reassessed several weeks later (see Chapter 58).
 
-<span id="ch8-mood" data-reader-metadata="exam"></span>Affective Assessment (See Also Chapter 65) Major depression and other affective disorders are common among the older persons and are likely underdiagnosed owing to underreported symptoms, atypical presentations, or comorbid cognitive impairment or other neurologic diseases such as Parkinson disease. These treatable disorders are associated with increased disability, health care utilization, morbidity, and mortality, and decreased quality of life. A brief two-item screening inquiry, the Patient Health Questionnaire-2 (PHQ-2), asks about the frequency of depressed mood and anhedonia over the past 2 weeks, and, if positive, can prompt further screening by completing the full nine-item survey, PHQ-9. The PHQ-9 is commonly used to detect and monitor depression symptoms in older adults and provides a reliable and valid measure of depression severity. A score of more than 10 has a sensitivity of 88% and a specificity of 88% for major depression. In patients with underlying cognitive impairment who may lack insight into their mood, caregivers can be asked to complete the Cornell Depression Scale for Dementia. A score of greater than or equal to 6 has a sensitivity of 93% and a specificity of 97% for depression in dementia.
+### <span id="ch8-mood" data-reader-metadata="exam"></span>Affective Assessment (See Also Chapter 65)
+
+Major depression and other affective disorders are common among the older persons and are likely underdiagnosed owing to underreported symptoms, atypical presentations, or comorbid cognitive impairment or other neurologic diseases such as Parkinson disease. These treatable disorders are associated with increased disability, health care utilization, morbidity, and mortality, and decreased quality of life. A brief two-item screening inquiry, the Patient Health Questionnaire-2 (PHQ-2), asks about the frequency of depressed mood and anhedonia over the past 2 weeks, and, if positive, can prompt further screening by completing the full nine-item survey, PHQ-9. The PHQ-9 is commonly used to detect and monitor depression symptoms in older adults and provides a reliable and valid measure of depression severity. A score of more than 10 has a sensitivity of 88% and a specificity of 88% for major depression. In patients with underlying cognitive impairment who may lack insight into their mood, caregivers can be asked to complete the Cornell Depression Scale for Dementia. A score of greater than or equal to 6 has a sensitivity of 93% and a specificity of 97% for depression in dementia.
 
 **Using the Cornell scale.** The clinician assigns the 19 ratings after interviewing the patient and an informant, such as a caregiver or nurse who knows the patient well. [Original Cornell Scale for Depression in Dementia](https://pubmed.ncbi.nlm.nih.gov/3337862/)
 
-Assessment of Function Measurement of functional status is an essential component of the assessment of older persons. The patient’s ability to function can be viewed as a summary measure of the overall impact of health conditions in the context of his or her environment and social support system. In older persons, the ability to function consistent with their personal lifestyle values should be an important consideration in all care planning. Therefore, changes in functional status should prompt further diagnostic evaluation and intervention. An early indicator of impending functional disability is self-perceived difficulty with performing functional tasks. Measurement of functional status is also valuable in monitoring response to treatment and may provide prognostic information that will help plan for long-term care.
+### Assessment of Function
+
+Measurement of functional status is an essential component of the assessment of older persons. The patient’s ability to function can be viewed as a summary measure of the overall impact of health conditions in the context of his or her environment and social support system. In older persons, the ability to function consistent with their personal lifestyle values should be an important consideration in all care planning. Therefore, changes in functional status should prompt further diagnostic evaluation and intervention. An early indicator of impending functional disability is self-perceived difficulty with performing functional tasks. Measurement of functional status is also valuable in monitoring response to treatment and may provide prognostic information that will help plan for long-term care.
 
 <span id="ch8-function" data-reader-metadata="exam"></span>Functional status can be assessed at three levels: basic activities of daily living (BADLs), instrumental or intermediate activities of daily living (IADLs), and advanced activities of daily living (AADLs). BADLs refer to self-care tasks such as bathing, dressing, toileting, continence, grooming, feeding, and transferring. Instrumental activities of daily living refer to the ability to maintain an independent
 
@@ -164,7 +184,9 @@ Questions that ask about specific BADL and IADL functions have also been incorpo
 
 Physical function can also be assessed by directly observing the performance of functional tasks. Instruments have been developed for use in ambulatory, nursing home, and hospital settings, and predictive validity has been demonstrated for many. Some studies have demonstrated that combining self-reported functional with performance-based measures can provide more refined prognostic information than either method alone.
 
-Frailty Frailty is a clinical syndrome where dysregulation of multiple physiologic systems reaches a critical threshold which results in a physiologic state of heightened vulnerability. Frailty has been conceptualized as physical (phenotypic or syndromic) or as deficit accumulation (due to cumulative comorbidities). Frail patients are at higher risk of adverse clinical outcomes including falls, fractures, hospitalizations, surgical complications, disability and dependency, and mortality.
+### Frailty
+
+Frailty is a clinical syndrome where dysregulation of multiple physiologic systems reaches a critical threshold which results in a physiologic state of heightened vulnerability. Frailty has been conceptualized as physical (phenotypic or syndromic) or as deficit accumulation (due to cumulative comorbidities). Frail patients are at higher risk of adverse clinical outcomes including falls, fractures, hospitalizations, surgical complications, disability and dependency, and mortality.
 
 More than 60 frailty instruments have been developed and used for a variety of purposes, most commonly for risk assessment for adverse clinical outcomes. These instruments variably assess the following domains: physical function/ disability, physical activity, cognition, comorbidity, weight loss, and other domains (eg, social, sensory, demographic). The Clinical Frailty Scale (CFS) (Figure 8-2) is an effective and rapid way to assess frailty in older adults. There are nine levels of functionality described ranging from “very fit” or level 1 to “terminally ill” or level 9. The CFS utilizes criteria such as activity levels, ADL/IADL dependence, and life expectancy. Other commonly used instruments include the Physical Frailty Phenotype (Table 8-5) and the Vulnerable Elders Survey-13 (Table 8-6).
 
@@ -176,11 +198,15 @@ Effective preventative strategies for decreasing frailty have been identified in
 
 *Figure 8-2 — printed p. 124.*
 
-Assessment of Social Support The composition of the older patient’s social support structure can be assessed by asking about their relationships, such as with family, friends, neighbors, and caregivers, as well as the quality of these relationships in the social history. For frail older persons, the availability of assistance from family and friends is frequently the determining factor of whether a functionally dependent older person remains at home or is institutionalized. If dependency is noted during functional assessment, then the clinician should inquire as to who provides help for specific BADL and IADL functions and whether these persons are paid or voluntary help. Even in healthier older persons, it is valuable to raise the question of who would be available to help if the patient becomes ill. Early identification of social support needs may prompt planning to develop resources when the necessity arises. For vulnerable older adults, clinicians should be mindful of signs of elder abuse, neglect, or exploitation, and if suspected, are mandated to report cases to Adult Protective Services.
+### Assessment of Social Support
+
+The composition of the older patient’s social support structure can be assessed by asking about their relationships, such as with family, friends, neighbors, and caregivers, as well as the quality of these relationships in the social history. For frail older persons, the availability of assistance from family and friends is frequently the determining factor of whether a functionally dependent older person remains at home or is institutionalized. If dependency is noted during functional assessment, then the clinician should inquire as to who provides help for specific BADL and IADL functions and whether these persons are paid or voluntary help. Even in healthier older persons, it is valuable to raise the question of who would be available to help if the patient becomes ill. Early identification of social support needs may prompt planning to develop resources when the necessity arises. For vulnerable older adults, clinicians should be mindful of signs of elder abuse, neglect, or exploitation, and if suspected, are mandated to report cases to Adult Protective Services.
 
 During the COVID-19 pandemic, social isolation played a more profound role in decreasing the quality of life, increasing mood symptoms, and worsening cognitive function of many older adults. While widespread adoption of a single tool for assessing for social isolation has not been applied clinically, research tools including the Lubben Social Network Scale (12-item instrument to assess for social isolation in older adults) as well as the UCLA Loneliness Scale (20-item scale designed to measure feelings of loneliness and social isolation) can be considered. However, the time needed to administer these tools has limited their widespread use in clinical medicine.
 
-Economic Assessment Many older adults live on fixed incomes, and the rising costs of medical expenses coupled with that of paid caregivers and residential facilities can cause financial hardship that may manifest as medication nonadherence, weight loss, or the appearance of self-neglect. Although some
+### Economic Assessment
+
+Many older adults live on fixed incomes, and the rising costs of medical expenses coupled with that of paid caregivers and residential facilities can cause financial hardship that may manifest as medication nonadherence, weight loss, or the appearance of self-neglect. Although some
 
 <a id="p125"></a>**[p. 125]**
 
@@ -194,7 +220,9 @@ Furthermore, insurance status is routinely collected by office staff and a patie
 
 families to provide anticipatory guidance regarding the resources that may be required to pay for care at home or in a residential facility.
 
-Environmental Assessment Environmental assessment encompasses two dimensions, the safety of the home environment and the adequacy of the patient’s access to needed personal and medical services. Particularly among frail individuals and those with mobility and balance problems, the home environment should be assessed for safety with particular attention
+### Environmental Assessment
+
+Environmental assessment encompasses two dimensions, the safety of the home environment and the adequacy of the patient’s access to needed personal and medical services. Particularly among frail individuals and those with mobility and balance problems, the home environment should be assessed for safety with particular attention
 
 <a id="p126"></a>**[p. 126]**
 
@@ -202,15 +230,19 @@ Environmental Assessment Environmental assessment encompasses two dimensions, th
 
 *Table 8-6 — printed p. 126.*
 
-to fall risk. Although most physicians do not personally conduct environmental assessments, the Centers for Disease Control and Prevention has developed a home safety checklist ([https://www.cdc.gov/steadi/pdf/check_for](<https://stacks.cdc.gov/view/cdc/59197>)_ safety_brochure-a.pdf) that patients and their families can complete. For those receiving home health services, in-home safety inspections can be performed, including recommendations for installation of adaptive devices such as shower bars and raised toilet seats. The benefits of such services was further supported by the CAPABLE trial, which showed that home visits provided by occupational therapists and registered nurses and home modifications to address functional goals led to decreases in disability in low-income community-dwelling older adults compared to those who received home visits solely for social purposes by a research assistant.
+to fall risk. Although most physicians do not personally conduct environmental assessments, the Centers for Disease Control and Prevention has developed a home safety checklist ([https://www.cdc.gov/steadi/pdf/check_for_safety_brochure-a.pdf](<https://stacks.cdc.gov/view/cdc/59197>)) that patients and their families can complete. For those receiving home health services, in-home safety inspections can be performed, including recommendations for installation of adaptive devices such as shower bars and raised toilet seats. The benefits of such services was further supported by the CAPABLE trial, which showed that home visits provided by occupational therapists and registered nurses and home modifications to address functional goals led to decreases in disability in low-income community-dwelling older adults compared to those who received home visits solely for social purposes by a research assistant.
 
 Older persons who begin to develop IADL dependencies should be evaluated for the geographic proximity of necessary services such as grocery shopping and banking, their need for use of such services, and their ability to use these services in their current living situations. Increasingly, some of these services are available online though many older persons, particularly those who are frail, do not feel comfortable using the Internet to purchase services. Older drivers are at increased risk for motor vehicle accidents secondary to functional impairments, medications, and medical conditions. The National Highway Traffic Safety Administration
 
-(NHTSA) has produced materials to help physicians talk with older drivers about safe driving ([https://www.nhtsa](<https://www.nhtsa.gov/road-safety/older-drivers>) .gov/road-safety/older-drivers).
+(NHTSA) has produced materials to help physicians talk with older drivers about safe driving ([https://www.nhtsa.gov/road-safety/older-drivers](<https://www.nhtsa.gov/road-safety/older-drivers>)).
 
-Spirituality Spirituality, whether affiliated with a formal religious denomination or nonreligious intangible elements, has been recognized as an important influence on health and quality of life. Frequent attendance of religious services has been associated with lower health care utilization and mortality rates. Formal instruments for assessing spirituality have been developed, such as the FICA or the HOPE questions for spiritual assessment, but these are not widely used in clinical practice. Simply asking older persons whether religion or spirituality is important to them may provide insights that may tailor their individual care. Especially in hospital settings, involvement of pastoral care may be valuable in supporting the patient and in framing medical decisions in the context of the patient’s personal belief system.
+### Spirituality
 
-Goals of Care and Advance Directives Although goals of care and advance directives both solicit patient preferences, they are conceptually different. Goals of care are patient-directed wishes for either a state of wellbeing to be attained (eg, sleep through the night without being awakened by pain) or maintained (eg, continue volunteer work) or specific accomplishments (eg, being able to
+Spirituality, whether affiliated with a formal religious denomination or nonreligious intangible elements, has been recognized as an important influence on health and quality of life. Frequent attendance of religious services has been associated with lower health care utilization and mortality rates. Formal instruments for assessing spirituality have been developed, such as the FICA or the HOPE questions for spiritual assessment, but these are not widely used in clinical practice. Simply asking older persons whether religion or spirituality is important to them may provide insights that may tailor their individual care. Especially in hospital settings, involvement of pastoral care may be valuable in supporting the patient and in framing medical decisions in the context of the patient’s personal belief system.
+
+### Goals of Care and Advance Directives
+
+Although goals of care and advance directives both solicit patient preferences, they are conceptually different. Goals of care are patient-directed wishes for either a state of wellbeing to be attained (eg, sleep through the night without being awakened by pain) or maintained (eg, continue volunteer work) or specific accomplishments (eg, being able to
 
 <a id="p127"></a>**[p. 127]**
 
@@ -218,7 +250,9 @@ walk again after a stroke). Goals may be short term or long term but should be r
 
 In contrast, advance directives focus on wishes for care in the context of serious, usually acute, illness. An Advance Health Care Directive enables patients to ensure that their health care wishes are known in advance and considered if for any reason they are unable to speak for themselves. It also allows a patient to appoint a Durable Power of Attorney, or health care proxy, who will have legal authority to make health care decisions in the event that patient is incapacitated or whereupon the patient grants such authority. Discussions of advance directives are especially important for older patients and should be initiated early on, to discuss the patients’ goals and preferences for care should they experience progressive cognitive impairment or acute illness. Physicians can assist patients by focusing on patients’ overall goals of care, rather than specific detailed interventions, and incorporating these goals into the patients’ current clinical situation. A particularly important time to discuss such preferences is prior to surgery because of the possibility of surgical complications or postoperative delirium, which may preclude discussions following the procedure. Such discussions should be revisited any time there are significant changes in a patient’s medical condition and a better understanding about prognosis becomes available, as patients often revise their thoughts about the burdens and benefits of treatment. Cultural differences regarding preferences for advance directives and end-of-life care should be recognized and respected. Overall, patients are receptive and grateful for discussion of their goals and preferences for care, and increasingly advanced directive counseling discussions have been incentivized and recognized in quality of care measures, with various tools being developed to support advanced care planning in practice. Online tools, such as prepareforyourcare.org, have also allowed patients and families to take a proactive approach to reflecting on their goals and wishes.
 
-A Strategic Approach to Geriatric Assessment Much of the information needed to assess older persons can be obtained from old records, other professional or nonprofessional staff, or by self-report from patients or family members completing forms, rather than from direct clinician interview. This efficiency allows the clinician to spend more time following up on issues that are detected, conducting the physical examination, discussing treatment, and providing health education.
+### A Strategic Approach to Geriatric Assessment
+
+Much of the information needed to assess older persons can be obtained from old records, other professional or nonprofessional staff, or by self-report from patients or family members completing forms, rather than from direct clinician interview. This efficiency allows the clinician to spend more time following up on issues that are detected, conducting the physical examination, discussing treatment, and providing health education.
 
 Pre-visit questionnaires can be completed by the patient or proxy before the clinical encounter. These questionnaires typically gather information on past medical history, medications, preventive measures, and functional status, including information on who helps when the patient is functionally dependent. As a result, they can markedly reduce the time needed to conduct an initial assessment and can ensure a consistent level of comprehensiveness for every patient. By including validated screening instruments, they can also be used to case-find individuals with common geriatric syndromes. With the advance of technology and electronic health records, there is the potential for patients, families, or caregivers to complete such questionnaires electronically, and the information obtained can be seamlessly integrated into the electronic health record.
 
@@ -228,7 +262,9 @@ One approach integrates screening for geriatric conditions into the office workf
 
 This approach to increasing efficiency can be applied to many geriatric conditions. Table 8-7 shows a strategy that optimizes the clinician’s time by employing the most efficient methods to obtain assessment information. The initial step provides the clinician with basic information that can quickly be processed and followed with more extensive data gathering, when appropriate. Such a strategy begins with the pre-visit questionnaire and then is supplemented by information obtained by office staff. These two data sources are reviewed by the clinician and additional information is obtained from the patient and family at the time of the visit.
 
-Telehealth During the COVID-19 pandemic, most health care systems transitioned to telehealth services to continue providing care for older patients while decreasing their potential exposure to the virus. In 1 year, telehealth services increased by over 20% among older adults including telephone calls,
+### Telehealth
+
+During the COVID-19 pandemic, most health care systems transitioned to telehealth services to continue providing care for older patients while decreasing their potential exposure to the virus. In 1 year, telehealth services increased by over 20% among older adults including telephone calls,
 
 <a id="p128"></a>**[p. 128]**
 
@@ -270,7 +306,9 @@ assessments are conducted at different locations on different days, and conferen
 
 Traditionally, the various components of the evaluation are completed by different members of the team. There is considerable variability in which professional conducts the assessments. For example, the medical assessment of older persons may be conducted by a physician, nurse practitioner, or physician’s assistant. The core team may conduct only brief initial assessments or screens for some dimensions. These may be subsequently augmented with more in-depth evaluations by additional professionals. For example, a dietitian may be needed to assess dietary intake and provide recommendations; an audiologist may need to conduct a more extensive assessment of hearing loss and evaluate an older person for a hearing aid.
 
-Components of Comprehensive Geriatric Assessment The process of care rendered by CGA teams can be divided into six key elements: (1) data gathering; (2) discussion among the team; (3) development of a treatment plan; (4) implementation of the treatment plan; (5) monitoring response to the treatment plan; and (6) revising the treatment plan.
+### Components of Comprehensive Geriatric Assessment
+
+The process of care rendered by CGA teams can be divided into six key elements: (1) data gathering; (2) discussion among the team; (3) development of a treatment plan; (4) implementation of the treatment plan; (5) monitoring response to the treatment plan; and (6) revising the treatment plan.
 
 Data gathering Standardized assessments can either use instruments developed specifically for clinical purposes or assemble standard instruments that have previously been studied for validity and reliability. The advantage of the former is that teams can customize the information being gathered to best suit the clinical needs of the program. The advantage of the latter is that patients in the program can be compared to those in other programs. Frequently, however, these instruments were developed for research purposes and may not provide information that is helpful in the care of patients.
 
@@ -292,25 +330,37 @@ Implementation of the Treatment Plan Options for implementation are available an
 
 Revising the treatment plan By monitoring the patient, CGA teams can continually assess the patient’s progress toward meeting the goals established by the team. If progress is not proceeding according to expectations, the team may need to reevaluate the patient and resume the team discussion. Treatment recommendations and implementation plans may need to be revised. Again, engaging the patient is important as readiness to change or the patient’s goals may have changed. Any modifications require additional monitoring.
 
-Effectiveness of Comprehensive Geriatric Assessment In virtually all studies of CGA, the process has resulted in improved detection and documentation of geriatric problems. However, such identification of problems has not always led to improved outcomes. Meta-analysis has been used to evaluate models of CGA in several settings.
+### Effectiveness of Comprehensive Geriatric Assessment
 
-Inpatient Units and Services Geriatric Evaluation and Management Units (GEMUs), also referred to as Acute Care of the Elderly (ACE) units, are designed to be environment friendly to older persons. Two main benefits of these units are: (1) physicians staffing the unit generally assume primary care of the patient, thus facilitating the implementation of recommendations; and (2) the availability and experience of a dedicated team of providers (eg, nurses and therapists) increase the consistency and geriatric orientation of hospital and post-acute care. Similar in concept to Cardiac Care Units (CCUs) and Stroke Units, these units assemble resources for a specific patient population. A meta-analysis of 29 trials published through 2016 found that recipients of care on inpatient units were slightly more likely (relative risk [RR] 1.06) to be living at home and less likely to be admitted to a nursing home (RR 0.80) at 3 to 12 months compared to usual care. There were benefits on mortality, functional dependence, cognitive function, or length of stay in the hospital. Of note, earlier studies demonstrated more favorable outcomes than more recent studies suggesting that usual care for older persons in the hospital may be improving. Some programs have attempted to recreate the core elements of ACE units for hospitalized older persons who are not located on a single unit (mobile ACE services) due to logistical barriers of a dedicated physical unit.
+In virtually all studies of CGA, the process has resulted in improved detection and documentation of geriatric problems. However, such identification of problems has not always led to improved outcomes. Meta-analysis has been used to evaluate models of CGA in several settings.
+
+### Inpatient Units and Services
+
+Geriatric Evaluation and Management Units (GEMUs), also referred to as Acute Care of the Elderly (ACE) units, are designed to be environment friendly to older persons. Two main benefits of these units are: (1) physicians staffing the unit generally assume primary care of the patient, thus facilitating the implementation of recommendations; and (2) the availability and experience of a dedicated team of providers (eg, nurses and therapists) increase the consistency and geriatric orientation of hospital and post-acute care. Similar in concept to Cardiac Care Units (CCUs) and Stroke Units, these units assemble resources for a specific patient population. A meta-analysis of 29 trials published through 2016 found that recipients of care on inpatient units were slightly more likely (relative risk [RR] 1.06) to be living at home and less likely to be admitted to a nursing home (RR 0.80) at 3 to 12 months compared to usual care. There were benefits on mortality, functional dependence, cognitive function, or length of stay in the hospital. Of note, earlier studies demonstrated more favorable outcomes than more recent studies suggesting that usual care for older persons in the hospital may be improving. Some programs have attempted to recreate the core elements of ACE units for hospitalized older persons who are not located on a single unit (mobile ACE services) due to logistical barriers of a dedicated physical unit.
 
 **Evidence clarification (p. 130).** The cited 29-trial review found that more older adults who received inpatient CGA were alive and at home at follow-up, and fewer entered a nursing home. Mortality and dependence considered separately showed little or no difference. [Ellis et al., Cochrane review, main results](https://doi.org/10.1002/14651858.CD006211.pub3)
 
 <span id="ch8-hip-fracture" data-reader-metadata="exam"></span>Outside of the traditional geriatric units, many of the principles of CGA have been integrated into comanagement models. These models usually involve a geriatrician and a surgeon who share responsibility and decision making. In a meta-analysis of eight randomized trials, geriatric comanagement programs for older patients with hip fractures have shown reduced discharges to an increased level of care compared to their pre-hospitalization living situation. There was a nonsignificant trend for reduction of inpatient mortality. In another meta-analysis of 12 studies, the comanagement model had reduced length of stay and fewer complications; however, the evidence was considered to be low quality.
 
-<span id="ch8-readmission" data-reader-metadata="exam"></span>Posthospital Discharge Assessment and Management Studies of CGA have found inconsistent benefits for posthospital discharge programs. In one randomized trial of posthospitalization, patients who received CGA versus usual care did not show any differences in reducing functional decline, post-discharge acute care visits, or depression after 24 weeks. However, patients assigned to the intervention group were less likely to be readmitted to the hospital. A systematic review found that many of the components of CGA
+### <span id="ch8-readmission" data-reader-metadata="exam"></span>Posthospital Discharge Assessment and Management
+
+Studies of CGA have found inconsistent benefits for posthospital discharge programs. In one randomized trial of posthospitalization, patients who received CGA versus usual care did not show any differences in reducing functional decline, post-discharge acute care visits, or depression after 24 weeks. However, patients assigned to the intervention group were less likely to be readmitted to the hospital. A systematic review found that many of the components of CGA
 
 <a id="p131"></a>**[p. 131]**
 
 were parts of care transition interventions that were effective in reducing rehospitalizations and emergency department visits. CGA programs for patients discharged to home from the emergency department were found to be effective at reducing emergency room visits and hospital admissions.
 
-Outpatient CGA The evidence for outpatient CGA has been inconsistent. Some individual studies have shown benefit on quality of care and functional decline. There have not been benefits on hospitalization and nursing home placement. Moreover, a meta-analysis of controlled trials found no benefit of outpatient CGA on survival.
+### Outpatient CGA
 
-In-Home Assessment Home assessment programs are a variation of CGA that focus primarily on preventive rather than rehabilitative services and are aimed at patients at low rather than high risk of nursing home admission. Multiple meta-analyses have found home assessments to be consistently effective in reducing functional decline (if a clinical examination is performed) as well as overall mortality among younger patients (73–78 years).
+The evidence for outpatient CGA has been inconsistent. Some individual studies have shown benefit on quality of care and functional decline. There have not been benefits on hospitalization and nursing home placement. Moreover, a meta-analysis of controlled trials found no benefit of outpatient CGA on survival.
 
-Lessons Learned From Comprehensive Geriatric Assessment Despite unresolved issues regarding the effectiveness of CGA, the principles of CGA have been incorporated into a number of programs that have been demonstrated to be effective. These models adopt various components of CGA including targeting, assessment, and interventions.
+### In-Home Assessment
+
+Home assessment programs are a variation of CGA that focus primarily on preventive rather than rehabilitative services and are aimed at patients at low rather than high risk of nursing home admission. Multiple meta-analyses have found home assessments to be consistently effective in reducing functional decline (if a clinical examination is performed) as well as overall mortality among younger patients (73–78 years).
+
+### Lessons Learned From Comprehensive Geriatric Assessment
+
+Despite unresolved issues regarding the effectiveness of CGA, the principles of CGA have been incorporated into a number of programs that have been demonstrated to be effective. These models adopt various components of CGA including targeting, assessment, and interventions.
 
 CGA with geriatric comanagement of frail patients on nongeriatric inpatient units has shown some promise with meta-analyses demonstrating decreased length of stay and improved functional status with geriatric comanagement of frail patients on nongeriatric wards. In addition, <span id="ch8-oncology" data-reader-metadata="exam"></span>CGA has been adapted to specialty treatment of older persons including oncology, cardiology, emergency department post-discharge management, inpatient orthopedic care, and the preoperative evaluation of older patients. As an example, CGA has been applied to patients with aortic stenosis undergoing evaluation for transcatheter aortic valve replacement (TAVR) and cancer patients undergoing chemotherapy. Elements of CGA have also been incorporated into disease management programs, including stroke and heart failure.
 
@@ -322,52 +372,43 @@ Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in t
 
 ## FURTHER READING
 
-Borneman T, Ferrell B, Puchalski CM. Evaluation of the
 
-FICA tool for spiritual assessment. J Pain Symptom Manage. 2010;40:163. Boureau AS, Trochu JN, Colliard C, et al. Determinants in treat-
+- Borneman T, Ferrell B, Puchalski CM. Evaluation of the FICA tool for spiritual assessment. J Pain Symptom Manage. 2010;40:163.
 
-ment decision-making in older patients with symptomatic severe aortic stenosis. Maturitas. 2015; 82(1):128–133. Brown JS, Bradley CS, Subak LL, et al. The sensitivity
+- Boureau AS, Trochu JN, Colliard C, et al. Determinants in treatment decision-making in older patients with symptomatic severe aortic stenosis. Maturitas. 2015; 82(1):128–133.
 
-and specificity of a simple test to distinguish between urge and stress urinary incontinence. Ann Intern Med. 2006;144(10):715–723. Buta BJ, Walston JD, Godino JG, et al. Frailty assessment
+- Brown JS, Bradley CS, Subak LL, et al. The sensitivity and specificity of a simple test to distinguish between urge and stress urinary incontinence. Ann Intern Med. 2006;144(10):715–723.
 
-instruments: systematic characterization of the uses and contexts of highly-cited instruments. Ageing Res Rev. 2016;26:53–61.
+- Buta BJ, Walston JD, Godino JG, et al. Frailty assessment instruments: systematic characterization of the uses and contexts of highly-cited instruments. Ageing Res Rev. 2016;26:53–61.
 
-Chou R, Dana T, Bougatsos C, Fleming C, Beil TSO.
+- Chou R, Dana T, Bougatsos C, Fleming C, Beil TSO. Screening adults aged 50 years or older for hearing loss: a review of the evidence for the U.S. Preventive Services Task Force. Ann Intern Med. 2011;154(5):347.
 
-Screening adults aged 50 years or older for hearing loss: a review of the evidence for the U.S. Preventive Services Task Force. Ann Intern Med. 2011;154(5):347. Crossland MD, Dekker TM, Hancox J, Lisi M, Wemyss TA,
+- Crossland MD, Dekker TM, Hancox J, Lisi M, Wemyss TA, Thomas PBM. Evaluation of a home-printable vision screening test for telemedicine. JAMA Ophthalmol. 2021;139(3):271–277.
 
-Thomas PBM. Evaluation of a home-printable vision screening test for telemedicine. JAMA Ophthalmol. 2021;139(3):271–277. Deschodt M, Flamaing J, Haentjens P, Boonen S,
+- Deschodt M, Flamaing J, Haentjens P, Boonen S, Milisen K. Impact of geriatric consultation teams on clinical outcome in acute hospitals: a systematic review and meta-analysis. BMC Med. 2013;11:48.
 
-Milisen K. Impact of geriatric consultation teams on clinical outcome in acute hospitals: a systematic review and meta-analysis. BMC Med. 2013;11:48. Eamer G, Taheri A, Chen SS, et al. Comprehensive
+- Eamer G, Taheri A, Chen SS, et al. Comprehensive geriatric assessment for older people admitted to <a id="p132"></a>**[p. 132]** a surgical service. Cochrane Database Syst Rev. 2018;1(1): CD012485.
 
-geriatric assessment for older people admitted to
+- Ellis G, Gardner M, Tsiachristas A, et al. Comprehensive geriatric assessment for older adults admitted to hospital. Cochrane Database Syst Rev. 2017;9(9):CD006211.
 
-<a id="p132"></a>**[p. 132]**
+- Fick DM, Inouye SK, Guess J, et al. Two-item bedside test for delirium. J Hosp Med. 2015;10:645–650.
 
-a surgical service. Cochrane Database Syst Rev. 2018;1(1): CD012485. Ellis G, Gardner M, Tsiachristas A, et al. Comprehensive
+- Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–156.
 
-geriatric assessment for older adults admitted to hospital. Cochrane Database Syst Rev. 2017;9(9):CD006211. Fick DM, Inouye SK, Guess J, et al. Two-item bedside test
+- Ganz DA, Latham NK. Fall prevention in communitydwelling older adults. Reply. N Engl J Med. 2020;382(26): 2581–2582.
 
-for delirium. J Hosp Med. 2015;10:645–650. Fried LP, Tangen CM, Walston J, et al. Frailty in older adults:
+- Hemmy LS, Linskens EJ, Silverman PC, et al. Brief cognitive tests for distinguishing clinical Alzheimer-type dementia from mild cognitive impairment or normal cognition in older adults with suspected cognitive impairment. Ann Intern Med. 2020;172(10):678–687.
 
-evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–156. Ganz DA, Latham NK. Fall prevention in community-
+- Jennings LA, Reuben DB, Kim SB, et al. Targeting a highrisk group for fall prevention: strategies for health plans. Am J Manag Care. 2015;21(9):e519-526.
 
-dwelling older adults. Reply. N Engl J Med. 2020;382(26): 2581–2582. Hemmy LS, Linskens EJ, Silverman PC, et al. Brief cognitive
+- Reuben DB, Jennings LA. Putting goal-oriented patient care into practice. J Am Geriatr Soc. 2019;67(7): 1342–1344.
 
-tests for distinguishing clinical Alzheimer-type dementia from mild cognitive impairment or normal cognition in older adults with suspected cognitive impairment. Ann Intern Med. 2020;172(10):678–687. Jennings LA, Reuben DB, Kim SB, et al. Targeting a high-
+- Reuben DB, Magasi S, McCreath HE, et al. Motor assessment using the NIH toolbox. Neurology. 2013;80(11 Suppl 3):S65–75.
 
-risk group for fall prevention: strategies for health plans. Am J Manag Care. 2015;21(9):e519-526.
+- Rodda J, Walker Z, Carter J. Depression in older adults. BMJ. 2011;343:d5219.
 
-Reuben DB, Jennings LA. Putting goal-oriented patient
+- Shimura T et al; OCEAN-TAVI Investigators. Impact of the Clinical Frailty Scale on outcomes after transcatheter aortic valve replacement. Circulation. 2017;135(21): 2013–2024.
 
-care into practice. J Am Geriatr Soc. 2019;67(7): 1342–1344. Reuben DB, Magasi S, McCreath HE, et al. Motor assess-
+- Szanton S, Xue QL, Leff B, et al. Effect of a biobehavioral environmental approach on disability among low-income older adults: a randomized clinical trial. JAMA Intern Med. 2019;179(2):204–211.
 
-ment using the NIH toolbox. Neurology. 2013;80(11 Suppl 3):S65–75. Rodda J, Walker Z, Carter J. Depression in older adults.
-
-BMJ. 2011;343:d5219. Shimura T et al; OCEAN-TAVI Investigators. Impact of
-
-the Clinical Frailty Scale on outcomes after transcatheter aortic valve replacement. Circulation. 2017;135(21): 2013–2024. Szanton S, Xue QL, Leff B, et al. Effect of a biobehavioral
-
-environmental approach on disability among low-income older adults: a randomized clinical trial. JAMA Intern Med. 2019;179(2):204–211. Van Grootven B, Flamaing J, Dierckx de Casterlé B, et al.
-
-Effectiveness of in-hospital geriatric co-management: a systematic review and meta-analysis. Age Ageing. 2017;46(6):903–910.
+- Van Grootven B, Flamaing J, Dierckx de Casterlé B, et al. Effectiveness of in-hospital geriatric co-management: a systematic review and meta-analysis. Age Ageing. 2017;46(6):903–910.

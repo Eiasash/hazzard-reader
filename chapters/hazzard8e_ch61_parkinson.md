@@ -488,7 +488,6 @@ Trinh J, Farrer M. Advances in the genetics of Parkinson disease. Nat Rev Neurol
 
 Williams-Gray CH, Mason SL, Evans JR, et al. The CamPaIGN study of Parkinson’s disease: 10-year outlook in an incident population-based cohort. J Neurol Neurosurg Psychiatry. 2013;84(11):1258–1264.
 
-<a id="p952"></a>**[p. 952]**
 
 ## 2026 exam: the five questions sourced to this chapter
 

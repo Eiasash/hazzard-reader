@@ -44,7 +44,6 @@ Through the collaborative efforts of The John A. Hartford Foundation (JAHF) and 
 
 *FIGURE 12-1. Age-Friendly Health Systems logo.*
 
-
 Hospital Association (AHA) and the Catholic Health Association of the United States, the AFHS initiative has had strong momentum (Figure 12-1). Already established in over 2,600 sites of care across the country, this progress indicates a willingness to adopt the 4Ms model and study the impact. The AFHS movement has the goal of reaching 25% of hospitals and primary care settings by 2025.
 
 The IHI Triple Aim is the basis for the AFHS approach that focuses on improving the patient experience of care (including quality and satisfaction), improving the health of populations; and reducing the per capita cost of health care. The four evidence-based facets of care known as the 4Ms (What Matters, Medication, Mentation, and Mobility) have evolved from the tenets of the Triple Aim.
@@ -63,7 +62,7 @@ This approach guides the care of older adults irrespective of the location of ca
 
 ### What Matters
 
-What Matters is what truly drives patient-centered care and is essential to addressing the unique needs of older adults, eliminating harm, and maximizing the efficiency of health care delivery. What Matters supports the values and activities that each person wishes to prioritize. The AFHS initiative defines What Matters as knowing and aligning care with each older adult’s specific health outcome goals and
+What Matters is what truly drives patient-centered care and is essential to addressing the unique needs of older adults, eliminating harm, and maximizing the efficiency of health care delivery. What Matters supports the values and activities that each person wishes to prioritize. The AFHS initiative defines What Matters as knowing and aligning care with each older adult’s specific health outcome goals and care preferences, including, but not limited to, end-of-life care, across settings of care.
 
 <a id="p173"></a>**[p. 173]**
 
@@ -71,23 +70,17 @@ What Matters is what truly drives patient-centered care and is essential to addr
 
 *FIGURE 12-2. 4Ms interaction. (An initiative of The John A. Hartford Foundation and the Institute for Healthcare Improvement [IHI] in partnership with the American Hospital Association [AHA] and the Catholic Health Association of the United States [CHA].)*
 
-
-care preferences, including, but not limited to, end-of-life care, across settings of care.
-
 Beyond the scope of disease-specific outcomes and survival statistics, an age-friendly infrastructure considers What Matters and consistently documents the same care priorities among health care providers, families, and patients. Shared decision-making, which directly involves the patient in the care conversation, has been shown to increase trust and satisfaction within health care systems and with care delivery, while also reducing fragmentation among clinicians and supernumerary demands on clinicians. A network-wide clinical trial conducted by a team of researchers at Yale has shown this through the utilization and analyses of patient preference data collected from three surveys, including the Treatment Burden Questionnaire (TBQ). Older patients who were given the opportunity to express what mattered to them, compared to those who received usual, unprioritized care, were more likely to have unnecessary medications deprescribed and had fewer diagnostic tests, referrals, and procedures. After being explicitly asked to identify their values-based health priorities and speaking to their primary care physicians concerning these priorities, TBQ measurements collectively demonstrated a 5-point decrease in treatment burden score after a 6-month follow-up period, compared to baseline. As connoted in the 4Ms framework, health care that prioritizes older patients’ health preferences can significantly decrease clinical harm and simultaneously have a positive impact on patient satisfaction. Table 12-1 provides a checklist for culturally appropriate “What Matters” conversations.
 
 The topic most sensitive to older adults’ wishes and priorities is decision making related to end-of-life care and serious illness. In efforts to honor the bioethical principles of autonomy and informed consent, the development of advance care planning (ACP) has been a critical aspect of What Matters in the 4Ms framework. ACP is the process of intentional solicitation of decisions from patients and families regarding their preferences for health care. If nurses, physicians, and other health care professionals ask and document decisions based on older patients’ health priorities, goals, and preferences, health systems can honor What Matters to older adults and avert potentially unwanted care. In a randomized controlled trial (RCT) conducted at a large university hospital, patients receiving formal, coordinated ACP from trained facilitators were found to have their end-of-life wishes known and respected significantly more than the control group, indicating increased patient and family satisfaction with the care provided in discharge questionnaires. Patients saw the benefits of ACP to include the informal communication of future wishes, preparation for end-of-life care and death, avoidance of prolongation of dying, strengthening of personal relationships, and relieving burdens placed on family.
 
-Documenting and incorporating What Matters information is a reliable, timely nonpharmacologic intervention that, when deployed, benefits the older adult involved and participating health systems. It enables the leveraging of interdisciplinary team resources and serves to stand as a quantifiable process measure. Beneficial care in congruence with reductions in the incidence and duration of
+Documenting and incorporating What Matters information is a reliable, timely nonpharmacologic intervention that, when deployed, benefits the older adult involved and participating health systems. It enables the leveraging of interdisciplinary team resources and serves to stand as a quantifiable process measure. Beneficial care in congruence with reductions in the incidence and duration of unwanted and avoidable hospital stays, procedures, emergency department visits, medications, etc., stand to improve quality and efficiency across the board for older adults and health systems alike.
 
 <a id="p174"></a>**[p. 174]**
 
 ![Table 12-1](hazzard8e_ch12_table-12-1_p174.webp)
 
 *TABLE 12-1 ■ CHECKLIST FOR CULTURALLY APPROPRIATE “WHAT MATTERS” CONVERSATIONS*
-
-
-unwanted and avoidable hospital stays, procedures, emergency department visits, medications, etc., stand to improve quality and efficiency across the board for older adults and health systems alike.
 
 ### Medication
 
@@ -121,7 +114,6 @@ Dementia is more prevalent with advanced age but should not be conflated with no
 
 *TABLE 12-2 ■ PRACTICE RECOMMENDATIONS FOR PERSON-CENTERED CARE FOR PEOPLE LIVING WITH DEMENTIA*
 
-
 <a id="p176"></a>**[p. 176]**
 
 In the fifth edition of the American Psychological Association’s Diagnostic and Statistical Manual of Mental Disorders (DSM-5), delirium is clinically classified as a “disturbance in attention (ie, reduced ability to direct, focus, sustain, and shift attention) and awareness (reduced orientation to the environment)...[that] develops over a short period of time (usually hours to a few days), represents an acute change from baseline attention and awareness, and tends to fluctuate in severity during the course of the day.” It is especially important to note that mental status change in delirium appears as a direct psychological consequence of another etiology, especially preexisting medical conditions (excluding dementia) and medication toxicity. While its underlying pathophysiologic mechanisms can be elusive, delirium is a dangerous clinical condition. In hospitalized patients, an episode of delirium leads to detrimental sequelae, including major complications after surgeries, prolonged length-of-stay, loss of functional autonomy, decreased cognitive abilities, and increased mortality. These effects contribute to rising costs for health systems. In all settings of care including care by family members in the home, delirium poses a frightening and dangerous situation. With advanced education and assessment skills appropriate to the setting, every care provider can detect potential signs and symptoms of delirium and get the requisite care for the older adult in a timely manner.
@@ -146,7 +138,7 @@ The value of becoming an AFHS and implementing the 4Ms framework (also referred 
 
 <a id="p177"></a>**[p. 177]**
 
-detailed in IHI’s “The Business Case for Becoming an AgeFriendly Health System.” When implemented properly, AFHS can ultimately lead to reduced hospital length of stay and fewer hospital readmissions.
+detailed in IHI’s “The Business Case for Becoming an Age-Friendly Health System.” When implemented properly, AFHS can ultimately lead to reduced hospital length of stay and fewer hospital readmissions.
 
 Annual Wellness Visits (AWV), covered by Medicare Part B since 2016, are designed to engage older adults in What Matters conversations as a part of the annual benefit. An AFHS approach can improve value by systematically using the AWV to review the 4Ms. In fact, fee-for-service claims data from 2013 to 2018 demonstrated that AWV users had a reduction in Medicare spending over 12 months. St. Vincent Medical Group (Indianapolis, IN), an institution in the Ascension system, which represents one of the five pioneering health systems that spearheaded the AFHS initiative, also demonstrated value. When revenue from ACP and associated gross benefits from AWV are considered, St. Vincent showed an annual net income of nearly $3.6 million. When asking What Matters, clinical teams enhance value for patients and families.
 
@@ -154,18 +146,17 @@ Annual Wellness Visits (AWV), covered by Medicare Part B since 2016, are designe
 
 Nonfatal falls account for almost 99% of the estimated health care costs for fatal and nonfatal falls, which amounted to a total of $50 billion in 2018. This number for just nonfatal falls was estimated at $38 billion in 2013. Beyond the key purpose of leveraging the 4Ms framework to improve quality of care, creating AFHS and ensuring that older adults can afford their medications and avoid medication overload can result in long-term savings that will benefit all sectors.
 
-Case Studies At Hartford Hospital in Connecticut, agefriendly initiatives have led to resounding impacts in value and care. The ADAPT (Actions to enhance Delirium Assessment Prevention and Treatment) program was started in 2012 as an interprofessional team effort across various disciplines and departments, with support from the hospital administration and vital resource allocation for positive reinforcement and opportunities for improvement. A delirium care pathway was developed to ensure that delirium prevention, treatment, and management remained an interprofessional priority throughout the length of an older patient’s stay and transitions. This included the implementation of delirium screenings three times a day, in addition to an initial screen. Adjunct support was provided through various means, from volunteer programs to therapeutic activities focusing on mobilization, nutrition, sleep/rest, and cognitive connection. A registry was also created for gathering data and analyzing quality outcome measures.
+Case Studies At Hartford Hospital in Connecticut, age-friendly initiatives have led to resounding impacts in value and care. The ADAPT (Actions to enhance Delirium Assessment Prevention and Treatment) program was started in 2012 as an interprofessional team effort across various disciplines and departments, with support from the hospital administration and vital resource allocation for positive reinforcement and opportunities for improvement. A delirium care pathway was developed to ensure that delirium prevention, treatment, and management remained an interprofessional priority throughout the length of an older patient’s stay and transitions. This included the implementation of delirium screenings three times a day, in addition to an initial screen. Adjunct support was provided through various means, from volunteer programs to therapeutic activities focusing on mobilization, nutrition, sleep/rest, and cognitive connection. A registry was also created for gathering data and analyzing quality outcome measures.
 
-As seen in Table 12-3, delirium was shown to have serious consequences leading to poorer health outcomes, with the length of hospital stay averaging 4 days and $8,900 for those without delirium, and 12 days and $31,284 for those with delirium. Seventy percent of those without delirium were discharged home, compared to only 30% for those with delirium. And while mortality was less than 1% for patients without delirium, it was 10% for patients with delirium. The implementation of the ADAPT program led to decreased hospital stays for delirium patients (16–10.6 days) and reduced delirium attributable days. This resulted in annual savings averaging $6.5 million from 2012 to 2019. Hartford Health care has now taken steps to scale up the program, with potential expansion to other care settings (post-acute and home care) and a focus on population health in primary care clinics for underserved communitydwelling older adults.
+As seen in Table 12-3, delirium was shown to have serious consequences leading to poorer health outcomes, with the length of hospital stay averaging 4 days and $8,900 for those without delirium, and 12 days and $31,284 for those with delirium. Seventy percent of those without delirium were discharged home, compared to only 30% for those with delirium. And while mortality was less than 1% for patients without delirium, it was 10% for patients with delirium. The implementation of the ADAPT program led to decreased hospital stays for delirium patients (16–10.6 days) and reduced delirium attributable days. This resulted in annual savings averaging $6.5 million from 2012 to 2019. Hartford Health care has now taken steps to scale up the program, with potential expansion to other care settings (post-acute and home care) and a focus on population health in primary care clinics for underserved community-dwelling older adults.
 
 ![Table 12-3](hazzard8e_ch12_table-12-3_p177.webp)
 
 *TABLE 12-3 ■ HARTFORD HOSPITAL PER-PATIENT COSTS ASSOCIATED WITH DELIRIUM<sup>a</sup>*
 
-
 Another example that has exhibited beneficial results has been Providence St. Joseph Health in Oregon, one of the original five locations chosen to take place in the development of AFHS. Beginning in 2017, changes in care included coordinating fall-risk screening and management, developing an outpatient mobility program, creating a dementia care pathway, educating clinical staff on polypharmacy and high-risk medication, and utilizing a What Matters Discussion Guide to direct communication. To implement these changes on a greater scale, Providence St. Joseph Health formed the Geriatric Mini-Fellowship in 2018, training providers at 12 primary care clinics.
 
-The training resulted in a myriad of improved outcomes at these clinics. In terms of mobility, the move toward more comprehensive and coordinated preventative measures and care led to a doubling in screening for fall risk and cognitive impairment and quadrupling of fall-risk interventions being administered. Older patients were also more likely to engage in What Matters conversations with their providers, and the prescribing of highrisk medication decreased by 3% when seen by a fellow. Finally, these clinics where providers received training on AFHS experienced a reduction of 2% to 7% in hospitalizations for patients.
+The training resulted in a myriad of improved outcomes at these clinics. In terms of mobility, the move toward more comprehensive and coordinated preventative measures and care led to a doubling in screening for fall risk and cognitive impairment and quadrupling of fall-risk interventions being administered. Older patients were also more likely to engage in What Matters conversations with their providers, and the prescribing of high-risk medication decreased by 3% when seen by a fellow. Finally, these clinics where providers received training on AFHS experienced a reduction of 2% to 7% in hospitalizations for patients.
 
 ## SUMMARY
 
@@ -187,7 +178,7 @@ Diaz-Gutierrez MJ, Martinez-Cengotitabengoa M, Saez de Adana E, et al. Relations
 
 Fazio S, Pace D, Maslow K, Zimmerman S, Kallmyer B. Alzheimer’s Association dementia care practice recommendations. Gerontologist. 2018;58(suppl_1):S1–S9.
 
-Ganz DA, Latham NK. Prevention of falls in communitydwelling older adults. N Engl J Med. 2020;382(8): 734–743.
+Ganz DA, Latham NK. Prevention of falls in community-dwelling older adults. N Engl J Med. 2020;382(8): 734–743.
 
 Hill-Taylor B, Sketris I, Hayden J, Byrne S, O’Sullivan D, Christie R. Application of the STOPP/START criteria: a systematic review of the prevalence of potentially inappropriate prescribing in older adults, and evidence of clinical, humanistic and economic impact. J Clin Pharm Ther. 2013;38(5):360–372.
 
@@ -197,7 +188,7 @@ Institute for Healthcare Improvement: Age-Friendly Health Systems: Guide to Usin
 
 Kim SK, Park M. Effectiveness of person-centered care on people with dementia: a systematic review and meta-analysis. Clin Interv Aging. 2017;12:381–397.
 
-Lown Institute: Medication Overload and Older Americans; 2020. [https://lowninstitute.org/projects/medicationoverload-how-the-drive-to-prescribe-is-harming-olderamericans/](<https://lowninstitute.org/wp-content/uploads/2019/08/medication-overload-lown-web.pdf>) [lowninstitute.org]. Accessed February 7, 2022
+Lown Institute: Medication Overload and Older Americans; 2020. [https://lowninstitute.org/projects/medication-overload-how-the-drive-to-prescribe-is-harming-older-americans/](<https://lowninstitute.org/wp-content/uploads/2019/08/medication-overload-lown-web.pdf>) [lowninstitute.org]. Accessed February 7, 2022
 
 Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum C. Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial. JAMA. 2018;320(18):1889–1898.
 

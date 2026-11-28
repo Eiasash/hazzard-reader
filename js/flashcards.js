@@ -27,8 +27,8 @@ window.HazzardFlashcards = (() => {
         const {cards}=await index(),records=gradesFor(cards);
         count=cards.filter(card=>records[card.id]&&dueDay(records[card.id])<=today).length;
       }
-    }catch{button.textContent='Flashcards due · unavailable';button.disabled=true;return;}
-    button.textContent='Flashcards due · '+count;button.disabled=count===0;
+    }catch{button.querySelector('[data-flash-due]').textContent='Unavailable';button.disabled=true;return;}
+    button.querySelector('[data-flash-due]').textContent=count+' due'+(count?'':' · Browse');button.dataset.order=count?'due':'all';button.disabled=false;
   }
   function merge(local, incoming) {
     const cards = {...local?.cards};
@@ -152,7 +152,7 @@ window.HazzardFlashcards = (() => {
       const know = session.ids.filter(id => records[id]?.grade === 'know').length;
       element('flashcardCount').textContent = session.scope === 'all' ? 'All chapters' : 'Chapter ' + session.scope;
       element('flashcardTotals').hidden=!session.ids.length;
-      element('flashcardTotals').textContent = know + ' known · ' + again + ' to practise again';
+      element('flashcardTotals').textContent = know + ' known · ' + again + ' to practice again';
       element('flashcardReviewAgain').hidden = again === 0;
       element('flashcardDone').textContent=session.ids.length?'Deck complete':session.order==='due'?'No flashcards due today':'No flashcards in this selection';
       element('flashcardRestart').hidden=!session.ids.length;
@@ -263,7 +263,7 @@ window.HazzardFlashcards = (() => {
       if(prompt!==summary)prompt.remove();answer.remove();
     }
     for(const h of copy.querySelectorAll('h2,h3,h4')){
-      if(!/^(?:recall(?:\s+drill)?|self[- ]test|quick recall)$/i.test(h.textContent.trim()))continue;
+      if(!/^(?:recall(?:\s+drill)?|self[- ]test|quick recall|תרגול(?:\s*[—–-]\s*\d+\s*שאלות)?)$/iu.test(h.textContent.trim()))continue;
       const next=h.nextElementSibling;if(!next||/^H[1-4]$/.test(next.tagName))h.remove();
     }
   }
@@ -278,8 +278,8 @@ window.HazzardFlashcards = (() => {
     openView=open;onResize=resize;
     if(chapter.endsWith('s')&&!copy.querySelector('.study-flashcards')){
       const entry=buttonFor(chapter.slice(0,-1));entry.className='study-flashcards';
-      entry.dataset.readerMetadata='flashcards';entry.textContent=chapter==='laws'?'Practise law flashcards':'Practise chapter flashcards';
-      const slot=copy.querySelector('[data-study-flashcards]');if(slot)slot.replaceWith(entry);
+      entry.dataset.readerMetadata='flashcards';entry.textContent=chapter==='laws'?'Practice law flashcards':'Practice chapter flashcards';
+      const slot=copy.querySelector('[data-study-flashcards]');if(slot){const group=slot.closest('details');if(group){group.before(entry);slot.remove();}else slot.replaceWith(entry);}
       else if(chapter==='laws'){const end=copy.querySelector('.chapter-nav');if(end)end.before(entry);else copy.append(entry);}
       else copy.querySelector('h1')?.after(entry);
       entry.hidden=true;index().then(data=>{entry.hidden=!data.chapters.has(chapter.slice(0,-1));}).catch(()=>{entry.hidden=false;});
@@ -301,7 +301,7 @@ window.HazzardFlashcards = (() => {
       '<p role="alert" id="flashcardError" hidden></p>';
     document.querySelector('main').append(pane);
     const dueButton=document.getElementById('homeFlashDue');
-    dueButton.onclick=()=>{requested={scope:'all',order:'due'};openView(dueButton);};
+    dueButton.onclick=()=>{requested={scope:'all',order:dueButton.dataset.order||'all'};openView(dueButton);};
     if(!document.querySelector('#desk')?.hidden)refreshDue();
     document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshDue();});
     addEventListener('hazzard-flashcards-change',refreshDue);

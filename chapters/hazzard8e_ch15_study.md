@@ -134,19 +134,17 @@ Fall interventions show mixed results: ED medication deprescribing alone did not
 
 Frailty denotes vulnerability to incomplete restoration of homeostasis after a stressor. The Clinical Frailty Scale appears feasible and useful for **30-day mortality** prediction, but prediction of returns/functional decline and benefit from acting on its result remain unestablished here. <a href="?chapter=15#book-table-15-4">Table 15-4</a> compares Pro-Age, CFS, APOP, interRAI, ISAR, Rowland, Runciman, Silver Code, TRST and Variables Indicative of Placement; their outcomes and accuracy vary (<a href="?chapter=15#p217">p217</a>).
 
-**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. An ED trial of deprescribing fall-risk-increasing medications did not reduce falls at a year in the ED trial, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
+**Prevent the next fall.** Once the injury is treated, look at gait, vision, standing blood pressure, medicines, footwear and the home environment. An ED trial of deprescribing fall-risk-increasing medications did not reduce falls at a year, while a different, brief individualized PT and pharmacy intervention reduced ED revisits at six months. The outcomes and follow-up intervals differ. [ED fall prevention, pp. 213–216](?chapter=15#ch15-falls).
+
+<a id="p215"></a>**[<a href="?chapter=15#p215">p. 215</a>]**
+
+Distinguish factors causing a fall from impaired protective responses and factors worsening injury. Examples: balance/vision/mobility deficits, sedating drugs and environmental hazards cause falls; poor reflexes, proprioception and core strength impair recovery; osteoporosis, cervical degeneration, cerebral atrophy, antithrombotics, reduced muscle/padding and fragile skin increase injury or the consequences of prolonged time on the floor (<a href="?chapter=15#book-figure-15-5">Figure 15-5</a>, <a href="?chapter=15#p215">p215</a>).
 
 <a id="p216"></a>**[<a href="?chapter=15#p216">p. 216</a>]**
 
 Fall prevention links emergency and inpatient care, PT/pharmacy, community programs, home modification and shared decision-making. Implementation must be assessed in real-world settings (<a href="?chapter=15#book-figure-15-6">Figure 15-6</a>, <a href="?chapter=15#p216">p216</a>).
 
 **Who can act on the findings?** Match a geriatric protocol to a person who can deliver it. EQUiPPED uses prescriber education, individual feedback and electronic decision support to improve medication safety. Observation permits reassessment of treatment response and time to obtain therapy, consultation or discharge support. These approaches can be delivered without building a separate geriatric ED. [EQUiPPED, p. 218](?chapter=15#ch15-equipped) · [Observation, p. 218](?chapter=15#ch15-observation).
-
-<a id="p215"></a>**[<a href="?chapter=15#p215">p. 215</a>]**
-
-Distinguish factors causing a fall from impaired protective responses and factors worsening injury. Examples: balance/vision/mobility deficits, sedating drugs and environmental hazards cause falls; poor reflexes, proprioception and core strength impair recovery; osteoporosis, cervical degeneration, cerebral atrophy, antithrombotics, reduced muscle/padding and fragile skin increase injury or the consequences of prolonged time on the floor (<a href="?chapter=15#book-figure-15-5">Figure 15-5</a>, <a href="?chapter=15#p215">p215</a>).
-
-<a href="?chapter=15#book-figure-15-4">Figure 15-4</a>
 
 ## Medication safety and follow-up
 

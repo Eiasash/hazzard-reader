@@ -130,7 +130,7 @@ Hazzard reports no significant reduction in **fractures (n = 5,451)** or **serio
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-172d42c25d100b9c49976bb4"><span>May 2024 Q93</span> Evidence for fall predictors</a> <a class="study-source-link" href="?chapter=43#p635" aria-label="exam reference, p635">p635</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-57c4cc79fa07a7e570f0a73b"><span>December 2021 Q63</span> Vision treatment after falls</a> <a class="study-source-link" href="?chapter=43#p636" aria-label="8e teaching passage, p636">p636</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-57c4cc79fa07a7e570f0a73b"><span>December 2021 Q63</span> Vision treatment after falls</a> <a class="study-source-link" href="?chapter=43#p639" aria-label="Related teaching, p639">p639</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-1075f6c0fed2b86a8c672639"><span>June 2023 Q6</span> Contrast sensitivity</a> <a class="study-source-link" href="?chapter=43#p636" aria-label="exam reference, p636">p636</a></p>
 

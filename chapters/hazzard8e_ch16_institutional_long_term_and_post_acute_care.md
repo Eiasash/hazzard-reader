@@ -36,7 +36,7 @@ The focus of this chapter is the clinical care and support of nursing home (NH) 
 
 Many older people who previously would have been in NHs now reside in assisted living residences or in their own homes. Support for older people with multiple chronic conditions in the NH setting is challenging for a number of reasons. Although many NHs provide excellent care, the poor quality of care provided in some NHs has been recognized for decades. Since the Institute of Medicine issued its critical report in 1986 and the Resident Assessment Instrument (RAI) was mandated in 1987, the overall quality of care has improved. The Centers for Medicare and Medicaid Services (CMS) has instituted several strategies that are designed to improve the quality of NH care. These include: the NH Compare website ([http://www.medicare.gov/nhcompare/home.asp](<https://www.medicare.gov/care-compare/?providerType=NursingHome>)), which shows consumers (and NHs) how individual homes perform on surveys and specific quality indicators; a revised federal survey process ([https://www.cms.gov/files/document/qso-19-03-nh.pdf](<https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/policy-memos/policy-memos-states-cms-locations> "The original memo link has moved. CMS quality and safety policy memo archive.")); the CMS Five-Star Quality Rating System ([https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc/FSQRS](<https://www.cms.gov/medicare/health-safety-standards/certification-compliance/five-star-quality-rating-system> "CMS Five-Star Quality Rating System.")); and the requirement in the Affordable Care Act that all NHs must have a Quality Assurance and Performance Improvement (QAPI) program (https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/QAPI/qapidefinition). Despite all of these efforts, the US Office of Inspector General issued a report documenting the high frequency of adverse events among NH residents during the first 1 to 2 months after admission ([https://oig.hhs.gov/oei/reports/oei-06-11-00370.asp](<https://oig.hhs.gov/oei/reports/oei-06-11-00370.asp>)). The report documented that about one in three residents suffer an adverse event (including medication-related side effects; conditions such as falls or electrolyte disturbances; and infections). Thus, much remains to be done to improve NH care in the United States.
 
-As older NH residents suffer from multiple underlying conditions, high quality clinical care is especially important. [Note: in this chapter we use the term “residents.” However, many short-stay individuals are termed “patients” by many providers of NH care.] Despite the logistical and economic
+As older NH residents suffer from multiple underlying conditions, high quality clinical care is especially important. [Note: in this chapter we use the term “residents.” However, many short-stay individuals are termed “patients” by many providers of NH care.] Despite the logistical and economic barriers that can foster inadequate care in NHs, many basic principles and strategies can improve the quality of care for NH residents.
 
 <a id="p222"></a>**[p. 222]**
 
@@ -44,7 +44,7 @@ As older NH residents suffer from multiple underlying conditions, high quality c
 
 *TABLE 16-1 ■ GOALS OF NURSING HOME CARE*
 
-barriers that can foster inadequate care in NHs, many basic principles and strategies can improve the quality of care for NH residents. Fundamental to achieving these improvements is a clear perspective on the goals of NH care, which differ in some respects from the goals of medical care in other settings and populations.
+Fundamental to achieving these improvements is a clear perspective on the goals of NH care, which differ in some respects from the goals of medical care in other settings and populations.
 
 ## GOALS OF NURSING HOME CARE AND SUPPORT
 
@@ -144,7 +144,7 @@ A second approach to improving medical care in NHs is developing and implementin
 
 ### Advanced Practitioners (Nurse Practitioners, Clinical Specialists, and Physician Assistants)
 
-A third strategy that may help improve care in NHs is partnering with or employing nurse practitioners and physician assistants. This approach appears to be cost-effective in both managed care and fee-for-service settings. These health professionals may be especially helpful in providing comprehensive care in the NH setting. Physician assistants and nurse practitioners can bill for services under feefor-service Medicare and NHs and/or physician groups can hire them on a salaried basis. Nurse practitioners may have an especially helpful perspective in interacting with nursing staff about the non-medical aspects of care for NH residents. Nurse practitioners and physician’s assistants can be very helpful in implementing some of the screening, monitoring, and preventive practices outlined
+A third strategy that may help improve care in NHs is partnering with or employing nurse practitioners and physician assistants. This approach appears to be cost-effective in both managed care and fee-for-service settings. These health professionals may be especially helpful in providing comprehensive care in the NH setting. Physician assistants and nurse practitioners can bill for services under fee-for-service Medicare and NHs and/or physician groups can hire them on a salaried basis. Nurse practitioners may have an especially helpful perspective in interacting with nursing staff about the non-medical aspects of care for NH residents. Nurse practitioners and physician’s assistants can be very helpful in implementing some of the screening, monitoring, and preventive practices outlined
 
 <a id="p229"></a>**[p. 229]**
 
@@ -240,45 +240,39 @@ Alice Bonner is an Adjunct Faculty at the Johns Hopkins University School of Nur
 
 ## FURTHER READING
 
-American Medical Directors Association. Transitions of
+- American Medical Directors Association. Transitions of Care in the Long-Term Care Continuum Clinical Practice Guideline. Columbia, MD: AMDA; 2010.
 
-Care in the Long-Term Care Continuum Clinical Practice Guideline. Columbia, MD: AMDA; 2010. American Medical Directors Association. Health Main-
+- American Medical Directors Association. Health Maintenance in the Long-Term Care Setting Clinical Practice Guideline. Columbia, MD: AMDA; 2012.
 
-tenance in the Long-Term Care Setting Clinical Practice Guideline. Columbia, MD: AMDA; 2012. Department of Health and Human Services Office of the
+- Department of Health and Human Services Office of the Inspector General. Adverse Events in Skilled Nursing Facilities: National Incidence among Medicare Beneficiaries. February, 2014. OEI-06-11-00370.
 
-Inspector General. Adverse Events in Skilled Nursing Facilities: National Incidence among Medicare Beneficiaries. February, 2014. OEI-06-11-00370. Institute of Medicine. Improving the Quality of Nursing Home
+- Institute of Medicine. Improving the Quality of Nursing Home Care. Washington, DC: National Academy Press; 2000.
 
-Care. Washington, DC: National Academy Press; 2000. Jump RLP, Crnich CJ, Mody L, et al. Infectious diseases
+- Jump RLP, Crnich CJ, Mody L, et al. Infectious diseases in older adults in long-term care facilities: update on approach to diagnosis and management. J Am Geriatr Soc. 2018;66:789–803.
 
-in older adults in long-term care facilities: update on approach to diagnosis and management. J Am Geriatr Soc. 2018;66:789–803. Kane RL. Assuring quality in nursing homes care. J Am
+- Kane RL. Assuring quality in nursing homes care. J Am Geriatr Soc. 1998;46:232–237.
 
-Geriatr Soc. 1998;46:232–237. Mor V. Defining and measuring quality outcomes in long-
+- Mor V. Defining and measuring quality outcomes in longterm care. J Am Med Dir Assoc. 2006;7:532–540.
 
-term care. J Am Med Dir Assoc. 2006;7:532–540.
+- Morley J, Tolson D, Ouslander J, Vellas B. Nursing Home Care: A Core Curriculum for the International Association for Gerontology and Geriatrics. New York, NY: McGraw Hill; 2013.
 
-Morley J, Tolson D, Ouslander J, Vellas B. Nursing Home
+- Ouslander JG, Berenson RA. Reducing unnecessary hospitalizations of NH residents. N Engl J Med. 2011;365: 1165–1167.
 
-Care: A Core Curriculum for the International Association for Gerontology and Geriatrics. New York, NY: McGraw Hill; 2013. Ouslander JG, Berenson RA. Reducing unnecessary hos-
+- Ouslander JG, Bonner A, Herndon L, Shutes J. The INTER- ACT quality improvement program: an overview for medical directors and primary care clinicians in longterm care. J Am Med Dir Assoc. 2014;15:162–170.
 
-pitalizations of NH residents. N Engl J Med. 2011;365: 1165–1167. Ouslander JG, Bonner A, Herndon L, Shutes J. The INTER-
+- Ouslander JG, Naharci I, Engstrom G, et al. Root cause analyses of transfers of skilled nursing facility patients to acute hospitals: lessons learned for reducing unnecessary hospitalizations. J Am Med Dir Assn. 2016;17:256–262.
 
-ACT quality improvement program: an overview for medical directors and primary care clinicians in longterm care. J Am Med Dir Assoc. 2014;15:162–170. Ouslander JG, Naharci I, Engstrom G, et al. Root
+- Ouslander JG, Grabowski DC. Rehabbed to death reframed: in response to “rehabbed to death: breaking the cycle”. J Am Geriatr Soc. 2019;67:2225–2228. <a id="p236"></a>**[p. 236]**
 
-cause analyses of transfers of skilled nursing facility patients to acute hospitals: lessons learned for reducing unnecessary hospitalizations. J Am Med Dir Assn. 2016;17:256–262. Ouslander JG, Grabowski DC. Rehabbed to death reframed:
+- Ouslander JG, Grabowski DC. COVID-19 in nursing homes: calming the perfect storm. J Am Geriatr Soc. 2019;68:2153–2162.
 
-in response to “rehabbed to death: breaking the cycle”. J Am Geriatr Soc. 2019;67:2225–2228.
+- Saliba D, Schnelle JF. Indicators of the quality of nursing home residential care. J Am Geriatr Soc. 2002;50:1421–1430.
 
-<a id="p236"></a>**[p. 236]**
+- Saliba D, Solomon D, Rubenstein L, et al. Feasibility of quality indicators for the management of geriatric syndromes in nursing home residents. J Am Med Dir Assoc. 2005;6:S50–S59.
 
-Ouslander JG, Grabowski DC. COVID-19 in nursing homes: calming the perfect storm. J Am Geriatr Soc. 2019;68:2153–2162.
+- Saliba D, Solomon D, Rubenstein L, et al. Quality indicators for the management of medical conditions in nursing home residents. J Am Med Dir Assoc. 2004;5:297–309.
 
-Saliba D, Schnelle JF. Indicators of the quality of nursing home residential care. J Am Geriatr Soc. 2002;50:1421–1430.
-
-Saliba D, Solomon D, Rubenstein L, et al. Feasibility of quality indicators for the management of geriatric syndromes in nursing home residents. J Am Med Dir Assoc. 2005;6:S50–S59.
-
-Saliba D, Solomon D, Rubenstein L, et al. Quality indicators for the management of medical conditions in nursing home residents. J Am Med Dir Assoc. 2004;5:297–309.
-
-Zarowitz B, Resnick B, Ouslander JG. Quality clinical care in nursing facilities. J Am Med Dir Assn. 2018;19:833–839.
+- Zarowitz B, Resnick B, Ouslander JG. Quality clinical care in nursing facilities. J Am Med Dir Assn. 2018;19:833–839.
 
 ## SELECTED WEBSITES
 

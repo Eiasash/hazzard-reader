@@ -56,12 +56,11 @@ risk has been seen in both women who received DES and their female fetuses expos
 
 ### Physical Examination
 
-The physical examination serves four main purposes: (1) to understand the patient’s anatomic status, (2) to detect unrecognized problems at an early stage, (3) to detect significant current problems in the cognitively or neurologically impaired, and (4) to provide the patient an opportunity to discuss embarrassing and private issues. A surprising number of gynecologic and urologic symptoms are only voiced or discovered during the pelvic examination, despite a thorough history and review of systems. An annual pelvic examination helps the practitioner assess the condition of the vaginal tissue, the vulva and perineum for any abnormalities that may be present. Although
+The physical examination serves four main purposes: (1) to understand the patient’s anatomic status, (2) to detect unrecognized problems at an early stage, (3) to detect significant current problems in the cognitively or neurologically impaired, and (4) to provide the patient an opportunity to discuss embarrassing and private issues. A surprising number of gynecologic and urologic symptoms are only voiced or discovered during the pelvic examination, despite a thorough history and review of systems. An annual pelvic examination helps the practitioner assess the condition of the vaginal tissue, the vulva and perineum for any abnormalities that may be present. Although there is some debate regarding the utility of this examination, assessing the health of the vulva and vagina remains important for primary care providers and gynecologists to provide complete care.
 
 ![Table 36-1](hazzard8e_ch36_table-36-1_p528.webp)
 
 *TABLE 36-1 ■ GYNECOLOGIC HISTORY AND EXAMINATION*
-
 
 <sup>a</sup> Suggestions for examination in the cognitively impaired older woman (moderate or severe impairment) are based on clinical experience (Level D evidence).
 
@@ -71,8 +70,7 @@ The physical examination serves four main purposes: (1) to understand the patien
 
 *FIGURE 36-1. Sagittal view of normal pelvic anatomy (A) and fecal impaction (B). Note how a large impaction can compress the bladder, urethra, and surrounding innervation and other tissues.*
 
-
-there is some debate regarding the utility of this examination, assessing the health of the vulva and vagina remains important for primary care providers and gynecologists to provide complete care. Periodic examination of “asymptomatic” but concerned women is indicated. A patient may not be able to articulate the concerns she has. Appropriate speculum size, shape, and use is essential to perform a thorough but painless vaginal examination. Topical lidocaine at the posterior introitus as needed limits discomfort. This can also be applied liberally to the vulva and vagina to facilitate examination in cognitively impaired women. Fecal impaction should be ruled out in older women as a cause of a difficult vaginal examination. Fecal impaction can also compress the urethra and bladder and the surrounding innervation (Figure 36-1), cause urinary symptoms in addition to abdominal discomfort, and requires evaluation of underlying causes as well as treatment. (See Chapter 87, Constipation.)
+Periodic examination of “asymptomatic” but concerned women is indicated. A patient may not be able to articulate the concerns she has. Appropriate speculum size, shape, and use is essential to perform a thorough but painless vaginal examination. Topical lidocaine at the posterior introitus as needed limits discomfort. This can also be applied liberally to the vulva and vagina to facilitate examination in cognitively impaired women. Fecal impaction should be ruled out in older women as a cause of a difficult vaginal examination. Fecal impaction can also compress the urethra and bladder and the surrounding innervation (Figure 36-1), cause urinary symptoms in addition to abdominal discomfort, and requires evaluation of underlying causes as well as treatment. (See Chapter 87, Constipation.)
 
 The American College of Obstetricians and Gynecologists (ACOG) is unique in clearly recommending that “annual examination of the external genitalia should continue” beyond age 65. The utility of annual external genitalia examination may be most important in women who are cognitively impaired. Given the possible association with vaginal cancer, ACOG also recommends continuing annual internal pelvic examinations indefinitely in DES daughters, even those who have had a hysterectomy.
 
@@ -146,7 +144,6 @@ Lichen simplex chronicus is characterized as an eczematoid disease of hyperkerat
 
 *TABLE 36-2 ■ CLASSIFICATION OF VULVAR DERMATOSES: PATHOLOGIC SUBSETS AND CLINICAL CORRELATES (2006 INTERNATIONAL SOCIETY FOR THE STUDY OF VULVOVAGINAL DISEASE CLASSIFICATION)*
 
-
 ### Lichen Sclerosus
 
 Lichen sclerosus is a chronic inflammatory disease that can occur at any age, its highest prevalence being after menopause. It may have an autoimmune etiology and is frequently associated with other autoimmune disorders. Pruritus is characteristic, but it may be asymptomatic. Typical lesions are porcelain white papules and plaques, often with areas of ecchymosis or purpura. Perianal involvement can create the classic “figure of eight” appearance. In more advanced cases, vulvar architecture is lost, with labial fusion, clitoral hood phimosis, and fissures. Scarring may lead to introital narrowing. The malignant potential of lichen sclerosus is debated but may be as high as 4% to 5%. Biopsy confirmation of the diagnosis and visual inspection at least annually are advisable. Treatment is necessary only to control symptoms. Typical regimens involve moderate strength topical glucocorticoids for at least 4 weeks, then tapering to a lower dosing frequency. A subsequent maintenance regimen of
@@ -217,7 +214,6 @@ Other non-estrogen therapies are less reliable in reducing dyspareunia and irrit
 
 *FIGURE 36-3. (A) Illustration of atrophic vaginitis versus normal mucosa. Signs of atrophic vaginitis may include pale, smooth, shiny mucosa with patches of inflammation and petechiae. (B) Illustration of remodeling of vaginal mucosa in response to topical estrogen therapy. (B, Reproduced with permission from Reiter S. Barriers to effective treatment of vaginal atrophy with local estrogen therapy. Int J Gen Med. 2013;6:153–158.)*
 
-
 (dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.
 
 ### Vaginal Cancer
@@ -238,7 +234,6 @@ The location of the squamocolumnar junction, the border between squamous (ectoce
 
 *TABLE 36-3 ■ CHARACTERISTICS OF LOCAL VAGINAL HORMONAL TREATMENTS*
 
-
 CEE, conjugated equine estrogen; FDA, Food and Drug Administration. Modified with permission from Crean-Tate KK, Faubion SS, Pederson HJ, et al. Management of genitourinary syndrome of menopause in female cancer patients: a focus on vaginal hormonal therapy. Am J Obstet Gynecol. 2020;222(2):103–113.
 
 epithelia, changes location over a lifespan. It is usually within the endocervical canal in older women and not visible. Its importance lies in the fact that it is the most common site of cervical neoplasia. Cystic structures near this border are almost invariably Nabothian cysts. These are not true cysts, but collections of mucus trapped during metaplastic transition, when squamous cells cover mucus-secreting crypts. They do not require biopsy. Any lesion whose benignity is uncertain should be biopsied or referred. Cytology is a screening test and alone is not an appropriate evaluation of a visible lesion.
@@ -258,7 +253,6 @@ The excess deaths from this mostly preventable malignancy are only avoided throu
 ![Table 36-4](hazzard8e_ch36_table-36-4_p537.webp)
 
 *TABLE 36-4 ■ CRITERIA (ALL OF WHICH SHOULD BE MET PRIOR TO DISCONTINUING CERVICAL CANCER SCREENING)*
-
 
 older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.
 
@@ -303,7 +297,6 @@ All pelvic bleeding sources should be investigated, including hematuria, hematoc
 ![Table 36-5](hazzard8e_ch36_table-36-5_p538.webp)
 
 *TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN*
-
 
 <a id="p539"></a>**[p. 539]**
 
@@ -399,7 +392,6 @@ Clinical evaluation includes careful history and physical examination (Table 36-
 
 *TABLE 36-6 ■ EVALUATION AND MANAGEMENT OF PELVIC ORGAN PROLAPSE*
 
-
 observation may be adequate. Careful pelvic examination is critical in making the correct diagnosis of POP. Prolapse of the anterior vaginal wall is a cystocele, and the posterior vaginal wall is typically a rectocele. Loss of support of the vaginal apex may include small bowel which is known as an enterocele. Uterine prolapse may also occur due to loss of support of the cardinal or uterosacral ligaments. Complete vaginal eversion may occur in women with a prior hysterectomy, or “procidentia” if the uterus is in situ.
 
 Physical examination is important for complete assessment. On simple inspection, it can be difficult to differentiate the portion of the vagina involved in the prolapse. A single-blade speculum is useful for this purpose. The speculum is initially inserted to depress the posterior vaginal wall. The speculum is then reinserted in the reverse position to elevate the anterior vaginal wall allowing inspection of the posterior compartment for evidence of rectocele. Asking the patient to cough and Valsalva can help to demonstrate prolapse that may increase with abdominal straining. It can be useful to also examine the patient in the standing position if possible, as some prolapse may only be evident with standing.
@@ -426,7 +418,6 @@ Baden-Walker system was commonly used in clinical practice, and classifies the d
 
 *FIGURE 36-5. Sagittal view of a rectocele.*
 
-
 research settings but is also useful in a simplified approach in defining the leading edge of the prolapse. It includes multiple anatomic measurements in relation to the vaginal introitus. In most systems, the hymenal ring is used to define the vaginal introitus. A clear understanding and documentation of the extent of prolapse is useful for surgical planning and for following progress over time (Figure 36-7).
 
 ### Treatment of Pelvic Organ Prolapse
@@ -449,13 +440,11 @@ The use of a pessary has been considered an excellent option for nonsurgical man
 
 *FIGURE 36-6. Sagittal view of an enterocele.*
 
-
 <a id="p545"></a>**[p. 545]**
 
 ![Figure 36-7](hazzard8e_ch36_figure-36-7_p545.webp)
 
 *FIGURE 36-7. Treatment of pelvic organ prolapse. (Reproduced with permission from Bump RC, Mattiasson A, Bø K, et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175[1]:10–17.)*
-
 
 for pessaries and most of them are made from silicone. The risk factors for a failed fitting include a large genital hiatus and a short vaginal length. Pessaries provide pelvic organ support within the vaginal vault. There are two categories of pessaries for POP: support pessaries and space-filling pessaries. The ring pessary (with a diaphragm) is one of the most used support pessaries while the Gellhorn pessary is a commonly used space-filling pessary. Most women who have a stage II or stage III prolapse are successfully fitted with ring pessaries while women with stage IV prolapse usually require a Gellhorn pessary.
 

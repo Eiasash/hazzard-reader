@@ -64,7 +64,9 @@ In this chapter, we will discuss a framework for approaching ethical dilemmas, a
 
 ## AN APPROACH TO THINKING ABOUT ETHICAL DILEMMAS
 
-Case Mrs. C is an 88-year-old woman with congestive heart failure, hypertension, atrial fibrillation, and chronic kidney disease. She lives alone in her own home. She was hospitalized last month for delirium secondary to a urinary tract infection. She is admitted again this month after a fall. While in the hospital, she is evaluated by physical therapy and occupational therapy who both recommend a short stay in a nursing home for rehabilitation. Mrs. C refuses to go to a nursing home and demands to return to her home. Her medical team insists that going directly home is not a safe discharge plan, and wants to require her to go to rehab.
+### Case
+
+Mrs. C is an 88-year-old woman with congestive heart failure, hypertension, atrial fibrillation, and chronic kidney disease. She lives alone in her own home. She was hospitalized last month for delirium secondary to a urinary tract infection. She is admitted again this month after a fall. While in the hospital, she is evaluated by physical therapy and occupational therapy who both recommend a short stay in a nursing home for rehabilitation. Mrs. C refuses to go to a nursing home and demands to return to her home. Her medical team insists that going directly home is not a safe discharge plan, and wants to require her to go to rehab.
 
 Question: What is an ethically appropriate discharge plan for Mrs. C?
 
@@ -100,7 +102,9 @@ When the CASES approach is used by health care professionals to understand the n
 
 ## ETHICAL DILEMMAS CAN LEAD TO MORAL DISTRESS IN PROFESSIONAL CAREGIVERS
 
-Case Mr. G is a 78-year-old skilled nursing facility resident with multiple medical problems, including mild dementia, who is admitted to the intensive care unit with pneumonia and possibly sepsis. He is intubated. Over the next 2 weeks, he develops acute respiratory distress syndrome (ARDS), Clostridium difficile colitis, and a pressure ulcer. His renal function is deteriorating. He remains delirious, and is therefore unable to participate in medical decision-making.
+### Case
+
+Mr. G is a 78-year-old skilled nursing facility resident with multiple medical problems, including mild dementia, who is admitted to the intensive care unit with pneumonia and possibly sepsis. He is intubated. Over the next 2 weeks, he develops acute respiratory distress syndrome (ARDS), Clostridium difficile colitis, and a pressure ulcer. His renal function is deteriorating. He remains delirious, and is therefore unable to participate in medical decision-making.
 
 Mr. G’s advance directive states that he wouldn’t want life-prolonging measures for a terminal condition, and would want care focused on comfort. His wife, whom he designated as his health care agent through a Durable Power of Attorney for Health Care, insists that treatments
 
@@ -136,7 +140,9 @@ After recognizing that a case is causing moral distress, what can health care pr
 
 ## TRUTHFUL DISCLOSURE
 
-Case Mr. W is an 83-year-old man who is brought to see his primary care provider by his wife. She confronts the physician outside the examination room and expresses concern that her husband has become more forgetful and no longer is able to pay their bills. She remarks, “If he has Alzheimer’s disease, please don’t tell him.”
+### Case
+
+Mr. W is an 83-year-old man who is brought to see his primary care provider by his wife. She confronts the physician outside the examination room and expresses concern that her husband has become more forgetful and no longer is able to pay their bills. She remarks, “If he has Alzheimer’s disease, please don’t tell him.”
 
 Question: What is the ethically justifiable option for the clinician after he examines Mr. W?
 
@@ -160,7 +166,9 @@ dementia, who might experience the emotional distress of receiving this diagnosi
 
 ## DECISION-MAKING IN CHRONIC AND ADVANCED ILLNESS
 
-Case Mrs. S is an 82-year-old woman with mild dementia, coronary artery disease, hypertension, and peripheral vascular disease. She misses a meal in the dining room of her assisted living facility, and is found in her apartment lethargic and confused. She is sent to the hospital, admitted to the ICU, and diagnosed with urosepsis. She has a Physician Orders for Life-Sustaining Treatment (POLST) form, which accompanies her to the hospital, with preferences for Do Not Resuscitate status (DNR), Limited Additional Interventions, antibiotics to prolong life, and a trial of use of a feeding tube.
+### Case
+
+Mrs. S is an 82-year-old woman with mild dementia, coronary artery disease, hypertension, and peripheral vascular disease. She misses a meal in the dining room of her assisted living facility, and is found in her apartment lethargic and confused. She is sent to the hospital, admitted to the ICU, and diagnosed with urosepsis. She has a Physician Orders for Life-Sustaining Treatment (POLST) form, which accompanies her to the hospital, with preferences for Do Not Resuscitate status (DNR), Limited Additional Interventions, antibiotics to prolong life, and a trial of use of a feeding tube.
 
 Despite aggressive care in the ICU, she remains delirious. Over the next 2 weeks in the ICU, she suffers a nonST segment elevation MI, develops a pneumonia thought secondary to aspiration, and her kidney function worsens.
 
@@ -198,7 +206,9 @@ In deciding how to proceed with Mrs. S’s care, consulting a palliative care te
 
 ## MANAGING REFRACTORY SYMPTOMS CAUSING INTRACTABLE SUFFERING NEAR THE END OF LIFE
 
-Case Mr. P is a 90-year-old man with widely metastatic prostate cancer receiving hospice services in a nursing home. He continues to have severe bone pain from his metastatic disease despite the use of opioids, steroids, zolendronic acid injections, and a course of palliative radiation. As his opioid doses are increased, he develops myoclonus and confusion. Rotation to two different opioids over the next two weeks is minimally effective. His confusion worsens, becoming hyperactive delirium with bouts of yelling and attempting to climb out of bed. Addition of antipsychotic medications is only slightly effective.
+### Case
+
+Mr. P is a 90-year-old man with widely metastatic prostate cancer receiving hospice services in a nursing home. He continues to have severe bone pain from his metastatic disease despite the use of opioids, steroids, zolendronic acid injections, and a course of palliative radiation. As his opioid doses are increased, he develops myoclonus and confusion. Rotation to two different opioids over the next two weeks is minimally effective. His confusion worsens, becoming hyperactive delirium with bouts of yelling and attempting to climb out of bed. Addition of antipsychotic medications is only slightly effective.
 
 His family and the nursing staff are distressed about his situation and their inability to ensure his comfort and safety.
 
@@ -234,7 +244,9 @@ examination of the medical record, as repeated doses and continuous infusions su
 
 ## BALANCING AUTONOMY AND SELFDETERMINATION WITH INDIVIDUAL AND SOCIETAL SAFETY DRIVING
 
-Case Mr. J is an 89-year-old man living temporarily in a skilled nursing facility where he is receiving physical and occupational therapy after he fell and sustained a patellar fracture. He is doing well, and the interdisciplinary team informs you that he will be ready to discharge home soon. He lives in a one-story home with his wife. He drives to the neighborhood shopping center to meet his friends for lunch, buy groceries, and do other chores. During your assessment, you note that his memory is mildly impaired, with only one out of three items recalled after 5 minutes, and he has difficulty with attention. His clock-drawing test is markedly abnormal, with impaired spacing and numbering.
+### Case
+
+Mr. J is an 89-year-old man living temporarily in a skilled nursing facility where he is receiving physical and occupational therapy after he fell and sustained a patellar fracture. He is doing well, and the interdisciplinary team informs you that he will be ready to discharge home soon. He lives in a one-story home with his wife. He drives to the neighborhood shopping center to meet his friends for lunch, buy groceries, and do other chores. During your assessment, you note that his memory is mildly impaired, with only one out of three items recalled after 5 minutes, and he has difficulty with attention. His clock-drawing test is markedly abnormal, with impaired spacing and numbering.
 
 Questions for the interdisciplinary team: Should he still be driving? What do we do about it?
 
@@ -252,7 +264,7 @@ including providing a written letter of recommendations regarding driving cessat
 
 The possession of firearms by people with dementia is another area in which the autonomy and self-determination of the individual needs to be weighed against the safety of the
 
-individual and of society. Of people with dementia, 60% have firearms in their homes and only 17% of families report storing these weapons unloaded and locked. Having firearms in the home increases the likelihood of suicide completion. Ten states and the District of Columbia require a permit to buy a firearm. Hawaii restricts persons with organic brain syndromes from possessing firearms, while Texas prohibits persons with dementia from obtaining a license to carry a handgun in public. There are “red flag laws” called extreme risk protection order (ERPO) laws in 17 states, which provide a means for court-ordered firearm removal based on reasonable or substantial threat. Strategies for assessing and counseling firearm safety in patients with dementia and their families are shown in Table 72-6. As dementia progresses, the recommendations become more focused on counseling families to restrict access to the firearm and remove the firearm from the home environment. A website has been developed to assist families and caregivers in discussing changes regarding safety in dementia, including firearms, driving and home safety ([https://](<https://safetyindementia.org/>) safetyindementia.org/).
+individual and of society. Of people with dementia, 60% have firearms in their homes and only 17% of families report storing these weapons unloaded and locked. Having firearms in the home increases the likelihood of suicide completion. Ten states and the District of Columbia require a permit to buy a firearm. Hawaii restricts persons with organic brain syndromes from possessing firearms, while Texas prohibits persons with dementia from obtaining a license to carry a handgun in public. There are “red flag laws” called extreme risk protection order (ERPO) laws in 17 states, which provide a means for court-ordered firearm removal based on reasonable or substantial threat. Strategies for assessing and counseling firearm safety in patients with dementia and their families are shown in Table 72-6. As dementia progresses, the recommendations become more focused on counseling families to restrict access to the firearm and remove the firearm from the home environment. A website has been developed to assist families and caregivers in discussing changes regarding safety in dementia, including firearms, driving and home safety ([https://safetyindementia.org/](<https://safetyindementia.org/>)).
 
 <a id="p1108"></a>**[p. 1108]**
 
@@ -262,7 +274,9 @@ individual and of society. Of people with dementia, 60% have firearms in their h
 
 ## MANAGING SEXUAL INTIMACY AND OTHER ETHICAL ISSUES IN NURSING HOMES
 
-Case Mrs. N, an ambulatory 87-year-old nursing home resident with moderate dementia, is found by nursing staff in the room of Mr. O, an 85-year-old nursing home resident with COPD, Parkinson disease, and dementia. They are seated on Mr. O’s bed, hugging. Mr. O is wearing his incontinence briefs, but no pants, and is audibly wheezing.
+### Case
+
+Mrs. N, an ambulatory 87-year-old nursing home resident with moderate dementia, is found by nursing staff in the room of Mr. O, an 85-year-old nursing home resident with COPD, Parkinson disease, and dementia. They are seated on Mr. O’s bed, hugging. Mr. O is wearing his incontinence briefs, but no pants, and is audibly wheezing.
 
 Question: What is the appropriate way to approach sexual intimacy in the long-term care setting?
 
@@ -280,7 +294,9 @@ In the case, the physician caring for Mrs. N and Mr. O must assess their capacit
 
 ## RESOURCE ALLOCATION AND AGEISM
 
-Case A hospital system is approaching 100% ICU capacity due to the COVID-19 pandemic. This health system’s crisis standards of care specify that adults older than age 85 should not enter the resource allocation algorithm, meaning that
+### Case
+
+A hospital system is approaching 100% ICU capacity due to the COVID-19 pandemic. This health system’s crisis standards of care specify that adults older than age 85 should not enter the resource allocation algorithm, meaning that
 
 <a id="p1109"></a>**[p. 1109]**
 
@@ -312,7 +328,7 @@ American Medical Directors Association, 2008, White
 
 paper, The role of a facility ethics committee in decisionmaking at the end of life. Available at https://paltc.org/ amda-white-papers-and-resolution-position-statements/ role-facility-ethics-committee-decision-making. Accessed February 22, 2021. American Medical Association Code of Medical Ethics.
 
-Chapter 5: Opinions on caring for patients at the end of life. Available at [https://www.ama-assn.org/system/](<https://www.ama-assn.org/system/files/2019-06/code-of-medical-ethics-chapter-5.pdf>) files/2019-06/code-of-medical-ethics-chapter-5.pdf. Accessed February 7, 2021. American Medical Directors Association. 2016, Capacity for
+Chapter 5: Opinions on caring for patients at the end of life. Available at [https://www.ama-assn.org/system/files/2019-06/code-of-medical-ethics-chapter-5.pdf](<https://www.ama-assn.org/system/files/2019-06/code-of-medical-ethics-chapter-5.pdf>). Accessed February 7, 2021. American Medical Directors Association. 2016, Capacity for
 
 sexual consent in dementia in long-term care. Available at [https://paltc.org/amda-white-papers-and-resolutionposition-statements/capacity-sexual-consent-dementialong-term-care](<https://paltmed.org/sites/default/files/2023-10/White%20Paper%20A16%20%28Capacity%20for%20Sexual%20Consent%20in%20Dementia%20in%20LTC%29.pdf>). Accessed January 10, 2021. Baile W, Buckman R, Lenzi R, Glober G, Beale EA, Kudelka
 
@@ -348,9 +364,7 @@ a safe discharge: more than a capacity evaluation. J Am Geriatr Soc. 2020;68(4):
 
 physician-assisted suicide in patients with multiple geriatric syndromes. JAMA Intern Med. 2021;181(2):245–250. VHA National Center for Ethics in Health Care. Ethics
 
-guidance for pandemics 2020. Available at [http://vaww](<https://www.publichealth.va.gov/docs/n-coronavirus/COVID-19_Response_Plan_07Aug2020_signed_final.pdf#page=31> "The standalone 2020 ethics document requires VA access. The public VHA COVID-19 Response Plan cites the ethical guidance on PDF page 31.")
-
-.ethics.va.gov/ETHICS/activities/pandemic/Ethics_ Guidance_for_Pandemics_2020.pdf. Accessed February 22, 2021. Wax JW, An AW, Kosier N, Quill TE. Voluntary stopping
+guidance for pandemics 2020. Available at [http://vaww.ethics.va.gov/ETHICS/activities/pandemic/Ethics_Guidance_for_Pandemics_2020.pdf](<https://www.publichealth.va.gov/docs/n-coronavirus/COVID-19_Response_Plan_07Aug2020_signed_final.pdf#page=31> "The standalone 2020 ethics document requires VA access. The public VHA COVID-19 Response Plan cites the ethical guidance on PDF page 31."). Accessed February 22, 2021. Wax JW, An AW, Kosier N, Quill TE. Voluntary stopping
 
 eating and drinking. J Am Geriatr Soc. 2018;66(3): 441–445. Wright JL, Jaggard PM, Holahan T. Stopping eating
 

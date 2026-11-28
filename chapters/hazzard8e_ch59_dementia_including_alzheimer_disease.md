@@ -201,7 +201,7 @@ The other neuropathologic hallmark of AD is the presence of neurofibrillary tang
 
 appear as paired, helically twisted protein filaments composed of highly stable polymers of cytoplasmic proteins called tau. Tau comprises a group of alternatively spliced proteins found in the cytoplasm that possess either three or four microtubule-binding domains and can assemble with tubulin, thus helping the formation of cross bridges between adjacent microtubules. Tau proteins can be phosphorylated in multiple sites, and the degree of phosphorylation is inversely correlated with binding to microtubules. As a result, highly phosphorylated tau proteins dissociate from microtubules and polymerize into filaments forming neurofibrillary tangles. In addition to AD, the abnormal accumulation of filamentous tau is observed in frontotemporal forms of dementia, progressive supranuclear palsy, corticobasal degeneration, and Pick disease. Contrary to prior belief, tau proteins themselves can cause dementia, and multiple mutations in the _tau_ gene have been found in frontotemporal dementia (FTD) with parkinsonism. The precise role of tau proteins in the pathogenesis of AD and their potential interaction with Aβ are still unclear.
 
-In 2012, NIA and the Alzheimer’s Association published revised criteria for AD neuropathologic change. These criteria recommended reporting on the presence and extent of hallmark lesions for AD observed at autopsy independent of the individual’s cognitive state. These new guidelines took into account several well-established neuropathologic scoring criteria and integrated them into an “ABC score” based on three parameters ( _A_ myloid, _B_ raak, _C_ ERAD): criterion “A” ranks the Aβ plaque score (based on criteria from Thal et al.), criterion “B” measures the neurofibrillary tangle stage (modified from Braak criteria), and criterion “C” assesses the neuritic plaque score (modified from the Consortium to Establish a Registry for Alzheimer Disease [CERAD]). For reporting, these ABC scores are then transformed into one of four levels of neuropathic change: none, low, intermediate, or high. While CAA is not considered in the “ABC” score, the guidelines recognize that these changes frequently co-occur with parenchymal Aβ plaques and recommend neuropathologists comment on such changes separately within the neuropathology report.
+In 2012, NIA and the Alzheimer’s Association published revised criteria for AD neuropathologic change. These criteria recommended reporting on the presence and extent of hallmark lesions for AD observed at autopsy independent of the individual’s cognitive state. These new guidelines took into account several well-established neuropathologic scoring criteria and integrated them into an “ABC score” based on three parameters (_Amyloid_, _Braak_, _CERAD_): criterion “A” ranks the Aβ plaque score (based on criteria from Thal et al.), criterion “B” measures the neurofibrillary tangle stage (modified from Braak criteria), and criterion “C” assesses the neuritic plaque score (modified from the Consortium to Establish a Registry for Alzheimer Disease [CERAD]). For reporting, these ABC scores are then transformed into one of four levels of neuropathic change: none, low, intermediate, or high. While CAA is not considered in the “ABC” score, the guidelines recognize that these changes frequently co-occur with parenchymal Aβ plaques and recommend neuropathologists comment on such changes separately within the neuropathology report.
 
 ### Amyloid Precursor Protein Processing And Generation Of Aβ
 
@@ -501,7 +501,7 @@ In addition to targeting β-amyloid pathways, novel research is focusing on the 
 <a id="p914"></a>**[p. 914]**
 ![Table 59-7 (continued)](hazzard8e_ch59_table59-x_p914.png)
 
-> *Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, reproduced as a page image (printed p. 914; the table is printed sideways on this page).*
+> *Table 59-7 (continued) — FDA-approved medications for the treatment of Alzheimer disease, reproduced as a page image (printed p. 914).*
 
 <a id="p915"></a>**[p. 915]**
 
@@ -585,11 +585,9 @@ Symptoms of Dementia. Management of neuropsychiatric symptoms of dementia in cli
 
 <a id="p918"></a>**[p. 918]**
 
-- US Department of Health and Human Services National Alzheimer’s Project Act. [http://aspe.hhs.gov/nationalalzheimers-project-act](<https://aspe.hhs.gov/collaborations-committees-advisory-groups/napa>). Accessed September 10, 2015.
+- US Department of Health and Human Services National Alzheimer’s Project Act. [http://aspe.hhs.gov/national-alzheimers-project-act](<https://aspe.hhs.gov/collaborations-committees-advisory-groups/napa>). Accessed September 10, 2015.
 
-   - US Food and Drug Administration Postmarket Drug Safety Information for Patients and Providers: Aducanumab (marketed as Aduhelm) Information. [https://www](<https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761178s011lbl.pdf>)
-
-.fda.gov/drugs/postmarket-drug-safety-informationpatients-and-providers/aducanumab-marketedaduhelm-information
+- US Food and Drug Administration Postmarket Drug Safety Information for Patients and Providers: Aducanumab (marketed as Aduhelm) Information. [https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/aducanumab-marketed-aduhelm-information](<https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761178s011lbl.pdf>)
 
 - Zetterberg H, Bendlin BB. Biomarkers for Alzheimer’s disease—preparing for a new era of disease-modifying therapies. _Molecular Psychiatry_ . 2021;26:296–308.
 

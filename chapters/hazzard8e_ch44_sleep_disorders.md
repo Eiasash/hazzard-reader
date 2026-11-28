@@ -482,7 +482,7 @@ mixed. Valerian is a herbal product marketed for insomnia due to its mild sedati
 
 _Sleep hygiene_ is education on general practices to maintain a healthy sleep-wake routine. When a sleep history is performed behaviors that contribute to disruptive sleep should be ascertained. Examples of these behaviors include sleeping with the television on, or excessive caffeine consumption. Patients should be educated about behaviors that may contribute to poor sleep and insomnia ( **Table 44-6** ).
 
-_Stimulus-control therapy_ is designed to break the negative associations patients have with their sleep
+_Stimulus-control therapy_ is designed to break the negative associations patients have with their sleep environment, which have come about from maladaptive behaviors.
 
 **TABLE 44-6 ■ SLEEP HYGIENE RULES FOR OLDER ADULTS**
 
@@ -515,7 +515,7 @@ _Stimulus-control therapy_ is designed to break the negative associations patien
 5. When sleep efficiency has reached 80%–85%, patient can go to bed 15 min earlier.
 6. This procedure should be repeated until patient can sleep for 8 h (or period needed for a good night’s sleep).
 
-environment, which have come about from maladaptive behaviors. Patients are instructed to not have any other in-bed activities aside from sleep or sex, and to only go to bed when tired enough to fall asleep. They should unwind prior to going to bed and should not watch an alarm clock. If the patient cannot fall asleep within approximately 20 minutes they should get out of bed and do a relaxing activity and only return to bed when able to fall asleep. For a regular pattern to develop the patient needs to avoid napping and should get out of bed the same time each day. Daytime sleepiness may increase early in this therapy particularly when paired with sleep restriction ( **Table 44-7** ).
+Patients are instructed to not have any other in-bed activities aside from sleep or sex, and to only go to bed when tired enough to fall asleep. They should unwind prior to going to bed and should not watch an alarm clock. If the patient cannot fall asleep within approximately 20 minutes they should get out of bed and do a relaxing activity and only return to bed when able to fall asleep. For a regular pattern to develop the patient needs to avoid napping and should get out of bed the same time each day. Daytime sleepiness may increase early in this therapy particularly when paired with sleep restriction ( **Table 44-7** ).
 
 _Sleep-restriction therapy_ was developed from the observation that many patients with insomnia spend a large amount of time in bed unsuccessfully attempting to sleep. Sleep-restriction therapy is guided by the patient’s sleep diary. The amount of time the patient actually sleeps is calculated and the patient is only allowed to spend that amount of time plus around 15 minutes in bed each night for the following week. Since the amount of sleep will be less, this will lead to sleep deprivation and an increased sleep drive. The increased sleepiness makes it easier for the patient to subsequently fall asleep more quickly and have more consolidated sleep. Once the patient has significantly consolidated, time in bed is increased gradually until the patient is getting adequate sleep ( **Table 44-8** ).
 
@@ -612,4 +612,3 @@ The presence of dementia and other neurodegenerative disorders may impact therap
 - Xie L, Kang H, Xu Q, et al. Sleep drives metabolite clearance from the adult brain. _Science_ . 2013;342(6156):373–377.
 
 - Yu J, Zhou Z, McEvoy RD, et al. Association of positive airway pressure with cardiovascular events and death in adults with sleep apnea: a systematic review and meta-analysis. _JAMA_ . 2017;318(2):156–166.
-

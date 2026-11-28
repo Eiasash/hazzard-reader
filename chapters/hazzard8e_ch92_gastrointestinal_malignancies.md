@@ -26,15 +26,15 @@ Ryan D. Nipp, Nadine J. McCleary
 
 4. Early genomic testing of advanced cancers can identify opportunities for use of novel targeted therapies or immunotherapy and identify adults eligible for clinical trial.
 
-5. Perioperative mortality is lower for CRC surgery in high-volume centers versus lowvolume centers. Further, less aggressive surgical intervention is more likely in low-volume centers and in older adults, and increases the risk of recurrence and cancer-related death. Finally, laparoscopic procedures have lower mortality and equivalent outcomes in older adults.
+5. Perioperative mortality is lower for CRC surgery in high-volume centers versus low-volume centers. Further, less aggressive surgical intervention is more likely in low-volume centers and in older adults, and increases the risk of recurrence and cancer-related death. Finally, laparoscopic procedures have lower mortality and equivalent outcomes in older adults.
 
 6. Morbidity and mortality for surgery to treat resectable pancreatic or gastric cancer are similar in young and older adults.
 
 7. A large number of expanded options in chemotherapy (eg, targeted antibodies, kinase inhibitors, immunotherapy) that are generally tolerated by older adults are now available and should prompt clinicians caring for older adults to seek medical oncology consultation even in those with advanced GI cancer.
 
-8. In those with esophageal cancer, AfricanAmerican adults 65 years and older were noted to have a lower rate of surgical consultation and half the rate of curative surgery as their older adult Caucasian counterparts— very likely contributing to worse outcomes in minorities with esophageal cancer.
+8. In those with esophageal cancer, African-American adults 65 years and older were noted to have a lower rate of surgical consultation and half the rate of curative surgery as their older adult Caucasian counterparts— very likely contributing to worse outcomes in minorities with esophageal cancer.
 
-9. African-American adults age 65 or older are approximately 44% more likely to die from colon cancer despite better reduction in mortality among those receiving oxaliplatinbased therapy compared to Caucasian counterparts.
+9. African-American adults age 65 or older are approximately 44% more likely to die from colon cancer despite better reduction in mortality among those receiving oxaliplatin-based therapy compared to Caucasian counterparts.
 
 ## INTRODUCTION
 
@@ -64,7 +64,7 @@ for older adults differed by provider practice setting with academic provider ci
 
 ## COLORECTAL CANCER
 
-CRC accounts for approximately 8% of all new cancer cases and 9% of all cancer-related deaths in the United States. In fact, CRC causes more deaths than prostate cancer in men 60 to 79 years and falls just short of breast cancer in women 80 years or older. In 2020, 104,610 new cases of colon cancer and 43,340 new cases of rectal cancer will be diagnosed, accounting for approximately 53,200 deaths. Nearly onethird of cases diagnosed occur in adults age 80 or older and 40% of deaths from colon cancer occur in octogenarians.
+CRC accounts for approximately 8% of all new cancer cases and 9% of all cancer-related deaths in the United States. In fact, CRC causes more deaths than prostate cancer in men 60 to 79 years and falls just short of breast cancer in women 80 years or older. In 2020, 104,610 new cases of colon cancer and 43,340 new cases of rectal cancer will be diagnosed, accounting for approximately 53,200 deaths. Nearly one-third of cases diagnosed occur in adults age 80 or older and 40% of deaths from colon cancer occur in octogenarians.
 
 Incidence is decreasing by 4% annually for older adults, largely attributed to recommendations for earlier screening and detection of CRC. The probability of developing CRC increases from 0.4% in the first four decades of life to 3.0% for women and to 3.3% for men in the seventh decade of life (Figure 92-4). Median age at diagnosis of CRC is 68 years for men and 72 years for women. The overall 5-year relative survival is 64% with this cancer. It is 69% for persons younger than age 65 and declines to 61% for persons older than age 65 (Figure 92-5).
 
@@ -98,11 +98,9 @@ Additionally, it has been reported that cholesterollowering statins can signific
 
 Screening of CRC Approximately, one in two persons will have an adenomatous polyp in their colon by the age of 70. In a Veteran’s Affairs cohort of 17,732 men, prevalence of advanced neoplasia was noted in 13% of those age 70 to 75 compared to 5.7% of men age 50 to 59 undergoing colonoscopy (p < 0.001). Odds of neoplastic transformation from adenoma to invasive carcinoma increases with age by 1.78 per additional decade, with rates of advanced neoplasia and CRC (14.3% and 2.6%, respectively) for adults age 75 or older double that of adults age 50 to 75. Older adults are also more likely to have metachronous advanced neoplasia. The risk of sporadic CRC can be reduced by 50% to 90% if adenomatous polyps are implicated by direct visualization (sigmoidoscopy, colonoscopy, computed tomography [CT] colonography, or capsule endoscopy) or stool-based testing (FOBT or stool-based DNA) and are then removed before they transform into a malignancy over a 5- to 10-year period. Colonoscopy is the most invasive CRC screening option, associated with a 50% reduction in CRC incidence in older adults. The number needed to screen to prevent 1 CRC case in older adults is 126 for men and 98 for women age 75 to 79. Sigmoidoscopy is associated with a 20% reduction in CRC incidence and 35% reduction in CRC death for adults age 70 or older based on the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial of 20,726 older adults. The number needed to screen using sigmoidoscopy to prevent one CRC case is 282. Capsule endoscopy, while less invasive, still requires bowel preparation with secondary risk of electrolyte imbalance and poor prep, and requires colonoscopy if screen is positive. CT colonography also requires bowel preparation and insufflation with risk of bowel perforation. Colonography has sensitivity of 82% to 92% to detect adenomas 1 cm or larger, but still requires colonoscopy for polyps greater than 0.6 cm.
 
-Noninvasive screening modalities risk false positives and ultimate recommendation for colonoscopy to evaluate initial screening finding. FOBT is associated with an 11% to 16% reduction in CRC death with number needed to screen to prevent one CRC-related death of 525 in men and 408 in women age 75 to 79. However, false-positive rates are high with FOBT at 86% to 98%. Randomized trials have demonstrated that routine FOBT can diminish colon cancer mortality by 15% to 20% during an 8- to 18-year follow-up period. While there appears to be a slightly lower mortality benefit to FOBT for older adults (10%–16% compared to 19%–23% for younger adults), this was not observed for immunochemical FOBT such as stool-based DNA testing. In fact, sensitivity of fecal immunochemical testing (FIT) does not differ significantly by age. Sensitivity of FIT to detect CRC or precancerous lesions is higher for stool DNA than FIT (stool DNA: 73.8% or 23.8% vs FIT: 92.3% or 42.4%). Despite better sensitivity, stool DNA testing is not recommended for adults age 85 or older given limited data in that subgroup. Blood testing for methylated
+Noninvasive screening modalities risk false positives and ultimate recommendation for colonoscopy to evaluate initial screening finding. FOBT is associated with an 11% to 16% reduction in CRC death with number needed to screen to prevent one CRC-related death of 525 in men and 408 in women age 75 to 79. However, false-positive rates are high with FOBT at 86% to 98%. Randomized trials have demonstrated that routine FOBT can diminish colon cancer mortality by 15% to 20% during an 8- to 18-year follow-up period. While there appears to be a slightly lower mortality benefit to FOBT for older adults (10%–16% compared to 19%–23% for younger adults), this was not observed for immunochemical FOBT such as stool-based DNA testing. In fact, sensitivity of fecal immunochemical testing (FIT) does not differ significantly by age. Sensitivity of FIT to detect CRC or precancerous lesions is higher for stool DNA than FIT (stool DNA: 73.8% or 23.8% vs FIT: 92.3% or 42.4%). Despite better sensitivity, stool DNA testing is not recommended for adults age 85 or older given limited data in that subgroup. Blood testing for methylated septin 9 is not recommended given high false-positive rate with increasing age.
 
 > **[sic]** For colorectal cancer, sensitivity was 92.3% with multitarget stool DNA and 73.8% with FIT. For advanced precancerous lesions it was 42.4% and 23.8%, respectively. [Imperiale et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24645800/).
-
-septin 9 is not recommended given high false-positive rate with increasing age.
 
 Case-control studies suggest that lower endoscopy and removal of polyps may decrease the incidence and mortality of CRC by 50% to 80%. However, screening extends life to a lesser degree with advancing age. Although colonoscopy appears to be particularly beneficial in older adults who have a higher incidence of proximal neoplasms, which are beyond the view of a flexible sigmoidoscopy, the risk of perforation and serious bleeding from colonoscopy is higher than from sigmoidoscopy (3–5 compared to 0.2 per 10,000 procedures and 16 compared to 0.5 per 10,000 procedures, respectively). Older adults are also more likely to have an incomplete colonoscopy, ranging from 78% to 86% for those 70 or older to 52% to 95% for those age 80 or older. While sigmoidoscopy offers lower risk of complications, it should be noted that older adults are more likely to present with proximal tumors, which will be missed on sigmoidoscopy. Prevalence of proximal neoplasia increased from 2% for men age 50 to 59 to 5.9% for those age 70 to 75 in a large Veterans Affairs cohort. This risk increases with advancing age and number of comorbidities. Therefore, screening decisions must be individualized for every older adult.
 
@@ -118,7 +116,7 @@ Most older adults have a stated preference to continue CRC screening, feeling th
 
 ### Localized CRC
 
-Surgery—localized colon cancer Cancers of the colon are typically resected with a hemicolectomy. Whether older age is an adverse prognostic factor in resection of localized colon cancer is controversial. Data on 20,862 adults undergoing surgery in 1997 for colon cancer from the Nationwide Inpatient Sample, a claims-based database, suggested that perioperative mortality increases gradually with advancing age until the age of 80, after which a substantial increase in mortality is seen (6.9% for adults older than 80 years). Older adults in the Nationwide Inpatient Sample from 1997 had lower mortality rates at highvolume hospitals than at low-volume institutions: 3.1% versus 4.5% for adults older than 65 years (p = 0.03). This effect was even more pronounced for adults older than 80 years, where 4.6% of adults died at high-volume centers compared to 7.3% at smaller institutions (p = 0.04). Therefore, it may be preferable to send the very oldest adults with colon cancer to high-volume hospitals for their resections. Yet a recent study of 24,426 adults (44% age ≥ 75) from the New York State Cancer Registry and the Statewide Planning and Research Cooperative System showed that older adults tended to have surgery in community hospitals rather than academic medical centers. Older age was associated with higher rate of death at 1-year (2.8% for those < 65, 13.9% for those age ≥ 75, p < 0.0001) and postoperative complication (22.6% vs 35.5%, p < 0.0001). Mortality rates in the older age group in this US cohort were like the 11.9% to 14% rates noted in European studies. Following death from CRC (45.6%), most frequent cause of death among the 2171 who died was cardiovascular disease (24.5%) and another primary cancer (7.4%).
+Surgery—localized colon cancer Cancers of the colon are typically resected with a hemicolectomy. Whether older age is an adverse prognostic factor in resection of localized colon cancer is controversial. Data on 20,862 adults undergoing surgery in 1997 for colon cancer from the Nationwide Inpatient Sample, a claims-based database, suggested that perioperative mortality increases gradually with advancing age until the age of 80, after which a substantial increase in mortality is seen (6.9% for adults older than 80 years). Older adults in the Nationwide Inpatient Sample from 1997 had lower mortality rates at high-volume hospitals than at low-volume institutions: 3.1% versus 4.5% for adults older than 65 years (p = 0.03). This effect was even more pronounced for adults older than 80 years, where 4.6% of adults died at high-volume centers compared to 7.3% at smaller institutions (p = 0.04). Therefore, it may be preferable to send the very oldest adults with colon cancer to high-volume hospitals for their resections. Yet a recent study of 24,426 adults (44% age ≥ 75) from the New York State Cancer Registry and the Statewide Planning and Research Cooperative System showed that older adults tended to have surgery in community hospitals rather than academic medical centers. Older age was associated with higher rate of death at 1-year (2.8% for those < 65, 13.9% for those age ≥ 75, p < 0.0001) and postoperative complication (22.6% vs 35.5%, p < 0.0001). Mortality rates in the older age group in this US cohort were like the 11.9% to 14% rates noted in European studies. Following death from CRC (45.6%), most frequent cause of death among the 2171 who died was cardiovascular disease (24.5%) and another primary cancer (7.4%).
 
 A tendency to perform less aggressive surgery in older adults may be evident from an analysis of 116,995 adults with localized CRC in the SEER database (1988–2001). This retrospective study revealed that adults 71 years or older were half as likely to receive adequate lymph node evaluation (examination of at least 12 lymph nodes) as younger adults. Multiple studies have now demonstrated that inadequate
 
@@ -366,7 +364,9 @@ NGS could help identify possible targets for therapies, which could potentially 
 
 ## FURTHER READING
 
-Introduction McCleary NJ, Hubbard J, Mahoney MR, et al. Challenges of
+### Introduction
+
+McCleary NJ, Hubbard J, Mahoney MR, et al. Challenges of
 
 conducting a prospective clinical trial for older patients: lessons learned from NCCTG N0949 (alliance). J Geriatr Oncol. 2018;9(1):24–31. Nee J, Chippendale RZ, Feuerstein JD. Screening for colon
 
@@ -378,7 +378,11 @@ trial enrollment of older adults with cancer: a qualitative study of the percept
 
 patients in clinical trials for cancer drug registration: a 7-year experience by the US Food and Drug Administration. J Clin Oncol. 2004;22(22):4626–4631. The American Cancer Society. Cancer Facts & Figures 2020:
 
-Revised June 2020. [https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2020/cancer-facts-and-figures-2020.pdf](<https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2020.html>). Colorectal Cancer André T, Meyerhardt J, Iveson T, et al. Effect of duration
+Revised June 2020. [https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2020/cancer-facts-and-figures-2020.pdf](<https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2020.html>).
+
+### Colorectal Cancer
+
+André T, Meyerhardt J, Iveson T, et al. Effect of duration
 
 of adjuvant chemotherapy for patients with stage III colon cancer (IDEA collaboration): final results from a prospective, pooled analysis of six randomized, phase 3 trials. Lancet Oncol. 2020;21(12):1620–1629. André T, Shiu K-K, Kim T W, et al. Pembrolizumab in
 
@@ -418,7 +422,9 @@ analysis of adjuvant chemotherapy for resected colon cancer in older adult adult
 
 Investigators; National Cancer Research Institute Colorectal Cancer Clinical Studies Group. Chemotherapy options in older adults and frail adults with metastatic colorectal cancer (MRC FOCUS2): an open-label, randomised factorial trial. Lancet. 2011;377(9779):1749–1759.
 
-Gastroesophageal Cancer Fuchs CS, Tomasek J, Yong CJ, et al; REGARD Trial Investi-
+### Gastroesophageal Cancer
+
+Fuchs CS, Tomasek J, Yong CJ, et al; REGARD Trial Investi-
 
 gators. REGARD: a phase III, randomized, double-blind trial of ramucirumab (RAM) and best supportive care (BSC) versus placebo (PL) and BSC in the treatment of metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma following disease progression (PD) on first-line platinum- and/or fluoropyrimidine-containing
 
@@ -428,11 +434,15 @@ sus younger adults with gastric cancer receiving perioperative treatment: result
 
 tolerability of chemotherapy in elderly patients with advanced oesophago-gastric cancer: a pooled analysis of three clinical trials. Eur J Cancer. 2006;42:827–834.
 
-Primary Liver Cancer El-Serag HB, Siegel AB, Davila JA, et al. Treatment and out-
+### Primary Liver Cancer
+
+El-Serag HB, Siegel AB, Davila JA, et al. Treatment and out-
 
 comes of treating of hepatocellular carcinoma among medicare recipients in the United States: a populationbased study. J Hepatol. 2006;44(1):158–166.
 
-Pancreaticobiliary Cancer Gourgou-Bourgade S, Bascoul-Mollevi C, Desseigne F,
+### Pancreaticobiliary Cancer
+
+Gourgou-Bourgade S, Bascoul-Mollevi C, Desseigne F,
 
 et al. Impact of FOLFIRINOX compared with gemcitabine on quality of life in adults with metastatic pancreatic cancer: results from the PRODIGE 4/ACCORD 11 randomized trial. J Clin Oncol. 2013;31(1):23–29. Makary MA, Winter JM, Cameron JL, et al. Pancre-
 

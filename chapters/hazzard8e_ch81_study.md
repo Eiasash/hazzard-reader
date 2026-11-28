@@ -57,7 +57,7 @@ After an exacerbation, ask what the patient could do before admission and what n
 
 Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformity and a rigid chest wall compound the loss of respiratory reserve. An abnormal Timed Up and Go can guide balance training and selection of a walking aid. A high GDS prompts assessment of mood, while a low MMSE prompts observation of technique. Each finding changes a different part of care (p1237–1238, 1241, 1247–1248, 1255, 1258).
 
-<span data-exam-ids="mcq-6a3a4989b7a53b19593f44a7" data-reader-metadata="exam"></span>For the June 2023 historical question, the 80-year-old receives **PCV13 followed by PPSV23** in addition to influenza vaccination. The distractors repeat both products every five years or add Hib vaccination simply because of COPD. The pneumococcal schedule in the textbook predates the 20-valent conjugate vaccine used in Israel. See the Israeli context below (p165, 1255–1256).
+<span data-exam-ids="mcq-6a3a4989b7a53b19593f44a7" data-reader-metadata="exam"></span>For the June 2023 historical question, the 80-year-old receives **PCV13 followed by PPSV23** in addition to influenza vaccination. The distractors repeat both products every five years or add Hib vaccination simply because of COPD. The pneumococcal schedule in the textbook predates the 20-valent conjugate vaccine used in Israel. See the Israeli context below (Ch 11 p165; Ch 81 pp1255–1256).
 
 ## Nausea and breathlessness in advanced illness
 

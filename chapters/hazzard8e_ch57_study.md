@@ -106,7 +106,7 @@ Study summary of Chapter 57; the book and the full chapter are the reference.
 
 **1. In normal aging, which type of intelligence is relatively preserved and which declines?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-1"><summary>Answer</summary>
 
 Crystallized (verbal) intelligence is relatively preserved; fluid intelligence (flexible reasoning/problem-solving) declines (p853).
 
@@ -114,71 +114,71 @@ Crystallized (verbal) intelligence is relatively preserved; fluid intelligence (
 
 **2. Which aspect of attention holds up well with normal aging, and which may decline?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-2"><summary>Answer</summary>
 
 Sustained attention (vigilance) is preserved; divided attention (attending to more than one thing at once) may decline, though results are mixed (p854).
 
 </details>
 
-**4. In normal aging, which verbal fluency type declines (semantic or phonemic), and which stays stable?**
+**3. In normal aging, which verbal fluency type declines (semantic or phonemic), and which stays stable?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-4"><summary>Answer</summary>
 
 Semantic fluency ("name all the animals you can") declines; phonemic fluency ("words starting with F") generally remains stable (p856).
 
 </details>
 
-**6. What proportion of patients show postoperative cognitive decline (POCD) after cardiac surgery at hospital discharge, and at 12 months?**
+**4. What proportion of patients show postoperative cognitive decline (POCD) after cardiac surgery at hospital discharge, and at 12 months?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-6"><summary>Answer</summary>
 
 30-70% at discharge; still present in 15-25% at 12-month follow-up (p859).
 
 </details>
 
-**8. What fraction of patients diagnosed with MCI progress to AD, and over what time frame?**
+**5. What fraction of patients diagnosed with MCI progress to AD, and over what time frame?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-8"><summary>Answer</summary>
 
 In the longitudinal studies cited, up to 80% progressed to AD within 5 to 8 years, converting at roughly 10-15%/year vs 1-2%/year in the general population, while 15–40% may revert to normal on later testing (p869).
 
 </details>
 
-**14. What percentage of dementia cases does normal pressure hydrocephalus (NPH) make up, and what are its shunt-surgery gait/memory outcomes at 6 months vs 5 years?**
+**6. What percentage of dementia cases does normal pressure hydrocephalus (NPH) make up, and what are its shunt-surgery gait/memory outcomes at 6 months vs 5 years?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-14"><summary>Answer</summary>
 
 NPH makes up about 6% of dementia cases. In one five-year observational study, at six months after shunting, 83% improve in gait and 46% improve in memory; of surviving shunt cases at 5 years, only 39% remain gait-improved and fewer than 10% still show cognitive improvement (p876).
 
 </details>
 
-**15. What proportion of people living with diagnosed HIV in the US were aged 50 or older in CDC's 2021 data, and how does the chapter distinguish dementia from milder cognitive deficits?**
+**7. What proportion of people living with diagnosed HIV in the US were aged 50 or older in CDC's 2021 data, and how does the chapter distinguish dementia from milder cognitive deficits?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-15"><summary>Answer</summary>
 
 Over half were 50 or older at the end of 2021 in CDC surveillance. The chapter's treated cohorts had an estimated 2–3% progression to HIV-associated dementia, while milder cognitive deficits were more frequent (50–60%, p876).
 
 </details>
 
-**16. Which features separate corticobasal syndrome from Alzheimer disease early on?**
+**8. Which features separate corticobasal syndrome from Alzheimer disease early on?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-16"><summary>Answer</summary>
 
 Progressive, asymmetric motor signs (tremor, loss of coordination, rigidity, myoclonus), alien limb, and unilateral, most commonly ideomotor, apraxia; memory is typically well preserved early, in contrast to AD (p874).
 
 </details>
 
-**17. Which PPA variant preserves single-word repetition while sentence repetition fails, and why?**
+**9. Which PPA variant preserves single-word repetition while sentence repetition fails, and why?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-17"><summary>Answer</summary>
 
 Logopenic aphasia. The hypothesized mechanism is a short-term working memory deficit; single-word repetition needs minimal working memory (p874).
 
 </details>
 
-**18. As prion disease progresses, which neurologic signs may appear, and what supports the diagnosis?**
+**10. As prion disease progresses, which neurologic signs may appear, and what supports the diagnosis?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="57s:recall-18"><summary>Answer</summary>
 
 Hyperreflexia, impaired coordination, changes in saccadic eye movements and incontinence. EEG changes, MRI hyperintensities and abnormal 14-3-3 protein in the CSF (p876).
 

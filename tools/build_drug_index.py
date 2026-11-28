@@ -76,7 +76,7 @@ def plain(value):
 
 
 def clean(value):
-    return plain(PAGE_LABEL.sub(' ', EDITOR_NOTE.sub(' ', value)))
+    return plain(PAGE_LABEL.sub(' ', EDITOR_NOTE.sub(' ', value.replace('\x07',' '))))
 
 
 def bank_text(value):
@@ -401,7 +401,8 @@ def checked_quote(text,quote):
 
 
 def rid(value):
-    return re.sub(r'[^a-z0-9]+','-',norm(value)).strip('-')
+    readable = norm(value).translate(str.maketrans({'α':'alpha', 'β':'beta', 'μ':'mu'}))
+    return re.sub(r'[^a-z0-9]+','-',readable).strip('-')
 
 
 def words(text):
@@ -757,6 +758,31 @@ def build(destination=None, audit=None, book=None):
                 result['memberTerms']=sorted(evidence['member'])
             qlinks[identity].append(result)
 
+    reader_pages=defaultdict(list)
+    for block in blocks:
+        if block['kind']=='chapter' and block.get('searchable') and block['sourceType'] in ('prose','bibliography'):
+            reader_pages[(block['chapter'],block['page'])].append(block['text'])
+    page_art=defaultdict(list)
+    for asset in sorted((ROOT/'chapters').iterdir()):
+        match=re.fullmatch(r'hazzard8e_ch(\d+)_(table|figure)[^/]*?_p(\d+)\.(?:png|webp|jpg)',asset.name,re.I)
+        if match:
+            page_art[(match[1],int(match[3]))].append(asset.name)
+    def whole_passage(excerpt,chapter,page):
+        if len(excerpt.split())>=4 and excerpt[0].isupper() and re.search(r'[.!?][)”"]?$',excerpt):
+            return excerpt
+        # A clipped PDF block can sit inside a complete reader sentence. Require a
+        # unique verbatim continuation; never join neighbouring medication cells.
+        if len(excerpt.split())>=5:
+            candidates=set()
+            for n in (page,page-1,page+1):
+                for para in reader_pages[(chapter,n)]:
+                    at=para.find(excerpt)
+                    if at<0:continue
+                    full=sentence_excerpt(para,(at,at+len(excerpt)))
+                    if full and full[0].isupper() and re.search(r'[.!?][)”"]?$',full):
+                        candidates.add(full)
+            if len(candidates)==1:return candidates.pop()
+        return None
     records=[]
     omissions=defaultdict(list)
     evidence_errors=[]
@@ -804,6 +830,15 @@ def build(destination=None, audit=None, book=None):
                 passage['target']={'q':b['text'][s:e],'offset':s-offset}
                 if selected!=excerpt or b is not read:
                     passage['target']['excerpt']=selected
+            if read['kind']=='chapter':
+                complete=whole_passage(excerpt,read['chapter'],read['page'])
+                if complete:
+                    if complete!=excerpt and 'target'in passage:passage['target'].setdefault('excerpt',excerpt)
+                    passage['excerpt']=complete
+                elif not passage.get('image'):
+                    passage['sourceLocator']=True
+                    plates=page_art.get((read['chapter'],read['page']),[])
+                    if plates:passage['pageArt']=plates
             passages.append(passage)
 
         sources=[]
@@ -852,7 +887,8 @@ def build(destination=None, audit=None, book=None):
             if published:
                 sources.append({'chapter':published['chapter'],'page':published['page'],'anchor':published['anchor'],
                                 'quote':published['excerpt'],**({'image':published['image']} if published.get('image') else {})})
-        records.append({'id':identity,'name':item['name'],'kind':item.get('kind','drug'),'class':item['class'],
+        old_id=re.sub(r'[^a-z0-9]+','-',norm(item['name'])).strip('-')
+        records.append({'id':identity,**({'previousId':old_id} if old_id!=identity else {}),'name':item['name'],'kind':item.get('kind','drug'),'class':item['class'],
                         **({'classSource':item['classSource']} if 'classSource' in item else {}),
                         'aliases':item.get('aliases',[]),'israeliBrands':item.get('israeliBrands',[]),'sources':sources,
                         'bankOnly':bool(item.get('bankOnly') and not passages),'bankSources':bank_sources,

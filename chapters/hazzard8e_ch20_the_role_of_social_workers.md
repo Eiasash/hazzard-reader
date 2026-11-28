@@ -84,7 +84,7 @@ Social workers work in direct practice and leadership roles in community health 
 
 Social workers in nursing homes and assisted-living facilities have diverse responsibilities to residents and their families, facility staff, and the overall institutional environment. Their assistance begins when residents move into the facility. Adjustment to a new living environment is faced by not only the older person, but their family as well. The social worker provides direct services to residents and their families as part of an interdisciplinary team. They assess the psychosocial needs of the resident and aid in the development of a care plan, guided by federal requirements of maintaining a minimum data set (MDS). The MDS is part of the US federally mandated process for clinical assessment of all residents in Medicare or Medicaid-certified nursing homes. This process provides a comprehensive assessment of each resident’s functional capability that helps nursing home staff (physicians, social workers, and nurses) identify health problems and develop strategies to address them. Social workers also facilitate psychosocial well-being among residents and their families, linking the resident and family members to services inside and outside the facility, helping with discharge planning, and serving as advocates for appropriate care and treatment for all patients and their families. Because social workers are often the only staff members focused on the psychosocial needs of residents and their families, they are well positioned to identify and address mental health issues. Often, they complete the cognitive, mood, behavioral, and psychosocial portion of the
 
-MDS along with the resident assessment protocol, which can identify the mental health needs of residents. Assistedliving facilities are not required to have a social worker on staff and the roles of social workers in these facilities are less uniform when compared to skilled nursing facilities.
+MDS along with the resident assessment protocol, which can identify the mental health needs of residents. Assisted-living facilities are not required to have a social worker on staff and the roles of social workers in these facilities are less uniform when compared to skilled nursing facilities.
 
 ### Hospitals and Health Care Facilities
 
@@ -197,7 +197,7 @@ The Centers for Disease Control and Prevention (CDC) reports estimate that nearl
 
 ### Substance and Alcohol Misuse
 
-Substance and alcohol misuse often remain unrecognized by health care professionals who sometimes mistake symptoms for other age-related problems such as depression and dementia. Risk factors for substance and alcohol misuse include social isolation, living alone, chronic pain, and a variety of losses such as retirement, widowhood, and impaired mobility. Research suggests that a growing number of older adults misuse alcohol and other substances, including prescription medication and at a higher rate than previous generations. The National Survey on Drug Use and Health found that among individuals age 50 and older, over 12% were heavy drinkers, over 3% were binge drinkers, and nearly 2% used illicit drugs. Men older than age 65 had even higher rates of binge drinking at 14%. While misuse of individual substances or alcohol remains an important concern, another growing trend among older adults consists of mixing alcohol with psychoactive medications, which can have dangerous impacts for many older adults. Because older adults frequently suffer from chronic pain, and serious adverse effects of nonsteroidal antiinflammatory drugs are common, older adults frequently use opioids on a chronic basis. There is a fine balance between appropriate use and transitioning into opioid use disorder. Moreover, a substantial number of older adults simultaneously use opioids and benzodiazepines, increasing the risk of serious adverse events such as falls and car crashes. Social workers aid other health care professionals in assessing substance and alcohol misuse and providing the necessary treatment. Social workers also provide successful educational interventions with older adults who are unaware that they are consuming too much alcohol or misusing medications.
+Substance and alcohol misuse often remain unrecognized by health care professionals who sometimes mistake symptoms for other age-related problems such as depression and dementia. Risk factors for substance and alcohol misuse include social isolation, living alone, chronic pain, and a variety of losses such as retirement, widowhood, and impaired mobility. Research suggests that a growing number of older adults misuse alcohol and other substances, including prescription medication and at a higher rate than previous generations. The National Survey on Drug Use and Health found that among individuals age 50 and older, over 12% were heavy drinkers, over 3% were binge drinkers, and nearly 2% used illicit drugs. Men older than age 65 had even higher rates of binge drinking at 14%. While misuse of individual substances or alcohol remains an important concern, another growing trend among older adults consists of mixing alcohol with psychoactive medications, which can have dangerous impacts for many older adults. Because older adults frequently suffer from chronic pain, and serious adverse effects of nonsteroidal anti-inflammatory drugs are common, older adults frequently use opioids on a chronic basis. There is a fine balance between appropriate use and transitioning into opioid use disorder. Moreover, a substantial number of older adults simultaneously use opioids and benzodiazepines, increasing the risk of serious adverse events such as falls and car crashes. Social workers aid other health care professionals in assessing substance and alcohol misuse and providing the necessary treatment. Social workers also provide successful educational interventions with older adults who are unaware that they are consuming too much alcohol or misusing medications.
 
 > **[sic]** In NSDUH, heavy alcohol use requires multiple days of binge drinking. For the same group and recall period the heavy-use rate cannot exceed the binge-use rate. The two percentages printed here cannot be interpreted in that order. [SAMHSA, National Survey on Drug Use and Health definitions](https://www.samhsa.gov/data/sites/default/files/NSDUH-FFR1-2015/NSDUH-FFR1-2015/NSDUH-FFR1-2015.htm).
 
@@ -211,48 +211,43 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 ## FURTHER READING
 
-Administration on Aging. A Profile of Older Americans.
 
-Washington, DC: Administration on Aging; 2019. [https://](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf>) acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508. pdf. Accessed December 10, 2020. Anthony S, Traub A, Lewis S, et al. Strengthening Medic-
+- Administration on Aging. A Profile of Older Americans. Washington, DC: Administration on Aging; 2019. [https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf>). Accessed December 10, 2020.
 
-aid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK. Barry KL, Blow FC. Drinking over the lifespan: focus on
+- Anthony S, Traub A, Lewis S, et al. Strengthening Medicaid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK.
 
-older adults. Alcohol Res. 2016;38(1):115–120. Beaulieu EM. A Guide for Nursing Home Social Workers.
+- Barry KL, Blow FC. Drinking over the lifespan: focus on older adults. Alcohol Res. 2016;38(1):115–120.
 
-New York, NY: Springer; 2013. Berkman B, ed. Handbook of Social Work in Health and
+- Beaulieu EM. A Guide for Nursing Home Social Workers. New York, NY: Springer; 2013.
 
-Aging. New York, NY: Oxford Press; 2015. Buch ED. Inequalities of Aging: Paradoxes of Independence
+- Berkman B, ed. Handbook of Social Work in Health and Aging. New York, NY: Oxford Press; 2015.
 
-in American Home Care. New York, NY: New York University Press; 2018. Fredriksen-Goldsen KI, Hoy-Ellis CP, Goldsen J, Emlet CA,
+- Buch ED. Inequalities of Aging: Paradoxes of Independence in American Home Care. New York, NY: New York University Press; 2018.
 
-Hooyman NR. Creating a vision for the future: key competencies and strategies for culturally competent practice with lesbian, gay, bisexual, and transgender (LGBT) older adults in the health and human services. J Gerontol Social Work. 2014;57(2–4):80–107. Gehlert S. Handbook of Health Social Work. 3rd ed.
+- Fredriksen-Goldsen KI, Hoy-Ellis CP, Goldsen J, Emlet CA, Hooyman NR. Creating a vision for the future: key competencies and strategies for culturally competent practice with lesbian, gay, bisexual, and transgender (LGBT) older adults in the health and human services. J Gerontol Social Work. 2014;57(2–4):80–107.
 
-New York, NY: John Wiley & Sons, Inc; 2019. Han BH, Moore AA, Sherman S, Keyes KM, Palamar JJ.
+- Gehlert S. Handbook of Health Social Work. 3rd ed. New York, NY: John Wiley & Sons, Inc; 2019.
 
-Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005–2014. Drug Alcohol Depend. 2017;170:198–207. HIV Among People Aged 50 and Over, Centers for
+- Han BH, Moore AA, Sherman S, Keyes KM, Palamar JJ. Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005–2014. Drug Alcohol Depend. 2017;170:198–207.
 
-Disease Prevention and Control. [https://www.cdc](<https://stacks.cdc.gov/view/cdc/149188>) .gov/hiv/group/age/olderamericans/index.html. Accessed December 6, 2021.
+- HIV Among People Aged 50 and Over, Centers for Disease Prevention and Control. [https://www.cdc.gov/hiv/group/age/olderamericans/index.html](<https://stacks.cdc.gov/view/cdc/149188>). Accessed December 6, 2021.
 
-Kadushin G, Egan M. Gerontological Home Health Care: A
+- Kadushin G, Egan M. Gerontological Home Health Care: A Guide for the Social Work Practitioner. New York, NY: Columbia University Press; 2008.
 
-Guide for the Social Work Practitioner. New York, NY: Columbia University Press; 2008. Kcomt L. Profound health-care discrimination experienced
+- Kcomt L. Profound health-care discrimination experienced by transgender people: rapid systematic review. Soc Work Health Care. 2019;58(2):201–219.
 
-by transgender people: rapid systematic review. Soc Work Health Care. 2019;58(2):201–219. Kim H-J, Jen S, Fredriksen-Goldsen K. Race/ethnicity and
+- Kim H-J, Jen S, Fredriksen-Goldsen K. Race/ethnicity and health-related quality of life among LGBT older adults. Gerontologist. 2017;57(Suppl 1):S30–S39.
 
-health-related quality of life among LGBT older adults. Gerontologist. 2017;57(Suppl 1):S30–S39. Mpondo BCT. HIV infection in the elderly: arising chal-
+- Mpondo BCT. HIV infection in the elderly: arising challenges. J Aging Res. 2016;2016:2404857.
 
-lenges. J Aging Res. 2016;2016:2404857. National Association of Social Workers. NASW standards
+- National Association of Social Workers. NASW standards for palliative and end of life care (2015). [https://www.socialworkers.org/Practice/Practice-Standards-Guidelines](<https://www.socialworkers.org/Practice/Practice-Standards-Guidelines>). Accessed December 6, 2021. National Association of Social Workers. NASW guidelines for social work practice in healthcare settings (2016). [www.socialworkers.org/practice/standards/NASWHealthCareStandards.pdf](<https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Practice-in-Health-Care-Settings> "NASW Standards for Social Work Practice in Health Care Settings.").
 
-for palliative and end of life care (2015). [https://www](<https://www.socialworkers.org/Practice/Practice-Standards-Guidelines>) .socialworkers.org/Practice/Practice-Standards-Guidelines. Accessed December 6, 2021. National Association of Social Workers. NASW guidelines
+- Rodriguez J. Labors of Love: Nursing Homes and the Structure of Care Work. New York, NY: New York University Press; 2014.
 
-for social work practice in healthcare settings (2016). [www.socialworkers.org/practice/standards/NASW](<https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Practice-in-Health-Care-Settings> "NASW Standards for Social Work Practice in Health Care Settings.") HealthCareStandards.pdf. Rodriguez J. Labors of Love: Nursing Homes and the Struc-
+- Standards and Indicators for Cultural Competence in Social Work Practice, NASW, 2015. [https://www.socialworkers.org/LinkClick.aspx?fileticket=7dVckZAYUmk%3D&portalid=0](<https://www.socialworkers.org/LinkClick.aspx?fileticket=7dVckZAYUmk%3D&portalid=0>). Accessed December 6, 2021.
 
-ture of Care Work. New York, NY: New York University Press; 2014. Standards and Indicators for Cultural Competence in Social
+- Weaver RH, Roberto KA. Home and community-based service use by vulnerable older adults. Gerontologist. 2017;57(3):540–551.
 
-Work Practice, NASW, 2015. [https://www.socialworkers](<https://www.socialworkers.org/LinkClick.aspx?fileticket=7dVckZAYUmk%3D&portalid=0>). org/LinkClick.aspx?fileticket= 7dVckZAYUmk%3D&- portalid=0. Accessed December 6, 2021. Weaver RH, Roberto KA. Home and community-based
+- World Health Organization. Suicide in the world, 2019. [https://www.who.int/publications/i/item/suicide-inthe-world](<https://www.who.int/publications/i/item/suicide-in-the-world>). Accessed January 5, 2022.
 
-service use by vulnerable older adults. Gerontologist. 2017;57(3):540–551. World Health Organization. Suicide in the world, 2019.
-
-[https://www.who.int/publications/i/item/suicide-inthe-world](<https://www.who.int/publications/i/item/suicide-in-the-world>). Accessed January 5, 2022. Zerden L, Lombardi B, Jones A. Social workers in inte-
-
-grated health care: improving care throughout the life course. Soc Work Health Care. 2019;58(1):142–149.
+- Zerden L, Lombardi B, Jones A. Social workers in integrated health care: improving care throughout the life course. Soc Work Health Care. 2019;58(1):142–149.

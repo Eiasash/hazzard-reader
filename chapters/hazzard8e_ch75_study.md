@@ -59,7 +59,7 @@ With symptomatic severe stenosis, ask first whether relief of obstruction would 
 
 <span data-practice-ids="mcq-4b12b2b09f6a219dc0a66d76" data-reader-metadata="exam"></span>
 
-**What can a balloon alone accomplish?** Inflation can widen a calcific valve enough for temporary relief or help stabilize a patient awaiting definitive treatment. The opening often remains small, and restenosis usually occurs within six to twelve months. A patient considering the procedure for palliation should hear both the potential for short-term relief and the procedural risk (p1152).
+**What can a balloon alone accomplish?** Inflation can widen a calcific valve enough for temporary relief or help stabilize a patient awaiting definitive treatment. The opening often remains small, and restenosis occurs within six to twelve months. A patient considering the procedure for palliation should hear both the potential for short-term relief and the procedural risk (p1152).
 
 <span data-exam-ids="mcq-92f1bc01da4974c018371e81" data-reader-metadata="exam"></span>
 
@@ -112,7 +112,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - **Severe AS (Table 75-1, p1150):** aortic valve area **<1.0 cm²**, jet velocity **>4 m/s**, mean gradient **>40 mm Hg**.
   > Current practice (not the book): ACC/AHA describes severe high-gradient AS as peak velocity **≥4.0 m/s** or mean gradient **≥40 mm Hg**; valve area is typically **≤1.0 cm²** — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
-- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS can cause epistaxis or ecchymoses in **up to 20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
+- Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS can cause epistaxis or ecchymoses in **20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
 - Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, failure of systolic BP to rise by at least 20 mm Hg, or ST-segment abnormalities) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151).
 - 5-yr symptom-free probability even in severe AS averages only **50%** (p1151).
 - BAV: enlargement rarely **> 1.0 cm²**, **10%** complication rate, restenosis by 6mo–1yr, 1-yr mortality **35–50%** — bridge/palliation only, not a replacement substitute (p1152).
@@ -121,7 +121,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Hazzard defines **prohibitive SAVR risk** as an STS predicted risk of morbidity and mortality **over 50%** due to comorbidity or serious irreversible conditions. It describes TAVR durability **beyond five years as unknown** and notes the possibility of valve-in-valve reintervention (p1153).
   > Current practice (not the book): randomized NOTION follow-up reports valve outcomes through **10 years** in lower-risk patients — [NOTION follow-up, 2024](https://doi.org/10.1093/eurheartj/ehae043).
 - Table 75-3 (SAVR vs TAVR vs palliative selection): SAVR favored for longer life expectancy, few frailty markers, TAVR-unsuitable anatomy, or concomitant coronary artery disease or valve disease (lower reintervention/PPM/vascular-complication risk, longer stay); TAVR favored for shorter life expectancy, severe comorbidities/mobility issues, or prior chest irradiation (shorter stay, but accepts possible risk of repeat intervention and higher PPM/vascular-complication risk) (p1153).
-- Palliative care (same table): symptom relief without life prolongation, avoiding periprocedural stroke/PPM/vascular-complication risk — for limited life expectancy, severe dementia/frailty/multiorgan impairment, valve anatomy/access unsuitable for TAVR, or goals of care against futile procedures (p1153).
+- Palliative care (same table): temporary symptomatic relief without life prolongation, avoiding periprocedural stroke/PPM/vascular-complication risk — for limited life expectancy, severe dementia/frailty/multiorgan impairment, valve anatomy/access unsuitable for TAVR, or goals of care against futile procedures (p1153).
 
 **Aortic insufficiency (AI)**
 - Chronic AI in **20–30%** of >65y (p1153).
@@ -138,7 +138,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 **Mitral stenosis (MS)**
 - Overwhelming majority rheumatic in etiology; normal MVA **4.0–5.0 cm²**, shrinks **0.09–0.32 cm²/yr**; symptoms usually appear once area falls to **2.5–1.5 cm²** (p1156).
 - Symptom onset lags rheumatic fever by **20–40 years** (p1156).
-- Once symptomatic, 10-yr survival only **50–60%**; asymptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
+- Once symptomatic, 10-yr survival only **50–60%**; asymptomatic or minimally symptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
 - **Severe mitral stenosis in Table 75-7 (p1156): mitral valve area <1.0 cm²**, pulmonary artery pressure **>50 mm Hg** and mean gradient **>10 mm Hg**. Gradient varies with flow and heart rate.
   > Current practice (not the book): ACC/AHA staging defines severe rheumatic MS by mitral valve area **≤1.5 cm²** and very severe MS by **≤1.0 cm²** — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - **30–40%** of older MS patients present with AF; with AF, 10-yr survival **25%** vs **46%** if they remain in sinus rhythm (p1156).
@@ -158,7 +158,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; the two estimates differ.
 
 **Perioperative risk, anticoagulation, prosthetic valves**
-- Table 75-12 risk criteria (combine per column, not PROM alone; organ counts = major organ dysfunction that will not improve postoperatively): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system *or* possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%** *or* ≥3 organ systems *or* severe impediment (p1160).
+- Table 75-12 risk criteria (combine per column, not PROM alone; organ counts = major organ dysfunction that will not improve postoperatively): low = STS-PROM **< 4%** *and* no frailty *and* no organ dysfunction *and* no procedure impediment; intermediate = **4–8%** *or* 1 frailty index *or* 1 organ system, possible impediment; high = **> 8%**, ≥2 frailty indices, ≤2 organ systems, possible impediment; prohibitive = death/morbidity risk **> 50%**, ≥3 organ systems, severe impediment (p1160).
 - **Endocarditis prophylaxis for eligible adults (Table 75-14, p1161):** give **amoxicillin 2 g PO 1 hour before**. For penicillin allergy the table lists **clindamycin 600 mg** or **cephalexin 2 g PO 1 hour before**. If oral dosing is impossible, the table lists ampicillin 2 g IV/IM 30 minutes before, or clindamycin 600 mg IV or cefazolin 1 g IV/IM 30 minutes before for penicillin allergy.
   > Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO, or cefazolin/ceftriaxone IM/IV — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 - **Prosthetic valves (Table 75-15, p1161):** a mechanical aortic valve uses **INR 2–3**, or **2.5–3.5** with additional risk factors; a mechanical mitral valve uses **INR 2.5–3.5**. The table adds **aspirin 75–325 mg/day** for mechanical valves. For a bioprosthetic aortic or mitral valve without additional risk factors, it gives **INR 2–3 for 3 months plus aspirin 75–100 mg/day**. With risk factors the printed bioprosthetic ranges are **2–3** for aortic and **2.5–3.5** for mitral, with aspirin **75–100 mg/day**.

@@ -155,7 +155,7 @@ In 1960, males died at higher age-adjusted rates for 8 of the top 10 causes of d
 
 died of tuberculosis at twice the age-adjusted rate of women. Such resistance in fact may help explain the historical female survival advantage. In 1900 and presumably earlier, pneumonia/influenza was the leading cause of death, followed closely by tuberculosis. Not shown for 2017 are deaths from accidents, cause #5 (age-adjusted sex ratio: 2.0), and cause #10, suicides (age-adjusted sex ratio: 1.4). By 2017, 9 of the 10 top causes of death were male-biased, although only slightly so for stroke. Thus across a span of 50 years despite better overall improvement in health and survival among men than women, men still died at higher age-adjusted rates from virtually all of the top causes of death.
 
-Note that the same pattern holds true for COVID-19. When the data are in from 2020 and 2021, COVID-19 will rank among the top causes of death. In fact from midNovember 2020 to the current time (February 2021), COVID-19 killed roughly twice as many Americans as either of the previous top two causes of death, heart disease and cancer. As with influenza and pneumonia, men died at higher rates than women from this emerging disease.
+Note that the same pattern holds true for COVID-19. When the data are in from 2020 and 2021, COVID-19 will rank among the top causes of death. In fact from mid-November 2020 to the current time (February 2021), COVID-19 killed roughly twice as many Americans as either of the previous top two causes of death, heart disease and cancer. As with influenza and pneumonia, men died at higher rates than women from this emerging disease.
 
 The trend for men to die at greater age-adjusted rates from a diversity of causes is by no means unique to the United States. Among the 28 countries of the European Union, in which life expectancy ranges from 74 years (Latvia, Lithuania) to 83 years (Iceland), men die at higher age-adjusted rates than women of nearly every top cause of death as well. The same is true in Japan, the country with the highest life expectancy in the world.
 
@@ -253,42 +253,39 @@ balance in studies with laboratory animals or cells, which are heavily male-bias
 
 ## FURTHER READING
 
-Austad SN. Sex differences in longevity and aging. In:
 
-Masoro EJ, Austad SN, eds. Handbook of the Biology of Aging. 7th ed. San Diego, CA: Academic Press; 2011: 479–496. Beltrán-Sanchez H, Finch CE, Crimmins EM. Twentieth
+- Austad SN. Sex differences in longevity and aging. In: Masoro EJ, Austad SN, eds. Handbook of the Biology of Aging. 7th ed. San Diego, CA: Academic Press; 2011: 479–496.
 
-century surge of excess adult male mortality. Proc Natl Acad Sci U S A. 2015;112(29):8993–8998. Boyan BD, Hart DA, Enoka RM, et al. Hormonal modula-
+- Beltrán-Sanchez H, Finch CE, Crimmins EM. Twentieth century surge of excess adult male mortality. Proc Natl Acad Sci U S A. 2015;112(29):8993–8998.
 
-tion of connective tissue homeostasis and sex differences in risk for osteoarthritis of the knee. Biol Sex Differ. 2013;4(1):3. Bronikowski AM, Altmann J, Brockman DK, et al. Aging in
+- Boyan BD, Hart DA, Enoka RM, et al. Hormonal modulation of connective tissue homeostasis and sex differences in risk for osteoarthritis of the knee. Biol Sex Differ. 2013;4(1):3.
 
-the natural world: comparative data reveal similar mortality patterns across primates. Science. 2011;331(6022): 1325–1328. Clayton JA, Collins FS. NIH to balance sex in cell and ani-
+- Bronikowski AM, Altmann J, Brockman DK, et al. Aging in the natural world: comparative data reveal similar mortality patterns across primates. Science. 2011;331(6022): 1325–1328.
 
-mal studies. Nature. 2014;509(7500):282. Crimmins EM, Kim JK, Solé-Auró A. Gender differences
+- Clayton JA, Collins FS. NIH to balance sex in cell and animal studies. Nature. 2014;509(7500):282.
 
-in health: results from SHARE, ELSA, and HRS. Eur J Public Health. 2010;21(1):81–91. Crimmins EM, Preston, SH, Cohen B, eds. International
+- Crimmins EM, Kim JK, Solé-Auró A. Gender differences in health: results from SHARE, ELSA, and HRS. Eur J Public Health. 2010;21(1):81–91.
 
-Differences in Mortality at Older Ages: Dimensions and Sources. Washington, DC: National Academies Press; 2011. Ezzati M, Friedman AB, Kulkani SC, Murray CJ. The
+- Crimmins EM, Preston, SH, Cohen B, eds. International Differences in Mortality at Older Ages: Dimensions and Sources. Washington, DC: National Academies Press; 2011.
 
-reversal of fortunes: trends in county mortality and cross-county mortality disparities in the United States. PLoS Med. 2008;5(4):e66. Hamilton JB, Mestler GE. Mortality and survival: a compar-
+- Ezzati M, Friedman AB, Kulkani SC, Murray CJ. The reversal of fortunes: trends in county mortality and cross-county mortality disparities in the United States. PLoS Med. 2008;5(4):e66.
 
-ison of eunuchs with intact men and women in a mentally retarded population. J Gerontol. 1969;24(4):395–411.
+- Hamilton JB, Mestler GE. Mortality and survival: a comparison of eunuchs with intact men and women in a mentally retarded population. J Gerontol. 1969;24(4):395–411.
 
-Human Mortality Database. University of California,
+- Human Mortality Database. University of California, Berkeley (USA), and Max Planck Institute for Demographic Research (Germany). [www.mortality.org](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview") or [www.humanmortality.de](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview"). Accessed November 2014.
 
-Berkeley (USA), and Max Planck Institute for Demographic Research (Germany). [www.mortality.org](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview") or [www.humanmortality.de](<https://www.mortality.org/Project/Overview> "Human Mortality Database, project overview"). Accessed November 2014. Kindig DA, Cheng ER. Even as mortality fell in most US
+- Kindig DA, Cheng ER. Even as mortality fell in most US counties, female mortality nonetheless rose in 42.8 percent of counties from 1992 to 2006. Health Aff (Millwood). 2013;32(3):451–458.
 
-counties, female mortality nonetheless rose in 42.8 percent of counties from 1992 to 2006. Health Aff (Millwood). 2013;32(3):451–458. Macintyre S, Ford G, Hunt K. Do women ‘over-report’
+- Macintyre S, Ford G, Hunt K. Do women ‘over-report’ morbidity? Men’s and women’s responses to structured prompting on a standard question on long standing illness. Soc Sci Med. 1999;48(1):89–98.
 
-morbidity? Men’s and women’s responses to structured prompting on a standard question on long standing illness. Soc Sci Med. 1999;48(1):89–98. Manson JE. Current recommendations: what is the clini-
+- Manson JE. Current recommendations: what is the clinician to do? Fertil Steril. 2014;101(4):916–921.
 
-cian to do? Fertil Steril. 2014;101(4):916–921. Min K-J, Lee C-K, Park H-N. The lifespan of Korean
+- Min K-J, Lee C-K, Park H-N. The lifespan of Korean eunuchs. Curr Biol. 2012;22(18):R792–793.
 
-eunuchs. Curr Biol. 2012;22(18):R792–793. Rahman O, Strauss J, Gertler P, Ashley D, Fox K. Gender
+- Rahman O, Strauss J, Gertler P, Ashley D, Fox K. Gender differences in adult health: an international comparison. Gerontologist. 1994;34(4):463–469.
 
-differences in adult health: an international comparison. Gerontologist. 1994;34(4):463–469. Saloman JA, Wang H, Freeman MK, et al. Healthy life
+- Saloman JA, Wang H, Freeman MK, et al. Healthy life expectancy for 187 countries, 1990–2010: a systematic analysis for the Global Burden Disease Study 2010. Lancet. 2012;380(9867):2144–2162.
 
-expectancy for 187 countries, 1990–2010: a systematic analysis for the Global Burden Disease Study 2010. Lancet. 2012;380(9867):2144–2162. Stanczyk FZ, Bhavnani BR. Current views of hormone
+- Stanczyk FZ, Bhavnani BR. Current views of hormone therapy for management and treatment of postmenopausal women. J Steroid Biochem Mol Biol. 2014;142:1–2.
 
-therapy for management and treatment of postmenopausal women. J Steroid Biochem Mol Biol. 2014;142:1–2. Wang H, Schumacher AE, Levitz CE, Mokdad AH, Murray
-
-CJ. Left behind: widening disparities for males and females in US county life expectancy, 1985–2010. Popul Health Metr. 2013;11:8.
+- Wang H, Schumacher AE, Levitz CE, Mokdad AH, Murray CJ. Left behind: widening disparities for males and females in US county life expectancy, 1985–2010. Popul Health Metr. 2013;11:8.

@@ -2,7 +2,7 @@
 
 Matthew E. Growdon, Tanya Mailhot, Jane S. Saczynski, Tamara G. Fong, Sharon K. Inouye
 
-> **Source and method.** Printed pages 879–892 of the 8th edition, from the publisher's own text layer (1,824-page copy; PDF page = printed + 34). Prose, both boxes, all five tables and both figure captions. The two figures are diagrams and are supplied as page images, not transcribed. Checked against an independently typeset copy of the same chapter: 99.8% of words agree, and 224 of 227 line-break hyphen decisions are confirmed by that copy printing the word mid-line. Page markers are **printed** page numbers, the ones the examiners cite. The two boxes (Learning Objectives, Key Clinical Points) are moved up to follow the opening paragraph; nothing else is reordered. A paragraph that runs over a page break sits under the page where it starts.
+> **Source and method.** Printed pages 879–891 of the 8th edition, from the publisher's own text layer (1,824-page copy; PDF page = printed + 34). Prose, both boxes, all five tables and both figure captions. The two figures are diagrams and are supplied as page images, not transcribed. Checked against an independently typeset copy of the same chapter: 99.8% of words agree, and 224 of 227 line-break hyphen decisions are confirmed by that copy printing the word mid-line. Page markers are **printed** page numbers, the ones the examiners cite. The two boxes (Learning Objectives, Key Clinical Points) are moved up to follow the opening paragraph; nothing else is reordered. A paragraph that runs over a page break sits under the page where it starts.
 
 > **2026 exam.** Chapter 58 was the most-examined chapter of the 2026 specialist sitting: **6 questions** (Q14, Q27, Q34, Q40, Q58, Q74 — IMA reference list 885647). The questions cover the clinical points on those pages.
 
@@ -313,7 +313,6 @@ Saczynski JS, Marcantonio ER, Quach L, et al. Cognitive trajectories after post-
 
 Wilson JE, Mart MF, Cunningham C, et al. Delirium. Nat Rev Dis Primer. 2020;6:1–26.
 
-<a id="p892"></a>**[p. 892]**
 
 ## 2026 exam: the six questions sourced to this chapter
 
