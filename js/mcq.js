@@ -846,7 +846,12 @@ window.HazzardMCQ = (() => {
     }
     return result;
   }
+  let initialReloadURL=performance.getEntriesByType('navigation')[0]?.type==='reload'?location.href:null;
   function mount({chapter,viewport,readerScroll,onShow,onNotes,onHeader,openImage,readOnlyChapter=false}){
+    // The outgoing reader already saved its position. Layout and focus during a reload
+    // may move the scroller before the restored question is ready.
+    let keepReloadPosition=initialReloadURL===location.href&&!!readPracticePlace();
+    initialReloadURL=null;
     const lifetime=new AbortController();
     const listen=(element,type,handler,options={})=>element.addEventListener(type,handler,{...options,signal:lifetime.signal});
     const bankMode=chapter==='bank',mockMode=chapter==='mock',redoMode=bankMode&&new URL(location.href).searchParams.get('redo')==='1',reviewMode=!redoMode&&bankMode&&new URL(location.href).searchParams.get('review')==='1';
@@ -917,7 +922,7 @@ window.HazzardMCQ = (() => {
     function viewState(){const q=visible()[position],remembered=bankMode?HazzardStorage.readProtected(VIEW_KEY,()=>null):null;return q?{version:1,id:currentId(q.id),filter,year,level:remembered?remembered.level:level,topic,sort,sortChosen:true,...(seed===undefined?{}:{seed}),missedOnly,flagsView,missedIds:missedIds?[...missedIds]:null,scroll:Math.max(0,host.scrollTop),at:Date.now()}:null;}
     function practiceScreen(){return mockMode?'mock':redoMode?'changed':reviewMode?'review':savedView?'saved':flagsView?'flags':savedOnly?'saved-practice':missedOnly?'missed':'bank';}
     function savePracticePlace(){
-      if(browsing)return;
+      if(browsing||keepReloadPosition)return;
       if(!loaded||!controller.active||viewport.hidden||restoringView||!(bankMode||mockMode))return;
       const screen=practiceScreen(),q=visible()[position];
       if(reviewMode)return;
@@ -933,7 +938,7 @@ window.HazzardMCQ = (() => {
         const url=new URL(location.href);if((bankMode||directoryPick)&&url.searchParams.has('q'))url.searchParams.set('q',view.id);
         history.replaceState({...history.state,mcqView:{...view,missedIds:missedIds?[...missedIds]:null,retryAnswers:[...retryAnswers],lastAnswer}},'',url);
         // Restoring a legacy view must not migrate or overwrite its saved bytes.
-        if(bankMode&&!restoredViewUnchanged&&savedContent(view)!==savedContent(HazzardStorage.readProtected(VIEW_KEY,()=>null)))HazzardStorage.setItem(VIEW_KEY,JSON.stringify(view));
+        if(bankMode&&!keepReloadPosition&&!restoredViewUnchanged&&savedContent(view)!==savedContent(HazzardStorage.readProtected(VIEW_KEY,()=>null)))HazzardStorage.setItem(VIEW_KEY,JSON.stringify(view));
       }catch{notice='Your progress could not be saved. Keep this page open.';}
     }
     function restoreView(view){
@@ -1519,7 +1524,7 @@ window.HazzardMCQ = (() => {
         const state={...history.state};delete state.hazzardOpenSource;history.replaceState(state,'');
       }
     },{capture:true});
-    for(const event of ['pointerdown','touchstart','wheel','keydown'])listen(host,event,()=>{restoringView=false;restoredViewUnchanged=false;},{passive:true});
+    for(const event of ['pointerdown','touchstart','wheel','keydown','click'])listen(host,event,()=>{keepReloadPosition=false;restoringView=false;restoredViewUnchanged=false;},{passive:true});
     listen(host,'click',event=>{if(!event.target.closest('[data-cross]'))queueMicrotask(saveView);});
     listen(host,'change',()=>queueMicrotask(saveView));
     listen(window,'pagehide',saveView);
