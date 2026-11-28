@@ -246,7 +246,8 @@
       "title": "Osteoporosis",
       "file": "hazzard8e_ch51_osteoporosis.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Screening, diagnosis and pharmacologic management"
+      "description": "Lane-reviewed 25 Sep. Screening, diagnosis and pharmacologic management",
+      "markUnits": "data/mark-units/51.json"
     },
     {
       "number": "52",
@@ -268,7 +269,8 @@
       "title": "Pain Management",
       "file": "hazzard8e_ch68_pain_management.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Assessment and pharmacologic/nonpharmacologic management"
+      "description": "Lane-reviewed 25 Sep. Assessment and pharmacologic/nonpharmacologic management",
+      "markUnits": "data/mark-units/68.json"
     },
     {
       "number": "81",
@@ -292,7 +294,8 @@
       "title": "Thyroid Diseases",
       "file": "hazzard8e_ch98_thyroid_diseases.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Hypothyroidism, hyperthyroidism and subclinical disease in older adults"
+      "description": "Lane-reviewed 25 Sep. Hypothyroidism, hyperthyroidism and subclinical disease in older adults",
+      "markUnits": "data/mark-units/98.json"
     },
     {
       "number": "101",
@@ -306,7 +309,8 @@
       "title": "Back Pain and Spinal Stenosis",
       "file": "hazzard8e_ch102_back_pain_and_spinal_stenosis.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Evaluation and management, including lumbar spinal stenosis"
+      "description": "Lane-reviewed 25 Sep. Evaluation and management, including lumbar spinal stenosis",
+      "markUnits": "data/mark-units/102.json"
     },
     {
       "number": "104",
@@ -388,7 +392,6 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/81s.json",
-      "drillCount": 13,
       "textLayout": "data/chapter-layout/81s.json"
     },
     {
@@ -450,14 +453,16 @@
       "file": "hazzard8e_ch108_study.md",
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "drillCount": 8
+      "drillCount": 8,
+      "markUnits": "data/mark-units/108s.json"
     },
     {
       "number": "65",
       "title": "Major Depression",
       "file": "hazzard8e_ch65_major_depression.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Diagnosis and management of major depression in older adults"
+      "description": "Lane-reviewed 25 Sep. Diagnosis and management of major depression in older adults",
+      "markUnits": "data/mark-units/65.json"
     },
     {
       "number": "75",
@@ -471,7 +476,8 @@
       "title": "Heart Failure",
       "file": "hazzard8e_ch76_heart_failure.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. HFrEF/HFpEF diagnosis and management in older adults"
+      "description": "Lane-reviewed 25 Sep. HFrEF/HFpEF diagnosis and management in older adults",
+      "markUnits": "data/mark-units/76.json"
     },
     {
       "number": "77",
@@ -513,7 +519,6 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/75s.json",
-      "drillCount": 14,
       "textLayout": "data/chapter-layout/75s.json"
     },
     {
@@ -523,7 +528,6 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/76s.json",
-      "drillCount": 11,
       "textLayout": "data/chapter-layout/76s.json"
     },
     {
@@ -533,7 +537,6 @@
       "kind": "study",
       "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
       "markUnits": "data/mark-units/77s.json",
-      "drillCount": 13,
       "textLayout": "data/chapter-layout/77s.json"
     },
     {
@@ -610,8 +613,7 @@
       "title": "The Aging Cardiovascular System — Study",
       "file": "hazzard8e_ch73_study.md",
       "kind": "study",
-      "description": "Summary + Recall. Multiple-choice drill questions are in Practice.",
-      "drillCount": 9
+      "description": "Summary + Recall. Multiple-choice drill questions are in Practice."
     },
     {
       "number": "82s",
@@ -1441,7 +1443,8 @@
       "number": "29",
       "title": "Surgical Quality and Outcomes",
       "file": "hazzard8e_ch29_surgical_quality_and_outcomes.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/29.json"
     },
     {
       "number": "29s",
@@ -1515,7 +1518,8 @@
       "number": "54",
       "title": "Therapeutic Exercise",
       "file": "hazzard8e_ch54_therapeutic_exercise.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/54.json"
     },
     {
       "number": "54s",
@@ -1529,7 +1533,8 @@
       "number": "41",
       "title": "Managing the Care of Patients with Multiple Chronic Conditions",
       "file": "hazzard8e_ch41_managing_the_care_of_patients_with_multiple_chronic_conditions.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/41.json"
     },
     {
       "number": "41s",
@@ -1558,7 +1563,8 @@
       "number": "56",
       "title": "The Aging Brain",
       "file": "hazzard8e_ch56_the_aging_brain.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/56.json"
     },
     {
       "number": "56s",

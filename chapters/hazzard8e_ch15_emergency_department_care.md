@@ -216,11 +216,13 @@ Sustainable and measurable geriatric emergency medicine advancement requires a v
 
 - Carpenter CR, Mooijaart SP. Geriatric Screeners 2.0: time for a paradigm shift in emergency department vulnerability research. J Am Geratr Soc. 2020;68(7): 1402–1405.
 
-- Carpenter CR, Shelton E, Fowler S, Suffoletto B, Platts- Mills TF, Rothman RE, et al. Risk factors and screening instruments to predict adverse outcomes for undifferentiated older emergency department patients: a systematic review and meta-analysis. Acad Emerg Med. 2015;22(1):1–21.
+- Carpenter CR, Shelton E, Fowler S, Suffoletto B, Platts-Mills TF, Rothman RE, et al. Risk factors and screening instruments to predict adverse outcomes for undifferentiated older emergency department patients: a systematic review and meta-analysis. Acad Emerg Med. 2015;22(1):1–21.
 
-- Conroy S, Carpenter C, Banerjee J. Silver Book II: Quality Urgent Care for Older People, British Geriatrics Society, 2021. Available at https://www.bgs.org.uk/resources/ resource-series/silver-book-ii.
+- Conroy S, Carpenter C, Banerjee J. Silver Book II: Quality Urgent Care for Older People, British Geriatrics Society, 2021. Available at https://www.bgs.org.uk/resources/resource-series/silver-book-ii.
 
-- Dresden SM, Hwang U, Garrido MM, et al. Geriatric emergency department innovations: the impact of transitional <a id="p220"></a>**[p. 220]** care nurses on 30-day readmissions for older adults. Acad Emerg Med. 2020;27(1):43–53.
+- Dresden SM, Hwang U, Garrido MM, et al. Geriatric emergency department innovations: the impact of transitional care nurses on 30-day readmissions for older adults. Acad Emerg Med. 2020;27(1):43–53.
+
+<a id="p220"></a>**[p. 220]**
 
 - Goldberg EM, Marks SJ, Resnik LJ, Long S, Mellott H, Merchant RC. Can an emergency department-initiated intervention prevent subsequent falls and health care use in older adults? A randomized controlled trial Ann Emerg Med. 2020;76(6):739–750.
 

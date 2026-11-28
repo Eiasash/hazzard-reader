@@ -52,10 +52,10 @@ def check(notebook, root, output):
                 if records:
                     page.locator('#appTabs [data-tab="notebook"]').click()
                     page.evaluate("()=>HazzardRouter.settled()")
-                    current = page.locator("#notebookCurrent")
+                    current = page.locator(f'details[data-notebook-chapter="{chapter.removesuffix("s")}"]')
                     if not current.evaluate("group=>group.open"):
                         current.locator(":scope > summary").click()
-                    rows = page.locator("#notebookMarks [data-notebook-mark]")
+                    rows = current.locator(f'[data-notebook-view="{chapter}"] [data-notebook-mark]')
                     rows.first.wait_for(state="attached")
                     mismatches = rows.evaluate_all("""(rows, saved) => {
                       const clean=text=>text.replace(/\\s+/gu,' ').trim();

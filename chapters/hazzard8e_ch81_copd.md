@@ -54,9 +54,10 @@ Notably, not all COPD results from exposure to environmental agents during adult
 Healthy aging is associated with structural and functional changes in the lungs and chest wall. As shown in **Table 81-1** , the aging lung is characterized by a reduced physiologic capacity, with multiple respiratory impairments that increase the vulnerability for developing COPD, including respiratory failure. Aging-related changes in the bony thorax including kyphosis, increased convexity of the sternum, stiffening of the ribcage, and decrease in respiratory muscle mass lead to a progressive increase in the rigidity of the chest wall (decreased chest wall compliance) and reduced curvature of the diaphragm, with resultant alterations in respiratory mechanics. Concurrently, in the lungs, degeneration of elastic fibers and alterations in collagen around the alveolar ducts result in homogeneous airspace enlargement, with a reduced total alveolar surface area but in the absence of alveolar wall destruction (“senile emphysema”). Surface tension is reduced due to increased alveolar size. These changes lead to decreased elastic recoil of the lung, further associated with a reduced diameter of the small airways. Collectively, these respiratory impairments lead to (1) airflow limitation: defined by a decreased spirometric ratio of forced expiratory volume in 1 second (FEV1) to forced vital capacity (FVC); (2) air trapping and hyperinflation: defined by an increased residual volume (RV) and functional residual capacity (FRC), respectively; (3) decreased total lung capacity (TLC); (4) reduced maximum breathing capacity (MBC): defined by a decline in the maximal attainable minute ventilation, strongly correlating with a decrease in FEV1 of ~30 mL/y; and (5) ventilation-perfusion mismatch: airway closing volume is increased (it approaches the FRC); this leads to premature closure of the small airways and widening of the alveolar-arterial oxygen gradient. Other age-related respiratory impairments that increase the vulnerability for developing COPD, including respiratory failure, relate to reductions in pulmonary capillary density and increased stiffness of pulmonary vasculature, alterations in the airway epithelium including reduced mucociliary clearance efficiency, decreased respiratory muscle strength, and reduced cerebrovascular responsiveness to carbon dioxide (CO2) (tightly linked to the CO2 ventilatory response). These age-related changes in the respiratory system also result in increased expiratory flow limitation, altered respiratory pattern (higher respiratory rate and lower tidal volume), increased dead space and increased work of breathing during exercise. Additional cellular and molecular changes in associated with aging include decreased lung progenitor cell populations, alterations in innate and adaptive immunity
 
 <a id="p1238"></a>**[p. 1238]**
-**Table 81-1 — Respiratory impairments of the aging lung and COPD**
 
 ![Table 81-1](hazzard8e_ch81_table81-1_p1238.png)
+
+**Table 81-1 — Respiratory impairments of the aging lung and COPD**
 
 > *Table 81-1 reproduced as a page image (printed p. 1238) — the grid did not extract reliably as text for this fast build.*
 
@@ -139,9 +140,10 @@ COPD is also associated with several extrapulmonary impairments and comorbiditie
 Accordingly, the impairments imposed by advancing age and COPD (see **Tables 81-1** and **81-3** ) collectively increase the risk of having respiratory symptoms (dyspnea, chronic bronchitis, and wheezing), exercise intolerance, disability, hospitalization, respiratory failure, and death.
 
 <a id="p1242"></a>**[p. 1242]**
-**Table 81-3 — Cardiovascular and musculoskeletal impairments of the aging person and COPD**
 
 ![Table 81-3](hazzard8e_ch81_table81-3_p1242.png)
+
+**Table 81-3 — Cardiovascular and musculoskeletal impairments of the aging person and COPD**
 
 > *Table 81-3 reproduced as a page image (printed p. 1242) — the grid did not extract reliably as text for this fast build.*
 
@@ -196,9 +198,10 @@ FEV1/FVC. The ATS/ERS approach currently defines the LLN as the fifth percentile
 **Bronchodilator reversibility** COPD is defined as chronic airflow obstruction that is less than fully reversible. However, up to two-thirds of individuals with COPD may have a partial component of bronchodilator (BD) reversibility. Clinical guidelines therefore recommend that spirometry should be performed before and after administration of an inhaled BD (pre- and post-BD, respectively) in order to establish (1) reversibility (pre- vs post-BD values) and (2) diagnosis of COPD (using post-BD values). Among older
 
 <a id="p1244"></a>**[p. 1244]**
-**Table 81-5 — Spirometric criteria for establishing and staging chronic airflow obstruction**
 
 ![Table 81-5](hazzard8e_ch81_table81-5_p1244.png)
+
+**Table 81-5 — Spirometric criteria for establishing and staging chronic airflow obstruction**
 
 > *Table 81-5 reproduced as a page image (printed p. 1244) — the grid did not extract reliably as text for this fast build.*
 
@@ -213,9 +216,10 @@ Although chronic airflow obstruction is currently considered a necessary and suf
 Given the limitations of spirometry alone in establishing the diagnosis of COPD, some health care professionals advocate for an updated, alternate schema for establishing the diagnosis of COPD, in which symptoms,
 
 <a id="p1245"></a>**[p. 1245]**
-**Table 81-6 — Respiratory impairments that are commonly evaluated to establish a diagnosis of COPD**
 
 ![Table 81-6](hazzard8e_ch81_table81-6_p1245.png)
+
+**Table 81-6 — Respiratory impairments that are commonly evaluated to establish a diagnosis of COPD**
 
 > *Table 81-6 reproduced as a page image (printed p. 1245) — the grid did not extract reliably as text for this fast build.*
 
@@ -229,9 +233,9 @@ Because of shared risk factors (eg, tobacco smoke) and sequelae of progressive c
 
 <a id="p1246"></a>**[p. 1246]**
 
-**Table 81-7 — COPD clinical subgroups (phenotypes)**
-
 ![Table 81-7](hazzard8e_ch81_table81-7_p1246.png)
+
+**Table 81-7 — COPD clinical subgroups (phenotypes)**
 
 > *Table 81-7 reproduced as a page image (printed p. 1246) — the grid did not extract reliably as text for this fast build.*
 
@@ -279,7 +283,6 @@ The goals of care for stable COPD are to relieve and minimize symptoms, optimize
 - Does the patient have a sufficient peak inspiratory flow?
 
 **Treatment options** Medication regimens should consider the patient’s skills/abilities, peak inspiratory flow (PIF) rate, the questions in **Table 81-9** , and the algorithm in **Figure 81-2** . Prioritization is given to once-daily administration, self-contained inhaler devices, educating the patient/caregiver on medication administration, and ensuring the patient has adequate PIF rate to entrain the medication. **Table 81-10** summarizes currently available medications, emphasizing benefits, side effects, and complexity. In stable COPD, pharmacologic therapy should follow a stepwise approach that for some patients may lead <a id="p1248"></a>**[p. 1248]** to use of triple-inhaler maintenance therapy, including two classes of long-acting inhaled bronchodilators (β2-selective adrenergic agonist and anticholinergic) and an inhaled corticosteroid, as well as prn use of a rescue inhaler (short-acting β2-agonist). Additional options include roflumilast, macrolides, vibratory positive expiratory pressure (PEP) devices, and mucolytics. Some individuals may also benefit from biologic monoclonal antibody therapies. A stepwise treatment approach to pharmacotherapy used commonly for those with confirmed airflow obstruction, based on symptom severity and disease exacerbations, is provided in the GOLD Report (see Further Reading).
-
 
 ![Figure 81-2](hazzard8e_ch81_figure81-2.png)
 
@@ -350,7 +353,7 @@ Importantly, meta-analyses of RCT and a large case-control study have observed a
 
 **_Combination Inhalers_ Table 81-10** presents inhalers that combine (1) a β2-selective adrenergic agonist and an anticholinergic, (2) a β2-selective adrenergic agonist and ICS, or (3) a β2-selective adrenergic agonist, anticholinergic, and ICS. Combination therapy provides additional benefit on lung function, symptoms, exercise capacity, and exacerbation risk as compared with its components, particularly in patients who have severe airflow obstruction and/or who have frequent exacerbations. Triple LABA/LAMA/ICS further improves lung function, reduces moderate to severe exacerbations, improves QOL, and as noted above, may confer a mortality benefit for those with frequent exacerbations despite taking dual class LABA/LAMA therapy.
 
-**_Roflumilast_** Roflumilast is a once-daily oral phosphodiesterase-4 inhibitor, serving as maintenance therapy to prevent COPD exacerbations in patients with severe airflow obstruction (FEV1 < 50% of predicted), chronic bronchitis, and a history of exacerbations (despite standard inhaled bronchodilator therapy). Common side effects include nausea, diarrhea, and weight loss, occurring at higher rates in those aged greater than or equal to 65. It is not effective in reducing exacerbations amongst those with emphysemapredominant COPD.
+**_Roflumilast_** Roflumilast is a once-daily oral phosphodiesterase-4 inhibitor, serving as maintenance therapy to prevent COPD exacerbations in patients with severe airflow obstruction (FEV1 < 50% of predicted), chronic bronchitis, and a history of exacerbations (despite standard inhaled bronchodilator therapy). Common side effects include nausea, diarrhea, and weight loss, occurring at higher rates in those aged greater than or equal to 65. It is not effective in reducing exacerbations amongst those with emphysema-predominant COPD.
 
 **_Macrolides_** Azithromycin (250 mg once daily or three times weekly) is a macrolide antibiotic that has been shown to decrease the frequency of COPD exacerbations when added to usual care among former tobacco smokers. This effect is accompanied by an improved QOL, but also an increased incidence of macrolide-resistant organisms and hearing decrements. Maintenance azithromycin therapy may be considered for frequent exacerbators whose symptom escalation is thought primarily due to bouts of worsened airflow obstruction and airway inflammation (rather than other processes such as unrecognized hypoxemia or “dyspnea crisis”), who are maximized on triple-inhaler therapy and do not have a hearing impairment, resting tachycardia or other arrythmia, apparent risk of QTc prolongation, or clinical/radiographic evidence of nontuberculous mycobacterial infection. Since macrolide resistance can complicate treatment for nontuberculous mycobacteria (when needed), careful assessment for possible nontuberculous mycobacteria infection is warranted prior to considering regular use of macrolide therapy for routine COPD exacerbation prevention.
 
@@ -542,9 +545,10 @@ The goal of palliative treatment for patients with advanced COPD is to reduce sy
 Inhaled BD, inhaled and systemic corticosteroids (where appropriate), and other adjuvant therapies that relieve symptoms should be continued during palliative treatment for patients with advanced COPD (see **Table 81-14** ). However, it is important to consider
 
 <a id="p1263"></a>**[p. 1263]**
-**Table 81-14 — Symptom burden and management in advanced COPD**
 
 ![Table 81-14](hazzard8e_ch81_table81-14_p1263.png)
+
+**Table 81-14 — Symptom burden and management in advanced COPD**
 
 > *Table 81-14 reproduced as a page image (printed p. 1263) — the grid did not extract reliably as text for this fast build.*
 
@@ -630,4 +634,3 @@ The authors would like to formally acknowledge the important contributions of au
 - Vaz Fragoso CA, Gill T. Respiratory impairment and the aging lung: a novel paradigm for assessing pulmonary function. _J Gerontol Med Sci_ . 2012;67:264–275.
 
 <a id="p1266"></a>**[p. 1266]**
-

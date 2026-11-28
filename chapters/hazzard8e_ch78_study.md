@@ -22,13 +22,13 @@ Study summary of Chapter 78 - Peripheral Vascular Disease; the book and the full
 
 > Current practice (not the book): For symptomatic peripheral artery disease, including after lower-extremity revascularization, rivaroxaban 2.5 mg twice daily plus low-dose aspirin reduces major cardiovascular and limb events in appropriately selected patients. Assess bleeding risk and other indications for anticoagulation. [ACC/AHA PAD guideline, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12728805/).
 
-> Current practice (not the book): Cilostazol is a PDE-III inhibitor and must not be given in heart failure of any severity. [2024 ACC/AHA PAD guideline, sections 5.1, 5.7 and 6](https://doi.org/10.1016/j.jacc.2024.02.013).
+> Current practice (not the book): Cilostazol is a PDE-III inhibitor and must not be given in heart failure of any severity. [2024 ACC/AHA PAD guideline, section 5.7](https://doi.org/10.1016/j.jacc.2024.02.013).
 
 **Decide whether the limb or the person's usual activity is at risk.** Figure 78-1 illustrates why cardiovascular prevention matters even when exertional leg symptoms stay stable. For persistent, lifestyle-limiting symptoms despite exercise and medical treatment, a short focal stenosis is a favorable target for balloon angioplasty, with stenting when appropriate. Longer occlusions are less durable after endovascular treatment. Vein bypass can restore flow across a longer segment, at the price of more perioperative morbidity. Renal failure, oxygen-dependent lung disease, heart failure, frailty and baseline mobility influence whether a procedure can achieve the person's goals (pp. 1210–1212).
 
 **Rest pain changes the evaluation.** A painful distal toe lesion, persistent forefoot pain at rest, nonhealing ulcer or gangrene suggests insufficient tissue perfusion. Examine the limb and check pulses, Doppler signals, motor function and sensation. A newly painful, cold, numb or weak foot needs emergency assessment for acute limb ischemia, including graft occlusion after bypass. For stable suspected PAD, calculate the ankle–brachial index on each side using the higher ankle systolic pressure divided by the higher brachial systolic pressure. Reserve anatomical imaging for a question that would change management (pp. 1210–1212).
 
-> Current practice (not the book): An ABI of 0.90 or lower is abnormal. Diabetes and kidney disease can produce noncompressible arteries and a misleadingly high ABI, prompting toe pressure or toe–brachial testing. [2024 ACC/AHA PAD guideline, sections 3.1 and 11](https://doi.org/10.1016/j.jacc.2024.02.013).
+> Current practice (not the book): An ABI of 0.90 or lower is abnormal. Diabetes and kidney disease can produce noncompressible arteries and a misleadingly high ABI, prompting toe pressure or toe–brachial testing. [2024 ACC/AHA PAD guideline, section 3.1](https://doi.org/10.1016/j.jacc.2024.02.013).
 
 ## Carotid stenosis after a TIA or an incidental bruit
 
@@ -72,11 +72,11 @@ Study summary of Chapter 78 - Peripheral Vascular Disease; the book and the full
 
 **Schedule imaging by size and symptoms.** Table 78-2 (p1216) presents weak SVS recommendations based on low-quality evidence and lists three years for 3.0–3.9 cm, one year for 4.0–4.9 cm and six months for 5.0–5.4 cm. These are intervals for an asymptomatic aneurysm. New abdominal or back pain potentially attributable to an aneurysm needs prompt assessment regardless of the scheduled interval. Sudden severe pain or hemodynamic instability raises concern for rupture (pp. 1215–1216).
 
-> Current practice (not the book): ACC/AHA starts six-monthly surveillance at 5.0 cm in men and 4.5 cm in women. [2022 ACC/AHA aortic disease guideline, sections 6.4.3.2 and 6.5.5.3](https://doi.org/10.1016/j.jacc.2022.08.004).
+> Current practice (not the book): ACC/AHA starts six-monthly surveillance at 5.0 cm in men and 4.5 cm in women. [2022 ACC/AHA aortic disease guideline, section 6.4.3.2](https://doi.org/10.1016/j.jacc.2022.08.004).
 
 **Decide when repair offers a gain.** Maximal diameter predicts rupture and drives the elective decision. Hazzard considers elective repair in good surgical candidates with diameters **greater than 5.5 cm in men or 5 cm in women**. Expansion **greater than 0.50 cm in six months** can also indicate intervention. Endovascular repair requires suitable landing zones and access. It usually offers a shorter admission and lower early mortality, followed by long-term imaging for endoleak or sac enlargement. Open repair may suit unfavorable anatomy, but major surgery and possible suprarenal clamping increase physiological and renal stress (pp. 1215–1216).
 
-> Current practice (not the book): ACC/AHA recommends repair at **≥5.5 cm in men or ≥5.0 cm in women**, or for attributable symptoms; growth **≥0.5 cm in six months** may justify repair. [2022 ACC/AHA aortic disease guideline, sections 6.5.5.3 and 6.5.6.2](https://doi.org/10.1016/j.jacc.2022.08.004).
+> Current practice (not the book): ACC/AHA recommends repair at **≥5.5 cm in men or ≥5.0 cm in women**, or for attributable symptoms; growth **≥0.5 cm in six months** may justify repair. [2022 ACC/AHA aortic disease guideline, section 6.5.5.3](https://doi.org/10.1016/j.jacc.2022.08.004).
 
 ## Israeli context
 

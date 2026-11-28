@@ -12,7 +12,7 @@ An abrupt focal deficit demands urgent assessment even if it resolves. Under the
 
 The ABCD² thresholds in Hazzard are **age >60 years** (1 point) and **presenting BP >140/90** (1 point). Unilateral weakness scores 2, isolated speech disturbance 1, duration 10–59 minutes 1 or ≥60 minutes 2, and diabetes 1 (<a href="?chapter=62#p957">p957</a>). Applying the original validated criteria to the four presentations in [June 2022 Q91](?chapter=bank&q=mcq-c659381a9b8442881efcb5a1) gives scores of **3, 7, 4 and 5**, respectively.
 
-> **Current practice: ABCD² thresholds and urgency of referral.** The original validated score gives a point for **age ≥60** and a point for **systolic BP ≥140 or diastolic BP ≥90**. NICE advises against using ABCD² to determine urgency of referral — [Johnston et al., 2007](https://doi.org/10.1016/S0140-6736(07)60150-0), [NICE NG128, 1.1.6](https://www.nice.org.uk/guidance/ng128/chapter/Recommendations).
+> **Current practice: ABCD² thresholds and urgency of referral.** The original validated score gives a point for **age ≥60** and a point for **systolic BP ≥140 or diastolic BP ≥90**. NICE advises against using ABCD² to determine urgency of referral. [Johnston et al., 2007](https://doi.org/10.1016/S0140-6736(07)60150-0), [NICE NG128, 1.1.6](https://www.nice.org.uk/guidance/ng128/chapter/Recommendations).
 
 ### Arterial, lacunar and cardioembolic mechanisms
 
@@ -52,7 +52,7 @@ In an otherwise unexplained recurrent arterial stroke, a persistent low platelet
 
 Alteplase given earlier offers a greater opportunity to preserve function. For eligible patients the printed IV regimen is **0.9 mg/kg**, with **10% as an immediate bolus** and the remainder infused **over one hour** (<a href="?chapter=62#p966">p966</a>).
 
-> **Current practice: Alteplase and tenecteplase dosing.** The US Activase label specifies **90 mg maximum** and gives the 10% bolus **over one minute** — [Activase prescribing information](https://www.gene.com/download/pdf/activase_prescribing.pdf). Tenecteplase is another IV thrombolytic for eligible adults with acute ischemic stroke. The US label gives one weight-based bolus over 5 seconds, up to 25 mg, within 3 hours of symptom onset. The AHA/ASA guideline recommends either tenecteplase 0.25 mg/kg (maximum 25 mg) or alteplase for eligible patients within 4.5 hours. [AHA/ASA acute ischemic stroke guideline, 2026](https://doi.org/10.1161/STR.0000000000000513). [FDA TNKase label, 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/103909s5197lbl.pdf).
+> **Current practice: Alteplase and tenecteplase dosing.** The US Activase label specifies **90 mg maximum** and gives the 10% bolus **over one minute**. [Activase prescribing information](https://www.gene.com/download/pdf/activase_prescribing.pdf). Tenecteplase is another IV thrombolytic for eligible adults with acute ischemic stroke. The US label gives one weight-based bolus over 5 seconds, up to 25 mg, within 3 hours of symptom onset. The AHA/ASA guideline recommends either tenecteplase 0.25 mg/kg (maximum 25 mg) or alteplase for eligible patients within 4.5 hours. [AHA/ASA acute ischemic stroke guideline, 2026](https://doi.org/10.1161/STR.0000000000000513). [FDA TNKase label, 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/103909s5197lbl.pdf).
 
 The standard IV alteplase window extends to **4.5 hours** in selected patients, including those presenting at **3–4.5 hours**. For some wake-up or extended-window strokes, tissue imaging helps identify salvageable brain (<a href="?chapter=62#p967">p967</a>). After IV thrombolysis, keep BP below **180/105 mm Hg for at least 24 hours** and obtain follow-up CT or MRI. Antithrombotics are generally withheld until hemorrhage is excluded. Worsening headache, reduced alertness or a new deficit warrants immediate assessment for bleeding rather than waiting for the routine scan (<a href="?chapter=62#p966">pp966</a>–<a href="?chapter=62#p970">970</a>).
 
@@ -96,11 +96,11 @@ An acute seizure can complicate a cortical infarct or a hemorrhage. Within 24 ho
 
 A ruptured aneurysm may cause a sudden severe headache, vomiting, neck stiffness or reduced consciousness. Noncontrast head CT is the initial study. If CT is negative and suspicion for SAH remains high, Hazzard says **lumbar puncture must be performed** (<a href="?chapter=62#p977">pp977</a>–<a href="?chapter=62#p978">978</a>).
 
-> **Current practice: lumbar puncture after a negative CT.** After a negative CT performed within six hours and reported by a radiologist, NICE advises against routine LP. After a later negative CT, consider LP — [NICE NG228, recommendations 1.1.11–1.1.14](https://www.nice.org.uk/guidance/ng228/chapter/Recommendations).
+> **Current practice: lumbar puncture after a negative CT.** After a negative CT performed within six hours of symptom onset and reported by a radiologist, NICE advises against routine LP. After a later negative CT, consider LP at least 12 hours after symptom onset and look for elevated CSF bilirubin on spectrophotometry. [NICE NG228, recommendations 1.1.11–1.1.14](https://www.nice.org.uk/guidance/ng228/chapter/Recommendations).
 
 After aneurysmal SAH, **rerupture is most frequent in the first 72 hours**. Vasospasm often develops on days **4–14** and may cause a new focal deficit. Delayed hydrocephalus can appear days to weeks later and may require **ventriculoperitoneal shunting** (<a href="?chapter=62#p978">p978</a>).
 
-> **Current practice: drainage for delayed hydrocephalus.** For persistent or progressive symptoms with chronic hydrocephalus, NICE advises considering CSF drainage or diversion. If the likely benefit of permanent diversion is uncertain, consider a trial of temporary drainage — [NICE NG228, recommendations 1.3.3–1.3.5](https://www.nice.org.uk/guidance/ng228/chapter/Recommendations).
+> **Current practice: drainage for delayed hydrocephalus.** For persistent or progressive symptoms with chronic hydrocephalus, NICE advises considering CSF drainage or diversion. If the likely benefit of permanent diversion is uncertain, consider a trial of temporary drainage. [NICE NG228, recommendations 1.3.3–1.3.5](https://www.nice.org.uk/guidance/ng228/chapter/Recommendations).
 
 ## Recovery and goals of care
 
@@ -108,7 +108,7 @@ Clarify the patient's pre-stroke function, goals and acceptable outcomes when di
 
 Plan recovery around the tasks that matter to the patient, with physical, occupational and speech-language assessment as indicated. Swallowing problems, aspiration, immobility, pressure injury, spasticity, shoulder problems and depression interfere with progress. For DVT prevention, the printed regimen uses subcutaneous heparin or pneumatic compression followed by **ambulation as soon as possible** (<a href="?chapter=62#p970">p970</a>).
 
-> **Current practice: early mobilization and fluoxetine.** High-dose mobilization within the first 24 hours after acute ischemic stroke can worsen outcomes. Routine fluoxetine for motor recovery has not improved functional outcome and increases fracture risk — [AHA/ASA acute ischemic stroke guideline, 2026, Rehabilitation](https://doi.org/10.1161/STR.0000000000000513).
+> **Current practice: early mobilization and fluoxetine.** High-dose mobilization within the first 24 hours after acute ischemic stroke can worsen outcomes. Routine fluoxetine for motor recovery has not improved functional outcome and increases fracture risk. [AHA/ASA acute ischemic stroke guideline, 2026, Rehabilitation](https://doi.org/10.1161/STR.0000000000000513).
 
 ## Key numbers
 

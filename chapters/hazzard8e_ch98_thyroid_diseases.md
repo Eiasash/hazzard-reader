@@ -267,6 +267,7 @@ Per **Figure 98-4** , levothyroxine therapy at 25 to 50 μg daily should be init
 Because the adverse effects of overt hyperthyroidism and hypothyroidism are reversible with treatment, the symptoms are often less pronounced or atypical in older people,
 
 <a id="p1554"></a>**[p. 1554]**
+
 ![Figure 98-4](hazzard8e_ch98_figure98-4.png)
 
 > *FIGURE 98-4. General therapeutic approach to the management of subclinical hypothyroidism in nonpregnant adults. <sup>a</sup>Recommendation is based on an association of subclinical hypothyroidism with increased rates of the outcomes listed and is not based on clinical trial evidence that treatment can reduce these outcomes. (Reproduced with permission from Biondi B, Cappola AR, Cooper DS. Subclinical hypothyroidism: a review. _JAMA_ . 2019;322[2]:153–160.)*

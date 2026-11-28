@@ -149,7 +149,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - **Captopril** — start 6.25–12.5 mg TID; **enalapril** start 2.5–5 mg BID; monitor BP/renal function/K+ during titration (p1179).
 - **Sacubitril/valsartan (ARNi)** — start low, e.g. 24/26 mg PO BID in older adults; needs ≥36h washout from ACEi to avoid angioedema (p1180–1181).
 - **Steroidal MRAs in HFrEF.** The book gives spironolactone **12.5–50 mg once daily** and eplerenone **25–50 mg once daily**. It lists **creatinine ≥2.5 mg/dL** or **preexisting hyperkalemia** as contraindications and calls for close renal-function and potassium monitoring in older patients (p1181).
-  > Current practice (not the book): <span id="current-practice-1" data-reader-metadata="navigation"></span>For symptomatic HFrEF, AHA/ACC/HFSA recommends starting an MRA if eGFR is **>30 mL/min/1.73 m²** and serum potassium is **<5.0 mEq/L**, with close monitoring at initiation and afterward. [2022 heart failure guideline, section 7.3.3](https://professional.heart.org/en/-/media/832EA0F4E73948848612F228F7FA2D35.pdf).
+  > Current practice (not the book): <span id="current-practice-1" data-reader-metadata="navigation"></span>For symptomatic HFrEF, AHA/ACC/HFSA recommends starting an MRA if eGFR is **>30 mL/min/1.73 m²** and serum potassium is **<5.0 mEq/L**, with close monitoring at initiation and afterward. [2022 heart failure guideline, section 7.3.3](https://doi.org/10.1161/CIR.0000000000001063).
 - **SGLT2 inhibitors in HFrEF.** DAPA-HF and EMPEROR-Reduced showed fewer HF events in patients with or without diabetes (p1181). The trials improved their respective composite outcomes, with differing effects on cardiovascular mortality. [DAPA-HF](https://doi.org/10.1056/NEJMoa1911303) · [EMPEROR-Reduced](https://doi.org/10.1056/NEJMoa2022190).
 - **Hydralazine/isosorbide dinitrate** — older-adult start 12.5–25 mg TID–QID / 10 mg TID–QID (p1182).
 - **Loop diuretics** — furosemide 20–160 mg, bumetanide 0.5–5 mg, torsemide 5–100 mg/day; add **metolazone 2.5–10 mg daily** if refractory (p1182).
@@ -195,7 +195,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 
 **1. What US heart failure prevalence did Hazzard report, and how many affected adults did the projection anticipate by 2030?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-1"><summary>Answer</summary>
 
 Hazzard reported about **6.5 million** US patients and projected **over 8 million by 2030** (p1166). Both figures refer to the chapter's reporting period and forecast.
 
@@ -203,7 +203,7 @@ Hazzard reported about **6.5 million** US patients and projected **over 8 millio
 
 **2. Of 2014 primary-HF hospital admissions, what fraction occurred in patients 75 years or older, and what fraction in the (much smaller) population aged 85 and up?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-2"><summary>Answer</summary>
 
 53% were in patients ≥75y; 25% occurred in the 2% of the population aged ≥85y (p1166).
 
@@ -211,72 +211,72 @@ Hazzard reported about **6.5 million** US patients and projected **over 8 millio
 
 **3. Name the four principal age-related changes in the cardiovascular system that predispose to heart failure.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-3"><summary>Answer</summary>
 
 (1) Reduced β-adrenergic responsiveness (receptor desensitization), (2) increased arterial stiffness/afterload, (3) altered left ventricular diastolic filling with increased reliance on atrial contraction, (4) altered mitochondrial energy metabolism under stress (p1166–1170).
 
 </details>
 
-**7. What BNP cutoffs make heart failure highly likely versus much less likely in a nonobese older adult, and why does BNP become a less reliable rule-in test with age?**
+**4. What BNP cutoffs make heart failure highly likely versus much less likely in a nonobese older adult, and why does BNP become a less reliable rule-in test with age?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-7"><summary>Answer</summary>
 
 > A BNP above 500 pg/mL strongly supports active heart failure in the appropriate clinical context. A BNP below 100 pg/mL makes heart failure much less likely in a nonobese older adult. Natriuretic peptide levels rise modestly with normal aging (especially in women) and with declining renal function, so specificity for HF declines with age (p1174).
 
 </details>
 
-**8. The chapter gives a general EF range for HFREF, then a narrower working cutoff. What are the two numbers?**
+**5. The chapter gives a general EF range for HFREF, then a narrower working cutoff. What are the two numbers?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-8"><summary>Answer</summary>
 
 General range: "less than 40% to 50%." Working cutoff adopted for the rest of the chapter's discussion: EF <45% for HFREF (HFPEF is ≥45%) (p1175).
 
 </details>
 
-**9. Which three β-blockers are proven, evidence-based agents for HFREF, and what are their target maintenance doses?**
+**6. Which three β-blockers are proven, evidence-based agents for HFREF, and what are their target maintenance doses?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-9"><summary>Answer</summary>
 
 Carvedilol 25–50 mg BID, metoprolol succinate 100–200 mg daily, bisoprolol 10 mg daily (p1179).
 
 </details>
 
-**11. Which renal and potassium findings does Hazzard list as contraindications to an MRA in HFrEF, and what spironolactone dose range does it give?**
+**7. Which renal and potassium findings does Hazzard list as contraindications to an MRA in HFrEF, and what spironolactone dose range does it give?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-11"><summary>Answer</summary>
 
 Hazzard lists **creatinine ≥2.5 mg/dL** or **preexisting hyperkalemia** as contraindications. It calls for close monitoring of renal function and serum potassium in older patients. The spironolactone dose is **12.5–50 mg once daily** (p1181).
 > [Current practice note](#current-practice-1)
 
 </details>
 
-**12. What target serum digoxin concentration is associated with improved survival in HFREF, and does digoxin reduce mortality?**
+**8. What target serum digoxin concentration is associated with improved survival in HFREF, and does digoxin reduce mortality?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-12"><summary>Answer</summary>
 
 0.5–0.9 ng/mL (DIG analyses: low-dose levels in this range *may* be associated with improved survival); no — digoxin reduced HF hospitalizations in the DIG trial but did not reduce mortality (34.8% vs 35.1%, not different from placebo) (p1182–1183).
 
 </details>
 
-**13. At what ejection fraction and QRS duration is cardiac resynchronization therapy (CRT) indicated, and how does its benefit differ from an ICD's?**
+**9. At what ejection fraction and QRS duration is cardiac resynchronization therapy (CRT) indicated, and how does its benefit differ from an ICD's?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-13"><summary>Answer</summary>
 
 The clearest CRT indication is symptomatic NYHA II, III or ambulatory IV HFrEF despite guideline-directed treatment, **EF ≤35%**, sinus rhythm, **LBBB** and **QRS ≥150 ms**. CRT can improve function and survival in selected octogenarians. An ICD prevents arrhythmic sudden death (p1184; Ch 77 Table 77-5, p1199; AHA/ACC/HFSA 2022).
 
 </details>
 
-**14. Which drug class was tested in EMPEROR-Preserved, and which outcome drove the trial's composite benefit?**
+**10. Which drug class was tested in EMPEROR-Preserved, and which outcome drove the trial's composite benefit?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-14"><summary>Answer</summary>
 
 Empagliflozin, an **SGLT2 inhibitor**, reduced cardiovascular death or HF hospitalization in EMPEROR-Preserved (n=5,988, EF >40%, HR 0.79, 95% CI 0.69–0.90). Fewer HF hospitalizations drove the result, irrespective of diabetes status (p1188).
 
 </details>
 
-**15. What is the 5-year survival for older adults with established heart failure, and for patients 80 years or older specifically hospitalized with heart failure?**
+**11. What is the 5-year survival for older adults with established heart failure, and for patients 80 years or older specifically hospitalized with heart failure?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="76s:recall-15"><summary>Answer</summary>
 
 Less than 50% for older adults generally; fewer than 25% for patients ≥80y hospitalized with heart failure survive more than 5 years (p1190).
 

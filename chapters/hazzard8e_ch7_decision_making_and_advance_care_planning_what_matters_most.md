@@ -66,9 +66,7 @@ Fifth, clinical decision making is further complicated in older patients because
 
 ## DECISION MAKING: THE CLINICIAN’S PERSPECTIVE
 
-Clinicians are tasked with evaluating a patient including performing a history and physical examination, initiating a diagnostic workup when appropriate, and determining what medically reasonable options are appropriate given the patient’s unique situation. Clinicians must then explore the patient’s goals and share in the decision making to
-
-assure that the chosen treatments align with the patient’s goals. Especially if a family member or care partner is a part of the clinical encounter, the clinician should identify preferences for who and how other individuals should be involved in decision making.
+Clinicians are tasked with evaluating a patient including performing a history and physical examination, initiating a diagnostic workup when appropriate, and determining what medically reasonable options are appropriate given the patient’s unique situation. Clinicians must then explore the patient’s goals and share in the decision making to assure that the chosen treatments align with the patient’s goals. Especially if a family member or care partner is a part of the clinical encounter, the clinician should identify preferences for who and how other individuals should be involved in decision making.
 
 ### Evaluation: The History
 
@@ -94,41 +92,35 @@ Deciding whether a diagnostic test is important requires consideration of its ab
 
 In older persons, there are additional issues to consider including the ability of the patient to complete the test and whether the test does more good than harm. A patient with significant gait impairment, for example, is not going to be able to complete an exercise stress test. And, it may not be appropriate to consider a particular diagnostic test in someone with multiple comorbidities and poor quality of life if the purpose of that testing does not align with the patient’s goals. For example, a diagnosis of dyslipidemia is not clinically relevant in someone with advanced cancer.
 
-In deciding whether to perform laboratory, imaging, or other ancillary tests, the clinician should consider the issues outlined in Table 7-1 and the principles described in this chapter. This decision process is illustrated for the example of noninvasive imaging for carotid stenosis. Consider for example, an 80-year-old patient who presents with a transient ischemic attack. A carotid Doppler ultrasound is ordered and reveals greater than 70% stenosis of the carotid artery on the affected side. Magnetic resonance angiography (MRA) is ordered and the patient’s family wants to discuss whether to proceed with the test. Before the MRA is done, several issues should be considered in addition to ensuring that surgery is available and effective in your setting. Would the patient consider carotid endarterectomy? If the answer is no, further diagnostic testing is not warranted. Are there significant comorbidities or contraindications to the surgery? For example, if a patient has advanced dementia and poor functional status, the benefits of surgery would be questionable both because of their competing morbidities limiting the time through which they might benefit and
+In deciding whether to perform laboratory, imaging, or other ancillary tests, the clinician should consider the issues outlined in Table 7-1 and the principles described in this chapter. This decision process is illustrated for the example of noninvasive imaging for carotid stenosis. Consider for example, an 80-year-old patient who presents with a transient ischemic attack. A carotid Doppler ultrasound is ordered and reveals greater than 70% stenosis of the carotid artery on the affected side. Magnetic resonance angiography (MRA) is ordered and the patient’s family wants to discuss whether to proceed with the test. Before the MRA is done, several issues should be considered in addition to ensuring that surgery is available and effective in your setting. Would the patient consider carotid endarterectomy? If the answer is no, further diagnostic testing is not warranted. Are there significant comorbidities or contraindications to the surgery? For example, if a patient has advanced dementia and poor functional status, the benefits of surgery would be questionable both because of their competing morbidities limiting the time through which they might benefit and the greater difficulty they might have in participating in the perioperative care and rehabilitation.
 
 ![Table 7-1](hazzard8e_ch7_table-7-1_p112.webp)
 
 *TABLE 7-1 ■ ISSUES TO CONSIDER IN DECIDING WHETHER TO PERFORM A DIAGNOSTIC TEST AND HOW TO INTERPRET RESULTS*
 
+If surgery might be contemplated, then it is appropriate to determine whether there are accurate and reliable tests for diagnosing carotid stenosis available in your setting.
 
-the greater difficulty they might have in participating in the perioperative care and rehabilitation. If surgery might be contemplated, then it is appropriate to determine whether there are accurate and reliable tests for diagnosing carotid stenosis available in your setting.
-
-A recent systematic review of the accuracy of noninvasive imaging tests compared with intra-arterial angiography for significant carotid stenosis in symptomatic patients can help with the last question noted above. Forty-one studies including 2541 patients were included in this review. The accuracy of the four imaging techniques for diagnosing significant carotid stenosis is provided in Table 7-2. For diagnosing 70% to 99% stenosis, the specificity was lowest for MRA and Doppler ultrasonography. Thus, MRA may result in inappropriate surgery in up to one in seven patients. This systematic review suggests that noninvasive testing cannot appropriately be used to recommend carotid
+A recent systematic review of the accuracy of noninvasive imaging tests compared with intra-arterial angiography for significant carotid stenosis in symptomatic patients can help with the last question noted above. Forty-one studies including 2541 patients were included in this review. The accuracy of the four imaging techniques for diagnosing significant carotid stenosis is provided in Table 7-2. For diagnosing 70% to 99% stenosis, the specificity was lowest for MRA and Doppler ultrasonography. Thus, MRA may result in inappropriate surgery in up to one in seven patients. This systematic review suggests that noninvasive testing cannot appropriately be used to recommend carotid <a id="p113"></a>**[p. 113]** endarterectomy.
 
 ![Table 7-2](hazzard8e_ch7_table-7-2_p112.webp)
 
 *TABLE 7-2 ■ ACCURACY OF NONINVASIVE IMAGING TECHNIQUES FOR DIAGNOSING 70% TO 99% CAROTID STENOSIS COMPARED WITH INTRA-ARTERIAL ANGIOGRAPHY*
 
-
 CEMRA, contrast-enhanced magnetic resonance angiography; CTA, computed tomographic angiography; DUS, Doppler ultrasonography; LR, likelihood ratio; MRA, magnetic resonance angiography. Adapted with permission from Kelly AG, Holloway RG. Review: noninvasive imaging techniques may be useful for diagnosing 70% to 99% carotid stenosis in symptomatic patients. ACP J Club. 2006;145(3):77.
 
-<a id="p113"></a>**[p. 113]**
-
-endarterectomy. Patients should be made aware that they will likely require intra-arterial angiography, which does carry a small but real risk of complications. Unless the clinician considers patient outcome goals and risk preferences as well as the accuracy of the diagnostic tests, some patients will have surgery who do not need or desire it and some medically treated patients will have preventable strokes.
+Patients should be made aware that they will likely require intra-arterial angiography, which does carry a small but real risk of complications. Unless the clinician considers patient outcome goals and risk preferences as well as the accuracy of the diagnostic tests, some patients will have surgery who do not need or desire it and some medically treated patients will have preventable strokes.
 
 ## DECISION MAKING—INCORPORATING THE PATIENT’S PERSPECTIVE
 
-Patient-centered care dictates that clinical decision making should occur within the context of individual preferences and goals. Ascertainment of these preferences, which are known to vary among older patients and among patients with multiple health conditions, should occur early and often (see Chapter 7). Older persons rarely volunteer their preferences. Active solicitation of priorities and preferences, therefore, needs to be an integral part of the patient and family interview. Good patient-centered care does not mean that the doctor tells the patient what to do. This is the paternalism that modern ethics and Western legal systems have largely overturned. At the same time, good patientcentered care does not entail putting a smorgasbord of options in front of a person and telling them to choose—an approach that has even been called patient abandonment. Rather, decisions should be shared between the clinicians and their patients. Clinicians bring expertise in the medical information and patients bring expertise in themselves and what is important to them. Then, a shared decision is less about information provision and more about a conversation between two experts.
+Patient-centered care dictates that clinical decision making should occur within the context of individual preferences and goals. Ascertainment of these preferences, which are known to vary among older patients and among patients with multiple health conditions, should occur early and often (see Chapter 7). Older persons rarely volunteer their preferences. Active solicitation of priorities and preferences, therefore, needs to be an integral part of the patient and family interview. Good patient-centered care does not mean that the doctor tells the patient what to do. This is the paternalism that modern ethics and Western legal systems have largely overturned. At the same time, good patient-centered care does not entail putting a smorgasbord of options in front of a person and telling them to choose—an approach that has even been called patient abandonment. Rather, decisions should be shared between the clinicians and their patients. Clinicians bring expertise in the medical information and patients bring expertise in themselves and what is important to them. Then, a shared decision is less about information provision and more about a conversation between two experts.
 
 ### Matching Treatments to Patients’ Goals
 
 A body of research suggests that patients are not adequately informed when receiving medical interventions. A large national survey across nine different medical conditions demonstrated that patients scored low on their knowledge, even if they had received those procedures. Perhaps even more concerning is the literature that patients often receive care that they would not want. Many patients, especially older patients, have difficulty in choosing among a set of treatment options. Rather than having patients make every specific treatment choice, which is difficult and often not feasible for the large number of medical decisions that older adults face, encouraging patients to prioritize among different outcome domains allows them to express directly what is most important to them regarding their health care. The elicitation of priorities among general, often competing health outcome domains, including longevity, comfort/symptom relief, cognitive functioning and physical functioning should ideally drive all evaluation and management decisions.
 
-The process of goal elicitation can be complicated and requires a clinician adept in handling the communication challenges that will arise. First, the setting for the
+The process of goal elicitation can be complicated and requires a clinician adept in handling the communication challenges that will arise. First, the setting for the discussion may need to be adapted to the specific impairments of some older persons. Impairments in hearing, visual acuity, and cognition, each prevalent among older persons, mandate a quiet, well-lit, and unhurried setting in order to have a meaningful discussion. Multiple encounters may be required to complete the history and to gather the necessary information. While the patient remains the key informant, the discussion often needs to be supplemented by information obtained from the patient’s family of choice, and/or other care providers, particularly if the older person has cognitive impairment.
 
-discussion may need to be adapted to the specific impairments of some older persons. Impairments in hearing, visual acuity, and cognition, each prevalent among older persons, mandate a quiet, well-lit, and unhurried setting in order to have a meaningful discussion. Multiple encounters may be required to complete the history and to gather the necessary information. While the patient remains the key informant, the discussion often needs to be supplemented by information obtained from the patient’s family of choice, and/or other care providers, particularly if the older person has cognitive impairment.
-
-Second, the process of goal elicitation can be emotional. Sometimes, a patient or family may articulate a goal that is just not feasible given their situation (eg, continuing to live alone in their home). Here, the task of the clinician is in helping the patient redefine goals that are feasible. This can be a difficult and emotional conversation for all involved. Often, to help patients define their goals, they must enter into the complicated discussion of prognosis. An area of active research is in improving clinicians’ communication skills with patients to facilitate these patientcentered discussions.
+Second, the process of goal elicitation can be emotional. Sometimes, a patient or family may articulate a goal that is just not feasible given their situation (eg, continuing to live alone in their home). Here, the task of the clinician is in helping the patient redefine goals that are feasible. This can be a difficult and emotional conversation for all involved. Often, to help patients define their goals, they must enter into the complicated discussion of prognosis. An area of active research is in improving clinicians’ communication skills with patients to facilitate these patient-centered discussions.
 
 ## ADVANCE CARE PLANNING: DECISION MAKING FOR FUTURE MEDICAL DECISIONS
 
@@ -136,16 +128,13 @@ An important aspect of decision making with older adults is planning for future 
 
 ### Practical Approaches to Advance Care Planning Conversations
 
-ACP and goals of care conversations can occur in various settings, including ambulatory care, emergency departments,
-
-<a id="p114"></a>**[p. 114]**
+ACP and goals of care conversations can occur in various settings, including ambulatory care, emergency departments, <a id="p114"></a>**[p. 114]** inpatient hospitalization, post-acute care, and long-term care.
 
 ![Table 7-3](hazzard8e_ch7_table-7-3_p114.webp)
 
 *TABLE 7-3 ■ ADVANCE CARE PLANNING IS A MULTISTEP PROCESS*
 
-
-inpatient hospitalization, post-acute care, and long-term care. ACP conversations often involve patients, individuals serving as surrogate decision makers, and health care practitioners. While some ACP conversations are brief, other conversations may benefit from the structure and preparation in family meetings. For older adults, the ACP process is well-suited to outpatient, longitudinal care and should unfold over time; however it also often occurs around changes in medical conditions, new diagnoses, changes in functional or cognitive status, or care transitions such as hospitalization or admission to residential care.
+ACP conversations often involve patients, individuals serving as surrogate decision makers, and health care practitioners. While some ACP conversations are brief, other conversations may benefit from the structure and preparation in family meetings. For older adults, the ACP process is well-suited to outpatient, longitudinal care and should unfold over time; however it also often occurs around changes in medical conditions, new diagnoses, changes in functional or cognitive status, or care transitions such as hospitalization or admission to residential care.
 
 Health care providers should have phrases for introducing a desire to discuss ACP, such as, “We’re taking a step back to talk about the big picture with your care. I do this with all my patients so I can provide you with the kind of care you would want.” The introduction should aim to normalize the process and emphasize to the patient and family the goal of providing medical care that is aligned with their goals. Then, clinicians and teams can engage individuals and their families by introducing key concepts over time, as outlined in Table 7-3. Each concept can be discussed individually and often in 5 minutes or less, based on time constraints and patient needs.
 
@@ -159,16 +148,13 @@ Person and family-centered tools can assist patients with knowledge and decision
 
 ### Incorporating Cultural, Religious, and Spiritual Values
 
-ACP conversations will be more successful with consideration of the individual’s family, cultural, spiritual, and religious norms. In a study of patient-reported barriers to high-quality end-of-life care, patients from multiethnic backgrounds identified: (1) finance/health insurance barriers, (2) doctor behaviors, (3) communication chasm between doctors and patients, (4) family beliefs/behaviors,
-
-<a id="p115"></a>**[p. 115]**
+ACP conversations will be more successful with consideration of the individual’s family, cultural, spiritual, and religious norms. In a study of patient-reported barriers to high-quality end-of-life care, patients from multiethnic backgrounds identified: (1) finance/health insurance barriers, (2) doctor behaviors, (3) communication chasm between doctors and patients, (4) family beliefs/behaviors, <a id="p115"></a>**[p. 115]** (5) health system barriers, and (6) cultural/religious barriers.
 
 ![Table 7-4](hazzard8e_ch7_table-7-4_p115.webp)
 
 *TABLE 7-4 ■ ADVANCE CARE PLANNING RESOURCES*
 
-
-(5) health system barriers, and (6) cultural/religious barriers. While the clinician should never assume that all members of a group have the same beliefs, knowledge of some of the norms can aid in the future medical care planning discussions and decision making. Additionally, literacy and language-appropriate documents may enhance ACP. Clinicians cannot predict what an individual patient wants or is even willing to discuss. The only way to know is to ask in a nonjudgmental, patient-centered manner. Questions to help understand an individual’s perspective could include: “Are there any cultural, spiritual, or religious factors that I should know about as we talk about the care you would want if you got sicker?” and “How do your religious or spiritual beliefs influence your wishes for your medical care near the end of your life?”
+While the clinician should never assume that all members of a group have the same beliefs, knowledge of some of the norms can aid in the future medical care planning discussions and decision making. Additionally, literacy and language-appropriate documents may enhance ACP. Clinicians cannot predict what an individual patient wants or is even willing to discuss. The only way to know is to ask in a nonjudgmental, patient-centered manner. Questions to help understand an individual’s perspective could include: “Are there any cultural, spiritual, or religious factors that I should know about as we talk about the care you would want if you got sicker?” and “How do your religious or spiritual beliefs influence your wishes for your medical care near the end of your life?”
 
 ## CONCLUSION—THE ART
 
@@ -176,14 +162,15 @@ As noted above, decision making with older adults is challenging in many ways. F
 
 ## FURTHER READING
 
-
 - Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 6th ed. New York, NY: Oxford University Press; 2008.
 
 - Bernacki RE, Block SD, Force ACoPHVCT. Communication about serious illness care goals: a review and synthesis of best practices. JAMA Intern Med. 2014; 174(12):1994–2003.
 
 - Boockvar KS, Lachs MS. Predictive value of nonspecific symptoms for acute illness in nursing home residents. J Am Geriatr Soc. 2003;51:1111–1115.
 
-- Boyd CM, Darer J, Boult C, et al. Clinical practice guidelines and quality of care for older patients with multiple <a id="p116"></a>**[p. 116]** comorbid diseases: implications for pay for performance. JAMA. 2005;294:716–724.
+- Boyd CM, Darer J, Boult C, et al. Clinical practice guidelines and quality of care for older patients with multiple comorbid diseases: implications for pay for performance. JAMA. 2005;294:716–724.
+
+<a id="p116"></a>**[p. 116]**
 
 - Fried TR, Bradley EH, Towle VR, et al. Understanding the treatment preferences of seriously ill patients. N Engl J Med. 2002;346:1061–1066.
 
@@ -228,7 +215,6 @@ As noted above, decision making with older adults is challenging in many ways. F
 - Widera E, Anderson WG, Santhosh L, McKee KY, Smith AK, Frank J. Family meetings on behalf of patients with serious illness. N Engl J Med. 2020;383(11):e71.
 
 - Zikmund-Fisher BJ, Couper MP, Singer E, et al. Deficits and variations in patients’ experience with making 9 common medical decisions: the DECISIONS survey. Med Decis Making. 2010;30(suppl 5):S85–S95.
-
 
 ## Israeli law examined alongside this chapter
 

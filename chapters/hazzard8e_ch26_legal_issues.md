@@ -76,7 +76,6 @@ The third element a medical malpractice plaintiff is required to prove is the oc
 
 *TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM*
 
-
 <a id="p363"></a>**[p. 363]**
 
 In very rare circumstances, punitive or exemplary damages may be awarded over and above compensatory damages, where the defendant’s conduct has been not merely negligent, but reckless or malicious. For example, a jury might award punitive damages when it finds that a patient developed serious pressure ulcers because of a hospital’s or nursing home’s demonstrated ongoing pattern of neglect. Liability insurance policies purchased by health professionals (or purchased for them by their employers) ordinarily do not cover punitive damages.
@@ -95,16 +94,13 @@ There is a significant trend in many states to evolve from the traditional custo
 
 When a reasonableness standard is imposed on malpractice defendants, expert witnesses may be allowed to testify, and thereby educate the lay jurors, regarding the appropriate professional conduct under the circumstances. To establish reasonable conduct, the parties may also introduce other kinds of evidence to supplement the testimony of the expert witnesses (Table 26-2). Additional forms of evidence introduced for this purpose may include professional codes of ethics, medical journal literature, textbooks (learned treatises), the Physician’s Desk Reference (PDR) and pharmaceutical package inserts (PPIs) pertaining to the correct use and dosage of prescription drugs, pertinent statutes or regulations, voluntary accreditation standards such as those of the Joint Commission, and, of increasing importance, pertinent clinical practice guidelines (CPGs) or parameters.
 
-Leaders in health care delivery and financing acknowledge that a good deal of routine medical practice has long been predicated more on habit and inertia than on solid empirical evidence establishing clinical efficacy. Out of a concern about both wasteful resource usage and the quality of patient care, professional organizations and specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S.
+Leaders in health care delivery and financing acknowledge that a good deal of routine medical practice has long been predicated more on habit and inertia than on solid empirical evidence establishing clinical efficacy. Out of a concern about both wasteful resource usage and the quality of patient care, professional organizations and specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S. <a id="p364"></a>**[p. 364]** Preventive Services Task Force, and individual institutions and agencies in the United States and elsewhere have engaged in a concerted movement to develop, collect, and disseminate to practicing clinicians a variety of evidence-based CPGs or parameters to educate practitioners about whether particular diagnostic or therapeutic interventions have actually been demonstrated to produce desired health benefits for patients.
 
 ![Table 26-2](hazzard8e_ch26_table-26-2_p363.webp)
 
 *TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES*
 
-
-<a id="p364"></a>**[p. 364]**
-
-Preventive Services Task Force, and individual institutions and agencies in the United States and elsewhere have engaged in a concerted movement to develop, collect, and disseminate to practicing clinicians a variety of evidence-based CPGs or parameters to educate practitioners about whether particular diagnostic or therapeutic interventions have actually been demonstrated to produce desired health benefits for patients. The Institute of Medicine has defined CPGs as “systematically developed statements to assist practitioner and patient decisions about appropriate health care for specific clinical circumstances.” Deviations from relevant CPGs may be permissible in the case of particular patients, but the health professional should document the justification for such deviation.
+The Institute of Medicine has defined CPGs as “systematically developed statements to assist practitioner and patient decisions about appropriate health care for specific clinical circumstances.” Deviations from relevant CPGs may be permissible in the case of particular patients, but the health professional should document the justification for such deviation.
 
 In a related vein, the American Board of Internal Medicine Foundation and Consumer Reports have partnered in a Choosing Wisely initiative designed to encourage and enable patients and physicians to share in making decisions about medical care that is supported by available evidence, not duplicative of other tests or procedures already received, and necessary for that particular patient. Numerous medical specialty organizations have joined in this initiative, identifying common practices in their respective specialties for which physicians and patients ought to ask questions about the value obtained from routine use.
 
@@ -132,7 +128,6 @@ In terms of the informed component of informed consent, there are two competing 
 
 *TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING*
 
-
 <a id="p365"></a>**[p. 365]**
 
 By comparison, the materiality or patient orientation standard compels the sharing of information that might make a difference or be material in the decisionmaking process of a reasonable patient in similar circumstances. The states are approximately evenly split between these two competing standards of information disclosure.
@@ -157,7 +152,6 @@ A patient’s present cognitive and emotional capacity should be evaluated on a 
 
 *TABLE 26-4 ■ COMPONENTS OF FUNCTIONAL ASSESSMENT OF DECISIONAL CAPACITY*
 
-
 <a id="p366"></a>**[p. 366]**
 
 ### Advance Health Care Planning as Prospective Decision-Making
@@ -176,7 +170,7 @@ When there is no valid proxy or instruction directive, family consent statute, o
 
 In the past, a surrogate was expected to make decisions consistent with the guardian’s view, as a trust agent, of the patient’s best interests. The modern approach, however, is toward a substituted judgment standard of proxy decision-making, whenever it is realistically feasible. Under this latter approach, the surrogate is obligated to make those decisions that the patient would make, according to the patient’s own preferences and values to the extent these can be accurately ascertained, if the patient were presently able to make and express decisions competently.
 
-Another innovation in advance health care planning is the Physician Orders for Life-Sustaining Treatment (POLST) paradigm (also known as Portable Medical Orders; see https://polst.org/). The precise title for this concept varies among jurisdictions. In some states, it is named Medical Orders for Life-Sustaining Treatment (MOLST; see [https://molst.org/](<https://www.health.ny.gov/professionals/patients/patient_rights/molst/> "New York State Department of Health MOLST program")) and has also been named Physician Orders for Scope of Treatment (POST; see https:// www.indianapost.org/). POLST is a mechanism to convert a patient’s treatment wishes into the tangible form of a written physician’s order. Because health professionals
+Another innovation in advance health care planning is the Physician Orders for Life-Sustaining Treatment (POLST) paradigm (also known as Portable Medical Orders; see https://polst.org/). The precise title for this concept varies among jurisdictions. In some states, it is named Medical Orders for Life-Sustaining Treatment (MOLST; see [https://molst.org/](<https://www.health.ny.gov/professionals/patients/patient_rights/molst/> "New York State Department of Health MOLST program")) and has also been named Physician Orders for Scope of Treatment (POST; see https://www.indianapost.org/). POLST is a mechanism to convert a patient’s treatment wishes into the tangible form of a written physician’s order. Because health professionals
 
 <a id="p367"></a>**[p. 367]**
 
@@ -195,7 +189,6 @@ However, numerous exceptions to the general confidentiality rule have been recog
 ![Table 26-5](hazzard8e_ch26_table-26-5_p367.webp)
 
 *TABLE 26-5 ■ EXCEPTIONS TO THE DUTY OF CONFIDENTIALITY*
-
 
 Because the modern delivery of health care is a team endeavor, each patient implicitly gives permission for the sharing of certain otherwise private pieces of information among the members of the treatment team. Internal information sharing of this nature is essential to optimal care, especially for accomplishing coordination and continuity of long-term care for older patients with disabilities. Indeed, failures in communication among the multiple providers involved in the care of a patient needing such coordination and continuity may form the basis for negligence liability claims when harm results.
 

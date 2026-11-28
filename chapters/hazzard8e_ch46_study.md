@@ -118,7 +118,7 @@ Hazzard says saline and water should **seldom** be used to cleanse a colonized p
 
 > **Current practice: Povidone-iodine concentration.** A 10% povidone-iodine solution contains approximately 1% available iodine and is the standard stock solution, not a dilution. Avoid cytotoxic antiseptics on viable healing tissue; routine cleansing can use a nonirritating, nontoxic solution. [Wound Healing Society guidelines, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
 
-> **Current practice: Wound cleansing.** choose a pH-balanced, nonirritating, nontoxic cleanser for routine care. Tap water from a reliable source is acceptable — [WHS pressure ulcer guideline, 2023 update, recommendations 3.5 and 4.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
+> **Current practice: Wound cleansing.** Choose a pH-balanced, nonirritating, nontoxic cleanser for routine care. Tap water from a reliable source is acceptable. [WHS pressure ulcer guideline, 2023 update, guidelines 3.5 and 4.5](https://pmc.ncbi.nlm.nih.gov/articles/PMC11403384/).
 
 Avoid on clean/healing PI (fibroblast-toxic in vitro): povidone-iodine, iodophor, sodium hypochlorite, hydrogen peroxide, acetic acid (<a href="?chapter=46#p697">p697</a>).
 

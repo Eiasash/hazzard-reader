@@ -365,6 +365,7 @@ In contrast to primary hyperparathyroidism, serum calcium is low-normal or norma
 **Epidemiology** The annual incidence of primary hyperparathyroidism is ~1/1000 person-years and increases with age (peak annual incidence 6.3/1000 person-years at age 65–74). It is more common in women (2:1) versus men and in Black people. The prevalence of asymptomatic primary hyperparathyroidism has increased since serum calcium was included in chemistry panels. Primary hyperparathyroidism is the most common cause of hypercalcemia in outpatients, whereas malignancy-associated hypercalcemia is the most common cause of hypercalcemia in hospitalized patients.
 
 <a id="p1537"></a>**[p. 1537]**
+
 ![Figure 97-1](hazzard8e_ch97_figure97-1.png)
 
 > *FIGURE 97-1. Schematic representation of the hormonal regulation of calcium homeostasis by parathyroid hormone (PTH) and vitamin D (D). A reduction in serum calcium (Ca) below normal reduces negative feedback suppression of the parathyroid glands and prompts a proportional increase in PTH secretion. PTH stimulates osteoclastic bone resorption and mobilizes calcium (and phosphate [P]) from bone; increases conversion of 25-hydroxyvitamin D (25-OH D) to 1,25-dihydroxyvitamin D (1,25 OH2 D) in the kidney, which in turn stimulates calcium (and phosphate) absorption from the intestines and stimulates distal tubular reabsorption of calcium (and inhibits proximal tubular reabsorption of phosphate) from the kidney. These actions of PTH restore serum calcium, which then exerts negative feedback suppression of PTH secretion.*

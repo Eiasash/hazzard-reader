@@ -44,7 +44,6 @@ Social workers meet face to face with patients and consumer groups to provide se
 
 *TABLE 20-1 ■ THE ROLES SOCIAL WORKERS PERFORM*
 
-
 finances, or interpersonal problems. Therapy includes meeting with individual older adults, with partners, as well as with groups of older adults who are experiencing concerns related to their families. Such therapies could involve helping grandparents with resources and tools for raising grandchildren, aiding families in coping with an aging parent with dementia, or supporting older couples as they struggle with debilitating health problems that can create emotional and financial strain on the relationship. Group work services include support groups for older adults with a variety of health concerns, such as cancer, low vision, or early-stage dementia. Support groups have been particularly helpful to caregivers of patients with such diseases as Alzheimer, diabetes, and Parkinson. These groups, run by social workers, help caregivers better understand the disease process and provide information that helps them cope with problems of caregiving more effectively and thus improve the disease outcome. Groups can also focus on self-help issues, where older adults learn to deal with such problems as alcoholism, obesity, or smoking. Psychotherapy groups work to resolve such concerns as abuse (as victim or perpetrator), depression, and marital problems. Social workers also work directly
 
 with older adults and their families as educators and disseminators of information. For example, social workers provide educational sessions on caregiving, stress management, and various aspects of mental and physical health care.
@@ -58,7 +57,6 @@ Social workers link older adults to the services they need. This may be necessar
 ![Table 20-2](hazzard8e_ch20_table-20-2_p279.webp)
 
 *TABLE 20-2 ■ SETTINGS WHERE SOCIALWORKERS WORK AND ROLES THEY PERFORM*
-
 
 general, case management involves screening, assessment, care planning, implementation, monitoring, and reassessment to evaluate ongoing service needs. Case management meets a variety of goals in numerous settings. The social worker assesses problems and needs to determine eligibility for services and financial resources. The social worker also links older adults to needed services. Family and friends may provide collateral information to help the social worker determine their capacity for support. Goals for a care plan are determined by discussing older adults’ perceptions of their needs. Social workers then identify interventions and resources designed to meet these goals. Subsequently, the social worker monitors the delivery of the services. When an older adult requires care over a longer period of time, a social worker will reevaluate needs and necessary interventions and resources. Ultimately, a social worker will conduct an outcome evaluation to determine if the patient’s goals were achieved.
 
@@ -99,7 +97,6 @@ In acute care settings, where patient stays are very short, social workers focus
 ![Table 20-3](hazzard8e_ch20_table-20-3_p281.webp)
 
 *TABLE 20-3 ■ SOCIAL WORKERS IN HOSPICE SETTINGS*
-
 
 address the emotional loss and face forthcoming decisions. Additionally, the social worker can provide information regarding aspects of diseases, care options, and assistance in meeting patient and family needs.
 
@@ -171,7 +168,6 @@ The abuse or neglect of older adults often surfaces in a health care setting. Ma
 
 *TABLE 20-4 ■ ELDER ABUSE AND NEGLECT*
 
-
 <a id="p284"></a>**[p. 284]**
 
 While all states have mandatory or voluntary reporting laws, the older adult’s willingness to receive help, provided they have capacity, is voluntary. When a report of elder abuse is made to local authorities, additional personnel may be involved in safety planning. Social workers can be instrumental in helping older adults recognize the power imbalance in abusive relationships and devise strategies for protection. One of the biggest challenges that health professionals face consists of identifying and helping abused or neglected older adults who do not realize that they are victims of mistreatment. All forms of elder abuse can also occur when an older adult is residing in an institutional setting. Further details regarding elder abuse and neglect can be found in Chapter 48.
@@ -185,7 +181,6 @@ and mental status examination, an evaluation of the individual’s living enviro
 ![Table 20-5](hazzard8e_ch20_table-20-5_p284.webp)
 
 *TABLE 20-5 ■ COMMON MENTAL HEALTH CONDITIONS AND DEVELOPMENTAL DISABILITIES IN OLDER ADULTS*
-
 
 <a id="p285"></a>**[p. 285]**
 
@@ -211,10 +206,9 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 ## FURTHER READING
 
-
 - Administration on Aging. A Profile of Older Americans. Washington, DC: Administration on Aging; 2019. [https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf](<https://acl.gov/sites/default/files/Aging%20and%20Disability%20in%20America/2019ProfileOlderAmericans508.pdf>). Accessed December 10, 2020.
 
-- Anthony S, Traub A, Lewis S, et al. Strengthening Medicaid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/ x3mK.
+- Anthony S, Traub A, Lewis S, et al. Strengthening Medicaid Long-Term Services and Supports in an Evolving Policy Environment: A Toolkit for States. Center for Health Care Strategies, Inc. March 2019. http://allh.us/x3mK.
 
 - Barry KL, Blow FC. Drinking over the lifespan: focus on older adults. Alcohol Res. 2016;38(1):115–120.
 
@@ -240,7 +234,9 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 - Mpondo BCT. HIV infection in the elderly: arising challenges. J Aging Res. 2016;2016:2404857.
 
-- National Association of Social Workers. NASW standards for palliative and end of life care (2015). [https://www.socialworkers.org/Practice/Practice-Standards-Guidelines](<https://www.socialworkers.org/Practice/Practice-Standards-Guidelines>). Accessed December 6, 2021. National Association of Social Workers. NASW guidelines for social work practice in healthcare settings (2016). [www.socialworkers.org/practice/standards/NASWHealthCareStandards.pdf](<https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Practice-in-Health-Care-Settings> "NASW Standards for Social Work Practice in Health Care Settings.").
+- National Association of Social Workers. NASW standards for palliative and end of life care (2015). [https://www.socialworkers.org/Practice/Practice-Standards-Guidelines](<https://www.socialworkers.org/Practice/Practice-Standards-Guidelines>). Accessed December 6, 2021.
+
+- National Association of Social Workers. NASW guidelines for social work practice in healthcare settings (2016). [www.socialworkers.org/practice/standards/NASWHealthCareStandards.pdf](<https://www.socialworkers.org/Practice/NASW-Practice-Standards-Guidelines/NASW-Standards-for-Social-Work-Practice-in-Health-Care-Settings> "NASW Standards for Social Work Practice in Health Care Settings.").
 
 - Rodriguez J. Labors of Love: Nursing Homes and the Structure of Care Work. New York, NY: New York University Press; 2014.
 
@@ -248,6 +244,6 @@ With ongoing efforts to further cost containment and effectively deal with treat
 
 - Weaver RH, Roberto KA. Home and community-based service use by vulnerable older adults. Gerontologist. 2017;57(3):540–551.
 
-- World Health Organization. Suicide in the world, 2019. [https://www.who.int/publications/i/item/suicide-inthe-world](<https://www.who.int/publications/i/item/suicide-in-the-world>). Accessed January 5, 2022.
+- World Health Organization. Suicide in the world, 2019. [https://www.who.int/publications/i/item/suicide-in-the-world](<https://www.who.int/publications/i/item/suicide-in-the-world>). Accessed January 5, 2022.
 
 - Zerden L, Lombardi B, Jones A. Social workers in integrated health care: improving care throughout the life course. Soc Work Health Care. 2019;58(1):142–149.

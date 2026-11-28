@@ -106,7 +106,7 @@ Table 56-5 separates the broad vulnerability associated with aging from Alzheime
 
 A low CSF amyloid-beta 42 concentration and a positive amyloid scan can coexist because they measure soluble peptide and deposited plaque, respectively. The chapter reports greater concordance with amyloid PET for the CSF amyloid-beta 42/40 ratio and discusses sensitivity and specificity around **85%–90%** in the studies cited. Total tau can rise with neurodegeneration from more than one cause, while phosphorylated tau gives different information. In an individual with cognitive symptoms, these measures supplement clinical assessment. Distinguish using a test to support an etiological diagnosis from predicting disability, staging function or screening healthy people (p849–850).
 
-> Current practice (not the book): The FDA cleared a specific plasma pTau217/β-amyloid 1-42 ratio test to aid assessment of amyloid pathology in symptomatic adults aged 55 or older. The result is interpreted with other clinical information; it is not an asymptomatic screening or stand-alone diagnostic test. - [FDA clearance, 2025](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
+> Current practice (not the book): The FDA cleared a specific plasma pTau217/β-amyloid 1-42 ratio test to aid assessment of amyloid pathology in symptomatic adults aged 55 or older evaluated in a specialized care setting. The result is interpreted with other clinical information; it is not an asymptomatic screening or stand-alone diagnostic test. [FDA clearance, 2025](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
 
 ## Exam traps
 

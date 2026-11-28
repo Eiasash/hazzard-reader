@@ -15,6 +15,9 @@ def generate(out, paths):
         aliases = list(drug.get("aliases", []))
         for brand in drug.get("israeliBrands", []):
             aliases.extend([brand.get("name"), brand.get("hebrewName"), *brand.get("searchNames", [])])
+        for combination in drug.get("israeliCombinations", []):
+            for brand in combination["brands"]:
+                aliases.extend([brand.get("name"), brand.get("hebrewName")])
         bucket = hashlib.sha256(drug["id"].encode()).hexdigest()[:1]
         part = f"data/drug-details/{bucket}.json"
         buckets.setdefault(part, {})[drug["id"]] = drug
@@ -33,6 +36,8 @@ def generate(out, paths):
     catalog = json.loads((ROOT / "data/mcq/catalog.json").read_text(encoding="utf-8"))
     evidence = json.loads((ROOT / "data/mcq/exam-references.json").read_text(encoding="utf-8"))
     collections = json.loads((ROOT / "data/mcq/collections.json").read_text(encoding="utf-8"))
+    assignments = json.loads((ROOT / "data/mcq/reader-chapters.json").read_bytes())
+    catalog = [dict(q, chapter=assignments[q["id"]][0], chapterTitle=assignments[q["id"]][1]) if q["id"] in assignments else q for q in catalog]
     positions = {q["id"]: i for i, q in enumerate(catalog)}
     chapters = {}
     for i, q in enumerate(catalog):
@@ -85,14 +90,6 @@ def generate(out, paths):
     compact["toc"] = json.loads((ROOT / "data/mcq/hazzard8e-toc.json").read_bytes())["chapters"]
     compact["studyIds"] = list(evidence["study"])
     compact["articles"] = [positions[k] for k in collections["suppliedArticles"]["ids"] if k in positions]
-    # A review question carries its own page references; the full bibliography
-    # and general bank catalogue are unnecessary to answer that question.
-    for chunk in sorted((out / "data/mcq/chunks").glob("*.json")):
-        rows = json.loads(chunk.read_bytes())
-        for row in rows:
-            if row["id"] in evidence["questions"]:
-                row["readerReference"] = evidence["questions"][row["id"]]
-        chunk.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8", newline="\n")
     # Share the official sitting directory with the chooser. Question bodies are
     # fetched only for the sitting the reader actually opens.
     compact["officialSlots"] = [[i, q["t"], q["examNumber"]] for i, q in enumerate(catalog)

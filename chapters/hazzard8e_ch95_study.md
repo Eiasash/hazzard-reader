@@ -55,7 +55,7 @@ Exam topics link to the marked chapter and the corresponding questions.
 
 **Treatment and infection risk.** When CLL is active, consider TP53 status, comorbidities and fitness in selecting a targeted regimen. Examples in the chapter include BTK inhibitors and venetoclax with an anti-CD20 antibody. BTK inhibitors can increase bleeding and atrial fibrillation risk. Review antiplatelet and anticoagulant indications. Recurrent infection is a major complication of CLL, and vaccination early in the disease course gives the immune system a better opportunity to respond (pp. 1491–1492).
 
-> Current practice (not the book): Among patients with relapsed or refractory CLL, acalabrutinib had fewer atrial fibrillation events than ibrutinib in ELEVATE-RR, and zanubrutinib improved progression-free survival versus ibrutinib in ALPINE. Choose therapy according to disease features, interactions and cardiovascular/bleeding risk. [ELEVATE-RR, 2021 and ALPINE, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC8547923/).
+> Current practice (not the book): In ELEVATE-RR, previously treated patients with CLL and del(17p) or del(11q) had noninferior progression-free survival and less atrial fibrillation/flutter with acalabrutinib than with ibrutinib; in relapsed or refractory CLL/SLL, zanubrutinib improved progression-free survival versus ibrutinib in ALPINE. Choose therapy according to disease features, interactions and cardiovascular/bleeding risk. [ELEVATE-RR, 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8547923/) · [ALPINE, 2023](https://pubmed.ncbi.nlm.nih.gov/36511784/).
 
 ## Lymphoma genetics, diagnosis and treatment
 

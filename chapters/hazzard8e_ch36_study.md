@@ -29,7 +29,7 @@ Study summary of Chapter 36; the book and the full chapter are the reference.
 
 Inspect the vulva, vagina and cervix while assessing postmenopausal bleeding. A visible local lesion may explain discomfort but should not end the evaluation for endometrial disease. Ultrasound and tissue sampling answer different questions: an endometrial measurement estimates risk, while biopsy can identify pathology. The chapter advises biopsy when bleeding persists or recurs even with a thin stripe (p538–539).
 
-> Current practice (not the book): ACOG now recommends ultrasound plus endometrial sampling initially for most people with postmenopausal bleeding. Ultrasound alone is an option in selected low-risk patients with one episode, a fully seen lining no thicker than 4 mm and reliable access to immediate reassessment if bleeding recurs. - [ACOG Clinical Practice Update, 2026](https://doi.org/10.1097/AOG.0000000000006275).
+> Current practice (not the book): ACOG now recommends ultrasound plus endometrial sampling initially for most people with postmenopausal bleeding. Ultrasound alone is an option in selected low-risk patients with one episode, a fully seen lining no thicker than 4 mm and reliable access to immediate reassessment if bleeding recurs. [ACOG Clinical Practice Update, 2026](https://doi.org/10.1097/AOG.0000000000006275).
 
 Pruritus with white plaques, bruising, fissures or loss of normal architecture suggests lichen sclerosus. Perianal extension may form a figure-of-eight pattern. Persistent or changing lesions merit inspection and consideration of biopsy. By contrast, diffuse dryness, burning and dyspareunia can arise from estrogen deficiency; lack of response to vaginal estrogen should trigger another look for a vulvar disorder (p531–534).
 
@@ -37,7 +37,7 @@ Pruritus with white plaques, bruising, fissures or loss of normal architecture s
 
 For symptomatic atrophy the chapter describes a vaginal estradiol tablet **10 micrograms nightly for 2 weeks**, then twice weekly. The low maintenance dose follows an initial phase of tissue remodeling. When the complaint is a bulge, ask about emptying the bladder, bleeding and interference with activities. A pessary may relieve symptoms without surgery, provided that fit, epithelial health and follow-up can be maintained (p534, p544–545).
 
-> Current practice (not the book): Starting systemic menopausal hormone therapy after age 60 or more than 10 years from menopause carries higher absolute vascular risks and requires individualized assessment. Selected well-informed patients may choose to start later; continuation after 65 also calls for periodic review. - [North American Menopause Society position statement, 2022](https://pubmed.ncbi.nlm.nih.gov/35797481/).
+> Current practice (not the book): When systemic menopausal hormone therapy is started after age 60 or more than 10 years after menopause, the benefit-risk balance appears less favorable because absolute risks of coronary heart disease, stroke, venous thromboembolism and dementia are greater. Selected well-informed patients may choose to start later; continuation after 65 also calls for periodic review. [North American Menopause Society position statement, 2022](https://pubmed.ncbi.nlm.nih.gov/35797481/).
 
 ### Build the history around the organs present and symptoms the patient may not volunteer
 
@@ -93,7 +93,7 @@ Ask about new persistent abdominal or pelvic symptoms, bloating and changes in a
 
 The book describes observation of selected asymptomatic simple cysts **under 10 cm** with a normal CA-125 and repeat evaluation in **3–6 months**. Complexity, an elevated marker or size at least 10 cm warrants urgent gynecologic consultation in its pathway. A normal marker alone is not sufficient reassurance when the morphology or clinical presentation is concerning. If malignancy is suspected, the initial surgical team matters: complete staging and appropriate debulking at the first operation can avoid an incomplete procedure and subsequent operation. The decision must also take account of operative fitness, symptoms and the patient's goals (p539–540).
 
-> Current practice (not the book): RCOG distinguishes small, asymptomatic simple lesions from larger or complex findings. A postmenopausal unilateral, unilocular simple cyst no larger than 3 cm needs no routine follow-up. Do not apply the book's surveillance approach for a cyst under 10 cm without considering size, morphology, symptoms and current referral guidance. - [RCOG Green-top Guideline 34, 2025 amendment](https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/ovarian-cysts-in-postmenopausal-women-green-top-guideline-no-34/).
+> Current practice (not the book): RCOG distinguishes small, asymptomatic simple lesions from larger or complex findings. A postmenopausal unilateral, unilocular simple cyst no larger than 3 cm needs no routine follow-up. Do not apply the book's surveillance approach for a cyst under 10 cm without considering size, morphology, symptoms and current referral guidance. [RCOG Green-top Guideline 34, 2025 amendment](https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/ovarian-cysts-in-postmenopausal-women-green-top-guideline-no-34/).
 
 ### Identify which pelvic compartment is causing the symptom
 

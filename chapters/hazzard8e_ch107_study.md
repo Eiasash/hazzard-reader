@@ -33,7 +33,7 @@ Study summary of Chapter 107; the book and the full chapter are the reference.
 - Link a newly diagnosed patient promptly to treatment. Older adults can achieve effective viral suppression but may recover CD4 cells more slowly. Consider kidney and other organ function, drug interactions, cost and patient preference when choosing therapy. Continued suppression reduces incident non-AIDS conditions as well as opportunistic disease (p1720–1721).
 - Distinguish a complication that occurs earlier from one that is simply more prevalent. Falls, frailty, bone health and cardiovascular risk warrant attention during ordinary follow-up even when the viral load remains suppressed (p1721–1722).
 
-> Current practice (not the book): In REPRIEVE, pitavastatin reduced major cardiovascular events in people with HIV receiving antiretroviral therapy who had low-to-moderate cardiovascular risk. Check interactions between statins and the specific antiretroviral regimen. [REPRIEVE trial, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10564556/).
+> Current practice (not the book): In REPRIEVE, pitavastatin reduced major cardiovascular events in people aged 40–75 years with HIV receiving antiretroviral therapy who had low-to-moderate cardiovascular risk. Check interactions between statins and the specific antiretroviral regimen. [REPRIEVE trial, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10564556/).
 
 ### A painful facial eruption or visual change
 
@@ -42,7 +42,7 @@ Study summary of Chapter 107; the book and the full chapter are the reference.
 - Table 107-1 gives its oral regimens for immunocompetent older adults and cranial nerve involvement. Adjust acyclovir for renal function. For mild immune compromise its treatment duration is **7–10 days**. Severe compromise changes the regimen and requires assessment for parenteral therapy (p1727–1728).
 - In the United States the book describes recombinant zoster vaccine for immunocompetent adults **50 or older** and reports that at the time ACIP had no recommendation for immunocompromised people (p1729–1730).
 
-> Current practice (not the book): ACIP recommends two doses for adults aged 19 or older who are or will be immunocompromised. The usual interval is 2–6 months. It can be shortened to 1–2 months when completing the series earlier would be beneficial. - [CDC clinical considerations, 2024](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html).
+> Current practice (not the book): ACIP recommends two doses for adults aged 19 or older who are or will be immunocompromised. The usual interval is 2–6 months. It can be shortened to 1–2 months when completing the series earlier would be beneficial. [CDC clinical considerations, 2024](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html).
 
 ### Two reasons an older adult may first come to HIV care
 
@@ -96,7 +96,7 @@ Read across the immune-status row before choosing a dose from Table 107-1. For i
 
 For severe immune compromise the table lists acyclovir **10 mg/kg every 8 hours for 7–10 days**, with renal adjustment. The weight-based parenteral regimen is distinct from the fixed oral doses. For acyclovir-resistant infection it lists IV foscarnet **40 mg/kg every 8 hours** until healed. In an older adult with rapidly progressive, extensive or visceral illness, assess severity and involve an experienced clinician. The oral dose from an uncomplicated shingles vignette is not interchangeable with a parenteral treatment plan (p1727).
 
-> Current practice (not the book): In people with HIV who have extensive skin lesions or visceral disease, NIH guidance starts IV acyclovir and allows an oral switch after clinical improvement to complete 10–14 days in total. For resistant VZV, IV foscarnet is nephrotoxic and warrants specialist involvement. - [NIH adult and adolescent opportunistic infection guidelines, 2026](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/varicella-zoster).
+> Current practice (not the book): In people with HIV who have extensive skin lesions or visceral disease, NIH guidance starts IV acyclovir and allows an oral switch after clinical improvement to complete 10–14 days in total. For resistant VZV, IV foscarnet is nephrotoxic and warrants specialist involvement. [NIH adult and adolescent opportunistic infection guidelines, 2026](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/varicella-zoster).
 
 ### Acute pain, persistent pain and what treatment can change
 

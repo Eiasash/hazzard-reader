@@ -32,7 +32,7 @@ Check who was enrolled, what exact product they took, what it was compared with 
 
 For difficulty sleeping, the book describes starting immediate-release melatonin about an hour before bed and notes uncertainty about prolonged use. The formulation, indication and timing matter when interpreting a patient's report of benefit (p336).
 
-> Current practice (not the book): For chronic insomnia disorder, the guideline favors cognitive behavioral therapy for insomnia and suggests against melatonin or valerian. - [VA/DoD chronic insomnia guideline, recommendations 8 and 14, 2025](https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf).
+> Current practice (not the book): For chronic insomnia disorder, the guideline favors cognitive behavioral therapy for insomnia and suggests against melatonin or valerian. [VA/DoD chronic insomnia guideline, recommendations 8 and 14, 2025](https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-CPG_2025-Guideline_final_20250915.pdf).
 
 When falls are the concern, the case integrates physical therapy, home safety and review of sedating medicines with movement-based options. Someone who asks about a supplement for balance may also have a modifiable drug exposure or a home hazard (p339, p343).
 

@@ -252,17 +252,19 @@ Alice Bonner is an Adjunct Faculty at the Johns Hopkins University School of Nur
 
 - Kane RL. Assuring quality in nursing homes care. J Am Geriatr Soc. 1998;46:232–237.
 
-- Mor V. Defining and measuring quality outcomes in longterm care. J Am Med Dir Assoc. 2006;7:532–540.
+- Mor V. Defining and measuring quality outcomes in long-term care. J Am Med Dir Assoc. 2006;7:532–540.
 
 - Morley J, Tolson D, Ouslander J, Vellas B. Nursing Home Care: A Core Curriculum for the International Association for Gerontology and Geriatrics. New York, NY: McGraw Hill; 2013.
 
 - Ouslander JG, Berenson RA. Reducing unnecessary hospitalizations of NH residents. N Engl J Med. 2011;365: 1165–1167.
 
-- Ouslander JG, Bonner A, Herndon L, Shutes J. The INTER- ACT quality improvement program: an overview for medical directors and primary care clinicians in longterm care. J Am Med Dir Assoc. 2014;15:162–170.
+- Ouslander JG, Bonner A, Herndon L, Shutes J. The INTERACT quality improvement program: an overview for medical directors and primary care clinicians in long-term care. J Am Med Dir Assoc. 2014;15:162–170.
 
 - Ouslander JG, Naharci I, Engstrom G, et al. Root cause analyses of transfers of skilled nursing facility patients to acute hospitals: lessons learned for reducing unnecessary hospitalizations. J Am Med Dir Assn. 2016;17:256–262.
 
-- Ouslander JG, Grabowski DC. Rehabbed to death reframed: in response to “rehabbed to death: breaking the cycle”. J Am Geriatr Soc. 2019;67:2225–2228. <a id="p236"></a>**[p. 236]**
+- Ouslander JG, Grabowski DC. Rehabbed to death reframed: in response to “rehabbed to death: breaking the cycle”. J Am Geriatr Soc. 2019;67:2225–2228.
+
+<a id="p236"></a>**[p. 236]**
 
 - Ouslander JG, Grabowski DC. COVID-19 in nursing homes: calming the perfect storm. J Am Geriatr Soc. 2019;68:2153–2162.
 

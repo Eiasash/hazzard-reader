@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v344",
+      "date": "2026-11-28",
+      "changes": [
+        "Corrected book and guideline passages, restored printed notes, and organized Notebook by chapter. You can now mark a chapter as read or unread."
+      ]
+    },
+    {
       "version": "v343",
       "date": "2026-11-28",
       "changes": [

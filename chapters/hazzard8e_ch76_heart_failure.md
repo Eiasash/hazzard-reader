@@ -35,9 +35,9 @@ Despite declines in age-adjusted mortality rates from coronary heart disease and
 
 Heart failure affects approximately 6.5 million Americans, and it is projected that by 2030 the prevalence of heart failure in the United States will exceed 8 million, largely due to the aging of the population. In addition, over 1 million new cases are diagnosed each year. Moreover, both the incidence and the prevalence of heart failure are strikingly age dependent ( **Figures 76-1** and **76-2** ). Indeed, heart failure prevalence doubles for each decade after 40 years of age and exceeds 10% in both men and women older than
 
-**Table 76-1 — Factors contributing to the rising incidence and prevalence of heart failure**
-
 ![Table 76-1](hazzard8e_ch76_table76-1_p1166.png)
+
+**Table 76-1 — Factors contributing to the rising incidence and prevalence of heart failure**
 
 > *Table 76-1 reproduced as a page image (printed p. 1166) — the grid did not extract reliably as text for this fast build.*
 
@@ -56,6 +56,7 @@ Aging is associated with extensive changes in cardiovascular structure and funct
 From the clinical perspective, the changes associated with cardiovascular aging result in an impaired ability of the heart to respond to stress, be it physiologic (eg, exercise) or pathologic (eg, hypertension or myocardial ischemia). Four principal changes in the cardiovascular system
 
 <a id="p1167"></a>**[p. 1167]**
+
 ![Figure 76-1](hazzard8e_ch76_figure76-1.png)
 
 > *FIGURE 76-1. Incident heart failure hospitalizations in the United States by age, gender, and self-reported race, 2005–2011: the Atherosclerosis Risk in Communities Study. (Reproduced with permission from NHANES, 2013 to 2016. National Heart, Lung, and Blood Institute. US Department of Health & Human Services.)*
@@ -69,9 +70,10 @@ than decreased β-receptor density on cardiac myocytes or altered responsiveness
 > *FIGURE 76-2. Prevalence of heart failure in the United States by age and gender: National Health and Nutrition Examinations Survey, 2009–2012. (Reproduced with permission from NHANES, 2013 to 2016. National Heart, Lung, and Blood Institute. US Department of Health & Human Services.)*
 
 <a id="p1168"></a>**[p. 1168]**
-**Table 76-2 — Epidemiology of heart failure in the united states**
 
 ![Table 76-2](hazzard8e_ch76_table76-2_p1168.png)
+
+**Table 76-2 — Epidemiology of heart failure in the united states**
 
 > *Table 76-2 reproduced as a page image (printed p. 1168) — the grid did not extract reliably as text for this fast build.*
 
@@ -88,6 +90,7 @@ Age-related changes in diastolic filling and atrial function can be evaluated no
 > *FIGURE 76-3. Distribution of hospitalizations for heart failure in the United States by age, 2000–2010. (Reproduced with permission from CDC/NCHS, National Hospital Discharge Survey, 2000–2010. US Department of Health & Human Services.)*
 
 <a id="p1169"></a>**[p. 1169]**
+
 ![Figure 76-4](hazzard8e_ch76_figure76-4.png)
 
 > *FIGURE 76-4. Age-related changes in central conduit arteries lead to numerous physiologic changes. (Reproduced with permission from Lakatta EG. Cardiovascular regulatory mechanisms in advanced age. _Physiol Rev_ . 1993;73[2]:413–467.)*
@@ -129,9 +132,9 @@ In general, the risk factors for heart failure are similar in older and younger 
 
 <a id="p1171"></a>**[p. 1171]**
 
-**Table 76-3 — Common etiologies of heart failure in older adults**
-
 ![Table 76-3](hazzard8e_ch76_table76-3_p1171.png)
+
+**Table 76-3 — Common etiologies of heart failure in older adults**
 
 > *Table 76-3 reproduced as a page image (printed p. 1171) — the grid did not extract reliably as text for this fast build.*
 
@@ -156,9 +159,9 @@ In addition to determining the etiology of heart failure, it is important to ide
 
 Among cardiac factors, myocardial ischemia or infarction and new-onset or recurrent atrial fibrillation or flutter are the most common causes of an acute episode of heart failure. Other cardiac causes include ventricular arrhythmias, especially ventricular tachycardia, and bradyarrhythmias, such as marked sinus bradycardia or advanced atrioventricular block. Sick sinus syndrome, which is common in older adults, is a frequent cause of
 
-**Table 76-4 — Common precipitants of heart failure in older adults**
-
 ![Table 76-4](hazzard8e_ch76_table76-4_p1172.png)
+
+**Table 76-4 — Common precipitants of heart failure in older adults**
 
 > *Table 76-4 reproduced as a page image (printed p. 1172) — the grid did not extract reliably as text for this fast build.*
 
@@ -221,9 +224,9 @@ Once heart failure has been diagnosed, the physician must address two crucial qu
 
 In 2017, the American College of Cardiology and American Heart Association Task Force on Practice Guidelines published revised guidelines for the diagnosis and management of heart failure. **Table 76-6** outlines an appropriate initial diagnostic assessment for patients with
 
-**Table 76-6 — Diagnostic evaluation of patients with heart failure**
-
 ![Table 76-6](hazzard8e_ch76_table76-6_p1174.png)
+
+**Table 76-6 — Diagnostic evaluation of patients with heart failure**
 
 > *Table 76-6 reproduced as a page image (printed p. 1174) — the grid did not extract reliably as text for this fast build.*
 
@@ -238,9 +241,9 @@ Current nomenclature distinguishes two forms of heart failure—HFREF, usually d
 
 An important goal of the diagnostic evaluation is differentiating HFREF from HFPEF since the management of these two syndromes differs. As noted, it is difficult to make this distinction on clinical grounds alone, and it is therefore essential to evaluate left ventricular function directly by echocardiography, radionuclide angiography (commonly called a MUGA [multiple-gated acquisition] scan), magnetic resonance imaging, or contrast ventriculography. In general, transthoracic echocardiography is
 
-**Table 76-7 — Clinical features of heart failure with reduced versus preserved ejection fraction**
-
 ![Table 76-7](hazzard8e_ch76_table76-7_p1175.png)
+
+**Table 76-7 — Clinical features of heart failure with reduced versus preserved ejection fraction**
 
 > *Table 76-7 reproduced as a page image (printed p. 1175) — the grid did not extract reliably as text for this fast build.*
 
@@ -280,9 +283,9 @@ Less often appreciated is the relationship between sodium restriction and poor n
 
 <a id="p1177"></a>**[p. 1177]**
 
-**Table 76-8 — Nonpharmacologic aspects of heart failure management**
-
 ![Table 76-8](hazzard8e_ch76_table76-8_p1177.png)
+
+**Table 76-8 — Nonpharmacologic aspects of heart failure management**
 
 > *Table 76-8 reproduced as a page image (printed p. 1177) — the grid did not extract reliably as text for this fast build.*
 
@@ -306,15 +309,15 @@ While data on exercise training in older adults are limited, a randomized trial 
 
 **Exercise prescription** A comprehensive exercise and conditioning program is appropriate for most older patients with mild-to-moderate heart failure symptoms and no other contraindications to exercise. **Table 76-9** enumerates specific contraindications that should be considered. **Table 76-10** outlines the basic components of such a program. In general, patients should try to exercise every day. A typical session should include some gentle stretching exercises as well as strengthening exercises using elastic bands
 
-**Table 76-9 — Contraindications to exercise in older patients**
-
 ![Table 76-9](hazzard8e_ch76_table76-9_p1178.png)
+
+**Table 76-9 — Contraindications to exercise in older patients**
 
 > *Table 76-9 reproduced as a page image (printed p. 1178) — the grid did not extract reliably as text for this fast build.*
 
-**Table 76-10 — Exercise prescription for older patients with heart failure**
-
 ![Table 76-10](hazzard8e_ch76_table76-10_p1178.png)
+
+**Table 76-10 — Exercise prescription for older patients with heart failure**
 
 > *Table 76-10 reproduced as a page image (printed p. 1178) — the grid did not extract reliably as text for this fast build.*
 
@@ -433,13 +436,15 @@ The MitraClip is a transcatheter-based technology which grasps both the anterior
 Even though more than 50% of older patients with heart failure have preserved left ventricular systolic function (ie, HFPEF), large-scale clinical trials have yet to clearly demonstrate major beneficial effects for any pharmacologic agents except for SGLT2 inhibitors ( **Table 76-11** ). As a result, therapy for HFPEF remains largely empiric, except for those with transthyretin cardiac amyloidosis as the cause.
 
 <a id="p1185"></a>**[p. 1185]**
-**Table 76-11 — Trials for heart failure with preserved ejection fraction**
 
 ![Table 76-11](hazzard8e_ch76_table76-11_p1185.png)
+
+**Table 76-11 — Trials for heart failure with preserved ejection fraction**
 
 > *Table 76-11 reproduced as a page image (printed p. 1185) — the grid did not extract reliably as text for this fast build.*
 
  <a id="p1186"></a>**[p. 1186]**
+
 ![Table 76-11](hazzard8e_ch76_table76-11_p1186.png)
 
 > *Table 76-11 reproduced as a page image (printed p. 1186) — the grid did not extract reliably as text for this fast build.*
@@ -610,4 +615,3 @@ American College of Cardiology, and American Geriatrics Society. _Circulation_ .
 - Whelan DJ, Goodlin SJ, Dickinson MG, et al. End-of-life care in patients with heart failure. _J Cardiac Fail_ . 2014; 20:121–134.
 
 - Yancy CW, Jessup M, Bozkurt B, et al. 2017 ACC/AHA/ HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Failure Society of America. _J Card Fail_ . 2017;23(8):628–651.
-

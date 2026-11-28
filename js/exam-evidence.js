@@ -137,6 +137,16 @@ window.HazzardEvidence = (() => {
           const rest=after.toString().trimStart();
           for(let i=active.length-1;i>=0;i--){
             const p=active[i];
+            if(p.rangeText&&rest.includes(p.rangeText)){
+              const ix=window.HazzardHighlighter.textIndex(block);
+              for(let at=ix.s.indexOf(p.rangeText);at>=0;at=ix.s.indexOf(p.rangeText,at+1)){
+                const boundary=document.createRange();
+                boundary.setStart(ix.nodes[at],ix.offs[at]);boundary.collapse(true);
+                if(boundary.compareBoundaryPoints(Range.START_TO_START,after)<0)continue;
+                place(p,block,boundary);active.splice(i,1);break;
+              }
+              continue;
+            }
             if(!p.rangeText&&!p.imageFile&&rest.startsWith(p.passage)){
               const boundary=after.cloneRange();boundary.collapse(true);
               place(p,block,boundary);active.splice(i,1);

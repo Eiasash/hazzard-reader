@@ -500,6 +500,12 @@ def printed_content(path,lexicon,entry_ids,toc,sources):
             # incorrectly associate a dose or class with an unrelated drug.
             layout=physical.get_text('dict',flags=pymupdf.TEXTFLAGS_DICT & ~pymupdf.TEXT_PRESERVE_IMAGES)
             page_blocks=[]
+            # Some landscape tables have a second scanned/OCR layer from a
+            # different page. Their verified reader plates use the native
+            # typeset layer, whose baselines run vertically in PDF coordinates.
+            if page in {864,865,912,913,914,1204,1205,1249,1250,1251,1373,1374}:
+                for table_block in layout['blocks']:
+                    table_block['lines']=[line for line in table_block.get('lines',[]) if line['dir'][1]<-.98]
             for block_no,lines in pdf_paragraphs(layout):
                 raw='\n'.join(lines)
                 text=clean(re.sub(r'(?<=\w)-\s*\n\s*(?=[a-z])','',raw.replace('\xad','')))
@@ -729,14 +735,30 @@ def build(destination=None, audit=None, book=None):
     for q in bank:
         if q.get('retired'):
             continue
-        fields=[('stem',q['q']), *(('option',v) for v in q.get('o',[])), ('explanation',q.get('explanation',''))]
+        accepted=set(q.get('accepted') or [q['c']])
+        fields=[('stem',q['q'])]+[('correct option', option) for position,option in enumerate(q['o']) if position in accepted]
+        # Use the clinical discussion on its own. A rejected option and its
+        # accompanying rationale do not make this a tested drug.
+        general='\n'.join(part['text'] for part in q.get('explanationParts',[]) if 'text' in part)
+        general=re.split(r'(?im)^\s*(?:reference|אסמכתא|key note)\s*[·:]',general)[0]
+        if general.strip():
+            fields.append(('explanation',general))
         context=norm(' '.join(bank_text(value) for _,value in fields))
+        def question_spellings(value):
+            written=norm(bank_text(value))
+            # The official papers use both "+" and "/" for the same named
+            # combination that the book hyphenates. Match both spellings.
+            return dict.fromkeys([written,re.sub(r'\s*[/+]\s*',' ',written)])
+        distractors=set()
+        for position,option in enumerate(q['o']):
+            if position not in accepted:
+                for spelling in question_spellings(option):
+                    distractors.update(names.matches(spelling,context=context))
         info=defaultdict(lambda:defaultdict(set))
-        for field,value in fields:
-            # Reference/page strings and markdown formatting have no bearing on a
-            # whole-name match. Never inspect c or accepted when indexing options.
-            value=norm(bank_text(value))
+        for field,value in ((field,spelling) for field,source in fields for spelling in question_spellings(source)):
             for identity,spans in names.matches(value,context=context).items():
+                if field=='explanation' and identity in distractors:
+                    continue
                 terms={value[start:end] for start,end in spans}
                 terms-=ocr_only.get(identity,set())
                 if not terms:
@@ -767,22 +789,33 @@ def build(destination=None, audit=None, book=None):
         match=re.fullmatch(r'hazzard8e_ch(\d+)_(table|figure)[^/]*?_p(\d+)\.(?:png|webp|jpg)',asset.name,re.I)
         if match:
             page_art[(match[1],int(match[3]))].append(asset.name)
+    sentence_cache={}
     def whole_passage(excerpt,chapter,page):
-        if len(excerpt.split())>=4 and excerpt[0].isupper() and re.search(r'[.!?][)”"]?$',excerpt):
-            return excerpt
-        # A clipped PDF block can sit inside a complete reader sentence. Require a
-        # unique verbatim continuation; never join neighbouring medication cells.
-        if len(excerpt.split())>=5:
-            candidates=set()
-            for n in (page,page-1,page+1):
-                for para in reader_pages[(chapter,n)]:
-                    at=para.find(excerpt)
-                    if at<0:continue
-                    full=sentence_excerpt(para,(at,at+len(excerpt)))
-                    if full and full[0].isupper() and re.search(r'[.!?][)”"]?$',full):
-                        candidates.add(full)
-            if len(candidates)==1:return candidates.pop()
-        return None
+        # Check the text within its source paragraph before accepting what
+        # appears to be a complete sentence: a clipped tail may also end in a period.
+        key=(chapter,page,excerpt)
+        if key in sentence_cache:
+            return sentence_cache[key]
+        near=[p for n in (page,page-1,page+1) for p in reader_pages[(chapter,n)]]
+        candidates=set()
+        for para in near:
+            start=para.find(excerpt)
+            if start<0: continue
+            full=sentence_excerpt(para,(start,start+len(excerpt)))
+            if full and full[0].isupper() and re.search(r'[.!?][)”"]?$',full):
+                candidates.add(full)
+        if len(candidates)==1:
+            full=candidates.pop()
+        elif len(excerpt.split())>=4 and excerpt[0].isupper() and re.search(r'[.!?][)”"]?$',excerpt):
+            full=excerpt
+        else:
+            full=None
+        # Native table extraction sometimes starts halfway through a drug
+        # name, a preceding cell, or a strength. Such fragments are locators.
+        if full and re.match(r'^(?:AMA, LABA|aler\);|loxacin;|HCI\b|Class Ic AAD .* and class III$)',full):
+            full=None
+        sentence_cache[key]=full
+        return full
     records=[]
     omissions=defaultdict(list)
     evidence_errors=[]
@@ -835,11 +868,49 @@ def build(destination=None, audit=None, book=None):
                 if complete:
                     if complete!=excerpt and 'target'in passage:passage['target'].setdefault('excerpt',excerpt)
                     passage['excerpt']=complete
-                elif not passage.get('image'):
+                else:
                     passage['sourceLocator']=True
                     plates=page_art.get((read['chapter'],read['page']),[])
+                    if passage.get('image'):
+                        plates=[Path(passage['image']).name]
                     if plates:passage['pageArt']=plates
+                    # A PDF cell can be split into many native blocks. Keep
+                    # one route to the verified page and its full-size plates.
+                    passage.pop('target',None)
+                    passage.pop('excerpt',None)
+                    passage.pop('image',None)
             passages.append(passage)
+        unique=[]
+        locators={}
+        for passage in passages:
+            if not passage.get('sourceLocator'):
+                unique.append(passage)
+                continue
+            canonical=(passage['chapter'],passage.get('readChapter',passage['chapter']),passage['page'])
+            prior=locators.get(canonical)
+            if prior is None:
+                locators[canonical]=passage
+                passage['section']='Printed page'
+                unique.append(passage)
+            elif passage.get('pageArt'):
+                prior['pageArt']=list(dict.fromkeys(prior.get('pageArt',[])+passage['pageArt']))
+        passages=unique
+        for chapter_page,table in catalog.get('tableMentions',{}).items():
+            if item['name'] not in table['entries']:continue
+            chapter,number=chapter_page.split(':');page=int(number)
+            if not (ROOT/'chapters'/table['table']).is_file():raise ValueError('Missing verified table: '+table['table'])
+            selected={}
+            for passage in passages:
+                if passage.get('readChapter',passage['chapter'])!=chapter or passage['page']!=page:continue
+                # Keep unrelated, complete narrative paragraphs on the same page.
+                if not passage.get('sourceLocator') and passage.get('sourceType')not in ('table','print-only'):continue
+                passage.pop('target',None)
+                passage['section']='Table '+table['table'].split('_table')[-1].split('_')[0]
+                passage['sourceType']='table';passage['excerpt']=table['entries'][item['name']]
+                passage['sourceLocator']=True;passage['pageArt']=[table['table']]
+                if passage['chapter'] not in selected:selected[passage['chapter']]=passage
+                else:passage['_duplicateTableRow']=True
+            passages=[p for p in passages if not p.pop('_duplicateTableRow',False)]
 
         sources=[]
         for source in item.get('sources',[]):
@@ -883,17 +954,50 @@ def build(destination=None, audit=None, book=None):
                 continue
             bank_sources.append({'id':q['id'],'evidenceField':source['evidenceField'],'quote':quote})
         if item.get('bankOnly') and not sources:
-            published=next((p for p in passages if p['kind']=='chapter'),None)
+            published=next((p for p in passages if p['kind']=='chapter' and p.get('excerpt')),None)
             if published:
                 sources.append({'chapter':published['chapter'],'page':published['page'],'anchor':published['anchor'],
                                 'quote':published['excerpt'],**({'image':published['image']} if published.get('image') else {})})
         old_id=re.sub(r'[^a-z0-9]+','-',norm(item['name'])).strip('-')
         records.append({'id':identity,**({'previousId':old_id} if old_id!=identity else {}),'name':item['name'],'kind':item.get('kind','drug'),'class':item['class'],
                         **({'classSource':item['classSource']} if 'classSource' in item else {}),
-                        'aliases':item.get('aliases',[]),'israeliBrands':item.get('israeliBrands',[]),'sources':sources,
+                        'aliases':item.get('aliases',[]),'israeliBrands':item.get('israeliBrands',[]),
+                        **({'israeliCombinations':item['israeliCombinations']} if item.get('israeliCombinations') else {}),'sources':sources,
                         'bankOnly':bool(item.get('bankOnly') and not passages),'bankSources':bank_sources,
                         'passages':sorted(passages,key=lambda v:(int(v['chapter'].rstrip('s')),v['kind']=='study',v['page'])),
                         'questions':sorted(qlinks[identity],key=lambda v:(v['kind']!='past',v.get('sitting',''),v.get('number') or 0,v['id']))})
+    # Clinical directory groups with no standalone book entry still have
+    # real members and tested questions. Their citations belong to the drugs.
+    classes={record['name']:record for record in records if record['kind']=='class'}
+    occupied={record['id'] for record in records}
+    groups=defaultdict(list)
+    for record in records:
+        if record['kind']=='drug':groups[record['class']].append(record)
+    for label,drugs in groups.items():
+        if label in classes: continue
+        entry_id='class-'+rid(label)
+        if entry_id in occupied:raise ValueError('Duplicate clinical class ID: '+entry_id)
+        occupied.add(entry_id)
+        questions={}
+        for drug in drugs:
+            for q in drug['questions']:
+                key=q['id']
+                if key not in questions:questions[key]={**q,'match':'member','terms':list(q['terms']),'memberTerms':list(q['terms'])}
+                else:questions[key]['memberTerms']=list(dict.fromkeys(questions[key]['memberTerms']+q['terms']))
+        ordered=sorted(questions.values(),key=lambda q:(q['kind']!='past',q.get('sitting',''),q.get('number') or 0,q['id']))
+        records.append({'id':entry_id,'name':label,'kind':'class','class':'Drug class','aliases':[],
+                        'israeliBrands':[],'sources':[],'bankOnly':False,'bankSources':[],'passages':[],'questions':ordered})
+    for old_name,new_name in [('Anticonvulsants','Antiepileptic drugs'),('Narcotics','Opioids'),('Hyperosmolar laxatives','Osmotic laxatives')]:
+        old=classes[old_name];current=classes[new_name]
+        current['previousId']=old['id']
+        current['aliases']=list(dict.fromkeys(current['aliases']+[old_name]+old['aliases']))
+        for field,key in [('questions','id'),('passages','passageId')]:
+            merged={v[key]:v for v in current[field]}
+            for v in old[field]:merged.setdefault(v[key],v)
+            current[field]=list(merged.values())
+        for source in old['sources']:
+            if source not in current['sources']:current['sources'].append(source)
+        records.remove(old)
     if audit is not None:
         Path(audit).write_text(json.dumps({'omittedStudy':omissions,'sourceErrors':evidence_errors,'checkedPdfEntryBlocks':print_report['checkedPdfEntryBlocks'],'coveredPdfEntryBlocks':print_report['coveredPdfEntryBlocks']},ensure_ascii=False),encoding='utf-8')
     if evidence_errors and (destination is None or audit is None):

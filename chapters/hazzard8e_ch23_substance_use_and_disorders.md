@@ -56,6 +56,10 @@ amount of cannabis use considered at-risk among adults is not clear in light of 
 
 *TABLE 23-1 ■ DIAGNOSTIC AND STATISTICAL MANUAL OF MENTAL DISORDERS 5TH EDITION (DSM-5) CRITERIA FOR SUBSTANCE USE DISORDERS (SUD) WITH CONSIDERATION FOR OLDER ADULTS*
 
+<sup>a</sup>SUD is defined as a medical disorder in which two or more of the aforementioned listed symptoms are occurring in the last 12 months. The severity of the SUD diagnosis is defined by the number of the criteria met: mild 2–3, moderate 4–5, and severe 6 or more.
+
+*Data from Barry KL, Blow FC, Oslin DW. Substance abuse in older adults: review and recommendations for education and practice in medical settings. Subst Abus. 2002;23(Suppl 3): 105–131 and American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed. Arlington (VA): American Psychiatric Publishing; 2013.*
+
 <a id="p319"></a>**[p. 319]**
 
 **Tobacco** Tobacco is the second most commonly used substance among older adults and is used primarily via smoking cigarettes. While over the last decade, cigarette smoking rates have gone down in the general adult population, they have remained stable in older adults. Data from NSDUH show the past-year use of tobacco has remained stable over the past 10 years among adults age 65 and older, with the past-year prevalence estimated to be 13% in 2019.
@@ -92,7 +96,7 @@ In general, as the population ages, hospitalizations, disabilities, and physical
 
 bias, a population of healthy older drinkers is compared to unhealthy older nondrinkers.
 
-Though data are sparse, those who continue to use substances other than alcohol in older age (eg, tobacco, opioids, cannabis, and methamphetamine) are more likely to have physical and psychiatric comorbidities. Specific conditions that older adults commonly use psychoactive substances to treat include chronic pain and insomnia. Alcohol, benzodiazepines, and cannabis are used as sleep aids. Alcohol, cannabis, and opioids are also used to treat chronic pain. Prior history of SUDs, cognitive impairment, an avoidance coping style, loneliness, and boredom are also risk factors for unhealthy substance use. Undertreated insomnia and anxiety symptoms are risk factors for prescription tranquil-izer or sedative misuse among older adults. For prescription opioid misuse, the motive for misuse is overwhelmingly for pain relief. Loneliness is a risk factor for cannabis, alcohol, and prescription drug misuse among older adults.
+Though data are sparse, those who continue to use substances other than alcohol in older age (eg, tobacco, opioids, cannabis, and methamphetamine) are more likely to have physical and psychiatric comorbidities. Specific conditions that older adults commonly use psychoactive substances to treat include chronic pain and insomnia. Alcohol, benzodiazepines, and cannabis are used as sleep aids. Alcohol, cannabis, and opioids are also used to treat chronic pain. Prior history of SUDs, cognitive impairment, an avoidance coping style, loneliness, and boredom are also risk factors for unhealthy substance use. Undertreated insomnia and anxiety symptoms are risk factors for prescription tranquilizer or sedative misuse among older adults. For prescription opioid misuse, the motive for misuse is overwhelmingly for pain relief. Loneliness is a risk factor for cannabis, alcohol, and prescription drug misuse among older adults.
 
 ### Unique Vulnerabilities to Harms of Substance Use
 
@@ -106,9 +110,11 @@ Aging affects drug and alcohol metabolism and distribution in the body. The live
 
 *TABLE 23-3 ■ UNIQUE VULNERABILITIES TO HARMS OF SUBSTANCE USE*
 
-Older adults are also vulnerable to the harms of substance use as even low levels of substances may exacerbate existing comorbidities (eg, alcohol worsens gout) and cause other conditions (eg, tobacco worsens chronic obstructive lung disease). Substances can worsen symptoms of insomnia (eg, alcohol, stimulants) and memory impairment (eg, benzodiazepines, cannabis). They can also interact with many medications, increase medi-cation side effects, or lessen their efficacy. For example, alcohol and niacin can cause flushing and itching, alcohol and nitrates increase risk of hypotension, and opioids and other sedating medications can cause excessive sedation. These interactions are magnified when multiple substances are used. For example, concurrent use of alcohol and benzodiazepines increases further the risk for injury and cognitive impairment.
+<sup>a</sup>Partial list.
 
-Other factors that increase risks for harm among older adults are the common practice of seeing multiple prescribers, each of whom may prescribe medications without full knowledge of other prescribed and over-the-counter medications, and nonmedication substances used by the older adult. Older adults may borrow medications from other household members, use medications for reasons other than intended, unintentionally take the wrong medi-cation, take more than intended, and stockpile medications. Older adults may not be aware that their use of the substance exceeds recommended limits or is risky when combined with other substances.
+Older adults are also vulnerable to the harms of substance use as even low levels of substances may exacerbate existing comorbidities (eg, alcohol worsens gout) and cause other conditions (eg, tobacco worsens chronic obstructive lung disease). Substances can worsen symptoms of insomnia (eg, alcohol, stimulants) and memory impairment (eg, benzodiazepines, cannabis). They can also interact with many medications, increase medication side effects, or lessen their efficacy. For example, alcohol and niacin can cause flushing and itching, alcohol and nitrates increase risk of hypotension, and opioids and other sedating medications can cause excessive sedation. These interactions are magnified when multiple substances are used. For example, concurrent use of alcohol and benzodiazepines increases further the risk for injury and cognitive impairment.
+
+Other factors that increase risks for harm among older adults are the common practice of seeing multiple prescribers, each of whom may prescribe medications without full knowledge of other prescribed and over-the-counter medications, and nonmedication substances used by the older adult. Older adults may borrow medications from other household members, use medications for reasons other than intended, unintentionally take the wrong medication, take more than intended, and stockpile medications. Older adults may not be aware that their use of the substance exceeds recommended limits or is risky when combined with other substances.
 
 ### Addressing Unhealthy Substance Use and Substance Use Disorders
 
@@ -120,7 +126,7 @@ Other factors that increase risks for harm among older adults are the common pra
 
 <a id="p322"></a>**[p. 322]**
 
-younger adults. The US Preventive Services Task Force (USPSTF) recommends screening all persons age 18 and older for unhealthy alcohol, tobacco, and drug use. The Substance Abuse and Mental Health Services Administra-tion (SAMSHA) recommends screening all older persons at least annually. Screening for substance use faces many barriers, including lack of time, competing health issues, and the challenges of integrating screening into regular clinical care. Patients, their families, and providers may be uncomfortable discussing and reporting stigmatized behavior such as substance use, especially among older adults. Further, signs and symptoms of unhealthy substance use may be mistaken for manifestations of other chronic diseases (eg, weight loss, depression, insomnia, cognitive impairment). A common perception among older adults is that symptoms of unhealthy substance use are due to aging or other diseases and not to the substance itself. Regardless of its difficulties, universal screening helps identify patients at risk or who are currently engaging in unhealthy substance use behaviors.
+younger adults. The US Preventive Services Task Force (USPSTF) recommends screening all persons age 18 and older for unhealthy alcohol, tobacco, and drug use. The Substance Abuse and Mental Health Services Administration (SAMSHA) recommends screening all older persons at least annually. Screening for substance use faces many barriers, including lack of time, competing health issues, and the challenges of integrating screening into regular clinical care. Patients, their families, and providers may be uncomfortable discussing and reporting stigmatized behavior such as substance use, especially among older adults. Further, signs and symptoms of unhealthy substance use may be mistaken for manifestations of other chronic diseases (eg, weight loss, depression, insomnia, cognitive impairment). A common perception among older adults is that symptoms of unhealthy substance use are due to aging or other diseases and not to the substance itself. Regardless of its difficulties, universal screening helps identify patients at risk or who are currently engaging in unhealthy substance use behaviors.
 
 **Approaches to screening** When assessing individuals of any age regarding substance use, it is vital to understand that stigma is a significant barrier for people with SUDs from seeking and receiving help. Therefore, as discussed earlier, it is imperative that the language used when discussing issues of substance use with patients is not stigmatizing. As part of overall health promotion, one can reduce stigma by asking questions about quantity and frequency of drinking, medications (prescription and over-the-counter), and other drugs, including various forms of cannabis and illegal drugs, in a nonconfrontational and supportive manner.
 
@@ -166,7 +172,7 @@ Interventions to reduce substance use may include psychosocial interventions or 
 
 ### Psychosocial Interventions
 
-**Brief interventions** Brief interventions, which range from 15 minutes of brief advice to up to four 1-hour long sessions of psychotherapy, are usually conducted in person. Common counseling techniques used in SBIRT programs are borrowed from motivational interviewing (MI) and cognitive-behavioral therapy (CBT). Brief interventions provide the older adult with information about potential harms and consequences of substance use, enhance motivation to change, identify goals, and, where needed, refer to more intensive services. Many older patients are unaware of lowrisk drinking limits or that substances may worsen existing chronic diseases, contribute to symptoms, or interact with medications. Brief interventions that focus on alcohol and prescription medi-cation misuse are effective for older adults.
+**Brief interventions** Brief interventions, which range from 15 minutes of brief advice to up to four 1-hour long sessions of psychotherapy, are usually conducted in person. Common counseling techniques used in SBIRT programs are borrowed from motivational interviewing (MI) and cognitive-behavioral therapy (CBT). Brief interventions provide the older adult with information about potential harms and consequences of substance use, enhance motivation to change, identify goals, and, where needed, refer to more intensive services. Many older patients are unaware of lowrisk drinking limits or that substances may worsen existing chronic diseases, contribute to symptoms, or interact with medications. Brief interventions that focus on alcohol and prescription medication misuse are effective for older adults.
 
 ### Brief Advice
 
@@ -190,7 +196,7 @@ Despite the significant and robust evidence base for the benefit of several phar
 
 There are three FDA-approved medications for treating moderate to severe AUD: naltrexone, acamprosate, and disulfiram (Table 23-4). None of them have been studied in long-term randomized controlled trials (RCTs) of older populations, which limits understanding of their actual benefits and challenges to older persons.
 
-Naltrexone is the only medi-cation for AUD that has been tested in short-term RCTs among older adults. It reduces craving and the pleasurable effects of alcohol, is usually well tolerated by older adults, and can be started while a patient is still using alcohol. It is considered firstline therapy for many patients and can be safely given with medications for HIV; however, it is contraindicated in patients with acute hepatitis, liver failure, or patients taking prescribed opioid medications since it is an opioid antagonist and will precipitate opioid withdrawal. Naltrexone is given orally in daily dosing or a monthly injection.
+Naltrexone is the only medication for AUD that has been tested in short-term RCTs among older adults. It reduces craving and the pleasurable effects of alcohol, is usually well tolerated by older adults, and can be started while a patient is still using alcohol. It is considered firstline therapy for many patients and can be safely given with medications for HIV; however, it is contraindicated in patients with acute hepatitis, liver failure, or patients taking prescribed opioid medications since it is an opioid antagonist and will precipitate opioid withdrawal. Naltrexone is given orally in daily dosing or a monthly injection.
 
 Acamprosate reduces symptoms of protracted withdrawal from alcohol, such as sleep and mood problems. Like naltrexone, it can also reduce craving and the pleasurable effects of alcohol. In clinical trials in younger adults, it is most effective for patients after initial abstinence from alcohol. Acamprosate does require three times a day oral dosing and requires dose reduction for renal insufficiency, but can be used for patients with liver disease or patients needing opioid medications.
 
@@ -239,17 +245,42 @@ Substance use and SUDs continue to increase among older adults and may present c
 <a id="p327"></a>**[p. 327]**
 
 ## FURTHER READING
+- Broyles LM, Binswanger IA, Jenkins JA, et al. Confronting inadvertent stigma and pejorative language in addiction scholarship: a recognition and response. Subst Abus. 2014;35(3):217–221.
 
+- Grant BF, Chou SP, Saha TD, et al. Prevalence of 12-month alcohol use, high-risk drinking, and DSM-IV alcohol use disorder in the United States, 2001-2002 to 2012-2013: Results from the National Epidemiologic Survey on Alcohol and Related Conditions. JAMA Psychiatry. 2017;74(9):911–923.
 
+- Han BH, Moore AA, Ferris R, Palamar JJ. Binge drinking among older adults in the United States, 2015 to 2017. J Am Geriatr Soc. 2019;67(10):2139–2144.
 
-Broyles LM, Binswanger IA, Jenkins JA, et al. Confronting
+- Han BH, Moore AA, Sherman S, Keyes KM, Palamar JJ. Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005 to 2014. Drug Alcohol Depend. 2017;170:198–207.
 
-inadvertent stigma and pejorative language in addiction scholarship: a recognition and response. Subst Abus. 2014;35(3):217–221. Grant BF, Chou SP, Saha TD, et al. Prevalence of 12-month
+- Han BH, Palamar JJ. Trends in cannabis use among older adults in the United States, 2015 to 2018. JAMA Intern Med. 2020;180(4):609–611.
 
-alcohol use, high-risk drinking, and DSM-IV alcohol use disorder
+- Jonas DE, Amick HR, Feltner C, et al. Pharmacotherapy for adults with alcohol use disorders in outpatient settings: a systematic review and meta-analysis. JAMA. 2014;311(18):1889–1900.
 
-- in the United States, 2001-2002 to 20122013: Results from the National Epidemiologic Survey on Alcohol and Related Conditions. JAMA Psychiatry. 2017;74(9):911–923. Han BH, Moore AA, Ferris R, Palamar JJ. Binge drinking among older adults in the United States, 2015 to 2017. J Am Geriatr Soc. 2019;67(10):2139–2144. Han BH, Moore AA, Sherman S, Keyes KM, Palamar JJ. Demographic trends of binge alcohol use and alcohol use disorders among older adults in the United States, 2005 to 2014. Drug Alcohol Depend. 2017;170:198–207. Han BH, Palamar JJ. Trends in cannabis use among older adults in the United States, 2015 to 2018. JAMA Intern Med. 2020;180(4):609–611. Jonas DE, Amick HR, Feltner C, et al. Pharmacotherapy for adults with alcohol use disorders in outpatient settings: a systematic review and meta-analysis. JAMA. 2014;311(18):1889–1900. Kuerbis A. Substance use among older adults: an update on prevalence, etiology, assessment, and intervention. Gerontology. 2020;66(3):249–258. Kuerbis A, Sacco P, Blazer DG, Moore AA. Substance abuse among older adults. Clin Geriatr Med. 2014;30(3):629–654. Lehrmann SW, Fingerhood M. Substance-use disorders in later life. N Engl J Med. 2018;379(24):2351–2360. McNeely J, Saitz R. Appropriate screening for substance use vs disorder. JAMA Intern Med. 2015;175(12):1997–1998. McNeely J, Wu LT, Subramaniam G, et al. Performance of the tobacco, alcohol, prescription medi-cation, and other substance use (TAPS) tool for substance use screening in primary care patients. Ann Intern Med. 2016;165(10):690–699. Qato DM, Manzoor BS, Lee TA. Drug-alcohol interactions in older US adults. J Am Geriatr Soc. 2015 63:2324–2331. Saitz R, Brady KT, Levin FR, Galanter M, Kleber HD. The American Psychiatric Press Textbook of Substance Use Disorders. Screening and Brief Intervention. American Psychiatric Press, 2020. Saitz R, Miller SC, Fiellin DA, Rosenthal RN. Recommended use of terminology in addiction medicine. J Addict Med. 2021;15(1):3–7. Schepis TS, McCabe SE, Teter CJ. Sources of opioid medication for misuse in older adults: results from a nationally representative survey. Pain. 2018;159(8):1543–1549. Schepis TS, Wastila L, Ammerman B, McCabe VV, McCabe SE. Prescription opioid misuse motives in US older adults. Pain Med. 2020;21(10):2237–2243. Schepis TS, Wastila L, McCabe SE. Prescription tranquilizer/sedative misuse motives across the US population. J Addict Med. 2021;15(3):191–200. Sordo L, Barrio G, Bravo MJ, et al. Mortality risk during and after opioid substitution treatment: systematic review and meta-analysis of cohort studies. BMJ. 2017; 357:j1550. Substance Abuse
+- Kuerbis A. Substance use among older adults: an update on prevalence, etiology, assessment, and intervention. Gerontology. 2020;66(3):249–258.
 
-- and Mental Health Services Administration. Key
+- Kuerbis A, Sacco P, Blazer DG, Moore AA. Substance abuse among older adults. Clin Geriatr Med. 2014;30(3):629–654.
 
-- substance use and mental health indicators in the United States: Results from the 2019 National Survey on Drug Use and Health (HHS Publication No. PEP2007-01-001, NSDUH Series H-55). Rockville, MD: Center for Behavioral Health Statistics and Quality, Substance Abuse and Mental Health Services 185 Administra-tion. https://www.samhsa.gov/data. Accessed November 15, 2020. Substance Abuse and Mental Health Services Administration. Treating Substance Use Disorder in Older Adults. Treatment Improvement Protocol (TIP) Series No. 26, SAMHSA Publication No. PEP20-02-01-011. Rockville, MD: Substance Abuse and Mental Health Services Administra-tion, 2020. <a id="p328"></a>**[p. 328]**
+- Lehrmann SW, Fingerhood M. Substance-use disorders in later life. N Engl J Med. 2018;379(24):2351–2360.
+
+- McNeely J, Saitz R. Appropriate screening for substance use vs disorder. JAMA Intern Med. 2015;175(12):1997–1998.
+
+- McNeely J, Wu LT, Subramaniam G, et al. Performance of the tobacco, alcohol, prescription medication, and other substance use (TAPS) tool for substance use screening in primary care patients. Ann Intern Med. 2016;165(10):690–699.
+
+- Qato DM, Manzoor BS, Lee TA. Drug-alcohol interactions in older US adults. J Am Geriatr Soc. 2015 63:2324–2331.
+
+- Saitz R, Brady KT, Levin FR, Galanter M, Kleber HD. The American Psychiatric Press Textbook of Substance Use Disorders. Screening and Brief Intervention. American Psychiatric Press, 2020.
+
+- Saitz R, Miller SC, Fiellin DA, Rosenthal RN. Recommended use of terminology in addiction medicine. J Addict Med. 2021;15(1):3–7.
+
+- Schepis TS, McCabe SE, Teter CJ. Sources of opioid medication for misuse in older adults: results from a nationally representative survey. Pain. 2018;159(8):1543–1549.
+
+- Schepis TS, Wastila L, Ammerman B, McCabe VV, McCabe SE. Prescription opioid misuse motives in US older adults. Pain Med. 2020;21(10):2237–2243.
+
+- Schepis TS, Wastila L, McCabe SE. Prescription tranquilizer/sedative misuse motives across the US population. J Addict Med. 2021;15(3):191–200.
+
+- Sordo L, Barrio G, Bravo MJ, et al. Mortality risk during and after opioid substitution treatment: systematic review and meta-analysis of cohort studies. BMJ. 2017; 357:j1550.
+
+- Substance Abuse and Mental Health Services Administration. Key substance use and mental health indicators in the United States: Results from the 2019 National Survey on Drug Use and Health (HHS Publication No. PEP2007-01-001, NSDUH Series H-55). Rockville, MD: Center for Behavioral Health Statistics and Quality,
+
+- Substance Abuse and Mental Health Services 185 Administration. https://www.samhsa.gov/data. Accessed November 15, 2020. Substance Abuse and Mental Health Services Administration. Treating Substance Use Disorder in Older Adults. Treatment Improvement Protocol (TIP) Series No. 26, SAMHSA Publication No. PEP20-02-01-011. Rockville, MD: Substance Abuse and Mental Health Services Administration, 2020.

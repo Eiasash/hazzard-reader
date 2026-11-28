@@ -35,7 +35,7 @@ Sleep is a reversible behavioral state that is characterized by a decreased resp
 
 with comorbidities such as depression, pain, and nocturia. The changes in sleepiness with aging may reflect the accrual of comorbidities rather than being a product of the natural aging process.
 
-Many experts believe that the age-related changes in sleep are due to a decreased ability to sleep rather than a decreased need to sleep. There is growing evidence that short and disturbed sleep are associated with poor cognitive and health outcomes. When older poor sleepers and good sleepers are compared, poor sleepers have worse health-related quality of life, increased medication use, and greater health care utilization. Having longer time awake after sleep onset has been associated with greater cognitive decline among older adults. One of the most active areas of research over the past several years has been in the potential relationship between sleep and dementia, particularly Alzheimer disease (AD). Sleep appears to be important in the clearance of beta-amyloid (Ab) protein, the build-up of which is implicated in the pathogenesis of AD. Basic animal models have shown that Ab is cleared through the glymphatic system during sleep. Excessive daytime sleepiness and napping have been associated with Ab in the cerebral spinal fluid as well as being associated with the development of Ab positivity on longitudinal assessments. There is also evidence that experimentally induced acute sleep deprivation can induce Ab accumulation in healthy adults. It is hypothesized that sleep disruption with aging may lead to a decline in cognitive functioning because of the accumulation and deposition of these pathologic proteins. However, since these abnormal proteins may impact brain systems involved in sleep-wake homeostasis, excessive sleepiness and poor sleep may be an early symptom of a neurodegenerative condition. It would be reasonable to posit that there may be a bidirectional relationship between sleep symptoms and neurodegenerative diseases.
+Many experts believe that the age-related changes in sleep are due to a decreased ability to sleep rather than a decreased need to sleep. There is growing evidence that short and disturbed sleep are associated with poor cognitive and health outcomes. When older poor sleepers and good sleepers are compared, poor sleepers have worse health-related quality of life, increased medication use, and greater health care utilization. Having longer time awake after sleep onset has been associated with greater cognitive decline among older adults. One of the most active areas of research over the past several years has been in the potential relationship between sleep and dementia, particularly Alzheimer disease (AD). Sleep appears to be important in the clearance of beta-amyloid (Aβ) protein, the build-up of which is implicated in the pathogenesis of AD. Basic animal models have shown that Aβ is cleared through the glymphatic system during sleep. Excessive daytime sleepiness and napping have been associated with Aβ in the cerebral spinal fluid as well as being associated with the development of Aβ positivity on longitudinal assessments. There is also evidence that experimentally induced acute sleep deprivation can induce Aβ accumulation in healthy adults. It is hypothesized that sleep disruption with aging may lead to a decline in cognitive functioning because of the accumulation and deposition of these pathologic proteins. However, since these abnormal proteins may impact brain systems involved in sleep-wake homeostasis, excessive sleepiness and poor sleep may be an early symptom of a neurodegenerative condition. It would be reasonable to posit that there may be a bidirectional relationship between sleep symptoms and neurodegenerative diseases.
 
 ![Figure 44-1](hazzard8e_ch44_figure44-1.png)
 
@@ -47,34 +47,29 @@ Many of the illnesses associated with aging can disrupt sleep, which may inhibit
 
 ### Definition
 
-Sleep-disordered breathing (SDB) is characterized by disturbed respiration during sleep arising from repetitive events of complete (ie, apnea) or partial (ie, hypopnea) cessation of airflow lasting at least 10 seconds. This is classified as obstructive sleep apnea (OSA) when the events are due to an obstructed airway, which is determined by the persistence of respiratory effort. On the other hand, if there is concomitant cessation of breathing effort, the disorder is classified as central sleep apnea (CSA) because there is a momentary defect in the central control of breathing
-
-<a id="p645"></a>**[p. 645]**
+Sleep-disordered breathing (SDB) is characterized by disturbed respiration during sleep arising from repetitive events of complete (ie, apnea) or partial (ie, hypopnea) cessation of airflow lasting at least 10 seconds. This is classified as obstructive sleep apnea (OSA) when the events are due to an obstructed airway, which is determined by the persistence of respiratory effort. On the other hand, if there is concomitant cessation of breathing effort, the disorder is classified as central sleep apnea (CSA) because there is a momentary defect in the central control of breathing <a id="p645"></a>**[p. 645]** ( **Figure 44-2** ).
 
 ![Figure 44-2](hazzard8e_ch44_figure44-2.png)
 
 > *FIGURE 44-2. Obstructive versus central sleep apnea. (Reproduced with permission from Krieger MH, Roth T, Dement WC. _Principles and Practices of Sleep Medicine_ . 5th ed. St. Louis, MO: Elsevier Saunders; 2011.)*
 
-( **Figure 44-2** ). OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater than 15, or when it is greater than 5 with significant symptoms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
+OSA is by far the most common sleep-related breathing disorder; however, there is often overlap between the two clinical syndromes. CSA can be associated with several different clinical conditions. Heart failure is the most commonly recognized cause of CSA and is often characterized by Cheyne-Stokes respiration, which is periodic cycling between hypoventilation and hyperventilation ( **Figure 44-3** ). Other common causes of CSA include stroke, opioid use, and hypoventilation syndromes. The severity of SDB is generally determined by the apnea hypopnea index (AHI), which is the number of apneas and hypopneas per hour of sleep. SDB can be diagnosed when the AHI is greater than 15, or when it is greater than 5 with significant symptoms or related comorbidities. An AHI greater than 30 is generally considered to indicate severe SDB.
 
 The consequences of respiratory events during sleep include arousals from sleep, intrathoracic pressure swings, and cyclical drops in the blood oxygen level. This ultimately leads to sleep fragmentation and nocturnal hypoxemia, which may lead to significant health consequences.
 
 ### Epidemiology
 
-Many of the risk factors for OSA increase with age ( **Table 44-1** ). Estimates of the prevalence of OSA have
+Many of the risk factors for OSA increase with age ( **Table 44-1** ). Estimates of the prevalence of OSA have <a id="p646"></a>**[p. 646]** varied widely and are dependent on the populations studied.
 
 ![Figure 44-3](hazzard8e_ch44_figure44-3.png)
 
 > *FIGURE 44-3. This figure represents central sleep apnea with a Cheyne-Stokes breathing pattern. During the periods of apnea there is no chest or abdominal effort. (Reproduced with permission from Javaheri S, Randernath WJ. Opioid-induced central sleep apnea: mechanisms and therapies. _Sleep Med Clin_ . 2014;9[1]:49–56.)*
 
-<a id="p646"></a>**[p. 646]**
 ![Table 44-1](hazzard8e_ch44_table44-1_p646.png)
 
 > *Table 44-1 reproduced as a page image (printed p. 646) — the grid did not extract reliably as text for this fast build.*
 
-varied widely and are dependent on the populations studied. A cohort between 2007 and 2010 of middle-aged adults has estimated moderate to severe SDB to occur in 6% of women and 13% men. Evidence suggests that OSA is underdiagnosed in the general population, particularly in women. If the rate of obesity and overweight continues to increase, the rates of SDB will also increase. Less is known about the epidemiology of SDB in an older population; however, most studies have shown that the risk of OSA increases with increasing age until the age of 70 at which time there is a plateau (Figure 44-4). Furthermore, premenopausal status appears to protect against OSA meaning that the gender discrepancy between men and
-
- women narrows in the older population. OSA may be more severe in African-American and Asian populations compared to the Caucasian population.
+A cohort between 2007 and 2010 of middle-aged adults has estimated moderate to severe SDB to occur in 6% of women and 13% men. Evidence suggests that OSA is underdiagnosed in the general population, particularly in women. If the rate of obesity and overweight continues to increase, the rates of SDB will also increase. Less is known about the epidemiology of SDB in an older population; however, most studies have shown that the risk of OSA increases with increasing age until the age of 70 at which time there is a plateau (Figure 44-4). Furthermore, premenopausal status appears to protect against OSA meaning that the gender discrepancy between men and women narrows in the older population. OSA may be more severe in African-American and Asian populations compared to the Caucasian population.
 
 The risk of CSA increases substantially with aging. CSA is two to three times more prevalent in those aged 65 to 90 than in those aged 39 to 64. Most likely this is due to the accrual of conditions that predispose to CSA such as congestive heart failure, atrial fibrillation, chronic kidney disease, and chronic pain conditions requiring opiates. It is estimated that upwards of 50% of patients with stable heart failure have some form of SDB. Many of these patients have a combination of CSA and OSA.
 
@@ -82,41 +77,37 @@ The risk of CSA increases substantially with aging. CSA is two to three times mo
 
 There are three types of SDB events: central, obstructive, and mixed. Central events result from a failure of the respiratory control center to send a signal to breathe. This often occurs because of an abnormal sensitivity of the respiratory controller, which can lead to oscillations between hyperventilation and hypoventilation. Obstructive events occur from anatomic obstruction of the upper airway despite respiratory effort. The major factor that governs the presence of obstructive events is an anatomically narrow airway; however, other mechanisms such as failure of adequate upper airway neuromuscular activation are thought to play a role. Features that govern the size of the upper airway include excess adiposity, craniofacial structure, excessive tonsillar and peritonsillar soft tissue, and lower lung volumes. Mixed events comprise central and obstructive components.
 
-The most significant immediate consequence of OSA is excessive daytime sleepiness and the risk of motor vehicle accidents. Significant epidemiologic associations of OSA
+The most significant immediate consequence of OSA is excessive daytime sleepiness and the risk of motor vehicle accidents. Significant epidemiologic associations of OSA with adverse cardiovascular and metabolic consequences have been reported.
 
 ![Figure 44-4](hazzard8e_ch44_figure44-4.png)
 
 > *FIGURE 44-4. Association of obstructive sleep apnea (OSA) with age. Mild obstructive sleep apnea is shown in red while moderate to severe obstructive sleep apnea is shown in green. AHI, apnea hypopnea index. (Reproduced with permission from Norman D, Loredo JS. Obstructive sleep apnea in older adults. _Clin Geriatr Med_ . 2008;24[1]:151–165.)*
 
-with adverse cardiovascular and metabolic consequences have been reported. The association between SDB and these comorbidities is likely multifactorial. SDB results in sleep fragmentation, which has been shown to increase sympathetic nervous system activation, increase nocturnal cortisol levels, and interfere with insulin sensitivity. The potential downstream effects of these neurohumoral changes include the development of hypertension and diabetes. Increased intrathoracic pressure can occur and increase atrial natriuretic peptide levels potentially contributing to nocturia. Furthermore, the cyclic deoxygenation and reoxygenation that occurs with OSA leads to endothelial cell injury and inflammatory changes, which predispose to coronary and cerebral vascular disease ( **Figure 44-5** ). The intrathoracic pressure changes associated with increasing respiratory effort against a closed airway can lead to esophageal reflux as well as potentially deleterious hemodynamic effects in heart failure.
+The association between SDB and these comorbidities is likely multifactorial. SDB results in sleep fragmentation, which has been shown to increase sympathetic nervous system activation, increase nocturnal cortisol levels, and interfere with insulin sensitivity. The potential downstream effects of these neurohumoral changes include the development of hypertension and diabetes. Increased intrathoracic pressure can occur and increase atrial natriuretic peptide levels potentially contributing to nocturia. Furthermore, the cyclic deoxygenation and reoxygenation that occurs with OSA leads to endothelial cell injury and inflammatory changes, which predispose to coronary and cerebral vascular disease ( **Figure 44-5** ). The intrathoracic pressure changes associated with increasing respiratory effort against a closed airway can lead to esophageal reflux as well as potentially deleterious hemodynamic effects in heart failure.
 
 ### Clinical Presentation
 
-<span id="ch44-nocturia-apnea" data-reader-metadata="exam"></span>The major symptoms of SDB include excessive daytime sleepiness and nocturnal snoring. The patient may present to the clinic complaining of sleepiness or at the request of a loved one with the complaint of snoring. The paradigmatic patient with SDB is an obese male with nocturnal snoring, witnessed apneas, frequent nocturnal awakenings, and excessive daytime sleepiness. However, these associations are less predictive in an older population. Other important symptoms of SDB include nocturia, insomnia, morning headaches, nocturnal confusion, and daytime impairments in mood and cognition. Sleepiness can be assessed with a standardized measure such as the Epworth Sleepiness Scale. It is often helpful to obtain corroborating information from a bed partner regarding snoring, witnessed apneas as well
+<span id="ch44-nocturia-apnea" data-reader-metadata="exam"></span>The major symptoms of SDB include excessive daytime sleepiness and nocturnal snoring. The patient may present to the clinic complaining of sleepiness or at the request of a loved one with the complaint of snoring. The paradigmatic patient with SDB is an obese male with nocturnal snoring, witnessed apneas, frequent nocturnal awakenings, and excessive daytime sleepiness. However, these associations are less predictive in an older population. Other important symptoms of SDB include nocturia, insomnia, morning headaches, nocturnal confusion, and daytime impairments in mood and cognition. Sleepiness can be assessed with a standardized measure such as the Epworth Sleepiness Scale. It is often helpful to obtain corroborating information from a bed partner regarding snoring, witnessed apneas as well <a id="p647"></a>**[p. 647]** as additional features that may point to a comorbid sleep disorder.
 
-<a id="p647"></a>**[p. 647]**
 ![Figure 44-5](hazzard8e_ch44_figure44-5.png)
 
 > *FIGURE 44-5. Model explaining why obstructive sleep apnea (OSA) might be associated with increased cardiovascular risk. NOx, nitrogen oxides; NO, nitrous oxide. (Reproduced with permission from Jullian-Desayes I, Joyeux-Faure M, et al. Impact of obstructive sleep apnea treatment by continuous positive airway pressure on cardiometabolic biomarkers: a systematic review from sham CPAP randomized controlled trials. _Sleep Med Rev._ 2015;21:23–38.)*
 
-as additional features that may point to a comorbid sleep disorder. Snoring is indicative of a partially collapsed airway and is a useful predictor of the presence of OSA or future development of the condition. The lack of classic symptoms and findings of OSA should not preclude further evaluation for SDB, particularly in older patients.
+Snoring is indicative of a partially collapsed airway and is a useful predictor of the presence of OSA or future development of the condition. The lack of classic symptoms and findings of OSA should not preclude further evaluation for SDB, particularly in older patients.
 
 Physical features that predict increased risk of OSA include an elevated body mass index (BMI), a large neck circumference, and a crowded upper airway. In older adults, an elevated BMI has less predictive value of the likelihood of OSA. In clinic the airway can be assessed using a modified Mallampati score known as the Friedman classification, with positions III and IV conferring a high risk for OSA ( **Figure 44-6** ). In general, the less posterior oropharynx that can be visualized indicates a greater risk of SDB. Neck circumference greater than 17 inches in men and 16 inches in women is another predictor for SDB on physical examination. However, the predictive value of neck circumference is not as strong in older patients.
 
-The presence of disturbed sleep in a patient with congestive heart failure may be indicative of SDB. As mentioned previously, a high percentage of patients with heart failure have OSA, CSA with Cheyne-Stokes respiration, or a combination of the two conditions. It can be difficult to
-
-tease apart symptoms of heart failure such as orthopnea and paroxysmal nocturnal dyspnea (PND) from those of SDB. Opioid medication use is a risk factor for another form of CSA, which should be considered whenever patients on opioids present with sleep complaints.
+The presence of disturbed sleep in a patient with congestive heart failure may be indicative of SDB. As mentioned previously, a high percentage of patients with heart failure have OSA, CSA with Cheyne-Stokes respiration, or a combination of the two conditions. It can be difficult to tease apart symptoms of heart failure such as orthopnea and paroxysmal nocturnal dyspnea (PND) from those of SDB. Opioid medication use is a risk factor for another form of CSA, which should be considered whenever patients on opioids present with sleep complaints.
 
 ### Evaluation
 
-Patients suspected of having SDB should be referred for sleep testing. An attended in-laboratory polysomnography (PSG) is considered the gold standard test for SDB. This involves traveling to a sleep laboratory to spend the night. The test involves the use of EEG, electromyogram (EMG), and electrooculogram (EOG) leads to determine presence and stage of sleep. There is measurement of airflow with a nasal pressure transducer as well as an oronasal thermistor. Respiratory effort is measured using chest and abdominal belts; and occasionally with an esophageal pressure monitor or accessory muscle EMG. An alternative approach to the diagnosis of SDB is the home sleep apnea test (HSAT). The patient takes the sleep testing equipment home and puts it on before bed. These tests are not generally able to measure sleep directly. Most of these tests measure airflow, effort, and pulse oximetry. Alternative testing includes the inference of respiratory events from peripheral
+Patients suspected of having SDB should be referred for sleep testing. An attended in-laboratory polysomnography (PSG) is considered the gold standard test for SDB. This involves traveling to a sleep laboratory to spend the night. The test involves the use of EEG, electromyogram (EMG), and electrooculogram (EOG) leads to determine presence and stage of sleep. There is measurement of airflow with a nasal pressure transducer as well as an oronasal thermistor. Respiratory effort is measured using chest and abdominal belts; and occasionally with an esophageal pressure monitor or accessory muscle EMG. An alternative approach to the diagnosis of SDB is the home sleep apnea test (HSAT). The patient takes the sleep testing equipment home and puts it on before bed. These tests are not generally able to measure sleep directly. Most of these tests measure airflow, effort, and pulse oximetry. Alternative testing includes the inference of respiratory events from peripheral <a id="p648"></a>**[p. 648]** arterial tone changes due to changes in sympathetic activity resulting from the respiratory events that can be correlated with pulse oximetry.
 
-<a id="p648"></a>**[p. 648]**
 ![Figure 44-6](hazzard8e_ch44_figure44-6.png)
 
 > *FIGURE 44-6. Friedman palate position. Positions 3 and 4 are associated with increased risk of obstructive sleep apnea (OSA). (Reproduced with permission from Friedman M, Ibrahim H, Bass L. Clinical staging for sleep-disordered breathing. _Otolaryngol Head Neck Surg_ . 2002;127[1]:13–21.)*
 
-arterial tone changes due to changes in sympathetic activity resulting from the respiratory events that can be correlated with pulse oximetry. Such devices may be easier for some patients to self-administer, particularly those with cognitive or dexterity issues. However, these devices are not validated for the measurement of central apneas and should not be used in those taking alpha-adrenergic blocking medications or in those with atrial fibrillation. HSAT is only recommended for patients with a high pretest probability of having OSA who do not have significant cardiopulmonary comorbidities.
+Such devices may be easier for some patients to self-administer, particularly those with cognitive or dexterity issues. However, these devices are not validated for the measurement of central apneas and should not be used in those taking alpha-adrenergic blocking medications or in those with atrial fibrillation. HSAT is only recommended for patients with a high pretest probability of having OSA who do not have significant cardiopulmonary comorbidities.
 
 The advantages of an attended full-channel PSG include a higher reliability of the data, the ability to carefully define AHI by measuring sleep directly, and the simultaneous assessment for alternative sleep diagnoses to SDB.
 
@@ -156,9 +147,7 @@ It is becoming increasingly recognized that while positive airway pressure thera
 
 ### Pharmacologic Therapy
 
-There are limited pharmacologic agents available for SDB and none that are approved for this indication. However, occasionally patients who are successfully treated for SDB with CPAP will have residual excessive daytime sleepiness. Modafinil and armodafinil, central nervous system
-
-stimulants, have Food and Drug Administration (FDA) approval for the treatment of residual excessive daytime sleepiness in treated OSA. Acetazolamide has an unclear role in some CSA syndromes. Ventilatory stimulants such as progesterone have been tried unsuccessfully in obesity hypoventilation syndrome.
+There are limited pharmacologic agents available for SDB and none that are approved for this indication. However, occasionally patients who are successfully treated for SDB with CPAP will have residual excessive daytime sleepiness. Modafinil and armodafinil, central nervous system stimulants, have Food and Drug Administration (FDA) approval for the treatment of residual excessive daytime sleepiness in treated OSA. Acetazolamide has an unclear role in some CSA syndromes. Ventilatory stimulants such as progesterone have been tried unsuccessfully in obesity hypoventilation syndrome.
 
 ### Prevention
 
@@ -173,6 +162,7 @@ Patient preference is clearly a key factor in determining the therapy of choice.
 SDB is associated with significant mental and physical comorbidities. Given the association between obesity and SDB, many of the comorbidities of obesity and SDB overlap. However, there are several lines of evidence suggesting an independent relationship between SDB and the development of hypertension, atrial arrhythmias, heart failure, coronary artery disease, cerebrovascular accidents, and diabetes mellitus. Most of these relationships have been elucidated from observational population studies and basic science investigations. Direct evidence that treatment of SDB can reverse some of these comorbidities is more limited. However, treatment of OSA does result in modest improvement in blood pressure among hypertensive patients. In addition, treatment of OSA after cardioversion for atrial arrhythmias such as atrial fibrillation has been found to increase the likelihood of staying in sinus rhythm. Large randomized controlled trials have failed to show that CPAP therapy leads to a reduction in cardiovascular events. The major limitation to these studies has poor adherence to CPAP. Due to ethical concerns those with excessive daytime sleepiness were excluded. Thus, it is unclear whether an individual who is adherent to CPAP therapy might gain cardiovascular benefit from therapy.
 
 <a id="p651"></a>**[p. 651]**
+
 ![Figure 44-7](hazzard8e_ch44_figure44-7.png)
 
 > *FIGURE 44-7. Periodic leg movements in sleep (PLMS) seen on polysomnography (PSG). (Reproduced with permission from Avidan AY. Sleep disorders in the older patient. _Prim Care_ . 2005;32[2]:563–586.)*
@@ -209,9 +199,7 @@ PLMD may present with a patient or bed partner complaint of kicking at night. Th
 
 ### Evaluation
 
-The diagnosis of RLS can be based on clinical criteria alone. A PSG is sometimes helpful to rule out other sleep
-
-disorders, particularly SDB which may be a comorbid cause of sleep disturbance. Presence of PLMS on PSG is suggestive of RLS but neither rules in nor rules out RLS.
+The diagnosis of RLS can be based on clinical criteria alone. A PSG is sometimes helpful to rule out other sleep disorders, particularly SDB which may be a comorbid cause of sleep disturbance. Presence of PLMS on PSG is suggestive of RLS but neither rules in nor rules out RLS.
 
 A sleep study with limb electrode measurement is required for the diagnosis of PLMD because this is the only way for PLMS to be accurately measured. Furthermore, since PLMD is a diagnosis of exclusion other sleep disorders must be ruled out at the same time. A diagnosis of PLMD requires at least 15 movements per hour of sleep. Some clinicians also count the PLMS that occur with arousal in making the diagnosis.
 
@@ -225,9 +213,8 @@ Patients should receive iron supplementation if the serum ferritin is less than 
 
 There are two accepted classes of medications that can be used for first-line treatment of RLS. The long-established treatment of choice has been dopamine agonists. Recently more of a role has been established for α2δ calcium channel ligands, which include gabapentin, gabapentin enacarbil, and pregabalin. Recent guidelines on RLS therapy have suggested limiting the dosage of dopamine agonists and considering the use of α2δ calcium channel ligands as first-line agents ( **Table 44-2)** .
 
-The primary long-acting dopamine agonists that are used for persistent RLS include ropinirole, pramipexole, and rotigotine transdermal. These agents should be taken approximately 2 hours before bedtime. Carbidopa-levodopa can be used in patients for as-needed dosing when symptoms are infrequent. The major drawback to the use of dopaminergic agents is a phenomenon called augmentation. Augmentation is a worsening of RLS manifested by: the onset of RLS symptoms earlier in the day, and/or increased intensity of RLS symptoms, and/or spread of symptoms to the upper extremities and trunk when these areas were previously unaffected. Augmentation is much more frequent with carbidopa-levodopa, which is why this agent is reserved for use when symptoms are infrequent. Estimates of augmentation on the long-acting dopamine agonists have ranged between 2% and 15% per year. The risk of augmentation is higher with higher doses and longer duration of therapy. Thus, it is recommended that maximal
+The primary long-acting dopamine agonists that are used for persistent RLS include ropinirole, pramipexole, and rotigotine transdermal. These agents should be taken approximately 2 hours before bedtime. Carbidopa-levodopa can be used in patients for as-needed dosing when symptoms are infrequent. The major drawback to the use of dopaminergic agents is a phenomenon called augmentation. Augmentation is a worsening of RLS manifested by: the onset of RLS symptoms earlier in the day, and/or increased intensity of RLS symptoms, and/or spread of symptoms to the upper extremities and trunk when these areas were previously unaffected. Augmentation is much more frequent with carbidopa-levodopa, which is why this agent is reserved for use when symptoms are infrequent. Estimates of augmentation on the long-acting dopamine agonists have ranged between 2% and 15% per year. The risk of augmentation is higher with higher doses and longer duration of therapy. Thus, it is recommended that maximal <a id="p653"></a>**[p. 653]** doses recommended for RLS are not exceeded.
 
-<a id="p653"></a>**[p. 653]**
 **TABLE 44-2 ■ PHARMACOLOGIC TREATMENT OF PLMS/RLS**
 
 |**CLASS**|**GENERIC**|**BRAND**|**DOSE**|
@@ -248,15 +235,13 @@ The primary long-acting dopamine agonists that are used for persistent RLS inclu
 
 <sup>a</sup>Off-label.
 
-doses recommended for RLS are not exceeded. Augmentation can sometimes be managed by giving an additional dose of dopamine agonist earlier in the day, switching to a different dopamine agonist, or preferably switching to a different class of medication. Other important side effects of dopamine agonists include daytime sleepiness, headaches, and nausea. Behavioral disinhibition is a potentially dangerous side effect that can threaten a patient’s livelihood. There is no evidence that tolerability of these agents changes with ageing.
+Augmentation can sometimes be managed by giving an additional dose of dopamine agonist earlier in the day, switching to a different dopamine agonist, or preferably switching to a different class of medication. Other important side effects of dopamine agonists include daytime sleepiness, headaches, and nausea. Behavioral disinhibition is a potentially dangerous side effect that can threaten a patient’s livelihood. There is no evidence that tolerability of these agents changes with ageing.
 
 The other agents that have good evidence for RLS therapy are the α2δ calcium channel ligands. Only gabapentin enacarbil is FDA approved for RLS treatment. These agents may be particularly useful when the patient also has peripheral neuropathy. A recent randomized controlled trial showed that pregabalin was as efficacious as pramipexole, with a lower rate of augmentation. Major adverse effects from these medications can include drowsiness, dizziness, and suicidal ideation. There may be significant variability in the pharmacokinetics in these drugs with aging, particularly if there is a reduction in renal function. Careful monitoring is required.
 
 Other medications that can be used for the treatment of RLS include benzodiazepines and opiates. Benzodiazepines have a long history of use for intermittent RLS; however, the evidence base for this practice is limited. Low-dose opiates including methadone can be used for treatment of refractory RLS. Clearly, benzodiazepines and opiates may have adverse cognitive effects in older patients and should be used with caution. The American Geriatric Society recommends avoiding opiates when combined with other central nervous system depressants.
 
-**Nonpharmacologic therapy** Behavioral strategies that can be used for RLS include moderate exercise, pneumatic compression, massage, and yoga. There are novel devices available for the treatment of RLS; however, the data available
-
-are extremely limited. Avoidance of possible triggers for RLS should also be recommended. These include sleep deprivation, caffeine, and alcohol use. Also, most antidepressants are known to elicit or provoke RLS symptoms. However, bupropion is less frequently associated with RLS, and therefore, a switch from a selective serotonin reuptake inhibitor (SSRI) or serotonin-norepinephrine reuptake inhibitor (SNRI) to bupropion when RLS symptoms are present could be considered.
+**Nonpharmacologic therapy** Behavioral strategies that can be used for RLS include moderate exercise, pneumatic compression, massage, and yoga. There are novel devices available for the treatment of RLS; however, the data available are extremely limited. Avoidance of possible triggers for RLS should also be recommended. These include sleep deprivation, caffeine, and alcohol use. Also, most antidepressants are known to elicit or provoke RLS symptoms. However, bupropion is less frequently associated with RLS, and therefore, a switch from a selective serotonin reuptake inhibitor (SSRI) or serotonin-norepinephrine reuptake inhibitor (SNRI) to bupropion when RLS symptoms are present could be considered.
 
 ### Prevention
 
@@ -296,15 +281,13 @@ RBD will often present with sleep-related injury that results from the enactment
 
 ### Evaluation
 
-The evaluation of RBD includes a neurologic and sleep history. The history should focus on common associated conditions such as Parkinson disease and associated dementia. Other early signs of an α-synucleinopathy include loss of smell and constipation. The presence of vivid dream enactment makes RBD more likely than an NREM sleep parasomnia. A predilection for events to occur later in the sleep period also makes RBD more likely. A detailed neurologic
+The evaluation of RBD includes a neurologic and sleep history. The history should focus on common associated conditions such as Parkinson disease and associated dementia. Other early signs of an α-synucleinopathy include loss of smell and constipation. The presence of vivid dream enactment makes RBD more likely than an NREM sleep parasomnia. A predilection for events to occur later in the sleep period also makes RBD more likely. A detailed neurologic <a id="p655"></a>**[p. 655]** examination can elucidate a comorbid neurodegenerative disorder.
 
 ![Figure 44-8](hazzard8e_ch44_figure44-8.png)
 
 > *FIGURE 44-8. Relationship between the diagnosis of idiopathic REM behavior disorder (IRBD) and the development of a neurodegenerative disorder. (Reproduced with permission from Iranzo A, Tolosa E, Gelpi E, et al. Neurodegenerative disease status and post-mortem pathology in idiopathic rapid-eye-movement sleep behaviour disorder: an observational cohort study. _Lancet Neurol_ . 2013;12[5]:443–453.)*
 
-<a id="p655"></a>**[p. 655]**
-
-examination can elucidate a comorbid neurodegenerative disorder. It may be difficult to distinguish RBD symptoms from those of other parasomnias, nocturnal seizures, and the nightmares of posttraumatic stress disorder (PTSD). SDB can cause RBD-like symptoms, which typically resolve with effective SDB therapy.
+It may be difficult to distinguish RBD symptoms from those of other parasomnias, nocturnal seizures, and the nightmares of posttraumatic stress disorder (PTSD). SDB can cause RBD-like symptoms, which typically resolve with effective SDB therapy.
 
 An attended in-laboratory PSG is the gold standard for diagnosing RBD. Acting out of dreams in REM sleep during the sleep study is typically sufficient for diagnosing RBD. However, often patients will not have RBD behavior events during PSG. In this case, finding substantial REM sleep with increased muscle tone with a history of dream enactment behaviors can support an RBD diagnosis. The diagnosis can be complicated in patients who have PTSD, as there is emerging evidence that PTSD may predispose to RBD and that PTSD may be associated with atonia in REM sleep independent of RBD.
 
@@ -438,16 +421,15 @@ PSG and other sleep studies are not necessary in the evaluation of insomnia; how
 
 ### Management
 
-Behavioral and nonpharmacologic interventions appear to have better long-term efficacy with fewer side effects than pharmacologic interventions. Therefore, behavioral interventions are preferred for the treatment of insomnia, particularly in older patients. However, access to highly skilled
+Behavioral and nonpharmacologic interventions appear to have better long-term efficacy with fewer side effects than pharmacologic interventions. Therefore, behavioral interventions are preferred for the treatment of insomnia, particularly in older patients. However, access to highly skilled <a id="p659"></a>**[p. 659]** professionals trained in such interventions may be limited in some health care systems.
 
-<a id="p659"></a>**[p. 659]**
 ![Table 44-4](hazzard8e_ch44_table44-4_p659.png)
 
 > *Table 44-4 reproduced as a page image (printed p. 659) — the grid did not extract reliably as text for this fast build.*
 
-a1 = excellent to 5 = very poor; b1 = not tired to 5 = very tired.
+<p class="caption-in-image"><sup>a</sup>1 = excellent to 5 = very poor; <sup>b</sup>1 = not tired to 5 = very tired.</p>
 
-professionals trained in such interventions may be limited in some health care systems. Cognitive behavioral therapy for insomnia (CBT-I) has been recommended as the first-line treatment for all insomnia in adults by multiple practice guidelines.
+Cognitive behavioral therapy for insomnia (CBT-I) has been recommended as the first-line treatment for all insomnia in adults by multiple practice guidelines.
 
 **Pharmacologic management** Most pharmacotherapy for insomnia is designed and approved for the treatment of transient sleep disturbances. Pharmacotherapy can be considered when insomnia is triggered by an acute event or when chronic insomnia persists despite behavioral insomnia treatment. Sedative-hypnotics have been associated with adverse side effects in older adults, such as falls, cognitive slowing, fractures, and even mortality. Therefore, if a sedative-hypnotic is used in older individuals, the smallest dose of an agent with the least risk of adverse events should be chosen for the shortest duration necessary. In general, short-acting drugs should be used for patients who have trouble falling asleep while intermediate-acting drugs should be used when patients have trouble staying asleep ( **Table 44-5** ).
 
@@ -455,14 +437,13 @@ professionals trained in such interventions may be limited in some health care s
 
 <span id="ch44-z-drug-safety" data-reader-metadata="exam"></span>_Nonbenzodiazepine-benzodiazepine receptor agonists_ (NBRAs [such as eszopiclone, zolpidem, and zaleplon]) are structurally unrelated to benzodiazepines but bind selectively to the GABA-A receptors. They generally produce sedation and amnestic effects without the anxiolytic properties. These agents likely have similar efficacy to benzodiazepines but with a somewhat better side effect profile, in part due to their relatively short duration of action. In healthy older adults without comorbidities, NBRAs are relatively well tolerated. Zolpidem and zaleplon should only be taken immediately before bed because of their rapid onset of action. Eszopiclone has a longer duration of action than the other NRBAs, and is better for sleep maintenance but may cause drowsiness in the morning. There is also an extended-release form of zolpidem that can be used for sleep maintenance insomnia. Guidelines only recommend these medications for use in short-term insomnia, however studies have shown efficacy in chronic insomnia. Concerns remain regarding the risks of falls, confusion, and fracture in older adults, particularly in those with frailty. The emergence of complex sleep-related behaviors such as sleep driving and sleep eating has been seen with zolpidem, which may be class side effect with these agents. NRBAs are also on the Beer’s list of potentially inappropriate medications for older adults.
 
-_Melatonin receptor agonists_ (eg, ramelteon) are approved for insomnia. Rather than activating GABA receptors, ramelteon is selective for the MT1/MT2 melatonin receptors. Ramelteon has been shown to reduce total sleep latency and increase sleep time in older adults, with fewer
+_Melatonin receptor agonists_ (eg, ramelteon) are approved for insomnia. Rather than activating GABA receptors, ramelteon is selective for the MT1/MT2 melatonin receptors. Ramelteon has been shown to reduce total sleep latency and increase sleep time in older adults, with fewer <a id="p660"></a>**[p. 660]** side effects.
 
-<a id="p660"></a>**[p. 660]**
 ![Table 44-5](hazzard8e_ch44_table44-5_p660.png)
 
 > *Table 44-5 reproduced as a page image (printed p. 660) — the grid did not extract reliably as text for this fast build.*
 
-side effects. However, somnolence, dizziness, headache, and fatigue can be side effects of this agent. Ramelteon does not seem to be associated with significant withdrawal or rebound insomnia effects. The major downside of ramelteon is that its lack of amnestic properties makes it somewhat less effective for subjective improvement in sleep.
+However, somnolence, dizziness, headache, and fatigue can be side effects of this agent. Ramelteon does not seem to be associated with significant withdrawal or rebound insomnia effects. The major downside of ramelteon is that its lack of amnestic properties makes it somewhat less effective for subjective improvement in sleep.
 
 _Dual orexin receptor agonists (DORAs)._ There are two new agents for insomnia that target the orexin (also known as hypocretin) system, suvorexant and lemborexant. Damage to the orexin-secreting neurons of the hypothalamus were discovered to be the principle cause of narcolepsy with cataplexy. It was found that this system stabilizes wakefulness. DORAs decrease sleep drive by blocking the effects of both orexin receptors. DORAs have been shown to increase subjective sleep time and quality to a modest degree. The most common side effect is somnolence as well as possible impairment in driving. The half-lives of these medications, particularly lemborexant, are fairly long. Also, REM instability such as mild cataplexy, sleep paralysis, and sleep onset/offset hallucinations have also been reported. DORAs are metabolized by the CYP3A system leading to potential drug-drug interactions. Of note, suvorexant is the only medication specifically approved for insomnia among those with Alzheimer dementia. This was based on a relatively small trial of 277 participants with mild to moderate AD and insomnia. There was increased sleep time of around half an hour after 2 weeks and few adverse effects.
 
@@ -474,15 +455,11 @@ _Other agents_ are available for treatment of insomnia. The tricyclic antidepres
 
 Although sedating antipsychotics are sometimes used to treat insomnia, there is scant evidence demonstrating their efficacy, and these medications can have significant adverse events, including increased mortality particularly in older adults with dementia. Guidelines suggest that sedating antipsychotics should not routinely be used in the management of insomnia in older adults without coexisting serious psychiatric conditions that warrant use of these agents. Almost half of all older adults report the use of nonprescription over-the-counter (OTC) sleeping agents. Common nonprescription agents include sedating antihistamines, acetaminophen, alcohol, melatonin, and herbal products. The sedating antihistamines (eg, diphenhydramine) are the most common ingredients in these OTC drugs marketed for sleep. Diphenhydramine is sedating through its potent antihistaminergic effects, and tolerance to its sedating effect develops rapidly. The long half-life of diphenhydramine may result in next-day sedation. Patients may also experience dry mouth, urinary retention, delirium, decreased cognition, constipation, and increased ocular pressure. For these reasons, diphenhydramine should not be used as a primary treatment for insomnia in older patients. Many patients may use alcohol to self-medicate for insomnia; however, it can interfere with sleep in the later evening and worsen sleep difficulties.
 
-Other supplements are available OTC, such as melatonin and valerian. One drawback of these supplements is the lack of standardization and oversight of traditional pharmaceuticals. Due to lack of solid evidence recent AASM guidelines do not recommend their use. There is evidence that melatonin improves time to fall asleep and sleep efficiency in older adults. However, the results of studies have been
-
-mixed. Valerian is a herbal product marketed for insomnia due to its mild sedative properties. Some valerian preparations contain multiple botanicals, which may increase the chance of side effects. Kava, another herbal product marketed for insomnia, has a significant risk of adverse events, including hepatotoxicity, and is not recommended.
+Other supplements are available OTC, such as melatonin and valerian. One drawback of these supplements is the lack of standardization and oversight of traditional pharmaceuticals. Due to lack of solid evidence recent AASM guidelines do not recommend their use. There is evidence that melatonin improves time to fall asleep and sleep efficiency in older adults. However, the results of studies have been mixed. Valerian is a herbal product marketed for insomnia due to its mild sedative properties. Some valerian preparations contain multiple botanicals, which may increase the chance of side effects. Kava, another herbal product marketed for insomnia, has a significant risk of adverse events, including hepatotoxicity, and is not recommended.
 
 **Behavioral and other nonpharmacologic interventions** Behavioral treatment of insomnia is the safest, and perhaps, the most effective therapy for insomnia in older adults. It is the recommended first-line treatment for insomnia in all adults. Effective behavioral interventions for insomnia go beyond sleep hygiene, which is not generally effective when used alone for chronic insomnia. Several randomized trials and systematic reviews provide strong evidence for cognitive behavioral therapy for insomnia (CBT-I). CBT-I usually combines sleep hygiene, stimulus control, sleep restriction, and cognitive therapy, each of which will be discussed in greater detail below. CBT-I has reliably been shown to produce improved sleep efficiency, decreased nighttime wakefulness, and greater satisfaction with sleep. In at least two randomized trials with older adults comparing CBT-I with a prescription sedative-hypnotic agent, participants reported better improvement in sleep and more satisfaction with CBT-I therapy. One consistent finding of studies comparing CBT-I to pharmacologic therapy is that the improvements with CBT-I are more sustained. One of the major downsides to CBT-I is the limited access to practitioners who are trained in this specific therapy, but efforts are underway in some health care systems to increase access. Also, CBT-I requires significant buy-in from the patient. New delivery models that involve the use of the internet, nonspecialist providers, and telehealth-based CBT-I have yielded promising results.
 
 _Sleep hygiene_ is education on general practices to maintain a healthy sleep-wake routine. When a sleep history is performed behaviors that contribute to disruptive sleep should be ascertained. Examples of these behaviors include sleeping with the television on, or excessive caffeine consumption. Patients should be educated about behaviors that may contribute to poor sleep and insomnia ( **Table 44-6** ).
-
-_Stimulus-control therapy_ is designed to break the negative associations patients have with their sleep environment, which have come about from maladaptive behaviors.
 
 **TABLE 44-6 ■ SLEEP HYGIENE RULES FOR OLDER ADULTS**
 
@@ -494,7 +471,7 @@ _Stimulus-control therapy_ is designed to break the negative associations patien
 - Spend time outdoors (without sunglasses), particularly in the late afternoon or early evening.
 - Exercise—but limit exercise immediately before bedtime.
 
-<a id="p662"></a>**[p. 662]**
+_Stimulus-control therapy_ is designed to break the negative associations patients have with their sleep <a id="p662"></a>**[p. 662]** environment, which have come about from maladaptive behaviors. Patients are instructed to not have any other in-bed activities aside from sleep or sex, and to only go to bed when tired enough to fall asleep. They should unwind prior to going to bed and should not watch an alarm clock. If the patient cannot fall asleep within approximately 20 minutes they should get out of bed and do a relaxing activity and only return to bed when able to fall asleep. For a regular pattern to develop the patient needs to avoid napping and should get out of bed the same time each day. Daytime sleepiness may increase early in this therapy particularly when paired with sleep restriction ( **Table 44-7** ).
 
 **TABLE 44-7 ■ INSTRUCTIONS FOR STIMULUS-CONTROL THERAPY FOR OLDER ADULTS**
 
@@ -506,6 +483,8 @@ _Stimulus-control therapy_ is designed to break the negative associations patien
 6. Patient should get up at the same time each morning (even if only a few hours of sleep).
 7. Naps should be avoided.
 
+_Sleep-restriction therapy_ was developed from the observation that many patients with insomnia spend a large amount of time in bed unsuccessfully attempting to sleep. Sleep-restriction therapy is guided by the patient’s sleep diary. The amount of time the patient actually sleeps is calculated and the patient is only allowed to spend that amount of time plus around 15 minutes in bed each night for the following week. Since the amount of sleep will be less, this will lead to sleep deprivation and an increased sleep drive. The increased sleepiness makes it easier for the patient to subsequently fall asleep more quickly and have more consolidated sleep. Once the patient has significantly consolidated, time in bed is increased gradually until the patient is getting adequate sleep ( **Table 44-8** ).
+
 **TABLE 44-8 ■ INSTRUCTIONS FOR SLEEP RESTRICTION THERAPY FOR OLDER ADULTS**
 
 1. Calculate the average amount of time asleep per night reported by patient.
@@ -514,10 +493,6 @@ _Stimulus-control therapy_ is designed to break the negative associations patien
 4. Daytime napping should be strictly avoided.
 5. When sleep efficiency has reached 80%–85%, patient can go to bed 15 min earlier.
 6. This procedure should be repeated until patient can sleep for 8 h (or period needed for a good night’s sleep).
-
-Patients are instructed to not have any other in-bed activities aside from sleep or sex, and to only go to bed when tired enough to fall asleep. They should unwind prior to going to bed and should not watch an alarm clock. If the patient cannot fall asleep within approximately 20 minutes they should get out of bed and do a relaxing activity and only return to bed when able to fall asleep. For a regular pattern to develop the patient needs to avoid napping and should get out of bed the same time each day. Daytime sleepiness may increase early in this therapy particularly when paired with sleep restriction ( **Table 44-7** ).
-
-_Sleep-restriction therapy_ was developed from the observation that many patients with insomnia spend a large amount of time in bed unsuccessfully attempting to sleep. Sleep-restriction therapy is guided by the patient’s sleep diary. The amount of time the patient actually sleeps is calculated and the patient is only allowed to spend that amount of time plus around 15 minutes in bed each night for the following week. Since the amount of sleep will be less, this will lead to sleep deprivation and an increased sleep drive. The increased sleepiness makes it easier for the patient to subsequently fall asleep more quickly and have more consolidated sleep. Once the patient has significantly consolidated, time in bed is increased gradually until the patient is getting adequate sleep ( **Table 44-8** ).
 
 _Cognitive therapy_ in CBT-I addresses the maladaptive thoughts or dysfunctional beliefs patients have about their sleep. This is essential to be addressed to ensure adherence to the behavioral aspects of the therapy. Other components of CBT-I may include various relaxation techniques and scheduled worry time. Image rehearsal therapy may be helpful with patients who have trouble sleeping from nightmares related to PTSD. Mindfulness and other relaxation techniques can be strong adjuncts to the behavioral and cognitive components of CBTI.
 
@@ -550,30 +525,27 @@ The presence of dementia and other neurodegenerative disorders may impact therap
 - Check medications for sedating/alerting effects.
 
 ## Further Reading
-
 - Allen RP, Chen C, Garcia-Borreguero D, et al. Comparison of pregabalin with pramipexole for restless legs syndrome. _N Engl J Med_ . 2014;370(7):621–631.
 
 - American Academy of Sleep Medicine. _International Classification of Sleep Disorders_ . 3rd ed. Darien, IL: American Academy of Sleep Medicine; 2014.
 
 - American Geriatrics Society 2019 Updated AGS Beers Criteria<sup>®</sup> for Potentially Inappropriate Medication Use in Older Adults. _J Am Geriatr Soc_ . 2019;67(4):674–694.
 
-- Auger RR, Burgess HJ, Emens JS, Deriy LV, Thomas SM, Sharkey KM. Clinical Practice Guideline for the Treatment of Intrinsic Circadian Rhythm Sleep-Wake Disorders: Advanced Sleep-Wake Phase Disorder (ASWPD), Delayed Sleep-Wake Phase Disorder (DSWPD), Non24-Hour Sleep-Wake Rhythm Disorder (N24SWD), and Irregular Sleep-Wake Rhythm Disorder (ISWRD). An Update for 2015: An American Academy of Sleep Medicine Clinical Practice Guideline. _J Clin Sleep Med_ . 2015; 11(10):1199–1236.
+- Auger RR, Burgess HJ, Emens JS, Deriy LV, Thomas SM, Sharkey KM. Clinical Practice Guideline for the Treatment of Intrinsic Circadian Rhythm Sleep-Wake Disorders: Advanced Sleep-Wake Phase Disorder (ASWPD), Delayed Sleep-Wake Phase Disorder (DSWPD), Non-24-Hour Sleep-Wake Rhythm Disorder (N24SWD), and Irregular Sleep-Wake Rhythm Disorder (ISWRD). An Update for 2015: An American Academy of Sleep Medicine Clinical Practice Guideline. _J Clin Sleep Med_ . 2015; 11(10):1199–1236.
 
 - Aurora RN, Kristo DA, Bista SR, et al. The treatment of restless legs syndrome and periodic limb movement disorder in adults—an update for 2012: practice parameters with an evidence-based systematic review and meta-analyses. _Sleep_ . 2012;35(8):1039–1062.
 
 - Aurora RN, Zak RS, Maganti RK, et al. Best practice guide for the treatment of REM sleep behavior disorder (RBD). _J Clin Sleep Med_ . 2010;6(1):85–95.
 
-- Bloom HG, Ahmed I, Alessi CA, et al. Evidence-based recommendations for the assessment and management
+- Bloom HG, Ahmed I, Alessi CA, et al. Evidence-based recommendations for the assessment and management of sleep disorders in older persons. _J Am Geriatr Soc_ . 2009;57(5):761–789.
 
-   - of sleep disorders in older persons. _J Am Geriatr Soc_ . 2009;57(5):761–789.
-
-- Cowie MR, Woehrle H, Wegscheider K, et al. Adaptive servoventilation for central sleep apnea in systolic heart failure. _N Engl J Med_ . 2015;373(12):1095–1105.
+- Cowie MR, Woehrle H, Wegscheider K, et al. Adaptive servo-ventilation for central sleep apnea in systolic heart failure. _N Engl J Med_ . 2015;373(12):1095–1105.
 
 - Donovan LM, Kapur VK. Prevalence and characteristics of central compared to obstructive sleep apnea: analyses from the sleep heart health study cohort. _Sleep_ . 2016;39(7):1353–1359.
 
 - Epstein LJ, Kristo D, Strollo PJ Jr, et al. Clinical guideline for the evaluation, management and long-term care of obstructive sleep apnea in adults. _J Clin Sleep Med_ . 2009;5(3):263–276.
 
-- Espie CA, MacMahon KM, Kelly HL, et al. Randomized clinical effectiveness trial of nurse-administered smallgroup cognitive behavior therapy for persistent insomnia in general practice. _Sleep_ . 2007;30(5):574–584.
+- Espie CA, MacMahon KM, Kelly HL, et al. Randomized clinical effectiveness trial of nurse-administered small-group cognitive behavior therapy for persistent insomnia in general practice. _Sleep_ . 2007;30(5):574–584.
 
 - Kapur VK, Auckley DH, Chowdhuri S, et al. Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of Sleep Medicine Clinical Practice Guideline. _J Clin Sleep Med_ . 2017;13(3): 479–504.
 
@@ -581,23 +553,21 @@ The presence of dementia and other neurodegenerative disorders may impact therap
 
 - Mander BA, Winer JR, Walker MP. Sleep and human aging. _Neuron_ . 2017;94(1):19–36.
 
-- Martínez-García M, Chiner E, Hernández L, et al. Obstructive sleep apnoea in the elderly: role of
+- Martínez-García M, Chiner E, Hernández L, et al. Obstructive sleep apnoea in the elderly: role of continuous positive airway pressure treatment. _Eur Respir J_ . 2015;46(1):142–151.
 
 <a id="p664"></a>**[p. 664]**
 
-- continuous positive airway pressure treatment. _Eur Respir J_ . 2015;46(1):142–151.
+- McCurry SM, Pike KC, Vitiello MV, et al. Increasing walking and bright light exposure to improve sleep in community-dwelling persons with Alzheimer’s disease: results of a randomized, controlled trial. _J Am Geriatr Soc_ . 2011;59(8):1393–1402.
 
-   - McCurry SM, Pike KC, Vitiello MV, et al. Increasing walking and bright light exposure to improve sleep in community-dwelling persons with Alzheimer’s disease: results of a randomized, controlled trial. _J Am Geriatr Soc_ . 2011;59(8):1393–1402.
+- McMillan A, Bratton DJ, Faria R, et al. Continuous positive airway pressure in older people with obstructive sleep apnoea syndrome (PREDICT): a 12-month, multicentre, randomised trial. _Lancet Respir Med_ . 2014;2(10): 804–812.
 
-   - McMillan A, Bratton DJ, Faria R, et al. Continuous positive airway pressure in older people with obstructive sleep apnoea syndrome (PREDICT): a 12-month, multicentre, randomised trial. _Lancet Respir Med_ . 2014;2(10): 804–812.
+- Posadas T, Oscullo G, Zaldívar E, et al. Treatment with CPAP in elderly patients with obstructive sleep apnoea. _J Clin Med_ . 2020;9(2):546.
 
-   - Posadas T, Oscullo G, Zaldívar E, et al. Treatment with CPAP in elderly patients with obstructive sleep apnoea. _J Clin Med_ . 2020;9(2):546.
+- Qaseem A, Kansagara D, Forciea MA, Cooke M, Denberg TD. Clinical Guidelines Committee of the American College of Physicians. Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians. _Ann Intern Med_ . 2016;165(2):125-133.
 
-   - Qaseem A, Kansagara D, Forciea MA, Cooke M, Denberg TD. Clinical Guidelines Committee of the American College of Physicians. Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians. _Ann Intern Med_ . 2016;165(2):125-133.
+- Raggi A, Ferri R. Sleep disorders in neurodegenerative diseases. _Eur J Neurol_ . 2010;17:1326–1338.
 
-   - Raggi A, Ferri R. Sleep disorders in neurodegenerative diseases. _Eur J Neurol_ . 2010;17:1326–1338.
-
-   - Ramar K, Dort LC, Katz SG, et al. Clinical practice guideline for the treatment of obstructive sleep apnea and snoring with oral appliance therapy: an update for 2015. _J Clin Sleep Med_ . 2015;11(7):773–827.
+- Ramar K, Dort LC, Katz SG, et al. Clinical practice guideline for the treatment of obstructive sleep apnea and snoring with oral appliance therapy: an update for 2015. _J Clin Sleep Med_ . 2015;11(7):773–827.
 
 - Richards KC, Lambert C, Beck CK, et al. Strength training, walking, and social activity improve sleep in nursing home and assisted living residents: randomized controlled trial. _J Am Geriatr Soc_ . 2011;59(2):214–223.
 

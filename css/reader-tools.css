@@ -327,3 +327,17 @@ body.nav-page-open:has(#panel[data-current-pane=tools]) #chapterHeader #settings
 
 .he-locator {unicode-bidi:isolate;white-space:nowrap}
 .he-locator bdi[dir="ltr"],[dir="rtl"] [data-bidi-edge="both"] {white-space:nowrap}
+
+/* Printed annotations and personal highlights have independent controls. */
+.reading-copy mark {background:transparent;color:inherit;text-decoration:underline dotted #996c16;text-decoration-thickness:2px;text-underline-offset:.18em}
+.printed-mark-legend {font:500 var(--type-small)/1.4 var(--ui);color:var(--muted);margin:.65em 0 .25em}
+.printed-mark-legend::before {content:"";display:inline-block;width:1.8em;margin-inline-end:.45em;border-bottom:2px dotted #996c16}
+.hide-printed-marks .reading-copy mark {text-decoration:none}
+.hide-printed-marks .printed-mark-legend {display:none}
+.printed-mark-setting {display:flex;align-items:center;gap:8px;min-height:40px}
+body>.reader-selection-hint:not([hidden]) {position:fixed;z-index:99;inset-inline:0;bottom:calc(env(safe-area-inset-bottom) + var(--tabs-height,52px));justify-content:center;background:var(--panel,var(--bg));border-block:1px solid var(--rule)}
+body>.reader-selection-hint[hidden]{display:none}
+.chapter-nav .reading-toggle {grid-column:1/-1;justify-self:start;display:inline-flex;align-items:center;text-align:start}
+.library-row .reading-toggle {white-space:nowrap;color:var(--accent);background:transparent}
+
+#highlightEditor select:not([hidden]){display:block;max-inline-size:100%;width:min(100%,32em);margin-inline:auto;font:inherit}

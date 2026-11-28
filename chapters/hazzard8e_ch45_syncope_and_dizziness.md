@@ -274,9 +274,9 @@ Surgery is reserved for a small group of patients who fail pharmacologic or vest
 
 > *FIGURE 45-2. The Epley Canalith repositioning procedure. (Reproduced with permission from Furman JM, Cass SP. Benign paroxysmal positional vertigo. _N Engl J Med._ 1999;341(21):1590–1596.)*
 
-## Further Reading
-
 <a id="p677"></a>**[p. 677]**
+
+## Further Reading
 
 - Albassam OT, Redelmeier RJ, Shadowitz S, Husain AM, Simel D, Etchells EE. Did this patient have cardiac syncope? The rational clinical examination systematic review. _JAMA._ 2019;321(24):2448–2457.
 
@@ -286,7 +286,7 @@ Surgery is reserved for a small group of patients who fail pharmacologic or vest
 
 - Jansen S, Bhangu J, de Rooij S, Daams J, Kenny RA, van der Velde N. The association of cardiovascular disorders and falls: a systematic review. _J Am Med Dir Assoc_ . 2016;17(3):193–199.
 
-- Kharsa A, Wadhwa R. Carotid Sinus Hypersensitivity. [Updated 2020 Nov 7]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2020 Jan. Available from: https://www.ncbi.nlm.nih.gov/books/ NBK559059/.
+- Kharsa A, Wadhwa R. Carotid Sinus Hypersensitivity. [Updated 2020 Nov 7]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2020 Jan. Available from: https://www.ncbi.nlm.nih.gov/books/NBK559059/.
 
 - Leafloor CW, Hong PJ, Mukarram M, Sikora L, Elliott J, Thiruganasambandamoorthy V. Long-term outcomes in syncope patients presenting to the emergency department: a systematic review. _Can J Emerg Med._ 2020;22(1): 45–55.
 
@@ -305,4 +305,3 @@ Surgery is reserved for a small group of patients who fail pharmacologic or vest
 - Thiruganasambandamoorthy V, Ramaekers R, Rahman MO, et al. Prognostic value of cardiac biomarkers in the risk stratification of syncope: a systematic review. _Intern Emerg Med._ 2015;10:1003–1014.
 
 - Viau JA, Chaudry H, Hannigan A, Boutet M, Mukarram M, Thiruganasambandamoorthy V. The yield of computed tomography of the head among patients presenting with syncope: a systematic review. _Acad Emerg Med_ . 2019;26(5):479–490.
-

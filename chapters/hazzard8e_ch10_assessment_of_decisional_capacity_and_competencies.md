@@ -56,7 +56,6 @@ Second, the individual must have the conceptual ability to appreciate the conseq
 
 *TABLE 10-1 ■ FOUR ELEMENTS THAT CONSTITUTE DECISION-MAKING ABILITIES*
 
-
 Beginning and ending a discussion by asking the individual what their understanding of the situation is and what the consequences are of the choice that they have made is an important method of assuring that they were able to comprehend the information and that they appreciate the consequences of the decision they are making.
 
 Individuals must be able to reason, within their own frame of reference, why they are choosing a course of action. This is different from saying that a decision seems “reasonable” or “rational,” but rather it refers to the cognitive processing of values and beliefs in view of the information provided. Even if we feel—and even if most of society would feel—that an individual’s decision is irrational, it does not give us grounds to negate the person’s right to self-determination. Nonetheless, an individual’s ability to give a plausible rationale for his or her decision is sometimes used as secondary evidence of decisional capacity. That is, demonstrating justification for one’s choices (eg, religious belief, personal value, etc.) provides another level of assurance that the patient’s decision rests on intact reasoning, rather than a set of delusional or incoherent beliefs that may exist in the setting of cognitive impairment or psychiatric illness.
@@ -157,7 +156,6 @@ An individual’s ability to consent to participate in research is complex. Beca
 
 ## FURTHER READING
 
-
 - Applebaum PS. Assessment of patient’s competence to consent to treatment. N Engl J Med. 2007;357:1834–1840.
 
 - Dunn LB, Nowrangi MA, Palmer BW, Jeste DV, Saks ER. Assessing decisional capacity for clinical research or treatment: a review of instruments. Am J Psychiatry. 2006;163:1323–1334.
@@ -180,4 +178,4 @@ An individual’s ability to consent to participate in research is complex. Beca
 
 - Roberts LW. Informed consent and the capacity for voluntarism. Am J Psy. 2002;159:705–712.
 
-- Wendler D, Prasad K. Core safeguards for clinical research with adults who are unable to consent. Ann Int Med. 2001;135:514–523. <a id="p156"></a>**[p. 156]**
+- Wendler D, Prasad K. Core safeguards for clinical research with adults who are unable to consent. Ann Int Med. 2001;135:514–523.

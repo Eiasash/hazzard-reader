@@ -33,11 +33,11 @@ An older person with dysphagia, anemia or unintentional weight loss needs invest
 
 The book describes PPI-based clarithromycin triple therapy, including regimens as short as **7 days**, and reports improved clearance with longer treatment (p1328). Treatment history and susceptibility matter when applying these older trial results.
 
-> Current practice (not the book): In North America, when susceptibility is unknown, the ACG recommends 14 days of optimized bismuth quadruple therapy for treatment-naive patients. Clarithromycin-containing therapy requires demonstrated susceptibility. Confirm clearance at least four weeks after antibiotics, withholding the PPI for two weeks before testing. - [American College of Gastroenterology, 2024](https://doi.org/10.14309/ajg.0000000000002968).
+> Current practice (not the book): In North America, when susceptibility is unknown, the ACG recommends 14 days of optimized bismuth quadruple therapy for treatment-naive patients. Avoid empiric PPI–clarithromycin triple therapy; in treatment-naive patients with unknown susceptibility, ACG conditionally favors PCAB–clarithromycin triple therapy over the PPI–clarithromycin regimen if a clarithromycin regimen is selected. Confirm clearance at least four weeks after antibiotics, withholding the PPI for two weeks before testing. [American College of Gastroenterology, 2024](https://doi.org/10.14309/ajg.0000000000002968).
 
 The book's higher hemoglobin threshold belongs to its discussion of stabilization. Active blood loss, perfusion and comorbid disease guide immediate assessment alongside the measured value (p1332–1333).
 
-> Current practice (not the book): For hospitalized patients with overt upper gastrointestinal bleeding, the ACG suggests a restrictive red-cell transfusion threshold of 7 g/dL. - [American College of Gastroenterology, 2021](https://pubmed.ncbi.nlm.nih.gov/33929377/).
+> Current practice (not the book): For hospitalized patients with overt upper gastrointestinal bleeding, the ACG suggests a restrictive red-cell transfusion threshold of 7 g/dL. [American College of Gastroenterology, 2021](https://pubmed.ncbi.nlm.nih.gov/33929377/).
 
 ### When reflux is severe but heartburn is modest
 
@@ -119,7 +119,7 @@ Table 85-9 compares the pre-endoscopic Glasgow-Blatchford score (0–23), clinic
 
 For secondary prevention, ask why aspirin was prescribed. The book advises early resumption after bleeding stops when established cardiovascular disease makes it important, ideally in **1–3 days** and within **7 days**, alongside long-term PPI protection. It generally argues against restarting aspirin used solely for primary prevention in most such patients. Continued NSAID use should be reconsidered; where unavoidable the chapter describes a selective COX-2 inhibitor at the lowest effective dose with daily PPI. Confirm H. pylori clearance and review co-prescribed antithrombotics. Preventing another bleed and preventing a vascular event are decisions to be made together (p1334).
 
-> Current practice (not the book): For cardiac aspirin used for secondary prevention during acute gastrointestinal bleeding, ACG/CAG suggest continuing it. If interrupted, resume on the day that hemostasis is confirmed endoscopically. - [ACG/CAG antithrombotic guideline, 2022](https://gi.org/wp-content/uploads/2022/03/ACG-CAG-Guideline.pdf).
+> Current practice (not the book): For cardiac aspirin used for secondary prevention during acute gastrointestinal bleeding, ACG/CAG suggest continuing it. If interrupted, resume on the day that hemostasis is confirmed endoscopically. [ACG/CAG antithrombotic guideline, 2022](https://gi.org/wp-content/uploads/2022/03/ACG-CAG-Guideline.pdf).
 
 ### Unexplained iron or vitamin B12 deficiency
 

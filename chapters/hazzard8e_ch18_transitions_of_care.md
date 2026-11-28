@@ -74,7 +74,6 @@ More recently, policy changes from the Improving Medicare Post-Acute Care Transf
 
 *TABLE 18-1 ■ POSTACUTE CARE CONTINUUM OF SERVICES*
 
-
 > **[sic]** The Medicare hospice threshold is a life expectancy of six months or less if the terminal illness follows its normal course. The table uses a strict less-than sign. [CMS, Medicare hospice eligibility](https://www.cms.gov/medicare/payment/fee-for-service-providers/hospice).
 
 <a id="p252"></a>**[p. 252]**
@@ -85,7 +84,7 @@ More recently, policy changes from the Improving Medicare Post-Acute Care Transf
 
 **Patient/caregiver underprepared for transitions** Limited or inadequate preparation of patients and caregivers regarding what to expect at the next setting of care is also a common problem. Patients and their caregivers are often unaware of what to expect following hospital discharge or transitions of care. They often are not empowered to take part in their plan of care sufficiently. Patients’ and caregivers’ sense of underpreparation may not necessarily be due to a lack of discharge information, but more so due to the complexity and amount of information communicated are overwhelming. These vast quantities of information would be challenging for anyone to encode and retain in the short time frame for discharge teaching that is typically provided. It is also common for patients and their caregivers not to recognize that they are unprepared to succeed in their next setting of care until they arrive and experience a care failure in that setting.
 
-**Poor-quality communication among provider teams** Highquality communication between care teams at points of patient transition across settings is essential to patient safety, particularly at hospital discharge. More than half of all avoidable events following hospital discharge relate to poor communication among providers. Physicians have traditionally played the key role in communicating a patient’s care plan to the next setting provider at hospital
+**Poor-quality communication among provider teams** High-quality communication between care teams at points of patient transition across settings is essential to patient safety, particularly at hospital discharge. More than half of all avoidable events following hospital discharge relate to poor communication among providers. Physicians have traditionally played the key role in communicating a patient’s care plan to the next setting provider at hospital
 
 discharge, typically in the format of a discharge summary. The discharge summary is the only form of communication at hospital discharge mandated by The Joint Commission (TJC) and must be completed within 30 days of discharge, according to TJC standards. In this new era of health system fragmentation, most experts believe that this 30-day time frame is much too long. While TJC has minimal standards for the content of discharge summaries, these are widely considered by experts to be insufficient. Despite the importance of discharge summaries in facilitating coordinated care, physicians receive little to no training in discharge summary creation, and there is no mandated standard format for these documents. Perhaps unsurprisingly, research examining the quality and content of discharge summaries has found that they routinely omit the most important care plan components, such as code status, diet, warfarin instructions, and pending laboratory tests.
 
@@ -103,7 +102,6 @@ Older adults experience a variety of transitions of care. Hospital discharge is 
 
 *TABLE 18-2 ■ HOSPITAL DISCHARGE INFORMATION THAT SKILLED NURSING FACILITY NURSES NEED TO DEVELOP AND IMPLEMENT A SAFE PLAN OF CARE*
 
-
 with approximately 25% of older adults being discharged to a different institution and 12% being discharged to their homes with home health care services. Table 18-3 includes examples of different types of transitions in the level of care or setting that older adults may experience. Older adults who may be at increased risk for rehospitalization include those with difficulty with activities of daily living (ADLs), socioeconomic disadvantage, depression, substance abuse disorders, a history of previous hospitalization, difficulty with treatment adherence or medication compliance, or cognitive impairment.
 
 While patients do not always transition between institutional settings, transitions to community settings may still include a range of other care provider teams who may manage medical needs following hospitalization, including home health teams and primary care providers.
@@ -118,11 +116,9 @@ High levels of stress and dissatisfaction often characterize experiences of tran
 
 *FIGURE 18-1. System fragmentation example.*
 
-
 ![Table 18-3](hazzard8e_ch18_table-18-3_p254.webp)
 
 *TABLE 18-3 ■ TYPES OF TRANSITIONS IN LEVEL OF CARE OR CARE SETTING COMMONLY EXPERIENCED BY OLDER ADULTS*
-
 
 postacute providers, and primary care physicians (PCPs), ineffective physician-patient communication likely contributes to patients’ underpreparation for managing their care following transitions, particularly after hospitalization. Various communication failures involving and surrounding patients during transitions also lead to the lack of appropriate follow-up care (eg, visit with PCP following hospitalization), which likely increases risk for rehospitalization. Failure to receive follow-up care and the resulting subsequent negative sequelae may incorrectly be attributed to the patient’s noncompliance rather than other factors, such as inadequate preparation or education prior to discharge, leading patients and their caregivers to feel frustrated and unsupported.
 
@@ -133,7 +129,6 @@ Little research has examined patients’ and caregivers’ preferences surroundi
 ![Table 18-4](hazzard8e_ch18_table-18-4_p255.webp)
 
 *TABLE 18-4 ■ THE EXPERIENCE OF CARE TRANSITIONS FROM THE PERSPECTIVE OF PATIENTS AND THEIR CAREGIVERS*
-
 
 ## HIGH-QUALITY TRANSITIONAL CARE
 
@@ -152,7 +147,6 @@ Involving patients and their caregivers in decisions about care plans prior to t
 ![Table 18-5](hazzard8e_ch18_table-18-5_p256.webp)
 
 *TABLE 18-5 ■ HIGH-QUALITY TRANSITIONAL CARE AS COMPARED TO LESS-OPTIMAL TYPICAL CARE*
-
 
 ### Patient/Caregiver Empowerment, Preparation, and Support
 
@@ -182,11 +176,9 @@ Medication reconciliation is an essential component of transitional care program
 
 *TABLE 18-6 ■ PRIMARY COMPONENTS OF A MEDICATION RECONCILIATION*
 
-
 ![Table 18-7](hazzard8e_ch18_table-18-7_p257.webp)
 
 *TABLE 18-7 ■ INFORMATION FOR THE PREADMISSION MEDICATION HISTORY*
-
 
 The medication reconciliation process starts by obtaining the patient’s medication history. Often, a physician, pharmacist, or nurse will obtain the patient’s medication history by (1) interviewing the patient and their caregivers, (2) accessing the patient’s past medical records, and (3) contacting other providers involved in the patient’s care and the patient’s community pharmacy for recently dispensed medications (Table 18-7). When creating the patient’s list of current medications, it is important to identify all medications the patient is taking, including prescription drugs, over-the-counter medications, herbal remedies, and supplements. The patient’s medication histories are then reconciled with medications to be ordered to ensure that the new medications and doses are appropriate for the patient. Changes to the patient’s medication regimen are documented in their medical chart, and a complete medication list is communicated to the patient, caregiver, and next provider/team. Reconciling medications applies to all health care settings, including ambulatory care, inpatient services, emergency and urgent care, long-term care, and home care.
 
@@ -199,7 +191,6 @@ Transitional care interventions support patients as they move between different 
 ![Figure 18-2](hazzard8e_ch18_figure-18-2_p258.webp)
 
 *FIGURE 18-2. Transitional care nurse working with a patient and his family.*
-
 
 recognize nurses as clinical leaders for supporting patients and their families as they navigate transitions (Figure 18-2). They engage nurses as well as other members of the interdisciplinary team in developing care plans, performing medication reconciliation, and supporting medication adherence and self-care in the early discharge period. Most transitional care interventions focus on transitions from hospital to community settings; however, emerging care models continue to be developed to support patients during a range of unique transitions. Some examples of specific transitional care interventions are noted below.
 
@@ -241,7 +232,6 @@ While most people with dementia spend most of their life in community settings, 
 
 *TABLE 18-8 ■ EDUCATIONAL RESOURCES FOR PATIENTS AND FAMILIES DURING TRANSITIONS OF CARE*
 
-
 environment can guide surrogates’ choices in later stages of dementia. Dementia-specific advance directives have been suggested as one means of conveying these wishes.
 
 Transitions near the end of life are common in those with and without dementia. Such end-of-life transitions may not improve quality of life, instead adding to suffering and burden, and may be preventable. More than 80% of individuals experience at least one transition between health care settings in the past 6 months of life, with about one-third experiencing four or more transitions. Despite
@@ -253,7 +243,6 @@ Patients with dementia also benefit from inclusion in transitional care interven
 ![Table 18-9](hazzard8e_ch18_table-18-9_p260.webp)
 
 *TABLE 18-9 ■ CASE EXAMPLE OF A POOR-QUALITY TRANSITION FROM HOSPITAL–TO–NURSING HOME FOR A PERSON WITH DEMENTIA*
-
 
 <a id="p261"></a>**[p. 261]**
 

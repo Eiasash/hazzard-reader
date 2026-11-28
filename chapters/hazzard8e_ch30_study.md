@@ -47,7 +47,7 @@ Study summary of Chapter 30 - Nutrition Disorders, Obesity, and Enteral/Parenter
 
 Before prescribing weight loss, ask whether a weight-related condition is limiting function and whether the patient can exercise and maintain adequate nutrient intake. Diet-only weight loss can deplete muscle and bone. Combine a modest energy deficit with adequate protein and individually tailored resistance and endurance exercise when benefit is expected. In a frail patient already losing weight, a further calorie deficit worsens nitrogen balance. Evidence for drug or surgical treatment in older adults was limited at publication. [Weight reduction, pp. 413–415](?chapter=30#p414).
 
-> Current practice (not the book): In SELECT, semaglutide reduced major cardiovascular events in adults with established cardiovascular disease and overweight or obesity without diabetes. In obesity-related HFpEF it improved symptoms and physical function. Assess baseline nutrition, function and potential muscle loss when considering weight reduction in a frail older adult. [SELECT, 2023](https://pubmed.ncbi.nlm.nih.gov/37952131/).
+> Current practice (not the book): In SELECT, semaglutide reduced major cardiovascular events in adults with established cardiovascular disease and overweight or obesity without diabetes. In STEP-HFpEF, semaglutide improved heart failure symptoms and physical limitations in patients with obesity-related HFpEF. Assess baseline nutrition, function and potential muscle loss when considering weight reduction in a frail older adult. [SELECT, 2023](https://pubmed.ncbi.nlm.nih.gov/37952131/) · [STEP-HFpEF, 2023](https://pubmed.ncbi.nlm.nih.gov/37622681/).
 
 ## Dietary requirements and prevention
 

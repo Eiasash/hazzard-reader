@@ -6,13 +6,13 @@ Joseph M. Calabrese, Judith A. Jones
 
 > Not cited in the 2020-2026 past papers.
 
-> **Source and method.** Printed pages 453-468, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 453-467, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p453"></a>**[p. 453]**
 
 ## INTRODUCTION
 
-The centrality of the mouth to human health, function, and behavior is clear. The abilities to eat, smile, speak, and interact with others are essential functions. This chapter presents the contributions of the mouth to health and function in an older person’s life. The components of the oral cavity are described along with age-related and disease-related changes, how to evaluate geriatric patients’ oral conditions, and when to refer. The impacts of oral conditions on quality of life are described, as are disparities in access to and outcomes of oral health care and the importance of prevention in health status. Finally, goals of longterm oral health care are described, along with options for long-term oral health care.
+The centrality of the mouth to human health, function, and behavior is clear. The abilities to eat, smile, speak, and interact with others are essential functions. This chapter presents the contributions of the mouth to health and function in an older person’s life. The components of the oral cavity are described along with age-related and disease-related changes, how to evaluate geriatric patients’ oral conditions, and when to refer. The impacts of oral conditions on quality of life are described, as are disparities in access to and outcomes of oral health care and the importance of prevention in health status. Finally, goals of long-term oral health care are described, along with options for long-term oral health care.
 
 #### Learning Objectives
 
@@ -32,7 +32,7 @@ The centrality of the mouth to human health, function, and behavior is clear. Th
 
 1. Oral health screening should be part of the patient’s initial history and physical examination.
 
-2. A preventive model of oral health care for all older adult patients includes fluoridecontaining gels, varnishes, rinses and pastes, antibacterial rinses, electric toothbrushes, floss threaders, and other adaptive methods.
+2. A preventive model of oral health care for all older adult patients includes fluoride-containing gels, varnishes, rinses and pastes, antibacterial rinses, electric toothbrushes, floss threaders, and other adaptive methods.
 
 3. Many common medications have adverse effects on the oral cavity and oral health.
 
@@ -188,7 +188,7 @@ Oral mucosal alterations in an older person are often a result of multiple oral 
 
 The withdrawal of a causative drug usually results in complete resolution of the lesion within 2 to 3 weeks, but if there is no clinical improvement, a definitive diagnosis should be obtained with a biopsy specimen.
 
-Many oral mucosal disorders can affect older people, ranging from benign (eg, recurrent aphthous ulcers and traumatic lesions) to malignant (eg, squamous cell carcinomas) (Figure 32-6A and B). The diagnosis of mucosal diseases requires a detailed history and a thorough head and neck and oral examination, including all mucosal tissues. For vesiculobullous and erosive diseases, a simple threeitem classification is helpful: (1) acute multiple lesions (eg, erythema multiforme, herpes simplex, herpes zoster, allergic reaction), (2) recurring oral ulcers (eg, recurrent aphthous stomatitis, traumatic ulcer), and (3) chronic multiple lesions (eg, pemphigus vulgaris, mucous membrane pemphigoid, lupus erythematosus, lichen planus, dysplasia, squamous cell carcinoma). If a lesion does not resolve after 2 to 3 weeks, a tissue biopsy is required. For lesions that are suspected to be oral manifestations of autoimmune connective tissue disorders (eg, pemphigus, pemphigoid, lichen planus), biopsies should also include specimens for direct immunofluorescence.
+Many oral mucosal disorders can affect older people, ranging from benign (eg, recurrent aphthous ulcers and traumatic lesions) to malignant (eg, squamous cell carcinomas) (Figure 32-6A and B). The diagnosis of mucosal diseases requires a detailed history and a thorough head and neck and oral examination, including all mucosal tissues. For vesiculobullous and erosive diseases, a simple three-item classification is helpful: (1) acute multiple lesions (eg, erythema multiforme, herpes simplex, herpes zoster, allergic reaction), (2) recurring oral ulcers (eg, recurrent aphthous stomatitis, traumatic ulcer), and (3) chronic multiple lesions (eg, pemphigus vulgaris, mucous membrane pemphigoid, lupus erythematosus, lichen planus, dysplasia, squamous cell carcinoma). If a lesion does not resolve after 2 to 3 weeks, a tissue biopsy is required. For lesions that are suspected to be oral manifestations of autoimmune connective tissue disorders (eg, pemphigus, pemphigoid, lichen planus), biopsies should also include specimens for direct immunofluorescence.
 
 ![Figure 32-6](hazzard8e_ch32_figure-32-6_p460.webp)
 
@@ -226,9 +226,7 @@ The temporomandibular joint (TMJ) is located between the glenoid fossa and the c
 
 In general, two types of pathology are associated with the TMJ: articular, related to the joint itself, and nonarticular, pathology occurring in structures unrelated to the joint but causing similar or referred symptomatology. Articular abnormalities common to all joints may also affect the TMJ: for example, trauma, ankylosis, dislocation, and arthritis. Nonarticular disorders may result from trigeminal neuralgia, headache, migraine, otitis, dentoalveolar pain/ infection, and masticatory myalgia. Orofacial habits (eg, jaw clenching and tooth grinding) and poor head and neck posture can produce muscle fatigue and spasm. Psychological conditions (stress and depression) can exacerbate underlying articular and nonarticular disorders. Clinically, the patient will present with pain in many regions: TMJ, temporal, neck, masticatory muscles, and the oral cavity. Diagnosis is challenging because symptoms primarily occur in any of these sites with regular, irregular, or no pain referred to the TMJ region. Limited jaw opening (< 40 mm from the maxillary central incisor to the mandibular central incisor edges) and pain on mastication or during jaw movements may be indicative of TMD. Treatment, as with other arthritic or muscular disorders, requires an appropriate diagnosis and ranges from conservative and reversible regimens (anti-inflammatories, analgesics, muscle relaxants, physical therapy, oral bite splints) to more invasive procedures for unresolved painful conditions (eg, TMJ surgery). Pain in the jaws and/or face is present in 3% to 6% of persons age 65 and older.
 
-Speech is another function of the oral structures; speech undergoes changes with increasing age, including shape of the tongue and its function during sound production and frequency variability. Among healthy older persons, these changes do not compromise or alter speech in any perceptible way. Tongue strength decreases with age, even among healthy adults, yet tongue endurance is similar between younger and older persons. There are also age-associated alterations in intraoral and maxillofacial posture. Drooping of the lower face and lips in the
-
-older adult results from the loss of supporting hard tissues and diminished tone of the circumoral muscles. The latter changes may elicit esthetic concerns and can lead to embarrassment from drooling or food spills caused by the inability of an older individual to close the lips competently while eating or speaking. Often, drooling caused by reduced circumoral muscle tone can result in complaints of excess salivation. Finally, oral motor disorders also may result from therapeutic drug regimens, such as the frequent association of tardive dyskinesia with phenothiazine therapy. These dyskinesias may include diminished performance and speech pathologies as well as alteration in movement (eg, chorea).
+Speech is another function of the oral structures; speech undergoes changes with increasing age, including shape of the tongue and its function during sound production and frequency variability. Among healthy older persons, these changes do not compromise or alter speech in any perceptible way. Tongue strength decreases with age, even among healthy adults, yet tongue endurance is similar between younger and older persons. There are also age-associated alterations in intraoral and maxillofacial posture. Drooping of the lower face and lips in the older adult results from the loss of supporting hard tissues and diminished tone of the circumoral muscles. The latter changes may elicit esthetic concerns and can lead to embarrassment from drooling or food spills caused by the inability of an older individual to close the lips competently while eating or speaking. Often, drooling caused by reduced circumoral muscle tone can result in complaints of excess salivation. Finally, oral motor disorders also may result from therapeutic drug regimens, such as the frequent association of tardive dyskinesia with phenothiazine therapy. These dyskinesias may include diminished performance and speech pathologies as well as alteration in movement (eg, chorea).
 
 ## ORAL CONDITIONS AND QUALITY OF LIFE IN OLDER ADULTS
 
@@ -244,11 +242,11 @@ There are important disparities in access to dental care, tooth loss, unfilled c
 
 ![Figure 32-7](hazzard8e_ch32_figure-32-7_p463.webp)
 
-*FIGURE 32-7. A. Tooth loss and caries are more prevalent in older adults with fair/poor health. B. Oral quality of life by selfreported health. The Y axis in both A and B is percent prevalence. (Data from Griffin SO, Jones JA, Brunson D, et al. Burden of oral disease among older adults and implications for public health priorities. Am J Public Health. 2012;102[3]:411-418.)*
+*FIGURE 32-7. A. Tooth loss and caries are more prevalent in older adults with fair/poor health. B. Oral quality of life by self-reported health. The Y axis in both A and B is percent prevalence. (Data from Griffin SO, Jones JA, Brunson D, et al. Burden of oral disease among older adults and implications for public health priorities. Am J Public Health. 2012;102[3]:411-418.)*
 
 Insurance affects access for persons age 65 and older : “54% of adults with private health care coverage had visited dental professional within the past 6 months, compared with 41% of adults who had only Medicare and 25% who had Medicare plus Medicaid” (CDC, 2014). Thus, the so-called dual eligibles are the most likely group of older persons to not have access to dental care. In addition, while past dental care use has improved slightly among persons age 65 and older since 1999 to 2004 for persons above 200% of the federal poverty level (FPL), it is lower among persons below 200% of this level (Figure 32-8A).
 
-Baby boomers will be keeping their teeth longer and in greater numbers than ever before; however, dental decay (caries) is now as much of a problem in older adults as in children. NHANES caries data from 1999 to 2004 and 2011–2016 (Figure 32-8B) showed that among persons age 65 and older, prevalence of unfilled caries was higher among persons below 200% of the FPL (18% vs 25%) in contrast with persons 200% or more of the FPL, where unfilled caries rates were lower in 2011 to 2016 (16% vs 14%). NHANES data from 2011 to 2016 show that unfilled decay was highest among Mexican Americans, nonHispanic Blacks and the poor, while complete tooth loss (edentulism) is lowest among Whites and highest among the poor and African-Americans (Figure 32-8C). Disparities in access and dental conditions are the starkest in nursing homes and senior centers. In nine Basic Screening Surveys across the United States, edentulism ranged from 25% to 43% (median 33%) and unfilled caries from 25% to 53% (median 40%). National SEER data show that new oral and pharyngeal cancer rates are highest among male Whites, yet death rates are highest among African-American men (Figure 32-9).
+Baby boomers will be keeping their teeth longer and in greater numbers than ever before; however, dental decay (caries) is now as much of a problem in older adults as in children. NHANES caries data from 1999 to 2004 and 2011–2016 (Figure 32-8B) showed that among persons age 65 and older, prevalence of unfilled caries was higher among persons below 200% of the FPL (18% vs 25%) in contrast with persons 200% or more of the FPL, where unfilled caries rates were lower in 2011 to 2016 (16% vs 14%). NHANES data from 2011 to 2016 show that unfilled decay was highest among Mexican Americans, non-Hispanic Blacks and the poor, while complete tooth loss (edentulism) is lowest among Whites and highest among the poor and African-Americans (Figure 32-8C). Disparities in access and dental conditions are the starkest in nursing homes and senior centers. In nine Basic Screening Surveys across the United States, edentulism ranged from 25% to 43% (median 33%) and unfilled caries from 25% to 53% (median 40%). National SEER data show that new oral and pharyngeal cancer rates are highest among male Whites, yet death rates are highest among African-American men (Figure 32-9).
 
 ## COMPREHENSIVE ORAL EXAMINATIONS AND EVALUATIONS
 
@@ -266,9 +264,7 @@ A positive response to one or both predicts the need for treatment. Any combinat
 
 *FIGURE 32-8. A. Percent with past year dental care use among 65+ year olds, USA, 1999-2004 and 2011-2016. B. Percent with untreated dental caries among 65+ year olds, USA, 1999-2004 and 2011-2016. C. Percent with edentulism and untreated dental caries among 65+ year olds by income, race and ethnicity, USA, 2011. Federal poverty level (FPL) is a measure of income issued every year by the Department of Health and Human Services (HHS). (A & B, Data from Griffin SO, Thornton-Evans G, Wei L, et al. Disparities in dental use and untreated caries prevalence by income. JDR Clin Trans Res. 2021;6[2]:234–241. C, Data from Griffin SO, Griffin PM, Li CH, et al. Changes in older adults’ oral health and disparities: 1999 to 2004 and 2011 to 2016. J Am Geriatr Soc. 2019;67[6]:1152–1157.)*
 
-Important interactions may involve the primary care physician, specialist physician, nurse, nurse practitioner, physician assistant, dentist, dental specialist,
-
-dental hygienist, dental assistant, and health aides. One key goal is to determine the need for antibiotic premedication prior to dental treatment. Premedication is often considered for patients with risk for endocarditis, autoimmune disease, chemotherapy, joint replacement, or heart murmurs.
+Important interactions may involve the primary care physician, specialist physician, nurse, nurse practitioner, physician assistant, dentist, dental specialist, dental hygienist, dental assistant, and health aides. One key goal is to determine the need for antibiotic premedication prior to dental treatment. Premedication is often considered for patients with risk for endocarditis, autoimmune disease, chemotherapy, joint replacement, or heart murmurs.
 
 <a id="p465"></a>**[p. 465]**
 
@@ -284,9 +280,7 @@ When performing an intraoral assessment, the clinician should use a strong light
 
 ## ORAL HEALTH IN LONG-TERM CARE
 
-By the time of transition to a nursing home for long-term care, many frail older adults already need dental care. There is a clear need for community-based prevention before older people require long-term care. Prior to embarking
-
-on programs to prevent caries and other oral diseases in older people using, for example, fluoride varnish, patient navigation, and patient-centered counseling, it is important to take a community-based participatory approach to find out what older people want, and what would be acceptable options for preventive care.
+By the time of transition to a nursing home for long-term care, many frail older adults already need dental care. There is a clear need for community-based prevention before older people require long-term care. Prior to embarking on programs to prevent caries and other oral diseases in older people using, for example, fluoride varnish, patient navigation, and patient-centered counseling, it is important to take a community-based participatory approach to find out what older people want, and what would be acceptable options for preventive care.
 
 As the end of life draws near either in the long-term care setting or at home, goals of dental care may shift from aggressive treatment to a focus on comfort, safety, dignity, and preservation of function. In a Delphi study of the goals of oral health in long-term care, the 10 most important goals are shown in Table 32-7.
 
@@ -304,68 +298,55 @@ In some cases, patients are not able to gain access to care at each of these poi
 
 When obstacles are introduced, such as a patient with arthritis who is unable to hold the small handle of a toothbrush, the plan needs to be modified so it is doable. The solution to this example could be as simple as creating a larger handle by wrapping a sponge around the brush and securing it with medical tape, placing two small slits in a tennis or racquet ball and sliding the brush into the slits, securing the brush in a bicycle handle or purchasing an electric toothbrush with a larger handle. In most cases, the action of the electric brush can take the place of the movements that once were accomplished by the patient.
 
-It is also important for patients to continue to see the oral health team on a regular basis. The number of visits needed for older adults could range from quarterly to semiannual or an annual evaluation for the edentulous patient. These routine visits along with a strong care plan for twicedaily oral hygiene will greatly decrease the risk of complex
-
-problems arising in the oral cavity. The patient’s physician should communicate any major health changes to the oral health team, who will be able to assist in finding solutions for new barriers. When delivering oral health care within a long-term facility it is important to consider the cooperation and participation of the staff, patients, their families, and the administration. Without the support of the administration, delivery of oral health care is difficult. There are many models that can be designed to best fit the needs of each specific population. At a minimum, the facility should provide the space and time required to properly treat each patient and allow staff access for in-service training as required by the facility.
+It is also important for patients to continue to see the oral health team on a regular basis. The number of visits needed for older adults could range from quarterly to semiannual or an annual evaluation for the edentulous patient. These routine visits along with a strong care plan for twice-daily oral hygiene will greatly decrease the risk of complex problems arising in the oral cavity. The patient’s physician should communicate any major health changes to the oral health team, who will be able to assist in finding solutions for new barriers. When delivering oral health care within a long-term facility it is important to consider the cooperation and participation of the staff, patients, their families, and the administration. Without the support of the administration, delivery of oral health care is difficult. There are many models that can be designed to best fit the needs of each specific population. At a minimum, the facility should provide the space and time required to properly treat each patient and allow staff access for in-service training as required by the facility.
 
 ## ACKNOWLEDGMENTS
 
 The late Dr. Jonathan Ship wrote this chapter in the 6th edition. While we are not able to include him as an author in this chapter, much of the material from that chapter has been retained in this edition. The authors are grateful for Dr. Ship’s enduring leadership and lifetime contributions to the field of geriatric dental medicine and oral health in the older adult population.
 
 ## FURTHER READING
+- Atkinson JC, Grisius M, Massey W. Salivary hypofunction and xerostomia: diagnosis and treatment. Dent Clin North Am. 2005;49(2):309–326.
 
-Atkinson JC, Grisius M, Massey W. Salivary hypofunction
+- Bernabé E, Sheiham A. Age, period and cohort trends in caries of permanent teeth in four developed countries. Am J Public Health. 2014;104(7):e115–e121.
 
-and xerostomia: diagnosis and treatment. Dent Clin North Am. 2005;49(2):309–326. Bernabé E, Sheiham A. Age, period and cohort trends in
+- Calabrese J, Friedman P, Rose L, Jones J. Using the GOHAI to Assess Oral Health Status of Frail Homebound Elders: Reliability, Sensitivity & Specificity. Special Care in Dentistry, October 1999.
 
-caries of permanent teeth in four developed countries. Am J Public Health. 2014;104(7):e115–e121. Calabrese J, Friedman P, Rose L, Jones J. Using the GOHAI
+- Chalmers JM, Carter KD, Spencer AJ. Caries incidence and increments in community-living older adults with and without dementia. Gerodontology. 2002;19(2):80–94.
 
-to Assess Oral Health Status of Frail Homebound Elders: Reliability, Sensitivity & Specificity. Special Care in Dentistry, October 1999. Chalmers JM, Carter KD, Spencer AJ. Caries incidence and
+- Dye BA, Li X, Beltrán-Aguilar ED. Selected oral health indicators in the United States, 2005–2008. NCHS Data Brief, No 96. Hyattsville, MD: National Center for Health Statistics; 2012.
 
-increments in community-living older adults with and without dementia. Gerodontology. 2002;19(2):80–94. Dye BA, Li X, Beltrán-Aguilar ED. Selected oral health
+- Dye BA, Li X, Thornton-Evans G. Oral health disparities as determined by selected Healthy People 2020 oral health objectives for the United States, 2009–2010. NCHS Data Brief, No 104. Hyattsville, MD: National Center for Health Statistics; 2012.
 
-indicators in the United States, 2005–2008. NCHS Data Brief, No 96. Hyattsville, MD: National Center for Health Statistics; 2012. Dye BA, Li X, Thornton-Evans G. Oral health disparities as
+- Eke PI, Dye BA, Wei L, et al. Prevalence of periodontitis in adults in the United States: 2009 and 2010. J Dent Res. 2012;91(10):914–920.
 
-determined by selected Healthy People 2020 oral health objectives for the United States, 2009–2010. NCHS Data Brief, No 104. Hyattsville, MD: National Center for Health Statistics; 2012. Eke PI, Dye BA, Wei L, et al. Prevalence of periodontitis in
+- Gibson G, Jurasic M, Wehler C, Jones JA. Supplemental fluoride use for moderate and high caries risk adults: a systematic review. J Pub Health Dent. 2011;71:171–184.
 
-adults in the United States: 2009 and 2010. J Dent Res. 2012;91(10):914–920. Gibson G, Jurasic M, Wehler C, Jones JA. Supplemental
+- Greenberg MS, Glick M, Ship JA. Burket’s Oral Medicine: Diagnosis and Treatment. 11th ed. Hamilton, OH: BC Decker; 2007.
 
-fluoride use for moderate and high caries risk adults: a systematic review. J Pub Health Dent. 2011;71:171–184.
+- Griffin SO, Griffin P, Li CH, Bailey WD, Brunson D, Jones JA. Changes in older adults’ oral health and disparities: 1999 to 2004 and 2011 to 2016. J Am Geriatr Soc. 2019;67(6):1152–1157.
 
-Greenberg MS, Glick M, Ship JA. Burket’s Oral Medicine:
+- Griffin SO, Jones JA, Brunson D, Griffin P, Bailey WD. Burden of oral disease among older adults and implications for public health priorities. Am J Public Health. 2012;102(3):411–418.
 
-Diagnosis and Treatment. 11th ed. Hamilton, OH: BC Decker; 2007. Griffin SO, Griffin P, Li CH, Bailey WD, Brunson D, Jones
+- Griffin SO, Regnier E, Griffin PM, et al. Effectiveness of fluoride in preventing caries in adults. J Dent Res. 2007;86(5):410–415.
 
-JA. Changes in older adults’ oral health and disparities: 1999 to 2004 and 2011 to 2016. J Am Geriatr Soc. 2019;67(6):1152–1157. Griffin SO, Jones JA, Brunson D, Griffin P, Bailey WD.
+- Jones JA, Brown EJ. Target outcomes for long-term oral health care: a Delphi approach. J Public Health Dent. 2000;60(4):330–334.
 
-Burden of oral disease among older adults and implications for public health priorities. Am J Public Health. 2012;102(3):411–418. Griffin SO, Regnier E, Griffin PM, et al. Effectiveness
+- Jones JA, Spiro A III, Miller DR, Garcia RI, Kressin NR. Need for dental care in older veterans: assessment of patient-based measures. J Am Geriatr Soc. 2002;50:163–168.
 
-of fluoride in preventing caries in adults. J Dent Res. 2007;86(5):410–415. Jones JA, Brown EJ. Target outcomes for long-term oral
+- Migliorati CA, Siegel MA, Elting LS. Bisphosphonate-associated osteonecrosis: a long-term complication of bisphosphonate treatment. Lancet Oncol. 2006;7(6): 508–514.
 
-health care: a Delphi approach. J Public Health Dent. 2000;60(4):330–334. Jones JA, Spiro A III, Miller DR, Garcia RI, Kressin NR. Need
-
-for dental care in older veterans: assessment of patientbased measures. J Am Geriatr Soc. 2002;50:163–168. Migliorati CA, Siegel MA, Elting LS. Bisphosphonate-
-
-associated osteonecrosis: a long-term complication of bisphosphonate treatment. Lancet Oncol. 2006;7(6): 508–514. Musacchio E, Perissinotto E, Binotto P, et al. Tooth loss
-
-in the elderly and its association with nutritional status, socio-economic and lifestyle factors. Acta Odontol Scand. 2007;65(2):78–86.
+- Musacchio E, Perissinotto E, Binotto P, et al. Tooth loss in the elderly and its association with nutritional status, socio-economic and lifestyle factors. Acta Odontol Scand. 2007;65(2):78–86.
 
 <a id="p467"></a>**[p. 467]**
 
-National Cancer Institute. SEER Stat Fact Sheets: Oral
+- National Cancer Institute. SEER Stat Fact Sheets: Oral Cavity and Pharynx Cancer. Available at [https://seer.cancer.gov/statfacts/html/oralcav.html](<https://seer.cancer.gov/statfacts/html/oralcav.html>). Accessed October 26, 2020.
 
-Cavity and Pharynx Cancer. Available at [https://seer.cancer.gov/statfacts/html/oralcav.html](<https://seer.cancer.gov/statfacts/html/oralcav.html>). Accessed October 26, 2020. Pretty IA, Ellwood RP, Lo EC, et al. The Seattle Care Path-
+- Pretty IA, Ellwood RP, Lo EC, et al. The Seattle Care Pathway for securing oral health in older patients. Gerodontology. 2014;31(suppl 1):77–87.
 
-way for securing oral health in older patients. Gerodontology. 2014;31(suppl 1):77–87. Slade GD, Akinkugbe AA, Sanders AE. Projections of U.S.
+- Slade GD, Akinkugbe AA, Sanders AE. Projections of U.S. edentulism prevalence following 5 decades of decline. J Dent Res. 2014;93(10):959–965.
 
-edentulism prevalence following 5 decades of decline. J Dent Res. 2014;93(10):959–965.
+- Spielman AI, Ship JA. Taste and smell. In: Miles TS, Nauntofte B, Svensson P, eds. Clinical Oral Physiology. Copenhagen: Quintessence Publishing Co. Ltd; 2004: 53–70.
 
-Spielman AI, Ship JA. Taste and smell. In: Miles TS,
+- Terpenning M. Geriatric oral health and pneumonia risk. Clin Infect Dis. 2005;40(12):1807–1810.
 
-Nauntofte B, Svensson P, eds. Clinical Oral Physiology. Copenhagen: Quintessence Publishing Co. Ltd; 2004: 53–70. Terpenning M. Geriatric oral health and pneumonia risk.
-
-Clin Infect Dis. 2005;40(12):1807–1810. Yoshikawa M, Yoshida M, Nagasaki T, et al. Aspects of
-
-swallowing in healthy dentate elderly persons older than 80 years. J Gerontol A Biol Sci Med Sci. 2005;60(4): 506–509.
-
-<a id="p468"></a>**[p. 468]**
+- Yoshikawa M, Yoshida M, Nagasaki T, et al. Aspects of swallowing in healthy dentate elderly persons older than 80 years. J Gerontol A Biol Sci Med Sci. 2005;60(4): 506–509.

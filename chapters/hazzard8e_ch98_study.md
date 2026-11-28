@@ -96,7 +96,7 @@ After a benign aspirate, Hazzard advises ultrasound in **12–18 months**, then 
 - With antithyroid drugs, even in good candidates (Graves with mild-moderate hyperthyroidism and a small gland), recurrence exceeds **60%** (p1550).
 - Radioactive iodine: stop antithyroid drugs 3-5 days before; observe contact precautions for **5 days** after treatment (p1550).
 - Subclinical hyperthyroidism = low TSH, normal free T4/T3; prevalence **1-6%**, persistence **>50%** on repeat testing. Repeat thyroid testing in **3–6 months**. For older adults with persistent subclinical hyperthyroidism, the treatment goal is biochemical euthyroidism (p1551).
-  > Current practice (not the book): For adults aged 65 and older with endogenous subclinical hyperthyroidism, the ATA recommends treatment when TSH stays below 0.1 mU/L, and consideration of treatment when it remains between 0.1 mU/L and the lower reference limit. Consider symptoms, cardiac disease and osteoporosis. [ATA recommendations 83 and 85](https://doi.org/10.1089/thy.2016.0229).
+  > Current practice (not the book): For adults aged 65 and older with endogenous subclinical hyperthyroidism, the ATA recommends treatment when TSH stays below 0.1 mU/L, and consideration of treatment when it remains at or above 0.1 mU/L but below the lower reference limit. Consider symptoms, cardiac disease and osteoporosis. [ATA recommendations 73 and 75](https://doi.org/10.1089/thy.2016.0229).
 
 ### Hypothyroidism
 - Overt hypothyroidism = high TSH + low free T4; prevalence **1-2%**. T3 is not useful for assessing hypothyroidism (p1551).

@@ -174,7 +174,7 @@ Some urinary creatinine is secreted by proximal tubules rather than filtered. Cy
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-8af38ea7cc6ef7cd16c20dde"><span>June 2023 Basic Q105</span> Hypokalemic ECG changes</a> <a class="study-source-link" href="?chapter=82#p1270" aria-label="Related teaching, Related teaching · p1270">Related teaching · p1270</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-8af38ea7cc6ef7cd16c20dde"><span>June 2023 Basic Q105</span> Hypokalemic ECG changes</a> <a class="study-source-link" href="?chapter=82#p1270" aria-label="Related teaching · p1270">Related teaching · p1270</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7f1da57f641c281b8dd1d40"><span>May 2024 Q55</span> Pseudohyperkalemia</a> <a class="study-source-link" href="?chapter=82#p1271" aria-label="exam reference, p1271">p1271</a></p>
 

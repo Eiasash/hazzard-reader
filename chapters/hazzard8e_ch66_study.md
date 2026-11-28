@@ -35,7 +35,7 @@ Generalized anxiety often presents as worries about health, family or finances t
 
 The 2020 question describes continued distress after group treatment. Citalopram represents the SSRI choice among the answers; SSRIs, SNRIs and psychotherapy are options for persistent anxiety. Oxazepam can impair cognition and balance or produce dependence. Quetiapine adds antipsychotic risks, and donepezil does not target this persistent-worry syndrome. Review potentially aggravating medication before adding another. The book's interval for maximal SSRI effect does not describe the time to first improvement (p1027–1028, p1033–1034).
 
-> Current practice (not the book): Citalopram has dose-dependent QT effects. US prescribing information limits the dose to 20 mg once daily after age 60 and calls for attention to QT-prolonging co-medications, potassium and magnesium. - [Celexa prescribing information, 2023](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177).
+> Current practice (not the book): Citalopram has dose-dependent QT effects. US prescribing information limits the dose to 20 mg once daily after age 60 and calls for attention to QT-prolonging co-medications, potassium and magnesium. [Celexa prescribing information, 2023](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177).
 
 ### Sorting new psychosis by its time course
 
@@ -71,7 +71,7 @@ Establish a target symptom and the harm or distress it causes. Adjust the enviro
 
 Aripiprazole, olanzapine, quetiapine and risperidone were compared in a study of **332** outpatients over age 40 with psychotic symptoms and varied diagnoses. Metabolic syndrome developed in **36% over one year**, and more than half stopped the assigned agent within six months. Reassess a short-term response before continuing a prescription indefinitely. The chapter's general starting principle is about **25%–50%** of the younger adult starting dose followed by slow titration according to tolerability. It names other atypicals, including ziprasidone, paliperidone, iloperidone, asenapine and lurasidone, without a universal indication-specific dose for each. Document the rationale, monitor adverse effects and define when the continuing need will be reviewed (p1027–1028).
 
-> Current practice (not the book): Brexpiprazole has a US indication for agitation associated with dementia due to Alzheimer disease. That indication is specific to agitation and the antipsychotic boxed warning about increased mortality in older patients with dementia-related psychosis remains. - [FDA, 2023](https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-agitation-symptoms-associated-dementia-due-alzheimers-disease).
+> Current practice (not the book): Brexpiprazole has a US indication for agitation associated with dementia due to Alzheimer disease. That indication is specific to agitation and the antipsychotic boxed warning about increased mortality in older patients with dementia-related psychosis remains. [FDA, 2023](https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-agitation-symptoms-associated-dementia-due-alzheimers-disease).
 
 ### Mood symptoms and immediate safety
 
@@ -97,7 +97,7 @@ The book describes ropinirole and pramipexole for restless legs and limb movemen
 
 > Current practice (not the book): Avoid zolpidem, eszopiclone and zaleplon in most older adults. Their small average sleep benefit must be weighed against delirium, falls, fractures and other adverse effects. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 
-> Current practice (not the book): For adult restless legs syndrome, AASM advises against routine long-term use of pramipexole or ropinirole because augmentation can make symptoms start earlier or become more intense. Its recommendations favor gabapentin-class options for appropriate patients and include assessment of iron status. - [American Academy of Sleep Medicine guideline, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
+> Current practice (not the book): For adult restless legs syndrome, AASM advises against routine long-term use of pramipexole or ropinirole because augmentation can make symptoms start earlier or become more intense. Its recommendations favor gabapentin-class options for appropriate patients and include assessment of iron status. [American Academy of Sleep Medicine guideline, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
 
 ### Alcohol, sedatives and other substances
 

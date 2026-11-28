@@ -374,7 +374,7 @@ Management of malignant cerebral infarction Hemicraniectomy may be considered wh
 
 In cerebellar ischemic strokes larger than 2 to 3 cm in diameter, decompressive posterior fossa craniectomy may also be performed if the patient shows signs of clinical deterioration, to avoid brain stem compression and upward herniation.
 
-#### Long-term Preventive Strategies
+### Long-term Preventive Strategies
 
 Preventive strategies for controlling primary risk factors Treatment of hypertension is, by far, the most important aspect of risk factor control. Achieving and maintaining blood pressure treatment targets are probably more important than class effects of the drugs. Among other recommendations for a healthy cardiovascular health, AHA/ASA strongly encourages people to aim achieving optimal targets in seven metrics that compose Life’s Simple 7 as follows: (1) no smoking or quitting smoking for > 12 months; (2) BMI < 25 kg/m<sup>2</sup>; (3) physical activity of at least 150 min/week of moderate activity or at least 75 min/week of vigorous activity or at least 150 min/week of moderate and vigorous activity; (4) diet that includes (a) more than 4.5 cups/ day of fruits and vegetables, (b) more than 2 servings/ week of fish, (c) more than 3 servings/day or whole grains, (d) no more than 36 oz/week of sugar-sweetened beverages, and (e) 1500 mg/day of sodium; (5) blood pressure < 120/80 mm Hg, (6) total cholesterol < 200 mg/dL; and (7) fasting plasma glucose < 100 mg/dL. Following the Third Report of the National Cholesterol Education Program Expert Panel on Detection, Evaluation, and Treatment of High Blood Cholesterol in Adults (ATP III) guidelines for prevention of MI, the primary goal is lowering the lowdensity lipoprotein (LDL). Risk factor adjustments
 
@@ -392,7 +392,7 @@ Intracranial hemorrhages are classified according to the site of origin. The dia
 
 are predominantly traumatic and are not considered a form of hemorrhagic stroke. This section will therefore be concerned with ICH and SAH. Hemorrhagic stroke accounts for approximately 15% of all strokes. ICH may be further divided by location into deep ICH (arising in the deep hemispheric portions of the brain, including the basal ganglia, thalamus, brain stem, and cerebellum) and lobar ICH (arising in the cortex or at the junction of the cortex and the white matter). Hypertension is the most common cause of spontaneous ICH, while CAA is the most common cause of spontaneous lobar ICH in the older adults.
 
-#### Intracerebral Hemorrhage
+### Intracerebral Hemorrhage
 
 Deep hemispheric hemorrhage Hypertension is by far the major cause of hemorrhage in deep brain locations. The most common sites are the putamen, thalamus, pons, and cerebellum. A penetrating artery arising from one of the major intracranial arteries (middle cerebral stem or M1 segment, basilar artery, or PCA) is generally the source of the hemorrhage. These same vessels are also frequently affected by lipohyalinosis, and when occlusion occurs rather than rupture, lacunar infarction is the outcome.
 

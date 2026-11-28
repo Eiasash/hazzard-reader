@@ -129,7 +129,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - **Melatonin / low-dose clonazepam** — RBD in DLB/MSA (p984, p986).
 - **Riluzole** (FDA-approved) — ALS: extends survival, delays need for ventilation (p991).
 
-> Current practice (not the book): Edaravone is available in IV and oral formulations. Tofersen received accelerated US approval for ALS in adults with a pathogenic SOD1 mutation on the basis of a biomarker endpoint. Genotype and treatment burden matter when discussing these drugs. [FDA tofersen label, 2023](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81356b45-1cb7-4eef-88ea-e44cc18b47c5).
+> Current practice (not the book): Edaravone is available in IV and oral formulations. Tofersen received accelerated US approval for ALS in adults with ALS and a mutation in the SOD1 gene on the basis of a reduction in plasma neurofilament light chain; continued approval may depend on confirmation of clinical benefit. Genotype and treatment burden matter when discussing these drugs. [FDA tofersen label, 2023](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81356b45-1cb7-4eef-88ea-e44cc18b47c5).
 - **Midodrine / fludrocortisone** — MSA orthostatic hypotension (p986).
 - **Botulinum toxin** — CBD dystonic limb, adjunct therapy (p992).
 

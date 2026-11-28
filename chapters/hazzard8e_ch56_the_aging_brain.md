@@ -42,7 +42,6 @@ The success of modern medicine during the last century has been followed by a sh
 
 *FIGURE 56-1. Cognitive changes as a result of aging. Trends of normal aging, mild cognitive impairment (MCI), and dementia due to Alzheimer disease (AD) are shown. Due to the progressive increase in lifespan, a higher number of individuals can now reach the age where specific cognitive changes (as a result of normal aging, MCI, or AD) are observed.*
 
-
 ## AGING AND COGNITION
 
 A large segment of the world population will experience some degree of cognitive decline during aging (Figure 56-1). This decline most typically affects working memory as well as short-term and delayed memory recall; however, a smaller group of individuals will also experience reduced information processing speed and spatial memory. Most of the decline appears to occur after the age of 60 with minimal or nonexistent changes occurring between the age of 20 and 60. Functional magnetic resonance imaging and positron emission tomography studies suggest that the cognitive decline might be linked to the progressive reduction in the volume of specialized memory-forming and processing brain areas (Figure 56-2). Similar age-associated changes have been observed in nonhuman primates, dogs, rats, and mice, suggesting intrinsic age-associated events. Nonmedical interventions, such as physical exercise, cognitive stimulation, and diet together with treatment of common medical comorbidities, such as obesity, hypertension, hypercholesterolemia, diabetes, and metabolic/hormonal imbalances, might help mitigate age-associated declines.
@@ -58,7 +57,6 @@ The ability of the brain to reorganize, develop, and prune neural pathways is ca
 ![Figure 56-2](hazzard8e_ch56_figure-56-2_p837.webp)
 
 *FIGURE 56-2. Volumetric changes in the human brain as a function of age. A. Magnetic resonance imaging (MRI) sections from a 24-year-old healthy woman; B. MRI sections from an 80-year-old healthy woman (nondemented, Mini Mental State Examination = 30, APOE ε3/ε3). The older brain has more atrophy, larger sulci, larger ventricles, and different shape of ventricles due to loss of tissue. Atrophied cerebellum is also noticeable. C. Scatter plots of total gray matter volume (upper panel) and white matter volume (lower panel) derived from healthy volunteers who underwent T1-weighted MRI. Gray matter shows a linear decline with age, whereas white matter (largely myelin) shows a nonlinear decline. (Reproduced with permission from Dr. Barbara Bendlin, Department of Medicine, University of Wisconsin-Madison.)*
-
 
 These deficits correlate with performance in hippocampaldependent memory tasks. Furthermore, LTP is reduced in the hippocampus of aged rats that demonstrate cognitive impairments relative to aged unimpaired (resilient) rats. Studies have also demonstrated that aged impaired rats are more susceptible to LTD. Specifically, the stimulus threshold for the induction of LTD is lower in aged rats, perhaps making it easier to erase memories. Finally, mouse models of accelerated aging display early and evident deficits in both LTP and LTD that correlate with memory impairment on behavioral tests.
 
@@ -78,7 +76,6 @@ Aging is characterized by significant molecular, structural, cytoskeletal, neuro
 
 *FIGURE 56-3. Simplified view of changes affecting the brain as a function of age.*
 
-
 types in the brain undergo structural changes as a function of age. These changes include nerve cell death, dendritic retraction and expansion, synaptic loss and remodeling, and glial cell (specifically, astrocytes and microglia) reactivity. Such structural changes may result from alterations in cytoskeletal proteins and the deposition of insoluble proteins such as tau and α-synuclein inside neuronal cells and amyloid in the extracellular space. Finally, alterations in cellular signaling pathways that control cell growth and motility may contribute to both adaptive and pathologic structural changes in the aging brain. Table 56-1 provides a brief summary of the most prominent changes.
 
 ### Functional Connectivity Changes
@@ -88,7 +85,6 @@ MRI-based analysis of structural and functional connectivity has revealed that t
 ![Table 56-1](hazzard8e_ch56_table-56-1_p838.webp)
 
 *TABLE 56-1 ■ MOST PROMINENT STRUCTURAL CHANGES OF THE AGING BRAIN*
-
 
 well as inter-connectivity. Several cross-sectional studies support the conclusion that old age is associated with lower “within-network” and higher “between-network” connectivity. This shift is associated with reduced performance on memory- and executive-based tasks. The between network connectivity might reflect a compensatory attempt to maintain functional regional activity. Interestingly, there is also evidence that older adults display increased bilateral brain activation, while younger adults display preferential unilateral activation to achieve the same task-based performance. A major caveat of these studies is that they are almost exclusively cross-sectional; indeed, the few longitudinal studies performed so far have generated inconclusive results.
 
@@ -222,7 +218,7 @@ The above competing activity of neurotrophin receptors is further complicated by
 
 Autophagy is an evolutionary conserved catabolic process that enables the cell to respond to both extracellular and intracellular stress signals in order to maintain cellular homeostasis. It helps dispose of large toxic protein aggregates that form within the cell, digest sick/damaged organelles, respond to pathogenic infections, and manage a plethora of metabolic challenges. The basic process of
 
-autophagy requires “sequestration” of unwanted material (ie, toxic protein aggregates or damaged organelles) into a double-membrane vesicular structure called autophagosome, which then will fuse with lysosomes where enzymatic digestion of the entire autophagosome occurs. This process is tightly regulated and involves more than 40 different proteins collectively referred to as the “autophagy machinery.” To ensure correct activation and recruitment of this machinery, the cell has devised a series of organelleand compartment-specific receptors that allow autophagy to be activated in a very specific and targeted fashion. Words like reticulophagy/ER-phagy, mitophagy, and nucleophagy are examples of commonly used expressions to indicate ER-specific autophagy, mitochondria-specific autophagy, and nucleus-specific autophagy, respectively.
+autophagy requires “sequestration” of unwanted material (ie, toxic protein aggregates or damaged organelles) into a double-membrane vesicular structure called autophagosome, which then will fuse with lysosomes where enzymatic digestion of the entire autophagosome occurs. This process is tightly regulated and involves more than 40 different proteins collectively referred to as the “autophagy machinery.” To ensure correct activation and recruitment of this machinery, the cell has devised a series of organelle- and compartment-specific receptors that allow autophagy to be activated in a very specific and targeted fashion. Words like reticulophagy/ER-phagy, mitophagy, and nucleophagy are examples of commonly used expressions to indicate ER-specific autophagy, mitochondria-specific autophagy, and nucleus-specific autophagy, respectively.
 
 Malfunction of autophagy contributes to the progression of many diseases across lifespan, including sporadic and hereditary forms of neurodegeneration, cancer, inflammation, and many age-associated diseases. Reduced or malfunction of autophagy is also considered a hallmark of cellular aging. Many progressive forms of neurodegenerative diseases, including Alzheimer disease, Parkinson disease, and taupoathies [sic; tauopathies] are characterized by the aberrant accumulation of toxic protein aggregates. Compelling data indicate that increased levels of autophagy can be beneficial in mouse models of diseases characterized by increased accumulation of toxic protein aggregates. As such, improving normal proteostatic mechanisms is an active target for biomedical research, thus explaining the large number of ongoing clinical trials exploring the therapeutic potential of stimulating autophagy.
 
@@ -241,7 +237,6 @@ Several microarray studies have now been performed in mice, rats, nonhuman prima
 ![Table 56-2](hazzard8e_ch56_table-56-2_p845.webp)
 
 *TABLE 56-2 ■ GENETIC PATHWAYS OF THE BRAIN THAT ARE AFFECTED BY AGING*
-
 
 Alzheimer disease supporting the view that a continuum might exist between normal aging and Alzheimer disease.
 
@@ -270,7 +265,6 @@ Considerable progress has been made in studying human genetic disorders that cau
 ![Table 56-3](hazzard8e_ch56_table-56-3_p846.webp)
 
 *TABLE 56-3 ■ SEGMENTAL PROGEROID SYNDROMES WITH COGNITIVE CHANGES*
-
 
 include Werner syndrome, Bloom syndrome, Rothmund– Thomson syndrome, Hutchinson–Gilford progeria syndrome, and Cokayne syndrome. Patients affected by these disorders have limited lifespan and develop a complex array of disease manifestations, including type 2 diabetes, osteoporosis, hair loss, skin atrophy, atherosclerosis, cardiomyopathy, heart failure, chronic obstructive pulmonary disease, renal insufficiency, and neurologic abnormalities. The neurologic defects are often subtle and difficult to diagnose; when evident, they include bulbar, extrapyramidal and cerebellar symptoms, deafness, retinopathy, cognitive deficits, corticospinal symptoms, and peripheral neuropathy. Brain imaging shows diffused white matter pathology as well as different degrees of gray matter pathology in memory-forming and processing areas. The genetic defect has been mapped in most classical forms of progeroid syndromes. Specifically, Werner syndrome has been associated with mutations in WRN; Bloom syndrome has been associated with mutations in BLM; Rothmund–Thomson syndrome has been associated with mutations in RECQL4; Hutchinson–Gilford progeria syndrome has been associated with mutations on LMNA; and Cokayne syndrome has been associated with mutations in ERCC8 and ERCC6. All the above genes encode proteins that are involved in different aspects of DNA transcription, repair, or recombination underscoring common pathogenic elements.
 
@@ -320,7 +314,6 @@ Apart from genetic manipulation, the only known means of increasing the lifespan
 
 *TABLE 56-4 ■ PREVENTIVE MEASURES TO PROTECT THE AGING BRAIN*
 
-
 although it remains to be determined whether maximum lifespan can be increased through calorie restriction. Epidemiologic data suggest that individuals with a low-calorie intake are at a reduced risk for Alzheimer disease and Parkinson disease. Biochemical markers of aging, and deficits in learning and memory and motor function, are retarded in rodents maintained on dietary restriction. Neurons in the brains of rats and mice maintained on dietary restriction are more resistant to dysfunction and death in experimental models of Alzheimer disease, Parkinson disease, Huntington disease, and stroke. A 20-year longitudinal study in Rhesus macaques showed that a 30% reduction in daily calorie intake reduced the rate of age-related deaths as well as the incidence of typical age-associated diseases, such as diabetes, cancer, cardiovascular disease, and brain atrophy. The ability of calorie restriction to prevent brain atrophy was observed across several gray matter areas involved in both motor and executive functions. Magnetic resonance imaging also showed preserved volumes and insulin sensitivity in memory-forming and processing areas, while postmortem histology showed reduced astrogliosis. Therefore, a large body of evidence from lower organisms to nonhuman primates delineates a relationship between calorie intake and progression of aging and/or incidence of ageassociated events. The mechanism whereby caloric restriction increases the resistance of neurons to the adverse effects of aging is not entirely known. Studies in yeast, worms, flies, rodents, and monkeys suggest that the reduced calorie intake causes a comprehensive metabolic reprogramming that involves key nutrient-responsive signaling pathways.
 
 ### Folic Acid (Homocysteine)
@@ -352,7 +345,6 @@ The steady increase in average human lifespan has also been accompanied by a ste
 ![Table 56-5](hazzard8e_ch56_table-56-5_p850.webp)
 
 *TABLE 56-5 ■ BIOMARKERS OF AGING AND ALZHEIMER DISEASE*
-
 
 disease patients from cognitively normal/stable individuals and correlates with the severity of the pathological changes observed at autopsy. Although there is no experimentally proven explanation for the association between reduced CSF Aβ42 measured in living patients and the amyloid plaque load observed at the autopsy, the fact that they correlate has been consistently documented. The predicting power of measuring CSF Aβ improves when both the 42 and 40 amino acid-long forms of the peptide are measured. Indeed, the Aβ42/Aβ40 ratio shows higher concordance with amyloid PET imaging. Again, although there is no experimentally proven explanation for the increased predicting value of the Aβ42/Aβ40 ratio, the association with the severity of the disease shows a mean sensitivity and specificity around 85% to 90%. Furthermore, the CSF Aβ42/Aβ40 ratio appears to resolve nonspecific features of Aβ42 measures alone. Indeed, decreased CSF Aβ42 levels are also observed in other forms of dementia, such as frontotemporal dementia and Lewy body dementia, while changes in CSF Aβ42/ Aβ40 ratio are not. CSF levels of total tau appear to correlate very strongly with the severity of AD patients. Tau is a cytosolic protein and its release to the extracellular space can only occur as a result of neurodegeneration. As such, it is not surprising that levels of tau reflect the severity of the neurodegenerative damage. Although CSF levels of total tau do not differentiate Alzheimer disease from other neurodegenerative diseases, levels of phosphorylated (phospho)-tau appear to be quite specific for Alzheimer disease. Currently, different biochemical assays are available for the analysis of phospho-tau species. Combining Aβ and tau
 

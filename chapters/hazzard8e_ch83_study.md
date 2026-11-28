@@ -108,7 +108,7 @@ Prevalence **2–3%** of general hypertensive population; up to **40%** of refra
 
 Atherosclerosis accounts for almost **90%** of renovascular disease in the geriatric population. Hazzard calls the other cause **“fibrous dysplasia”** in the prose (<a href="?chapter=83#p1287">p1287</a>) and <a href="?chapter=83#book-table-83-3">Table 83-3</a> (<a href="?chapter=83#p1288">p1288</a>).
 
-> **Current practice: Fibromuscular dysplasia.** the accepted vascular diagnosis is **fibromuscular dysplasia** — [International consensus, 2019](https://pubmed.ncbi.nlm.nih.gov/30648921/).
+> **Current practice: Fibromuscular dysplasia.** the accepted vascular diagnosis is **fibromuscular dysplasia**. [International consensus, 2019](https://pubmed.ncbi.nlm.nih.gov/30648921/).
 
 Duplex ultrasound sensitivity/specificity: low-to-mid **90%** range (<a href="?chapter=83#p1288">p1288</a>).
 
@@ -170,7 +170,7 @@ Renal anemia typically reflects inadequate erythropoietin and a hypoproliferativ
 
 Anemia in CKD is typically normochromic and normocytic and develops around GFR **35 mL/min**. Hazzard prints a conservative hemoglobin target “near **11.5 mg/dL**” (<a href="?chapter=83#p1294">p1294</a>). *[sic — hemoglobin is measured in g/dL here.]*
 
-> **Current practice: Hemoglobin target with an ESA.** in adults receiving an ESA, target hemoglobin **below 11.5 g/dL** — [KDIGO 2026, recommendation 3.3.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf).
+> **Current practice: Hemoglobin target with an ESA.** in adults receiving an ESA, target hemoglobin **below 11.5 g/dL**. [KDIGO 2026, recommendation 3.3.1](https://kdigo.org/wp-content/uploads/2026/04/KDIGO-2026-Anemia-in-CKD-Guideline.pdf).
 
 Hazzard describes ferritin **<500 ng/mL** or transferrin saturation **<30%** under its historical “functional iron deficiency” wording (<a href="?chapter=83#p1294">p1294</a>).
 

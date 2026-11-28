@@ -35,7 +35,7 @@ Resolution requires dying neutrophils to be cleared by macrophages. In the human
 ## Vaccine responses and investigational treatments
 
 - **Influenza.** Increasing the antigen dose or adding an adjuvant can improve responses in older adults. The high-dose vaccine had **24% relative efficacy for preventing influenza-like illness** compared with standard dose in the trial summarized on p60.
-  > Current practice (not the book): DíazGranados et al. specified **laboratory-confirmed influenza associated with protocol-defined influenza-like illness** as the primary outcome — [NEJM, 2014](https://doi.org/10.1056/NEJMoa1315727).
+  > Current practice (not the book): DíazGranados et al. specified **laboratory-confirmed influenza associated with protocol-defined influenza-like illness** as the primary outcome. [NEJM, 2014](https://doi.org/10.1056/NEJMoa1315727).
 - **Zoster.** Loss of cell-mediated control allows latent varicella zoster virus to reactivate. Protection with the older live vaccine fell markedly with age. In separate trials, the adjuvanted recombinant vaccine reduced shingles by 97% in adults aged 50 or older and by 90% in those aged 70 or older. The older cohort also had fewer cases of postherpetic neuralgia (p60–61).
 - **Pneumococcus.** Capsular polysaccharide triggers chiefly a direct B-cell response. Attaching it to a carrier protein recruits T-cell help and allows immune memory to form. CAPiTA found fewer cases of vaccine-type pneumonia and invasive disease with the 13-valent conjugate vaccine, in a population studied before widespread use of conjugate vaccine in Dutch children. Childhood vaccination can change older adults’ exposure to those serotypes (p61).
 - **COVID-19.** The chapter describes stronger inflammatory responses in severe illness and substantial variation across clinical studies. The original mRNA vaccine trials found protection in older participants, with neutralizing antibodies and T-cell responses. Their initial estimates covered the strains and follow-up periods studied (p61–62).
@@ -68,7 +68,7 @@ Resolution requires dying neutrophils to be cleared by macrophages. In the human
 - Pneumococcal polysaccharide vaccine is largely T-independent; conjugation enables T-cell help and memory. CAPiTA's Dutch results may not transfer directly to US settings with childhood conjugate vaccination (p61).
 - Coronavirus disease disproportionately affected older adults; inflammatory and immune-response changes are under investigation, with heterogeneous clinical studies (p61-62).
 - Hazzard reports that **low-dose rapamycin** enhanced older adults’ antibody response to influenza vaccination by **about 20%**. The mouse experiments on p60 measured lifespan, a different outcome.
-  > Current practice (not the book): the human vaccine trial used the mTOR inhibitor **everolimus (RAD001)**, a rapamycin derivative. It studied immune responses rather than human longevity — [Mannick et al., 2014](https://pubmed.ncbi.nlm.nih.gov/25540326/).
+  > Current practice (not the book): the human vaccine trial used the mTOR inhibitor **everolimus (RAD001)**, a rapamycin derivative. It studied immune responses rather than human longevity. [Mannick et al., 2014](https://pubmed.ncbi.nlm.nih.gov/25540326/).
 
 ## Exam questions
 

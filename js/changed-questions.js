@@ -50,7 +50,7 @@ window.HazzardChanged = (() => {
       const tab = document.querySelector('#appTabs [data-tab="practice"]');
       let badge = tab?.querySelector('.changed-count');
       if (tab && !badge) { badge = document.createElement('small'); badge.className = 'changed-count'; tab.append(badge); }
-      if (badge) { badge.textContent = questions.length ? String(questions.length) : ''; badge.setAttribute('aria-hidden','true'); badge.hidden = !questions.length; }
+      if (badge) { badge.textContent = ''; badge.setAttribute('aria-hidden','true'); badge.hidden = !questions.length; }
       const status=document.getElementById('changedQuestionsStatus');if(status)status.textContent=label;
       tab?.setAttribute('aria-label', questions.length ? 'Practice — ' + label : 'Practice');
       const details = document.createElement('details'), summary = document.createElement('summary');

@@ -83,7 +83,7 @@ Mechanical valves are durable but thrombogenic. A mechanical mitral prosthesis r
 
 For prophylaxis, establish the cardiac risk and the procedure before choosing a drug. December 2021 Q51 describes routine diagnostic bronchoscopy in a patient with native rheumatic mitral stenosis. This scenario requires no endocarditis prophylaxis. Qualifying dental procedures in a patient with a prosthetic valve or previous endocarditis are a different setting. June 2025 Basic Q134 accepted two oral regimens for a penicillin-allergic patient. Table 75-14 lists **clindamycin 600 mg** or **cephalexin 2 g orally 1 hour before the procedure** for a penicillin-allergic adult (p1161).
 
-> Current practice (not the book): AHA dental guidance instead includes azithromycin 500 mg 30–60 minutes before the procedure and removes clindamycin. [AHA prevention card, adult dental regimens](https://www.heart.org/-/Media/Files/Health-Topics/Infective-Endocarditis/Infective-Endocarditis-Wallet-Card.Pdf)
+> Current practice (not the book): AHA dental guidance instead includes azithromycin 500 mg 30–60 minutes before the procedure and removes clindamycin. [AHA prevention card, adult dental regimens](https://www.heart.org/-/media/Files/Health-Topics/Infective-Endocarditis/Infective-Endocarditis%20Wallet-Card.pdf)
 
 ## Other valve decisions
 
@@ -110,7 +110,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Valve sclerosis (thickening, no obstruction): **25%** of >65y, **48%** of >75y; progresses to frank stenosis in **~10%** within 5 years (p1150).
 - Average progression: jet velocity **+0.3 m/s/yr**, valve area **−0.1 cm²/yr** (p1150).
 - **Severe AS (Table 75-1, p1150):** aortic valve area **<1.0 cm²**, jet velocity **>4 m/s**, mean gradient **>40 mm Hg**.
-  > Current practice (not the book): ACC/AHA describes severe high-gradient AS as peak velocity **≥4.0 m/s** or mean gradient **≥40 mm Hg**; valve area is typically **≤1.0 cm²** — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
+  > Current practice (not the book): ACC/AHA describes severe high-gradient AS as peak velocity **≥4.0 m/s** or mean gradient **≥40 mm Hg**; valve area is typically **≤1.0 cm²**. [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - Classic triad once symptomatic: angina (**50%** 5-yr survival untreated), syncope (**50%** 3-yr mortality), heart failure (**50%** mortality at 2 yr — worst prognosis) (p1151).
 - Sudden death <1% while truly asymptomatic (p1150); acquired platelet/von Willebrand dysfunction from severe AS can cause epistaxis or ecchymoses in **20%** of patients, and patients can also develop Heyde syndrome (GI bleeding from colonic angiodysplasias); these abnormalities resolve with valve replacement (p1151).
 - Exercise testing in "asymptomatic" severe AS unmasks symptoms in up to a third; positive test (symptoms, failure of systolic BP to rise by at least 20 mm Hg, or ST-segment abnormalities) → **19%** 2-yr symptom-free survival vs **85%** if negative (p1151).
@@ -119,7 +119,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - SAVR bioprosthetic structural deterioration **~10%** at 15–20 yr; Medicare operative mortality **8.8%** overall, **6.0%** at high-volume centers (p1152).
 - Referral bias: **41%** of >70y (European study) and **33%** of >75y (second study: 1200 patients, 92 centers, 25 countries) with severe symptomatic AS were not offered surgery/valve replacement (p1152).
 - Hazzard defines **prohibitive SAVR risk** as an STS predicted risk of morbidity and mortality **over 50%** due to comorbidity or serious irreversible conditions. It describes TAVR durability **beyond five years as unknown** and notes the possibility of valve-in-valve reintervention (p1153).
-  > Current practice (not the book): randomized NOTION follow-up reports valve outcomes through **10 years** in lower-risk patients — [NOTION follow-up, 2024](https://doi.org/10.1093/eurheartj/ehae043).
+  > Current practice (not the book): randomized NOTION follow-up reports valve outcomes through **10 years** in lower-risk patients. [NOTION follow-up, 2024](https://doi.org/10.1093/eurheartj/ehae043).
 - Table 75-3 (SAVR vs TAVR vs palliative selection): SAVR favored for longer life expectancy, few frailty markers, TAVR-unsuitable anatomy, or concomitant coronary artery disease or valve disease (lower reintervention/PPM/vascular-complication risk, longer stay); TAVR favored for shorter life expectancy, severe comorbidities/mobility issues, or prior chest irradiation (shorter stay, but accepts possible risk of repeat intervention and higher PPM/vascular-complication risk) (p1153).
 - Palliative care (same table): temporary symptomatic relief without life prolongation, avoiding periprocedural stroke/PPM/vascular-complication risk — for limited life expectancy, severe dementia/frailty/multiorgan impairment, valve anatomy/access unsuitable for TAVR, or goals of care against futile procedures (p1153).
 
@@ -140,7 +140,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - Symptom onset lags rheumatic fever by **20–40 years** (p1156).
 - Once symptomatic, 10-yr survival only **50–60%**; asymptomatic or minimally symptomatic 10-yr survival **80%**; unoperated despite meeting surgical criteria: 10-yr survival **< 30%** (p1156).
 - **Severe mitral stenosis in Table 75-7 (p1156): mitral valve area <1.0 cm²**, pulmonary artery pressure **>50 mm Hg** and mean gradient **>10 mm Hg**. Gradient varies with flow and heart rate.
-  > Current practice (not the book): ACC/AHA staging defines severe rheumatic MS by mitral valve area **≤1.5 cm²** and very severe MS by **≤1.0 cm²** — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
+  > Current practice (not the book): ACC/AHA staging defines severe rheumatic MS by mitral valve area **≤1.5 cm²** and very severe MS by **≤1.0 cm²**. [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 - **30–40%** of older MS patients present with AF; with AF, 10-yr survival **25%** vs **46%** if they remain in sinus rhythm (p1156).
 - Systemic emboli in **20%** of patients (p1157).
 - Percutaneous balloon valvuloplasty: **90%** get symptomatic relief; freedom from complications/death **50–65%** at 7 yr (up to **80–90%** with favorable pre-procedure score) (p1157).
@@ -153,7 +153,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - 10-yr survival by EF: **32%** if EF < 50%, **53%** if borderline EF 50–60%, **70%** if EF > 60% — all untreated (p1158).
 - Table 75-10 severe cutoffs: vena contracta **≥ 0.7 cm**, regurgitant volume **≥ 60 mL/beat**, RF **≥ 50%**; EROA row prints "**≥ 40**" cm² — almost certainly a misprint for ≥0.40 (see exam-trap note) (p1158).
 - **Mitral repair durability:** p1159 describes good durability but prints 7–10% as “freedom from reoperation,” an inconsistent endpoint label.
-  > Current practice (not the book): in a surgical cohort of 1,604 patients, actual freedom from reoperation after repair was **93.6% at 10 years**. Durability depends on anatomy, repair technique and population — [Glauber et al., 2015](https://doi.org/10.1186/s13019-015-0390-y).
+  > Current practice (not the book): among the 1,137 patients who underwent mitral repair in a surgical cohort of 1,604, Kaplan–Meier freedom from reoperation was **93.6 ± 1.1% at 10 years**. Durability depends on anatomy, repair technique and population. [Glauber et al., 2015](https://doi.org/10.1186/s13019-015-0390-y).
 - Operative mortality: **2%** for repair vs **6%** for replacement overall; a 292-patient >70y cohort found **0.7%** in-hospital mortality for repair vs **14%** for replacement (p1160).
 - Elsewhere in the same chapter, repair-vs-replacement mortality is instead quoted as **1–2%** vs **5.4–6.4%** (p1163) — a second, different pair of numbers for the same comparison; the two estimates differ.
 
@@ -162,7 +162,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 - **Endocarditis prophylaxis for eligible adults (Table 75-14, p1161):** give **amoxicillin 2 g PO 1 hour before**. For penicillin allergy the table lists **clindamycin 600 mg** or **cephalexin 2 g PO 1 hour before**. If oral dosing is impossible, the table lists ampicillin 2 g IV/IM 30 minutes before, or clindamycin 600 mg IV or cefazolin 1 g IV/IM 30 minutes before for penicillin allergy.
   > Current practice (not the book): clindamycin is no longer recommended for dental prophylaxis; penicillin-allergic options are cephalexin, azithromycin/clarithromycin or doxycycline PO, or cefazolin/ceftriaxone IM/IV — but no cephalosporin after anaphylaxis, angioedema or urticaria with penicillin/ampicillin — AHA endocarditis prophylaxis wallet card.
 - **Prosthetic valves (Table 75-15, p1161):** a mechanical aortic valve uses **INR 2–3**, or **2.5–3.5** with additional risk factors; a mechanical mitral valve uses **INR 2.5–3.5**. The table adds **aspirin 75–325 mg/day** for mechanical valves. For a bioprosthetic aortic or mitral valve without additional risk factors, it gives **INR 2–3 for 3 months plus aspirin 75–100 mg/day**. With risk factors the printed bioprosthetic ranges are **2–3** for aortic and **2.5–3.5** for mitral, with aspirin **75–100 mg/day**.
-  > Current practice (not the book): US guidance targets INR 2.5 for a current-generation mechanical aortic valve without additional thromboembolic risk and 3.0 for a mechanical mitral valve; VKA to INR 2.5 for 3–6 months is reasonable after selected surgical bioprosthetic replacements. With a mechanical valve on VKA, adding low-dose aspirin 75–100 mg/day for antiplatelet therapy requires a separate indication (ESC/EACTS: concomitant symptomatic atherosclerotic disease) and low bleeding risk; ESC/EACTS 2025 class IIa, level B — ESC/EACTS 2025, Eur Heart J 2025;46:4635; ACC/AHA 2020 class 2b, level B-R — ACC/AHA 2020, Circulation 2021;143:e142.
+  > Current practice (not the book): US guidance targets INR 2.5 for a current-generation mechanical aortic valve without additional thromboembolic risk and 3.0 for a mechanical mitral valve; VKA to INR 2.5 for 3–6 months is reasonable after surgical bioprosthetic aortic or mitral replacement in patients at low risk of bleeding. With a mechanical valve on VKA, adding low-dose aspirin 75–100 mg/day for antiplatelet therapy requires a separate indication (ESC/EACTS: concomitant symptomatic atherosclerotic disease) and low bleeding risk; ESC/EACTS 2025 class IIa, level B — ESC/EACTS 2025, Eur Heart J 2025;46:4635; ACC/AHA 2020 class 2b, level B-R — ACC/AHA 2020, Circulation 2021;143:e142.
 - Thromboembolism risk **1–2%/yr** for anticoagulated mechanical valves vs **0.7%/yr** for bioprosthetic valves without anticoagulation, lower still for aortic- vs mitral-position prostheses (p1161).
 - **Supratherapeutic INR (p1161):** Hazzard states that **INR 5–10** can be treated by holding warfarin and giving **oral vitamin K 1–2.5 mg**. Monitor INR daily until it falls below 5.
   > Current practice (not the book): INR 4.5–10 with no bleeding: suggest against routine vitamin K; INR >10 without bleeding: oral vitamin K; major bleeding: 4-factor PCC plus vitamin K 5–10 mg slow IV — ACCP/CHEST 9th ed, 2012.
@@ -181,7 +181,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 
 **1. In patients older than 65, what fraction of aortic stenosis is caused by calcific degeneration of a trileaflet valve, and at what age does a bicuspid valve's stenosis typically present?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-1"><summary>Answer</summary>
 
 90% of AS in patients over 65 is calcific degeneration of a tricuspid valve; bicuspid-valve stenosis usually presents earlier, in the fourth to sixth decade (p1149).
 
@@ -189,7 +189,7 @@ For prophylaxis, establish the cardiac risk and the procedure before choosing a 
 
 **2. Name the classic triad of symptoms once aortic stenosis becomes symptomatic, and rank them by average survival without valve replacement.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-2"><summary>Answer</summary>
 
 Angina (~50% 5-yr survival), syncope (~50% 3-yr mortality), and heart failure (~50% mortality at 2 years — the worst prognosis of the three) (p1151).
 
@@ -197,7 +197,7 @@ Angina (~50% 5-yr survival), syncope (~50% 3-yr mortality), and heart failure (~
 
 **3. On exercise testing, what result predicts a poor 2-year symptom-free survival in "asymptomatic" severe aortic stenosis, and what are the two survival rates?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-3"><summary>Answer</summary>
 
 Development of symptoms, failure to generate a 20 mmHg increase in blood pressure, or ST-segment abnormalities predicts a 19% 2-year symptom-free survival, versus 85% if none of these occur (p1151).
 
@@ -205,91 +205,91 @@ Development of symptoms, failure to generate a 20 mmHg increase in blood pressur
 
 **4. What STS risk cutoff defines "prohibitive" surgical risk for TAVR consideration, and what is the durability caveat for TAVR valves?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-4"><summary>Answer</summary>
 
 Hazzard defines prohibitive SAVR risk as **STS predicted morbidity and mortality >50%** due to comorbidity or serious irreversible conditions. It describes TAVR valve durability **beyond five years as unknown** (p1153).
-> Current practice (not the book): the NOTION randomized trial subsequently reported **10-year** outcomes in lower-risk patients — [NOTION follow-up, 2024](https://doi.org/10.1093/eurheartj/ehae043).
+> Current practice (not the book): the NOTION randomized trial subsequently reported **10-year** outcomes in lower-risk patients. [NOTION follow-up, 2024](https://doi.org/10.1093/eurheartj/ehae043).
 
 </details>
 
-**6. What annual rate of LV dysfunction, symptoms or death was reported in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?**
+**5. What annual rate of LV dysfunction, symptoms or death was reported in asymptomatic aortic insufficiency with an end-systolic dimension greater than 50 mm, versus 40–50 mm?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-6"><summary>Answer</summary>
 
 19%/year if LVESD > 50 mm, versus 6%/year if LVESD is 40–50 mm (p1153).
 
 </details>
 
-**7. In asymptomatic severe aortic regurgitation with preserved LV function, how do LV end-systolic and progressive LV enlargement affect referral for surgery?**
+**6. In asymptomatic severe aortic regurgitation with preserved LV function, how do LV end-systolic and progressive LV enlargement affect referral for surgery?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-7"><summary>Answer</summary>
 
 Table 75-6 lists **LVESD >50 mm** as a reason to consider surgery and progressive LV dilatation **>65 mm** as a possible indication when surgical risk is low. The table leaves the latter dimension unspecified; the accompanying prose calls it **LVESD** (p1155).
 > [Current practice note](#current-practice-1)
 
 </details>
 
-**8. What mitral valve area range typically corresponds to symptom onset in mitral stenosis, and what is the normal MVA?**
+**7. What mitral valve area range typically corresponds to symptom onset in mitral stenosis, and what is the normal MVA?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-8"><summary>Answer</summary>
 
 Symptoms usually develop once the valve area falls to 2.5–1.5 cm²; normal MVA is 4.0–5.0 cm² (p1156).
 
 </details>
 
-**9. In mitral stenosis, how does 10-year survival compare between patients who remain in sinus rhythm and those who develop atrial fibrillation?**
+**8. In mitral stenosis, how does 10-year survival compare between patients who remain in sinus rhythm and those who develop atrial fibrillation?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-9"><summary>Answer</summary>
 
 46% 10-year survival in sinus rhythm versus 25% with atrial fibrillation (p1156).
 
 </details>
 
-**10. What echocardiographic scoring system selects patients for percutaneous mitral balloon valvuloplasty, and what features give the most favorable (lowest) score?**
+**9. What echocardiographic scoring system selects patients for percutaneous mitral balloon valvuloplasty, and what features give the most favorable (lowest) score?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-10"><summary>Answer</summary>
 
 The Wilkins Score; the lowest (most favorable) scores go to valves with the greatest leaflet mobility, least subvalvular thickening, most normal leaflet thickness, and least calcification (p1157).
 
 </details>
 
-**11. What is the most common cause of mitral regurgitation, and roughly what fraction of the population does it affect?**
+**10. What is the most common cause of mitral regurgitation, and roughly what fraction of the population does it affect?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-11"><summary>Answer</summary>
 
 Mitral valve prolapse, present in 1% to 2.5% of the population (p1158).
 
 </details>
 
-**12. Compare operative mortality for mitral valve repair versus replacement, both in the overall population and in a cohort of patients older than 70.**
+**11. Compare operative mortality for mitral valve repair versus replacement, both in the overall population and in a cohort of patients older than 70.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-12"><summary>Answer</summary>
 
 Overall: 2% (repair) vs 6% (replacement). In a 292-patient cohort older than 70: 0.7% (repair) vs 14% (replacement) in-hospital mortality (p1160).
 
 </details>
 
-**13. What INR range and duration of anticoagulation apply to a bioprosthetic aortic valve without additional risk factors?**
+**12. What INR range and duration of anticoagulation apply to a bioprosthetic aortic valve without additional risk factors?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-13"><summary>Answer</summary>
 
 Table 75-15 gives **INR 2–3 for the first 3 months plus aspirin 75–100 mg daily** after bioprosthetic aortic valve replacement without additional risk factors. For a mechanical aortic valve it gives **INR 2–3**, increasing to **2.5–3.5** with thromboembolic risk factors, plus **aspirin 75–325 mg daily** (p1161).
-> Current practice (not the book): ACC/AHA considers VKA to a target INR of **2.5 for 3–6 months** reasonable after selected surgical bioprosthetic aortic or mitral replacement — [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
+> Current practice (not the book): ACC/AHA considers VKA to a target INR of **2.5 for 3–6 months** reasonable after surgical bioprosthetic aortic or mitral replacement in patients at low risk of bleeding. [ACC/AHA 2020](https://doi.org/10.1161/CIR.0000000000000923).
 
 </details>
 
-**14. Before elective surgery, how long can warfarin be held preoperatively in a patient with a mechanical aortic valve and no risk factors, and when is it restarted — with or without heparin bridging?**
+**13. Before elective surgery, how long can warfarin be held preoperatively in a patient with a mechanical aortic valve and no risk factors, and when is it restarted — with or without heparin bridging?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-14"><summary>Answer</summary>
 
 Hazzard gives a **48–72-hour** preoperative hold for a mechanical aortic valve without thromboembolic risk factors. Restart warfarin **within 24 hours after surgery**. In this setting the book specifies **no bridging heparin** (p1162).
 > [Current practice note](#current-practice-2)
 
 </details>
 
-**15. Which oral regimens does Table 75-14 give for dental endocarditis prophylaxis in an eligible patient with penicillin allergy?**
+**14. Which oral regimens does Table 75-14 give for dental endocarditis prophylaxis in an eligible patient with penicillin allergy?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="75s:recall-15"><summary>Answer</summary>
 
 The printed table lists **clindamycin 600 mg PO** or **cephalexin 2 g PO**, given once **1 hour before the procedure** (Table 75-14, p1161).
 > Current practice (not the book): AHA dental guidance removes clindamycin. For eligible adults with penicillin allergy, give cephalexin 2 g, azithromycin or clarithromycin 500 mg, or doxycycline 100 mg PO **30–60 minutes before** the procedure. Avoid cephalosporins after anaphylaxis, angioedema or urticaria with penicillin or ampicillin. [AHA prevention card, dental regimens based on the 2021 scientific statement](https://www.heart.org/-/media/Files/Health-Topics/Infective-Endocarditis/Infective-Endocarditis-Wallet-Card.pdf).

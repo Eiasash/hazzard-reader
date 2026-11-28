@@ -107,6 +107,7 @@ Following the initial intake, a thorough physical examination should be complete
 Age-related organ dysfunction poses significant challenges for nonopioid and opioid pain medication management in older adults. The gastrointestinal, hepatic, renal, and respiratory systems are particularly important to consider when initiating and dosing pain medications in this population. There is a plethora of age-related pharmacokinetic changes that clinicians should consider before prescribing pain medications ( **Table 68-5** ). Decreases in gastric secretion
 
 <a id="p1059"></a>**[p. 1059]**
+
 ![Table 68-3](hazzard8e_ch68_table68-3_p1059.png)
 
 > *Table 68-3 reproduced as a page image (printed p. 1059) — the grid did not extract reliably as text for this fast build.*
@@ -180,6 +181,7 @@ For older adults at risk for adverse events associated with systemic NSAIDs, top
 In addition to opioids analgesics, a number of other medications may be helpful in the management of chronic pain depending on the diagnosis and etiology of the patient’s pain. **Table 68-8** reviews common medications used in the
 
 <a id="p1063"></a>**[p. 1063]**
+
 ![Table 68-7](hazzard8e_ch68_table68-7_p1063.png)
 
 > *Table 68-7 reproduced as a page image (printed p. 1063) — the grid did not extract reliably as text for this fast build.*
@@ -193,6 +195,7 @@ In addition to opioids analgesics, a number of other medications may be helpful 
 > *Table 68-8 reproduced as a page image (printed p. 1063) — the grid did not extract reliably as text for this fast build.*
 
 <a id="p1064"></a>**[p. 1064]**
+
 ![Table 68-8](hazzard8e_ch68_table68-8_p1064.png)
 
 > *Table 68-8 reproduced as a page image (printed p. 1064) — the grid did not extract reliably as text for this fast build.*
@@ -311,4 +314,3 @@ for the International Classification of Diseases (ICD-11). _Pain_ . 2019;160(1):
 Williams ACC, Fisher E, Hearn L, Eccleston C. Psychological therapies for the management of chronic pain (excluding headache) in adults. _Cochrane Database Syst Rev_ . 2020;8(8):CD007407.
 
 <a id="p1070"></a>**[p. 1070]**
-

@@ -655,7 +655,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 
 <div id="highlightEditor" role="group" aria-label="Highlight tools" hidden>
   <div class="mark-palette"><div id="inkDots" role="group" aria-label="Highlight colour"></div><button type="button" id="penNumbers" role="switch" aria-checked="false"><span class="number-switch" aria-hidden="true"></span>Number new marks</button></div>
-  <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button type="button" data-select-reader-text>Select text</button><button id="markDelete" type="button">Delete</button></div>
+  <div class="mark-tools"><button type="button" id="markNoteToggle" aria-label="Edit note">Note</button><button type="button" id="pointChip" aria-label="Edit point number">Number</button><button id="markCopy" type="button">Copy</button><button type="button" data-select-reader-text>Select text</button><button id="markDelete" type="button">Remove</button></div>
   <textarea id="markNote" aria-label="Highlight note" placeholder="Note" rows="2" maxlength="500" hidden></textarea>
 </div>
 
@@ -671,7 +671,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <button class="quiet panel-back" data-panel="tools" id="panelBack" hidden aria-haspopup="dialog" aria-controls="panel" aria-expanded="false">Back to settings</button>
 <p id="highlightStorageStatus" class="meta" role="status" hidden></p>
 <section data-pane="tools" data-title="Settings">
-  <small id="settingsVersion">Version v343</small>
+  <small id="settingsVersion">Version v344</small>
   <div class="settings-controls">
     <span class="settings-label">Text size</span><div id="sizeChoices" role="group" aria-label="Text size"><button data-size="small" aria-label="Small" aria-pressed="true">Small</button><button data-size="medium" aria-label="Medium" aria-pressed="false">Medium</button><button data-size="large" aria-label="Large" aria-pressed="false">Large</button></div>
     <button id="toggleTheme" class="icon-control" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg><span id="themeChoiceText">Theme</span></button>
@@ -695,7 +695,7 @@ body:has(#reader:not([hidden])):not(:has(#panel[open],#statsViewport)) #chapterH
 <li><a class="sim-entry" href="?chapter=mock&amp;simulation=1"><strong>Exam simulation</strong><small>Take a complete official sitting</small></a></li>
 <li><button data-mock="builder"><strong>Mock builder</strong><small>Build a 25-, 50- or 100-question paper</small></button></li>
 </ul><ul class="rows practice-routes practice-stats"><li><button id="openStatistics"><strong>Statistics</strong><small>Progress, weak topics and exam results</small></button></li></ul>
-</section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden=""><div id="notebookBackupWarning" hidden><span></span> <button type="button" data-panel="backup">Open backup settings</button></div><details id="notebookCurrent" class="nb-group"><summary>Highlights in this chapter</summary><ul class="rows" id="notebookMarks"></ul><div id="notebookAnswerCurrent"></div></details><details class="nb-group"><summary>Saved places</summary><button id="bookmark" aria-pressed="false">Bookmark this spot</button><ul class="rows" id="notebookPlaces"></ul></details><div id="notebookOther"></div><section id="notebookHistory" hidden><h3>Saved from earlier text</h3><p class="meta">These highlights are no longer attached to the current chapter. Their saved excerpts are kept here.</p><ul class="rows notebook-history" id="notebookHistoryMarks"></ul></section><section id="notebookAnswerLaw" hidden></section><section id="notebookAnswerCycles" hidden></section><p id="savedPlace" class="meta">Your reading position is also saved automatically in every chapter.</p></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
+</section><section data-pane="mock" data-title="Mock builder" hidden><button data-mock="builder">Build a paper</button><button id="mockResume" data-mock="resume" hidden>Resume current paper</button></section><section data-pane="plan" data-title="This week" hidden=""><p class="eyebrow">NEXT SESSION</p><p><b>Pressure injuries</b><br>Read the chapter, then recall the staging system.</p><p class="meta">25 minutes reading · 5 minutes recall</p></section><section data-pane="notebook" data-title="Notebook" hidden><div id="notebookBackupWarning" hidden><span></span> <button type="button" data-panel="backup">Open backup settings</button></div><section id="notebookCurrentPlace" class="nb-current-place" hidden><small>Reading place</small><a id="notebookCurrentPlaceLabel"></a><button id="bookmark" aria-pressed="false">Bookmark this spot</button></section><p id="notebookLoadNotice" role="status" hidden></p><section id="notebookEmpty" class="notebook-empty" hidden><h2>No saved study items yet</h2><a href="?tab=chapters">Browse chapters</a><a href="?chapter=bank">Find a question</a></section><div id="notebookChapterList"></div></section><section data-pane="backup" data-title="Backup &amp; account" hidden>
 <div class="notebook-backup"><p id="backupOverview" role="status">Saved on this phone</p><button id="backupNotebook">Back up notebook</button><button id="restoreNotebook">Restore from backup</button><input type="file" id="notebookBackupFile" accept="application/json,.json" hidden><p class="meta">Save a copy of your highlights, places and practice progress. Restoring adds saved items and keeps your existing ones.</p><p id="backupStatus" class="meta" role="status" hidden></p></div>
 <div id="backupRecovery"></div>
 <section id="cloudControls" aria-label="Cloud account">
@@ -1297,7 +1297,7 @@ function readerRecovery(){
   const backup=document.getElementById('backupRecovery');if(backup){const controls=HazzardStorage.recoveryHTML(null);if(backup.dataset.content!==controls){backup.innerHTML=controls;backup.dataset.content=controls;}}
 }
 readerRecovery();addEventListener('hazzard-storage-status',readerRecovery);
-const imageSizes={"ch49_table49_3_p734.png":[698,314],"ch49_table49_4_p735.png":[698,287],"hazzard8e_ch100_figure-100-1_p1590.webp":[966,676],"hazzard8e_ch100_table-100-1_p1591.webp":[500,782],"hazzard8e_ch100_table-100-2_p1592.webp":[1030,982],"hazzard8e_ch100_table-100-3_p1602.webp":[1030,692],"hazzard8e_ch100_table-100-4_p1604.webp":[1030,616],"hazzard8e_ch100_table-100-5_p1605.webp":[500,604],"hazzard8e_ch101_figure101-1.png":[767,871],"hazzard8e_ch101_figure101-2.png":[1259,956],"hazzard8e_ch101_figure101-3.png":[1555,757],"hazzard8e_ch101_figure101-4.png":[772,1401],"hazzard8e_ch101_table101-10_p1624.png":[1111,1236],"hazzard8e_ch101_table101-11_p1628.png":[1189,751],"hazzard8e_ch101_table101-1_p1608.png":[638,1128],"hazzard8e_ch101_table101-4_p1614.png":[1151,1152],"hazzard8e_ch101_table101-4_p1615.png":[1146,856],"hazzard8e_ch101_table101-5_p1616.png":[1146,1193],"hazzard8e_ch102_figure102-1.png":[1243,726],"hazzard8e_ch102_figure102-2.png":[748,554],"hazzard8e_ch102_figure102-3.png":[822,711],"hazzard8e_ch102_table102-3_p1632.png":[773,484],"hazzard8e_ch102_table102-7_p1636.png":[867,619],"hazzard8e_ch103_figure-103-1_p1645.webp":[1012,1394],"hazzard8e_ch103_figure-103-2_p1652.webp":[1032,1380],"hazzard8e_ch103_figure-103-3_p1655.webp":[886,1334],"hazzard8e_ch103_figure-103-4_p1656.webp":[502,680],"hazzard8e_ch103_figure-103-5_p1658.webp":[502,700],"hazzard8e_ch103_figure-103-6_p1663.webp":[912,1392],"hazzard8e_ch103_table-103-10_p1660.webp":[1030,1414],"hazzard8e_ch103_table-103-11_p1662.webp":[502,1052],"hazzard8e_ch103_table-103-1_p1646.webp":[1028,652],"hazzard8e_ch103_table-103-2_p1647.webp":[506,972],"hazzard8e_ch103_table-103-3_p1648.webp":[1028,1384],"hazzard8e_ch103_table-103-4_p1649.webp":[1032,440],"hazzard8e_ch103_table-103-5-continued_p1651.webp":[1406,778],"hazzard8e_ch103_table-103-5_p1650.webp":[1410,1010],"hazzard8e_ch103_table-103-6_p1653.webp":[1032,736],"hazzard8e_ch103_table-103-7_p1653.webp":[1032,368],"hazzard8e_ch103_table-103-8_p1657.webp":[1032,1010],"hazzard8e_ch103_table-103-9_p1658.webp":[504,946],"hazzard8e_ch103_table103-4_p1649.png":[1391,595],"hazzard8e_ch104_figure104-1.png":[1315,1154],"hazzard8e_ch104_figure104-2.png":[1336,751],"hazzard8e_ch104_figure104-3.png":[1459,1209],"hazzard8e_ch104_table104-1_p1672.png":[1300,1752],"hazzard8e_ch104_table104-1_p1673.png":[1295,1760],"hazzard8e_ch105_figure105-1.png":[1544,1009],"hazzard8e_ch105_figure105-2.png":[1545,1255],"hazzard8e_ch105_table105-10_p1688.png":[766,552],"hazzard8e_ch105_table105-11_p1689.png":[1298,1055],"hazzard8e_ch105_table105-12_p1695.png":[1796,2224],"hazzard8e_ch105_table105-1_p1681.png":[762,1632],"hazzard8e_ch105_table105-2_p1682.png":[786,1416],"hazzard8e_ch105_table105-3_p1683.png":[762,1320],"hazzard8e_ch105_table105-4_p1686.png":[769,651],"hazzard8e_ch105_table105-5_p1686.png":[780,504],"hazzard8e_ch105_table105-6_p1687.png":[739,565],"hazzard8e_ch105_table105-7_p1687.png":[738,835],"hazzard8e_ch105_table105-8_p1688.png":[1559,1089],"hazzard8e_ch105_table105-9_p1688.png":[792,939],"hazzard8e_ch106_figure-106-1_p1704.webp":[982,910],"hazzard8e_ch106_figure-106-2_p1712.webp":[978,542],"hazzard8e_ch106_figure-106-3_p1716.webp":[962,524],"hazzard8e_ch106_table-106-1_p1701.webp":[1036,730],"hazzard8e_ch106_table-106-2_p1703.webp":[1038,516],"hazzard8e_ch106_table-106-3_p1705.webp":[506,716],"hazzard8e_ch106_table-106-4_p1706.webp":[1036,1358],"hazzard8e_ch106_table-106-5_p1708.webp":[1036,758],"hazzard8e_ch106_table-106-6_p1709.webp":[1036,1108],"hazzard8e_ch106_table-106-7_p1710.webp":[1036,756],"hazzard8e_ch106_table106-2_p1703.png":[1400,694],"hazzard8e_ch107_figure-107-1_p1724.webp":[930,912],"hazzard8e_ch107_figure-107-2_p1725.webp":[946,536],"hazzard8e_ch107_figure-107-3_p1726.webp":[500,438],"hazzard8e_ch107_figure-107-4_p1729.webp":[890,554],"hazzard8e_ch107_table-107-1_p1727.webp":[504,596],"hazzard8e_ch107_table-107-2_p1729.webp":[502,534],"hazzard8e_ch107_table107-1_p1727.png":[682,811],"hazzard8e_ch108_table108-1_p1735.png":[786,432],"hazzard8e_ch10_table-10-1_p152.webp":[500,525],"hazzard8e_ch11_figure-11-1_p158.webp":[882,712],"hazzard8e_ch11_figure-11-2_p159.webp":[1028,428],"hazzard8e_ch11_table-11-1_p162.webp":[1032,1402],"hazzard8e_ch11_table-11-2_p164.webp":[1042,376],"hazzard8e_ch11_table-11-3_p166.webp":[1028,462],"hazzard8e_ch12_figure-12-1_p172.webp":[506,368],"hazzard8e_ch12_figure-12-2_p173.webp":[894,604],"hazzard8e_ch12_table-12-1_p174.webp":[1024,550],"hazzard8e_ch12_table-12-2_p175.webp":[1028,678],"hazzard8e_ch12_table-12-3_p177.webp":[500,270],"hazzard8e_ch13_figure-13-1_p180.webp":[1030,606],"hazzard8e_ch13_figure-13-2_p182.webp":[1030,1312],"hazzard8e_ch13_figure-13-3_p187.webp":[1028,1308],"hazzard8e_ch13_figure-13-4_p188.webp":[1030,1368],"hazzard8e_ch13_table-13-1-continued_p184.webp":[1024,1410],"hazzard8e_ch13_table-13-1-continued_p185.webp":[1028,1410],"hazzard8e_ch13_table-13-1-continued_p186.webp":[1024,780],"hazzard8e_ch13_table-13-1_p183.webp":[1028,1410],"hazzard8e_ch14_figure-14-1_p197.webp":[500,654],"hazzard8e_ch14_figure-14-2_p197.webp":[996,716],"hazzard8e_ch14_figure-14-3_p198.webp":[1022,414],"hazzard8e_ch14_figure-14-4_p198.webp":[892,416],"hazzard8e_ch14_table-14-1_p192.webp":[496,252],"hazzard8e_ch14_table-14-2_p192.webp":[1024,340],"hazzard8e_ch14_table-14-3_p193.webp":[1028,330],"hazzard8e_ch14_table-14-4_p195.webp":[1028,1370],"hazzard8e_ch14_table-14-4_p196.webp":[1024,1408],"hazzard8e_ch15_figure-15-1-continued_p209.webp":[884,622],"hazzard8e_ch15_figure-15-1_p208.webp":[884,716],"hazzard8e_ch15_figure-15-2-continued_p211.webp":[886,1078],"hazzard8e_ch15_figure-15-2_p210.webp":[884,820],"hazzard8e_ch15_figure-15-3_p212.webp":[884,908],"hazzard8e_ch15_figure-15-4_p214.webp":[1008,780],"hazzard8e_ch15_figure-15-5-continued_p216.webp":[888,534],"hazzard8e_ch15_figure-15-5_p215.webp":[886,1416],"hazzard8e_ch15_figure-15-6_p216.webp":[888,806],"hazzard8e_ch15_figure-15-7_p218.webp":[1016,790],"hazzard8e_ch15_table-15-1_p209.webp":[500,456],"hazzard8e_ch15_table-15-2_p209.webp":[500,464],"hazzard8e_ch15_table-15-3_p210.webp":[1028,476],"hazzard8e_ch15_table-15-4_p217.webp":[1030,1054],"hazzard8e_ch16_figure-16-1_p222.webp":[884,288],"hazzard8e_ch16_figure-16-2_p229.webp":[884,1354],"hazzard8e_ch16_figure-16-3_p233.webp":[884,1190],"hazzard8e_ch16_table-16-1_p222.webp":[500,416],"hazzard8e_ch16_table-16-2_p223.webp":[1028,726],"hazzard8e_ch16_table-16-3_p224.webp":[500,1386],"hazzard8e_ch16_table-16-4-continued_p227.webp":[1400,920],"hazzard8e_ch16_table-16-4_p226.webp":[1400,1010],"hazzard8e_ch16_table-16-5_p230.webp":[500,774],"hazzard8e_ch16_table-16-6_p231.webp":[1028,1414],"hazzard8e_ch16_table-16-6_p232.webp":[1028,1056],"hazzard8e_ch16_table-16-7_p234.webp":[500,864],"hazzard8e_ch16_table16-6_p231.png":[1391,1908],"hazzard8e_ch16_table16-6_p232.png":[1390,1504],"hazzard8e_ch17_figure-17-1_p241.webp":[972,690],"hazzard8e_ch17_table-17-1_p239.webp":[1026,1414],"hazzard8e_ch17_table-17-1_p240.webp":[1024,592],"hazzard8e_ch17_table-17-2_p244.webp":[1024,1298],"hazzard8e_ch17_table-17-2_p245.webp":[1028,502],"hazzard8e_ch18_figure-18-1_p254.webp":[892,666],"hazzard8e_ch18_figure-18-2_p258.webp":[892,654],"hazzard8e_ch18_table-18-1_p251.webp":[1394,1018],"hazzard8e_ch18_table-18-2_p253.webp":[1028,1094],"hazzard8e_ch18_table-18-3_p254.webp":[496,674],"hazzard8e_ch18_table-18-4_p255.webp":[1030,676],"hazzard8e_ch18_table-18-5_p256.webp":[1024,630],"hazzard8e_ch18_table-18-6_p257.webp":[498,236],"hazzard8e_ch18_table-18-7_p257.webp":[500,438],"hazzard8e_ch18_table-18-8_p260.webp":[1024,556],"hazzard8e_ch18_table-18-9_p260.webp":[1024,514],"hazzard8e_ch19_figure-19-1_p264.webp":[833,707],"hazzard8e_ch19_figure-19-2_p265.webp":[1028,296],"hazzard8e_ch19_table-19-1_p264.webp":[496,788],"hazzard8e_ch19_table-19-2_p266.webp":[496,574],"hazzard8e_ch19_table-19-3-continued_p269.webp":[1404,960],"hazzard8e_ch19_table-19-3_p268.webp":[1404,1044],"hazzard8e_ch19_table-19-4_p274.webp":[496,944],"hazzard8e_ch19_table-19-5_p275.webp":[496,792],"hazzard8e_ch1_figure-1-10_p19.webp":[1479,1119],"hazzard8e_ch1_figure-1-11_p20.webp":[1328,1009],"hazzard8e_ch1_figure-1-1_p6.webp":[1327,963],"hazzard8e_ch1_figure-1-2_p8.webp":[1328,1648],"hazzard8e_ch1_figure-1-3_p9.webp":[1328,1336],"hazzard8e_ch1_figure-1-4_p10.webp":[1545,1021],"hazzard8e_ch1_figure-1-5_p11.webp":[1327,1543],"hazzard8e_ch1_figure-1-6_p12.webp":[1392,1572],"hazzard8e_ch1_figure-1-7_p14.webp":[1328,1293],"hazzard8e_ch1_figure-1-8_p15.webp":[1479,796],"hazzard8e_ch1_figure-1-9_p18.webp":[1489,2407],"hazzard8e_ch1_table-1-1_p15.webp":[1280,1856],"hazzard8e_ch20_table-20-1_p278.webp":[1024,810],"hazzard8e_ch20_table-20-2_p279.webp":[1028,716],"hazzard8e_ch20_table-20-3_p281.webp":[1028,374],"hazzard8e_ch20_table-20-4_p283.webp":[1028,378],"hazzard8e_ch20_table-20-5_p284.webp":[1024,898],"hazzard8e_ch21_figure-21-10_p299.webp":[1028,542],"hazzard8e_ch21_figure-21-1_p289.webp":[1028,514],"hazzard8e_ch21_figure-21-2_p290.webp":[1024,476],"hazzard8e_ch21_figure-21-3_p291.webp":[1028,570],"hazzard8e_ch21_figure-21-4_p291.webp":[1028,558],"hazzard8e_ch21_figure-21-5_p293.webp":[1028,618],"hazzard8e_ch21_figure-21-6_p295.webp":[1028,524],"hazzard8e_ch21_figure-21-7_p296.webp":[1024,496],"hazzard8e_ch21_figure-21-8_p297.webp":[1028,590],"hazzard8e_ch21_figure-21-9_p298.webp":[1024,590],"hazzard8e_ch21_table-21-1_p288.webp":[496,1176],"hazzard8e_ch21_table-21-2_p295.webp":[500,696],"hazzard8e_ch22_figure-22-1_p305.webp":[888,516],"hazzard8e_ch22_figure-22-2_p306.webp":[960,662],"hazzard8e_ch22_figure-22-3_p314.webp":[882,1092],"hazzard8e_ch22_table-22-1_p304.webp":[500,344],"hazzard8e_ch22_table-22-2_p305.webp":[500,262],"hazzard8e_ch22_table-22-3_p309.webp":[1030,496],"hazzard8e_ch22_table-22-4_p312.webp":[500,260],"hazzard8e_ch22_table22-2_p305.png":[684,357],"hazzard8e_ch23_table-23-1_p318.webp":[1027,993],"hazzard8e_ch23_table-23-2_p320.webp":[744,1014],"hazzard8e_ch23_table-23-3_p321.webp":[500,787],"hazzard8e_ch23_table-23-4_p325.webp":[1028,1349],"hazzard8e_ch24_figure-24-1_p330.webp":[892,522],"hazzard8e_ch24_figure-24-2_p330.webp":[892,610],"hazzard8e_ch24_figure-24-3_p343.webp":[986,622],"hazzard8e_ch24_table-24-1_p331.webp":[500,518],"hazzard8e_ch24_table-24-2_p333.webp":[1028,1366],"hazzard8e_ch25_figure-25-1_p349.webp":[894,516],"hazzard8e_ch25_figure-25-2_p356.webp":[1022,314],"hazzard8e_ch25_figure-25-3_p356.webp":[1004,630],"hazzard8e_ch25_table-25-1_p348.webp":[496,1274],"hazzard8e_ch25_table-25-2_p348.webp":[496,632],"hazzard8e_ch25_table-25-3_p350.webp":[496,432],"hazzard8e_ch25_table-25-4_p355.webp":[498,320],"hazzard8e_ch26_table-26-1_p362.webp":[500,220],"hazzard8e_ch26_table-26-2_p363.webp":[500,302],"hazzard8e_ch26_table-26-3_p364.webp":[500,353],"hazzard8e_ch26_table-26-4_p365.webp":[500,199],"hazzard8e_ch26_table-26-5_p367.webp":[500,199],"hazzard8e_ch27_table-27-1_p372.webp":[502,586],"hazzard8e_ch27_table-27-2_p373.webp":[502,1044],"hazzard8e_ch27_table-27-3_p375.webp":[504,1114],"hazzard8e_ch27_table-27-4-continued_p378.webp":[1028,1138],"hazzard8e_ch27_table-27-4_p377.webp":[1028,610],"hazzard8e_ch28_figure-28-1_p385.webp":[1446,1254],"hazzard8e_ch28_table-28-1-continued_p387.webp":[1533,2064],"hazzard8e_ch28_table-28-1_p386.webp":[1034,1405],"hazzard8e_ch28_table-28-2_p389.webp":[506,363],"hazzard8e_ch28_table-28-3_p391.webp":[1533,813],"hazzard8e_ch28_table-28-4_p392.webp":[1034,703],"hazzard8e_ch29_figure-29-1_p403.webp":[1038,620],"hazzard8e_ch2_figure-2-10_p34.webp":[1030,994],"hazzard8e_ch2_figure-2-11_p35.webp":[1028,766],"hazzard8e_ch2_figure-2-12_p35.webp":[1028,604],"hazzard8e_ch2_figure-2-13_p36.webp":[1030,836],"hazzard8e_ch2_figure-2-14_p37.webp":[1028,640],"hazzard8e_ch2_figure-2-15_p38.webp":[1030,1166],"hazzard8e_ch2_figure-2-16_p39.webp":[1028,634],"hazzard8e_ch2_figure-2-17_p40.webp":[1030,392],"hazzard8e_ch2_figure-2-1_p24.webp":[1326,846],"hazzard8e_ch2_figure-2-2_p25.webp":[752,620],"hazzard8e_ch2_figure-2-3_p27.webp":[496,1048],"hazzard8e_ch2_figure-2-4_p28.webp":[1032,394],"hazzard8e_ch2_figure-2-5_p28.webp":[1030,484],"hazzard8e_ch2_figure-2-6_p30.webp":[1030,716],"hazzard8e_ch2_figure-2-7_p30.webp":[1030,524],"hazzard8e_ch2_figure-2-8_p31.webp":[926,774],"hazzard8e_ch2_figure-2-9_p32.webp":[1030,514],"hazzard8e_ch2_table-2-1_p24.webp":[1241,699],"hazzard8e_ch2_table-2-2_p25.webp":[1030,266],"hazzard8e_ch2_table-2-3_p29.webp":[496,720],"hazzard8e_ch2_table-2-4_p31.webp":[496,626],"hazzard8e_ch2_table-2-5_p32.webp":[496,412],"hazzard8e_ch2_table-2-6_p33.webp":[496,640],"hazzard8e_ch2_table-2-7_p42.webp":[860,1840],"hazzard8e_ch30_figure-30-1_p408.webp":[500,514],"hazzard8e_ch30_figure-30-2_p409.webp":[496,634],"hazzard8e_ch30_figure-30-3_p411.webp":[886,554],"hazzard8e_ch30_figure-30-4_p412.webp":[886,538],"hazzard8e_ch30_figure-30-5_p412.webp":[1012,542],"hazzard8e_ch30_figure-30-6_p417.webp":[498,570],"hazzard8e_ch30_figure-30-7_p422.webp":[747,600],"hazzard8e_ch30_figure-30-8_p427.webp":[978,640],"hazzard8e_ch30_figure-30-9_p428.webp":[886,516],"hazzard8e_ch30_table-30-10_p426.webp":[1396,668],"hazzard8e_ch30_table-30-11_p427.webp":[498,460],"hazzard8e_ch30_table-30-12_p431.webp":[500,1000],"hazzard8e_ch30_table-30-13_p433.webp":[500,940],"hazzard8e_ch30_table-30-14_p434.webp":[498,350],"hazzard8e_ch30_table-30-15_p434.webp":[500,908],"hazzard8e_ch30_table-30-1_p409.webp":[498,724],"hazzard8e_ch30_table-30-2_p410.webp":[498,400],"hazzard8e_ch30_table-30-3_p410.webp":[500,908],"hazzard8e_ch30_table-30-4_p413.webp":[498,616],"hazzard8e_ch30_table-30-5_p418.webp":[500,960],"hazzard8e_ch30_table-30-6_p419.webp":[498,452],"hazzard8e_ch30_table-30-7_p420.webp":[498,806],"hazzard8e_ch30_table-30-8_p424.webp":[498,308],"hazzard8e_ch30_table-30-9_p425.webp":[498,654],"hazzard8e_ch31_figure-31-1_p440.webp":[502,650],"hazzard8e_ch31_figure-31-2_p440.webp":[502,564],"hazzard8e_ch31_figure-31-3_p440.webp":[502,510],"hazzard8e_ch31_figure-31-4_p441.webp":[1030,808],"hazzard8e_ch31_figure-31-5_p442.webp":[502,1242],"hazzard8e_ch31_figure-31-6_p443.webp":[886,476],"hazzard8e_ch31_figure-31-7_p443.webp":[1022,848],"hazzard8e_ch31_table-31-1_p439.webp":[1026,1310],"hazzard8e_ch31_table-31-2_p441.webp":[498,424],"hazzard8e_ch31_table-31-3_p445.webp":[500,1184],"hazzard8e_ch31_table-31-4_p445.webp":[500,918],"hazzard8e_ch31_table-31-5_p446.webp":[500,692],"hazzard8e_ch31_table-31-6_p447.webp":[502,1118],"hazzard8e_ch31_table-31-7_p448.webp":[500,950],"hazzard8e_ch31_table31-5_p446.png":[677,940],"hazzard8e_ch32_figure-32-1_p455.webp":[512,584],"hazzard8e_ch32_figure-32-2_p455.webp":[512,740],"hazzard8e_ch32_figure-32-3_p456.webp":[514,406],"hazzard8e_ch32_figure-32-4_p458.webp":[512,398],"hazzard8e_ch32_figure-32-5_p459.webp":[512,406],"hazzard8e_ch32_figure-32-6_p460.webp":[514,744],"hazzard8e_ch32_figure-32-7_p463.webp":[1038,512],"hazzard8e_ch32_figure-32-8_p464.webp":[1038,1270],"hazzard8e_ch32_figure-32-9_p465.webp":[1038,420],"hazzard8e_ch32_table-32-1_p454.webp":[506,409],"hazzard8e_ch32_table-32-2_p454.webp":[506,303],"hazzard8e_ch32_table-32-3_p454.webp":[506,1359],"hazzard8e_ch32_table-32-4_p457.webp":[741,984],"hazzard8e_ch32_table-32-5_p460.webp":[506,1038],"hazzard8e_ch32_table-32-6_p461.webp":[506,621],"hazzard8e_ch32_table-32-7_p465.webp":[506,375],"hazzard8e_ch33_table-33-1_p471.webp":[1536,1263],"hazzard8e_ch33_table-33-2_p473.webp":[1034,781],"hazzard8e_ch33_table-33-3_p475.webp":[506,901],"hazzard8e_ch33_table-33-4_p476.webp":[506,469],"hazzard8e_ch33_table-33-5_p478.webp":[506,831],"hazzard8e_ch33_table-33-6_p480.webp":[1034,832],"hazzard8e_ch33_table-33-7_p482.webp":[506,937],"hazzard8e_ch33_table-33-8_p484.webp":[506,751],"hazzard8e_ch34_figure-34-1_p492.webp":[892,836],"hazzard8e_ch34_figure-34-2_p493.webp":[508,552],"hazzard8e_ch34_figure-34-3_p493.webp":[508,640],"hazzard8e_ch34_figure-34-4_p494.webp":[892,258],"hazzard8e_ch34_figure-34-5_p496.webp":[900,1422],"hazzard8e_ch34_figure-34-6_p499.webp":[508,544],"hazzard8e_ch34_table-34-1_p494.webp":[504,746],"hazzard8e_ch34_table-34-2_p494.webp":[508,586],"hazzard8e_ch35_figure-35-1_p504.webp":[514,678],"hazzard8e_ch35_figure-35-2_p505.webp":[1038,824],"hazzard8e_ch35_figure-35-3_p507.webp":[514,442],"hazzard8e_ch35_figure-35-4_p509.webp":[1038,272],"hazzard8e_ch35_figure-35-5_p512.webp":[1038,1438],"hazzard8e_ch35_figure-35-6_p514.webp":[512,1162],"hazzard8e_ch35_figure-35-7_p516.webp":[512,840],"hazzard8e_ch35_figure-35-8_p520.webp":[1038,614],"hazzard8e_ch35_table-35-10_p521.webp":[741,1764],"hazzard8e_ch35_table-35-11_p522.webp":[1034,709],"hazzard8e_ch35_table-35-1_p506.webp":[506,755],"hazzard8e_ch35_table-35-2_p506.webp":[507,729],"hazzard8e_ch35_table-35-3_p508.webp":[1034,588],"hazzard8e_ch35_table-35-4_p510.webp":[1034,821],"hazzard8e_ch35_table-35-5_p513.webp":[507,931],"hazzard8e_ch35_table-35-6_p517.webp":[1034,1271],"hazzard8e_ch35_table-35-7a_p518.webp":[1034,635],"hazzard8e_ch35_table-35-7b_p518.webp":[1034,311],"hazzard8e_ch35_table-35-8-continued_p520.webp":[1034,765],"hazzard8e_ch35_table-35-8_p519.webp":[1034,1405],"hazzard8e_ch35_table-35-9_p521.webp":[506,871],"hazzard8e_ch36_figure-36-1_p529.webp":[506,368],"hazzard8e_ch36_figure-36-2_p531.webp":[861,1700],"hazzard8e_ch36_figure-36-3_p535.webp":[892,1056],"hazzard8e_ch36_figure-36-4_p543.webp":[1624,2106],"hazzard8e_ch36_figure-36-5_p544.webp":[892,372],"hazzard8e_ch36_figure-36-6_p544.webp":[892,336],"hazzard8e_ch36_figure-36-7_p545.webp":[892,424],"hazzard8e_ch36_table-36-1_p528.webp":[1028,815],"hazzard8e_ch36_table-36-2_p532.webp":[500,894],"hazzard8e_ch36_table-36-3_p536.webp":[1039,696],"hazzard8e_ch36_table-36-4_p537.webp":[500,386],"hazzard8e_ch36_table-36-5_p538.webp":[500,1012],"hazzard8e_ch36_table-36-6_p542.webp":[500,1130],"hazzard8e_ch37_figure-37-1_p548.webp":[1038,1088],"hazzard8e_ch37_figure-37-2_p550.webp":[512,588],"hazzard8e_ch37_table-37-1_p549.webp":[506,351],"hazzard8e_ch37_table-37-2_p550.webp":[506,657],"hazzard8e_ch37_table-37-3_p552.webp":[506,555],"hazzard8e_ch38_figure-38-1_p556.webp":[888,724],"hazzard8e_ch38_figure-38-2_p556.webp":[504,576],"hazzard8e_ch38_figure-38-3_p557.webp":[890,482],"hazzard8e_ch38_figure-38-4_p557.webp":[890,584],"hazzard8e_ch38_figure-38-5_p559.webp":[964,866],"hazzard8e_ch38_table-38-1_p558.webp":[500,1392],"hazzard8e_ch38_table-38-2_p560.webp":[1030,1024],"hazzard8e_ch38_table-38-3_p561.webp":[1030,468],"hazzard8e_ch38_table-38-4_p562.webp":[502,1040],"hazzard8e_ch38_table-38-5_p563.webp":[1030,848],"hazzard8e_ch38_table-38-6-continued_p565.webp":[1030,482],"hazzard8e_ch38_table-38-6_p564.webp":[1030,1388],"hazzard8e_ch38_table-38-7_p566.webp":[500,520],"hazzard8e_ch39_figure-39-1_p577.webp":[954,1380],"hazzard8e_ch39_table-39-1_p581.webp":[1032,1032],"hazzard8e_ch39_table-39-2_p583.webp":[498,648],"hazzard8e_ch39_table-39-3_p583.webp":[744,1134],"hazzard8e_ch39_table-39-4_p583.webp":[502,338],"hazzard8e_ch39_table-39-5_p585.webp":[500,690],"hazzard8e_ch39_table-39-6_p585.webp":[502,480],"hazzard8e_ch39_table-39-7_p587.webp":[1032,376],"hazzard8e_ch39_table39-1_p581.png":[1400,1400],"hazzard8e_ch3_figure-3-1_p48.webp":[1030,814],"hazzard8e_ch3_figure-3-2_p50.webp":[1030,562],"hazzard8e_ch3_figure-3-3_p53.webp":[496,694],"hazzard8e_ch3_figure-3-4a_p54.webp":[1030,834],"hazzard8e_ch3_figure-3-4b_p54.webp":[1030,536],"hazzard8e_ch3_figure-3-5_p55.webp":[1028,842],"hazzard8e_ch3_figure-3-6_p56.webp":[1024,518],"hazzard8e_ch3_figure-3-7_p57.webp":[1028,1138],"hazzard8e_ch3_figure-3-8_p59.webp":[1028,584],"hazzard8e_ch3_table-3-1_p49.webp":[496,616],"hazzard8e_ch3_table-3-2_p51.webp":[496,1072],"hazzard8e_ch3_table-3-3_p56.webp":[496,468],"hazzard8e_ch40_figure-40-1_p594.webp":[508,326],"hazzard8e_ch40_figure-40-2_p595.webp":[894,350],"hazzard8e_ch40_figure-40-3_p595.webp":[894,356],"hazzard8e_ch40_figure-40-4_p596.webp":[892,1172],"hazzard8e_ch40_figure-40-5_p598.webp":[1028,534],"hazzard8e_ch40_figure-40-6_p599.webp":[502,554],"hazzard8e_ch40_figure-40-7_p600.webp":[892,406],"hazzard8e_ch40_table-40-1_p594.webp":[496,1004],"hazzard8e_ch40_table-40-2_p594.webp":[496,260],"hazzard8e_ch40_table-40-3_p598.webp":[496,780],"hazzard8e_ch40_table-40-4_p601.webp":[498,684],"hazzard8e_ch40_table-40-5_p602.webp":[496,276],"hazzard8e_ch41_figure-41-1_p606.webp":[1038,696],"hazzard8e_ch41_figure-41-2_p607.webp":[1038,498],"hazzard8e_ch41_figure-41-3_p608.webp":[1038,712],"hazzard8e_ch41_figure-41-4_p609.webp":[1038,1152],"hazzard8e_ch41_table-41-1_p610.webp":[1034,725],"hazzard8e_ch42_figure42-1.png":[759,900],"hazzard8e_ch42_figure42-2.png":[1346,873],"hazzard8e_ch42_figure42-3.png":[1346,811],"hazzard8e_ch42_figure42-4.png":[1240,1098],"hazzard8e_ch42_figure42-5.png":[1119,742],"hazzard8e_ch42_table42-3_p621.png":[1800,1063],"hazzard8e_ch42_table42-3_p622.png":[1800,681],"hazzard8e_ch43_figure43-1.png":[1265,804],"hazzard8e_ch43_figure43-2.png":[768,794],"hazzard8e_ch43_figure43-3.png":[718,1945],"hazzard8e_ch43_figure43-4.png":[723,1195],"hazzard8e_ch43_table43-1_p635.png":[2068,2812],"hazzard8e_ch43_table43-3_p638.png":[2345,1130],"hazzard8e_ch44_figure44-1.png":[723,690],"hazzard8e_ch44_figure44-10.png":[1304,680],"hazzard8e_ch44_figure44-2.png":[1346,379],"hazzard8e_ch44_figure44-3.png":[1427,1084],"hazzard8e_ch44_figure44-4.png":[729,723],"hazzard8e_ch44_figure44-5.png":[1346,1120],"hazzard8e_ch44_figure44-6.png":[1567,1834],"hazzard8e_ch44_figure44-7.png":[1559,1218],"hazzard8e_ch44_figure44-8.png":[1850,1067],"hazzard8e_ch44_figure44-9.png":[1122,500],"hazzard8e_ch44_table44-1_p646.png":[1512,676],"hazzard8e_ch44_table44-4_p659.png":[1298,616],"hazzard8e_ch44_table44-5_p660.png":[2324,2252],"hazzard8e_ch45_figure45-1.png":[1240,1179],"hazzard8e_ch45_figure45-2.png":[701,1924],"hazzard8e_ch45_table45-1_p667.png":[1562,746],"hazzard8e_ch46_figure46-1a.png":[1132,1411],"hazzard8e_ch46_figure46-1b.png":[1176,1639],"hazzard8e_ch46_figure46-2.png":[1184,888],"hazzard8e_ch46_figure46-3.png":[1089,1325],"hazzard8e_ch46_figure46-4.png":[1227,1721],"hazzard8e_ch47_figure47-1.png":[1277,944],"hazzard8e_ch47_figure47-2.png":[1444,1884],"hazzard8e_ch47_figure47-3.png":[1247,1104],"hazzard8e_ch48_figure-48-1_p723.webp":[894,436],"hazzard8e_ch48_table-48-1_p720.webp":[1533,1032],"hazzard8e_ch48_table-48-2_p721.webp":[1028,520],"hazzard8e_ch48_table-48-3_p724.webp":[1533,1647],"hazzard8e_ch48_table-48-4_p725.webp":[1028,511],"hazzard8e_ch49_figure-49-1_p731.webp":[884,1096],"hazzard8e_ch49_figure-49-2_p733.webp":[974,336],"hazzard8e_ch49_table-49-1_p730.webp":[500,252],"hazzard8e_ch49_table-49-2_p732.webp":[1032,292],"hazzard8e_ch49_table-49-3_p734.webp":[504,228],"hazzard8e_ch49_table-49-4_p735.webp":[500,208],"hazzard8e_ch49_table-49-5_p736.webp":[502,640],"hazzard8e_ch4_figure-4-1_p66.webp":[496,438],"hazzard8e_ch4_figure-4-2_p67.webp":[1028,788],"hazzard8e_ch4_figure-4-3_p69.webp":[1028,698],"hazzard8e_ch4_figure-4-4_p72.webp":[753,666],"hazzard8e_ch4_figure-4-5_p74.webp":[1030,436],"hazzard8e_ch4_figure-4-6_p74.webp":[496,500],"hazzard8e_ch4_figure-4-7_p75.webp":[1028,770],"hazzard8e_ch4_figure-4-8_p77.webp":[1028,606],"hazzard8e_ch4_table-4-1_p72.webp":[496,252],"hazzard8e_ch4_table-4-2_p73.webp":[1028,376],"hazzard8e_ch4_table-4-3_p73.webp":[1028,420],"hazzard8e_ch50_figure-50-1_p747.webp":[990,812],"hazzard8e_ch50_figure-50-2_p748.webp":[884,582],"hazzard8e_ch50_figure-50-3_p748.webp":[498,590],"hazzard8e_ch50_figure-50-4_p751.webp":[884,828],"hazzard8e_ch50_table-50-1_p742.webp":[500,646],"hazzard8e_ch50_table-50-2-continued_p744.webp":[1404,580],"hazzard8e_ch50_table-50-2_p743.webp":[1448,954],"hazzard8e_ch50_table-50-3_p745.webp":[1030,610],"hazzard8e_ch50_table-50-4_p750.webp":[502,372],"hazzard8e_ch50_table-50-5_p750.webp":[502,636],"hazzard8e_ch50_table-50-6_p752.webp":[500,454],"hazzard8e_ch50_table-50-7_p753.webp":[1032,814],"hazzard8e_ch50_table-50-8_p754.webp":[1030,1394],"hazzard8e_ch50_table-50-9_p755.webp":[1030,342],"hazzard8e_ch50_table50-2_p743.png":[1894,1289],"hazzard8e_ch50_table50-2_p744.png":[1969,797],"hazzard8e_ch51_figure51-1.png":[1340,916],"hazzard8e_ch51_figure51-2.png":[1340,1116],"hazzard8e_ch51_figure51-3.png":[1383,1190],"hazzard8e_ch51_figure51-4.png":[1346,1073],"hazzard8e_ch51_figure51-5.png":[1405,982],"hazzard8e_ch51_figure51-6.png":[1340,945],"hazzard8e_ch51_figure51-7.png":[1546,1146],"hazzard8e_ch51_table51-1_p760.png":[762,337],"hazzard8e_ch51_table51-2_p764.png":[765,1122],"hazzard8e_ch51_table51-3_p769.png":[748,1138],"hazzard8e_ch51_table51-5_p774.png":[1385,1807],"hazzard8e_ch51_table51-5b_p775.png":[1557,1105],"hazzard8e_ch52_figure52-1.png":[767,1149],"hazzard8e_ch52_figure52-2.png":[767,1207],"hazzard8e_ch52_figure52-3.png":[765,1276],"hazzard8e_ch52_figure52-4.png":[1340,2104],"hazzard8e_ch52_figure52-5.png":[1557,1123],"hazzard8e_ch53_figure-53-1_p794.webp":[888,360],"hazzard8e_ch53_figure-53-2_p795.webp":[884,454],"hazzard8e_ch53_figure-53-3_p796.webp":[958,640],"hazzard8e_ch53_figure-53-4_p799.webp":[886,506],"hazzard8e_ch53_figure-53-5_p800.webp":[502,506],"hazzard8e_ch53_table-53-1_p802.webp":[1032,920],"hazzard8e_ch54_figure-54-1_p806.webp":[512,502],"hazzard8e_ch54_figure-54-2_p807.webp":[1038,582],"hazzard8e_ch54_table-54-1_p808.webp":[1034,541],"hazzard8e_ch54_table-54-2_p808.webp":[506,347],"hazzard8e_ch54_table-54-3_p813.webp":[506,899],"hazzard8e_ch55_figure55-1.png":[1346,405],"hazzard8e_ch55_figure55-2.png":[1340,817],"hazzard8e_ch55_figure55-3.png":[1340,877],"hazzard8e_ch55_table55-4_p823.png":[1305,1453],"hazzard8e_ch55_table55-5_p828.png":[1572,1677],"hazzard8e_ch56_figure-56-1_p836.webp":[892,506],"hazzard8e_ch56_figure-56-2_p837.webp":[996,720],"hazzard8e_ch56_figure-56-3_p838.webp":[508,406],"hazzard8e_ch56_table-56-1_p838.webp":[496,416],"hazzard8e_ch56_table-56-2_p845.webp":[498,620],"hazzard8e_ch56_table-56-3_p846.webp":[496,546],"hazzard8e_ch56_table-56-4_p848.webp":[498,426],"hazzard8e_ch56_table-56-5_p850.webp":[1024,630],"hazzard8e_ch57_figure57-1.png":[750,976],"hazzard8e_ch57_figure57-2.png":[768,765],"hazzard8e_ch57_figure57-3.png":[1338,1237],"hazzard8e_ch57_table57-2_p857.png":[1796,1409],"hazzard8e_ch57_table57-2_p858.png":[1745,1427],"hazzard8e_ch57_table57-3_p863.png":[1800,1638],"hazzard8e_ch57_table57-3_p864.png":[2140,1373],"hazzard8e_ch57_table57-3_p865.png":[2159,1577],"hazzard8e_ch57_table57-3_p866.png":[1790,1418],"hazzard8e_ch58_figure58-1.png":[1390,1795],"hazzard8e_ch58_figure58-2.png":[1346,1647],"hazzard8e_ch59_figure59-1.png":[1265,1440],"hazzard8e_ch59_figure59-2.png":[1278,2440],"hazzard8e_ch59_figure59-3.png":[1505,1217],"hazzard8e_ch59_table59-4_p903.png":[1298,938],"hazzard8e_ch59_table59-7_p912.png":[2091,1230],"hazzard8e_ch59_table59-7_p913.png":[2098,1624],"hazzard8e_ch59_table59-x_p914.png":[2085,1105],"hazzard8e_ch5_figure-5-1_p84.webp":[496,908],"hazzard8e_ch5_figure-5-2_p85.webp":[496,934],"hazzard8e_ch5_figure-5-3_p86.webp":[496,882],"hazzard8e_ch5_figure-5-4_p87.webp":[500,516],"hazzard8e_ch5_figure-5-5_p90.webp":[496,488],"hazzard8e_ch5_figure-5-6_p93.webp":[1028,902],"hazzard8e_ch5_table-5-1_p88.webp":[1024,1182],"hazzard8e_ch61_figure61-1.png":[700,1300],"hazzard8e_ch61_figure61-2.png":[1244,775],"hazzard8e_ch62_figure-62-1_p955.webp":[1014,976],"hazzard8e_ch62_figure-62-2_p956.webp":[948,1372],"hazzard8e_ch62_figure-62-3_p966.webp":[954,832],"hazzard8e_ch62_figure-62-4_p969.webp":[504,680],"hazzard8e_ch62_figure-62-5_p970.webp":[890,710],"hazzard8e_ch62_table-62-1_p961.webp":[502,724],"hazzard8e_ch63_figure63-1.png":[1261,966],"hazzard8e_ch63_figure63-2.png":[1343,626],"hazzard8e_ch63_figure63-3.png":[767,635],"hazzard8e_ch63_table63-5_p993.png":[1306,874],"hazzard8e_ch64_figure-64-1_p998.webp":[504,1016],"hazzard8e_ch64_figure-64-2_p999.webp":[502,926],"hazzard8e_ch64_figure-64-3_p1002.webp":[888,1068],"hazzard8e_ch64_figure-64-4_p1003.webp":[504,674],"hazzard8e_ch64_figure-64-5_p1003.webp":[890,666],"hazzard8e_ch64_table-64-1_p1001.webp":[1030,1226],"hazzard8e_ch65_figure65-1.png":[1396,643],"hazzard8e_ch65_figure65-2.png":[1200,1685],"hazzard8e_ch65_figure65-2a_p1010.png":[1331,1876],"hazzard8e_ch65_figure65-3.png":[1150,1625],"hazzard8e_ch65_figure65-4.png":[750,519],"hazzard8e_ch65_table65-1_p1017.png":[1273,2248],"hazzard8e_ch66_figure-66-1_p1022.webp":[506,514],"hazzard8e_ch66_figure-66-2_p1023.webp":[890,408],"hazzard8e_ch66_figure-66-3_p1023.webp":[890,700],"hazzard8e_ch66_table-66-1_p1031.webp":[500,832],"hazzard8e_ch67_figure-67-1_p1046.webp":[922,596],"hazzard8e_ch67_table-67-1_p1048.webp":[502,328],"hazzard8e_ch67_table-67-2_p1049.webp":[1034,710],"hazzard8e_ch67_table-67-3_p1051.webp":[1032,948],"hazzard8e_ch67_table-67-4_p1052.webp":[504,828],"hazzard8e_ch67_table-67-5_p1053.webp":[1032,590],"hazzard8e_ch68_figure68-1.png":[1356,1106],"hazzard8e_ch68_table68-1_p1056.png":[641,516],"hazzard8e_ch68_table68-2_p1056.png":[641,687],"hazzard8e_ch68_table68-3_p1059.png":[1290,764],"hazzard8e_ch68_table68-4_p1059.png":[1302,588],"hazzard8e_ch68_table68-5_p1060.png":[642,458],"hazzard8e_ch68_table68-6_p1061.png":[1292,1155],"hazzard8e_ch68_table68-7_p1063.png":[1293,872],"hazzard8e_ch68_table68-8_p1063.png":[1307,884],"hazzard8e_ch68_table68-8_p1064.png":[1301,1153],"hazzard8e_ch69_figure-69-1_p1072.webp":[888,600],"hazzard8e_ch69_figure-69-2_p1073.webp":[500,360],"hazzard8e_ch69_table-69-1_p1074.webp":[502,378],"hazzard8e_ch6_figure-6-1_p96.webp":[1024,660],"hazzard8e_ch6_figure-6-2_p97.webp":[932,824],"hazzard8e_ch6_figure-6-3_p98.webp":[496,416],"hazzard8e_ch6_figure-6-4_p101.webp":[1028,634],"hazzard8e_ch6_table-6-1_p103.webp":[1028,834],"hazzard8e_ch6_table-6-2_p104.webp":[1024,746],"hazzard8e_ch70_figure-70-1_p1078.webp":[888,412],"hazzard8e_ch70_figure-70-2_p1080.webp":[888,380],"hazzard8e_ch70_figure-70-3_p1082.webp":[892,652],"hazzard8e_ch70_figure-70-4_p1083.webp":[890,298],"hazzard8e_ch71_table-71-1_p1090.webp":[507,667],"hazzard8e_ch71_table-71-2_p1090.webp":[506,195],"hazzard8e_ch71_table-71-3_p1091.webp":[506,465],"hazzard8e_ch71_table-71-4_p1091.webp":[506,428],"hazzard8e_ch71_table-71-5_p1091.webp":[507,587],"hazzard8e_ch71_table-71-6_p1092.webp":[506,587],"hazzard8e_ch71_table-71-7_p1094.webp":[507,811],"hazzard8e_ch71_table-71-8_p1095.webp":[1034,591],"hazzard8e_ch72_figure-72-1_p1101.webp":[884,650],"hazzard8e_ch72_table-72-1_p1099.webp":[500,804],"hazzard8e_ch72_table-72-2_p1100.webp":[1028,646],"hazzard8e_ch72_table-72-3_p1102.webp":[500,768],"hazzard8e_ch72_table-72-4_p1104.webp":[1028,980],"hazzard8e_ch72_table-72-5_p1107.webp":[1028,804],"hazzard8e_ch72_table-72-6_p1108.webp":[500,874],"hazzard8e_ch72_table-72-7_p1108.webp":[498,792],"hazzard8e_ch72_table-72-8_p1109.webp":[1028,734],"hazzard8e_ch73_fig73_1_p1119.png":[1237,632],"hazzard8e_ch73_fig73_2_p1120.png":[1239,615],"hazzard8e_ch73_fig73_3_p1121.png":[695,1328],"hazzard8e_ch73_figure-73-1_p1119.webp":[886,450],"hazzard8e_ch73_figure-73-2_p1120.webp":[888,438],"hazzard8e_ch73_figure-73-3_p1121.webp":[504,956],"hazzard8e_ch73_figure-73-4_p1122.webp":[986,756],"hazzard8e_ch73_figure-73-5_p1124.webp":[980,752],"hazzard8e_ch73_figure-73-6_p1126.webp":[502,526],"hazzard8e_ch73_figure-73-7_p1127.webp":[990,760],"hazzard8e_ch73_figure-73-8_p1128.webp":[990,830],"hazzard8e_ch73_figure-73-9_p1128.webp":[888,506],"hazzard8e_ch73_table-73-1_p1116.webp":[504,318],"hazzard8e_ch73_table-73-2_p1121.webp":[502,304],"hazzard8e_ch73_table-73-3_p1126.webp":[1028,460],"hazzard8e_ch73_table-73-4_p1129.webp":[1034,630],"hazzard8e_ch73_table73_1_p1116.png":[698,443],"hazzard8e_ch73_table73_2_p1121.png":[698,421],"hazzard8e_ch74_figure-74-1_p1134.webp":[888,470],"hazzard8e_ch74_figure-74-2_p1135.webp":[886,488],"hazzard8e_ch74_figure-74-3_p1136.webp":[886,520],"hazzard8e_ch74_figure-74-4_p1137.webp":[886,520],"hazzard8e_ch74_figure-74-5_p1139.webp":[938,938],"hazzard8e_ch74_figure-74-6_p1142.webp":[906,578],"hazzard8e_ch74_figure74-5_p1139.png":[1283,1349],"hazzard8e_ch74_table-74-1_p1138.webp":[1028,376],"hazzard8e_ch75_figure75-1.png":[1346,653],"hazzard8e_ch75_table75-12_p1160.png":[1562,397],"hazzard8e_ch75_table75-15_p1161.png":[767,693],"hazzard8e_ch75_table75-3_p1153.png":[1562,658],"hazzard8e_ch75_table75-4_p1154.png":[763,923],"hazzard8e_ch75_table75-6_p1155.png":[752,795],"hazzard8e_ch76_figure76-1.png":[1346,801],"hazzard8e_ch76_figure76-2.png":[1346,969],"hazzard8e_ch76_figure76-3.png":[1346,595],"hazzard8e_ch76_figure76-4.png":[1481,1053],"hazzard8e_ch76_figure76-5.png":[768,643],"hazzard8e_ch76_figure76-6.png":[771,762],"hazzard8e_ch76_table76-10_p1178.png":[635,463],"hazzard8e_ch76_table76-11_p1185.png":[1199,1514],"hazzard8e_ch76_table76-11_p1186.png":[1195,930],"hazzard8e_ch76_table76-1_p1166.png":[640,895],"hazzard8e_ch76_table76-2_p1168.png":[1300,588],"hazzard8e_ch76_table76-3_p1171.png":[641,1145],"hazzard8e_ch76_table76-4_p1172.png":[645,1175],"hazzard8e_ch76_table76-6_p1174.png":[634,1713],"hazzard8e_ch76_table76-7_p1175.png":[630,845],"hazzard8e_ch76_table76-8_p1177.png":[641,1490],"hazzard8e_ch76_table76-9_p1178.png":[660,391],"hazzard8e_ch77_figure77-1a.png":[1508,495],"hazzard8e_ch77_figure77-1b.png":[1346,690],"hazzard8e_ch77_figure77-1c.png":[1346,649],"hazzard8e_ch77_figure77-1d.png":[1344,696],"hazzard8e_ch77_figure77-2a.png":[787,790],"hazzard8e_ch77_figure77-2b.png":[774,813],"hazzard8e_ch77_figure77-3a.png":[766,630],"hazzard8e_ch77_figure77-3b.png":[766,623],"hazzard8e_ch77_figure77-4a.png":[751,594],"hazzard8e_ch77_figure77-4b.png":[775,630],"hazzard8e_ch77_figure77-4c.png":[822,577],"hazzard8e_ch77_figure77-4d.png":[1352,751],"hazzard8e_ch77_figure77-4e.png":[772,597],"hazzard8e_ch77_figure77-4f.png":[757,426],"hazzard8e_ch77_figure77-5a.png":[752,816],"hazzard8e_ch77_figure77-5b.png":[775,816],"hazzard8e_ch77_table77-10_p1206.png":[742,1365],"hazzard8e_ch77_table77-1_p1194.png":[751,540],"hazzard8e_ch77_table77-2_p1194.png":[754,495],"hazzard8e_ch77_table77-3_p1197.png":[769,474],"hazzard8e_ch77_table77-4_p1199.png":[766,480],"hazzard8e_ch77_table77-5_p1199.png":[766,1150],"hazzard8e_ch77_table77-6_p1201.png":[766,550],"hazzard8e_ch77_table77-7_p1202.png":[742,1653],"hazzard8e_ch77_table77-8_p1203.png":[766,1353],"hazzard8e_ch77_table77-9_p1204.png":[2152,1466],"hazzard8e_ch77_table77-9_p1205.png":[2152,1616],"hazzard8e_ch78_figure-78-1_p1211.webp":[886,562],"hazzard8e_ch78_table-78-1_p1213.webp":[498,204],"hazzard8e_ch78_table-78-2_p1216.webp":[498,268],"hazzard8e_ch79_figure-79-1_p1220.webp":[888,706],"hazzard8e_ch79_figure-79-2_p1224.webp":[888,562],"hazzard8e_ch79_table-79-1_p1221.webp":[502,310],"hazzard8e_ch79_table-79-2_p1221.webp":[502,304],"hazzard8e_ch79_table-79-3_p1225.webp":[502,458],"hazzard8e_ch79_table-79-4_p1226.webp":[1030,854],"hazzard8e_ch7_table-7-1_p112.webp":[500,528],"hazzard8e_ch7_table-7-2_p112.webp":[500,274],"hazzard8e_ch7_table-7-3_p114.webp":[1028,595],"hazzard8e_ch7_table-7-4_p115.webp":[1028,685],"hazzard8e_ch80_figure-80-1_p1230.webp":[504,406],"hazzard8e_ch80_figure-80-2_p1232.webp":[890,754],"hazzard8e_ch81_figure81-1.png":[829,576],"hazzard8e_ch81_figure81-2.png":[1468,1230],"hazzard8e_ch81_table81-10_p1249.png":[2097,1416],"hazzard8e_ch81_table81-10_p1250.png":[2090,1575],"hazzard8e_ch81_table81-10_p1251.png":[2095,1542],"hazzard8e_ch81_table81-10_p1252.png":[2004,1324],"hazzard8e_ch81_table81-14_p1263.png":[2064,2270],"hazzard8e_ch81_table81-1_p1238.png":[1147,1360],"hazzard8e_ch81_table81-2_p1239.png":[714,1809],"hazzard8e_ch81_table81-3_p1242.png":[1302,732],"hazzard8e_ch81_table81-5_p1244.png":[1146,1041],"hazzard8e_ch81_table81-6_p1245.png":[1299,1005],"hazzard8e_ch81_table81-7_p1246.png":[1440,1884],"hazzard8e_ch82_cockcroft-gault-equation_p1268.webp":[490,70],"hazzard8e_ch82_figure-82-1_p1268.webp":[506,528],"hazzard8e_ch82_figure-82-2_p1272.webp":[506,378],"hazzard8e_ch82_table-82-1_p1269.webp":[502,346],"hazzard8e_ch82_table-82-2_p1269.webp":[504,298],"hazzard8e_ch82_table-82-3_p1275.webp":[498,318],"hazzard8e_ch83_figure83-1.png":[1405,1139],"hazzard8e_ch83_figure83-2.png":[1434,804],"hazzard8e_ch83_figure83-3.png":[1551,1187],"hazzard8e_ch83_figure83-4.png":[1338,630],"hazzard8e_ch83_figure83-5.png":[766,657],"hazzard8e_ch83_table83-1_p1281.png":[1298,1617],"hazzard8e_ch83_table83-1_p1282.png":[1548,726],"hazzard8e_ch83_table83-2_p1284.png":[639,1558],"hazzard8e_ch83_table83-3_p1288.png":[638,623],"hazzard8e_ch84_figure-84-1_p1300.webp":[884,710],"hazzard8e_ch84_figure-84-2_p1304.webp":[500,370],"hazzard8e_ch84_figure-84-3_p1305.webp":[496,422],"hazzard8e_ch84_figure-84-4_p1308.webp":[498,432],"hazzard8e_ch84_figure-84-5_p1312.webp":[500,1214],"hazzard8e_ch84_table-84-10_p1307.webp":[1030,390],"hazzard8e_ch84_table-84-11_p1309.webp":[500,198],"hazzard8e_ch84_table-84-12_p1309.webp":[500,240],"hazzard8e_ch84_table-84-13_p1311.webp":[1030,648],"hazzard8e_ch84_table-84-14_p1311.webp":[498,252],"hazzard8e_ch84_table-84-15_p1312.webp":[498,464],"hazzard8e_ch84_table-84-1_p1301.webp":[1030,380],"hazzard8e_ch84_table-84-2_p1301.webp":[498,388],"hazzard8e_ch84_table-84-3_p1301.webp":[500,288],"hazzard8e_ch84_table-84-4_p1302.webp":[498,338],"hazzard8e_ch84_table-84-5_p1304.webp":[500,248],"hazzard8e_ch84_table-84-6_p1305.webp":[498,194],"hazzard8e_ch84_table-84-7_p1305.webp":[498,306],"hazzard8e_ch84_table-84-8_p1306.webp":[498,316],"hazzard8e_ch84_table-84-9_p1306.webp":[500,386],"hazzard8e_ch85_figure-85-10_p1323.webp":[938,678],"hazzard8e_ch85_figure-85-11_p1325.webp":[504,440],"hazzard8e_ch85_figure-85-12_p1325.webp":[892,500],"hazzard8e_ch85_figure-85-13_p1326.webp":[506,424],"hazzard8e_ch85_figure-85-14_p1326.webp":[508,394],"hazzard8e_ch85_figure-85-15_p1326.webp":[890,446],"hazzard8e_ch85_figure-85-16_p1327.webp":[508,718],"hazzard8e_ch85_figure-85-17_p1330.webp":[892,654],"hazzard8e_ch85_figure-85-18_p1330.webp":[508,582],"hazzard8e_ch85_figure-85-19_p1331.webp":[1032,978],"hazzard8e_ch85_figure-85-1_p1317.webp":[890,418],"hazzard8e_ch85_figure-85-20_p1333.webp":[892,464],"hazzard8e_ch85_figure-85-2_p1318.webp":[890,420],"hazzard8e_ch85_figure-85-3_p1318.webp":[988,574],"hazzard8e_ch85_figure-85-4_p1319.webp":[938,546],"hazzard8e_ch85_figure-85-5_p1320.webp":[890,544],"hazzard8e_ch85_figure-85-6_p1320.webp":[920,604],"hazzard8e_ch85_figure-85-7_p1321.webp":[890,632],"hazzard8e_ch85_figure-85-8_p1321.webp":[504,568],"hazzard8e_ch85_figure-85-9_p1322.webp":[1034,570],"hazzard8e_ch85_table-85-1_p1316.webp":[504,458],"hazzard8e_ch85_table-85-2_p1316.webp":[504,314],"hazzard8e_ch85_table-85-3_p1317.webp":[502,394],"hazzard8e_ch85_table-85-4_p1321.webp":[504,466],"hazzard8e_ch85_table-85-5_p1328.webp":[1036,662],"hazzard8e_ch85_table-85-6_p1329.webp":[1036,500],"hazzard8e_ch85_table-85-7_p1332.webp":[504,382],"hazzard8e_ch85_table-85-8_p1334.webp":[1036,310],"hazzard8e_ch85_table-85-9_p1335.webp":[1036,794],"hazzard8e_ch85_table85-2_p1316.png":[682,418],"hazzard8e_ch86_figure-86-1_p1340.webp":[890,692],"hazzard8e_ch86_figure-86-2_p1346.webp":[508,1086],"hazzard8e_ch86_figure-86-3_p1347.webp":[1038,1414],"hazzard8e_ch86_figure-86-4_p1350.webp":[884,432],"hazzard8e_ch86_table-86-1_p1338.webp":[502,251],"hazzard8e_ch86_table-86-2_p1338.webp":[502,360],"hazzard8e_ch86_table-86-3_p1339.webp":[1542,966],"hazzard8e_ch86_table-86-4_p1341.webp":[1033,556],"hazzard8e_ch86_table-86-5_p1344.webp":[502,255],"hazzard8e_ch86_table-86-6_p1345.webp":[1554,501],"hazzard8e_ch86_table-86-7_p1348.webp":[503,276],"hazzard8e_ch86_table-86-8_p1348.webp":[502,390],"hazzard8e_ch86_table-86-9_p1350.webp":[1536,489],"hazzard8e_ch87_figure87-1.png":[765,992],"hazzard8e_ch87_figure87-2.png":[1554,999],"hazzard8e_ch87_figure87-3.png":[1340,1310],"hazzard8e_ch87_figure87-4.png":[989,1268],"hazzard8e_ch87_figure87-5.png":[830,1015],"hazzard8e_ch87_figure87-6.png":[1444,1432],"hazzard8e_ch87_table87-4_p1356.png":[767,842],"hazzard8e_ch87_table87-9_p1373.png":[2097,1325],"hazzard8e_ch87_table87-9_p1374.png":[2083,1077],"hazzard8e_ch88_figure88-1.png":[1389,711],"hazzard8e_ch88_figure88-2.png":[1431,951],"hazzard8e_ch88_figure88-3.png":[1581,1104],"hazzard8e_ch88_table88-1_p1387.png":[742,728],"hazzard8e_ch88_table88-2_p1389.png":[1454,1014],"hazzard8e_ch89_figure-89-1_p1396.webp":[890,448],"hazzard8e_ch89_figure-89-2_p1397.webp":[894,630],"hazzard8e_ch89_figure-89-3_p1398.webp":[888,932],"hazzard8e_ch89_figure-89-4_p1401.webp":[502,426],"hazzard8e_ch89_figure-89-5_p1401.webp":[894,464],"hazzard8e_ch89_table-89-1_p1398.webp":[1028,228],"hazzard8e_ch89_table-89-2_p1402.webp":[1028,606],"hazzard8e_ch89_table-89-3_p1403.webp":[502,902],"hazzard8e_ch89_table-89-4_p1404.webp":[1028,1152],"hazzard8e_ch89_table-89-5_p1405.webp":[1030,360],"hazzard8e_ch89_table89-4_p1404.png":[1390,1553],"hazzard8e_ch8_figure-8-1_p118.webp":[500,350],"hazzard8e_ch8_figure-8-2_p124.webp":[966,858],"hazzard8e_ch8_table-8-1_p119.webp":[1032,294],"hazzard8e_ch8_table-8-2_p120.webp":[504,914],"hazzard8e_ch8_table-8-3_p121.webp":[504,768],"hazzard8e_ch8_table-8-4_p122.webp":[1036,1262],"hazzard8e_ch8_table-8-5_p125.webp":[1032,1072],"hazzard8e_ch8_table-8-6_p126.webp":[1028,648],"hazzard8e_ch8_table-8-7_p128.webp":[1028,696],"hazzard8e_ch8_table-8-8_p129.webp":[1032,232],"hazzard8e_ch90_figure-90-1_p1413.webp":[1012,574],"hazzard8e_ch90_table-90-1_p1411.webp":[500,584],"hazzard8e_ch90_table-90-2_p1413.webp":[1028,704],"hazzard8e_ch90_table-90-3_p1416.webp":[1028,328],"hazzard8e_ch91_table-91-1_p1423.webp":[1533,1167],"hazzard8e_ch91_table-91-2-continued_p1428.webp":[1539,2112],"hazzard8e_ch91_table-91-2-continued_p1429.webp":[1028,731],"hazzard8e_ch91_table-91-3_p1430.webp":[1536,2052],"hazzard8e_ch92_figure-92-1_p1436.webp":[886,374],"hazzard8e_ch92_figure-92-2_p1437.webp":[884,384],"hazzard8e_ch92_figure-92-3_p1437.webp":[884,396],"hazzard8e_ch92_figure-92-4_p1438.webp":[888,340],"hazzard8e_ch92_figure-92-5_p1438.webp":[888,354],"hazzard8e_ch93_figure-93-10_p1465.webp":[500,456],"hazzard8e_ch93_figure-93-11_p1465.webp":[500,456],"hazzard8e_ch93_figure-93-12_p1465.webp":[502,456],"hazzard8e_ch93_figure-93-13_p1465.webp":[502,456],"hazzard8e_ch93_figure-93-14_p1466.webp":[500,478],"hazzard8e_ch93_figure-93-15_p1466.webp":[500,480],"hazzard8e_ch93_figure-93-16_p1466.webp":[500,456],"hazzard8e_ch93_figure-93-17_p1466.webp":[500,456],"hazzard8e_ch93_figure-93-18_p1467.webp":[500,456],"hazzard8e_ch93_figure-93-19_p1467.webp":[500,500],"hazzard8e_ch93_figure-93-1_p1457.webp":[500,456],"hazzard8e_ch93_figure-93-20_p1469.webp":[502,456],"hazzard8e_ch93_figure-93-21_p1470.webp":[500,432],"hazzard8e_ch93_figure-93-2_p1457.webp":[502,456],"hazzard8e_ch93_figure-93-3_p1458.webp":[500,456],"hazzard8e_ch93_figure-93-4_p1458.webp":[500,480],"hazzard8e_ch93_figure-93-5_p1459.webp":[500,456],"hazzard8e_ch93_figure-93-6_p1459.webp":[502,456],"hazzard8e_ch93_figure-93-7_p1459.webp":[502,512],"hazzard8e_ch93_figure-93-8_p1460.webp":[500,456],"hazzard8e_ch93_figure-93-9_p1464.webp":[500,412],"hazzard8e_ch93_table-93-1_p1456.webp":[500,504],"hazzard8e_ch93_table-93-2_p1460.webp":[500,930],"hazzard8e_ch93_table-93-3_p1464.webp":[500,314],"hazzard8e_ch94_figure-94-1_p1474.webp":[1010,728],"hazzard8e_ch94_figure-94-2_p1475.webp":[884,692],"hazzard8e_ch94_figure-94-3_p1476.webp":[950,630],"hazzard8e_ch94_figure-94-4_p1478.webp":[498,378],"hazzard8e_ch94_figure-94-5_p1478.webp":[888,494],"hazzard8e_ch94_table-94-1_p1480.webp":[498,624],"hazzard8e_ch95_figure-95-1_p1487.webp":[886,658],"hazzard8e_ch95_figure-95-2_p1488.webp":[888,648],"hazzard8e_ch95_table-95-10_p1495.webp":[1034,306],"hazzard8e_ch95_table-95-11_p1496.webp":[1032,782],"hazzard8e_ch95_table-95-12_p1498.webp":[1032,388],"hazzard8e_ch95_table-95-13_p1499.webp":[500,432],"hazzard8e_ch95_table-95-14_p1502.webp":[1172,852],"hazzard8e_ch95_table-95-1_p1485.webp":[1032,328],"hazzard8e_ch95_table-95-2_p1485.webp":[500,328],"hazzard8e_ch95_table-95-3_p1485.webp":[500,364],"hazzard8e_ch95_table-95-4_p1486.webp":[1032,598],"hazzard8e_ch95_table-95-5_p1489.webp":[1032,258],"hazzard8e_ch95_table-95-6_p1491.webp":[1032,224],"hazzard8e_ch95_table-95-7_p1491.webp":[502,344],"hazzard8e_ch95_table-95-8_p1493.webp":[1032,1048],"hazzard8e_ch95_table-95-9_p1494.webp":[502,514],"hazzard8e_ch95_table95-1_p1485.png":[1400,445],"hazzard8e_ch96_figure-96-1_p1510.webp":[888,766],"hazzard8e_ch96_figure-96-2_p1511.webp":[888,752],"hazzard8e_ch96_figure-96-3_p1514.webp":[502,422],"hazzard8e_ch96_figure-96-4_p1518.webp":[886,520],"hazzard8e_ch96_figure96-3_p1514.png":[680,572],"hazzard8e_ch96_table-96-10_p1522.webp":[500,530],"hazzard8e_ch96_table-96-1_p1512.webp":[1030,356],"hazzard8e_ch96_table-96-2_p1513.webp":[500,938],"hazzard8e_ch96_table-96-3_p1513.webp":[502,936],"hazzard8e_ch96_table-96-4_p1514.webp":[500,572],"hazzard8e_ch96_table-96-5_p1517.webp":[500,600],"hazzard8e_ch96_table-96-6_p1519.webp":[500,352],"hazzard8e_ch96_table-96-7_p1520.webp":[500,346],"hazzard8e_ch96_table-96-8_p1521.webp":[500,452],"hazzard8e_ch96_table-96-9_p1522.webp":[500,604],"hazzard8e_ch96_table96-2_p1513.png":[684,1273],"hazzard8e_ch97_figure97-1.png":[1405,1297],"hazzard8e_ch97_figure97-2.png":[830,809],"hazzard8e_ch97_figure97-3.png":[766,1238],"hazzard8e_ch97_table97-5_p1534.png":[763,441],"hazzard8e_ch97_table97-9_p1538.png":[804,1326],"hazzard8e_ch98_figure98-1.png":[1414,956],"hazzard8e_ch98_figure98-2.png":[765,1172],"hazzard8e_ch98_figure98-3.png":[766,603],"hazzard8e_ch98_figure98-4.png":[1344,1458],"hazzard8e_ch98_figure98-5.png":[1485,855],"hazzard8e_ch98_table98-8_p1555.png":[759,482],"hazzard8e_ch99_figure99-1.png":[756,542],"hazzard8e_ch99_figure99-2.png":[1058,429],"hazzard8e_ch99_figure99-3.png":[706,456],"hazzard8e_ch99_figure99-4.png":[933,517],"hazzard8e_ch99_figure99-5.png":[706,761],"hazzard8e_ch99_figure99-6.png":[666,448],"hazzard8e_ch99_figure99-7.png":[700,579],"hazzard8e_ch99_figure99-8.png":[682,1046],"hazzard8e_ch9_table-9-10_p145.webp":[1030,670],"hazzard8e_ch9_table-9-11_p147.webp":[498,316],"hazzard8e_ch9_table-9-12_p148.webp":[1028,474],"hazzard8e_ch9_table-9-13_p149.webp":[498,1312],"hazzard8e_ch9_table-9-14_p149.webp":[498,902],"hazzard8e_ch9_table-9-1_p134.webp":[496,430],"hazzard8e_ch9_table-9-2_p136.webp":[498,452],"hazzard8e_ch9_table-9-3_p137.webp":[1030,710],"hazzard8e_ch9_table-9-4_p138.webp":[1400,876],"hazzard8e_ch9_table-9-5_p143.webp":[1030,776],"hazzard8e_ch9_table-9-6_p144.webp":[1030,654],"hazzard8e_ch9_table-9-7_p144.webp":[500,398],"hazzard8e_ch9_table-9-8_p144.webp":[500,326],"hazzard8e_ch9_table-9-9_p145.webp":[498,378],"ima2026_album_picture1_Q7.png":[465,505],"ima2026_album_picture3_Q64.png":[798,961]};
+const imageSizes={"ch49_table49_3_p734.png":[698,314,1],"ch49_table49_4_p735.png":[698,287,1],"hazzard8e_ch100_figure-100-1_p1590.webp":[966,676,1],"hazzard8e_ch100_table-100-1_p1591.webp":[500,782,1],"hazzard8e_ch100_table-100-2_p1592.webp":[1030,982,1],"hazzard8e_ch100_table-100-3_p1602.webp":[1030,692,1],"hazzard8e_ch100_table-100-4_p1604.webp":[1030,616,1],"hazzard8e_ch100_table-100-5_p1605.webp":[500,604,1],"hazzard8e_ch101_figure101-1.png":[767,871,1],"hazzard8e_ch101_figure101-2.png":[1259,956,1],"hazzard8e_ch101_figure101-3.png":[1555,757,1],"hazzard8e_ch101_figure101-4.png":[772,1401,1],"hazzard8e_ch101_table101-10_p1624.png":[1111,1236,1],"hazzard8e_ch101_table101-11_p1628.png":[1189,751,1],"hazzard8e_ch101_table101-1_p1608.png":[638,1128,1],"hazzard8e_ch101_table101-4_p1614.png":[1151,1152,1],"hazzard8e_ch101_table101-4_p1615.png":[1146,856,1],"hazzard8e_ch101_table101-5_p1616.png":[1146,1193,1],"hazzard8e_ch102_figure102-1.png":[1243,726,1],"hazzard8e_ch102_figure102-2.png":[748,554,1],"hazzard8e_ch102_figure102-3.png":[822,711,1],"hazzard8e_ch102_table102-3_p1632.png":[773,484,1],"hazzard8e_ch102_table102-7_p1636.png":[867,619,1],"hazzard8e_ch103_figure-103-1_p1645.webp":[1012,1394,1],"hazzard8e_ch103_figure-103-2_p1652.webp":[1032,1380,1],"hazzard8e_ch103_figure-103-3_p1655.webp":[886,1334,1],"hazzard8e_ch103_figure-103-4_p1656.webp":[502,680,1],"hazzard8e_ch103_figure-103-5_p1658.webp":[502,700,1],"hazzard8e_ch103_figure-103-6_p1663.webp":[912,1392,1],"hazzard8e_ch103_table-103-10_p1660.webp":[1030,1414,1],"hazzard8e_ch103_table-103-11_p1662.webp":[502,1052,1],"hazzard8e_ch103_table-103-1_p1646.webp":[1028,652,1],"hazzard8e_ch103_table-103-2_p1647.webp":[506,972,1],"hazzard8e_ch103_table-103-3_p1648.webp":[1028,1384,1],"hazzard8e_ch103_table-103-4_p1649.webp":[1032,440,1],"hazzard8e_ch103_table-103-5-continued_p1651.webp":[1406,778],"hazzard8e_ch103_table-103-5_p1650.webp":[1410,1010,1],"hazzard8e_ch103_table-103-6_p1653.webp":[1032,736,1],"hazzard8e_ch103_table-103-7_p1653.webp":[1032,368,1],"hazzard8e_ch103_table-103-8_p1657.webp":[1032,1010,1],"hazzard8e_ch103_table-103-9_p1658.webp":[504,946,1],"hazzard8e_ch103_table103-4_p1649.png":[1391,595,1],"hazzard8e_ch104_figure104-1.png":[1315,1154,1],"hazzard8e_ch104_figure104-2.png":[1336,751,1],"hazzard8e_ch104_figure104-3.png":[1459,1209,1],"hazzard8e_ch104_table104-1_p1672.png":[1300,1752,1],"hazzard8e_ch104_table104-1_p1673.png":[1295,1760,1],"hazzard8e_ch105_figure105-1.png":[1544,1009,1],"hazzard8e_ch105_figure105-2.png":[1545,1255,1],"hazzard8e_ch105_table105-10_p1688.png":[766,552,1],"hazzard8e_ch105_table105-11_p1689.png":[1298,1055,1],"hazzard8e_ch105_table105-12_p1695.png":[1796,2224,1],"hazzard8e_ch105_table105-1_p1681.png":[762,1632,1],"hazzard8e_ch105_table105-2_p1682.png":[786,1416,1],"hazzard8e_ch105_table105-3_p1683.png":[762,1320,1],"hazzard8e_ch105_table105-4_p1686.png":[769,651,1],"hazzard8e_ch105_table105-5_p1686.png":[780,504,1],"hazzard8e_ch105_table105-6_p1687.png":[739,565,1],"hazzard8e_ch105_table105-7_p1687.png":[738,835,1],"hazzard8e_ch105_table105-8_p1688.png":[1559,1089,1],"hazzard8e_ch105_table105-9_p1688.png":[792,939,1],"hazzard8e_ch106_figure-106-1_p1704.webp":[982,910,1],"hazzard8e_ch106_figure-106-2_p1712.webp":[978,542,1],"hazzard8e_ch106_figure-106-3_p1716.webp":[962,524,1],"hazzard8e_ch106_table-106-1_p1701.webp":[1036,730,1],"hazzard8e_ch106_table-106-2_p1703.webp":[1038,516,1],"hazzard8e_ch106_table-106-3_p1705.webp":[506,716,1],"hazzard8e_ch106_table-106-4_p1706.webp":[1036,1358,1],"hazzard8e_ch106_table-106-5_p1708.webp":[1036,758,1],"hazzard8e_ch106_table-106-6_p1709.webp":[1036,1108,1],"hazzard8e_ch106_table-106-7_p1710.webp":[1036,756,1],"hazzard8e_ch106_table106-2_p1703.png":[1400,694,1],"hazzard8e_ch107_figure-107-1_p1724.webp":[930,912,1],"hazzard8e_ch107_figure-107-2_p1725.webp":[946,536,1],"hazzard8e_ch107_figure-107-3_p1726.webp":[500,438,1],"hazzard8e_ch107_figure-107-4_p1729.webp":[890,554,1],"hazzard8e_ch107_table-107-1_p1727.webp":[504,596,1],"hazzard8e_ch107_table-107-2_p1729.webp":[502,534,1],"hazzard8e_ch107_table107-1_p1727.png":[682,811,1],"hazzard8e_ch108_table108-1_p1735.png":[786,432,1],"hazzard8e_ch10_table-10-1_p152.webp":[500,525,1],"hazzard8e_ch11_figure-11-1_p158.webp":[882,712,1],"hazzard8e_ch11_figure-11-2_p159.webp":[1028,428,1],"hazzard8e_ch11_table-11-1_p162.webp":[1032,1402,1],"hazzard8e_ch11_table-11-2_p164.webp":[1042,376,1],"hazzard8e_ch11_table-11-3_p166.webp":[1028,462,1],"hazzard8e_ch12_figure-12-1_p172.webp":[506,368,1],"hazzard8e_ch12_figure-12-2_p173.webp":[894,604,1],"hazzard8e_ch12_table-12-1_p174.webp":[1024,550,1],"hazzard8e_ch12_table-12-2_p175.webp":[1028,678,1],"hazzard8e_ch12_table-12-3_p177.webp":[500,270,1],"hazzard8e_ch13_figure-13-1_p180.webp":[1030,606,1],"hazzard8e_ch13_figure-13-2_p182.webp":[1030,1312,1],"hazzard8e_ch13_figure-13-3_p187.webp":[1028,1308,1],"hazzard8e_ch13_figure-13-4_p188.webp":[1030,1368,1],"hazzard8e_ch13_table-13-1-continued_p184.webp":[1024,1410,1],"hazzard8e_ch13_table-13-1-continued_p185.webp":[1028,1410,1],"hazzard8e_ch13_table-13-1-continued_p186.webp":[1024,780,1],"hazzard8e_ch13_table-13-1_p183.webp":[1028,1410,1],"hazzard8e_ch14_figure-14-1_p197.webp":[500,654,1],"hazzard8e_ch14_figure-14-2_p197.webp":[996,716,1],"hazzard8e_ch14_figure-14-3_p198.webp":[1022,414,1],"hazzard8e_ch14_figure-14-4_p198.webp":[892,416,1],"hazzard8e_ch14_table-14-1_p192.webp":[496,252,1],"hazzard8e_ch14_table-14-2_p192.webp":[1024,340,1],"hazzard8e_ch14_table-14-3_p193.webp":[1028,330,1],"hazzard8e_ch14_table-14-4_p195.webp":[1028,1370,1],"hazzard8e_ch14_table-14-4_p196.webp":[1024,1408,1],"hazzard8e_ch15_figure-15-1-continued_p209.webp":[884,622,1],"hazzard8e_ch15_figure-15-1_p208.webp":[884,716,1],"hazzard8e_ch15_figure-15-2-continued_p211.webp":[886,1078,1],"hazzard8e_ch15_figure-15-2_p210.webp":[884,820,1],"hazzard8e_ch15_figure-15-3_p212.webp":[884,908,1],"hazzard8e_ch15_figure-15-4_p214.webp":[1008,780,1],"hazzard8e_ch15_figure-15-5-continued_p216.webp":[888,534,1],"hazzard8e_ch15_figure-15-5_p215.webp":[886,1416,1],"hazzard8e_ch15_figure-15-6_p216.webp":[888,806,1],"hazzard8e_ch15_figure-15-7_p218.webp":[1016,790,1],"hazzard8e_ch15_table-15-1_p209.webp":[500,456,1],"hazzard8e_ch15_table-15-2_p209.webp":[500,464,1],"hazzard8e_ch15_table-15-3_p210.webp":[1028,476,1],"hazzard8e_ch15_table-15-4_p217.webp":[1030,1054,1],"hazzard8e_ch16_figure-16-1_p222.webp":[884,288,1],"hazzard8e_ch16_figure-16-2_p229.webp":[884,1354,1],"hazzard8e_ch16_figure-16-3_p233.webp":[884,1190,1],"hazzard8e_ch16_table-16-1_p222.webp":[500,416,1],"hazzard8e_ch16_table-16-2_p223.webp":[1028,726,1],"hazzard8e_ch16_table-16-3_p224.webp":[500,1386,1],"hazzard8e_ch16_table-16-4-continued_p227.webp":[1400,920],"hazzard8e_ch16_table-16-4_p226.webp":[1400,1010,1],"hazzard8e_ch16_table-16-5_p230.webp":[500,774,1],"hazzard8e_ch16_table-16-6_p231.webp":[1028,1414,1],"hazzard8e_ch16_table-16-6_p232.webp":[1028,1056,1],"hazzard8e_ch16_table-16-7_p234.webp":[500,864,1],"hazzard8e_ch16_table16-6_p231.png":[1391,1908,1],"hazzard8e_ch16_table16-6_p232.png":[1390,1504,1],"hazzard8e_ch17_figure-17-1_p241.webp":[972,690,1],"hazzard8e_ch17_table-17-1_p239.webp":[1026,1414,1],"hazzard8e_ch17_table-17-1_p240.webp":[1024,592,1],"hazzard8e_ch17_table-17-2_p244.webp":[1024,1298,1],"hazzard8e_ch17_table-17-2_p245.webp":[1028,502,1],"hazzard8e_ch18_figure-18-1_p254.webp":[892,666,1],"hazzard8e_ch18_figure-18-2_p258.webp":[892,654,1],"hazzard8e_ch18_table-18-1_p251.webp":[1394,1018,1],"hazzard8e_ch18_table-18-2_p253.webp":[1028,1094,1],"hazzard8e_ch18_table-18-3_p254.webp":[496,674,1],"hazzard8e_ch18_table-18-4_p255.webp":[1030,676,1],"hazzard8e_ch18_table-18-5_p256.webp":[1024,630,1],"hazzard8e_ch18_table-18-6_p257.webp":[498,236,1],"hazzard8e_ch18_table-18-7_p257.webp":[500,438,1],"hazzard8e_ch18_table-18-8_p260.webp":[1024,556,1],"hazzard8e_ch18_table-18-9_p260.webp":[1024,514,1],"hazzard8e_ch19_figure-19-1_p264.webp":[833,707,1],"hazzard8e_ch19_figure-19-2_p265.webp":[1028,296,1],"hazzard8e_ch19_table-19-1_p264.webp":[496,788,1],"hazzard8e_ch19_table-19-2_p266.webp":[496,574,1],"hazzard8e_ch19_table-19-3-continued_p269.webp":[1404,960],"hazzard8e_ch19_table-19-3_p268.webp":[1404,1044,1],"hazzard8e_ch19_table-19-4_p274.webp":[496,944,1],"hazzard8e_ch19_table-19-5_p275.webp":[496,792,1],"hazzard8e_ch1_figure-1-10_p19.webp":[1479,1119,1],"hazzard8e_ch1_figure-1-11_p20.webp":[1328,1009,1],"hazzard8e_ch1_figure-1-1_p6.webp":[1327,963,1],"hazzard8e_ch1_figure-1-2_p8.webp":[1328,1648,1],"hazzard8e_ch1_figure-1-3_p9.webp":[1328,1336,1],"hazzard8e_ch1_figure-1-4_p10.webp":[1545,1021,1],"hazzard8e_ch1_figure-1-5_p11.webp":[1327,1543,1],"hazzard8e_ch1_figure-1-6_p12.webp":[1392,1572,1],"hazzard8e_ch1_figure-1-7_p14.webp":[1328,1293,1],"hazzard8e_ch1_figure-1-8_p15.webp":[1479,796,1],"hazzard8e_ch1_figure-1-9_p18.webp":[1489,2407,1],"hazzard8e_ch1_table-1-1_p15.webp":[1280,1856,1],"hazzard8e_ch20_table-20-1_p278.webp":[1024,810,1],"hazzard8e_ch20_table-20-2_p279.webp":[1028,716,1],"hazzard8e_ch20_table-20-3_p281.webp":[1028,374,1],"hazzard8e_ch20_table-20-4_p283.webp":[1028,378,1],"hazzard8e_ch20_table-20-5_p284.webp":[1024,898,1],"hazzard8e_ch21_figure-21-10_p299.webp":[1028,542,1],"hazzard8e_ch21_figure-21-1_p289.webp":[1028,514,1],"hazzard8e_ch21_figure-21-2_p290.webp":[1024,476,1],"hazzard8e_ch21_figure-21-3_p291.webp":[1028,570,1],"hazzard8e_ch21_figure-21-4_p291.webp":[1028,558,1],"hazzard8e_ch21_figure-21-5_p293.webp":[1028,618,1],"hazzard8e_ch21_figure-21-6_p295.webp":[1028,524,1],"hazzard8e_ch21_figure-21-7_p296.webp":[1024,496,1],"hazzard8e_ch21_figure-21-8_p297.webp":[1028,590,1],"hazzard8e_ch21_figure-21-9_p298.webp":[1024,590,1],"hazzard8e_ch21_table-21-1_p288.webp":[496,1176,1],"hazzard8e_ch21_table-21-2_p295.webp":[500,696,1],"hazzard8e_ch22_figure-22-1_p305.webp":[888,516,1],"hazzard8e_ch22_figure-22-2_p306.webp":[960,662,1],"hazzard8e_ch22_figure-22-3_p314.webp":[882,1092,1],"hazzard8e_ch22_table-22-1_p304.webp":[500,344,1],"hazzard8e_ch22_table-22-2_p305.webp":[500,262,1],"hazzard8e_ch22_table-22-3_p309.webp":[1030,496,1],"hazzard8e_ch22_table-22-4_p312.webp":[500,260,1],"hazzard8e_ch22_table22-2_p305.png":[684,357,1],"hazzard8e_ch23_table-23-1_p318.webp":[1027,993,1],"hazzard8e_ch23_table-23-2_p320.webp":[744,1014,1],"hazzard8e_ch23_table-23-3_p321.webp":[500,787,1],"hazzard8e_ch23_table-23-4_p325.webp":[1028,1349,1],"hazzard8e_ch24_figure-24-1_p330.webp":[892,522,1],"hazzard8e_ch24_figure-24-2_p330.webp":[892,610,1],"hazzard8e_ch24_figure-24-3_p343.webp":[986,622,1],"hazzard8e_ch24_table-24-1_p331.webp":[500,518,1],"hazzard8e_ch24_table-24-2_p333.webp":[1028,1366,1],"hazzard8e_ch25_figure-25-1_p349.webp":[894,516,1],"hazzard8e_ch25_figure-25-2_p356.webp":[1022,314,1],"hazzard8e_ch25_figure-25-3_p356.webp":[1004,630,1],"hazzard8e_ch25_table-25-1_p348.webp":[496,1274,1],"hazzard8e_ch25_table-25-2_p348.webp":[496,632,1],"hazzard8e_ch25_table-25-3_p350.webp":[496,432,1],"hazzard8e_ch25_table-25-4_p355.webp":[498,320,1],"hazzard8e_ch26_table-26-1_p362.webp":[500,220,1],"hazzard8e_ch26_table-26-2_p363.webp":[500,302,1],"hazzard8e_ch26_table-26-3_p364.webp":[500,353,1],"hazzard8e_ch26_table-26-4_p365.webp":[500,199,1],"hazzard8e_ch26_table-26-5_p367.webp":[500,199,1],"hazzard8e_ch27_table-27-1_p372.webp":[502,586,1],"hazzard8e_ch27_table-27-2_p373.webp":[502,1044,1],"hazzard8e_ch27_table-27-3_p375.webp":[504,1114,1],"hazzard8e_ch27_table-27-4-continued_p378.webp":[1028,1138,1],"hazzard8e_ch27_table-27-4_p377.webp":[1028,610,1],"hazzard8e_ch28_figure-28-1_p385.webp":[1446,1254,1],"hazzard8e_ch28_table-28-1-continued_p387.webp":[1533,2064,1],"hazzard8e_ch28_table-28-1_p386.webp":[1034,1405,1],"hazzard8e_ch28_table-28-2_p389.webp":[506,363,1],"hazzard8e_ch28_table-28-3_p391.webp":[1533,813,1],"hazzard8e_ch28_table-28-4_p392.webp":[1034,703,1],"hazzard8e_ch29_figure-29-1_p403.webp":[1038,620,1],"hazzard8e_ch2_figure-2-10_p34.webp":[1030,994,1],"hazzard8e_ch2_figure-2-11_p35.webp":[1028,766,1],"hazzard8e_ch2_figure-2-12_p35.webp":[1028,604,1],"hazzard8e_ch2_figure-2-13_p36.webp":[1030,836,1],"hazzard8e_ch2_figure-2-14_p37.webp":[1028,640,1],"hazzard8e_ch2_figure-2-15_p38.webp":[1030,1166,1],"hazzard8e_ch2_figure-2-16_p39.webp":[1028,634,1],"hazzard8e_ch2_figure-2-17_p40.webp":[1030,392,1],"hazzard8e_ch2_figure-2-1_p24.webp":[1326,846,1],"hazzard8e_ch2_figure-2-2_p25.webp":[752,620,1],"hazzard8e_ch2_figure-2-3_p27.webp":[496,1048,1],"hazzard8e_ch2_figure-2-4_p28.webp":[1032,394,1],"hazzard8e_ch2_figure-2-5_p28.webp":[1030,484,1],"hazzard8e_ch2_figure-2-6_p30.webp":[1030,716,1],"hazzard8e_ch2_figure-2-7_p30.webp":[1030,524,1],"hazzard8e_ch2_figure-2-8_p31.webp":[926,774,1],"hazzard8e_ch2_figure-2-9_p32.webp":[1030,514,1],"hazzard8e_ch2_table-2-1_p24.webp":[1241,699,1],"hazzard8e_ch2_table-2-2_p25.webp":[1030,266,1],"hazzard8e_ch2_table-2-3_p29.webp":[496,720,1],"hazzard8e_ch2_table-2-4_p31.webp":[496,626,1],"hazzard8e_ch2_table-2-5_p32.webp":[496,412,1],"hazzard8e_ch2_table-2-6_p33.webp":[496,640,1],"hazzard8e_ch2_table-2-7_p42.webp":[860,1840,1],"hazzard8e_ch30_figure-30-1_p408.webp":[500,514,1],"hazzard8e_ch30_figure-30-2_p409.webp":[496,634,1],"hazzard8e_ch30_figure-30-3_p411.webp":[886,554,1],"hazzard8e_ch30_figure-30-4_p412.webp":[886,538,1],"hazzard8e_ch30_figure-30-5_p412.webp":[1012,542,1],"hazzard8e_ch30_figure-30-6_p417.webp":[498,570,1],"hazzard8e_ch30_figure-30-7_p422.webp":[747,600,1],"hazzard8e_ch30_figure-30-8_p427.webp":[978,640,1],"hazzard8e_ch30_figure-30-9_p428.webp":[886,516,1],"hazzard8e_ch30_table-30-10_p426.webp":[1396,668,1],"hazzard8e_ch30_table-30-11_p427.webp":[498,460,1],"hazzard8e_ch30_table-30-12_p431.webp":[500,1000,1],"hazzard8e_ch30_table-30-13_p433.webp":[500,940,1],"hazzard8e_ch30_table-30-14_p434.webp":[498,350,1],"hazzard8e_ch30_table-30-15_p434.webp":[500,908,1],"hazzard8e_ch30_table-30-1_p409.webp":[498,724,1],"hazzard8e_ch30_table-30-2_p410.webp":[498,400,1],"hazzard8e_ch30_table-30-3_p410.webp":[500,908,1],"hazzard8e_ch30_table-30-4_p413.webp":[498,616,1],"hazzard8e_ch30_table-30-5_p418.webp":[500,960,1],"hazzard8e_ch30_table-30-6_p419.webp":[498,452,1],"hazzard8e_ch30_table-30-7_p420.webp":[498,806,1],"hazzard8e_ch30_table-30-8_p424.webp":[498,308,1],"hazzard8e_ch30_table-30-9_p425.webp":[498,654,1],"hazzard8e_ch31_figure-31-1_p440.webp":[502,650,1],"hazzard8e_ch31_figure-31-2_p440.webp":[502,564,1],"hazzard8e_ch31_figure-31-3_p440.webp":[502,510,1],"hazzard8e_ch31_figure-31-4_p441.webp":[1030,808,1],"hazzard8e_ch31_figure-31-5_p442.webp":[502,1242,1],"hazzard8e_ch31_figure-31-6_p443.webp":[886,476,1],"hazzard8e_ch31_figure-31-7_p443.webp":[1022,848,1],"hazzard8e_ch31_table-31-1_p439.webp":[1026,1310,1],"hazzard8e_ch31_table-31-2_p441.webp":[498,424,1],"hazzard8e_ch31_table-31-3_p445.webp":[500,1184,1],"hazzard8e_ch31_table-31-4_p445.webp":[500,918,1],"hazzard8e_ch31_table-31-5_p446.webp":[500,692,1],"hazzard8e_ch31_table-31-6_p447.webp":[502,1118,1],"hazzard8e_ch31_table-31-7_p448.webp":[500,950,1],"hazzard8e_ch31_table31-5_p446.png":[677,940,1],"hazzard8e_ch32_figure-32-1_p455.webp":[512,584,1],"hazzard8e_ch32_figure-32-2_p455.webp":[512,740,1],"hazzard8e_ch32_figure-32-3_p456.webp":[514,406,1],"hazzard8e_ch32_figure-32-4_p458.webp":[512,398,1],"hazzard8e_ch32_figure-32-5_p459.webp":[512,406,1],"hazzard8e_ch32_figure-32-6_p460.webp":[514,744,1],"hazzard8e_ch32_figure-32-7_p463.webp":[1038,512,1],"hazzard8e_ch32_figure-32-8_p464.webp":[1038,1270,1],"hazzard8e_ch32_figure-32-9_p465.webp":[1038,420,1],"hazzard8e_ch32_table-32-1_p454.webp":[506,409,1],"hazzard8e_ch32_table-32-2_p454.webp":[506,303,1],"hazzard8e_ch32_table-32-3_p454.webp":[506,1359,1],"hazzard8e_ch32_table-32-4_p457.webp":[741,984,1],"hazzard8e_ch32_table-32-5_p460.webp":[506,1038,1],"hazzard8e_ch32_table-32-6_p461.webp":[506,621,1],"hazzard8e_ch32_table-32-7_p465.webp":[506,375,1],"hazzard8e_ch33_table-33-1_p471.webp":[1536,1263,1],"hazzard8e_ch33_table-33-2_p473.webp":[1034,781,1],"hazzard8e_ch33_table-33-3_p475.webp":[506,901,1],"hazzard8e_ch33_table-33-4_p476.webp":[506,469,1],"hazzard8e_ch33_table-33-5_p478.webp":[506,831,1],"hazzard8e_ch33_table-33-6_p480.webp":[1034,832,1],"hazzard8e_ch33_table-33-7_p482.webp":[506,937,1],"hazzard8e_ch33_table-33-8_p484.webp":[506,751,1],"hazzard8e_ch34_figure-34-1_p492.webp":[892,836,1],"hazzard8e_ch34_figure-34-2_p493.webp":[508,552,1],"hazzard8e_ch34_figure-34-3_p493.webp":[508,640,1],"hazzard8e_ch34_figure-34-4_p494.webp":[892,258,1],"hazzard8e_ch34_figure-34-5_p496.webp":[900,1422,1],"hazzard8e_ch34_figure-34-6_p499.webp":[508,544,1],"hazzard8e_ch34_table-34-1_p494.webp":[504,746,1],"hazzard8e_ch34_table-34-2_p494.webp":[508,586,1],"hazzard8e_ch35_figure-35-1_p504.webp":[514,678,1],"hazzard8e_ch35_figure-35-2_p505.webp":[1038,824,1],"hazzard8e_ch35_figure-35-3_p507.webp":[514,442,1],"hazzard8e_ch35_figure-35-4_p509.webp":[1038,272,1],"hazzard8e_ch35_figure-35-5_p512.webp":[1038,1438,1],"hazzard8e_ch35_figure-35-6_p514.webp":[512,1162,1],"hazzard8e_ch35_figure-35-7_p516.webp":[512,840,1],"hazzard8e_ch35_figure-35-8_p520.webp":[1038,614,1],"hazzard8e_ch35_table-35-10_p521.webp":[741,1764,1],"hazzard8e_ch35_table-35-11_p522.webp":[1034,709,1],"hazzard8e_ch35_table-35-1_p506.webp":[506,755,1],"hazzard8e_ch35_table-35-2_p506.webp":[507,729,1],"hazzard8e_ch35_table-35-3_p508.webp":[1034,588,1],"hazzard8e_ch35_table-35-4_p510.webp":[1034,821,1],"hazzard8e_ch35_table-35-5_p513.webp":[507,931,1],"hazzard8e_ch35_table-35-6_p517.webp":[1034,1271,1],"hazzard8e_ch35_table-35-7a_p518.webp":[1034,635,1],"hazzard8e_ch35_table-35-7b_p518.webp":[1034,311,1],"hazzard8e_ch35_table-35-8-continued_p520.webp":[1034,765,1],"hazzard8e_ch35_table-35-8_p519.webp":[1034,1405,1],"hazzard8e_ch35_table-35-9_p521.webp":[506,871,1],"hazzard8e_ch36_figure-36-1_p529.webp":[506,368,1],"hazzard8e_ch36_figure-36-2_p531.webp":[861,1700,1],"hazzard8e_ch36_figure-36-3_p535.webp":[892,1056,1],"hazzard8e_ch36_figure-36-4_p543.webp":[1624,2106,1],"hazzard8e_ch36_figure-36-5_p544.webp":[892,372,1],"hazzard8e_ch36_figure-36-6_p544.webp":[892,336,1],"hazzard8e_ch36_figure-36-7_p545.webp":[892,424,1],"hazzard8e_ch36_table-36-1_p528.webp":[1028,815,1],"hazzard8e_ch36_table-36-2_p532.webp":[500,894,1],"hazzard8e_ch36_table-36-3_p536.webp":[1039,696,1],"hazzard8e_ch36_table-36-4_p537.webp":[500,386,1],"hazzard8e_ch36_table-36-5_p538.webp":[500,1012,1],"hazzard8e_ch36_table-36-6_p542.webp":[500,1130,1],"hazzard8e_ch37_figure-37-1_p548.webp":[1038,1088,1],"hazzard8e_ch37_figure-37-2_p550.webp":[512,588,1],"hazzard8e_ch37_table-37-1_p549.webp":[506,351,1],"hazzard8e_ch37_table-37-2_p550.webp":[506,657,1],"hazzard8e_ch37_table-37-3_p552.webp":[506,555,1],"hazzard8e_ch38_figure-38-1_p556.webp":[888,724,1],"hazzard8e_ch38_figure-38-2_p556.webp":[504,576,1],"hazzard8e_ch38_figure-38-3_p557.webp":[890,482,1],"hazzard8e_ch38_figure-38-4_p557.webp":[890,584,1],"hazzard8e_ch38_figure-38-5_p559.webp":[964,866,1],"hazzard8e_ch38_table-38-1_p558.webp":[500,1392,1],"hazzard8e_ch38_table-38-2_p560.webp":[1030,1024,1],"hazzard8e_ch38_table-38-3_p561.webp":[1030,468,1],"hazzard8e_ch38_table-38-4_p562.webp":[502,1040,1],"hazzard8e_ch38_table-38-5_p563.webp":[1030,848,1],"hazzard8e_ch38_table-38-6-continued_p565.webp":[1030,482,1],"hazzard8e_ch38_table-38-6_p564.webp":[1030,1388,1],"hazzard8e_ch38_table-38-7_p566.webp":[500,520,1],"hazzard8e_ch39_figure-39-1_p577.webp":[954,1380,1],"hazzard8e_ch39_table-39-1_p581.webp":[1032,1032,1],"hazzard8e_ch39_table-39-2_p583.webp":[498,648,1],"hazzard8e_ch39_table-39-3_p583.webp":[744,1134,1],"hazzard8e_ch39_table-39-4_p583.webp":[502,338,1],"hazzard8e_ch39_table-39-5_p585.webp":[500,690,1],"hazzard8e_ch39_table-39-6_p585.webp":[502,480,1],"hazzard8e_ch39_table-39-7_p587.webp":[1032,376,1],"hazzard8e_ch39_table39-1_p581.png":[1400,1400,1],"hazzard8e_ch3_figure-3-1_p48.webp":[1030,814,1],"hazzard8e_ch3_figure-3-2_p50.webp":[1030,562,1],"hazzard8e_ch3_figure-3-3_p53.webp":[496,694,1],"hazzard8e_ch3_figure-3-4a_p54.webp":[1030,834,1],"hazzard8e_ch3_figure-3-4b_p54.webp":[1030,536,1],"hazzard8e_ch3_figure-3-5_p55.webp":[1028,842,1],"hazzard8e_ch3_figure-3-6_p56.webp":[1024,518,1],"hazzard8e_ch3_figure-3-7_p57.webp":[1028,1138,1],"hazzard8e_ch3_figure-3-8_p59.webp":[1028,584,1],"hazzard8e_ch3_table-3-1_p49.webp":[496,616,1],"hazzard8e_ch3_table-3-2_p51.webp":[496,1072,1],"hazzard8e_ch3_table-3-3_p56.webp":[496,468,1],"hazzard8e_ch40_figure-40-1_p594.webp":[508,326,1],"hazzard8e_ch40_figure-40-2_p595.webp":[894,350,1],"hazzard8e_ch40_figure-40-3_p595.webp":[894,356,1],"hazzard8e_ch40_figure-40-4_p596.webp":[892,1172,1],"hazzard8e_ch40_figure-40-5_p598.webp":[1028,534,1],"hazzard8e_ch40_figure-40-6_p599.webp":[502,554,1],"hazzard8e_ch40_figure-40-7_p600.webp":[892,406,1],"hazzard8e_ch40_table-40-1_p594.webp":[496,1004,1],"hazzard8e_ch40_table-40-2_p594.webp":[496,260,1],"hazzard8e_ch40_table-40-3_p598.webp":[496,780,1],"hazzard8e_ch40_table-40-4_p601.webp":[498,684,1],"hazzard8e_ch40_table-40-5_p602.webp":[496,276,1],"hazzard8e_ch41_figure-41-1_p606.webp":[1038,696,1],"hazzard8e_ch41_figure-41-2_p607.webp":[1019,498,1],"hazzard8e_ch41_figure-41-3_p608.webp":[1038,712,1],"hazzard8e_ch41_figure-41-4_p609.webp":[1019,1152,1],"hazzard8e_ch41_table-41-1_p610.webp":[1034,725,1],"hazzard8e_ch42_figure42-1.png":[759,900,1],"hazzard8e_ch42_figure42-2.png":[1346,873,1],"hazzard8e_ch42_figure42-3.png":[1346,811,1],"hazzard8e_ch42_figure42-4.png":[1240,1098,1],"hazzard8e_ch42_figure42-5.png":[1119,742,1],"hazzard8e_ch42_table42-3_p621.png":[1800,1063,1],"hazzard8e_ch42_table42-3_p622.png":[1800,681,1],"hazzard8e_ch43_figure43-1.png":[1265,804,1],"hazzard8e_ch43_figure43-2.png":[768,794,1],"hazzard8e_ch43_figure43-3.png":[718,1945,1],"hazzard8e_ch43_figure43-4.png":[723,1195,1],"hazzard8e_ch43_table43-1_p635.png":[2068,2812,1],"hazzard8e_ch43_table43-3_p638.png":[2345,1130,1],"hazzard8e_ch44_figure44-1.png":[723,690,1],"hazzard8e_ch44_figure44-10.png":[1304,680,1],"hazzard8e_ch44_figure44-2.png":[1346,379,1],"hazzard8e_ch44_figure44-3.png":[1427,1084,1],"hazzard8e_ch44_figure44-4.png":[729,723,1],"hazzard8e_ch44_figure44-5.png":[1346,1120,1],"hazzard8e_ch44_figure44-6.png":[1567,1834,1],"hazzard8e_ch44_figure44-7.png":[1559,1218,1],"hazzard8e_ch44_figure44-8.png":[1850,1067,1],"hazzard8e_ch44_figure44-9.png":[1122,500,1],"hazzard8e_ch44_table44-1_p646.png":[1512,676,1],"hazzard8e_ch44_table44-4_p659.png":[1298,616,1],"hazzard8e_ch44_table44-5_p660.png":[2324,2252,1],"hazzard8e_ch45_figure45-1.png":[1240,1179,1],"hazzard8e_ch45_figure45-2.png":[701,1924,1],"hazzard8e_ch45_table45-1_p667.png":[1562,746,1],"hazzard8e_ch46_figure46-1a.png":[1132,1411],"hazzard8e_ch46_figure46-1b.png":[1176,1639],"hazzard8e_ch46_figure46-2.png":[1184,888],"hazzard8e_ch46_figure46-3.png":[1089,1325],"hazzard8e_ch46_figure46-4.png":[1227,1721,1],"hazzard8e_ch47_figure47-1.png":[1277,944,1],"hazzard8e_ch47_figure47-2.png":[1444,1884,1],"hazzard8e_ch47_figure47-3.png":[1247,1104,1],"hazzard8e_ch48_figure-48-1_p723.webp":[894,436,1],"hazzard8e_ch48_table-48-1_p720.webp":[1533,1032,1],"hazzard8e_ch48_table-48-2_p721.webp":[1028,520,1],"hazzard8e_ch48_table-48-3_p724.webp":[1533,1647,1],"hazzard8e_ch48_table-48-4_p725.webp":[1028,511,1],"hazzard8e_ch49_figure-49-1_p731.webp":[884,1096,1],"hazzard8e_ch49_figure-49-2_p733.webp":[974,336,1],"hazzard8e_ch49_table-49-1_p730.webp":[500,252,1],"hazzard8e_ch49_table-49-2_p732.webp":[1032,292,1],"hazzard8e_ch49_table-49-3_p734.webp":[504,228,1],"hazzard8e_ch49_table-49-4_p735.webp":[500,208,1],"hazzard8e_ch49_table-49-5_p736.webp":[502,640,1],"hazzard8e_ch4_figure-4-1_p66.webp":[496,438,1],"hazzard8e_ch4_figure-4-2_p67.webp":[1028,788,1],"hazzard8e_ch4_figure-4-3_p69.webp":[1028,698,1],"hazzard8e_ch4_figure-4-4_p72.webp":[753,666,1],"hazzard8e_ch4_figure-4-5_p74.webp":[1030,436,1],"hazzard8e_ch4_figure-4-6_p74.webp":[496,500,1],"hazzard8e_ch4_figure-4-7_p75.webp":[1028,770,1],"hazzard8e_ch4_figure-4-8_p77.webp":[1028,606,1],"hazzard8e_ch4_table-4-1_p72.webp":[496,252,1],"hazzard8e_ch4_table-4-2_p73.webp":[1028,376,1],"hazzard8e_ch4_table-4-3_p73.webp":[1028,420,1],"hazzard8e_ch50_figure-50-1_p747.webp":[990,812,1],"hazzard8e_ch50_figure-50-2_p748.webp":[884,582,1],"hazzard8e_ch50_figure-50-3_p748.webp":[498,590,1],"hazzard8e_ch50_figure-50-4_p751.webp":[884,828,1],"hazzard8e_ch50_table-50-1_p742.webp":[500,646,1],"hazzard8e_ch50_table-50-2-continued_p744.webp":[1404,580,1],"hazzard8e_ch50_table-50-2_p743.webp":[1448,954,1],"hazzard8e_ch50_table-50-3_p745.webp":[1030,610,1],"hazzard8e_ch50_table-50-4_p750.webp":[502,372,1],"hazzard8e_ch50_table-50-5_p750.webp":[502,636,1],"hazzard8e_ch50_table-50-6_p752.webp":[500,454,1],"hazzard8e_ch50_table-50-7_p753.webp":[1032,814,1],"hazzard8e_ch50_table-50-8_p754.webp":[1030,1394,1],"hazzard8e_ch50_table-50-9_p755.webp":[1030,342,1],"hazzard8e_ch50_table50-2_p743.png":[1894,1289,1],"hazzard8e_ch50_table50-2_p744.png":[1969,797,1],"hazzard8e_ch51_figure51-1.png":[1340,916,1],"hazzard8e_ch51_figure51-2.png":[1340,1116,1],"hazzard8e_ch51_figure51-3.png":[1383,1190,1],"hazzard8e_ch51_figure51-4.png":[1346,1073,1],"hazzard8e_ch51_figure51-5.png":[1405,982,1],"hazzard8e_ch51_figure51-6.png":[1340,945,1],"hazzard8e_ch51_figure51-7.png":[1546,1146,1],"hazzard8e_ch51_table51-1_p760.png":[762,337,1],"hazzard8e_ch51_table51-2_p764.png":[765,1122,1],"hazzard8e_ch51_table51-3_p769.png":[748,1138,1],"hazzard8e_ch51_table51-5_p774.png":[1385,1807,1],"hazzard8e_ch51_table51-5b_p775.png":[1557,1105,1],"hazzard8e_ch52_figure52-1.png":[767,1149,1],"hazzard8e_ch52_figure52-2.png":[767,1207,1],"hazzard8e_ch52_figure52-3.png":[765,1276,1],"hazzard8e_ch52_figure52-4.png":[1340,2104,1],"hazzard8e_ch52_figure52-5.png":[1557,1123,1],"hazzard8e_ch53_figure-53-1_p794.webp":[888,360,1],"hazzard8e_ch53_figure-53-2_p795.webp":[884,454,1],"hazzard8e_ch53_figure-53-3_p796.webp":[958,640,1],"hazzard8e_ch53_figure-53-4_p799.webp":[886,506,1],"hazzard8e_ch53_figure-53-5_p800.webp":[502,506,1],"hazzard8e_ch53_table-53-1_p802.webp":[1032,920,1],"hazzard8e_ch54_figure-54-1_p806.webp":[512,502,1],"hazzard8e_ch54_figure-54-2_p807.webp":[1038,582,1],"hazzard8e_ch54_table-54-1_p808.webp":[1034,541,1],"hazzard8e_ch54_table-54-2_p808.webp":[506,347,1],"hazzard8e_ch54_table-54-3_p813.webp":[506,899,1],"hazzard8e_ch55_figure55-1.png":[1346,405,1],"hazzard8e_ch55_figure55-2.png":[1340,817,1],"hazzard8e_ch55_figure55-3.png":[1340,877,1],"hazzard8e_ch55_table55-4_p823.png":[1305,1453,1],"hazzard8e_ch55_table55-5_p828.png":[1572,1677,1],"hazzard8e_ch56_figure-56-1_p836.webp":[892,506,1],"hazzard8e_ch56_figure-56-2_p837.webp":[996,720,1],"hazzard8e_ch56_figure-56-3_p838.webp":[508,406,1],"hazzard8e_ch56_table-56-1_p838.webp":[496,416,1],"hazzard8e_ch56_table-56-2_p845.webp":[498,620,1],"hazzard8e_ch56_table-56-3_p846.webp":[496,546,1],"hazzard8e_ch56_table-56-4_p848.webp":[498,426,1],"hazzard8e_ch56_table-56-5_p850.webp":[1024,630,1],"hazzard8e_ch57_figure57-1.png":[750,976,1],"hazzard8e_ch57_figure57-2.png":[768,765,1],"hazzard8e_ch57_figure57-3.png":[1338,1237,1],"hazzard8e_ch57_table57-2_p857.png":[1796,1409,1],"hazzard8e_ch57_table57-2_p858.png":[1745,1427,1],"hazzard8e_ch57_table57-3_p863.png":[1800,1638,1],"hazzard8e_ch57_table57-3_p864.png":[2140,1373,1],"hazzard8e_ch57_table57-3_p865.png":[2159,1577,1],"hazzard8e_ch57_table57-3_p866.png":[1790,1418,1],"hazzard8e_ch58_figure58-1.png":[1390,1795,1],"hazzard8e_ch58_figure58-2.png":[1346,1647,1],"hazzard8e_ch59_figure59-1.png":[1265,1440,1],"hazzard8e_ch59_figure59-2.png":[1278,2440,1],"hazzard8e_ch59_figure59-3.png":[1505,1217,1],"hazzard8e_ch59_table59-4_p903.png":[1298,938,1],"hazzard8e_ch59_table59-7_p912.png":[2091,1230,1],"hazzard8e_ch59_table59-7_p913.png":[2098,1624,1],"hazzard8e_ch59_table59-x_p914.png":[2085,1105,1],"hazzard8e_ch5_figure-5-1_p84.webp":[496,908,1],"hazzard8e_ch5_figure-5-2_p85.webp":[496,934,1],"hazzard8e_ch5_figure-5-3_p86.webp":[496,882,1],"hazzard8e_ch5_figure-5-4_p87.webp":[500,516,1],"hazzard8e_ch5_figure-5-5_p90.webp":[496,488,1],"hazzard8e_ch5_figure-5-6_p93.webp":[1028,902,1],"hazzard8e_ch5_table-5-1_p88.webp":[1024,1182,1],"hazzard8e_ch61_figure61-1.png":[700,1300,1],"hazzard8e_ch61_figure61-2.png":[1244,775,1],"hazzard8e_ch62_figure-62-1_p955.webp":[1014,976,1],"hazzard8e_ch62_figure-62-2_p956.webp":[948,1372,1],"hazzard8e_ch62_figure-62-3_p966.webp":[954,832,1],"hazzard8e_ch62_figure-62-4_p969.webp":[504,680,1],"hazzard8e_ch62_figure-62-5_p970.webp":[890,710,1],"hazzard8e_ch62_table-62-1_p961.webp":[502,724,1],"hazzard8e_ch63_figure63-1.png":[1261,966,1],"hazzard8e_ch63_figure63-2.png":[1343,626,1],"hazzard8e_ch63_figure63-3.png":[767,635,1],"hazzard8e_ch63_table63-5_p993.png":[1306,874,1],"hazzard8e_ch64_figure-64-1_p998.webp":[504,1016,1],"hazzard8e_ch64_figure-64-2_p999.webp":[502,926,1],"hazzard8e_ch64_figure-64-3_p1002.webp":[888,1068,1],"hazzard8e_ch64_figure-64-4_p1003.webp":[504,674,1],"hazzard8e_ch64_figure-64-5_p1003.webp":[890,666,1],"hazzard8e_ch64_table-64-1_p1001.webp":[1030,1226,1],"hazzard8e_ch65_figure65-1.png":[1396,643,1],"hazzard8e_ch65_figure65-2.png":[1200,1685,1],"hazzard8e_ch65_figure65-2a_p1010.png":[1331,1876,1],"hazzard8e_ch65_figure65-3.png":[1150,1625,1],"hazzard8e_ch65_figure65-4.png":[750,519,1],"hazzard8e_ch65_table65-1_p1017.png":[1273,2248,1],"hazzard8e_ch66_figure-66-1_p1022.webp":[506,514,1],"hazzard8e_ch66_figure-66-2_p1023.webp":[890,408,1],"hazzard8e_ch66_figure-66-3_p1023.webp":[890,700,1],"hazzard8e_ch66_table-66-1_p1031.webp":[500,832,1],"hazzard8e_ch67_figure-67-1_p1046.webp":[922,596,1],"hazzard8e_ch67_table-67-1_p1048.webp":[502,328,1],"hazzard8e_ch67_table-67-2_p1049.webp":[1034,710,1],"hazzard8e_ch67_table-67-3_p1051.webp":[1032,948,1],"hazzard8e_ch67_table-67-4_p1052.webp":[504,828,1],"hazzard8e_ch67_table-67-5_p1053.webp":[1032,590,1],"hazzard8e_ch68_figure68-1.png":[1356,1106,1],"hazzard8e_ch68_table68-1_p1056.png":[641,516,1],"hazzard8e_ch68_table68-2_p1056.png":[641,687,1],"hazzard8e_ch68_table68-3_p1059.png":[1290,764,1],"hazzard8e_ch68_table68-4_p1059.png":[1302,588,1],"hazzard8e_ch68_table68-5_p1060.png":[642,458,1],"hazzard8e_ch68_table68-6_p1061.png":[1292,1155,1],"hazzard8e_ch68_table68-7_p1063.png":[1293,872,1],"hazzard8e_ch68_table68-8_p1063.png":[1307,884,1],"hazzard8e_ch68_table68-8_p1064.png":[1301,1153,1],"hazzard8e_ch69_figure-69-1_p1072.webp":[888,600,1],"hazzard8e_ch69_figure-69-2_p1073.webp":[500,360,1],"hazzard8e_ch69_table-69-1_p1074.webp":[502,378,1],"hazzard8e_ch6_figure-6-1_p96.webp":[1024,660,1],"hazzard8e_ch6_figure-6-2_p97.webp":[932,824,1],"hazzard8e_ch6_figure-6-3_p98.webp":[496,416,1],"hazzard8e_ch6_figure-6-4_p101.webp":[1028,634,1],"hazzard8e_ch6_table-6-1_p103.webp":[1028,834,1],"hazzard8e_ch6_table-6-2_p104.webp":[1024,746,1],"hazzard8e_ch70_figure-70-1_p1078.webp":[888,412,1],"hazzard8e_ch70_figure-70-2_p1080.webp":[888,380,1],"hazzard8e_ch70_figure-70-3_p1082.webp":[892,652,1],"hazzard8e_ch70_figure-70-4_p1083.webp":[890,298,1],"hazzard8e_ch71_table-71-1_p1090.webp":[507,667,1],"hazzard8e_ch71_table-71-2_p1090.webp":[506,195,1],"hazzard8e_ch71_table-71-3_p1091.webp":[506,465,1],"hazzard8e_ch71_table-71-4_p1091.webp":[506,428,1],"hazzard8e_ch71_table-71-5_p1091.webp":[507,587,1],"hazzard8e_ch71_table-71-6_p1092.webp":[506,587,1],"hazzard8e_ch71_table-71-7_p1094.webp":[507,811,1],"hazzard8e_ch71_table-71-8_p1095.webp":[1034,591,1],"hazzard8e_ch72_figure-72-1_p1101.webp":[884,650,1],"hazzard8e_ch72_table-72-1_p1099.webp":[500,804,1],"hazzard8e_ch72_table-72-2_p1100.webp":[1028,646,1],"hazzard8e_ch72_table-72-3_p1102.webp":[500,768,1],"hazzard8e_ch72_table-72-4_p1104.webp":[1028,980,1],"hazzard8e_ch72_table-72-5_p1107.webp":[1028,804,1],"hazzard8e_ch72_table-72-6_p1108.webp":[500,874,1],"hazzard8e_ch72_table-72-7_p1108.webp":[498,792,1],"hazzard8e_ch72_table-72-8_p1109.webp":[1028,734,1],"hazzard8e_ch73_fig73_1_p1119.png":[1237,632,1],"hazzard8e_ch73_fig73_2_p1120.png":[1239,615,1],"hazzard8e_ch73_fig73_3_p1121.png":[695,1328,1],"hazzard8e_ch73_figure-73-1_p1119.webp":[886,450,1],"hazzard8e_ch73_figure-73-2_p1120.webp":[888,438,1],"hazzard8e_ch73_figure-73-3_p1121.webp":[504,956,1],"hazzard8e_ch73_figure-73-4_p1122.webp":[986,756,1],"hazzard8e_ch73_figure-73-5_p1124.webp":[980,752,1],"hazzard8e_ch73_figure-73-6_p1126.webp":[502,526,1],"hazzard8e_ch73_figure-73-7_p1127.webp":[990,760,1],"hazzard8e_ch73_figure-73-8_p1128.webp":[990,830,1],"hazzard8e_ch73_figure-73-9_p1128.webp":[888,506,1],"hazzard8e_ch73_table-73-1_p1116.webp":[504,318,1],"hazzard8e_ch73_table-73-2_p1121.webp":[502,304,1],"hazzard8e_ch73_table-73-3_p1126.webp":[1028,460,1],"hazzard8e_ch73_table-73-4_p1129.webp":[1034,630,1],"hazzard8e_ch73_table73_1_p1116.png":[698,443,1],"hazzard8e_ch73_table73_2_p1121.png":[698,421,1],"hazzard8e_ch74_figure-74-1_p1134.webp":[888,470,1],"hazzard8e_ch74_figure-74-2_p1135.webp":[886,488,1],"hazzard8e_ch74_figure-74-3_p1136.webp":[886,520,1],"hazzard8e_ch74_figure-74-4_p1137.webp":[886,520,1],"hazzard8e_ch74_figure-74-5_p1139.webp":[938,938,1],"hazzard8e_ch74_figure-74-6_p1142.webp":[906,578,1],"hazzard8e_ch74_figure74-5_p1139.png":[1283,1349,1],"hazzard8e_ch74_table-74-1_p1138.webp":[1028,376,1],"hazzard8e_ch75_figure75-1.png":[1346,653,1],"hazzard8e_ch75_table75-12_p1160.png":[1562,397,1],"hazzard8e_ch75_table75-15_p1161.png":[767,693,1],"hazzard8e_ch75_table75-3_p1153.png":[1562,658,1],"hazzard8e_ch75_table75-4_p1154.png":[763,923,1],"hazzard8e_ch75_table75-6_p1155.png":[752,795,1],"hazzard8e_ch76_figure76-1.png":[1346,801,1],"hazzard8e_ch76_figure76-2.png":[1346,969,1],"hazzard8e_ch76_figure76-3.png":[1346,595,1],"hazzard8e_ch76_figure76-4.png":[1481,1053,1],"hazzard8e_ch76_figure76-5.png":[768,643,1],"hazzard8e_ch76_figure76-6.png":[771,762,1],"hazzard8e_ch76_table76-10_p1178.png":[635,463,1],"hazzard8e_ch76_table76-11_p1185.png":[1199,1514,1],"hazzard8e_ch76_table76-11_p1186.png":[1195,930,1],"hazzard8e_ch76_table76-1_p1166.png":[640,895,1],"hazzard8e_ch76_table76-2_p1168.png":[1300,588,1],"hazzard8e_ch76_table76-3_p1171.png":[641,1145,1],"hazzard8e_ch76_table76-4_p1172.png":[645,1175,1],"hazzard8e_ch76_table76-6_p1174.png":[634,1713,1],"hazzard8e_ch76_table76-7_p1175.png":[630,845,1],"hazzard8e_ch76_table76-8_p1177.png":[641,1490,1],"hazzard8e_ch76_table76-9_p1178.png":[660,391,1],"hazzard8e_ch77_figure77-1a.png":[1508,495,1],"hazzard8e_ch77_figure77-1b.png":[1346,690,1],"hazzard8e_ch77_figure77-1c.png":[1346,649,1],"hazzard8e_ch77_figure77-1d.png":[1344,696,1],"hazzard8e_ch77_figure77-2a.png":[787,790,1],"hazzard8e_ch77_figure77-2b.png":[774,813,1],"hazzard8e_ch77_figure77-3a.png":[766,630,1],"hazzard8e_ch77_figure77-3b.png":[766,623,1],"hazzard8e_ch77_figure77-4a.png":[751,594,1],"hazzard8e_ch77_figure77-4b.png":[775,630,1],"hazzard8e_ch77_figure77-4c.png":[822,577,1],"hazzard8e_ch77_figure77-4d.png":[1352,751,1],"hazzard8e_ch77_figure77-4e.png":[772,597,1],"hazzard8e_ch77_figure77-4f.png":[757,426,1],"hazzard8e_ch77_figure77-5a.png":[752,816,1],"hazzard8e_ch77_figure77-5b.png":[775,816,1],"hazzard8e_ch77_table77-10_p1206.png":[742,1365,1],"hazzard8e_ch77_table77-1_p1194.png":[751,540,1],"hazzard8e_ch77_table77-2_p1194.png":[754,495,1],"hazzard8e_ch77_table77-3_p1197.png":[769,474,1],"hazzard8e_ch77_table77-4_p1199.png":[766,480,1],"hazzard8e_ch77_table77-5_p1199.png":[766,1150,1],"hazzard8e_ch77_table77-6_p1201.png":[766,550,1],"hazzard8e_ch77_table77-7_p1202.png":[742,1653,1],"hazzard8e_ch77_table77-8_p1203.png":[766,1353,1],"hazzard8e_ch77_table77-9_p1204.png":[2152,1466,1],"hazzard8e_ch77_table77-9_p1205.png":[2152,1616,1],"hazzard8e_ch78_figure-78-1_p1211.webp":[886,562,1],"hazzard8e_ch78_table-78-1_p1213.webp":[498,204,1],"hazzard8e_ch78_table-78-2_p1216.webp":[498,268,1],"hazzard8e_ch79_figure-79-1_p1220.webp":[888,706,1],"hazzard8e_ch79_figure-79-2_p1224.webp":[888,562,1],"hazzard8e_ch79_table-79-1_p1221.webp":[502,310,1],"hazzard8e_ch79_table-79-2_p1221.webp":[502,304,1],"hazzard8e_ch79_table-79-3_p1225.webp":[502,458,1],"hazzard8e_ch79_table-79-4_p1226.webp":[1030,854,1],"hazzard8e_ch7_table-7-1_p112.webp":[500,528,1],"hazzard8e_ch7_table-7-2_p112.webp":[500,274,1],"hazzard8e_ch7_table-7-3_p114.webp":[1028,595,1],"hazzard8e_ch7_table-7-4_p115.webp":[1028,685,1],"hazzard8e_ch80_figure-80-1_p1230.webp":[504,406,1],"hazzard8e_ch80_figure-80-2_p1232.webp":[890,754,1],"hazzard8e_ch81_figure81-1.png":[829,576,1],"hazzard8e_ch81_figure81-2.png":[1468,1230,1],"hazzard8e_ch81_table81-10_p1249.png":[2097,1416,1],"hazzard8e_ch81_table81-10_p1250.png":[2090,1575,1],"hazzard8e_ch81_table81-10_p1251.png":[2095,1542,1],"hazzard8e_ch81_table81-10_p1252.png":[2089,1133,1],"hazzard8e_ch81_table81-14_p1263.png":[2064,2270,1],"hazzard8e_ch81_table81-1_p1238.png":[1147,1360,1],"hazzard8e_ch81_table81-2_p1239.png":[714,1809,1],"hazzard8e_ch81_table81-3_p1242.png":[1302,732,1],"hazzard8e_ch81_table81-5_p1244.png":[1146,1041,1],"hazzard8e_ch81_table81-6_p1245.png":[1299,1005,1],"hazzard8e_ch81_table81-7_p1246.png":[1440,1884,1],"hazzard8e_ch82_cockcroft-gault-equation_p1268.webp":[490,70],"hazzard8e_ch82_figure-82-1_p1268.webp":[506,528,1],"hazzard8e_ch82_figure-82-2_p1272.webp":[506,378,1],"hazzard8e_ch82_table-82-1_p1269.webp":[502,346,1],"hazzard8e_ch82_table-82-2_p1269.webp":[504,298,1],"hazzard8e_ch82_table-82-3_p1275.webp":[498,318,1],"hazzard8e_ch83_figure83-1.png":[1405,1139,1],"hazzard8e_ch83_figure83-2.png":[1434,804,1],"hazzard8e_ch83_figure83-3.png":[1551,1187,1],"hazzard8e_ch83_figure83-4.png":[1338,630,1],"hazzard8e_ch83_figure83-5.png":[766,657,1],"hazzard8e_ch83_table83-1_p1281.png":[1298,1617,1],"hazzard8e_ch83_table83-1_p1282.png":[1548,726,1],"hazzard8e_ch83_table83-2_p1284.png":[639,1558,1],"hazzard8e_ch83_table83-3_p1288.png":[638,623,1],"hazzard8e_ch84_figure-84-1_p1300.webp":[884,710,1],"hazzard8e_ch84_figure-84-2_p1304.webp":[500,370,1],"hazzard8e_ch84_figure-84-3_p1305.webp":[496,422,1],"hazzard8e_ch84_figure-84-4_p1308.webp":[498,432,1],"hazzard8e_ch84_figure-84-5_p1312.webp":[500,1214,1],"hazzard8e_ch84_table-84-10_p1307.webp":[1030,390,1],"hazzard8e_ch84_table-84-11_p1309.webp":[500,198,1],"hazzard8e_ch84_table-84-12_p1309.webp":[500,240,1],"hazzard8e_ch84_table-84-13_p1311.webp":[1030,648,1],"hazzard8e_ch84_table-84-14_p1311.webp":[498,252,1],"hazzard8e_ch84_table-84-15_p1312.webp":[498,464,1],"hazzard8e_ch84_table-84-1_p1301.webp":[1030,380,1],"hazzard8e_ch84_table-84-2_p1301.webp":[498,388,1],"hazzard8e_ch84_table-84-3_p1301.webp":[500,288,1],"hazzard8e_ch84_table-84-4_p1302.webp":[498,338,1],"hazzard8e_ch84_table-84-5_p1304.webp":[500,248,1],"hazzard8e_ch84_table-84-6_p1305.webp":[498,194,1],"hazzard8e_ch84_table-84-7_p1305.webp":[498,306,1],"hazzard8e_ch84_table-84-8_p1306.webp":[498,316,1],"hazzard8e_ch84_table-84-9_p1306.webp":[500,386,1],"hazzard8e_ch85_figure-85-10_p1323.webp":[938,678,1],"hazzard8e_ch85_figure-85-11_p1325.webp":[504,440,1],"hazzard8e_ch85_figure-85-12_p1325.webp":[892,500,1],"hazzard8e_ch85_figure-85-13_p1326.webp":[506,424,1],"hazzard8e_ch85_figure-85-14_p1326.webp":[508,394,1],"hazzard8e_ch85_figure-85-15_p1326.webp":[890,446,1],"hazzard8e_ch85_figure-85-16_p1327.webp":[508,718,1],"hazzard8e_ch85_figure-85-17_p1330.webp":[892,654,1],"hazzard8e_ch85_figure-85-18_p1330.webp":[508,582,1],"hazzard8e_ch85_figure-85-19_p1331.webp":[1032,978,1],"hazzard8e_ch85_figure-85-1_p1317.webp":[890,418,1],"hazzard8e_ch85_figure-85-20_p1333.webp":[892,464,1],"hazzard8e_ch85_figure-85-2_p1318.webp":[890,420,1],"hazzard8e_ch85_figure-85-3_p1318.webp":[988,574,1],"hazzard8e_ch85_figure-85-4_p1319.webp":[938,546,1],"hazzard8e_ch85_figure-85-5_p1320.webp":[890,544,1],"hazzard8e_ch85_figure-85-6_p1320.webp":[920,604,1],"hazzard8e_ch85_figure-85-7_p1321.webp":[890,632,1],"hazzard8e_ch85_figure-85-8_p1321.webp":[504,568,1],"hazzard8e_ch85_figure-85-9_p1322.webp":[1034,570,1],"hazzard8e_ch85_table-85-1_p1316.webp":[504,458,1],"hazzard8e_ch85_table-85-2_p1316.webp":[504,314,1],"hazzard8e_ch85_table-85-3_p1317.webp":[502,394,1],"hazzard8e_ch85_table-85-4_p1321.webp":[504,466,1],"hazzard8e_ch85_table-85-5_p1328.webp":[1036,662,1],"hazzard8e_ch85_table-85-6_p1329.webp":[1036,500,1],"hazzard8e_ch85_table-85-7_p1332.webp":[504,382,1],"hazzard8e_ch85_table-85-8_p1334.webp":[1036,310,1],"hazzard8e_ch85_table-85-9_p1335.webp":[1036,794,1],"hazzard8e_ch85_table85-2_p1316.png":[682,418,1],"hazzard8e_ch86_figure-86-1_p1340.webp":[890,692,1],"hazzard8e_ch86_figure-86-2_p1346.webp":[508,1086,1],"hazzard8e_ch86_figure-86-3_p1347.webp":[1038,1414,1],"hazzard8e_ch86_figure-86-4_p1350.webp":[884,432,1],"hazzard8e_ch86_table-86-1_p1338.webp":[502,251,1],"hazzard8e_ch86_table-86-2_p1338.webp":[502,360,1],"hazzard8e_ch86_table-86-3_p1339.webp":[1542,966,1],"hazzard8e_ch86_table-86-4_p1341.webp":[1033,556,1],"hazzard8e_ch86_table-86-5_p1344.webp":[502,255,1],"hazzard8e_ch86_table-86-6_p1345.webp":[1554,501,1],"hazzard8e_ch86_table-86-7_p1348.webp":[503,276,1],"hazzard8e_ch86_table-86-8_p1348.webp":[502,390,1],"hazzard8e_ch86_table-86-9_p1350.webp":[1536,489,1],"hazzard8e_ch87_figure87-1.png":[765,992,1],"hazzard8e_ch87_figure87-2.png":[1554,999,1],"hazzard8e_ch87_figure87-3.png":[1340,1310,1],"hazzard8e_ch87_figure87-4.png":[989,1268,1],"hazzard8e_ch87_figure87-5.png":[830,1015,1],"hazzard8e_ch87_figure87-6.png":[1444,1432,1],"hazzard8e_ch87_table87-4_p1356.png":[767,842,1],"hazzard8e_ch87_table87-9_p1373.png":[2097,1325,1],"hazzard8e_ch87_table87-9_p1374.png":[2083,1077,1],"hazzard8e_ch88_figure88-1.png":[1389,711,1],"hazzard8e_ch88_figure88-2.png":[1431,951,1],"hazzard8e_ch88_figure88-3.png":[1581,1104,1],"hazzard8e_ch88_table88-1_p1387.png":[742,728,1],"hazzard8e_ch88_table88-2_p1389.png":[1454,1014,1],"hazzard8e_ch89_figure-89-1_p1396.webp":[890,448,1],"hazzard8e_ch89_figure-89-2_p1397.webp":[894,630,1],"hazzard8e_ch89_figure-89-3_p1398.webp":[888,932,1],"hazzard8e_ch89_figure-89-4_p1401.webp":[502,426,1],"hazzard8e_ch89_figure-89-5_p1401.webp":[894,464,1],"hazzard8e_ch89_table-89-1_p1398.webp":[1028,228,1],"hazzard8e_ch89_table-89-2_p1402.webp":[1028,606,1],"hazzard8e_ch89_table-89-3_p1403.webp":[502,902,1],"hazzard8e_ch89_table-89-4_p1404.webp":[1028,1152,1],"hazzard8e_ch89_table-89-5_p1405.webp":[1030,360,1],"hazzard8e_ch89_table89-4_p1404.png":[1390,1553,1],"hazzard8e_ch8_figure-8-1_p118.webp":[500,350,1],"hazzard8e_ch8_figure-8-2_p124.webp":[966,858,1],"hazzard8e_ch8_table-8-1_p119.webp":[1032,294,1],"hazzard8e_ch8_table-8-2_p120.webp":[504,914,1],"hazzard8e_ch8_table-8-3_p121.webp":[504,768,1],"hazzard8e_ch8_table-8-4_p122.webp":[1036,1262,1],"hazzard8e_ch8_table-8-5_p125.webp":[1032,1072,1],"hazzard8e_ch8_table-8-6_p126.webp":[1028,648,1],"hazzard8e_ch8_table-8-7_p128.webp":[1028,696,1],"hazzard8e_ch8_table-8-8_p129.webp":[1032,232,1],"hazzard8e_ch90_figure-90-1_p1413.webp":[1012,574,1],"hazzard8e_ch90_table-90-1_p1411.webp":[500,584,1],"hazzard8e_ch90_table-90-2_p1413.webp":[1028,704,1],"hazzard8e_ch90_table-90-3_p1416.webp":[1028,328,1],"hazzard8e_ch91_table-91-1_p1423.webp":[1533,1167,1],"hazzard8e_ch91_table-91-2-continued_p1428.webp":[1539,2112,1],"hazzard8e_ch91_table-91-2-continued_p1429.webp":[1028,731,1],"hazzard8e_ch91_table-91-3_p1430.webp":[1536,2052,1],"hazzard8e_ch92_figure-92-1_p1436.webp":[886,374,1],"hazzard8e_ch92_figure-92-2_p1437.webp":[884,384,1],"hazzard8e_ch92_figure-92-3_p1437.webp":[884,396,1],"hazzard8e_ch92_figure-92-4_p1438.webp":[888,340,1],"hazzard8e_ch92_figure-92-5_p1438.webp":[888,354,1],"hazzard8e_ch93_figure-93-10_p1465.webp":[500,456,1],"hazzard8e_ch93_figure-93-11_p1465.webp":[500,456,1],"hazzard8e_ch93_figure-93-12_p1465.webp":[502,456,1],"hazzard8e_ch93_figure-93-13_p1465.webp":[502,456,1],"hazzard8e_ch93_figure-93-14_p1466.webp":[500,478,1],"hazzard8e_ch93_figure-93-15_p1466.webp":[500,480,1],"hazzard8e_ch93_figure-93-16_p1466.webp":[500,456,1],"hazzard8e_ch93_figure-93-17_p1466.webp":[500,456,1],"hazzard8e_ch93_figure-93-18_p1467.webp":[500,456,1],"hazzard8e_ch93_figure-93-19_p1467.webp":[500,500,1],"hazzard8e_ch93_figure-93-1_p1457.webp":[500,456,1],"hazzard8e_ch93_figure-93-20_p1469.webp":[502,456,1],"hazzard8e_ch93_figure-93-21_p1470.webp":[500,432,1],"hazzard8e_ch93_figure-93-2_p1457.webp":[502,456,1],"hazzard8e_ch93_figure-93-3_p1458.webp":[500,456,1],"hazzard8e_ch93_figure-93-4_p1458.webp":[500,480,1],"hazzard8e_ch93_figure-93-5_p1459.webp":[500,456,1],"hazzard8e_ch93_figure-93-6_p1459.webp":[502,456,1],"hazzard8e_ch93_figure-93-7_p1459.webp":[502,512,1],"hazzard8e_ch93_figure-93-8_p1460.webp":[500,456,1],"hazzard8e_ch93_figure-93-9_p1464.webp":[500,412,1],"hazzard8e_ch93_table-93-1_p1456.webp":[500,504,1],"hazzard8e_ch93_table-93-2_p1460.webp":[500,930,1],"hazzard8e_ch93_table-93-3_p1464.webp":[500,314,1],"hazzard8e_ch94_figure-94-1_p1474.webp":[1010,728,1],"hazzard8e_ch94_figure-94-2_p1475.webp":[884,692,1],"hazzard8e_ch94_figure-94-3_p1476.webp":[950,630,1],"hazzard8e_ch94_figure-94-4_p1478.webp":[498,378,1],"hazzard8e_ch94_figure-94-5_p1478.webp":[888,494,1],"hazzard8e_ch94_table-94-1_p1480.webp":[498,624,1],"hazzard8e_ch95_figure-95-1_p1487.webp":[886,658,1],"hazzard8e_ch95_figure-95-2_p1488.webp":[888,648,1],"hazzard8e_ch95_table-95-10_p1495.webp":[1034,306,1],"hazzard8e_ch95_table-95-11_p1496.webp":[1032,782,1],"hazzard8e_ch95_table-95-12_p1498.webp":[1032,388,1],"hazzard8e_ch95_table-95-13_p1499.webp":[500,432,1],"hazzard8e_ch95_table-95-14_p1502.webp":[1172,852,1],"hazzard8e_ch95_table-95-1_p1485.webp":[1032,328,1],"hazzard8e_ch95_table-95-2_p1485.webp":[500,328,1],"hazzard8e_ch95_table-95-3_p1485.webp":[500,364,1],"hazzard8e_ch95_table-95-4_p1486.webp":[1032,598,1],"hazzard8e_ch95_table-95-5_p1489.webp":[1032,258,1],"hazzard8e_ch95_table-95-6_p1491.webp":[1032,224,1],"hazzard8e_ch95_table-95-7_p1491.webp":[502,344,1],"hazzard8e_ch95_table-95-8_p1493.webp":[1032,1048,1],"hazzard8e_ch95_table-95-9_p1494.webp":[502,514,1],"hazzard8e_ch95_table95-1_p1485.png":[1400,445,1],"hazzard8e_ch96_figure-96-1_p1510.webp":[888,766,1],"hazzard8e_ch96_figure-96-2_p1511.webp":[888,752,1],"hazzard8e_ch96_figure-96-3_p1514.webp":[502,422,1],"hazzard8e_ch96_figure-96-4_p1518.webp":[886,520,1],"hazzard8e_ch96_figure96-3_p1514.png":[680,572,1],"hazzard8e_ch96_table-96-10_p1522.webp":[500,530,1],"hazzard8e_ch96_table-96-1_p1512.webp":[1030,356,1],"hazzard8e_ch96_table-96-2_p1513.webp":[500,938,1],"hazzard8e_ch96_table-96-3_p1513.webp":[502,936,1],"hazzard8e_ch96_table-96-4_p1514.webp":[500,572,1],"hazzard8e_ch96_table-96-5_p1517.webp":[500,600,1],"hazzard8e_ch96_table-96-6_p1519.webp":[500,352,1],"hazzard8e_ch96_table-96-7_p1520.webp":[500,346,1],"hazzard8e_ch96_table-96-8_p1521.webp":[500,452,1],"hazzard8e_ch96_table-96-9_p1522.webp":[500,604,1],"hazzard8e_ch96_table96-2_p1513.png":[684,1273,1],"hazzard8e_ch97_figure97-1.png":[1405,1297,1],"hazzard8e_ch97_figure97-2.png":[830,809,1],"hazzard8e_ch97_figure97-3.png":[766,1238,1],"hazzard8e_ch97_table97-5_p1534.png":[763,441,1],"hazzard8e_ch97_table97-9_p1538.png":[804,1326,1],"hazzard8e_ch98_figure98-1.png":[1414,956,1],"hazzard8e_ch98_figure98-2.png":[765,1172,1],"hazzard8e_ch98_figure98-3.png":[766,603,1],"hazzard8e_ch98_figure98-4.png":[1344,1458,1],"hazzard8e_ch98_figure98-5.png":[1485,855,1],"hazzard8e_ch98_table98-8_p1555.png":[759,482,1],"hazzard8e_ch99_figure99-1.png":[756,542],"hazzard8e_ch99_figure99-2.png":[1058,429],"hazzard8e_ch99_figure99-3.png":[706,456],"hazzard8e_ch99_figure99-4.png":[933,517],"hazzard8e_ch99_figure99-5.png":[706,761],"hazzard8e_ch99_figure99-6.png":[666,448],"hazzard8e_ch99_figure99-7.png":[700,579],"hazzard8e_ch99_figure99-8.png":[682,1046],"hazzard8e_ch9_table-9-10_p145.webp":[1030,670,1],"hazzard8e_ch9_table-9-11_p147.webp":[498,316,1],"hazzard8e_ch9_table-9-12_p148.webp":[1028,474,1],"hazzard8e_ch9_table-9-13_p149.webp":[498,1312,1],"hazzard8e_ch9_table-9-14_p149.webp":[498,902,1],"hazzard8e_ch9_table-9-1_p134.webp":[496,430,1],"hazzard8e_ch9_table-9-2_p136.webp":[498,452,1],"hazzard8e_ch9_table-9-3_p137.webp":[1030,710,1],"hazzard8e_ch9_table-9-4_p138.webp":[1400,876,1],"hazzard8e_ch9_table-9-5_p143.webp":[1030,776,1],"hazzard8e_ch9_table-9-6_p144.webp":[1030,654,1],"hazzard8e_ch9_table-9-7_p144.webp":[500,398,1],"hazzard8e_ch9_table-9-8_p144.webp":[500,326,1],"hazzard8e_ch9_table-9-9_p145.webp":[498,378,1],"ima2026_album_picture1_Q7.png":[465,505],"ima2026_album_picture3_Q64.png":[798,961]};
 function prepareImages(root){
   for(const image of root.querySelectorAll('img')){
     const source=image.dataset.src||image.getAttribute('src')||'',dimensions=imageSizes[source.split('/').pop()];
@@ -1449,7 +1449,7 @@ const libraryHeader=document.createElement('div');libraryHeader.className='libra
 const libraryTitle=document.createElement('strong');libraryHeader.append(libraryTitle);
 chapterHeader.append(libraryHeader);
 const flashHeader=document.createElement('div');flashHeader.className='flash-header';
-flashHeader.innerHTML='<button type="button" aria-label="Back from Flashcards">‹ Back</button><strong>Flashcards</strong>';
+flashHeader.innerHTML='<button type="button" aria-label="Back from Flashcards">‹</button><strong>Flashcards</strong>';
 flashHeader.firstElementChild.onclick=()=>closePanel();chapterHeader.append(flashHeader);
 function syncLibraryHeader(){
   const page=currentView==='desk'?'home':currentView==='library'?'chapters':currentView==='reader'&&copy.dataset.chapterId==='drugs'&&!statisticsTitle?'drugs':'';
@@ -1609,19 +1609,21 @@ function passageRanges(range){
     normalized=after;
   }
   ranges.push({start:range.start+start,end:range.end,text:range.text.slice(start)});
-  return ranges;
+  // A later print correction may rejoin an already preserved sub-passage.
+  return ranges.flatMap(part=>part.text.trim().length<range.text.trim().length?passageRanges(part):[part]);
 }
 // Paragraphs split into sentences across inline emphasis. Other text blocks are whole units.
 for(const block of copy.querySelectorAll('h1,h2,h3,h4,h5,h6,li,td,th,caption,figcaption,dt,dd')){
-  if(block.closest('[data-unit]'))continue;
+  if(block.closest('[data-unit],[data-grouped-units]'))continue;
   const text=block.textContent;
   if(!text.trim())continue;
   const ranges=passageRanges({start:0,end:text.length,text}).map(r=>({...r,unit:newUnit(r.text,[],unitScope(block))}));
   if(ranges.length===1)block.dataset.unit=ranges[0].unit.id;
+  else block.dataset.groupedUnits='';
   wrapRanges(block,ranges);
 }
 for(const p of copy.querySelectorAll('p')){
-  if(p.closest('[data-unit]'))continue;const ranges=sentences(p.textContent).filter(s=>s.text.trim()).flatMap(passageRanges).map(s=>({...s,unit:newUnit(s.text,[],unitScope(p))}));wrapRanges(p,ranges);
+  if(p.closest('[data-unit],[data-grouped-units]'))continue;const ranges=sentences(p.textContent).filter(s=>s.text.trim()).flatMap(passageRanges).map(s=>({...s,unit:newUnit(s.text,[],unitScope(p))}));wrapRanges(p,ranges);
 }
 for(const figure of copy.querySelectorAll('svg,img')){if(figure.closest('[data-unit]'))continue;const u=newUnit(figure.getAttribute('aria-label')||figure.getAttribute('alt')||'Figure',[figure],unitScope(figure));figure.dataset.unit=u.id}
 // Include loose labels such as the text introducing an exam pearl.
@@ -1809,6 +1811,10 @@ examLinkLabel.append(examLinksToggle,'Show exam links while reading');settingsPa
 const selectionHelp=document.createElement('p');selectionHelp.className='meta';
 selectionHelp.textContent='Hold to highlight. For Copy or Translate, choose Select text in Sections, an explanation or a highlight’s tools.';
 settingsPage.insertBefore(selectionHelp,settingsParts.get('backup'));
+const bookMarkChoice=document.createElement('label'),bookMarkInput=document.createElement('input');
+bookMarkInput.type='checkbox';bookMarkInput.id='showPrintedMarks';bookMarkChoice.className='printed-mark-setting';
+bookMarkChoice.append(bookMarkInput,' Show marks from the printed book');
+bookMarkInput.onchange=()=>{document.documentElement.classList.toggle('hide-printed-marks',!bookMarkInput.checked);saveDisplay();};
 
 const offlineAction=document.createElement('button');offlineAction.type='button';offlineAction.id='downloadOffline';offlineAction.textContent='Download for offline';
 setButtonUnavailable(offlineAction,'Preparing offline storage.');
@@ -1835,7 +1841,7 @@ for(const name of ['diagnostics','whatsNew']){
   });
 }
 const appearanceGroup=document.createElement('section');appearanceGroup.className='settings-appearance';
-const displayHeading=document.createElement('h2');displayHeading.textContent='Appearance';appearanceGroup.append(displayHeading,settingsPage.querySelector('.settings-controls'),examLinkLabel,selectionHelp);settingsPage.prepend(appearanceGroup);
+const displayHeading=document.createElement('h2');displayHeading.textContent='Appearance';appearanceGroup.append(displayHeading,settingsPage.querySelector('.settings-controls'),examLinkLabel,bookMarkChoice,selectionHelp);settingsPage.prepend(appearanceGroup);settingsPage.append(offlineInfo);
 const sectionHeading=document.createElement('div');sectionHeading.className='nav-page-title';
 const sectionTitle=document.createElement('strong'),settingsVersion=$('#settingsVersion');
 sectionHeading.append(sectionTitle,settingsVersion);chapterHeader.append(sectionHeading);
@@ -1863,7 +1869,7 @@ function displayPane(name){
     if(place)$('#resumePracticeLink').href=HazzardMCQ.practiceURL();
   }
   if(name==='notebook'){
-    refreshNotebookQuestions();
+    syncBookmark();
     const signature=notebookSignature();
     if(!notebookCache||signature.length!==notebookCache.length||signature.some((v,i)=>v!==notebookCache[i]))renderNotebook();
   }if(name==='practice'){HazzardChanged.refresh();refreshMissedCount();refreshReview();HazzardFlashcards.refreshDue();}
@@ -2093,8 +2099,8 @@ function updateDisplay(){
   $('#toggleTheme').setAttribute('aria-label','Switch to '+nextTheme+' theme');$('#toggleTheme').title='Switch to '+nextTheme+' theme';$('#themeChoiceText').textContent='Switch to '+nextTheme+' theme';
   viewport();
 }
-function saveDisplay(){try{const raw=localStorage.getItem('stage-a-display-v4');if(raw!==null){try{HazzardStorage.validate('stage-a-display-v4',JSON.parse(raw))}catch{HazzardStorage.preserveUnreadable('stage-a-display-v4',raw)}}HazzardStorage.setItem('stage-a-display-v4',JSON.stringify({size,colour,theme:document.documentElement.dataset.theme}));displaySaveFailed=false}catch{displaySaveFailed=true}updateStorageNotice()}
-function readDisplay(){try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');if(p){if(Object.hasOwn(sizes,p.size))size=p.size;if(markColours.includes(p.colour))colour=p.colour;if(['light','dark'].includes(p.theme))document.documentElement.dataset.theme=p.theme}else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.dataset.theme='dark'}catch{}}
+function saveDisplay(){try{const raw=localStorage.getItem('stage-a-display-v4');if(raw!==null){try{HazzardStorage.validate('stage-a-display-v4',JSON.parse(raw))}catch{HazzardStorage.preserveUnreadable('stage-a-display-v4',raw)}}HazzardStorage.setItem('stage-a-display-v4',JSON.stringify({size,colour,theme:document.documentElement.dataset.theme,...(!bookMarkInput.checked?{showPrintedMarks:false}:{})}));displaySaveFailed=false}catch{displaySaveFailed=true}updateStorageNotice()}
+function readDisplay(){try{const p=JSON.parse(localStorage.getItem('stage-a-display-v4')||'null');bookMarkInput.checked=p?.showPrintedMarks!==false;document.documentElement.classList.toggle('hide-printed-marks',!bookMarkInput.checked);if(p){if(Object.hasOwn(sizes,p.size))size=p.size;if(markColours.includes(p.colour))colour=p.colour;if(['light','dark'].includes(p.theme))document.documentElement.dataset.theme=p.theme}else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.dataset.theme='dark'}catch{}}
 readDisplay();
 addEventListener('storage',event=>{if(event.key==='stage-a-display-v4'){readDisplay();applyDisplay();}});
 document.addEventListener('focusin',viewport);document.addEventListener('focusout',()=>setTimeout(viewport,0));
@@ -2403,16 +2409,18 @@ async function fillNotebookHighlights(list,ch,items,onCountChange,ticket){
   }
   list.replaceChildren(result);restoreNotebookRow();
 }
-function rememberNotebookRow(row,chapter,key,bookmark=false){
+function rememberNotebookRow(row,chapter,key,kind='highlight'){
   const pane=$('[data-pane="notebook"]'),top=Math.max(pane.getBoundingClientRect().top,chapterHeader.getBoundingClientRect().bottom);
-  history.replaceState({...history.state,notebookRow:{chapter,key,bookmark,offset:row.getBoundingClientRect().top-top}},'');
+  const view=row.closest('[data-notebook-view]')?.dataset.notebookView;
+  history.replaceState({...history.state,notebookRow:{chapter:notebookBaseChapter(chapter),view,key,kind,offset:row.getBoundingClientRect().top-top}},'');
 }
 function restoreNotebookRow(){
   const place=history.state?.notebookRow;if(!place||!panel.open||panel.dataset.currentPane!=='notebook')return;
-  const pane=$('[data-pane="notebook"]'),group=place.bookmark?$('#notebookPlaces').closest('details'):place.chapter===cid?$('#notebookCurrent'):pane.querySelector('[data-notebook-chapter="'+CSS.escape(place.chapter)+'"]');
+  const pane=$('[data-pane="notebook"]'),group=pane.querySelector('[data-notebook-chapter="'+CSS.escape(notebookBaseChapter(place.chapter))+'"]');
   if(!group)return;group.open=true;
-  const row=group.querySelector(place.bookmark?'[data-bookmark-at="'+CSS.escape(place.key)+'"]':'[data-notebook-mark="'+CSS.escape(place.key)+'"]');if(!row)return;
-  for(let parent=row.parentElement;group.contains(parent);parent=parent.parentElement)if(parent.matches('details'))parent.open=true;
+  const attr=({place:'data-bookmark-at',answer:'data-answer-highlight',question:'data-notebook-question'})[place.kind]||'data-notebook-mark';
+  const container=place.view?group.querySelector('[data-notebook-view="'+CSS.escape(place.view)+'"]'):group;
+  const row=container?.querySelector('['+attr+'="'+CSS.escape(place.key)+'"]');if(!row)return;
   const top=Math.max(pane.getBoundingClientRect().top,chapterHeader.getBoundingClientRect().bottom);
   pane.scrollTop+=row.getBoundingClientRect().top-top-place.offset;scrollPositions.set(pane,{y:pane.scrollTop,from:pane.scrollTop});
   const {notebookRow,...rest}=history.state;history.replaceState(rest,'');
@@ -2420,7 +2428,7 @@ function restoreNotebookRow(){
 function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
   const li=document.createElement('li'),go=document.createElement('button'),action=document.createElement('button');
   const key=notebookHighlightId(ch,item.kind,item.id);li.className='nb-item nb-highlight';li.dataset.notebookMark=item.id;
-  go.textContent=(item.number?item.number+'. ':'')+item.text;if(item.note){const note=document.createElement('small');note.textContent=item.note;go.append(note);}go.dir='auto';go.dataset.marked=item.colour;
+  go.textContent=(item.number?item.number+'. ':'')+item.text;if(item.note){const note=document.createElement('small');note.textContent=item.note;go.append(note);}go.dir='auto';go.className='nb-quote';
   go.onclick=()=>{rememberNotebookRow(li,ch,item.id);openChapter(ch,{hash:'hl-'+item.id});};
   const refresh=()=>{const removed=notebookRemovedHighlights.has(key);go.disabled=removed;action.textContent=removed?'Undo':'\u00d7';action.setAttribute('aria-label',removed?'Undo remove highlight':'Remove highlight');li.classList.toggle('nb-removed',removed);};
   action.className='nb-highlight-remove';action.type='button';
@@ -2450,227 +2458,219 @@ function notebookHighlightRow(ch,item,index,onCountChange=()=>{}){
   refresh();li.append(go,action);return li;
 }
 function snippetDirection(text){return (String(text).match(/[\u0590-\u05ff]/g)||[]).length>(String(text).match(/[A-Za-z]/g)||[]).length?'rtl':'ltr'}
+// Each active storage record belongs to one chapter, law source, or article.
+let notebookCache, notebookRenderTicket=0, notebookMetadata;
 const notebookRemovedAnswerHighlights=new Map();
-let notebookRenderTicket=0;
+const notebookBaseChapter=id=>/^(?:\d+|law)s$/.test(id)?id.slice(0,-1):String(id);
 const notebookOpenGroups=new Set();
-const notebookBaseChapter=chapter=>String(chapter||'').replace(/s$/,'');
-panel.addEventListener('close',()=>{notebookRemovedAnswerHighlights.clear();notebookOpenGroups.clear();});
-function notebookAnswerRow(item){
-  const li=document.createElement('li'),go=document.createElement('button'),text=document.createElement('span'),meta=document.createElement('small'),action=document.createElement('button');
-  li.className='nb-item nb-highlight nb-answer-highlight';li.dataset.answerHighlight=item.id;
-  text.textContent=(item.number?item.number+'. ':'')+item.text;text.dir=snippetDirection(item.text);text.className='nb-answer-text';if(item.unplaced)li.classList.add('nb-unplaced');else text.dataset.marked=item.colour;
-  text.style.setProperty('--mark-colour','var(--hl-'+item.colour+')');
-  const reference=item.sitting&&item.questionNumber!=null?HazzardEvidence.label({sitting:item.sitting,number:item.questionNumber}):item.label;
-  meta.textContent=(item.note?item.note+' · ':'')+(item.unplaced?'Saved from an earlier explanation · ':'')+reference;meta.className='meta';
-  go.append(text,meta);go.onclick=()=>{router.go(HazzardEvidence.questionURL(item.questionId)+'&answerHighlight='+encodeURIComponent(item.id));};
-  const removed=notebookRemovedAnswerHighlights.has(item.id);go.disabled=removed;li.classList.toggle('nb-removed',removed);
-  action.className='nb-highlight-remove';action.type='button';action.textContent=removed?'Undo':'\u00d7';action.setAttribute('aria-label',removed?'Undo remove highlight':'Remove highlight');
-  action.onclick=()=>{
-    const wasRemoved=notebookRemovedAnswerHighlights.has(item.id);
-    if(wasRemoved)notebookRemovedAnswerHighlights.delete(item.id);else notebookRemovedAnswerHighlights.set(item.id,item);
-    try{HazzardAnswerHighlights.setRemoved(item.id,!wasRemoved);showSaved(wasRemoved?'\u2713 Saved':'\u2713 Removed');}
-    catch(error){if(wasRemoved)notebookRemovedAnswerHighlights.set(item.id,item);else notebookRemovedAnswerHighlights.delete(item.id);notebookStatus(error.message||'This highlight change could not be saved. Try again.');}
-  };
-  li.append(go,action);return li;
+panel.addEventListener('close',()=>{notebookRemovedAnswerHighlights.clear();});
+addEventListener('keydown',e=>{if(e.key==='Tab')document.documentElement.dataset.keyboardNavigation='';},true);
+addEventListener('pointerdown',()=>{delete document.documentElement.dataset.keyboardNavigation;},true);
+function notebookElement(tag,className,text){
+  const result=document.createElement(tag);
+  if(className)result.className=className;
+  if(text!==undefined)result.textContent=text;
+  return result;
 }
-function notebookAnswerList(host,items,heading=true){
-  const section=document.createElement(heading?'details':'div');section.className='nb-answer-list';
-  if(heading){const h=document.createElement('summary');h.className='nb-heading';h.textContent='Saved answer highlights ('+items.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length+')';section.append(h);}
-  const list=document.createElement('ul');list.className='rows';for(const item of items)list.append(notebookAnswerRow(item));section.append(list);host.append(section);
+function notebookTitle(ch){
+  if(ch==='law')return 'Israeli law and health services';
+  const chapter=orderedChapters.find(c=>String(c.number)===ch);
+  return chapter?'Ch. '+ch+' · '+chapter.title:ch;
 }
-function notebookSittingTime(sitting){
-  const match=String(sitting).match(/(\d{4})(?:[- ]([A-Za-z]+|\d{1,2}))?/),months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
-  if(!match)return 0;const month=match[2]===undefined?0:/^\d+$/.test(match[2])?Number(match[2])-1:months.indexOf(match[2].slice(0,3).toLowerCase());return Number(match[1])*12+Math.max(0,month);
-}
-async function renderNotebookAnswerHighlights(ticket,updateCurrentCount){
-  const current=$('#notebookAnswerCurrent'),law=$('#notebookAnswerLaw'),cycles=$('#notebookAnswerCycles');
-  current.replaceChildren();law.replaceChildren();cycles.replaceChildren();law.hidden=cycles.hidden=true;
-  try{
-    const saved=await HazzardAnswerHighlights.notebookItems();if(ticket!==notebookRenderTicket)return;
-    const byId=new Map(saved.map(item=>[item.id,item]));
-    for(const [id,item]of notebookRemovedAnswerHighlights)if(!byId.has(id))byId.set(id,item);
-    const items=[...byId.values()].sort((a,b)=>(a.number??Infinity)-(b.number??Infinity)||b.at-a.at||a.id.localeCompare(b.id));
-    if(cid==='bank'&&items.length)$('#notebookMarks .nb-empty')?.remove();
-    const chapterItems=new Map(),lawItems=[];
-    for(const item of items){if(item.chapter){const chapter=notebookBaseChapter(item.chapter);if(!chapterItems.has(chapter))chapterItems.set(chapter,[]);chapterItems.get(chapter).push(item);}else lawItems.push(item);}
-    const currentChapter=notebookBaseChapter(cid),currentItems=chapterItems.get(currentChapter)||[];
-    if(currentItems.length){
-      const list=$('#notebookMarks');list.querySelector('.nb-empty')?.remove();
-      notebookAnswerList(current,currentItems);
-    }
-    updateCurrentCount();
-    chapterItems.delete(currentChapter);
-    const other=$('#notebookOther');
-    for(const [chapter,group]of [...chapterItems].sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true}))){
-      let box=[...other.querySelectorAll('details[data-notebook-chapter]')].find(node=>notebookBaseChapter(node.dataset.notebookChapter)===chapter);
-      if(!box){
-        if(!other.querySelector(':scope > .nb-heading')){const h=document.createElement('h3');h.className='nb-heading';h.textContent='Other chapters';other.append(h);}
-        box=document.createElement('details');box.className='nb-group';box.dataset.notebookChapter=chapter;const summary=document.createElement('summary');notebookChapterHeading(summary,chapter,0);box.append(summary);
-        const next=[...other.querySelectorAll(':scope > [data-notebook-chapter]')].find(el=>notebookBaseChapter(el.dataset.notebookChapter).localeCompare(chapter,undefined,{numeric:true})>0);
-        other.insertBefore(box,next||null);
-      }
-      const summary=box.querySelector('summary'),active=group.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length;
-      notebookChapterHeading(summary,box.dataset.notebookChapter,Number(box.dataset.readingCount||0)+active,Number(box.dataset.readingCount)?'notes':'highlights');
-      notebookAnswerList(box,group);box.open=notebookOpenGroups.has('chapter:'+box.dataset.notebookChapter);
-    }
-    if(lawItems.length){law.hidden=false;const h=document.createElement('h3');h.className='nb-heading';h.textContent='Law and articles';law.append(h);notebookAnswerList(law,lawItems);}
-    const sittings=new Map();for(const item of items)if(item.sitting){if(!sittings.has(item.sitting))sittings.set(item.sitting,[]);sittings.get(item.sitting).push(item);}
-    if(sittings.size){
-      cycles.hidden=false;const h=document.createElement('h3');h.className='nb-heading';h.textContent='By exam sitting';cycles.append(h);
-      for(const [sitting,group]of [...sittings].sort((a,b)=>notebookSittingTime(b[0])-notebookSittingTime(a[0])||b[0].localeCompare(a[0]))){
-        const box=document.createElement('details'),summary=document.createElement('summary');box.className='nb-group';box.dataset.notebookSitting=sitting;
-        summary.textContent=(group[0].sittingLabel||sitting)+' ('+group.filter(item=>!notebookRemovedAnswerHighlights.has(item.id)).length+')';box.append(summary);
-        group.sort((a,b)=>(a.questionNumber??Infinity)-(b.questionNumber??Infinity)||a.at-b.at||a.id.localeCompare(b.id));notebookAnswerList(box,group,false);box.open=notebookOpenGroups.has('sitting:'+sitting);cycles.append(box);
-      }
-    }
-    viewport();
-  }catch(error){if(ticket!==notebookRenderTicket)return;const message=document.createElement('p');message.className='meta';message.textContent=error.message||'Answer-key highlights could not be loaded. Your saved highlights are kept.';current.append(message);}
-}
-addEventListener('hazzard-answer-highlights-change',()=>{if(panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();});
-addEventListener('storage',event=>{if((event.key===HazzardAnswerHighlights.KEY||event.key===null)&&panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();});
-function notebookChapterHeading(host,ch,count,kind='notes'){
-  const base=notebookBaseChapter(ch),chapter=orderedChapters.find(c=>String(c.number)===base);
-  const group=document.createElement('span'),title=document.createElement('strong'),meta=document.createElement('small');
-  group.className='nb-chapter-label';title.textContent=chapter?.title||chapterLabel(ch);title.dir='auto';
-  const mode=kind==='highlights'?'Answers':ch===base?'Read':'Study',context=base==='law'?mode:'Ch. '+base+' · '+mode;
-  meta.textContent=count==null?'Reading place · '+context:context+' · '+count+' '+(count===1?kind.replace(/s$/,''):kind);
-  group.append(title,' ',meta);host.replaceChildren(group);
-}
-let notebookCache;
 function notebookSignature(){
   return Object.keys(localStorage).filter(k=>k.startsWith('stage-a-highlights-v1:')||[BOOKMARK_KEY,HazzardAnswerHighlights.KEY,HazzardMCQ.SAVED_KEY,'hazzard-removals-v1'].includes(k)).sort().flatMap(k=>[k,localStorage.getItem(k)]);
 }
-const notebookQuestions=document.createElement('details'),savedSummary=document.createElement('summary'),savedQuestionList=document.createElement('ul');
-notebookQuestions.className='nb-group notebook-saved-questions';notebookQuestions.id='notebookSavedQuestions';savedQuestionList.className='rows';notebookQuestions.append(savedSummary,savedQuestionList);
-$('#notebookCurrent').before(notebookQuestions);
-addEventListener('keydown',e=>{if(e.key==='Tab')document.documentElement.dataset.keyboardNavigation='';},true);
-addEventListener('pointerdown',()=>{delete document.documentElement.dataset.keyboardNavigation;},true);
-const notebookEmpty=document.createElement('section');notebookEmpty.className='notebook-empty';notebookEmpty.hidden=true;
-notebookEmpty.innerHTML='<h2 tabindex="-1">No saved study items yet</h2><a href="?tab=chapters">Browse chapters</a><a href="?chapter=bank">Find a question</a>';
-const notebookPlaceAction=document.createElement('section');notebookPlaceAction.id='notebookCurrentPlace';notebookPlaceAction.className='nb-current-place';
-const placeLabel=document.createElement('span');placeLabel.id='notebookCurrentPlaceLabel';notebookPlaceAction.append(placeLabel);
-notebookQuestions.before(notebookEmpty,notebookPlaceAction);
-const notebookTopics=document.createElement('details'),topicSummary=document.createElement('summary'),topicRows=document.createElement('ul');
-notebookTopics.className='nb-group';topicRows.className='rows';notebookTopics.append(topicSummary,topicRows);notebookQuestions.after(notebookTopics);
-let topicNames;
-notebookTopics.addEventListener('toggle',async()=>{
-  if(!notebookTopics.open)return;
-  try{
-    topicNames??=await fetch('data/mcq/topics.json').then(r=>{if(!r.ok)throw Error();return r.json()});
-    const fragment=document.createDocumentFragment();
-    for(const [id,record] of Object.entries(HazzardMCQ.readSaved().topics)){
-      if(!record.saved)continue;
-      const row=document.createElement('li'),link=document.createElement('a');
-      link.textContent=topicNames[id]||'Topic '+id;link.href='?chapter=bank&statsFilter='+encodeURIComponent(id);row.append(link);fragment.append(row);
-    }
-    topicRows.replaceChildren(fragment);
-  }catch{topicRows.textContent='Saved topics could not be loaded.';}
-});
-let savedIds=[],savedListVersion=0,paintedSaved='';
-function refreshNotebookQuestions(){
-  try{
-    const saved=HazzardMCQ.readSaved(),records=saved.questions,topicCount=Object.values(saved.topics).filter(r=>r.saved).length;
-    notebookTopics.hidden=!topicCount;topicSummary.textContent='Saved topics ('+topicCount+')';savedIds=Object.entries(records).filter(([id,r])=>r.saved&&!HazzardMCQ.retired(id)).sort(([,a],[,b])=>b.at-a.at).map(([id])=>id);
-    notebookQuestions.hidden=!savedIds.length;savedSummary.textContent='Saved questions ('+savedIds.length+')';
-    if(paintedSaved!==savedIds.join(',')){savedQuestionList.replaceChildren();paintedSaved='';savedListVersion++;}
-  }catch{savedSummary.textContent='Saved questions unavailable';savedIds=[];savedQuestionList.replaceChildren();paintedSaved='';savedListVersion++;}
+function notebookRefresh(){
+  if(panel.open&&panel.dataset.currentPane==='notebook')renderNotebook();
+  else notebookCache=null;
 }
-notebookQuestions.addEventListener('toggle',async()=>{
-  if(!notebookQuestions.open)return;
-  const signature=savedIds.join(','),version=++savedListVersion;
-  if(paintedSaved===signature&&savedQuestionList.children.length)return;
-  if(!savedIds.length){const li=document.createElement('li');li.textContent='No saved questions yet.';savedQuestionList.replaceChildren(li);return;}
-  try{
-    const catalog=await HazzardQuestionData.catalog();if(version!==savedListVersion||!notebookQuestions.open)return;
-    const byId=new Map(catalog.map(q=>[q.id,q])),list=document.createDocumentFragment();
-    for(const id of savedIds){const q=byId.get(id);if(!q)continue;const li=document.createElement('li'),a=document.createElement('a'),title=document.createElement('strong'),source=document.createElement('small');
-      a.href=HazzardEvidence.questionURL(id);title.dir='auto';title.textContent=q.q;source.textContent=q.kind==='past'&&q.t?HazzardEvidence.sittingLabel(q.t)+(q.examNumber?' · Q'+q.examNumber:''):'Practice';source.lang='en';source.dir='ltr';a.append(source,title);li.append(a);list.append(li);}
-    savedQuestionList.replaceChildren(list);paintedSaved=signature;
-  }catch{const li=document.createElement('li');li.textContent='Saved questions could not be loaded. Close and reopen to retry.';savedQuestionList.replaceChildren(li);}
-});
-function renderNotebook(){
-  const ticket=++notebookRenderTicket;
-  notebookCache=notebookSignature();
-  for(const node of panel.querySelectorAll('details[data-notebook-chapter],details[data-notebook-sitting]')){const key=node.dataset.notebookChapter?'chapter:'+node.dataset.notebookChapter:'sitting:'+node.dataset.notebookSitting;if(node.open)notebookOpenGroups.add(key);else notebookOpenGroups.delete(key);}
-  const list=$('#notebookMarks');list.replaceChildren();
-  const items=[];
-  if(readingPage&&(placedUnits.size||rangeMarks.size)&&!highlightLoadFailed){
-    for(const {kind,id,mark} of bookItems(readHighlights())){
-      const el=unitParts(id).find(part=>copy.contains(part));
-      if(el)items.push({...mark,id,kind,el});
-    }
-  }
-  items.sort((a,b)=>a.el.compareDocumentPosition(b.el)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1);
-  const currentItems=notebookHighlightItems(cid,items);
-  const currentCount=()=>{
-    const count=currentItems.filter(m=>!notebookRemovedHighlights.has(notebookHighlightId(cid,m.kind,m.id))).length+$('#notebookAnswerCurrent').querySelectorAll('.nb-highlight:not(.nb-removed)').length;
-    notebookChapterHeading($('#notebookCurrent > summary'),cid,count);
-    $('#notebookCurrent').hidden=!count&&!list.querySelector('.nb-removed')&&!$('#notebookAnswerCurrent').querySelector('.nb-removed');
+addEventListener('hazzard-answer-highlights-change',notebookRefresh);
+addEventListener('hazzard-saved-change',notebookRefresh);
+addEventListener('storage',e=>{if(!e.key||e.key===HazzardAnswerHighlights.KEY||e.key===HazzardMCQ.SAVED_KEY||e.key.startsWith('stage-a-highlights-v1:'))notebookRefresh();});
+function notebookAnswerRow(item,chapter){
+  const li=notebookElement('li','nb-item nb-highlight nb-answer-highlight'),go=notebookElement('button','nb-quote'),text=notebookElement('span','nb-answer-text'),remove=notebookElement('button','nb-highlight-remove');
+  li.dataset.answerHighlight=item.id;go.type=remove.type='button';
+  text.textContent=(item.number?item.number+'. ':'')+item.text;text.dir=snippetDirection(item.text);go.append(text);
+  if(item.note){const note=notebookElement('small','nb-typed-note',item.note);note.dir='auto';go.append(note);}
+  if(item.unplaced)go.append(notebookElement('small','meta','Saved excerpt from an earlier explanation'));
+  go.onclick=()=>{rememberNotebookRow(li,chapter,item.id,'answer');router.go(HazzardEvidence.questionURL(item.questionId)+'&answerHighlight='+encodeURIComponent(item.id));};
+  const removed=notebookRemovedAnswerHighlights.has(item.id);go.disabled=removed;li.classList.toggle('nb-removed',removed);
+  remove.textContent=removed?'Undo':'×';remove.setAttribute('aria-label',removed?'Undo remove highlight':'Remove highlight');
+  remove.onclick=()=>{
+    const undo=notebookRemovedAnswerHighlights.has(item.id);
+    if(undo)notebookRemovedAnswerHighlights.delete(item.id);else notebookRemovedAnswerHighlights.set(item.id,item);
+    try{HazzardAnswerHighlights.setRemoved(item.id,!undo);showSaved(undo?'✓ Saved':'✓ Removed');}
+    catch(error){if(undo)notebookRemovedAnswerHighlights.set(item.id,item);else notebookRemovedAnswerHighlights.delete(item.id);notebookStatus(error.message||'The highlight could not be changed.');}
   };
-  const currentGroup=$('#notebookCurrent');let renderedCurrent=false;
-  currentGroup.ontoggle=()=>{if(currentGroup.open&&!renderedCurrent){renderedCurrent=true;fillNotebookHighlights(list,cid,currentItems,currentCount,ticket);}};
-  currentCount();if(currentGroup.open)currentGroup.ontoggle();
-  const places=$('#notebookPlaces');places.replaceChildren();
-  let bookmarks=[];
-  try{bookmarks=HazzardStorage.readProtected(BOOKMARK_KEY,()=>[]);if(!Array.isArray(bookmarks)||bookmarks.some(b=>!b||typeof b.chapter!=='string'||!Number.isFinite(b.at)))throw new Error('Invalid bookmarks')}
-  catch{bookmarks=[];const li=document.createElement('li');li.className='meta';li.textContent='Saved places could not be read. Your stored data has not been changed.';places.append(li)}
-  const groupsByChapter=new Map();
-  for(const bm of bookmarks.sort((a,b)=>b.at-a.at)){if(!groupsByChapter.has(bm.chapter))groupsByChapter.set(bm.chapter,[]);groupsByChapter.get(bm.chapter).push(bm)}
-  for(const [chapter,group] of groupsByChapter){
-    const chapterPlaces=document.createElement('li'),groupBox=document.createElement('details'),heading=document.createElement('summary'),placeList=document.createElement('ul');
-    notebookChapterHeading(heading,chapter,group.length,'places');groupBox.append(heading,placeList);chapterPlaces.append(groupBox);places.append(chapterPlaces);
-    for(const bm of group){
-    const li=document.createElement('li'),go=document.createElement('button'),del=document.createElement('button');li.className='nb-item';
-    go.innerHTML='<strong></strong><small></small>';go.querySelector('strong').textContent=bm.snippet||'Saved place';go.querySelector('small').textContent='Open saved place';go.querySelector('small').dir=snippetDirection(bm.snippet||'');
-    li.dataset.bookmarkAt=String(bm.at);
-    const signature=HazzardStorage.removals.bookmarkSignature(bm);
-    const samePlace=item=>HazzardStorage.removals.bookmarkSignature(item)===signature;
-    go.onclick=()=>{
-      const current=readJSON(BOOKMARK_KEY,[]).find(samePlace);
-      if(current){rememberNotebookRow(li,current.chapter,String(current.at),true);openChapter(current.chapter,{hash:'bm-'+current.at});}
-      else notebookStatus('This bookmark is no longer saved.');
-    };
-    del.className='nb-remove';del.textContent='Remove';
-    del.onclick=()=>{
-      const list=readJSON(BOOKMARK_KEY,[]),present=list.some(samePlace);
-      const next=present?list.filter(item=>!samePlace(item)):[{...bm,at:Date.now()},...list];
-      if(!writeJSON(BOOKMARK_KEY,next)){notebookStatus('This bookmark change could not be saved. Try again.');return}
-      showSaved(present?'✓ Removed':'✓ Saved');
-      del.textContent=present?'Undo':'Remove';go.disabled=present;syncBookmark();
-    };
-    li.append(go,del);placeList.append(li);
-    }
-  }
-  const placeGroup=places.closest('details');
-  placeGroup.hidden=!places.children.length;
-  const bookmark=$('#bookmark');
-  const placeAction=$('#notebookCurrentPlace');placeAction.append(bookmark);syncBookmark();
-  const other=$('#notebookOther');other.replaceChildren();
-  const prefix='stage-a-highlights-v1:',groups=[];
-  try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!k?.startsWith(prefix)||k.includes('-unreadable-'))continue;const ch=k.slice(prefix.length);if(ch===cid)continue;let d;try{d=HazzardStorage.readProtected(k,()=>null)}catch{continue}const marks=[...Object.entries(d?.marks||{}).map(([id,m])=>({...m,id,kind:'marks'})),...Object.entries(d?.ranges||{}).map(([id,m])=>({...m,id,kind:'ranges'}))];if(marks.length)groups.push({ch,marks})}}catch{}
-  for(const item of notebookRemovedHighlights.values())if(item.ch!==cid&&!groups.some(g=>g.ch===item.ch))groups.push({ch:item.ch,marks:[]});
-  groups.sort((a,b)=>String(a.ch).localeCompare(String(b.ch),undefined,{numeric:true}));
-  if(groups.length){const h=document.createElement('h3');h.className='nb-heading';h.textContent='Other chapters';other.append(h)}
-  for(const g of groups){
-    const box=document.createElement('details'),sum=document.createElement('summary'),ul=document.createElement('ul');box.className='nb-group';box.dataset.notebookChapter=g.ch;box.open=notebookOpenGroups.has('chapter:'+g.ch);ul.className='rows';
-    const items=notebookHighlightItems(g.ch,g.marks);
-    const updateCount=()=>{const count=items.filter(m=>!notebookRemovedHighlights.has(notebookHighlightId(g.ch,m.kind,m.id))).length;box.dataset.readingCount=String(count);const answers=[...box.querySelectorAll('.nb-answer-highlight')].filter(row=>!row.classList.contains('nb-removed')).length;notebookChapterHeading(sum,g.ch,count+answers);};
-    updateCount();box.append(sum,ul);
-    function fill(){
-      if(!box.open)return;
-      box.removeEventListener('toggle',fill);fillNotebookHighlights(ul,g.ch,items,updateCount,ticket);
-    }
-    box.addEventListener('toggle',fill);
-    fill();
-    other.append(box);
-  }
-  const historyList=$('#notebookHistoryMarks');historyList.replaceChildren();$('#notebookHistory').hidden=!highlightHistory.length&&!unplacedRanges.length;
-  for(const r of unplacedRanges){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not found in the current text';excerpt.textContent=[r.number&&r.number+'.',r.text,r.note].filter(Boolean).join(' ');excerpt.dataset.marked=r.colour;li.append(label,excerpt);historyList.append(li)}
-  for(const mark of highlightHistory){const li=document.createElement('li'),label=document.createElement('small'),excerpt=document.createElement('p');label.className='meta';label.textContent='Not restored to this chapter';excerpt.textContent=[mark.number&&mark.number+'.',mark.text,mark.note].filter(Boolean).join(' ');excerpt.dataset.marked=mark.colour;li.append(label,excerpt);historyList.append(li)}
-  let answerCount=0;try{answerCount=Object.values(HazzardAnswerHighlights.read().items).filter(item=>!item.removed).length;}catch{}
-  notebookEmpty.hidden=!!(!notebookTopics.hidden||savedIds.length||items.length||unplacedRanges.length||highlightHistory.length||places.children.length||groups.length||answerCount);
-  renderNotebookAnswerHighlights(ticket,currentCount);
+  li.append(go,remove);return li;
 }
+function notebookPlaceRow(bm,ch,onCountChange){
+  const li=notebookElement('li','nb-item nb-place-row'),go=notebookElement('button','nb-quote'),del=notebookElement('button','nb-remove','Remove');
+  go.type=del.type='button';go.textContent=bm.snippet||'Open saved place';go.dir='auto';li.dataset.bookmarkAt=String(bm.at);
+  const signature=HazzardStorage.removals.bookmarkSignature(bm),same=x=>HazzardStorage.removals.bookmarkSignature(x)===signature;
+  go.onclick=()=>{const current=readJSON(BOOKMARK_KEY,[]).find(same);if(current){rememberNotebookRow(li,ch,String(current.at),'place');openChapter(current.chapter,{hash:'bm-'+current.at});}else notebookStatus('This bookmark is no longer saved.');};
+  del.onclick=()=>{
+    const prior=readJSON(BOOKMARK_KEY,[]),present=prior.some(same),again={...bm,at:Date.now()},next=present?prior.filter(x=>!same(x)):[again,...prior];
+    if(!writeJSON(BOOKMARK_KEY,next)){notebookStatus('The saved place could not be changed.');return;}
+    if(!present)li.dataset.bookmarkAt=String(again.at);
+    li.classList.toggle('nb-removed',present);go.disabled=present;del.textContent=present?'Undo':'Remove';syncBookmark();onCountChange(present?-1:1);showSaved(present?'✓ Removed':'✓ Saved');
+  };
+  li.append(go,del);return li;
+}
+function notebookQuestionGroup(q,articles,sources){
+  if(!q)return ['unassigned','Questions without a chapter'];
+  if(articles.has(q.id)||q.suppliedArticle||q.sourceType==='Article'){
+    const card=sources.get(q.id);
+    if(card)return ['article:'+card.id,'Article · '+card.title];
+    const citation=String(q.ref||q.source||'Required reading');
+    const title=/\bStroke Rehabilitation Clinician Handbook 2020\b/i.test(citation)?'Stroke Rehabilitation Clinician Handbook 2020':citation.split(/\s+·\s+|\s+(?:pp?\.|pages?)\s*\d/i)[0].replace(/[.,:\s]+$/,'');
+    return ['article:'+title,'Article · '+title];
+  }
+  if(q.law||q.sourceType==='Law'||q.chapter==='law')return ['law',notebookTitle('law')];
+  const ch=String(q.chapter||'');
+  if(/^\d+$/.test(ch))return [ch,notebookTitle(ch)];
+  if(ch)return [ch,q.chapterTitle||ch];
+  return ['unassigned','Questions without a chapter'];
+}
+function notebookQuestionBlock(record,group){
+  const {q,id,marks}=record;
+  const block=notebookElement('li','nb-question'),link=notebookElement('a','nb-question-open');
+  block.dataset.notebookQuestion=id;block.dataset.notebookSaved=String(record.saved);link.href=HazzardEvidence.questionURL(id);
+  const label=q?.kind==='past'&&q.t?HazzardEvidence.sittingLabel(q.t)+(q.examNumber?' · Q'+q.examNumber:''):'Practice';
+  link.append(notebookElement('small','nb-source',label));
+  const stem=notebookElement('span','nb-stem',q?.q||'Open question');stem.dir='auto';link.append(stem);
+  link.onclick=()=>rememberNotebookRow(block,group,id,'question');block.append(link);
+  if(marks.length){
+    const list=notebookElement('ul','rows nb-answer-rows');
+    for(const mark of marks)list.append(notebookAnswerRow(mark,group));
+    block.append(list);
+  }
+  return block;
+}
+function notebookCountText(n,singular){return n+' '+singular+(n===1?'':'s');}
+async function renderNotebook(){
+  const ticket=++notebookRenderTicket,host=$('#notebookChapterList');
+  for(const node of host.querySelectorAll('details[data-notebook-chapter]')){
+    if(node.open)notebookOpenGroups.add(node.dataset.notebookChapter);else notebookOpenGroups.delete(node.dataset.notebookChapter);
+  }
+  $('#notebookLoadNotice').hidden=true;
+  const problems=[];notebookCache=notebookSignature();syncBookmark();
+  const groups=new Map(),views=new Map();
+  function group(id,title=notebookTitle(id)){
+    if(!groups.has(id))groups.set(id,{id,title,views:[],questions:new Map(),topics:[]});
+    return groups.get(id);
+  }
+  function view(ch){
+    const id=notebookBaseChapter(ch);
+    if(!views.has(ch)){const data={ch,marks:[],places:[],history:[]};views.set(ch,data);group(id).views.push(data);}
+    return views.get(ch);
+  }
+  const prefix='stage-a-highlights-v1:',chapters=new Set(Object.keys(localStorage).filter(k=>k.startsWith(prefix)&&!k.includes('-unreadable-')).map(k=>k.slice(prefix.length)));
+  for(const removed of notebookRemovedHighlights.values())chapters.add(removed.ch);
+  for(const ch of chapters){
+    try{
+      const raw=HazzardStorage.readProtected(prefix+ch,()=>null);const active=[];
+      for(const kind of ['marks','ranges'])for(const [id,m]of Object.entries(raw?.[kind]||{}))active.push({...m,id,kind});
+      const marks=notebookHighlightItems(ch,active),history=[];
+      const signature=m=>JSON.stringify([m.id,m.text,m.prefix,m.suffix,m.note]);
+      const placed=new Set(marks.map(signature));
+      for(const record of raw?.history||[]){const key=signature(record);if(!placed.has(key)){history.push(record);placed.add(key);}}
+      if(marks.length||history.length){const v=view(ch);v.marks=marks;v.history=history;}
+    }catch{problems.push('Highlights in '+notebookTitle(notebookBaseChapter(ch))+' could not be read.');}
+  }
+  try{
+    const bookmarks=HazzardStorage.readProtected(BOOKMARK_KEY,()=>[]);
+    for(const bm of [...bookmarks].sort((a,b)=>b.at-a.at))view(bm.chapter).places.push(bm);
+  }catch{problems.push('Saved places could not be read.');}
+  try{
+    const saved=HazzardMCQ.readSaved();
+    const savedQuestions=Object.keys(saved.questions).filter(id=>saved.questions[id]?.saved&&!HazzardMCQ.retired(id));
+    const savedTopics=Object.keys(saved.topics).filter(id=>saved.topics[id]?.saved);
+    const answerMarks=new Map((await HazzardAnswerHighlights.notebookItems()).map(m=>[m.id,m]));
+    for(const [id,mark]of notebookRemovedAnswerHighlights)if(!answerMarks.has(id))answerMarks.set(id,mark);
+    if(savedQuestions.length||savedTopics.length||answerMarks.size){
+      notebookMetadata ||= Promise.all([HazzardQuestionData.catalog(),readingJSON('data/mcq/collections.json'),readingJSON('data/mcq/topics.json')]).catch(error=>{notebookMetadata=null;throw error;});
+      const [catalog,collections,topics]=await notebookMetadata;
+      const byId=new Map(catalog.map(q=>[q.id,q])),articles=new Set(collections.suppliedArticles.ids);
+      const wanted=new Set([...savedQuestions,...[...answerMarks.values()].map(m=>m.questionId)]);
+      const sources=new Map();
+      if([...wanted].some(id=>articles.has(id))){
+        const law=await readingJSON('data/law-cards.json');
+        for(const card of law.articles?.cards||[])for(const q of card.questions||[]){
+          // Multiple cards can discuss one question. Only an unambiguous publication owns it.
+          if(wanted.has(q.id))sources.set(q.id,sources.has(q.id)?null:card);
+        }
+      }
+      const extra=[...wanted].map(id=>byId.get(id)).filter(q=>q&&(articles.has(q.id)||(!/^\d+$/.test(q.chapter||'')&&q.chapter!=='law')));
+      if(extra.length)await HazzardQuestionData.hydrate(extra);
+      for(const id of wanted){
+        const q=byId.get(id),[key,title]=notebookQuestionGroup(q,articles,sources);
+        group(key,title).questions.set(id,{id,q,at:saved.questions[id]?.at||0,saved:savedQuestions.includes(id),marks:[]});
+      }
+      for(const m of [...answerMarks.values()].sort((a,b)=>(a.number??Infinity)-(b.number??Infinity)||a.at-b.at)){
+        const q=byId.get(m.questionId),[key]=notebookQuestionGroup(q,articles,sources);groups.get(key).questions.get(m.questionId).marks.push(m);
+      }
+      // A topic save records a topic ID, not a chapter. Display it once under the
+      // chapter containing most of its active catalog questions; the link still opens the whole topic.
+      const topicChapters=new Map(savedTopics.map(id=>[id,new Map()]));
+      for(const q of catalog){
+        if(q.retired||articles.has(q.id)||!(/^\d+$/.test(q.chapter||'')||q.chapter==='law'))continue;
+        for(const topic of HazzardMCQ.membership(q)){
+          const counts=topicChapters.get(String(topic));
+          if(counts)counts.set(String(q.chapter),(counts.get(String(q.chapter))||0)+1);
+        }
+      }
+      for(const [raw,counts]of topicChapters){
+        const owner=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],undefined,{numeric:true}))[0]?.[0]||'unassigned';
+        group(owner,owner==='unassigned'?'Topics without a chapter':notebookTitle(owner)).topics.push({id:raw,title:topics[raw]||'Topic '+raw});
+      }
+    }
+  }catch{problems.push('Saved questions, topics or answer highlights could not be loaded.');}
+  if(ticket!==notebookRenderTicket)return;
+  const fragment=document.createDocumentFragment();
+  function rank(id){return /^\d+$/.test(id)?Number(id):id==='law'?1000:id==='unassigned'?3000:2000;}
+  for(const g of [...groups.values()].sort((a,b)=>rank(a.id)-rank(b.id)||a.title.localeCompare(b.title))){
+    const box=notebookElement('details','nb-group nb-chapter'),summary=notebookElement('summary','nb-chapter-summary'),title=notebookElement('strong','',g.title),counts=notebookElement('small','nb-counts');
+    title.dir='auto';counts.dir='ltr';box.dataset.notebookChapter=g.id;summary.append(title,counts);box.append(summary);fragment.append(box);
+    let placeCount=g.views.reduce((n,v)=>n+v.places.length,0);
+    function count(){
+      const reading=g.views.reduce((n,v)=>n+v.history.length+v.marks.filter(m=>!notebookRemovedHighlights.has(notebookHighlightId(v.ch,m.kind,m.id))).length,0);
+      const answers=[...g.questions.values()].flatMap(q=>q.marks).filter(m=>!notebookRemovedAnswerHighlights.has(m.id)).length;
+      const total=[...g.questions.values()].filter(q=>q.saved||q.marks.some(m=>!notebookRemovedAnswerHighlights.has(m.id))).length;
+      counts.textContent=[[reading+answers,'highlight'],[total,'question'],[placeCount,'place'],[g.topics.length,'topic']].filter(([n])=>n).map(([n,s])=>notebookCountText(n,s)).join(' · ')||'No saved items';
+      box.dataset.highlightCount=String(reading+answers);box.dataset.questionCount=String(total);box.dataset.placeCount=String(placeCount);box.dataset.topicCount=String(g.topics.length);
+    }
+    count();
+    for(const v of g.views.sort((a,b)=>Number(a.ch!==g.id)-Number(b.ch!==g.id))){
+      const sec=notebookElement('section','nb-view');sec.dataset.notebookView=v.ch;
+      sec.append(notebookElement('h3','nb-section-title',v.ch===g.id?'Read':'Study'));box.append(sec);
+      if(v.places.length){
+        const list=notebookElement('ul','rows nb-place-list');
+        for(const bm of v.places)list.append(notebookPlaceRow(bm,g.id,delta=>{placeCount+=delta;count();}));sec.append(list);
+      }
+      if(v.marks.length){
+        const list=notebookElement('ul','rows nb-chapter-marks');sec.append(list);let loaded=false;
+        const fill=()=>{if(box.open&&!loaded&&list.isConnected){loaded=true;fillNotebookHighlights(list,v.ch,v.marks,count,ticket);}};
+        box.addEventListener('toggle',fill);queueMicrotask(fill);
+      }
+      if(v.history.length){
+        sec.append(notebookElement('h4','nb-history-label','Earlier saved highlights'));
+        for(const m of v.history){const el=notebookElement('p','nb-history-quote',m.text);el.dir='auto';sec.append(el);}
+      }
+    }
+    if(g.questions.size||g.topics.length){
+      box.append(notebookElement('h3','nb-section-title','Questions'));const list=notebookElement('ul','rows nb-question-list');box.append(list);
+      for(const q of [...g.questions.values()].sort((a,b)=>b.at-a.at||a.id.localeCompare(b.id)))list.append(notebookQuestionBlock(q,g.id));
+      for(const t of g.topics){const row=notebookElement('li','nb-topic'),link=notebookElement('a');row.dataset.notebookTopic=t.id;link.href='?chapter=bank&statsFilter='+encodeURIComponent(t.id);link.append(notebookElement('small','nb-source','Saved topic · all chapters'),notebookElement('span','',t.title));row.append(link);list.append(row);}
+    }
+    box.open=notebookOpenGroups.has(g.id);
+  }
+  host.replaceChildren(fragment);$('#notebookEmpty').hidden=!!groups.size||!!problems.length;
+  if(problems.length){const note=$('#notebookLoadNotice');note.textContent=problems.join(' ');note.hidden=false;}
+  restoreNotebookRow();viewport();
+}
+
+
 
 let fullTextIndex=null,bankTextIndex=null,searchTicket=0,searchTimer;
 const indexedChapters=new Map();
@@ -3093,18 +3093,15 @@ function rangeQuote(ix,start,end){
 const editor=$('#highlightEditor'),noteField=$('#markNote');
 const selectionHint=document.createElement('div');
 selectionHint.className='reader-selection-hint';selectionHint.hidden=true;
-selectionHint.innerHTML='<span role="status">Long-press text for the Android selection menu.</span><button type="button">Cancel</button>';
-appTabs.before(selectionHint);
-let nativeRangeSelected=false;
+selectionHint.innerHTML='<span role="status">Select text to copy or translate</span><button type="button">Done</button>';
+document.body.append(selectionHint);
 function finishNativeSelection(){
   if(selectionHint.hidden)return;
-  selectionHint.hidden=true;nativeRangeSelected=false;
-  document.documentElement.classList.remove('browser-text-selection');
+  selectionHint.hidden=true;document.documentElement.classList.remove('browser-text-selection');
   window.getSelection()?.removeAllRanges();
 }
 function selectReaderText(){
-  dismissMarkBar();clearMarkUndo();setReadingBarsHidden(false);
-  window.getSelection()?.removeAllRanges();nativeRangeSelected=false;
+  dismissMarkBar();clearMarkUndo();setReadingBarsHidden(false);window.getSelection()?.removeAllRanges();
   selectionHint.hidden=false;document.documentElement.classList.add('browser-text-selection');
 }
 selectionHint.querySelector('button').onclick=finishNativeSelection;
@@ -3112,19 +3109,7 @@ document.addEventListener('click',event=>{
   if(!event.target.closest('[data-select-reader-text]'))return;
   if(panel.open)returnReading(selectReaderText);else selectReaderText();
 });
-document.addEventListener('selectionchange',()=>{
-  if(selectionHint.hidden)return;
-  const selection=window.getSelection();
-  if(!selection?.isCollapsed&&selection?.anchorNode?.parentElement?.closest(readingText))nativeRangeSelected=true;
-  else if(nativeRangeSelected&&selection?.isCollapsed)finishNativeSelection();
-});
-document.addEventListener('pointerdown',event=>{
-  // Native handles and menu actions are outside the document. A new press on
-  // the page starts a new gesture, with highlighting restored after one selection.
-  if(!selectionHint.hidden&&!selectionHint.contains(event.target)&&(nativeRangeSelected||!event.target.closest(readingText)))finishNativeSelection();
-},true);
 window.addEventListener('pagehide',finishNativeSelection);
-document.addEventListener('visibilitychange',()=>{if(document.hidden)finishNativeSelection();});
 
 let activeMark=null,stopStroke=()=>{};
 let numberingKey='hazzard-number-points:'+cid;
@@ -3161,7 +3146,7 @@ function placedBookItems(saved,ix=bookTextIndex(),onlyNumbered=false){
   }
   return items;
 }
-function changeBookRange(saved,ix,start,end,erase=false){
+function changeBookRange(saved,ix,start,end){
   const items=placedBookItems(saved,ix);
   const plan=planHighlightStroke(ix.s,start,end,items);
   const remaining=items.filter(item=>!plan.hits.includes(item));
@@ -3178,7 +3163,7 @@ function changeBookRange(saved,ix,start,end,erase=false){
     const fields=inherit?source.mark:{colour:source.mark.colour};
     put(piece.start,piece.end,fields);
   }
-  if(!erase&&plan.paint){
+  if(plan.paint){
     const fields={colour};
     const notes=[...new Set(plan.consumed.map(item=>item.mark.note).filter(Boolean))];
     if(notes.length)fields.note=notes.join('\n');
@@ -3220,10 +3205,24 @@ function showMark(kind,id,mark){
   $('#pointChip').setAttribute('aria-pressed',String(!!mark.number));$('#pointChip').title=mark.number?'Remove this point number':'Number in reading order';selectInk(mark.colour);
   if(noteField.value!==(mark.note||''))noteField.value=mark.note||'';
 }
-function editMark(kind,id){
+const overlappingMarks=document.createElement('select');overlappingMarks.hidden=true;overlappingMarks.setAttribute('aria-label','Choose a highlight here');
+editor.prepend(overlappingMarks);
+function pickOverlappingMark(kind,id,choices=[]){
+  const candidates=[...new Map([[kind,id],...choices].map(item=>[item[0]+'|'+item[1],item])).values()];
+  overlappingMarks.replaceChildren();
+  for(const [type,key] of candidates){
+    const mark=(type==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[type])?.[key];
+    if(!mark||mark.removed)continue;
+    const option=document.createElement('option');option.value=key;option.dataset.kind=type;option.textContent=mark.text;option.dir='auto';overlappingMarks.append(option);
+  }
+  overlappingMarks.hidden=overlappingMarks.options.length<2;
+  overlappingMarks.value=id;
+  overlappingMarks.onchange=()=>{const option=overlappingMarks.selectedOptions[0];if(option)editMark(option.dataset.kind,option.value,candidates);};
+}
+function editMark(kind,id,choices=[]){
   try{
     const records=kind==='answer'?HazzardAnswerHighlights.read().items:readHighlights()[kind];
-    if(records?.[id]){noteField.hidden=true;showMark(kind,id,records[id]);}
+    if(records?.[id]){noteField.hidden=true;pickOverlappingMark(kind,id,choices);showMark(kind,id,records[id]);}
   }catch(e){flash(e.message,6000);}
 }
 function createBook(range){
@@ -3249,10 +3248,10 @@ function modifyMark(fields){
     const saved=readHighlights();
     if(HazzardStorage.blockedKeys().includes(highlightStorageKey)||JSON.stringify(saved[kind]?.[id])!==JSON.stringify(mark))throw Error('This highlight changed. Reopen it to edit.');
     if(!fields){
-      const before=structuredClone(saved),ix=bookTextIndex(),item=placedBookItems(saved,ix).find(item=>item.kind===kind&&item.id===id);
-      if(item&&item.end>item.start)changeBookRange(saved,ix,item.start,item.end,true);
-      else{delete saved[kind][id];numberPlacedPoints(placedBookItems(saved,ix));}
-      persistBook(saved);closeMark();offerMarkUndo(undoBookChange(before,saved),'Highlight deleted');return;
+      const before=structuredClone(saved);
+      delete saved[kind][id];
+      writeHighlights(saved);resyncHighlights(false);closeMark();
+      offerMarkUndo(undoBookChange(before,saved),'Highlight removed');return;
     }
     const before=Object.hasOwn(fields,'colour')?structuredClone(saved):null;
     Object.assign(saved[kind][id],fields,{at:Math.max(Date.now(),(mark.at||0)+1)});
@@ -3318,13 +3317,19 @@ stopStroke=bindReaderInput({
   },
   begin(event){
     const root=event.target.closest(readingText);
-    if(!root||panel.open||currentView!=='reader'||event.target.closest('a,button,input,textarea,select,summary,img,svg,[data-reader-metadata]'))return;
+    if(!root||panel.open||currentView!=='reader'||event.target.closest('button,input,textarea,select,summary,img,svg,[data-reader-metadata]')||event.target.closest('a')&&!event.target.closest('[data-marked]'))return;
     const word=caretWord(event.clientX,event.clientY),book=root===copy;
-    const hit=(word?.startContainer.parentElement||event.target).closest('[data-range],[data-answer-highlight],[data-marked]');
-    const id=hit?.dataset.answerHighlight||hit?.dataset.range||hit?.dataset.savedUnit||hit?.dataset.unit;
+    const marked='[data-range],[data-answer-highlight],[data-marked]';
+    let hit=event.target.closest(marked)||word?.startContainer.parentElement.closest(marked);
+    const choices=[];
+    while(hit){
+      const id=hit.dataset.answerHighlight||hit.dataset.savedUnit||hit.dataset.range||hit.dataset.unit;
+      if(id)choices.push([book?(hit.dataset.recordKind||(hit.dataset.range?'ranges':'marks')):'answer',id]);
+      hit=hit.parentElement?.closest(marked);
+    }
     const scroller=book?readerScroll:root.closest('#mcqViewport');if(!scroller)return;
     const table=event.target.closest('.table-wrap');
-    return {id:event.pointerId,root,word,range:word,book,hit:id&&[book?(hit.dataset.recordKind||(hit.dataset.range?'ranges':'marks')):'answer',id],
+    return {id:event.pointerId,root,word,range:word,book,hit:choices.length?[...choices[0],choices]:null,
       x:event.clientX,y:event.clientY,scroll:scroller.scrollTop,scroller,table,left:table?.scrollLeft||0,selecting:false,moved:false};
   }
 });
@@ -3453,22 +3458,35 @@ function measureTables(){tableWidths.disconnect();for(const node of copy.querySe
 // ---------- top / end ----------
 // ---------- reading place: saved automatically, plus explicit saved places ----------
 
-let readingPeak={ratio:0,read:false};
+let readingPeak={ratio:0};
+function readingToggle(chapter,study=false){
+  const button=document.createElement('button');button.type='button';button.className='reading-toggle';button.dataset.readToggle=chapter;
+  function paint(){const read=!!readJSON(READING_KEY,{chapters:{}}).chapters?.[chapter]?.read;
+    button.textContent=study?(read?'Mark Study as unread':'Mark Study as read'):(read?'Mark as unread':'Mark as read');
+    button.setAttribute('aria-pressed',String(read));
+  }
+  paint();
+  button.onclick=()=>{
+    const data=HazzardStorage.readProtected(READING_KEY,()=>({chapters:{}}));
+    const old=data.chapters[chapter]||{ratio:0,read:false};
+    const next={...old,read:!old.read,readAt:Math.max(Date.now(),(old.readAt||0)+1)};
+    if(!writeJSON(READING_KEY,{...data,chapters:{...data.chapters,[chapter]:next}})){flash('Reading status could not be saved.',4000);return;}
+    paint();refreshLibraryMarks();refreshResume();
+  };
+  return button;
+}
 function rememberFurthest(place){
   if(copy.dataset.notLoaded||place.chapter==='mock')return;
   const data=readJSON(READING_KEY,{chapters:{}}),old=data.chapters?.[place.chapter]||{ratio:0,read:false};
-  const ratio=Math.min(1,Math.max(old.ratio,place.ratio,readingPeak.ratio)),read=old.read||readingPeak.read||readerScroll.scrollHeight-readerScroll.clientHeight-readerScroll.scrollTop<=2;
+  const ratio=Math.min(1,Math.max(old.ratio,place.ratio,readingPeak.ratio)),read=old.read;
   if(ratio===old.ratio&&read===old.read)return true;
-  data.chapters={...data.chapters,[place.chapter]:{ratio,read}};
+  data.chapters={...data.chapters,[place.chapter]:{...old,ratio,read}};
   const saved=writeJSON(READING_KEY,data);if(!saved)flash('Reading progress could not be saved.',6000);return saved;
 }
 const drillTotals=Object.fromEntries(manifestChapters.filter(chapter=>chapter.drillCount).map(chapter=>[chapter.number,chapter.drillCount]));
 async function refreshLibraryMarks(){
   if(currentView!=='library')return;
   const data=readJSON(READING_KEY,{chapters:{}});data.chapters=data.chapters||{};
-  const places=readJSON(PLACE_KEY,{}),saved=[...Object.values(places.chapters||{}),...readJSON(BOOKMARK_KEY,[])];
-  for(const p of saved){if(!p||p.chapter==='mock'||!Number.isFinite(p.ratio))continue;const old=data.chapters[p.chapter]||{ratio:0,read:false};data.chapters[p.chapter]={ratio:Math.min(1,Math.max(old.ratio,p.ratio)),read:old.read||p.ratio>=0.9999}}
-  if(JSON.stringify(data)!==JSON.stringify(readJSON(READING_KEY,{chapters:{}}))&&!writeJSON(READING_KEY,data))flash('Reading progress could not be saved.',6000);
   if(currentView!=='library')return;
   const rows=$$('#chapterRows [data-chapter-row]');
   for(const row of rows){
@@ -3478,8 +3496,12 @@ async function refreshLibraryMarks(){
       const exams=document.createElement('span');exams.className='library-exams';row.querySelector('.chapter-actions').append(exams);row.append(status);
     }
     const progress=data.chapters[row.dataset.readingChapter];
+    const actions=row.querySelector('.chapter-actions'),oldToggle=actions.querySelector('[data-read-toggle]');
+    const toggle=readingToggle(row.dataset.readingChapter);
+    if(oldToggle){if(oldToggle.getAttribute('aria-pressed')!==toggle.getAttribute('aria-pressed'))oldToggle.replaceWith(toggle);}
+    else actions.append(toggle);
     const percent=Math.min(99,Math.floor((progress?.ratio||0)*100));
-    row.dataset.readStatus=progress?.read?'Read ✓':percent?percent+'% read':'';
+    row.dataset.readStatus=progress?.read?'Read ✓':percent?percent+'% through':'';
     row.querySelector('.library-status').textContent=row.dataset.readStatus;
   }
   try{
@@ -3510,6 +3532,14 @@ async function refreshLibraryMarks(){
 }
 
 function anchorUnit(){const r=readerScroll.getBoundingClientRect(),c=copy.getBoundingClientRect(),x=Math.max(c.left+24,r.left+24);for(let y=r.top+16;y<r.top+Math.min(260,r.height);y+=14){const el=document.elementFromPoint(x,y)?.closest?.('[data-unit]');if(el&&copy.contains(el))return unitMap.get(el.dataset.unit)}return null}
+function shortReadingQuote(text){
+  const legacyCut=text.length===100&&!/[.!?…״”)]$/.test(text);
+  if(text.length<=110&&!legacyCut)return text;
+  const lead=text.slice(0,110).trimEnd();
+  const partial=legacyCut||text.length>110&&!/\s/.test(text[110]);
+  const end=partial?lead.search(/\s+\S*$/):-1;
+  return (end>0?lead.slice(0,end):lead).replace(/…+$/,'')+'…';
+}
 function currentPlace(){const u=anchorUnit(),span=Math.max(1,readerScroll.scrollHeight-readerScroll.clientHeight);return {chapter:cid,title:chapterTitle,unit:u?.id||null,snippet:u?highlightText(u).slice(0,100):'',ratio:Math.max(0,Math.min(1,readerScroll.scrollTop/span)),at:Date.now()}}
 function showResumeNotice(){
   if(history.state?.readerResumeNotice===cid)return;
@@ -3655,7 +3685,7 @@ readerScroll.addEventListener('scroll',()=>{
     preserveStudyPlace=false;history.replaceState({...history.state,hazzardStudySummaryStart:false},'');
   }
   const y=Math.max(0,readerScroll.scrollTop);syncBookmark();
-  if(!copy.dataset.notLoaded&&currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)));readingPeak.read||=span-y<=2}
+  if(!copy.dataset.notLoaded&&currentView==='reader'&&!panel.open&&!zoom.open){const span=readerScroll.scrollHeight-readerScroll.clientHeight;readingPeak.ratio=Math.max(readingPeak.ratio,Math.min(1,y/Math.max(1,span)))}
   const now=performance.now();if(now-lastPlaceWrite>=1000){rememberPlace();lastPlaceWrite=now;}
   clearTimeout(placeTimer);placeTimer=setTimeout(rememberPlace,1000);
 },{passive:true});
@@ -3672,14 +3702,17 @@ function syncBookmark(){
   const p=bookmarkContext(),button=$('#bookmark'),owner=$('#notebookCurrentPlace');button.hidden=!p;if(owner)owner.hidden=!p;if(!p)return;
   const saved=!!bookmarkAtPlace(p);button.textContent=saved?'Remove bookmark':'Bookmark this spot';button.setAttribute('aria-pressed',String(saved));
   if(owner){
-    const label=$('#notebookCurrentPlaceLabel');if(label.dataset.chapter!==p.chapter){label.dataset.chapter=p.chapter;notebookChapterHeading(label,p.chapter,null);}
+    const label=$('#notebookCurrentPlaceLabel'),base=notebookBaseChapter(p.chapter);
+    label.href='?chapter='+encodeURIComponent(p.chapter)+'&resume=1';
+    label.textContent=notebookTitle(base)+' · '+(base===p.chapter?'Read':'Study');label.dir='auto';
+    label.onclick=event=>{event.preventDefault();openChapter(p.chapter,{resume:'1'});};
   }
 }
 function savePlaceNow(){
   const p=bookmarkContext();if(!p)return;
   const existing=bookmarkAtPlace(p),list=readJSON(BOOKMARK_KEY,[]);
   const next=existing?list.filter(b=>HazzardStorage.removals.bookmarkSignature(b)!==HazzardStorage.removals.bookmarkSignature(existing)):[p,...list];
-  if(writeJSON(BOOKMARK_KEY,next)){showSaved(existing?'✓ Removed':'✓ Saved');syncBookmark()}
+  if(writeJSON(BOOKMARK_KEY,next)){showSaved(existing?'✓ Removed':'✓ Saved');refreshSavedPlaces()}
   else flash('This bookmark change could not be saved. Storage may be full or unavailable.',6000);
 }
 $('#bookmark').onclick=()=>{savePlaceNow();};
@@ -3709,10 +3742,10 @@ function refreshResume(){
   const base=target?.replace(/s$/,''),isStudy=target!==base;
   const book=manifestChapters.find(c=>String(c.number)===base);
   $('.resume-card h2').textContent=book?.title||entry?.title||(target?chapterLabel(target):'Choose a chapter');
-  const finished=!!saved&&Math.round((saved.ratio||0)*100)>=100;
+  const finished=!!saved&&!!readJSON(READING_KEY,{chapters:{}}).chapters?.[saved.chapter]?.read;
   const context=finished?'Finished':saved?'Continue reading':start?.reread?'Read again':'Start reading';
   $('.resume-card .eyebrow').textContent=base&&base!=='law'?context+' · Chapter '+base+(finished&&isStudy?' · Study':''):context;
-  $('.resume-card .meta').textContent=finished?'':saved?.snippet?'“'+saved.snippet.slice(0,110)+(saved.snippet.length>110?'…':'')+'”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':'';
+  $('.resume-card .meta').textContent=finished?'':saved?.snippet?'“'+shortReadingQuote(saved.snippet)+'”':saved?.ratio>0.005?'About '+Math.round(saved.ratio*100)+'% through this chapter.':'';
   $('.resume-card .meta').hidden=!$('.resume-card .meta').textContent;
   $('.resume-card .meta').dir=snippetDirection(saved?.snippet||'');
   $('#resume').href=target?'?chapter='+encodeURIComponent(target)+(finished?'&chapterTop=1':saved&&/^(?:\d+s|laws)$/.test(target)?'&resume=1':''):'#chapters';
@@ -3785,6 +3818,7 @@ function chapterNavigation(){
     b.title=label;b.setAttribute('aria-label',(side==='previous'?'Previous':'Next')+' '+(isStudy?'study page':'chapter')+': '+label);nav.append(b);
   }
   nav.classList.add('endcap');copy.after(nav);
+  if(currentMode!=='questions')nav.prepend(readingToggle(cid,isStudy));
 }
 syncTabs();
 // Notebook backups still round-trip legacy opaque values. No timer runs or creates a store.
@@ -3854,7 +3888,17 @@ function mergeNotebookValue(key,current,incoming){
     const chapters={...current.chapters};for(const [id,progress] of Object.entries(incoming.chapters||{}))chapters[id]=Object.hasOwn(chapters,id)?mergeProgress(chapters[id],progress):progress;
     return {...incoming,...current,chapters};
   }
-  if(key===READING_KEY){const chapters={...current.chapters};for(const [id,p] of Object.entries(incoming.chapters))chapters[id]={ratio:Math.max(p.ratio,chapters[id]?.ratio||0),read:p.read||!!chapters[id]?.read};return {chapters}}
+  if(key===READING_KEY){
+    const chapters={...current.chapters};
+    for(const [id,p] of Object.entries(incoming.chapters)){
+      const old=chapters[id];if(!old){chapters[id]=p;continue;}
+      const at=Math.max(p.readAt||0,old.readAt||0);
+      let read=old.read||p.read;
+      if(at)read=p.readAt===old.readAt?old.read&&p.read:(p.readAt||0)>(old.readAt||0)?p.read:old.read;
+      chapters[id]={...old,ratio:Math.max(p.ratio,old.ratio),read,...(at?{readAt:at}:{})};
+    }
+    return {chapters};
+  }
   if(key===MISSED_KEY){const questions={...incoming.questions};for(const [id,p] of Object.entries(current.questions))if(!questions[id]||p.at>=questions[id].at)questions[id]=p;return {questions}}
   if(key===MOCK_KEY)return {...mergeProgress(current,incoming),ids:[...new Set([...current.ids,...incoming.ids])]};
   return current; // Preserve a historical backup value when both copies exist.
@@ -3935,7 +3979,7 @@ function cloudHasData(){
     if(key===DRILL_KEY)return Object.values(v.chapters||{}).some(p=>nonempty(p.grades)||p.revealed?.length);
     if(key===MOCK_KEY)return nonempty(v.grades)||v.revealed?.length;
     if(key===MISSED_KEY)return nonempty(v.questions);
-    if(key===READING_KEY)return Object.values(v.chapters||{}).some(p=>p.read||p.ratio>=0.02);
+    if(key===READING_KEY)return Object.values(v.chapters||{}).some(p=>p.readAt||p.read||p.ratio>=0.02);
     return false;
   });}catch{return false;}
 }
@@ -4203,16 +4247,92 @@ for(const marker of copy.querySelectorAll('a.pg,.exam-page-badge')){
   block.insertBefore(chip,block.querySelector(':scope > .exam-links'));
 }
 HazzardChapterContent.placeOpeningPage(copy,cid);
-const figureId=node=>node?.textContent.trim().match(/^(?:fig(?:ure)?\.?|table)\s+\d+[-–]\d+[a-z]?(?![\w-])/i)?.[0].toLowerCase().replace('–','-').replace(/^fig\.?\s/i,'figure ');
+const figureId=node=>node?.textContent.trim().match(/^(?:Hazzard 8e,?\s*)?(fig(?:ure)?\.?|table)\s+(\d+)[–-](\d+[a-z]?)(?![\w-])/i)?.slice(1).map((part,i)=>i===0?(/^fig/i.test(part)?'figure':'table'):part.toLowerCase()).join('-');
+function hidePrintedCaption(node,id,sourceLinks,insideFigure=false){
+  if(!node||figureId(node)!==id)return false;
+  const value=node.textContent.trim();
+  // Notes and sources can explain the original image or add a nonprinted qualification.
+  if(/\[sic|current practice|reader note|footnote\b|not present in the crop|as printed\s*\([^)]*\)\.\s+\S/i.test(value))return false;
+  if(node.querySelector('button,input,select,textarea'))return false;
+  const links=[...node.querySelectorAll('a[href]')];
+  if(links.some(link=>!/^https?:$/.test(link.protocol)||link.origin===location.origin))return false;
+  const styled=node.matches('em,strong,figcaption,h2,h3,h4,h5,h6');
+  if(!insideFigure&&!styled&&!/^(?:fig(?:ure)?\.?|table)\s+\d+[-–]\d+[a-z]?(?:\s*[,.:—■]|\s*\(continued\)|\s+as printed\b|\s*$)/i.test(value))return false;
+  for(const link of links){
+    if(!sourceLinks.has(link.href))sourceLinks.set(link.href,link.textContent.trim()||link.hostname);
+    link.tabIndex=-1;
+  }
+  node.classList.add('caption-in-image');return true;
+}
+function trimMediaNeighbor(element,id,sourceLinks){
+  if(!element)return false;
+  if(element.matches('[data-reader-metadata],:is(p,span):has(>a.pg:only-child)'))return true;
+  if(element.matches('figure,table,.table-wrap'))return false;
+  const body=element.matches('p,h2,h3,h4,h5,h6')?element:element.querySelector(':scope>p:first-child');
+  if(!body||figureId(body)!==id)return false;
+  const lead=body.querySelector(':scope>em,:scope>strong');
+  if(lead&&figureId(lead)===id){
+    const rest=body.cloneNode(true);rest.querySelector(':scope>em,:scope>strong')?.remove();
+    // A bold “Table 55-5” can be the subject of a full teaching sentence.
+    if(rest.textContent.trim()&&/^(?:fig(?:ure)?\.?|table)\s+\d+[-–]\d+[a-z]?$/i.test(lead.textContent.trim()))return false;
+    if(!hidePrintedCaption(lead,id,sourceLinks))return false;
+    if(rest.textContent.trim()||rest.querySelector('button,a[href],input,select'))return false;
+    body.classList.add('caption-in-image');
+  }else if(!hidePrintedCaption(body,id,sourceLinks))return false;
+  if(element!==body&&element.children.length===1)element.classList.add('caption-in-image');
+  return element===body||element.children.length===1;
+}
 for(const figure of copy.querySelectorAll('figure:has(img)')){
-  const caption=figure.querySelector('figcaption'),next=figure.nextElementSibling;
+  const caption=figure.querySelector('figcaption'),img=figure.querySelector('img');
+  if(!img)continue;
+  const printed=imageSizes[(img.dataset.src||img.getAttribute('src')||'').split('/').pop()]?.[2]===1;
+  let next=figure.nextElementSibling;
+  while(next?.matches('[data-reader-metadata],:is(p,span):has(>a.pg:only-child)'))next=next.nextElementSibling;
   const text=next?.matches('p')?next:next?.querySelector(':scope > p:first-child');
-  if(!text||!figureId(caption)||figureId(text)!==figureId(caption)||!text.matches('.note > p,p:has(> em:first-child),p:has(> span:first-child + em)'))continue;
-  const details=document.createElement('details'),label=document.createElement('summary');
-  const original=document.createElement('span');original.className='sr-only';original.append(...caption.childNodes);
-  const action=document.createElement('span');action.dataset.readerMetadata='label';action.textContent='Read caption';
-  label.append(action,original);details.append(label,text);caption.append(details);
-  if(next!==text&&!next.textContent.trim()&&!next.querySelector('img, [id]'))next.remove();
+  if(printed){
+    const id=figureId({textContent:img.alt})||figureId(caption),sourceLinks=new Map();
+    if(!id)continue;
+    if(caption){
+      const inner=caption.querySelector(':scope>p,:scope>blockquote>p');
+      if(inner){
+        if(trimMediaNeighbor(inner,id,sourceLinks)&&!caption.querySelector('button,input'))caption.classList.add('caption-in-image');
+      }else hidePrintedCaption(caption,id,sourceLinks,true);
+    }
+    // A first-page/continued pair can have separate adjacent headings. Respect
+    // each image boundary and preserve narrative that merely mentions the table.
+    for(const side of ['nextElementSibling','previousElementSibling']){
+      let skippedComment=false;
+      for(let line=figure[side];line;line=line[side]){
+        if(trimMediaNeighbor(line,id,sourceLinks))continue;
+        // A short note about this plate may precede its separately printed title.
+        if(side==='nextElementSibling'&&!skippedComment&&!line.matches('figure,table,h1,h2,h3,h4')&&
+           (line.matches('.reader-guidance')||/^\s*\[sic\b/i.test(line.textContent)||figureId(line)===id)){
+          skippedComment=true;continue;
+        }
+        break;
+      }
+    }
+    if(sourceLinks.size){
+      const sources=document.createElement('details'),summary=document.createElement('summary');
+      sources.className='clinical-sources';sources.dataset.readerMetadata='figure-sources';
+      summary.textContent='Sources';sources.append(summary);
+      for(const [href,label] of sourceLinks){
+        const link=document.createElement('a');link.href=href;link.textContent=label;
+        sources.append(link);
+      }
+      figure.append(sources);
+    }
+    continue;
+  }
+  if(!caption||!text||!figureId(caption)||figureId(text)!==figureId(caption)||!text.matches('.note > p,p:has(> em:first-child),p:has(> span:first-child + em)'))continue;
+  // This crop has no printed legend. Present its real caption once, alongside the image.
+  const id=figureId(caption);
+  const original=document.createElement('span');
+  original.className='sr-only';original.append(...caption.childNodes);
+  const lead=text.querySelector(':scope>em,:scope>strong');
+  const separate=lead&&figureId(lead)===id&&lead.textContent.trim()!==text.textContent.trim();
+  caption.append(original,separate?lead:text);
+  if(next!==text&&!next.textContent.trim()&&!next.querySelector('img,[id]'))next.remove();
 }
 // A page break between a figure and a heading belongs to the following section.
 for(const line of copy.querySelectorAll('p:has(>a.pg:only-child)')){
@@ -4571,7 +4691,7 @@ async function loadArticle(id,force=false){
     ({unitMap,placedUnits,rangeMarks,unplacedRanges,highlightHistory,retainedMarkIds,provenanceRegistry,highlightAliases,examPages,readingPeak}=cached);
     chapterInfo().querySelector('.chapter-info-body').replaceChildren(...(articleInfo.get(copy)||[]));
   }else{
-    unitMap=new Map();placedUnits=new Map();rangeMarks=new Map();unplacedRanges=[];highlightHistory=[];readingPeak={ratio:0,read:false};
+    unitMap=new Map();placedUnits=new Map();rangeMarks=new Map();unplacedRanges=[];highlightHistory=[];readingPeak={ratio:0};
     [retainedMarkIds,provenanceRegistry,highlightAliases]=metadata||[null,emptyProvenance,[]];
     if(id==='law'||id==='laws')copy.lang='he';
     if(reading){
@@ -4581,7 +4701,11 @@ async function loadArticle(id,force=false){
     if(id==='laws')await HazzardLawCards.decorate(copy,new URL(location.href).searchParams.get('lawCard')||'',readHighlights());
     prepareImages(copy);identifySections();smoothPageMarkers(copy);examPages=[...copy.querySelectorAll('a.pg[data-exam]')];
     if(reading){
-      registerUnits(copy,unitMap,retainedMarkIds);renderBookObjects();renderVerification();await decorateArticle();
+      registerUnits(copy,unitMap,retainedMarkIds);
+      const firstBookMark=copy.querySelector('mark:not([data-marked])');
+      if(firstBookMark){const note=document.createElement('p');note.className='printed-mark-legend';note.dataset.readerMetadata='printed-mark';
+        note.textContent='Marked in your printed book';(firstBookMark.closest('p,li,blockquote,figure')||firstBookMark).before(note);}
+      renderBookObjects();renderVerification();await decorateArticle();
       collectChapterInfo();disableTextDrag(copy);
     }else if(id==='drugs'){await HazzardDrugs.mount(copy);syncLibraryHeader();}
   }
