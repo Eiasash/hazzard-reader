@@ -190,7 +190,7 @@ Transitional-care nursing can reduce admission/readmission while increasing earl
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-632ba530eb4611e16d60adfe"><span>June 2026 Q28</span> Suspected neglect and discharge</a> <a class="study-source-link" href="?chapter=15#p213" aria-label="exam reference, p213">p213</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-65c8bffe42c22e000a778db8"><span>2020 Q97</span> Functional decline after an ED visit</a> <a class="study-source-link" href="?chapter=15#p209" aria-label="8e teaching passage, p209">p209</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-65c8bffe42c22e000a778db8"><span>2020 Q97</span> Functional decline after an ED visit</a> <a class="study-source-link" href="?chapter=15#p217" aria-label="8e teaching passage, p217">p217</a></p>
 
 <details class="study-self-check" data-check-key="15s:recall-14"><summary>Can generic post-ED vulnerability scores reliably separate all high- and low-risk patients?</summary>
 

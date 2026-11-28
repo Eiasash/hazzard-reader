@@ -1221,7 +1221,39 @@
     "chapter": "63s",
     "id": "u73",
     "old": "Cholinesterase inhibitors — first-line for DLB (often better response than AD, esp. hallucinations); no role in bvFTD/CBD, may worsen agitation (p984, p991–992).",
-    "new": "Cholinesterase inhibitors — first-line for DLB (often better response than AD, esp. hallucinations); no theoretical basis for use in bvFTD/CBD, may worsen agitation (p984, p991–992)."
+    "new": "Patients with DLB should be offered a trial of a cholinesterase inhibitor (often better response than AD, esp. hallucinations); no theoretical basis for use in bvFTD/CBD, may worsen agitation (p984, p991–992).",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        50
+      ],
+      [
+        24,
+        46,
+        73,
+        73
+      ],
+      [
+        104,
+        104,
+        131,
+        135
+      ],
+      [
+        105,
+        105,
+        136,
+        150
+      ],
+      [
+        106,
+        107,
+        151,
+        155
+      ]
+    ]
   },
   {
     "chapter": "63s",
@@ -62470,6 +62502,1036 @@
         64,
         64,
         76
+      ]
+    ]
+  },
+  {
+    "chapter": "25",
+    "id": "u194",
+    "old": "TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES implemented in specialty clinics.",
+    "new": "implemented in specialty clinics. TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        34
+      ],
+      [
+        67,
+        101,
+        101,
+        101
+      ]
+    ]
+  },
+  {
+    "chapter": "25",
+    "id": "u382",
+    "old": "(Data from US Department of Veterans Affairs Whole Health https:// www.va.gov/WHOLEHEALTH/circle-of-health/index.asp.)",
+    "new": "(Data from US Department of Veterans Affairs Whole Health https://www.va.gov/WHOLEHEALTH/circle-of-health/index.asp.)",
+    "edits": [
+      [
+        66,
+        67,
+        66,
+        66
+      ]
+    ]
+  },
+  {
+    "chapter": "25",
+    "id": "u472",
+    "old": "The process is facilitated by a whole health coach who guides the veteran by first exploring the Circle of Health (https:// www.va.gov/WHOLEHEALTH/images/componentsof-whole-health.svg), which is a structured process for exploring health-related values.",
+    "new": "The process is facilitated by a whole health coach who guides the veteran by first exploring the Circle of Health (https://www.va.gov/WHOLEHEALTH/images/components-of-whole-health.svg), which is a structured process for exploring health-related values.",
+    "edits": [
+      [
+        123,
+        124,
+        123,
+        123
+      ],
+      [
+        164,
+        164,
+        163,
+        164
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u356",
+    "old": "TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM has caused, for example, loss of function such as the ability to ambulate, drive, or toilet independently, chronic physical pain, diminution in mental capacity, or loss of ability to engage in sexual relations.",
+    "new": "has caused, for example, loss of function such as the ability to ambulate, drive, or toilet independently, chronic physical pain, diminution in mental capacity, or loss of ability to engage in sexual relations. TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM",
+    "edits": [
+      [
+        0,
+        57,
+        0,
+        0
+      ],
+      [
+        267,
+        267,
+        210,
+        267
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u357",
+    "old": "TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S.",
+    "new": "specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S. TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES",
+    "edits": [
+      [
+        0,
+        78,
+        0,
+        0
+      ],
+      [
+        397,
+        397,
+        319,
+        397
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u358",
+    "old": "TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING requires the disclosure of information that an objective reasonable, prudent professional would disclose under similar circumstances.",
+    "new": "requires the disclosure of information that an objective reasonable, prudent professional would disclose under similar circumstances. TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING",
+    "edits": [
+      [
+        0,
+        63,
+        0,
+        0
+      ],
+      [
+        196,
+        196,
+        133,
+        196
+      ]
+    ]
+  },
+  {
+    "chapter": "26",
+    "id": "u359",
+    "old": "TABLE 26-4 ■ COMPONENTS OF FUNCTIONAL ASSESSMENT OF DECISIONAL CAPACITY may be susceptible to manipulation by caregivers (eg, by changing timing of drug administration) so that discussions with the patient (rather than or in addition to the surrogate) about the care plan can take place under the most lucid circumstances possible.",
+    "new": "may be susceptible to manipulation by caregivers (eg, by changing timing of drug administration) so that discussions with the patient (rather than or in addition to the surrogate) about the care plan can take place under the most lucid circumstances possible. TABLE 26-4 ■ COMPONENTS OF FUNCTIONAL ASSESSMENT OF DECISIONAL CAPACITY",
+    "edits": [
+      [
+        0,
+        72,
+        0,
+        0
+      ],
+      [
+        331,
+        331,
+        259,
+        331
+      ]
+    ]
+  },
+  {
+    "chapter": "32",
+    "id": "u419",
+    "old": "TABLE 32-7 ■ TOP 10 ORAL HEALTH OUTCOMES IN LONG-TERM CARE practiced in the morning when the patient wakes up, after each meal, and at their hour of sleep.",
+    "new": "practiced in the morning when the patient wakes up, after each meal, and at their hour of sleep. TABLE 32-7 ■ TOP 10 ORAL HEALTH OUTCOMES IN LONG-TERM CARE",
+    "edits": [
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        155,
+        155,
+        96,
+        155
+      ]
+    ]
+  },
+  {
+    "chapter": "33",
+    "id": "u269",
+    "old": "TABLE 33-4 ■ CLINICAL LOW-VISION EXAMINATION received eye examinations in the last 2 years.",
+    "new": "received eye examinations in the last 2 years. TABLE 33-4 ■ CLINICAL LOW-VISION EXAMINATION",
+    "edits": [
+      [
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        91,
+        91,
+        46,
+        91
+      ]
+    ]
+  },
+  {
+    "chapter": "33",
+    "id": "u379",
+    "old": "TABLE 33-6 ■ LOW-VISION AND SPEECH-OUTPUT DEVICES or coins.",
+    "new": "or coins. TABLE 33-6 ■ LOW-VISION AND SPEECH-OUTPUT DEVICES",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        10
+      ],
+      [
+        49,
+        59,
+        59,
+        59
+      ]
+    ]
+  },
+  {
+    "chapter": "33",
+    "id": "u445",
+    "old": "TABLE 33-7 ■ WAYS TO MAKE AN ENVIRONMENT MORE VISUALLY ACCESSIBLE floor, tabletops, and glass could cause objects in the dining room of a senior community to be obscured.",
+    "new": "floor, tabletops, and glass could cause objects in the dining room of a senior community to be obscured. TABLE 33-7 ■ WAYS TO MAKE AN ENVIRONMENT MORE VISUALLY ACCESSIBLE",
+    "edits": [
+      [
+        0,
+        66,
+        0,
+        0
+      ],
+      [
+        170,
+        170,
+        104,
+        170
+      ]
+    ]
+  },
+  {
+    "chapter": "35",
+    "id": "u199",
+    "old": "TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550) more prevalent STIs among older women.",
+    "new": "more prevalent STIs among older women. TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550)",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        39
+      ],
+      [
+        119,
+        158,
+        158,
+        158
+      ]
+    ]
+  },
+  {
+    "chapter": "35",
+    "id": "u246",
+    "old": "TABLE 35-4 ■ SAMPLE INTIMATE PARTNER VIOLENCE SCREENING QUESTIONS and/or is accompanied by a partner or other individual who interferes with the patient’s interaction with health care providers.",
+    "new": "and/or is accompanied by a partner or other individual who interferes with the patient’s interaction with health care providers. TABLE 35-4 ■ SAMPLE INTIMATE PARTNER VIOLENCE SCREENING QUESTIONS",
+    "edits": [
+      [
+        0,
+        66,
+        0,
+        0
+      ],
+      [
+        194,
+        194,
+        128,
+        194
+      ]
+    ]
+  },
+  {
+    "chapter": "35",
+    "id": "u458",
+    "old": "TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS effective modality for treating dyspareunia when there is a pelvic, abdominal, and/or low-back component to the dyspareunia and when vaginismus is present.",
+    "new": "effective modality for treating dyspareunia when there is a pelvic, abdominal, and/or low-back component to the dyspareunia and when vaginismus is present. TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS",
+    "edits": [
+      [
+        0,
+        62,
+        0,
+        0
+      ],
+      [
+        217,
+        217,
+        155,
+        217
+      ]
+    ]
+  },
+  {
+    "chapter": "36",
+    "id": "u506",
+    "old": "TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN both cytology and HPV genotyping (co-testing) is advisable unless recently performed.",
+    "new": "both cytology and HPV genotyping (co-testing) is advisable unless recently performed. TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN",
+    "edits": [
+      [
+        0,
+        71,
+        0,
+        0
+      ],
+      [
+        156,
+        156,
+        85,
+        156
+      ]
+    ]
+  },
+  {
+    "chapter": "36",
+    "id": "u845",
+    "old": "March 2014. https:// www.sgo.org/clinical-practice/guidelines/screeningfor-lynch-syndrome-in-endometrial-cancer/.",
+    "new": "March 2014. https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer/.",
+    "edits": [
+      [
+        20,
+        21,
+        20,
+        20
+      ],
+      [
+        71,
+        71,
+        70,
+        71
+      ]
+    ]
+  },
+  {
+    "chapter": "99",
+    "id": "u1382",
+    "old": "James J, Hicks D, Sinclair A. https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/[trenddiabetes.online].",
+    "new": "James J, Hicks D, Sinclair A. https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/ [trenddiabetes.online].",
+    "edits": [
+      [
+        108,
+        108,
+        108,
+        109
+      ]
+    ]
+  },
+  {
+    "chapter": "100",
+    "id": "u86",
+    "old": "TABLE 100-1 ■ MYOPATHIES MORE SPECIFIC FOR THE OLDER PERSON Idiopathic Inflammatory Myopathies The idiopathic inflammatory myopathies (IIM) are the most common cause of primary myopathy in older people.",
+    "new": "Idiopathic Inflammatory Myopathies TABLE 100-1 ■ MYOPATHIES MORE SPECIFIC FOR THE OLDER PERSON The idiopathic inflammatory myopathies (IIM) are the most common cause of primary myopathy in older people.",
+    "edits": [
+      [
+        0,
+        0,
+        0,
+        35
+      ],
+      [
+        59,
+        94,
+        94,
+        94
+      ]
+    ]
+  },
+  {
+    "chapter": "59s",
+    "id": "u316",
+    "old": "June 2023 Q56 Midlife hearing loss p895",
+    "new": "June 2023 Q56 Midlife hearing loss p905",
+    "edits": [
+      [
+        36,
+        37,
+        36,
+        36
+      ],
+      [
+        38,
+        38,
+        37,
+        38
+      ]
+    ]
+  },
+  {
+    "chapter": "59s",
+    "id": "u334",
+    "old": "December 2021 Q24 Hearing and dementia risk p897",
+    "new": "December 2021 Q24 Hearing and dementia risk p905",
+    "edits": [
+      [
+        45,
+        46,
+        45,
+        45
+      ],
+      [
+        47,
+        48,
+        46,
+        48
+      ]
+    ]
+  },
+  {
+    "chapter": "63s",
+    "id": "u73",
+    "old": "Cholinesterase inhibitors — first-line for DLB (often better response than AD, esp. hallucinations); no theoretical basis for use in bvFTD/CBD, may worsen agitation (p984, p991–992).",
+    "new": "Patients with DLB should be offered a trial of a cholinesterase inhibitor (often better response than AD, esp. hallucinations); no theoretical basis for use in bvFTD/CBD, may worsen agitation (p984, p991–992).",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        50
+      ],
+      [
+        24,
+        46,
+        73,
+        73
+      ]
+    ]
+  },
+  {
+    "chapter": "51s",
+    "id": "u296",
+    "old": "2020 Q32 Starting alendronate p759",
+    "new": "2020 Q32 Starting alendronate p774",
+    "edits": [
+      [
+        32,
+        34,
+        32,
+        34
+      ]
+    ]
+  },
+  {
+    "chapter": "81s",
+    "id": "u231",
+    "old": "An abnormal Timed Up and Go can guide balance training and selection of a walking aid.",
+    "new": "Balance training is effective, and a rollator can improve walking tolerance in people with severe disability (p1258).",
+    "edits": [
+      [
+        0,
+        39,
+        0,
+        1
+      ],
+      [
+        55,
+        55,
+        17,
+        31
+      ],
+      [
+        59,
+        61,
+        35,
+        39
+      ],
+      [
+        62,
+        63,
+        40,
+        46
+      ],
+      [
+        64,
+        67,
+        47,
+        48
+      ],
+      [
+        69,
+        69,
+        50,
+        54
+      ],
+      [
+        70,
+        73,
+        55,
+        57
+      ],
+      [
+        82,
+        82,
+        66,
+        71
+      ],
+      [
+        83,
+        83,
+        72,
+        76
+      ],
+      [
+        84,
+        84,
+        77,
+        98
+      ],
+      [
+        85,
+        85,
+        99,
+        116
+      ]
+    ]
+  },
+  {
+    "chapter": "81s",
+    "id": "u232",
+    "old": "A high GDS prompts assessment of mood, while a low MMSE prompts observation of technique.",
+    "new": "Depression is a common comorbidity of COPD (p1241, p1247).",
+    "edits": [
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        9,
+        11,
+        1,
+        2
+      ],
+      [
+        13,
+        13,
+        4,
+        8
+      ],
+      [
+        14,
+        17,
+        9,
+        12
+      ],
+      [
+        20,
+        25,
+        15,
+        18
+      ],
+      [
+        26,
+        27,
+        19,
+        21
+      ],
+      [
+        28,
+        28,
+        22,
+        32
+      ],
+      [
+        29,
+        29,
+        33,
+        34
+      ],
+      [
+        33,
+        37,
+        38,
+        49
+      ],
+      [
+        39,
+        56,
+        51,
+        51
+      ],
+      [
+        57,
+        88,
+        52,
+        57
+      ]
+    ]
+  },
+  {
+    "chapter": "81s",
+    "id": "u233",
+    "old": "Each finding changes a different part of care (p1237–1238, 1241, 1247–1248, 1255, 1258).",
+    "new": "Cognitive impairment can make an inhaler hard to use correctly and should inform device selection (p1248, p1255).",
+    "edits": [
+      [
+        0,
+        1,
+        0,
+        13
+      ],
+      [
+        2,
+        6,
+        14,
+        14
+      ],
+      [
+        7,
+        28,
+        15,
+        15
+      ],
+      [
+        29,
+        29,
+        16,
+        17
+      ],
+      [
+        33,
+        34,
+        21,
+        42
+      ],
+      [
+        36,
+        36,
+        44,
+        46
+      ],
+      [
+        37,
+        37,
+        47,
+        48
+      ],
+      [
+        38,
+        40,
+        49,
+        52
+      ],
+      [
+        42,
+        43,
+        54,
+        56
+      ],
+      [
+        45,
+        45,
+        58,
+        97
+      ],
+      [
+        48,
+        70,
+        100,
+        100
+      ],
+      [
+        76,
+        76,
+        106,
+        107
+      ],
+      [
+        80,
+        86,
+        111,
+        111
+      ]
+    ]
+  },
+  {
+    "chapter": "65s",
+    "id": "u305",
+    "old": "2020 Q37 Interpreting PHQ-9 p1009",
+    "new": "2020 Q37 Interpreting PHQ-9 p1012",
+    "edits": [
+      [
+        31,
+        33,
+        31,
+        33
+      ]
+    ]
+  },
+  {
+    "chapter": "15s",
+    "id": "u387",
+    "old": "2020 Q97 Functional decline after an ED visit p209",
+    "new": "2020 Q97 Functional decline after an ED visit p217",
+    "edits": [
+      [
+        48,
+        50,
+        48,
+        50
+      ]
+    ]
+  },
+  {
+    "chapter": "law",
+    "id": "u209",
+    "old": "התומך רשאי לקבל מידע בהתאם לצו ולרצונו של האדם.",
+    "new": "התומך רשאי לסייע בקבלת מידע בעניינים שבצו לפי בקשתו של האדם, ואף לקבל את המידע בשמו וברשותו (תקנות 9–10, 16).",
+    "edits": [
+      [
+        12,
+        12,
+        12,
+        18
+      ],
+      [
+        15,
+        15,
+        21,
+        22
+      ],
+      [
+        22,
+        25,
+        29,
+        35
+      ],
+      [
+        27,
+        28,
+        37,
+        39
+      ],
+      [
+        31,
+        32,
+        42,
+        42
+      ],
+      [
+        33,
+        37,
+        43,
+        50
+      ],
+      [
+        46,
+        46,
+        59,
+        108
+      ]
+    ]
+  },
+  {
+    "chapter": "law",
+    "id": "u210",
+    "old": "כשהאדם חדל להיות מסוגל לקבל החלטות בעזרת התמיכה בעניינים שלשמם מונה, על התומך לפנות לבית המשפט לקביעת המשך המינוי או לסיומו (תקנות 9–10, 16).",
+    "new": "אם חל שינוי מהותי בנסיבות המינוי, התומך חייב לדווח עליו לבית המשפט, ובית המשפט רשאי לשנות או לבטל את הצו מיוזמתו או לפי בקשה (תקנות 10(ט), 25).",
+    "edits": [
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        4,
+        5,
+        1,
+        1
+      ],
+      [
+        8,
+        9,
+        4,
+        4
+      ],
+      [
+        11,
+        12,
+        6,
+        13
+      ],
+      [
+        13,
+        13,
+        14,
+        16
+      ],
+      [
+        14,
+        14,
+        17,
+        23
+      ],
+      [
+        17,
+        28,
+        26,
+        26
+      ],
+      [
+        29,
+        43,
+        27,
+        27
+      ],
+      [
+        45,
+        50,
+        29,
+        29
+      ],
+      [
+        51,
+        51,
+        30,
+        31
+      ],
+      [
+        52,
+        67,
+        32,
+        32
+      ],
+      [
+        68,
+        71,
+        33,
+        33
+      ],
+      [
+        78,
+        78,
+        40,
+        45
+      ],
+      [
+        79,
+        81,
+        46,
+        47
+      ],
+      [
+        82,
+        83,
+        48,
+        55
+      ],
+      [
+        94,
+        94,
+        66,
+        67
+      ],
+      [
+        95,
+        97,
+        68,
+        69
+      ],
+      [
+        99,
+        100,
+        71,
+        71
+      ],
+      [
+        105,
+        106,
+        76,
+        78
+      ],
+      [
+        107,
+        109,
+        79,
+        82
+      ],
+      [
+        110,
+        110,
+        83,
+        86
+      ],
+      [
+        112,
+        113,
+        88,
+        89
+      ],
+      [
+        118,
+        119,
+        94,
+        106
+      ],
+      [
+        121,
+        121,
+        108,
+        109
+      ],
+      [
+        122,
+        122,
+        110,
+        111
+      ],
+      [
+        123,
+        123,
+        112,
+        124
+      ],
+      [
+        131,
+        133,
+        132,
+        132
+      ],
+      [
+        135,
+        135,
+        134,
+        137
+      ],
+      [
+        137,
+        139,
+        139,
+        141
+      ]
+    ]
+  },
+  {
+    "chapter": "law",
+    "id": "u216",
+    "old": "רופא המחלקה, האחות האחראית במשמרת או האחות הכללית רשאים להחליט על הגבלה או התרה.",
+    "new": "רופא במחלקה או אחות אחראית משמרת רשאים להחליט על הגבלה או התרה, ובמוסד שאין בו אחות אחראית משמרת רשאית להחליט האחות הכללית.",
+    "edits": [
+      [
+        5,
+        6,
+        5,
+        6
+      ],
+      [
+        11,
+        12,
+        11,
+        11
+      ],
+      [
+        13,
+        14,
+        12,
+        15
+      ],
+      [
+        19,
+        20,
+        20,
+        20
+      ],
+      [
+        27,
+        28,
+        27,
+        27
+      ],
+      [
+        32,
+        48,
+        31,
+        31
+      ],
+      [
+        79,
+        79,
+        62,
+        122
+      ]
+    ]
+  },
+  {
+    "chapter": "law",
+    "id": "u217",
+    "old": "כשהאחות מחליטה, מודיעים לאחות האחראית במחלקה ולרופא.",
+    "new": "כשהאחות מחליטה על הגבלה, היא מודיעה לאחות האחראית במחלקה, וזו מעבירה את המידע לרופא המטפל.",
+    "edits": [
+      [
+        14,
+        14,
+        14,
+        23
+      ],
+      [
+        15,
+        15,
+        24,
+        28
+      ],
+      [
+        21,
+        23,
+        34,
+        35
+      ],
+      [
+        44,
+        44,
+        56,
+        57
+      ],
+      [
+        46,
+        46,
+        59,
+        78
+      ],
+      [
+        51,
+        51,
+        83,
+        89
+      ]
+    ]
+  },
+  {
+    "chapter": "27s",
+    "id": "u236",
+    "old": "ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה בתפקוד או בניידות, ירידה במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול.",
+    "new": "ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה משמעותית בתפקוד או בניידות, ירידה משמעותית במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול.",
+    "edits": [
+      [
+        118,
+        118,
+        118,
+        127
+      ],
+      [
+        142,
+        142,
+        151,
+        160
       ]
     ]
   }

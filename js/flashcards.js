@@ -106,6 +106,20 @@ window.HazzardFlashcards = (() => {
     onResize();
   }
 
+  function appendAnswerText(parent, text, source) {
+    const index = source?.label && /^https:\/\//.test(source.href) ? text.lastIndexOf(source.label) : -1;
+    if (index < 0) {
+      parent.append(text);
+      return;
+    }
+    const link = document.createElement('a');
+    link.href = source.href;
+    link.textContent = source.label;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    parent.append(text.slice(0, index), link, text.slice(index + source.label.length));
+  }
+
   function render(focus = false) {
     if (!session || !catalog) return;
     const card = lookup.get(session.ids[session.position]), records = gradesFor(catalog);
@@ -127,8 +141,17 @@ window.HazzardFlashcards = (() => {
       element('flashcardCount').textContent = 'Chapter ' + card.chapter + ' · ' + (session.position + 1) + ' of ' + session.ids.length + priority + grade;
       question.textContent = card.front;
       const [printed,...practice]=card.back.split(/\n(?:>\s*)?Current practice \(not the book\):\s*/);
-      const back=element('flashcardBack');back.replaceChildren(document.createTextNode(printed));
-      for(const text of practice){const note=document.createElement('details'),label=document.createElement('summary');label.textContent='Current practice';note.className='study-current-practice';note.open=true;note.append(label,document.createTextNode(text));back.append(note);}
+      const back=element('flashcardBack');back.replaceChildren();
+      appendAnswerText(back, printed, card.answerSource);
+      for (const text of practice) {
+        const note = document.createElement('details'), label = document.createElement('summary');
+        label.textContent = 'Current practice';
+        note.className = 'study-current-practice';
+        note.open = true;
+        note.append(label);
+        appendAnswerText(note, text, card.answerSource);
+        back.append(note);
+      }
       const source = element('flashcardSource'), sourceChapter = card.readChapter || card.chapter;
       const sourceURL = new URL(location.href);
       sourceURL.search = new URLSearchParams({chapter: sourceChapter, cardSource: card.id});

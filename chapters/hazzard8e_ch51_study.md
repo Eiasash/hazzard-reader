@@ -172,7 +172,7 @@ A SARC-F score ≥ 4 (out of 10) is predictive; SARC-F assesses Strength, Assist
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d445375f0e6d51ddd11cf38f"><span>2020 Q32</span> Starting alendronate</a> <a class="study-source-link" href="?chapter=51#p759" aria-label="8e teaching passage, p759">p759</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d445375f0e6d51ddd11cf38f"><span>2020 Q32</span> Starting alendronate</a> <a class="study-source-link" href="?chapter=51#p774" aria-label="8e teaching passage, p774">p774</a></p>
 
 <details class="study-self-check" data-check-key="51s:recall-3"><summary>What proportion of women and men will suffer a hip fracture by age 90, and what is the lifetime vertebral fracture risk?</summary>
 

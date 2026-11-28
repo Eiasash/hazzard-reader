@@ -26,7 +26,9 @@ def generate():
           body.querySelector('summary').remove();
           const clean = document.createElement('div');
           clean.innerHTML = marked.parse(body.innerHTML.trim());
+          const source = clean.querySelector('a[data-flashcard-source][href^="https://"]');
           return {chapter:id.slice(0,-1),key,front,back:norm(clean.textContent),
+                  answerSource:source ? {label:norm(source.textContent), href:source.getAttribute('href')} : null,
                   link:clean.querySelector('a[href*="#p"]')?.getAttribute('href')||null};
         }) : [];
         const pages = [...root.querySelectorAll('[id]')].filter(e=>/^p\d+$/.test(e.id)).map(e=>Number(e.id.slice(1)));

@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v342",
+      "date": "2026-11-28",
+      "changes": [
+        "Corrected Study links, source citations and question explanations, and restored chapter headings and interrupted sentences."
+      ]
+    },
+    {
       "version": "v341",
       "date": "2026-11-28",
       "changes": [

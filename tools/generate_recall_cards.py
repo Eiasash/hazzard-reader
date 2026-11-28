@@ -36,6 +36,8 @@ def publish(rows, printed_pages):
             'chapter': chapter, 'front': row['front'], 'back': row['back'],
             'questionIds': [], 'recallKeys': [key], 'fromRecall': True,
         }
+        if row.get('answerSource'):
+            card['answerSource'] = row['answerSource']
         if chapter == 'law':
             card.update(anchor=LAW_ANCHORS[int(suffix)-1], sourceLabel='Read the legal provision', page=None)
         else:
