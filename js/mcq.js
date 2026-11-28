@@ -929,6 +929,7 @@ window.HazzardMCQ = (() => {
       rememberPractice(screen,{id:q?.id||null,scroll:host.scrollTop,...(mockMode?{building,articleSelected}:{}),...(['saved','saved-practice','flags','changed'].includes(screen)?{view:viewState()}:{}),...(missedOnly||redoMode?{missedIds:missedIds?[...missedIds]:null,redoIds:[...redoIds],retryAnswers:Object.fromEntries(retryAnswers)}:{})});
     }
     function saveView(){
+      if(host.querySelector('[data-unavailable-question]'))return;
       if(browsing){directoryRemember?.();return;}
       savePracticePlace();
       if(!loaded||!controller.active||viewport.hidden||restoringView||redoMode||savedView||savedOnly||specialScope())return;
@@ -1328,6 +1329,13 @@ window.HazzardMCQ = (() => {
 
     let bodyTurn=0,bankStemsLoaded=false;
     function render(bodyOnly=false){
+      if(hiddenTarget && standoutHidden(hiddenTarget)){
+        const hidden=items.find(q=>q.id===hiddenTarget);
+        if(hidden){
+          host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Hidden practice question</h1><p role="note">To open this question, turn on “Include hidden practice questions” in Practice settings.</p><p class="mcq-stem" dir="auto">'+stemHTML(hidden)+'</p><a href="?practice=1">Open Practice</a></div>';
+          return;
+        }
+      }
       if(lifetime.signal.aborted||browsing)return;
       const turn=++bodyTurn;
       host.querySelector('.mcq-docked-actions')?.remove();
@@ -1516,7 +1524,7 @@ window.HazzardMCQ = (() => {
         if(first&&!(mockMode&&building))await HazzardQuestionData.hydrate([first]);
         loaded=true;restoringView=restored;search.restore();
         if(target&&items.some(q=>q.id===currentId(target)&&q.retired)){notice='This practice question has been retired. Saved answers are retained.';render();}
-        else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page"><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
+        else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
         else if(target&&!restored){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice='That question is unavailable.';render();}}
         else{
           const rv=reviewMode?history.state?.reviewView:null;
