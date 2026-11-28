@@ -113,7 +113,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - DOACs preferred over warfarin as first-line stroke prevention **for nonvalvular AF** — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients **75 years** or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (p1202 recommends a PPI with these agents).
 
 > Current practice (not the book): In FRAIL-AF, switching frail adults aged 75 or older with AF from monitored VKA therapy to a DOAC increased major or clinically relevant nonmajor bleeding without a demonstrated reduction in thromboembolism. A stable VKA regimen merits its own continuation decision. [FRAIL-AF randomized trial, 2023](https://pubmed.ncbi.nlm.nih.gov/37634130/).
-  > Current practice (not the book): individualize gastroprotection according to overall gastrointestinal bleeding risk. [ESC 2024 AF guideline, §6.7.1](https://doi.org/10.1093/eurheartj/ehae176).
+  > Current practice (not the book): individualize gastroprotection according to the patient's overall bleeding risk. [ESC 2024 AF guideline, §6.7.1](https://doi.org/10.1093/eurheartj/ehae176).
 - **WATCHMAN:** p1203 describes **warfarin to INR 2–3 for 45 days**. If TEE confirms complete LAA closure, stop warfarin and use **aspirin plus clopidogrel for 6 months, then long-term aspirin**. For high bleeding risk, the chapter describes six months of clopidogrel plus long-term aspirin without oral anticoagulation.
 
 > Current practice (not the book): After percutaneous left atrial appendage occlusion, the antithrombotic regimen depends on the implanted device, its labeling, bleeding risk and follow-up imaging. Current device-specific options can include a DOAC-based approach or dual antiplatelet therapy; the original WATCHMAN warfarin schedule does not apply to every device. [ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11095842/).
@@ -232,7 +232,7 @@ New LBBB in 19% to 55%; high-degree AVB in 10% (p1200).
 <details><summary>Answer</summary>
 
 Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (p1202). Hazzard recommends a PPI with these agents.
-> Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to gastrointestinal bleeding risk.
+> Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to the patient's overall bleeding risk.
 
 </details>
 

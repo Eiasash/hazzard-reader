@@ -63534,5 +63534,33 @@
         160
       ]
     ]
+  },
+  {
+    "chapter": "77s",
+    "id": "u406",
+    "old": "Current practice (not the book): individualize gastroprotection according to overall gastrointestinal bleeding risk.",
+    "new": "Current practice (not the book): individualize gastroprotection according to the patient's overall bleeding risk.",
+    "edits": [
+      [
+        77,
+        77,
+        77,
+        91
+      ],
+      [
+        83,
+        100,
+        97,
+        97
+      ]
+    ],
+    "movedPhrases": [
+      [
+        85,
+        101,
+        91,
+        98
+      ]
+    ]
   }
 ]

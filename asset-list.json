@@ -1,5 +1,5 @@
 {
-  "version": "v342",
+  "version": "v343",
   "files": [
     {
       "url": "./app.webmanifest",
@@ -4313,8 +4313,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch77_study.md",
-      "sha256": "fc72cc904c630a50d782365422aa2bd200819831fd22c22f7339e9403c0b8fe8",
-      "bytes": 32720
+      "sha256": "d3056588c2a4e26168838c8a433c6c7222cfbc0d10a2bfe906c8e2f05841d54b",
+      "bytes": 32722
     },
     {
       "url": "./chapters/hazzard8e_ch77_table77-10_p1206.png",
@@ -5953,8 +5953,8 @@
     },
     {
       "url": "./data/changelog.json",
-      "sha256": "20a1b740c34ccff3a9dc1e89f2e02fb91597201ea4910a242bdb9ecbd7ed4f1f",
-      "bytes": 85457
+      "sha256": "f705e0e47f3dd80b68cbbbce21e32c4957cc38a74635b3838207bf24fc2b677d",
+      "bytes": 85692
     },
     {
       "url": "./data/chapter-layout/100s.json",
@@ -6418,13 +6418,13 @@
     },
     {
       "url": "./data/flashcards.json",
-      "sha256": "59a5823b1ba93fc44225d98d22b55549a7ba8d95c404e2b4729ac078f1a873fe",
-      "bytes": 908333
+      "sha256": "d96513e62f60128ba95cfc7d90f0158e4d8fd9433aac17cf004a4fe442e9b0f7",
+      "bytes": 908338
     },
     {
       "url": "./data/highlight-aliases.json",
-      "sha256": "d38c6386467f5672e8d765bd44f3acb9915cc0d7614754c463a6525f8b388787",
-      "bytes": 1399250
+      "sha256": "bbe33927b9ede51938ac69180715e4f4430cf2244c3b3eb22b9f0bec1cf615ef",
+      "bytes": 1399800
     },
     {
       "url": "./data/home-question-summary.json",
@@ -9638,8 +9638,8 @@
     },
     {
       "url": "./data/reader-references/77.json",
-      "sha256": "75b6a5627b3aec4c1bf74e620f3b8294b9d9b732aeb1357fbb5cf4d877e1218b",
-      "bytes": 39963
+      "sha256": "354a0962e9cff8a41fc939112800e61051f5d1e79f45a937e40446367418f310",
+      "bytes": 40311
     },
     {
       "url": "./data/reader-references/78.json",
@@ -9768,8 +9768,8 @@
     },
     {
       "url": "./data/search-index.json",
-      "sha256": "9015c4815002a85e4165e21899cdad72232a235e82d962308da245805934b916",
-      "bytes": 9584701
+      "sha256": "621c6a954229e0788e8e0b30341a8ef58ead5b7ee8ed4aeee91dfa7cd3117bea",
+      "bytes": 9584698
     },
     {
       "url": "./data/verification-registry.json",
@@ -9788,7 +9788,7 @@
     },
     {
       "url": "./index.html",
-      "sha256": "a70ba1e2d3f80957e68e90011f28241c213ffd075dd1452ce3eaa39fe9879906",
+      "sha256": "b772792a00a17e67ad2c0f28e6aaf7f7bb4946c4948bdefcbda4a679797416f2",
       "bytes": 386427
     },
     {
@@ -9888,7 +9888,7 @@
     },
     {
       "url": "./js/reader-status.js",
-      "sha256": "ae498a6ae8a57f7f10eaa41587e9d6e005aaf5747c9594fd71ed3e073ece01c8",
+      "sha256": "c4b212557caf1f66c766eceaab2e2b09ddf6878247c941a3bfafc6ac2d88fc88",
       "bytes": 10230
     },
     {

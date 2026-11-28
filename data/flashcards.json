@@ -12030,7 +12030,7 @@
     "id": "ch77-study-recall-13",
     "chapter": "77",
     "front": "Which two DOACs show a lower major-bleeding risk than warfarin in patients 75 years or older, and which two carry an increased risk of GI bleeding at full dose?",
-    "back": "Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (p1202). Hazzard recommends a PPI with these agents. Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to gastrointestinal bleeding risk.",
+    "back": "Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (p1202). Hazzard recommends a PPI with these agents. Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to the patient's overall bleeding risk.",
     "questionIds": [],
     "recallKeys": [
       "77s:recall-13"
