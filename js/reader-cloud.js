@@ -106,6 +106,7 @@ window.HazzardCloud = (() => {
       };
       throw Error(messages[result?.error]||'Cloud unavailable. Will retry later.');
     }
+    if(name==='hazzard_cloud_get'&&result?.exists)return {...result,data:bridge.readCloudEnvelope(result.data)};
     return result;
   }
   function schedule(){
@@ -156,7 +157,7 @@ window.HazzardCloud = (() => {
       if(generation!==epoch||recoveryPaused())return;
       const differs=!cloud.exists||!bridge.equal(payload.storage,cloud.data.storage);
       if(differs){
-        const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
+        const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:bridge.cloudEnvelope(payload),p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
         if(generation!==epoch)return;
         state.syncedAt=result.updated_at||new Date().toISOString();state.seenAt=result.updated_at||null;
         previous=cloud.exists?cloud:previous;

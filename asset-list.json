@@ -9658,8 +9658,8 @@
     },
     {
       "url": "./index.html",
-      "sha256": "290d3a16abbec2c0bf45ae664930c1967b29dc57fe577a82e36f4e29e9184213",
-      "bytes": 380869
+      "sha256": "ce9d5e226eda3162a84d99795119a2e4cc100aaa64230396e77489a4dd726b9a",
+      "bytes": 382859
     },
     {
       "url": "./js/answer-passage-aliases.js",
@@ -9738,8 +9738,8 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "5a214ad2fe7104637e7338a1e66945a569165cced0c87b044f5f6389e7dfa84f",
-      "bytes": 19607
+      "sha256": "8510645dfe9a660eb4afe10ec0ad44ff7e1d2f83a28e03a27c144460cf88e845",
+      "bytes": 19742
     },
     {
       "url": "./js/reader-debug.js",

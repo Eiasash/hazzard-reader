@@ -3816,6 +3816,34 @@ function validDeviceFileValue(key,raw){
   }catch{}
   return false;
 }
+// Older readers reject unknown names in storage, but accept additional envelope fields.
+function cloudEnvelope(payload){
+  const storage={...payload.storage},readerExtras={};
+  if(Object.hasOwn(storage,HazzardMCQ.PLACE_KEY)){
+    readerExtras[HazzardMCQ.PLACE_KEY]=storage[HazzardMCQ.PLACE_KEY];delete storage[HazzardMCQ.PLACE_KEY];
+  }
+  for(const key of Object.keys(localStorage)){
+    if(deviceFileKeys.has(key)||recoveryFileKey(key))readerExtras[key]=localStorage.getItem(key);
+  }
+  return {...payload,storage,readerExtras};
+}
+function readCloudEnvelope(payload){
+  if(!payload||payload.readerExtras===undefined)return payload;
+  if(!isRecord(payload.storage))throw Error('Cloud backup could not be read.');
+  const storage={...payload.storage},readerExtras={};
+  const stamp=/^\d{4}-\d{2}-\d{2}/.exec(payload.exportedAt||'')?.[0].replaceAll('-','')||'0';
+  for(const [key,raw] of Object.entries(isRecord(payload.readerExtras)?payload.readerExtras:{})){
+    if(key!==HazzardMCQ.PLACE_KEY&&!deviceFileKeys.has(key)&&!recoveryFileKey(key))continue;
+    let valid=validDeviceFileValue(key,raw);
+    if(key===HazzardMCQ.PLACE_KEY){
+      try{valid=typeof raw==='string'&&HazzardMCQ.validPracticePlace(JSON.parse(raw));}catch{valid=false;}
+      if(valid)storage[key]=raw;
+    }
+    if(valid)readerExtras[key]=raw;
+    else readerExtras[key+'-unreadable-'+stamp]=typeof raw==='string'?raw:JSON.stringify(raw);
+  }
+  return {...payload,storage,readerExtras};
+}
 function downloadableNotebook(){
   const file=captureNotebook();
   for(const key of Object.keys(localStorage))if(isNotebookKey(key)||deviceFileKeys.has(key)||recoveryFileKey(key))file.storage[key]=localStorage.getItem(key);
@@ -3965,6 +3993,16 @@ async function restoreCloudNotebook(backup){
       if(invalid.includes(key)&&!Object.hasOwn(backup.storage,key))continue;
       const value=JSON.parse(raw),next=JSON.stringify(key===removals.key?records:removals.apply(key,value,records));
       if(!equalCloudStorage({[key]:raw},{[key]:next}))incoming[key]=next;
+    }
+  }
+  for(const [key,raw] of Object.entries(backup.readerExtras||{})){
+    if(key===HazzardMCQ.PLACE_KEY)continue;
+    if(!validDeviceFileValue(key,raw))throw Error('Cloud device settings could not be read.');
+    const local=localStorage.getItem(key);
+    if(local===null)incoming[key]=raw;
+    else if((key===LAST_BACKUP_KEY&&Number(raw)>Number(local))||
+      (key==='hazzard-whats-new-seen-v1'&&Number(raw.slice(1))>Number(local.slice(1)))){
+      previous[key]=local;incoming[key]=raw;
     }
   }
   const summary=restoreSummary(invalid,backup.storage);
@@ -4250,7 +4288,7 @@ document.addEventListener('click',async event=>{
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();
   else{try{HazzardStorage.startFresh(button.dataset.storageFresh);refreshRecoveredReader(button.dataset.storageFresh);mcq?.sync();}catch{flash('Could not start fresh. Existing history kept.',6000);}}
 });
-HazzardCloud.start({recovered:()=>refreshRecoveredReader(PLACE_KEY),capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
+HazzardCloud.start({cloudEnvelope,readCloudEnvelope,recovered:()=>refreshRecoveredReader(PLACE_KEY),capture:captureNotebook,merge:mergeCloudNotebook,equal:equalCloudStorage,hasData:cloudHasData,restore:restoreCloudNotebook});
 installPointRail(document.querySelector('main'),editMark);
 HazzardEvidence.backControl($('#readerViewport'));
 HazzardFlashcards.install(copy,cid,button=>openPanel('flashcards',button),viewport,()=>setPanelExpanded(true));
