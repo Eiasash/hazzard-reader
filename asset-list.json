@@ -9738,8 +9738,8 @@
     },
     {
       "url": "./js/reader-cloud.js",
-      "sha256": "8510645dfe9a660eb4afe10ec0ad44ff7e1d2f83a28e03a27c144460cf88e845",
-      "bytes": 19742
+      "sha256": "cf65415d2c74c1952ce305cf6721e2a99981abc4fb73c033c95e33581fd0e6b0",
+      "bytes": 20560
     },
     {
       "url": "./js/reader-debug.js",

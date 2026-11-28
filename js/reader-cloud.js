@@ -138,6 +138,12 @@ window.HazzardCloud = (() => {
     }catch(e){if(generation===epoch)error=e.message;}
     finally{checking=false;render();if(signed()&&(!known||recoveryPaused())){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
   }
+  function extendsLegacyCopy(local,remote){
+    const key=HazzardMCQ.PLACE_KEY;
+    if(!remote||Object.hasOwn(remote,key)||!Object.hasOwn(local,key))return false;
+    const existing={...local};delete existing[key];
+    return bridge.equal(existing,remote);
+  }
   async function push({manual=false,keepalive=false,incoming=null}={}){
     if(!signed()||!decided()||busy||checking&&!incoming||restoring||recoveryPaused())return;
     if(!navigator.onLine){schedule();return;}
@@ -150,6 +156,7 @@ window.HazzardCloud = (() => {
       if(generation!==epoch||recoveryPaused())return;
       // The backup bridge uses the current device as current and cloud as incoming.
       // Re-capture after asynchronous work so edits made during the fetch survive.
+      const localBefore=bridge.capture().storage;
       merging=true;
       let payload;
       try{payload=await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch&&!recoveryPaused());}
@@ -159,10 +166,18 @@ window.HazzardCloud = (() => {
       if(differs){
         const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:bridge.cloudEnvelope(payload),p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
         if(generation!==epoch)return;
-        state.syncedAt=result.updated_at||new Date().toISOString();state.seenAt=result.updated_at||null;
+        const savedAt=result.updated_at||new Date().toISOString();
+        // Adding a previously unbacked device location extends the server copy.
+        // A clean, otherwise identical notebook has no new local sync state to persist.
+        if(state.dirty||!cloud.exists||!extendsLegacyCopy(payload.storage,cloud.data.storage)){
+          state.syncedAt=savedAt;state.seenAt=result.updated_at||null;
+        }
         previous=cloud.exists?cloud:previous;
-        current={exists:true,updated_at:state.syncedAt,data:payload};
-      }else{current=cloud;state.seenAt=cloud.updated_at||null;}
+        current={exists:true,updated_at:savedAt,data:payload};
+      }else{
+        current=cloud;
+        if(state.dirty||!state.seenAt||!bridge.equal(localBefore,payload.storage))state.seenAt=cloud.updated_at||null;
+      }
       known=true;
       state.dirty=!bridge.equal(bridge.capture().storage,payload.storage);
       // attemptAt is a scheduling clock, not a reason to write unchanged storage.
@@ -179,7 +194,12 @@ window.HazzardCloud = (() => {
   function changed(){
     if(restoring||merging||!decided())return;
     // A local backup timestamp or other device-only write does not change the cloud notebook.
-    try{if(current?.exists&&bridge.equal(bridge.capture().storage,current.data.storage))return;}catch{}
+    try{
+      if(current?.exists){
+        const local=bridge.capture().storage;
+        if(bridge.equal(local,current.data.storage)||extendsLegacyCopy(local,current.data.storage))return;
+      }
+    }catch{}
     state.dirty=true;tick=false;
     try{saveState();}catch{error='Cloud settings could not be saved.';}
     render();schedule();
