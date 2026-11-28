@@ -228,7 +228,7 @@ Goal = comfort, not healing; treat odor with topical metronidazole; give analges
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-57e9758f76f4b86d937420c0"><span>June 2025 Q97</span> Tube-feeding complications</a> <a class="study-source-link" href="?chapter=46#p692" aria-label="exam reference, p692">p692</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c2f3239eca775e444df39c25"><span>June 2022 Q25</span> Enzymatic wound care</a> <a class="study-source-link" href="?chapter=46#p693" aria-label="8e teaching passage, p693">p693</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c2f3239eca775e444df39c25"><span>June 2022 Q25</span> Dressings for a wound with scant exudate</a> <a class="study-source-link" href="?chapter=46#p694">Foam · p694</a> <a class="study-source-link" href="?chapter=46#p696">Enzymatic debridement · p696</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d62027de720f4bc81315d771"><span>June 2023 Q32</span> Macerated wound margins</a> <a class="study-source-link" href="?chapter=46#p693" aria-label="exam reference, p693">p693</a></p>
 

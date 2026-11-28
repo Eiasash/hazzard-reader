@@ -72,6 +72,43 @@ function applyLayout(article,layout){
     fragment.innerHTML=markup;node.replaceWith(fragment.content);
   }
 }
+// Isolate the Hebrew label with its number, including when a link supplies the number.
+function formatHebrewReferences(block){
+  const number=String.raw`\d+(?:[./–—־-]\d+)*`;
+  const label=String.raw`(?:סעיפ(?:ים|י)?|סעיף|נוהל|חוזר|עמוד(?:ים)?|עמ[׳']|מיום|פרק)`;
+  const locator=label+'[ \\t]+(?:'+number+'|[א-ת](?=[ ,.;]|$))';
+  const pattern=new RegExp(locator+'(?:,[ \\t]*'+locator+')*','gu');
+  const source=block.textContent;
+  for(const hit of [...source.matchAll(pattern)].reverse()){
+    const walker=document.createTreeWalker(block,NodeFilter.SHOW_TEXT);
+    let offset=0,first,last;const end=hit.index+hit[0].length;
+    while(walker.nextNode()){
+      const node=walker.currentNode,after=offset+node.length;
+      if(!first&&hit.index>=offset&&hit.index<after)first=[node,hit.index-offset];
+      if(end>offset&&end<=after){last=[node,end-offset];break;}
+      offset=after;
+    }
+    if(!first||!last||first[0].parentElement.closest('.he-locator'))continue;
+    const range=document.createRange();range.setStart(...first);range.setEnd(...last);
+    for(let edge of ['start','end']){
+      let node=edge==='start'?first[0]:last[0];
+      if(edge==='start'?first[1]!==0:last[1]!==node.length)continue;
+      while(node.parentNode!==block&&node===(edge==='start'?node.parentNode.firstChild:node.parentNode.lastChild))node=node.parentNode;
+      if(edge==='start')range.setStartBefore(node);else range.setEndAfter(node);
+    }
+    const group=document.createElement('bdi');group.dir='rtl';group.lang='he';group.className='he-locator';
+    group.append(range.extractContents());range.insertNode(group);
+    const nums=document.createTreeWalker(group,NodeFilter.SHOW_TEXT),nodes=[];
+    while(nums.nextNode())if(!nums.currentNode.parentElement.closest('bdi[dir=ltr],[data-bidi-edge=both]'))nodes.push(nums.currentNode);
+    for(const node of nodes){
+      const frag=document.createDocumentFragment();let last=0;
+      for(const m of node.data.matchAll(new RegExp(number,'gu'))){
+        const bdi=document.createElement('bdi');bdi.dir='ltr';bdi.textContent=m[0];frag.append(node.data.slice(last,m.index),bdi);last=m.index+m[0].length;
+      }
+      if(last){frag.append(node.data.slice(last));node.replaceWith(frag);}
+    }
+  }
+}
 function placeExamQuestions(copy,exam){
   if(!exam)return;
   const introduction=[],questions=[];
@@ -175,7 +212,8 @@ function placeOpeningPage(copy,chapter){
     if(paragraph.matches('.read-inline-question'))cases.push(paragraph);
     paragraph=paragraph.nextElementSibling;
   }
-  if(!paragraph?.matches('p')||!paragraph.textContent.trim()||paragraph.querySelector('img,table,a.pg'))return;
+  if(paragraph?.matches('ul,ol'))paragraph=paragraph.querySelector(':scope > li');
+  if(!paragraph?.matches('p,li')||!paragraph.textContent.trim()||paragraph.querySelector('img,table,a.pg'))return;
   const evidence=line.querySelector(':scope > .exam-count');
   // The printed-page ID and existing quote offsets stay at the beginning of the page.
   // Only the visible marker follows the book's opening prose.
@@ -186,7 +224,7 @@ function placeOpeningPage(copy,chapter){
     label.textContent='p'+marker.dataset.page;paragraph.append(label);
   }
   if(evidence)paragraph.append(evidence);
-  paragraph.after(...cases);
+  if(cases.length)(paragraph.closest('ul,ol')||paragraph).after(...cases);
 }
 
 // Run after mark registration. Source words keep their original order and unit IDs.
@@ -206,7 +244,16 @@ const printedHeadingCase=new Map([
   ['105|Treatment Of Latent Tb','Treatment of Latent TB']
 ]);
 function headingLabel(text,chapter){
-  if(!/^\d+$/.test(chapter)||!/[a-z]/.test(text))return text;
+  if(!/^\d+$/.test(chapter))return text;
+  if(/[A-Z]{2}/.test(text)&&!/[a-z]/.test(text)){
+    const acronyms=new Set('AD ADL ADLs AIDS AKI ALS AMD ARDS BPH CAD CAM CGA CHF CKD CNS COPD CPR CRC CT DLB DNA DSM ECG ECT ED EHR FDA GFR GI HAART HIV HPV ICU IL IMA IOM LDL LTC MCI MRI MRSA NSAID NSAIDs OSA PAD PCR PD PDD PET PHQ PTSD RA RNA SNF SSRI TIA TNF TSH US USA UTI VEGF WHO'.toUpperCase().split(' '));
+    return text.replace(/[A-Z]+/g,(word,offset)=>{
+      if(acronyms.has(word)||/^(?:I|II|III|IV|V|VI|VII|VIII|IX|X)$/.test(word))return word;
+      const lower=word.toLowerCase();
+      return !text.slice(0,offset).trim()||/:\s*$/.test(text.slice(0,offset))?word[0]+lower.slice(1):lower;
+    });
+  }
+  if(!/[a-z]/.test(text))return text;
   const printed=printedHeadingCase.get(chapter+'|'+text.trim().replace(/\s+/g,' '));
   if(printed){const words=printed.match(/[A-Za-z]+/g);let i=0;return text.replace(/[A-Za-z]+/g,()=>words[i++]);}
   return text.replace(/\b(?:A|An|And|As|At|By|For|In|Of|On|Or|The|To)\b/g,(word,i)=>{
@@ -335,5 +382,5 @@ function presentChapter(copy,chapter,title){
     }
   }
 }
-return {renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,placeOpeningPage,presentChapter,headingLabel};
+return {formatHebrewReferences,renderMarkdown,smoothPageMarkers,searchText,searchBlocks,textKey,applyLayout,formatReadEndMatter,placeOpeningPage,presentChapter,headingLabel};
 })();

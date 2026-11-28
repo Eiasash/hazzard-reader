@@ -2,7 +2,7 @@
 
 Jessica Colburn, Jennifer Hayashi, Bruce Leff
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > [Official questions linked to this chapter](?chapter=17s&view=questions&source=past).
 

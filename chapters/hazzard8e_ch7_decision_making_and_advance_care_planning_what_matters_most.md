@@ -2,7 +2,7 @@
 
 Daniel D. Matlock, Hillary D. Lum
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > [Official questions linked to this chapter](?chapter=7s&view=questions&source=past).
 

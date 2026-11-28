@@ -2,7 +2,7 @@
 
 Whitney L. Carlson, William Bryson, Stephen Thielke
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1007"></a>**[p. 1007]**
 

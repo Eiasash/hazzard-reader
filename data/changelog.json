@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v339",
+      "date": "2026-11-28",
+      "changes": [
+        "Saved answer highlights open on their passages again. Practice settings and reading progress are easier to back up, drug references are searchable from A to Z, and chapter tables and Hebrew references are easier to read on a phone."
+      ]
+    },
+    {
       "version": "v338",
       "date": "2026-11-28",
       "changes": [

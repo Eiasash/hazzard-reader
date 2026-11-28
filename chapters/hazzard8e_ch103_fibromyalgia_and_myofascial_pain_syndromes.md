@@ -2,7 +2,7 @@
 
 Cheryl D. Bernstein, Simge Yonter, Aishwarya Pradeep, Jay P. Shah, Debra K. Weiner
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > **Source and method.** Printed pages 1643-1666, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

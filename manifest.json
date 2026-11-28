@@ -275,7 +275,8 @@
       "file": "hazzard8e_ch81_copd.md",
       "kind": "chapter",
       "description": "Lane-reviewed 25 Sep. Diagnosis, staging and management in older adults",
-      "markUnits": "data/mark-units/81.json"
+      "markUnits": "data/mark-units/81.json",
+      "textLayout": "data/chapter-layout/81.json"
     },
     {
       "number": "97",
@@ -312,7 +313,8 @@
       "file": "hazzard8e_ch104_infection_and_appropriate_antimicrobial_selection.md",
       "kind": "chapter",
       "description": "Lane-reviewed 25 Sep. Infection presentation and antimicrobial selection in older adults",
-      "markUnits": "data/mark-units/104.json"
+      "markUnits": "data/mark-units/104.json",
+      "textLayout": "data/chapter-layout/104.json"
     },
     {
       "number": "105",

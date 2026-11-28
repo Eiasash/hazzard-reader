@@ -2,7 +2,7 @@
 
 Nway Le Ko Ko, Win-Kuang Shen
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1193"></a>**[p. 1193]**
 

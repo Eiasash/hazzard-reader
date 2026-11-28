@@ -573,10 +573,18 @@ def main():
         default="mcq-95f642a729895dc17239d748",
         help="Baseline question to answer and save",
     )
+    marks = sub.add_parser("notebook", help="Verify chapter and answer highlights from a real local notebook export")
+    marks.add_argument("--notebook", type=Path, required=True)
+    marks.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    marks.add_argument("--output", type=Path, required=True)
     compare = sub.add_parser("compare")
     compare.add_argument("before", type=Path)
     compare.add_argument("after", type=Path)
+    compare.add_argument("--inventory", type=Path, help="Require every localStorage key named in this reader diagnostic")
     args = parser.parse_args()
+    if args.mode == "notebook":
+        from verify_notebook_highlights import check
+        return int(check(args.notebook, args.root, args.output))
     if args.mode == "update":
         run_update(args)
         return 0
@@ -587,9 +595,18 @@ def main():
         print("NOT RUN: snapshots contain no personal study data")
         return 2
     changes = user_data_diff(before, after)
-    print(
-        json.dumps({"user_data": changes, "raw_storage": diff(before, after)}, indent=2)
-    )
+    raw = diff(before, after)
+    result = {"user_data": changes, "raw_storage": raw}
+    if args.inventory:
+        inventory = json.loads(args.inventory.read_text(encoding="utf-8"))["storage"]
+        expected = {entry["key"] for entry in inventory}
+        if not expected:
+            raise ValueError("The diagnostic contains no storage-key inventory")
+        missing = {"before": sorted(expected - before.keys()), "after": sorted(expected - after.keys())}
+        result.update(expected_keys=len(expected), missing=missing)
+        print(json.dumps(result, indent=2))
+        return int(any(raw.values()) or any(missing.values()) or any(changes.values()))
+    print(json.dumps(result, indent=2))
     return int(any(changes.values()))
 
 

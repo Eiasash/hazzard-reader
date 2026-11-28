@@ -4,7 +4,7 @@ Nirav R. Bhatt, Bernardo Liberato
 
 > P005-2026 excludes Hazzard Chapter 62 from required reading, although past examinations include cerebrovascular questions and cite this chapter.
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > **Source and method.** Printed pages 953-980, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

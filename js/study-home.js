@@ -176,7 +176,7 @@ window.HazzardStudyHome = (() => {
       const coverage=HazzardStats.officialCoverage(model),available=coverage.available;
       const byId=new Map(coverage.current.map(q=>[q.id,q]));
       answered=coverage.answered;total=coverage.total;
-      element('homeTrackCoverage').textContent='Subspecialty: '+coverage.subspecialty.answered+' / '+coverage.subspecialty.total+' · Basic-only (Q101–150): '+coverage.basic.answered+' / '+coverage.basic.total;
+      element('homeTrackCoverage').textContent='Subspecialty: '+coverage.subspecialty.answered+' / '+coverage.subspecialty.total+' · Basic exam, questions 101–150 · '+coverage.basic.answered+' / '+coverage.basic.total;
       if (model.ready && stores.log.ok && evidence.status === 'fulfilled' && metadata.status === 'fulfilled') {
         const lawIds=metadata.value[3].israeliLawEthics.ids.filter(id=>byId.has(id));
         recommended = recommend(chapters, evidence.value, {model, byId, lawIds, available:new Set(available.map(q => q.id))});

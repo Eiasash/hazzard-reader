@@ -324,3 +324,6 @@ body.nav-page-open:has(#panel[data-current-pane=tools]) #chapterHeader #settings
 .read-inline-question { margin-block: .75em; padding-inline: .8em; border-inline-start: 2px solid currentColor; }
 .read-inline-question > summary,.read-exam-source > summary { min-block-size: 44px; align-content: center; cursor: pointer; }
 .read-exam-source > summary > h2 { display: inline; font-size: 1em; }
+
+.he-locator {unicode-bidi:isolate;white-space:nowrap}
+.he-locator bdi[dir="ltr"],[dir="rtl"] [data-bidi-edge="both"] {white-space:nowrap}

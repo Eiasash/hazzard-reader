@@ -278,8 +278,10 @@ window.HazzardFlashcards = (() => {
     openView=open;onResize=resize;
     if(chapter.endsWith('s')&&!copy.querySelector('.study-flashcards')){
       const entry=buttonFor(chapter.slice(0,-1));entry.className='study-flashcards';
-      entry.dataset.readerMetadata='flashcards';entry.textContent='Practise chapter flashcards';
-      const slot=copy.querySelector('[data-study-flashcards]');if(slot)slot.replaceWith(entry);else copy.querySelector('h1')?.after(entry);
+      entry.dataset.readerMetadata='flashcards';entry.textContent=chapter==='laws'?'Practise law flashcards':'Practise chapter flashcards';
+      const slot=copy.querySelector('[data-study-flashcards]');if(slot)slot.replaceWith(entry);
+      else if(chapter==='laws'){const end=copy.querySelector('.chapter-nav');if(end)end.before(entry);else copy.append(entry);}
+      else copy.querySelector('h1')?.after(entry);
       entry.hidden=true;index().then(data=>{entry.hidden=!data.chapters.has(chapter.slice(0,-1));}).catch(()=>{entry.hidden=false;});
     }
     if(pane)return;

@@ -2,7 +2,7 @@
 
 Bonnie C. Sachs, Brenna Cholerton, Suzanne Craft
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p853"></a>**[p. 853]**
 

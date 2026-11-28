@@ -2,7 +2,7 @@
 
 Ellen E. Lee, Jeffrey Lam, Dilip V. Jeste
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Cited in the 2020-22 past papers (Hazzard 7e, linked by chapter).
 

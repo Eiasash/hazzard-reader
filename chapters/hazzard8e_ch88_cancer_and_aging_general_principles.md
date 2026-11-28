@@ -2,7 +2,7 @@
 
 Carolyn J. Presley, Harvey Jay Cohen, Mina S. Sedrak
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1381"></a>**[p. 1381]**
 

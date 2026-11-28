@@ -2,7 +2,7 @@
 
 Cynthia M. Carlsson, Nathaniel A. Chin, Carey E. Gleason, Luigi Puglielli, Sanjay Asthana
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p893"></a>**[p. 893]**
 

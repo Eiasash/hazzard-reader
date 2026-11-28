@@ -2,7 +2,7 @@
 
 Gerardo Calderon, Andres Acosta
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1353"></a>**[p. 1353]**
 

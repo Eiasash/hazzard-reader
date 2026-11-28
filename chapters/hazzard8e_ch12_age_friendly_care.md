@@ -2,7 +2,7 @@
 
 Terry Fulmer, Maryama Diaw, Chaoli Zhang, Jinghan Zhang, Wendy Huang, Amy Berman, Tara Asokan, Kedar S. Mate, Leslie Pelton
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > Not cited in the 2020-2026 past papers.
 

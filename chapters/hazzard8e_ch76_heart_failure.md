@@ -2,7 +2,7 @@
 
 Mathew S. Maurer, Scott L. Hummel, Parag Goyal
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1165"></a>**[p. 1165]**
 

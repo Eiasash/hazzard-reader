@@ -36,7 +36,26 @@ window.HazzardCloud = (() => {
   }
   function render(){
     if(!bridge)return;
-    $('cloudStatus').textContent=label();
+    const savedAt=current?.updated_at||state.seenAt||state.syncedAt;
+    const latest=savedAt?' · Last cloud copy '+time(savedAt):'';
+    const blocked=HazzardStorage.blockedKeys(),unreadable=blocked.length?HazzardStorage.storeLabel(blocked[0]):'';
+    const message=unreadable?unreadable+' needs recovery.':(expired||state.username&&!signed())?'Sign in to back up this notebook.':
+      paused()?'Cloud backup is overdue.':'';
+    const line=unreadable?message+latest:HazzardStorage.status.error?'Check your saved notebook.':
+      !signed()?'Saved on this phone · Sign in for cloud backup':
+      !navigator.onLine?'Saved on this phone · Offline'+latest:
+      !decided()?'Saved on this phone · Choose a backup below':
+      known&&current?.exists&&!state.dirty&&!busy&&!restoring?'Everything saved and backed up'+latest:
+      'Saved on this phone · '+(busy?'Backing up…':'Waiting for cloud backup')+latest;
+    $('backupOverview').textContent=line;
+    const warning=$('notebookBackupWarning');warning.hidden=!message;
+    warning.querySelector('span').textContent=message;
+    const action=warning.querySelector('button');
+    if(unreadable){action.textContent='Recover '+unreadable;action.dataset.panel='backup';action.onclick=null;}
+    else if(expired||!signed()){action.textContent='Sign in';action.dataset.panel='backup';action.onclick=()=>{authMode='login';render();};}
+    else{action.textContent='Sync now';delete action.dataset.panel;action.onclick=()=>push({manual:true});}
+    $('cloudStatus').hidden=!signed();
+    $('cloudStatus').textContent=signed()?'Account · '+session.username:'';
     $('cloudError').textContent=error||notice;
     const loggedIn=signed();
     $('cloudAuthChoices').hidden=loggedIn;
@@ -87,6 +106,7 @@ window.HazzardCloud = (() => {
       };
       throw Error(messages[result?.error]||'Cloud unavailable. Will retry later.');
     }
+    if(name==='hazzard_cloud_get'&&result?.exists)return {...result,data:bridge.readCloudEnvelope(result.data)};
     return result;
   }
   function schedule(){
@@ -118,6 +138,12 @@ window.HazzardCloud = (() => {
     }catch(e){if(generation===epoch)error=e.message;}
     finally{checking=false;render();if(signed()&&(!known||recoveryPaused())){clearTimeout(timer);timer=setTimeout(inspect,INTERVAL);}}
   }
+  function extendsLegacyCopy(local,remote){
+    const key=HazzardMCQ.PLACE_KEY;
+    if(!remote||Object.hasOwn(remote,key)||!Object.hasOwn(local,key))return false;
+    const existing={...local};delete existing[key];
+    return bridge.equal(existing,remote);
+  }
   async function push({manual=false,keepalive=false,incoming=null}={}){
     if(!signed()||!decided()||busy||checking&&!incoming||restoring||recoveryPaused())return;
     if(!navigator.onLine){schedule();return;}
@@ -130,6 +156,7 @@ window.HazzardCloud = (() => {
       if(generation!==epoch||recoveryPaused())return;
       // The backup bridge uses the current device as current and cloud as incoming.
       // Re-capture after asynchronous work so edits made during the fetch survive.
+      const localBefore=bridge.capture().storage;
       merging=true;
       let payload;
       try{payload=await bridge.merge(cloud.exists?cloud.data:null,()=>generation===epoch&&!recoveryPaused());}
@@ -137,12 +164,20 @@ window.HazzardCloud = (() => {
       if(generation!==epoch||recoveryPaused())return;
       const differs=!cloud.exists||!bridge.equal(payload.storage,cloud.data.storage);
       if(differs){
-        const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:payload,p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
+        const result=await rpc('hazzard_cloud_set',{p_token:token,p_data:bridge.cloudEnvelope(payload),p_app_version:window.HazzardRelease.version,p_device:navigator.userAgent},keepalive,token);
         if(generation!==epoch)return;
-        state.syncedAt=result.updated_at||new Date().toISOString();state.seenAt=result.updated_at||null;
+        const savedAt=result.updated_at||new Date().toISOString();
+        // Adding a previously unbacked device location extends the server copy.
+        // A clean, otherwise identical notebook has no new local sync state to persist.
+        if(state.dirty||!cloud.exists||!extendsLegacyCopy(payload.storage,cloud.data.storage)){
+          state.syncedAt=savedAt;state.seenAt=result.updated_at||null;
+        }
         previous=cloud.exists?cloud:previous;
-        current={exists:true,updated_at:state.syncedAt,data:payload};
-      }else{current=cloud;state.seenAt=cloud.updated_at||null;}
+        current={exists:true,updated_at:savedAt,data:payload};
+      }else{
+        current=cloud;
+        if(state.dirty||!state.seenAt||!bridge.equal(localBefore,payload.storage))state.seenAt=cloud.updated_at||null;
+      }
       known=true;
       state.dirty=!bridge.equal(bridge.capture().storage,payload.storage);
       // attemptAt is a scheduling clock, not a reason to write unchanged storage.
@@ -158,6 +193,13 @@ window.HazzardCloud = (() => {
 
   function changed(){
     if(restoring||merging||!decided())return;
+    // A local backup timestamp or other device-only write does not change the cloud notebook.
+    try{
+      if(current?.exists){
+        const local=bridge.capture().storage;
+        if(bridge.equal(local,current.data.storage)||extendsLegacyCopy(local,current.data.storage))return;
+      }
+    }catch{}
     state.dirty=true;tick=false;
     try{saveState();}catch{error='Cloud settings could not be saved.';}
     render();schedule();
@@ -174,11 +216,11 @@ window.HazzardCloud = (() => {
       const copy=await rpc('hazzard_cloud_get',{p_token:token,p_which:which},false,token);
       if(generation!==epoch)return;
       if(!copy.exists)throw Error('No cloud copy is available.');
-      if(!confirm('Restore '+(which==='prev'?'previous cloud copy':'from cloud')+' (saved '+time(copy.updated_at,true)+')? This replaces this phone’s notebook. A local snapshot is saved first.'))return;
+      if(!confirm('Restore '+(which==='prev'?'previous cloud copy':'from cloud')+' (saved '+time(copy.updated_at,true)+')? Newer work on this phone will be kept. A local copy is saved first.'))return;
       restoring=true;clearTimeout(timer);
       const summary=await bridge.restore(copy.data);
       if(generation!==epoch)return;
-      state={username:session.username,decided:true,dirty:false,restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
+      state={username:session.username,decided:true,dirty:!bridge.equal(bridge.capture().storage,copy.data.storage),restoredAt:new Date().toISOString(),restoredCopyAt:copy.updated_at};saveState();
       tick=false;error='';notice='Cloud copy restored. Local snapshot kept.'+(summary||'');
       // Do not immediately re-upload a restore: retain the server's previous copy.
     }catch(e){if(generation===epoch)error=e.message||'Restore failed.';}

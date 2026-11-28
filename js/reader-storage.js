@@ -150,12 +150,52 @@ window.HazzardStorage = (() => {
     return protectedStores.get(key);
   }
   const unreadable=new Map(),recoverySnapshots=new Map();
+  const practiceKeys=[HazzardMCQ.PLACE_KEY,HazzardMCQ.SETTINGS_KEY];
+  let practiceCopies=new Map();
+  let practiceRecoveryReady=false;
+  function recoverPractice(key,raw){
+    if(!practiceRecoveryReady||!practiceKeys.includes(key))return false;
+    const copy=practiceCopies.get(key);
+    if(raw===null&&!copy&&!localStorage.getItem(HazzardMCQ.VIEW_KEY))return false;
+    let local=null;try{local=JSON.parse(raw);}catch{}
+    let replacement=copy;
+    if(key===HazzardMCQ.SETTINGS_KEY){
+      const prefs=copy?JSON.parse(copy):HazzardMCQ.defaultPracticeSettings();
+      if(isRecord(local)){
+        for(const name of Object.keys(prefs))if(typeof prefs[name]==='boolean'&&typeof local[name]==='boolean')prefs[name]=local[name];
+        if(Number.isFinite(local.at)&&local.at>=0)prefs.at=local.at;
+      }
+      if(!copy||isRecord(local))replacement=JSON.stringify(prefs);
+    }else{
+      if(isRecord(local)){
+        for(const view of [local,local.view])if(view&&Number.isFinite(view.scroll))view.scroll=Math.max(0,view.scroll);
+        if(HazzardMCQ.validPracticePlace(local))replacement=JSON.stringify(local);
+      }
+      if(!replacement){
+        let view;try{view=JSON.parse(localStorage.getItem(HazzardMCQ.VIEW_KEY));}catch{}
+        const known=HazzardMCQ.validView(view);
+        replacement=JSON.stringify({version:1,screen:'bank',id:known?view.id:null,scroll:known?view.scroll:0});
+      }
+    }
+    if(!validRaw(key,replacement))return false;
+    // Preserve the exact damaged bytes first. Nothing else in the notebook is replaced.
+    if(raw!==null){
+      const saved=preserveUnreadable(key,raw);
+      if(!saved||localStorage.getItem(saved)!==raw)return false;
+    }
+    if(localStorage.getItem(key)!==raw)return false;
+    localStorage.setItem(key,replacement);unreadable.delete(key);
+    return true;
+  }
   function preserveUnreadable(key,raw){
   // Grades own one key. Keep its raw value there until explicit recovery.
   if(key===HazzardFlashcards.KEY)return;
   const date=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format().replaceAll('-','');
-  const side=key+'-unreadable-'+date;
-    if(raw!==null&&localStorage.getItem(side)===null)localStorage.setItem(side,raw);
+  const base=key+'-unreadable-'+date;let side=base;
+    if(raw===null)return;
+    for(let i=2;localStorage.getItem(side)!==null&&localStorage.getItem(side)!==raw;i++)side=base+'-'+i;
+    if(localStorage.getItem(side)===null)localStorage.setItem(side,raw);
+    return side;
   }
   // scrollTop is fractional (and may overscroll on phones); the layout heights are rounded.
   function normalizePlaces(value){
@@ -182,7 +222,11 @@ window.HazzardStorage = (() => {
   function protect(key){
     const spec=protectedStore(key);if(!spec)return false;
     const raw=localStorage.getItem(key);
-    if((raw===null&&!(key===HazzardMCQ.PLACE_KEY&&recoverySnapshots.has(key)))||validRaw(key,raw)){unreadable.delete(key);return false;}
+    if(validRaw(key,raw)){unreadable.delete(key);return false;}
+    if(practiceKeys.includes(key)){
+      try{if(recoverPractice(key,raw))return false;}catch{/* Keep an unreadable primary when storage is full. */}
+    }
+    if(raw===null){unreadable.delete(key);return false;}
     if(key===PLACE_KEY){
       const fixed=repairPlace(raw);
       if(fixed){
@@ -322,15 +366,16 @@ window.HazzardStorage = (() => {
   async function usable(row){return row?.version===1&&Number.isFinite(row.at)&&isRecord(row.storage)&&Object.entries(row.storage).every(([k,v])=>validRaw(k,v))&&typeof row.hash==='string'&&row.hash===await hash(row.storage);}
   async function indexSnapshots(){
     const saved=(await rows()).sort((a,b)=>b.at-a.at||b.id-a.id);let latest=null;
-    recoverySnapshots.clear();
+    recoverySnapshots.clear();const checkedPractice=new Map();
     for(const row of saved){
       if(latest&&Object.keys(row.storage||{}).every(key=>Object.hasOwn(latest.storage,key)||recoverySnapshots.has(key)))continue;
       if(await usable(row)){
       latest??=row;
+      for(const key of practiceKeys)if(!checkedPractice.has(key)&&validRaw(key,row.storage[key]))checkedPractice.set(key,row.storage[key]);
       for(const key of Object.keys(row.storage))protectedStore(key);
       for(const key of protectedStores.keys())if(!recoverySnapshots.has(key)&&Object.hasOwn(row.storage,key))recoverySnapshots.set(key,{id:row.id,at:row.at,hash:row.hash});
     }}
-    return latest;
+    practiceCopies=checkedPractice;return latest;
   }
   function snapshot({preserveInvalid=false}={}){
     // Capture the whole reader state at the change, not at pagehide. Primary
@@ -361,6 +406,7 @@ window.HazzardStorage = (() => {
     try{
       db=await new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,1);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id',autoIncrement:true});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Automatic snapshots are blocked by another tab.'));});
       const latest=await indexSnapshots();
+      practiceRecoveryReady=true;for(const key of practiceKeys)protect(key);
       await archiveRetired(latest?.storage);
       await recoverLocalPlace();
       if(latest){
@@ -373,11 +419,13 @@ window.HazzardStorage = (() => {
         }
       }
       snapshot(); // Recovery is complete. The queued safety copy is still awaited by flush().
-    }catch(error){status.error=error.message||'Automatic recovery is unavailable.';}
+    }catch(error){status.error=error.message||'Automatic recovery is unavailable.';
+      practiceRecoveryReady=true;for(const key of practiceKeys)protect(key);
+    }
     notify();
   })();
   function setItem(key,raw){
-    if(key===PLACE_KEY)validateNotebookValue(key,JSON.parse(raw));
+    if(owns(key)&&!validRaw(key,raw))throw Error('This change could not be saved. The previous value is still on this phone.');
     if(protect(key)){unreadable.get(key).value=JSON.parse(raw);return;}
     const change=removalChange(key,raw),protectedRemovals=change!==null&&protect(REMOVALS_KEY),previous=localStorage.getItem(REMOVALS_KEY),previousValue=protectedRemovals?structuredClone(unreadable.get(REMOVALS_KEY).value):null;
     if(change!==null){if(protectedRemovals)unreadable.get(REMOVALS_KEY).value=JSON.parse(change);else localStorage.setItem(REMOVALS_KEY,change);}
@@ -394,5 +442,5 @@ window.HazzardStorage = (() => {
     }
     snapshot();
   });
-  return {archivedValues,colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
+  return {archivedValues,colours,normalizePlaces,mergePlaces,recoverPlace,removals,preserveUnreadable,readProtected,blockedKeys,storeLabel:key=>protectedStore(key)?.label||key,recoveryHTML,startFresh,restoreSnapshot,requestPersistence,ready,persistence,status,setItem,removeItem,snapshot,flush:()=>tail,validate:validateNotebookValue,owns};
 })();

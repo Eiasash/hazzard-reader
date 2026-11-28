@@ -2,7 +2,7 @@
 
 Catherine E. DuBeau, Christopher D. Ortengren
 
-> **Status.** Fast build from the book; not lane-reviewed.
+> **Status.** Checked against the book.
 
 > **Source and method.** Printed pages 555-571, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 

@@ -2,7 +2,7 @@
 
 John Best, Howie Rosen, Victor Valcour, Bruce Miller
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p981"></a>**[p. 981]**
 

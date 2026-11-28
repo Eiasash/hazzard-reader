@@ -45,7 +45,7 @@ window.HazzardDrugs = (() => {
     const panel = el('section'); panel.dataset.readerMetadata = 'drugs';
     panel.innerHTML = '<input id="drugSearch" type="search" aria-label="Search drugs and classes" autocomplete="off" placeholder="Search drugs and classes">' +
       '<div id="drugKind" class="choice-chips" role="group" aria-label="Show entries"><button type="button" data-kind="all">All</button><button type="button" data-kind="drug">Drugs</button><button type="button" data-kind="class">Classes</button></div>' +
-      '<p id="drugStatus" role="status" aria-live="polite">Loading drug index…</p><div id="drugResults"></div>';
+      '<nav id="drugLetters" aria-label="Jump to a letter"></nav><p id="drugStatus" role="status" aria-live="polite">Loading drug index…</p><div id="drugResults"></div>';
     copy.append(panel);
     const input = panel.querySelector('#drugSearch'), kind = panel.querySelector('#drugKind');
     const status = panel.querySelector('#drugStatus'), results = panel.querySelector('#drugResults');
@@ -81,7 +81,7 @@ window.HazzardDrugs = (() => {
         const list = el('ul');
         for (const p of passages) {
           const row = el('li'), link = el('a', locationLabel(p)); link.href = passageURL(p);
-          row.append(link, el('p', (p.image ? 'Table name/class columns: ' : '') + p.excerpt, 'drug-excerpt')); list.append(row);
+          row.append(link, el('p', (p.image ? 'Table entry · ' : '') + p.excerpt, 'drug-excerpt')); list.append(row);
         }
         group.append(list); body.append(group);
       }
@@ -92,13 +92,13 @@ window.HazzardDrugs = (() => {
         const list = el('ul');
         for (const q of entry.questions) {
           const row = el('li'), link = el('a', q.sitting&&q.number?HazzardEvidence.label(q):(q.label||'Practice question'));
-          link.href = HazzardEvidence.questionURL(q.id); row.append(link); if(q.match==='class'||q.match==='member')row.append(el('small',q.match==='class'?'Class match':'Member drug')); list.append(row);
+          link.href = HazzardEvidence.questionURL(q.id); row.append(link); if(q.match==='class'||q.match==='member')row.append(el('small',q.match==='class'?'Drug class':'Drug in this class')); list.append(row);
         }
         questions.append(list);
       }
       body.append(questions);
       const sources = el('details', '', 'drug-links drug-sources');
-      sources.append(el('summary', 'Name / class sources'));
+      sources.append(el('summary', 'References'));
       for (const s of entry.sources) {
         const page=s.page||(/^p\d+$/.test(s.anchor)?Number(s.anchor.slice(1)):null);
         if(!page)continue;
@@ -124,18 +124,14 @@ window.HazzardDrugs = (() => {
       return row;
     }
 
-    const batchSize=32;
-    const more=el('button','Show more entries','drug-more');more.type='button';
-    let data, matches=[], visibleCount=0, selectedID=null, searchIndex;
-    function nextBatch(){
-      const batch=matches.slice(visibleCount,visibleCount+batchSize);
-      const fragment=document.createDocumentFragment();
-      for(const entry of batch)fragment.append(entryRow(entry,selectedID));
-      visibleCount+=batch.length;
-      results.insertBefore(fragment,more);
-      more.hidden=visibleCount===matches.length;
-    }
-    more.onclick=nextBatch;
+    const letters=panel.querySelector('#drugLetters');
+    let data,searchIndex;
+    const initial=name=>(normalize(name).match(/^[a-z]/)?.[0]||'#').toUpperCase();
+    letters.addEventListener('click',event=>{
+      const button=event.target.closest('[data-letter]');if(!button)return;
+      const heading=document.getElementById('drug-letter-'+button.dataset.letter);
+      if(heading){heading.scrollIntoView({block:'start'});heading.focus({preventScroll:true});}
+    });
 
     function terms(){
       if(searchIndex)return searchIndex;
@@ -150,16 +146,27 @@ window.HazzardDrugs = (() => {
     function render(){
       if(!data)return;
       const query=HazzardSearchTerms.compile(input.value),index=query.text?terms():null;
-      matches=data.entries.filter(e=>(selectedKind==='all'||selectedKind===e.kind)&&(!index||query.test(index.get(e.id))));
-      // A saved deep link opens immediately, even for the last name in the catalogue.
-      selectedID=new URL(location.href).searchParams.get('drug');
-      const selected=selectedID&&matches.find(e=>e.id===selectedID);
-      if(selected)matches=[selected,...matches.filter(e=>e!==selected)];
-      visibleCount=0;
-      results.replaceChildren(more);
-      nextBatch();
-      if(!matches.length)results.prepend(el('p','No matching drug or class. Try a generic name or a shorter search.'));
-      status.textContent=matches.length+(matches.length===1?' entry':' entries')+' · '+data.counts.drugs+' drugs + '+data.counts.classes+' classes in the index';
+      const matches=data.entries.filter(e=>(selectedKind==='all'||selectedKind===e.kind)&&(!index||query.test(index.get(e.id))));
+      const selectedID=new URL(location.href).searchParams.get('drug');
+      const groups=new Map(),fragment=document.createDocumentFragment(),jumps=document.createDocumentFragment();
+      let selected=null;
+      for(const entry of matches){
+        const letter=initial(entry.name);if(!groups.has(letter))groups.set(letter,[]);
+        groups.get(letter).push(entry);
+      }
+      for(const letter of [...groups.keys()].sort()){
+        const heading=el('h2',letter,'drug-letter-heading');heading.id='drug-letter-'+letter;heading.tabIndex=-1;
+        fragment.append(heading);
+        const jump=el('button',letter);jump.type='button';jump.dataset.letter=letter;jump.setAttribute('aria-label','Jump to '+letter);jumps.append(jump);
+        for(const entry of groups.get(letter)){
+          const row=entryRow(entry,selectedID);fragment.append(row);if(entry.id===selectedID)selected=row;
+        }
+      }
+      letters.replaceChildren(jumps);letters.hidden=groups.size<2;
+      results.replaceChildren(fragment);
+      if(!matches.length)results.append(el('p','No matching drug or class.'));
+      status.textContent=matches.length+(matches.length===1?' entry':' entries');
+      if(selected)requestAnimationFrame(()=>{if(selected.isConnected)selected.scrollIntoView({block:'start'});});
     }
     async function open(){
       status.textContent='Loading drug index…';

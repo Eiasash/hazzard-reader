@@ -2,7 +2,7 @@
 
 Kevin P. High
 
-> **Lane-reviewed against the book, 25 Sep 2026.**
+> **Checked against the book.**
 
 <a id="p1667"></a>**[p. 1667]**
 
