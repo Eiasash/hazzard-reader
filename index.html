@@ -3727,16 +3727,9 @@ function chapterNavigation(){
 }
 syncTabs();
 // Notebook backups still round-trip legacy opaque values. No timer runs or creates a store.
-const notebookKeys=new Set([PLACE_KEY,BOOKMARK_KEY,MOCK_KEY,DRILL_KEY,READING_KEY,MISSED_KEY,'hazzard-timer-v2','hazzard-timer-v1','stage-a-display-v4',CHAPTER_SORT_KEY,HazzardMCQ.KEY,HazzardMCQ.PAPER_KEY,HazzardMCQ.FLAGS_KEY,HazzardMCQ.GENERATED_FLAGS_KEY,HazzardMCQ.SAVED_KEY,HazzardMCQ.LOG_KEY,HazzardMCQ.BAD_KEY,HazzardMCQ.SYSTEM_KEY]);
-const removals=HazzardStorage.removals;notebookKeys.add(removals.key);
-const isNotebookKey=key=>key.startsWith('stage-a-highlights-v1:')&&!key.includes('-unreadable-')||notebookKeys.has(key);
-notebookKeys.add(HazzardMCQ.VIEW_KEY);
-notebookKeys.add(HazzardMCQ.PLACE_KEY);
-notebookKeys.add(HazzardMCQ.SETTINGS_KEY);
-notebookKeys.add(HazzardReview.KEY);
-notebookKeys.add(HazzardSimulation.KEY);
-notebookKeys.add(HazzardFlashcards.KEY);
-notebookKeys.add(HazzardAnswerHighlights.KEY);
+const removals=HazzardStorage.removals;
+const deviceFileKeys=new Set(['hazzard-cloud-state-v1','hazzard-debug-log-v1','hazzard-whats-new-seen-v1',LAST_BACKUP_KEY,HazzardMCQ.MIGRATION_KEY]);
+const isNotebookKey=key=>HazzardStorage.owns(key)&&!deviceFileKeys.has(key);
 const isRecord=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const stringList=value=>Array.isArray(value)&&value.every(x=>typeof x==='string');
 const validateNotebookValue=HazzardStorage.validate;
@@ -3807,7 +3800,6 @@ function mergeNotebookValue(key,current,incoming){
 }
 function previousNotebookValue(key){return localStorage.getItem(key)??HazzardStorage.archivedValues()[key]??null;}
 // These device records belong in a downloaded file. Sync bookkeeping is never uploaded to itself.
-const deviceFileKeys=new Set(['hazzard-cloud-state-v1','hazzard-debug-log-v1','hazzard-whats-new-seen-v1',LAST_BACKUP_KEY,HazzardMCQ.MIGRATION_KEY]);
 function recoveryFileKey(key){
   const match=/^(.+)-unreadable-[0-9-]+$/.exec(key);
   return !!match&&(isNotebookKey(match[1])||deviceFileKeys.has(match[1]));
@@ -4254,7 +4246,7 @@ document.addEventListener('click',async event=>{
     catch(error){flash(error.message||'Could not restore local snapshot. Existing history kept.',6000);}
     finally{setButtonUnavailable(button);}
   }
-  else if(button.hasAttribute('data-storage-cloud')){if(!panel.open||panel.dataset.currentPane!=='backup')openPanel('backup',button);$('#cloudStatus').scrollIntoView({block:'nearest'});}
+  else if(button.hasAttribute('data-storage-cloud')){if(!panel.open||panel.dataset.currentPane!=='backup')openPanel('backup',button);$('#cloudControls').scrollIntoView({block:'nearest'});}
   else if(button.hasAttribute('data-storage-file'))$('#notebookBackupFile').click();
   else{try{HazzardStorage.startFresh(button.dataset.storageFresh);refreshRecoveredReader(button.dataset.storageFresh);mcq?.sync();}catch{flash('Could not start fresh. Existing history kept.',6000);}}
 });

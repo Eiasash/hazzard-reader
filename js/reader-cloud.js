@@ -54,7 +54,8 @@ window.HazzardCloud = (() => {
     if(unreadable){action.textContent='Recover '+unreadable;action.dataset.panel='backup';action.onclick=null;}
     else if(expired||!signed()){action.textContent='Sign in';action.dataset.panel='backup';action.onclick=()=>{authMode='login';render();};}
     else{action.textContent='Sync now';delete action.dataset.panel;action.onclick=()=>push({manual:true});}
-    $('cloudStatus').textContent=label();
+    $('cloudStatus').hidden=!signed();
+    $('cloudStatus').textContent=signed()?'Account · '+session.username:'';
     $('cloudError').textContent=error||notice;
     const loggedIn=signed();
     $('cloudAuthChoices').hidden=loggedIn;
