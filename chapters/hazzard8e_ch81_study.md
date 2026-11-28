@@ -175,7 +175,7 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 <details><summary>Answer</summary>
 
 Hazzard reports benefit from ICS/LABA with eosinophils **≥300 cells/mL** and high symptom burden plus frequent exacerbations (Group D). ICS-associated pneumonia risk rises with **<100 cells/mL**, older age, frailty, low BMI or high dose. The chapter discusses ICS withdrawal with **<300 cells/mL**, particularly **<100 cells/mL** (pp1253–1254). *[sic — all three units are printed per mL in the prose; Table 81-7 on p1246 uses cells/µL.]*
-> Current practice (not the book): GOLD expresses these eosinophil counts in cells/µL. [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=32).
+> Current practice (not the book): GOLD expresses these eosinophil counts in cells/µL. <a data-flashcard-source href="https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=32">GOLD Figure 3.10</a>.
 
 </details>
 

@@ -10511,7 +10511,11 @@
     ],
     "fromRecall": true,
     "anchor": "p1253",
-    "page": 1253
+    "page": 1253,
+    "answerSource": {
+      "label": "GOLD Figure 3.10",
+      "href": "https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=32"
+    }
   },
   {
     "id": "ch81-study-recall-7",

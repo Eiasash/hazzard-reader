@@ -4503,8 +4503,8 @@
     },
     {
       "url": "./chapters/hazzard8e_ch81_study.md",
-      "sha256": "9617bb5458ea10908540cb0e951d522470b6a23ced4e3deaed48c0d469fbb4a2",
-      "bytes": 31774
+      "sha256": "f07d3f5a5d2541d5f9bf76e4c3cf1e7cac86448d821e58e09664a23e778bd254",
+      "bytes": 31807
     },
     {
       "url": "./chapters/hazzard8e_ch81_table81-10_p1249.png",
@@ -6418,8 +6418,8 @@
     },
     {
       "url": "./data/flashcards.json",
-      "sha256": "dead472ec8914e243ebb1f03b559dfec3b1cfd83fafb302fd4fc3da34b50c2d3",
-      "bytes": 908151
+      "sha256": "59a5823b1ba93fc44225d98d22b55549a7ba8d95c404e2b4729ac078f1a873fe",
+      "bytes": 908333
     },
     {
       "url": "./data/highlight-aliases.json",
@@ -9823,8 +9823,8 @@
     },
     {
       "url": "./js/flashcards.js",
-      "sha256": "8eb5d987bb98d7922aaa7e358aaf0f32e6009e1728d2f366d7e452b2e370b91a",
-      "bytes": 20847
+      "sha256": "a56b5c559e962445b893ff082a72f0796cc713770cfee1ff1d587ac9044fb000",
+      "bytes": 21471
     },
     {
       "url": "./js/law-cards.js",
