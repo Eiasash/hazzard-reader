@@ -147,6 +147,9 @@ window.HazzardEvidence = (() => {
       }
       if(!active?.length||node.closest('[data-reader-metadata]'))continue;
       const text=(node.tagName==='IMG'?(node.alt||''):node.textContent).replace(/\s+/g,' ').trim();
+      // Some published cues begin with a heading that now has its own element.
+      const heading=node.firstElementChild?.hasAttribute('data-exam-continues-heading')&&node.previousElementSibling;
+      const headedText=heading&&/^H[2-6]$/.test(heading.tagName)?heading.textContent.trim()+' '+text:'';
       for(let index=active.length-1;index>=0;index--){
         const p=active[index];
         let boundary;
@@ -161,7 +164,7 @@ window.HazzardEvidence = (() => {
           boundary=document.createRange();
           boundary.setStart(indexed.nodes[at],indexed.offs[at]);
           boundary.collapse(true);
-        }else if(text!==p.passage&&!(p.passage.length>=90&&text.startsWith(p.passage)))continue;
+        }else if(text!==p.passage&&!(p.passage.length>=90&&(text.startsWith(p.passage)||headedText.startsWith(p.passage))))continue;
         active.splice(index,1);
         place(p,node,boundary);
       }

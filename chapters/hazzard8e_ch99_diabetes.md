@@ -912,7 +912,7 @@ Huang ES, Zhang Q, Gandra N, Chin MH, Meltzer DO. The effect of comorbid illness
 
 Inzucchi SE, Bergenstal RM, Buse JB, et al. Management of hyperglycemia in type 2 diabetes, 2015: a patient-centered approach. Update to a position statement of the American Diabetes Association and the European Association for the Study of Diabetes. Diabetes Care. 2015;38:140–149.
 
-James J, Hicks D, Sinclair A. [https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/\[trenddiabetes.online\]](<https://www.diabetes.org.uk/for-professionals/improving-care/clinical-recommendations-for-professionals/diagnosis-ongoing-management-monitoring/end-of-life-care>). Accessed January 28, 2022.
+James J, Hicks D, Sinclair A. [https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/](<https://www.diabetes.org.uk/for-professionals/improving-care/clinical-recommendations-for-professionals/diagnosis-ongoing-management-monitoring/end-of-life-care>) [trenddiabetes.online]. Accessed January 28, 2022.
 
 Kirkman MS, Briscoe VJ, Clark N, et al. Diabetes in older adults: a consensus report. J Am Geriatr Soc. 2012; 60(12):2342–2356 and Diabetes Care. 2012;35(12): 2650–2664.
 

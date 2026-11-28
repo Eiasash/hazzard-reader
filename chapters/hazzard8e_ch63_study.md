@@ -122,7 +122,7 @@ Study summary of Chapter 63 — Other Neurodegenerative Disorders; the book and 
 - Behavioral symptoms include irritability, anxiety, depression and even subtle personality change. The book states that the severity of injury does not directly correlate with the development of postconcussive syndrome; treatment is supportive (p995).
 
 ## Key drugs mentioned (no specific mg doses are given in this chapter)
-- **Cholinesterase inhibitors** — first-line for DLB (often better response than AD, esp. hallucinations); **no theoretical basis for use** in bvFTD/CBD, may worsen agitation (p984, p991–992).
+- Patients with DLB should be offered a trial of a **cholinesterase inhibitor** (often better response than AD, esp. hallucinations); **no theoretical basis for use** in bvFTD/CBD, may worsen agitation (p984, p991–992).
 - **Levodopa** — can be used if indicated for parkinsonism in DLB (once hallucinations/fluctuation are controlled), ~1/3 of MSA patients, and some PSP/CBD patients, but efficacy is limited/wanes (p984, p986, p992).
 - **Atypical neuroleptics** — bvFTD delusions if problematic; use with caution/avoid in DLB (neuroleptic sensitivity) (p984, p991).
 - **SSRIs** — bvFTD behavioral symptoms (cravings, compulsions) (p991).

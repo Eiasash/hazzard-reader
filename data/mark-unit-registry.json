@@ -14729,6 +14729,18 @@
       ],
       "copy|(טבלה מלאה ב-PDF; הנתונים לעיל הם קיצור לצורך לימוד — לא כל 35 המדינות (ו-7 היבשות/העולם) בטבלה המקורית.)": [
         "u177"
+      ],
+      "copy|התומך רשאי לסייע בקבלת מידע בעניינים שבצו לפי בקשתו של האדם, ואף לקבל את המידע בשמו וברשותו (תקנות 9–10, 16).": [
+        "u209"
+      ],
+      "copy|אם חל שינוי מהותי בנסיבות המינוי, התומך חייב לדווח עליו לבית המשפט, ובית המשפט רשאי לשנות או לבטל את הצו מיוזמתו או לפי בקשה (תקנות 10(ט), 25).": [
+        "u210"
+      ],
+      "copy|רופא במחלקה או אחות אחראית משמרת רשאים להחליט על הגבלה או התרה, ובמוסד שאין בו אחות אחראית משמרת רשאית להחליט האחות הכללית.": [
+        "u216"
+      ],
+      "copy|כשהאחות מחליטה על הגבלה, היא מודיעה לאחות האחראית במחלקה, וזו מעבירה את המידע לרופא המטפל.": [
+        "u217"
       ]
     },
     "sequenceOffsets": [
@@ -14757,20 +14769,28 @@
         -14
       ],
       [
-        249,
-        12
+        223,
+        -12
       ],
       [
-        254,
-        -92
+        228,
+        -10
+      ],
+      [
+        245,
+        16
+      ],
+      [
+        250,
+        -88
+      ],
+      [
+        253,
+        -13
       ],
       [
         257,
-        -17
-      ],
-      [
-        261,
-        -4
+        0
       ]
     ]
   },
@@ -17960,6 +17980,12 @@
       ],
       "copy|December 2021 Q68 Antibiotics in late dementia p916": [
         "u354"
+      ],
+      "copy|June 2023 Q56 Midlife hearing loss p905": [
+        "u316"
+      ],
+      "copy|December 2021 Q24 Hearing and dementia risk p905": [
+        "u334"
       ]
     },
     "sequenceOffsets": [
@@ -26280,6 +26306,9 @@
       ],
       "copy|June 2026 Q79 Atypical femoral fracture p776": [
         "u305"
+      ],
+      "copy|2020 Q32 Starting alendronate p774": [
+        "u296"
       ]
     },
     "sequenceOffsets": [
@@ -28001,6 +28030,9 @@
       ],
       "copy|One-year rule in the text: p984 says the research criteria require cognitive symptoms that “predate parkinsonism by 12 months.” The chapter calls the temporal distinction arbitrary and difficult to apply (pp984–985). Ch 57, p870, describes DLB when dementia precedes or occurs within one year of motor onset, and PDD when dementia develops after a year of established motor PD.Current practice (not the book): DLB is diagnosed when dementia occurs before or concurrently with parkinsonism; the 1-year rule between onset of dementia and parkinsonism is kept for research DLB-vs-PDD distinction — DLB Consortium (McKeith et al.), 2017.": [
         "u20"
+      ],
+      "copy|Patients with DLB should be offered a trial of a cholinesterase inhibitor (often better response than AD, esp. hallucinations); no theoretical basis for use in bvFTD/CBD, may worsen agitation (p984, p991–992).": [
+        "u73"
       ]
     },
     "sequenceOffsets": [
@@ -28878,6 +28910,9 @@
       ],
       "copy|May 2024 Q74 SSRI adverse effects p1015": [
         "u317"
+      ],
+      "copy|2020 Q37 Interpreting PHQ-9 p1012": [
+        "u305"
       ]
     },
     "sequenceOffsets": [
@@ -32425,6 +32460,15 @@
       ],
       "copy|September 2024 Q11": [
         "u118"
+      ],
+      "copy|Balance training is effective, and a rollator can improve walking tolerance in people with severe disability (p1258).": [
+        "u231"
+      ],
+      "copy|Depression is a common comorbidity of COPD (p1241, p1247).": [
+        "u232"
+      ],
+      "copy|Cognitive impairment can make an inhaler hard to use correctly and should inform device selection (p1248, p1255).": [
+        "u233"
       ]
     },
     "sequenceOffsets": [
@@ -32449,8 +32493,12 @@
         -118
       ],
       [
-        366,
-        0
+        349,
+        -115
+      ],
+      [
+        363,
+        3
       ]
     ]
   },
@@ -38904,6 +38952,9 @@
       ],
       "copy|September 2024 Q14 Pausing an anticoagulant p380": [
         "u372"
+      ],
+      "copy|ההנחיות של הר״י מדצמבר 2024 מציעות לאתר בני 75 ומעלה עם אחד או יותר מהמאפיינים המפורטים, ובהם ירידה קוגניטיבית, ירידה משמעותית בתפקוד או בניידות, ירידה משמעותית במשקל, הפרעת בליעה או אספירציות, ריבוי מחלות או תרופות, ומועמדות לניתוח גדול.": [
+        "u236"
       ]
     },
     "maxId": 372,
@@ -59232,7 +59283,27 @@
         591,
         -20
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "The moistening of the food in the oral cavity is essential for normal bolus transit and/or flow and clearance, particularly because gravity provides no assistance until the vertical phases of swallowing.": [
+        83
+      ],
+      "The intrinsic tongue muscles change the shape and position of the tongue, forming grooves along its body and anterior and lateral seals to facilitate containment (Figure 31-4A), and then progressively arching the tongue posteriorly to transport the bolus to the vertical subsystem (Figures 31-4B and C).": [
+        73
+      ],
+      "However, fluids of low viscosity (eg, water, tea), by their composition, are likely to move more quickly than the physiology to handle them safely and thus put older people at increased risk for aspiration.": [
+        15
+      ],
+      "The entire eating process, which includes self-feeding (transferring food from the table to the mouth) in addition to swallowing, is affected in patients with dementia.": [
+        153
+      ],
+      "If the symptoms are progressive, a peptic stricture or carcinoma is more likely.": [
+        64
+      ],
+      "All oropharyngeal structures can be examined with regard to their contribution to the coordinated (or uncoordinated) swallow in terms of timing and range of motion.": [
+        17
+      ]
+    }
   },
   "95": {
     "entries": {
@@ -67606,7 +67677,7 @@
         "u81"
       ],
       "copy|TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM": [
-        "u82"
+        "u356"
       ],
       "copy|Owner annotations/highlights are from the marked source copy, not the book.": [
         "u83",
@@ -67616,7 +67687,7 @@
         "u209"
       ],
       "copy|has caused, for example, loss of function such as the ability to ambulate, drive, or toilet independently, chronic physical pain, diminution in mental capacity, or loss of ability to engage in sexual relations.": [
-        "u84"
+        "u356"
       ],
       "copy|In very rare circumstances, punitive or exemplary damages may be awarded over and above compensatory damages, where the defendant’s conduct has been not merely negligent, but reckless or malicious.": [
         "u85"
@@ -67685,10 +67756,10 @@
         "u106"
       ],
       "copy|TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES": [
-        "u107"
+        "u357"
       ],
       "copy|specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S.": [
-        "u109"
+        "u357"
       ],
       "copy|Preventive Services Task Force, and individual institutions and agencies in the United States and elsewhere have engaged in a concerted movement to develop, collect, and disseminate to practicing clinicians a variety of evidence-based CPGs or parameters to educate practitioners about whether particular diagnostic or therapeutic interventions have actually been demonstrated to produce desired health benefits for patients.": [
         "u110"
@@ -67760,10 +67831,10 @@
         "u132"
       ],
       "copy|TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING": [
-        "u133"
+        "u358"
       ],
       "copy|requires the disclosure of information that an objective reasonable, prudent professional would disclose under similar circumstances.": [
-        "u135"
+        "u358"
       ],
       "copy|By comparison, the materiality or patient orientation standard compels the sharing of information that might make a difference or be material in the decisionmaking process of a reasonable patient in similar circumstances.": [
         "u136"
@@ -67850,10 +67921,10 @@
         "u163"
       ],
       "copy|TABLE 26-4 ■ COMPONENTS OF FUNCTIONAL ASSESSMENT OF DECISIONAL CAPACITY": [
-        "u164"
+        "u359"
       ],
       "copy|may be susceptible to manipulation by caregivers (eg, by changing timing of drug administration) so that discussions with the patient (rather than or in addition to the surrogate) about the care plan can take place under the most lucid circumstances possible.": [
-        "u166"
+        "u359"
       ],
       "copy|There are several legal mechanisms available to maximize a patient’s medical autonomy prospectively.": [
         "u167"
@@ -68405,17 +68476,39 @@
       ],
       [
         357,
-        -1
+        -10
       ],
       [
-        361,
-        -14
-      ],
-      [
-        362,
-        -2
+        358,
+        2
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "In the past few decades, some juries have become more willing to award substantial noneconomic damages to older patients claiming medical negligence that has caused, for example, loss of function such as the ability to ambulate, drive, or toilet independently, chronic physical pain, diminution in mental capacity, or loss of ability to engage in sexual relations.": [
+        153
+      ],
+      "TABLE 26-1 ■ ELEMENTS OF A PROFESSIONAL NEGLIGENCE CLAIM In very rare circumstances, punitive or exemplary damages may be awarded over and above compensatory damages, where the defendant’s conduct has been not merely negligent, but reckless or malicious.": [
+        56
+      ],
+      "Out of a concern about both wasteful resource usage and the quality of patient care, professional organizations and specialty societies, including the American Geriatrics Society and the Society for Post-Acute and Long-Term Care Medicine (AMDA), governmental agencies led by the federal Agency for Healthcare Research and Quality (AHRQ), and the Patient-Centered Outcomes Research Institute (PCORI), independent bodies such as the U.S.": [
+        115
+      ],
+      "TABLE 26-2 ■ PROOF OF THE STANDARD OF REASONABLE CARE UNDER THE CIRCUMSTANCES Preventive Services Task Force, and individual institutions and agencies in the United States and elsewhere have engaged in a concerted movement to develop, collect, and disseminate to practicing clinicians a variety of evidence-based CPGs or parameters to educate practitioners about whether particular diagnostic or therapeutic interventions have actually been demonstrated to produce desired health benefits for patients.": [
+        77
+      ],
+      "The medical custom or reasonable professional standard requires the disclosure of information that an objective reasonable, prudent professional would disclose under similar circumstances.": [
+        54
+      ],
+      "TABLE 26-3 ■ ELEMENTS OF LEGALLY VALID MEDICAL DECISION-MAKING By comparison, the materiality or patient orientation standard compels the sharing of information that might make a difference or be material in the decisionmaking process of a reasonable patient in similar circumstances.": [
+        62
+      ],
+      "Some of these factors may be susceptible to manipulation by caregivers (eg, by changing timing of drug administration) so that discussions with the patient (rather than or in addition to the surrogate) about the care plan can take place under the most lucid circumstances possible.": [
+        21
+      ],
+      "These waivers take place daily to make information available to thirdparty payers (for instance, Medicare claims processors and private health insurers), quality of care auditors (such as Joint Commission surveyors), and other public and private entities like health care surrogates authorized to make medical decisions on behalf of a patient who is not capable of making their own decisions.": [
+        127
+      ]
+    }
   },
   "60s": {
     "entries": {
@@ -75595,6 +75688,9 @@
       ],
       "copy|2020 Q97 Functional decline after an ED visit p209": [
         "u387"
+      ],
+      "copy|2020 Q97 Functional decline after an ED visit p217": [
+        "u387"
       ]
     },
     "maxId": 387,
@@ -77750,6 +77846,81 @@
       ],
       "copy|About this chapter": [
         "u718"
+      ],
+      "imaging-of-the-skeletal-muscles|Imaging of the Skeletal Muscles": [
+        "u68"
+      ],
+      "muscle-biopsy|Muscle Biopsy": [
+        "u74"
+      ],
+      "idiopathic-inflammatory-myopathies|Idiopathic Inflammatory Myopathies": [
+        "u86"
+      ],
+      "dermatomyositis-dm-polymyositis-pm-immune-mediated-necrotizing-myopathy-imnm-and-anti-synthetase-syndrome-asys|Dermatomyositis (DM), Polymyositis (PM), Immune-Mediated Necrotizing Myopathy (IMNM), and Anti-Synthetase Syndrome (ASyS)": [
+        "u93"
+      ],
+      "amyloid-myopathy|Amyloid Myopathy": [
+        "u272"
+      ],
+      "drug-induced-myopathies|Drug-Induced Myopathies": [
+        "u278"
+      ],
+      "immune-checkpoint-inhibitors|Immune Checkpoint Inhibitors": [
+        "u349"
+      ],
+      "hydroxychloroquine|Hydroxychloroquine": [
+        "u360"
+      ],
+      "late-onset-muscular-dystrophies|Late-Onset Muscular Dystrophies": [
+        "u371"
+      ],
+      "late-onset-mitochondrial-myopathy|Late-Onset Mitochondrial Myopathy": [
+        "u396"
+      ],
+      "paraspinal-myopathies-of-older-people|Paraspinal Myopathies of Older People": [
+        "u404"
+      ],
+      "polymyalgia-rheumatica|Polymyalgia Rheumatica": [
+        "u431"
+      ],
+      "copy|Magnetic resonance imaging (MRI) can demonstrate muscle inflammation, edema with active myositis, fibrosis, and calcification.": [
+        "u68"
+      ],
+      "copy|Clinical features—history, exam, laboratories, EMG, and MRI—infrequently provide a diagnosis of a specific muscular disorder.": [
+        "u74"
+      ],
+      "copy|TABLE 100-1 ■ MYOPATHIES MORE SPECIFIC FOR THE OLDER PERSON": [
+        "u86"
+      ],
+      "copy|The idiopathic inflammatory myopathies (IIM) are the most common cause of primary myopathy in older people.": [
+        "u86"
+      ],
+      "copy|Patients with classic dermatomyositis (DM) typically present with symmetric proximal muscle weakness, elevated muscle enzymes, and characteristic cutaneous findings.": [
+        "u93"
+      ],
+      "copy|Muscle involvement in patients with amyloidosis is a common finding in this rare disorder.": [
+        "u272"
+      ],
+      "copy|Although the exact percentage is unknown, the prevalence of drug-induced myopathy in older people is not trivial.": [
+        "u278"
+      ],
+      "copy|The past decade has seen the emergence of a revolutionary approach to cancer therapy using checkpoint inhibitors, called immunotherapy.": [
+        "u349"
+      ],
+      "copy|Hydroxychloroquine (HCQ) is an antimalarial medication with immunomodulatory properties.": [
+        "u360"
+      ],
+      "copy|Muscular dystrophies are genetically determined degenerative myopathies that usually present before adulthood.": [
+        "u371"
+      ],
+      "copy|Ragged red fibers are the histologic hallmark of mitochondrial dysfunction and represent the result of a diverse set of conditions, including normal aging, sporadic IBM and other neuromuscular diseases, and myopathies from drugs that cause mitochondrial damage.": [
+        "u396"
+      ],
+      "copy|Severe weakness isolated to paraspinal muscles is uncommon and usually a manifestation of another underlying neurologic disease, muscular dystrophy, or myopathy.": [
+        "u404"
+      ],
+      "copy|PMR is a clinical syndrome of the neck and limb-girdle aching of older adults.": [
+        "u431"
       ]
     },
     "maxId": 718,
@@ -79693,6 +79864,9 @@
       ],
       "copy|P005-2026 excludes Chapter 34 and separately assigns the NEJM review on age-related hearing loss.": [
         "u43"
+      ],
+      "copy|and fluids coil “snail-like” for 2½ to 4½ turns (depending an species) and a total length of a few centimeters without any relationship to body size.": [
+        "u135"
       ]
     },
     "maxId": 523,
@@ -79751,37 +79925,51 @@
       ],
       [
         543,
-        -408
+        -407
+      ],
+      [
+        544,
+        -382
       ],
       [
         545,
-        -383
+        18
       ],
       [
         546,
-        17
+        -22
       ],
       [
-        547,
-        -23
+        548,
+        16
       ],
       [
-        549,
-        15
+        551,
+        -204
       ],
       [
         552,
-        -205
+        -26
       ],
       [
-        553,
-        -27
-      ],
-      [
-        579,
-        -110
+        578,
+        -109
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "The mammalian auditory organ, the cochlea (Figure 34-1), is encased in bone, and its tissues and fluids coil “snail-like” for 2½ to 4½ turns (depending an species) and a total length of a few centimeters without any relationship to body size.": [
+        92
+      ],
+      "The major function of outer hair cells, which receive mostly efferent innervation from auditory centers in the brain, is to enhance the performance of the cochlea, particularly at low intensities of sound.": [
+        120
+      ],
+      "Defining hearing loss as beginning at a threshold shift of 25 dB in one ear is clinically useful but does not necessarily mean that an afflicted person even notices the deficit.": [
+        151
+      ],
+      "In addition to deficiencies in peripheral auditory processing, advanced age can lead to changes in the central auditory system, which can essentially be classified into two major types.": [
+        172
+      ]
+    }
   },
   "34s": {
     "entries": {
@@ -96469,6 +96657,9 @@
       ],
       "copy|The table therefore describes the 2013 recommendations.": [
         "u1303"
+      ],
+      "copy|James J, Hicks D, Sinclair A. https://trenddiabetes.online/portfolio/end-of-life-guidance-for-diabetes-care/ [trenddiabetes.online].": [
+        "u1382"
       ]
     },
     "maxId": 1498,
@@ -103068,7 +103259,44 @@
   },
   "30": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "copy|Even healthy older individuals experience": [
+        "u194"
+      ],
+      "copy|such changes.": [
+        "u196"
+      ],
+      "copy|However, when different methodologic approaches are used, which in some cases include controlling for cohort mortality and age-related survey selection bias, all-cause mortality appears to increase in direct relationship with BMI in the": [
+        "u256"
+      ],
+      "copy|range of 25 to more than 40.": [
+        "u262"
+      ],
+      "copy|Slowed mental processing, including": [
+        "u491"
+      ],
+      "copy|poorer performance on mental status testing, and depressive symptoms (particularly impaired motivation and social withdrawal) have been described in patients with folic acid deficiency.": [
+        "u493"
+      ],
+      "copy|Also, EN in actual practice often involves delayed and inadequate": [
+        "u817"
+      ],
+      "copy|nutritional support because of frequent problems with tubes (eg, self-extubation, plugging) or GI intolerance (eg, high residuals, bloating, diarrhea).": [
+        "u819"
+      ],
+      "copy|Increasing the proportion of energy supplied by fat can reduce hyperglycemia and carbon dioxide production, but fat delivery should not exceed 2.5 g/kg/day (or 50%– 60% of nonprotein calories) to avoid possible adverse": [
+        "u875"
+      ],
+      "copy|consequences associated with fat overload.": [
+        "u877"
+      ],
+      "copy|At some institutions, carbohydrate, fat, and protein TPN components are mixed together into a single bag (total nutrient admixture or 3-in-1 formula), which may have cost and convenience benefits compared to traditional TPN": [
+        "u881"
+      ],
+      "copy|administration of dextrose and amino acids (2-in-1) with separate intravenous (IV) fat emulsion infusions.": [
+        "u883"
+      ]
+    },
     "sequenceOffsets": [
       [
         23,
@@ -103315,254 +103543,374 @@
         -34
       ],
       [
-        237,
-        878
-      ],
-      [
-        238,
-        -34
-      ],
-      [
-        246,
-        870
-      ],
-      [
-        247,
+        228,
         -33
       ],
       [
-        264,
-        853
-      ],
-      [
-        265,
-        -33
-      ],
-      [
-        285,
+        229,
         -32
       ],
       [
-        300,
-        818
+        235,
+        880
       ],
       [
-        301,
+        236,
         -32
       ],
       [
-        306,
+        244,
+        872
+      ],
+      [
+        245,
         -31
       ],
       [
-        310,
-        809
+        262,
+        855
       ],
       [
-        311,
+        263,
         -31
       ],
       [
-        331,
-        789
-      ],
-      [
-        332,
-        -31
-      ],
-      [
-        347,
-        774
-      ],
-      [
-        348,
-        -31
-      ],
-      [
-        369,
-        753
-      ],
-      [
-        370,
-        -31
-      ],
-      [
-        383,
-        740
-      ],
-      [
-        384,
-        -31
-      ],
-      [
-        435,
-        689
-      ],
-      [
-        436,
-        -31
-      ],
-      [
-        465,
+        283,
         -30
       ],
       [
-        468,
-        657
-      ],
-      [
-        469,
-        -30
-      ],
-      [
-        476,
-        650
-      ],
-      [
-        477,
-        -30
-      ],
-      [
-        488,
-        639
-      ],
-      [
-        490,
+        286,
         -29
       ],
       [
-        500,
+        291,
         -28
       ],
       [
-        513,
-        616
+        296,
+        822
       ],
       [
-        514,
+        297,
         -28
       ],
       [
-        528,
-        602
+        302,
+        -27
       ],
       [
-        529,
-        -28
+        306,
+        813
       ],
       [
-        555,
-        576
+        307,
+        -27
       ],
       [
-        556,
-        -28
+        327,
+        793
       ],
       [
-        558,
-        574
+        328,
+        -27
       ],
       [
-        559,
-        -28
+        343,
+        778
+      ],
+      [
+        344,
+        -27
+      ],
+      [
+        365,
+        757
+      ],
+      [
+        366,
+        -27
+      ],
+      [
+        379,
+        744
+      ],
+      [
+        380,
+        -27
+      ],
+      [
+        431,
+        693
+      ],
+      [
+        432,
+        -27
+      ],
+      [
+        461,
+        -26
+      ],
+      [
+        464,
+        661
+      ],
+      [
+        465,
+        -26
+      ],
+      [
+        472,
+        654
+      ],
+      [
+        473,
+        -26
+      ],
+      [
+        484,
+        643
+      ],
+      [
+        486,
+        -25
+      ],
+      [
+        496,
+        -24
+      ],
+      [
+        509,
+        620
+      ],
+      [
+        510,
+        -24
+      ],
+      [
+        515,
+        -23
+      ],
+      [
+        516,
+        -22
+      ],
+      [
+        522,
+        608
+      ],
+      [
+        523,
+        -22
+      ],
+      [
+        549,
+        582
+      ],
+      [
+        550,
+        -22
+      ],
+      [
+        552,
+        580
+      ],
+      [
+        553,
+        -22
+      ],
+      [
+        569,
+        564
+      ],
+      [
+        570,
+        -22
       ],
       [
         575,
-        558
+        559
       ],
       [
         576,
-        -28
+        -22
       ],
       [
-        581,
-        553
+        603,
+        -21
       ],
       [
-        582,
-        -28
+        644,
+        491
       ],
       [
-        609,
-        -27
+        645,
+        -21
       ],
       [
-        650,
-        485
+        657,
+        479
       ],
       [
-        651,
-        -27
+        658,
+        -21
       ],
       [
-        663,
-        473
+        667,
+        -20
       ],
       [
-        664,
-        -27
+        672,
+        465
       ],
       [
         673,
-        -26
+        -20
       ],
       [
-        678,
-        459
+        676,
+        462
       ],
       [
-        679,
-        -26
+        677,
+        -20
       ],
       [
-        682,
-        456
+        690,
+        449
       ],
       [
-        683,
-        -26
+        691,
+        -20
       ],
       [
-        696,
-        443
+        715,
+        -19
       ],
       [
-        697,
-        -26
+        836,
+        -18
       ],
       [
-        721,
-        -25
+        837,
+        -17
       ],
       [
-        869,
-        271
+        861,
+        279
       ],
       [
-        870,
-        -25
+        862,
+        -17
       ],
       [
-        941,
-        151
+        892,
+        -16
       ],
       [
-        942,
-        -5
+        893,
+        -15
       ],
       [
-        950,
-        -33
+        896,
+        -14
       ],
       [
-        969,
-        -24
+        897,
+        -13
+      ],
+      [
+        929,
+        163
+      ],
+      [
+        930,
+        7
+      ],
+      [
+        938,
+        -21
+      ],
+      [
+        957,
+        -12
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "Even healthy older individuals experience such changes.": [
+        41
+      ],
+      "However, when different methodologic approaches are used, which in some cases include controlling for cohort mortality and age-related survey selection bias, all-cause mortality appears to increase in direct relationship with BMI in the range of 25 to more than 40.": [
+        236
+      ],
+      "Slowed mental processing, including poorer performance on mental status testing, and depressive symptoms (particularly impaired motivation and social withdrawal) have been described in patients with folic acid deficiency.": [
+        35
+      ],
+      "Also, EN in actual practice often involves delayed and inadequate nutritional support because of frequent problems with tubes (eg, self-extubation, plugging) or GI intolerance (eg, high residuals, bloating, diarrhea).": [
+        65
+      ],
+      "Increasing the proportion of energy supplied by fat can reduce hyperglycemia and carbon dioxide production, but fat delivery should not exceed 2.5 g/kg/day (or 50%– 60% of nonprotein calories) to avoid possible adverse consequences associated with fat overload.": [
+        218
+      ],
+      "At some institutions, carbohydrate, fat, and protein TPN components are mixed together into a single bag (total nutrient admixture or 3-in-1 formula), which may have cost and convenience benefits compared to traditional TPN administration of dextrose and amino acids (2-in-1) with separate intravenous (IV) fat emulsion infusions.": [
+        223
+      ]
+    }
   },
   "36": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "copy|Alternative hormonal agents": [
+        "u381"
+      ],
+      "copy|(dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.": [
+        "u390"
+      ],
+      "copy|The location of the squamocolumnar junction, the border between squamous (ectocervical) and mucous (endocervical)": [
+        "u401"
+      ],
+      "copy|epithelia, changes location over a lifespan.": [
+        "u408"
+      ],
+      "copy|The three main issues in": [
+        "u432"
+      ],
+      "copy|older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.": [
+        "u434"
+      ],
+      "copy|If the cervix appears normal, screening with": [
+        "u505"
+      ],
+      "copy|both cytology and HPV genotyping (co-testing) is advisable unless recently performed.": [
+        "u506"
+      ],
+      "copy|TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN": [
+        "u506"
+      ],
+      "copy|An abnormal appearing cervix warrants biopsy.": [
+        "u507"
+      ],
+      "copy|In patients with little symptomatic bother and minimal other signs or symptoms,": [
+        "u654"
+      ],
+      "copy|observation may be adequate.": [
+        "u656"
+      ],
+      "copy|The POP-Q system is more commonly used in": [
+        "u700"
+      ],
+      "copy|research settings but is also useful in a simplified approach in defining the leading edge of the prolapse.": [
+        "u703"
+      ],
+      "copy|There are a number of different sizes and shapes": [
+        "u724"
+      ],
+      "copy|for pessaries and most of them are made from silicone.": [
+        "u733"
+      ],
+      "copy|March 2014. https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer/.": [
+        "u845"
+      ]
+    },
     "sequenceOffsets": [
       [
         15,
@@ -103617,30 +103965,112 @@
         4
       ],
       [
-        687,
+        377,
+        5
+      ],
+      [
+        385,
+        6
+      ],
+      [
+        395,
+        7
+      ],
+      [
+        401,
+        8
+      ],
+      [
+        424,
         9
       ],
       [
-        688,
-        3
+        425,
+        10
       ],
       [
-        691,
-        6
+        495,
+        13
       ],
       [
-        775,
-        58
+        641,
+        14
       ],
       [
-        778,
-        3
+        642,
+        15
       ],
       [
-        830,
-        6
+        676,
+        20
+      ],
+      [
+        677,
+        14
+      ],
+      [
+        680,
+        17
+      ],
+      [
+        683,
+        18
+      ],
+      [
+        685,
+        19
+      ],
+      [
+        705,
+        20
+      ],
+      [
+        713,
+        21
+      ],
+      [
+        760,
+        73
+      ],
+      [
+        763,
+        18
+      ],
+      [
+        815,
+        21
+      ],
+      [
+        824,
+        22
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "Alternative hormonal agents (dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.": [
+        27
+      ],
+      "The location of the squamocolumnar junction, the border between squamous (ectocervical) and mucous (endocervical) epithelia, changes location over a lifespan.": [
+        113
+      ],
+      "The three main issues in older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.": [
+        24
+      ],
+      "If the cervix appears normal, screening with both cytology and HPV genotyping (co-testing) is advisable unless recently performed.": [
+        44
+      ],
+      "TABLE 36-5 ■ DIFFERENTIAL DIAGNOSIS OF VAGINAL BLEEDING IN OLDER WOMEN An abnormal appearing cervix warrants biopsy.": [
+        70
+      ],
+      "In patients with little symptomatic bother and minimal other signs or symptoms, observation may be adequate.": [
+        79
+      ],
+      "The POP-Q system is more commonly used in research settings but is also useful in a simplified approach in defining the leading edge of the prolapse.": [
+        41
+      ],
+      "There are a number of different sizes and shapes for pessaries and most of them are made from silicone.": [
+        48
+      ]
+    }
   },
   "38": {
     "maxId": 0,
@@ -104398,7 +104828,74 @@
   },
   "106": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "asb-in-older-adults|ASB in Older Adults": [
+        "u82"
+      ],
+      "uti-in-older-adults|UTI in Older Adults": [
+        "u94"
+      ],
+      "risk-factors-in-older-adults-for-uti|Risk Factors in Older Adults for UTI": [
+        "u110"
+      ],
+      "asymptomatic-bacteriuria|Asymptomatic Bacteriuria": [
+        "u131"
+      ],
+      "presentation-and-evaluation-of-symptomatic-uti|Presentation and Evaluation of Symptomatic UTI": [
+        "u136"
+      ],
+      "microbiology-of-uti|Microbiology of UTI": [
+        "u226"
+      ],
+      "other-antimicrobial-sparing-agents|Other Antimicrobial Sparing Agents": [
+        "u389"
+      ],
+      "prevention-of-catheter-associated-uti|Prevention of Catheter-Associated UTI": [
+        "u393"
+      ],
+      "outcomes|Outcomes": [
+        "u417"
+      ],
+      "antibiotic-resistance|Antibiotic Resistance": [
+        "u427"
+      ],
+      "antimicrobial-stewardship-programs|Antimicrobial Stewardship Programs": [
+        "u451"
+      ],
+      "copy|The prevalence of ASB increases with age and is more prevalent in those residing in PALTC settings.": [
+        "u82"
+      ],
+      "copy|The incidence of UTI in postmenopausal women is 0.07 per person-year according to a large population-based study.": [
+        "u94"
+      ],
+      "copy|Older adults may be at higher risk for development of UTI due to a variety of host factors associated with aging, such as a decline in B- and T-cell function.": [
+        "u110"
+      ],
+      "copy|It has been well documented that clinicians should not screen older adults for ASB and those with ASB should not be treated with antibiotics.": [
+        "u131"
+      ],
+      "copy|The presentation of UTI varies significantly in the older population and is particularly dependent on a person’s age, medical comorbidities (eg, diabetes, cerebrovascular disease, Parkinson disease, etc), structural or functional urinary tract abnormalities, demographics (ie, PALTC settings or community-dwelling), and presence of a urinary catheter (eg, urethral or suprapubic).": [
+        "u136"
+      ],
+      "copy|The most frequent organism isolated from urinary cultures in both asymptomatic and symptomatic ambulatory elderly women is E coli, accounting for 75% to 95% of infections.": [
+        "u226"
+      ],
+      "copy|In addition to the cranberry products and vaginal estrogens, several other agents have been used in clinical practice for prevention of UTI but their benefits remain uncertain.": [
+        "u389"
+      ],
+      "copy|The most effective strategies for prevention of CAUTI are to avoid catheterization and, when an indwelling catheter is indicated, to discontinue the catheter as soon as possible.": [
+        "u393"
+      ],
+      "copy|Most healthy older adults with symptomatic UTI respond well to antibiotic therapy.": [
+        "u417"
+      ],
+      "copy|Antibiotic resistance is a large problem in all health care settings including outpatient, PALTC and acute hospital settings.": [
+        "u427"
+      ],
+      "copy|UTIs are major driver of antibiotic use and inappropriate antibiotic prescribing related to UTI is common in various health care (including acute-care, outpatient, and PALTC) settings.": [
+        "u451"
+      ]
+    },
     "sequenceOffsets": [
       [
         12,
@@ -104573,42 +105070,191 @@
         -36
       ],
       [
-        403,
-        261
+        118,
+        -35
       ],
       [
-        404,
-        -36
+        129,
+        -34
       ],
       [
-        414,
-        251
+        144,
+        -33
       ],
       [
-        415,
-        -36
+        164,
+        -32
       ],
       [
-        505,
-        161
+        168,
+        -31
       ],
       [
-        506,
-        -36
+        257,
+        -30
       ],
       [
-        521,
-        -4
+        325,
+        342
       ],
       [
-        528,
-        121
+        327,
+        -32
+      ],
+      [
+        399,
+        265
+      ],
+      [
+        400,
+        -32
+      ],
+      [
+        410,
+        255
+      ],
+      [
+        411,
+        -32
+      ],
+      [
+        421,
+        -31
+      ],
+      [
+        424,
+        -30
+      ],
+      [
+        447,
+        -29
+      ],
+      [
+        456,
+        -28
+      ],
+      [
+        479,
+        -27
+      ],
+      [
+        496,
+        170
+      ],
+      [
+        497,
+        -27
+      ],
+      [
+        512,
+        5
+      ],
+      [
+        519,
+        130
       ]
     ]
   },
   "107": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "copy|Screening": [
+        "u68"
+      ],
+      "copy|HIV Testing": [
+        "u82"
+      ],
+      "copy|Selection and Initiation of Antiretroviral Treatment": [
+        "u87"
+      ],
+      "copy|General Care Considerations for the Older Adult With HIV": [
+        "u113"
+      ],
+      "copy|Models of Geriatric HIV Care": [
+        "u127"
+      ],
+      "copy|VZV Transmission": [
+        "u202"
+      ],
+      "copy|Herpes Zoster Incidence and Risk Factors": [
+        "u209"
+      ],
+      "copy|Acute Herpes Zoster": [
+        "u285"
+      ],
+      "copy|Antiviral Therapy": [
+        "u289"
+      ],
+      "copy|Analgesics": [
+        "u296"
+      ],
+      "copy|Corticosteroids": [
+        "u302"
+      ],
+      "copy|Adjuvant Agents": [
+        "u310"
+      ],
+      "copy|Recombinant Zoster Vaccine": [
+        "u316"
+      ],
+      "copy|Efficacy": [
+        "u320"
+      ],
+      "copy|Safety and Reactogenicity": [
+        "u329"
+      ],
+      "copy|Clinical Guidance": [
+        "u352"
+      ],
+      "copy|No one is immune to HIV infection, and nearly 15% of people with HIV (PWH) in the United States and approximately 45% of persons worldwide are unaware of their diagnosis, presenting the greatest transmission risk.": [
+        "u68"
+      ],
+      "copy|In most clinical settings, the prior two-step ELISA (antibody) and Western blot testing strategy has been replaced by a fourth-generation combination HIV-1/2 immunoassay that tests for both HIV-1 and HIV-2 antibodies and the HIV p24 antigen.": [
+        "u82"
+      ],
+      "copy|Patients with a new HIV diagnosis should be connected to HIV care as quickly as possible.": [
+        "u87"
+      ],
+      "copy|After antiretroviral initiation, the incidence of AIDS conditions drops dramatically, but ongoing and consistent therapy is imperative.": [
+        "u113"
+      ],
+      "copy|Accompanying an increasing number of older adults with HIV is, unfortunately, a shortage of both HIV and geriatric medicine clinic providers.": [
+        "u127"
+      ],
+      "copy|VZV is a double-stranded DNA herpesvirus that is transmitted from person to person via direct contact or airborne": [
+        "u202"
+      ],
+      "copy|In general population studies from North America and Europe, the estimated incidence of herpes zoster in persons older than age 65 varies from approximately 10 to 14 cases per 1000 per year.": [
+        "u209"
+      ],
+      "copy|The principal goal of the treatment of herpes zoster in older adults is to decrease the length of the acute attack and to reduce or eliminate pain.": [
+        "u285"
+      ],
+      "copy|The guanosine analogs acyclovir, famciclovir, and valacyclovir are phosphorylated by viral thymidine kinase to a triphosphate form that inhibits VZV DNA polymerase and VZV replication (Table 107-1).": [
+        "u289"
+      ],
+      "copy|Acute herpes zoster pain requires the use of standardized pain measures, scheduled analgesia, and close monitoring": [
+        "u296"
+      ],
+      "copy|The anti-inflammatory effects of corticosteroids have been postulated to reduce herpes zoster symptoms but there remains controversy over their use.": [
+        "u302"
+      ],
+      "copy|If moderate-to-severe herpes zoster pain is inadequately relieved by antiviral agents in combination with oral analgesic medications and/or corticosteroids, then other therapies to consider include gabapentin or pregabalin or neural blockade.": [
+        "u310"
+      ],
+      "copy|The adjuvanted recombinant zoster vaccine (RZV; Shingrix©) is a powerful tool to prevent herpes zoster and PHN in older adults.": [
+        "u316"
+      ],
+      "copy|The efficacy of RZV was demonstrated in over 30,000 immunocompetent community-dwelling elders in the randomized, blinded, placebo-controlled Zoster Efficacy Study in Adults 50 Years of Age or Older (ZOE-50) and Zoster Efficacy Study in Adults 70 Years of Age or Older (ZOE-70) (Figure 107-4).": [
+        "u320"
+      ],
+      "copy|The only contraindication to RZV is a history of a severe allergic reaction to any component of the vaccine or after a previous dose of RZV.": [
+        "u329"
+      ],
+      "copy|The Advisory Committee on Immunization Practices (ACIP) at the CDC recommends RZV for the prevention of herpes zoster and related complications in immunocompetent adults aged 50 or older including individuals who previously received zoster vaccine live (ZVL; Zostavax©).": [
+        "u352"
+      ]
+    },
     "sequenceOffsets": [
       [
         23,
@@ -104635,44 +105281,108 @@
         -3
       ],
       [
-        196,
+        71,
+        -2
+      ],
+      [
+        84,
+        -1
+      ],
+      [
+        88,
+        0
+      ],
+      [
+        113,
+        1
+      ],
+      [
+        126,
         2
       ],
       [
-        357,
-        181
+        191,
+        7
       ],
       [
-        358,
-        60
+        195,
+        8
       ],
       [
-        361,
-        -1
+        201,
+        9
       ],
       [
-        370,
-        179
+        276,
+        10
       ],
       [
-        371,
-        -1
+        279,
+        11
       ],
       [
-        418,
-        3
+        285,
+        12
       ],
       [
-        488,
-        62
+        290,
+        13
       ],
       [
-        489,
-        3
+        297,
+        14
       ],
       [
-        535,
-        4
+        302,
+        15
+      ],
+      [
+        305,
+        16
+      ],
+      [
+        313,
+        17
+      ],
+      [
+        335,
+        18
+      ],
+      [
+        341,
+        197
+      ],
+      [
+        342,
+        76
+      ],
+      [
+        345,
+        15
+      ],
+      [
+        354,
+        195
+      ],
+      [
+        355,
+        15
+      ],
+      [
+        402,
+        19
+      ],
+      [
+        472,
+        78
+      ],
+      [
+        473,
+        19
+      ],
+      [
+        519,
+        20
       ]
     ]
   },
@@ -136007,7 +136717,176 @@
   },
   "103": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "fibromyalgia-criteria-historical-perspective|Fibromyalgia Criteria: Historical Perspective": [
+        "u65"
+      ],
+      "patient-history|Patient history": [
+        "u92"
+      ],
+      "nonpharmacologic-therapies|Nonpharmacologic Therapies": [
+        "u196"
+      ],
+      "treatment-for-refractory-cases|Treatment for Refractory Cases": [
+        "u231"
+      ],
+      "assessing-response-to-treatment|Assessing Response to Treatment": [
+        "u237"
+      ],
+      "background-and-epidemiology|Background and Epidemiology": [
+        "u239"
+      ],
+      "taking-the-history|Taking the History": [
+        "u271"
+      ],
+      "diagnosing-myofascial-pain-performing-the-physical-examination|Diagnosing Myofascial Pain: Performing the Physical Examination": [
+        "u276"
+      ],
+      "cervicogenic-headache|Cervicogenic Headache": [
+        "u301"
+      ],
+      "deep-gluteal-pain-syndrome|Deep Gluteal Pain Syndrome": [
+        "u315"
+      ],
+      "trapezius-mps|Trapezius MPS": [
+        "u332"
+      ],
+      "levator-scapulae-mps|Levator Scapulae MPS": [
+        "u346"
+      ],
+      "upper-and-lower-back-pain|Upper and Lower Back Pain": [
+        "u352"
+      ],
+      "pseudotrochanteric-bursitis|Pseudotrochanteric bursitis": [
+        "u372"
+      ],
+      "postherpetic-mps|Postherpetic MPS": [
+        "u382"
+      ],
+      "addressing-precipitating-and-perpetuating-factors|Addressing Precipitating and Perpetuating Factors": [
+        "u417"
+      ],
+      "treating-mtrps|Treating MTrPs": [
+        "u441"
+      ],
+      "home-exercise-program|Home Exercise Program": [
+        "u447"
+      ],
+      "other-treatments|Other Treatments": [
+        "u455"
+      ],
+      "copy|The gold standard for diagnosing fibromyalgia (FM) is clinical evaluation by a specialist.": [
+        "u65"
+      ],
+      "copy|Fibromyalgia patients often report that they feel pain “all over.”": [
+        "u92"
+      ],
+      "copy|Uncommon symptoms (< 20% prevalence) include tinnitus, dizziness,": [
+        "u107"
+      ],
+      "copy|vertigo, and Raynaud phenomenon.": [
+        "u112"
+      ],
+      "copy|Symptoms typically begin": [
+        "u132"
+      ],
+      "copy|within weeks to months of drug exposure and resolve with discontinuation.": [
+        "u135"
+      ],
+      "copy|Nonpharmacologic therapies for fibromyalgia include cognitive-behavioral techniques, exercise, acupuncture, balneotherapy (ie, bathing), and massage.": [
+        "u196"
+      ],
+      "copy|Systematic review": [
+        "u197"
+      ],
+      "copy|of regular aerobic exercise for fibromyalgia (20 minutes daily, 2–3 times a week) demonstrated improvements in pain, function, aerobic capacity, and well-being.": [
+        "u206"
+      ],
+      "copy|Lectures on fibromyalgia and the benefits of": [
+        "u214"
+      ],
+      "copy|exercise improve treatment outcomes.": [
+        "u217"
+      ],
+      "copy|Several factors limit the effectiveness of fibromyalgia treatment, including medication under-prescribing, underdosing, and/or patient noncompliance.": [
+        "u231"
+      ],
+      "copy|Several standardized questionnaires are available to assess response to treatment.": [
+        "u237"
+      ],
+      "copy|Myofascial pain syndrome (MPS) arises from muscle as well as surrounding fascia and is characterized by the presence of taut bands of skeletal muscle, which may contain palpable nodules (myofascial trigger points [MTrPs]; Figure 103-4).": [
+        "u239"
+      ],
+      "copy|Surrounding alpha motor neurons in the spinal cord": [
+        "u252"
+      ],
+      "copy|are also excited, leading to the formation of an MTrP.": [
+        "u257"
+      ],
+      "copy|Patients with MPS may use a variety of pain descriptors— dull, aching, sharp, stabbing, burning, etc.": [
+        "u271"
+      ],
+      "copy|Diagnosing MPS requires an accurate physical examination that relies on palpation and identification of (1) taut bands—groups of taut muscle fibers extending from MTrPs to the muscle attachments, (2) exquisitely tender, hyperirritable nodules (MTrP) in taut bands (note that taut bands may not always contain MTrPs), and (3) reproduction of the patient’s spontaneous pain with sustained pressure that may radiate distal to the MTrP (Figure 103-5).": [
+        "u276"
+      ],
+      "copy|Cervicogenic headaches are characterized by neck and pericranial pain and are often associated with structural abnormalities of the cervical spine, including osteoarthritis and facet arthrosis.": [
+        "u301"
+      ],
+      "copy|While cervicogenic headaches lack the pulsating quality of migraine headaches, they may have migraineassociated features such as photophobia, phonophobia,": [
+        "u303"
+      ],
+      "copy|nausea, vomiting, and dizziness.": [
+        "u306"
+      ],
+      "copy|When MPS occurs in the pelvic and buttock regions, the resulting pain and associated limitations in muscle function may mimic that of sciatica.": [
+        "u315"
+      ],
+      "copy|The trapezius is a large muscle; as a result, associated MPS can have a number of presentations.": [
+        "u332"
+      ],
+      "copy|The levator scapulae muscle extends from the upper medial border of the scapula to the transverse processes of the first four cervical vertebrae.": [
+        "u346"
+      ],
+      "copy|These syndromes may be caused by MPS in the thoracolumbar paraspinal musculature.": [
+        "u352"
+      ],
+      "copy|It originates from the sacrum, the iliac crest, and the spinous processes of most of the lumbar and the last two thoracic vertebrae, and inserts into the ribs, the transverse": [
+        "u355"
+      ],
+      "copy|processes of the cervical vertebrae, thoracic vertebrae, and mastoid process.": [
+        "u358"
+      ],
+      "copy|This syndrome is caused by MPS that involves the tensor fasciae latae (TFL) muscle.": [
+        "u372"
+      ],
+      "copy|This is likely caused by a combination of axial spondylosis and the varicella-zoster virus (VZV) mainly in older adults.": [
+        "u382"
+      ],
+      "copy|First, it is important to identify": [
+        "u404"
+      ],
+      "copy|and address perpetuating factors that maintain the pain/ muscle dysfunction, and precipitating factors that initiate the syndrome.": [
+        "u407"
+      ],
+      "copy|The factors that perpetuate MPS are typically multiple and develop over a long period of time, and each should be addressed to afford an optimal treatment.": [
+        "u417"
+      ],
+      "copy|Efforts should be made to incorporate": [
+        "u428"
+      ],
+      "copy|intervals of light movement or stretching if the patient is able to tolerate such activities in order to minimize overuse of small muscle fibers (ie, the Cinderella hypothesis).": [
+        "u431"
+      ],
+      "copy|The second prong of MPS treatment is to directly treat MTrPs.": [
+        "u441"
+      ],
+      "copy|The third prong of MPS treatment is maintaining muscular health through a home exercise program.": [
+        "u447"
+      ],
+      "copy|A number of other treatments have been tried for MPS such as repetitive magnetic stimulation, transcutaneous electrical nerve stimulation (TENS), biofeedback, massage, ultrasound, hydrocortisone/diclofenac phonophoresis, laser therapy, traditional Chinese and Japanese acupuncture, nerve blocks, and cervical spine dorsal root rhizotomy for the treatment of cervicogenic headaches.": [
+        "u455"
+      ]
+    },
     "sequenceOffsets": [
       [
         11,
@@ -136106,14 +136985,187 @@
         -21
       ],
       [
-        91,
+        86,
         -20
       ],
       [
-        488,
-        80
+        90,
+        -19
+      ],
+      [
+        111,
+        -18
+      ],
+      [
+        125,
+        -17
+      ],
+      [
+        129,
+        -16
+      ],
+      [
+        148,
+        -15
+      ],
+      [
+        150,
+        -14
+      ],
+      [
+        210,
+        -12
+      ],
+      [
+        218,
+        -11
+      ],
+      [
+        225,
+        -10
+      ],
+      [
+        227,
+        -9
+      ],
+      [
+        240,
+        -8
+      ],
+      [
+        245,
+        -7
+      ],
+      [
+        246,
+        -6
+      ],
+      [
+        258,
+        -5
+      ],
+      [
+        262,
+        -4
+      ],
+      [
+        275,
+        -3
+      ],
+      [
+        279,
+        -2
+      ],
+      [
+        303,
+        -1
+      ],
+      [
+        304,
+        0
+      ],
+      [
+        306,
+        1
+      ],
+      [
+        314,
+        2
+      ],
+      [
+        330,
+        3
+      ],
+      [
+        343,
+        4
+      ],
+      [
+        348,
+        5
+      ],
+      [
+        350,
+        6
+      ],
+      [
+        352,
+        7
+      ],
+      [
+        365,
+        8
+      ],
+      [
+        374,
+        9
+      ],
+      [
+        395,
+        10
+      ],
+      [
+        397,
+        11
+      ],
+      [
+        406,
+        12
+      ],
+      [
+        416,
+        13
+      ],
+      [
+        418,
+        14
+      ],
+      [
+        427,
+        15
+      ],
+      [
+        432,
+        16
+      ],
+      [
+        439,
+        17
+      ],
+      [
+        451,
+        117
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "Uncommon symptoms (< 20% prevalence) include tinnitus, dizziness, vertigo, and Raynaud phenomenon.": [
+        65
+      ],
+      "Symptoms typically begin within weeks to months of drug exposure and resolve with discontinuation.": [
+        24
+      ],
+      "Systematic review of regular aerobic exercise for fibromyalgia (20 minutes daily, 2–3 times a week) demonstrated improvements in pain, function, aerobic capacity, and well-being.": [
+        17
+      ],
+      "Lectures on fibromyalgia and the benefits of exercise improve treatment outcomes.": [
+        44
+      ],
+      "Surrounding alpha motor neurons in the spinal cord are also excited, leading to the formation of an MTrP.": [
+        50
+      ],
+      "While cervicogenic headaches lack the pulsating quality of migraine headaches, they may have migraineassociated features such as photophobia, phonophobia, nausea, vomiting, and dizziness.": [
+        154
+      ],
+      "It originates from the sacrum, the iliac crest, and the spinous processes of most of the lumbar and the last two thoracic vertebrae, and inserts into the ribs, the transverse processes of the cervical vertebrae, thoracic vertebrae, and mastoid process.": [
+        174
+      ],
+      "First, it is important to identify and address perpetuating factors that maintain the pain/ muscle dysfunction, and precipitating factors that initiate the syndrome.": [
+        34
+      ],
+      "Efforts should be made to incorporate intervals of light movement or stretching if the patient is able to tolerate such activities in order to minimize overuse of small muscle fibers (ie, the Cinderella hypothesis).": [
+        37
+      ]
+    }
   },
   "12": {
     "maxId": 0,
@@ -136967,7 +138019,38 @@
   },
   "25": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "copy|However elegant this perspective appears, it falters": [
+        "u157"
+      ],
+      "copy|as persons age and acquire additional chronic conditions.": [
+        "u166"
+      ],
+      "copy|Many of these interventions have been developed for primary care, although for some conditions they could be": [
+        "u193"
+      ],
+      "copy|implemented in specialty clinics.": [
+        "u194"
+      ],
+      "copy|TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES": [
+        "u194"
+      ],
+      "copy|Some have been implemented in community settings or use technology, and have variable links to the delivery system.": [
+        "u195"
+      ],
+      "copy|One is the Veterans Administration": [
+        "u371"
+      ],
+      "copy|Whole Health Program (Figure 25-2), which focuses on the array of health, social, spiritual, and wellness needs of whole persons rather than a narrow focus on prolonging life and eliminating symptoms.": [
+        "u383"
+      ],
+      "copy|(Data from US Department of Veterans Affairs Whole Health https://www.va.gov/WHOLEHEALTH/circle-of-health/index.asp.)": [
+        "u382"
+      ],
+      "copy|The process is facilitated by a whole health coach who guides the veteran by first exploring the Circle of Health (https://www.va.gov/WHOLEHEALTH/images/components-of-whole-health.svg), which is a structured process for exploring health-related values.": [
+        "u472"
+      ]
+    },
     "sequenceOffsets": [
       [
         31,
@@ -137018,42 +138101,80 @@
         -38
       ],
       [
-        394,
-        -36
-      ],
-      [
-        395,
-        -38
-      ],
-      [
-        396,
+        195,
         -37
       ],
       [
-        435,
+        203,
         -36
       ],
       [
-        454,
+        229,
         -33
       ],
       [
-        474,
-        222
+        389,
+        -31
       ],
       [
-        477,
+        390,
+        -33
+      ],
+      [
+        391,
+        -32
+      ],
+      [
+        403,
+        -31
+      ],
+      [
+        413,
         -29
       ],
       [
-        478,
-        -37
+        427,
+        -28
       ],
       [
-        482,
-        -32
+        446,
+        -25
+      ],
+      [
+        466,
+        230
+      ],
+      [
+        469,
+        -21
+      ],
+      [
+        470,
+        -29
+      ],
+      [
+        474,
+        -24
+      ],
+      [
+        496,
+        -23
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "However elegant this perspective appears, it falters as persons age and acquire additional chronic conditions.": [
+        52
+      ],
+      "Many of these interventions have been developed for primary care, although for some conditions they could be implemented in specialty clinics.": [
+        108
+      ],
+      "TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES Some have been implemented in community settings or use technology, and have variable links to the delivery system.": [
+        67
+      ],
+      "One is the Veterans Administration Whole Health Program (Figure 25-2), which focuses on the array of health, social, spiritual, and wellness needs of whole persons rather than a narrow focus on prolonging life and eliminating symptoms.": [
+        34
+      ]
+    }
   },
   "28": {
     "maxId": 0,
@@ -137103,7 +138224,50 @@
   },
   "33": {
     "maxId": 0,
-    "entries": {},
+    "entries": {
+      "copy|Another study found that only 11% of all residents in 19 nursing homes had": [
+        "u268"
+      ],
+      "copy|received eye examinations in the last 2 years.": [
+        "u269"
+      ],
+      "copy|TABLE 33-4 ■ CLINICAL LOW-VISION EXAMINATION": [
+        "u269"
+      ],
+      "copy|Providing information about vision and vision impairment to the nursing home staff is important for assisting residents in using their remaining vision effectively.": [
+        "u270"
+      ],
+      "copy|Magnification may also be provided by stand or handheld magnifiers, which are often more familiar to older adults who may have used them previously for maps": [
+        "u378"
+      ],
+      "copy|or coins.": [
+        "u379"
+      ],
+      "copy|TABLE 33-6 ■ LOW-VISION AND SPEECH-OUTPUT DEVICES": [
+        "u379"
+      ],
+      "copy|These devices do not require a close eye-to-lens distance, but the closer to the eye the lens is held, the wider the field of view.": [
+        "u380"
+      ],
+      "copy|For example, the glare from a sunny window onto a waxed": [
+        "u444"
+      ],
+      "copy|floor, tabletops, and glass could cause objects in the dining room of a senior community to be obscured.": [
+        "u445"
+      ],
+      "copy|TABLE 33-7 ■ WAYS TO MAKE AN ENVIRONMENT MORE VISUALLY ACCESSIBLE": [
+        "u445"
+      ],
+      "copy|An older person with low vision might function as if blind in that environment and be unable to find a chair, recognize his friends, serve his plate, or identify the food in a buffet line.": [
+        "u446"
+      ],
+      "copy|There are two schools": [
+        "u511"
+      ],
+      "copy|of thought on the timing of rehabilitation related to adaptation.": [
+        "u513"
+      ]
+    },
     "sequenceOffsets": [
       [
         23,
@@ -137254,22 +138418,65 @@
         -27
       ],
       [
-        353,
-        -12
+        295,
+        -24
       ],
       [
-        431,
-        -11
+        350,
+        -9
       ],
       [
-        465,
-        5
+        387,
+        -6
       ],
       [
-        572,
-        32
+        425,
+        -5
+      ],
+      [
+        449,
+        -2
+      ],
+      [
+        456,
+        14
+      ],
+      [
+        497,
+        15
+      ],
+      [
+        498,
+        16
+      ],
+      [
+        561,
+        43
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "Another study found that only 11% of all residents in 19 nursing homes had received eye examinations in the last 2 years.": [
+        74
+      ],
+      "TABLE 33-4 ■ CLINICAL LOW-VISION EXAMINATION Providing information about vision and vision impairment to the nursing home staff is important for assisting residents in using their remaining vision effectively.": [
+        44
+      ],
+      "Magnification may also be provided by stand or handheld magnifiers, which are often more familiar to older adults who may have used them previously for maps or coins.": [
+        156
+      ],
+      "TABLE 33-6 ■ LOW-VISION AND SPEECH-OUTPUT DEVICES These devices do not require a close eye-to-lens distance, but the closer to the eye the lens is held, the wider the field of view.": [
+        49
+      ],
+      "For example, the glare from a sunny window onto a waxed floor, tabletops, and glass could cause objects in the dining room of a senior community to be obscured.": [
+        55
+      ],
+      "TABLE 33-7 ■ WAYS TO MAKE AN ENVIRONMENT MORE VISUALLY ACCESSIBLE An older person with low vision might function as if blind in that environment and be unable to find a chair, recognize his friends, serve his plate, or identify the food in a buffet line.": [
+        65
+      ],
+      "There are two schools of thought on the timing of rehabilitation related to adaptation.": [
+        21
+      ]
+    }
   },
   "37": {
     "maxId": 0,
@@ -138012,14 +139219,213 @@
     ]
   },
   "35": {
-    "entries": {},
+    "entries": {
+      "copy|Gender and age differences between women and their physicians can also": [
+        "u105"
+      ],
+      "copy|present barriers to communication about sexual matters.": [
+        "u113"
+      ],
+      "copy|Currently, an estimated 3 million older people with cognitive impairment or dementia are both community-dwelling": [
+        "u126"
+      ],
+      "copy|and sexually active.": [
+        "u128"
+      ],
+      "copy|Sometimes,": [
+        "u135"
+      ],
+      "copy|sexual relationships form among people with dementia who have, but may not remember, a communityresiding spouse.": [
+        "u137"
+      ],
+      "copy|Communication of normative expectations to": [
+        "u173"
+      ],
+      "copy|patients about the longevity and quality of their sexually active lives assuming good health could motivate patients to stop smoking, adhere to medication regimens, exercise regularly, or engage in other health-promoting behaviors.": [
+        "u179"
+      ],
+      "copy|Viral infections, including genital herpes simplex virus (HSV) and human papillomavirus (HPV), are the": [
+        "u198"
+      ],
+      "copy|more prevalent STIs among older women.": [
+        "u199"
+      ],
+      "copy|TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550)": [
+        "u199"
+      ],
+      "copy|HSV-2 seroprevalence among men and women 70 years and older based on NHANES III data (1988–1994) was 28%, but women had a higher overall prevalence than men and rates were much higher among African-Americans (74%) and Mexican Americans (45%).": [
+        "u200"
+      ],
+      "copy|In acute or emergency care settings, intimate partner violence and sexual abuse should be considered when a woman presents with physical injury, vague symptoms (especially in recurrent visits), acute mental status changes,": [
+        "u245"
+      ],
+      "copy|and/or is accompanied by a partner or other individual who interferes with the patient’s interaction with health care providers.": [
+        "u246"
+      ],
+      "copy|TABLE 35-4 ■ SAMPLE INTIMATE PARTNER VIOLENCE SCREENING QUESTIONS": [
+        "u246"
+      ],
+      "copy|Disruptions in these physiologic systems caused by age-related changes, physical or mental illness, or medical procedures and medication use can alter the sexual response and the ability of a": [
+        "u272"
+      ],
+      "copy|woman to derive pleasure and satisfaction from her sexual encounters.": [
+        "u286"
+      ],
+      "copy|While levels of endogenous androgens have not been found to be predictive of sexual function, a large meta-analysis confirmed that testosterone": [
+        "u304"
+      ],
+      "copy|therapy for low libido was effective in clinical trials involving women with bilateral oophorectomy or total loss of ovarian function, as well as postmenopausal women with or without use of estrogen therapy (estrogen reduces bioavailable testosterone by increasing sex hormone–binding globulin production).": [
+        "u306"
+      ],
+      "copy|Prevalence estimates for older women can be estimated from prior studies, but are needed for the newly": [
+        "u403"
+      ],
+      "copy|defined classes of genitopelvic pain/penetration disorder and female sexual interest/arousal disorder.": [
+        "u405"
+      ],
+      "copy|Although many adult female sexual function problems have a psychosocial component, a thorough gynecologic physical examination by a skilled practitioner is needed to": [
+        "u436"
+      ],
+      "copy|evaluate for underlying gynecologic pathologies that may be contributing to sexual function issues.": [
+        "u438"
+      ],
+      "copy|Pelvic physical therapy is an": [
+        "u457"
+      ],
+      "copy|effective modality for treating dyspareunia when there is a pelvic, abdominal, and/or low-back component to the dyspareunia and when vaginismus is present.": [
+        "u458"
+      ],
+      "copy|TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS": [
+        "u458"
+      ],
+      "copy|Vaginal dilation with graded dilators or other devices and behavioral, sex, or couples’ therapy are additional modalities that benefit many women with sexual pain disorders.": [
+        "u459"
+      ]
+    },
     "maxId": 0,
     "sequenceOffsets": [
       [
-        613,
+        105,
         1
+      ],
+      [
+        112,
+        2
+      ],
+      [
+        124,
+        3
+      ],
+      [
+        125,
+        4
+      ],
+      [
+        131,
+        5
+      ],
+      [
+        132,
+        6
+      ],
+      [
+        167,
+        7
+      ],
+      [
+        172,
+        8
+      ],
+      [
+        190,
+        11
+      ],
+      [
+        234,
+        13
+      ],
+      [
+        259,
+        14
+      ],
+      [
+        272,
+        15
+      ],
+      [
+        289,
+        16
+      ],
+      [
+        290,
+        17
+      ],
+      [
+        386,
+        18
+      ],
+      [
+        387,
+        19
+      ],
+      [
+        417,
+        20
+      ],
+      [
+        418,
+        21
+      ],
+      [
+        436,
+        24
+      ],
+      [
+        589,
+        25
       ]
-    ]
+    ],
+    "preservedBreaks": {
+      "Gender and age differences between women and their physicians can also present barriers to communication about sexual matters.": [
+        70
+      ],
+      "Currently, an estimated 3 million older people with cognitive impairment or dementia are both community-dwelling and sexually active.": [
+        112
+      ],
+      "Sometimes, sexual relationships form among people with dementia who have, but may not remember, a communityresiding spouse.": [
+        10
+      ],
+      "Communication of normative expectations to patients about the longevity and quality of their sexually active lives assuming good health could motivate patients to stop smoking, adhere to medication regimens, exercise regularly, or engage in other health-promoting behaviors.": [
+        42
+      ],
+      "Viral infections, including genital herpes simplex virus (HSV) and human papillomavirus (HPV), are the more prevalent STIs among older women.": [
+        102
+      ],
+      "TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550) HSV-2 seroprevalence among men and women 70 years and older based on NHANES III data (1988–1994) was 28%, but women had a higher overall prevalence than men and rates were much higher among African-Americans (74%) and Mexican Americans (45%).": [
+        119
+      ],
+      "In acute or emergency care settings, intimate partner violence and sexual abuse should be considered when a woman presents with physical injury, vague symptoms (especially in recurrent visits), acute mental status changes, and/or is accompanied by a partner or other individual who interferes with the patient’s interaction with health care providers.": [
+        222
+      ],
+      "Disruptions in these physiologic systems caused by age-related changes, physical or mental illness, or medical procedures and medication use can alter the sexual response and the ability of a woman to derive pleasure and satisfaction from her sexual encounters.": [
+        191
+      ],
+      "While levels of endogenous androgens have not been found to be predictive of sexual function, a large meta-analysis confirmed that testosterone therapy for low libido was effective in clinical trials involving women with bilateral oophorectomy or total loss of ovarian function, as well as postmenopausal women with or without use of estrogen therapy (estrogen reduces bioavailable testosterone by increasing sex hormone–binding globulin production).": [
+        143
+      ],
+      "Prevalence estimates for older women can be estimated from prior studies, but are needed for the newly defined classes of genitopelvic pain/penetration disorder and female sexual interest/arousal disorder.": [
+        102
+      ],
+      "Although many adult female sexual function problems have a psychosocial component, a thorough gynecologic physical examination by a skilled practitioner is needed to evaluate for underlying gynecologic pathologies that may be contributing to sexual function issues.": [
+        165
+      ],
+      "Pelvic physical therapy is an effective modality for treating dyspareunia when there is a pelvic, abdominal, and/or low-back component to the dyspareunia and when vaginismus is present.": [
+        29
+      ],
+      "TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS Vaginal dilation with graded dilators or other devices and behavioral, sex, or couples’ therapy are additional modalities that benefit many women with sexual pain disorders.": [
+        61
+      ]
+    }
   },
   "42": {
     "entries": {},
@@ -138140,6 +139546,246 @@
       [
         117,
         1
+      ]
+    ]
+  },
+  "32": {
+    "maxId": 0,
+    "entries": {
+      "copy|Saliva plays an important protective role and contains a broad spectrum of antiviral, antibacterial, and antifungal proteins": [
+        "u74"
+      ],
+      "copy|that modulate oral microbial colonization.": [
+        "u76"
+      ],
+      "copy|With the current trends toward increasing tooth retention in aging populations,": [
+        "u85"
+      ],
+      "copy|there is a correspondingly greater risk for the development of both of these disease entities.": [
+        "u90"
+      ],
+      "copy|Long-standing dental caries ultimately result in the destruction of the tooth with the possibility of local or disseminated infection in the maxillofacial tissues, space infections in the head": [
+        "u111"
+      ],
+      "copy|and neck, and infection in the systemic circulation (septicemia).": [
+        "u115"
+      ],
+      "copy|Among healthy adults, periodontal attachment loss occurs at small increments in all age cohorts and does not occur in": [
+        "u135"
+      ],
+      "copy|greater amounts in older healthy adults.": [
+        "u138"
+      ],
+      "copy|Because acinar components are primarily responsible for the secretion of saliva, it is not known why, in the presence of a significant reduction in the gland acinar volume, total fluid production does": [
+        "u169"
+      ],
+      "copy|not diminish with increasing age.": [
+        "u171"
+      ],
+      "copy|Clinical examination includes palpation of all major": [
+        "u181"
+      ],
+      "copy|glands and inspection of the duct orifices while milking the glands to ensure gland patency.": [
+        "u184"
+      ],
+      "copy|Drugs": [
+        "u254"
+      ],
+      "copy|used in older patients for arthritic conditions, hypertension, cardiac arrhythmias, seizures, and dementia are associated with lichenoid-like reactions.": [
+        "u256"
+      ],
+      "copy|For lesions that are suspected to be oral manifestations of autoimmune connective tissue disorders (eg, pemphigus, pemphigoid,": [
+        "u262"
+      ],
+      "copy|lichen planus), biopsies should also include specimens for direct immunofluorescence.": [
+        "u269"
+      ],
+      "copy|There are important disparities in access to dental care, tooth loss, unfilled caries, periodontal diseases, and": [
+        "u340"
+      ],
+      "copy|oral cancers among the poor, near poor, and racial and ethnic minorities.": [
+        "u351"
+      ],
+      "copy|The interdisciplinary team working together can ensure": [
+        "u373"
+      ],
+      "copy|that the needs of the patient are addressed in a timely and thorough manner.": [
+        "u390"
+      ],
+      "copy|Premedication is often considered for patients with risk for endocarditis, autoimmune": [
+        "u394"
+      ],
+      "copy|disease, chemotherapy, joint replacement, or heart murmurs.": [
+        "u398"
+      ],
+      "copy|Oral health care should ideally be": [
+        "u418"
+      ],
+      "copy|practiced in the morning when the patient wakes up, after each meal, and at their hour of sleep.": [
+        "u419"
+      ],
+      "copy|TABLE 32-7 ■ TOP 10 ORAL HEALTH OUTCOMES IN LONG-TERM CARE": [
+        "u419"
+      ],
+      "copy|In some cases, patients are not able to gain access to care at each of these points in a day due to the lack of available assistance.": [
+        "u420"
+      ]
+    },
+    "preservedBreaks": {
+      "Saliva plays an important protective role and contains a broad spectrum of antiviral, antibacterial, and antifungal proteins that modulate oral microbial colonization.": [
+        124
+      ],
+      "With the current trends toward increasing tooth retention in aging populations, there is a correspondingly greater risk for the development of both of these disease entities.": [
+        79
+      ],
+      "Long-standing dental caries ultimately result in the destruction of the tooth with the possibility of local or disseminated infection in the maxillofacial tissues, space infections in the head and neck, and infection in the systemic circulation (septicemia).": [
+        192
+      ],
+      "Among healthy adults, periodontal attachment loss occurs at small increments in all age cohorts and does not occur in greater amounts in older healthy adults.": [
+        117
+      ],
+      "Because acinar components are primarily responsible for the secretion of saliva, it is not known why, in the presence of a significant reduction in the gland acinar volume, total fluid production does not diminish with increasing age.": [
+        200
+      ],
+      "Clinical examination includes palpation of all major glands and inspection of the duct orifices while milking the glands to ensure gland patency.": [
+        52
+      ],
+      "Drugs used in older patients for arthritic conditions, hypertension, cardiac arrhythmias, seizures, and dementia are associated with lichenoid-like reactions.": [
+        5
+      ],
+      "For lesions that are suspected to be oral manifestations of autoimmune connective tissue disorders (eg, pemphigus, pemphigoid, lichen planus), biopsies should also include specimens for direct immunofluorescence.": [
+        126
+      ],
+      "There are important disparities in access to dental care, tooth loss, unfilled caries, periodontal diseases, and oral cancers among the poor, near poor, and racial and ethnic minorities.": [
+        112
+      ],
+      "The interdisciplinary team working together can ensure that the needs of the patient are addressed in a timely and thorough manner.": [
+        54
+      ],
+      "Premedication is often considered for patients with risk for endocarditis, autoimmune disease, chemotherapy, joint replacement, or heart murmurs.": [
+        85
+      ],
+      "Oral health care should ideally be practiced in the morning when the patient wakes up, after each meal, and at their hour of sleep.": [
+        34
+      ],
+      "TABLE 32-7 ■ TOP 10 ORAL HEALTH OUTCOMES IN LONG-TERM CARE In some cases, patients are not able to gain access to care at each of these points in a day due to the lack of available assistance.": [
+        58
+      ]
+    },
+    "sequenceOffsets": [
+      [
+        74,
+        1
+      ],
+      [
+        75,
+        2
+      ],
+      [
+        83,
+        3
+      ],
+      [
+        87,
+        4
+      ],
+      [
+        107,
+        5
+      ],
+      [
+        110,
+        6
+      ],
+      [
+        129,
+        7
+      ],
+      [
+        131,
+        8
+      ],
+      [
+        161,
+        9
+      ],
+      [
+        162,
+        10
+      ],
+      [
+        171,
+        11
+      ],
+      [
+        173,
+        12
+      ],
+      [
+        242,
+        13
+      ],
+      [
+        243,
+        14
+      ],
+      [
+        248,
+        15
+      ],
+      [
+        254,
+        16
+      ],
+      [
+        324,
+        17
+      ],
+      [
+        334,
+        18
+      ],
+      [
+        355,
+        19
+      ],
+      [
+        371,
+        20
+      ],
+      [
+        374,
+        21
+      ],
+      [
+        377,
+        22
+      ],
+      [
+        396,
+        25
+      ]
+    ]
+  },
+  "105": {
+    "maxId": 0,
+    "entries": {},
+    "sequenceOffsets": [
+      [
+        228,
+        340
+      ],
+      [
+        230,
+        -2
+      ],
+      [
+        286,
+        284
+      ],
+      [
+        288,
+        -4
       ]
     ]
   }

@@ -170,7 +170,7 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-cae00a287bb5d67f443b04bb"><span>June 2022 Q49</span> Smoking cessation and risk</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2a6291bad9a3b4e07c81b32e"><span>June 2023 Q56</span> Midlife hearing loss</a> <a class="study-source-link" href="?chapter=59#p895" aria-label="8e teaching passage, p895">p895</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-2a6291bad9a3b4e07c81b32e"><span>June 2023 Q56</span> Midlife hearing loss</a> <a class="study-source-link" href="?chapter=59#p905" aria-label="8e teaching passage, p905">p905</a></p>
 
 <details class="study-self-check" data-check-key="59s:recall-3"><summary>In the Framingham study, what percentage of APOE ε4 homozygotes developed AD by age 85, versus noncarriers?</summary>
 
@@ -218,7 +218,7 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7c85e40d5ccc8aaa1481c211"><span>December 2021 Q24</span> Hearing and dementia risk</a> <a class="study-source-link" href="?chapter=59#p897" aria-label="8e teaching passage, p897">p897</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7c85e40d5ccc8aaa1481c211"><span>December 2021 Q24</span> Hearing and dementia risk</a> <a class="study-source-link" href="?chapter=59#p905" aria-label="8e teaching passage, p905">p905</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-892f3ac99385c931f627310d"><span>June 2026 Q43</span> Presymptomatic Alzheimer disease</a> <a class="study-source-link" href="?chapter=59#p909" aria-label="8e teaching passage, p909">p909</a></p>
 

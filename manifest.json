@@ -322,7 +322,8 @@
       "title": "Bacterial Pneumonia and Tuberculosis",
       "file": "hazzard8e_ch105_pneumonia_tb.md",
       "kind": "chapter",
-      "description": "Lane-reviewed 25 Sep. Presentation, diagnosis and management"
+      "description": "Lane-reviewed 25 Sep. Presentation, diagnosis and management",
+      "markUnits": "data/mark-units/105.json"
     },
     {
       "number": "108",
@@ -1454,7 +1455,8 @@
       "number": "32",
       "title": "Oral Health",
       "file": "hazzard8e_ch32_oral_health.md",
-      "kind": "chapter"
+      "kind": "chapter",
+      "markUnits": "data/mark-units/32.json"
     },
     {
       "number": "32s",

@@ -206,15 +206,13 @@ Vaginal estrogen use in breast cancer survivors is controversial and best prescr
 
 With these low doses, progestins to prevent endometrial hyperplasia or endometrial surveillance are not required. However, estrogen absorption varies considerably among individuals, and endometrial growth could possibly be stimulated. Any brown or red discharge necessitates evaluation of the endometrium as would be performed with any postmenopausal bleeding. Ospemifene is an oral estrogen agonist/ antagonist, or selective estrogen receptor modulator (SERM), approved by the FDA for dyspareunia due to vaginal atrophy. It is effective for vulvovaginal atrophy and appears to have favorable effects on bone, neutral effects on the endometrium and the cardiovascular system, and no clinically significant estrogenic effect on the breast. Risks and contraindications are like those for estrogen, including venous thromboembolism. Vasomotor symptoms are bothersome in 10% of patients.
 
-Other non-estrogen therapies are less reliable in reducing dyspareunia and irritative voiding symptoms, but often relieve mild symptoms. Vaginal moisturizers are used on a regular basis, daily to weekly, to maintain epithelial moisture and vaginal pH. In addition, vaginal lubricants may be used for intercourse. Frequent sexual activity helps maintain supple tissues. Alternative hormonal agents
+Other non-estrogen therapies are less reliable in reducing dyspareunia and irritative voiding symptoms, but often relieve mild symptoms. Vaginal moisturizers are used on a regular basis, daily to weekly, to maintain epithelial moisture and vaginal pH. In addition, vaginal lubricants may be used for intercourse. Frequent sexual activity helps maintain supple tissues. Alternative hormonal agents (dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.
 
 <a id="p535"></a>**[p. 535]**
 
 ![Figure 36-3](hazzard8e_ch36_figure-36-3_p535.webp)
 
 *FIGURE 36-3. (A) Illustration of atrophic vaginitis versus normal mucosa. Signs of atrophic vaginitis may include pale, smooth, shiny mucosa with patches of inflammation and petechiae. (B) Illustration of remodeling of vaginal mucosa in response to topical estrogen therapy. (B, Reproduced with permission from Reiter S. Barriers to effective treatment of vaginal atrophy with local estrogen therapy. Int J Gen Med. 2013;6:153–158.)*
-
-(dehydroepiandrosterone, other SERMs, testosterone) are promising but not yet sufficiently studied.
 
 ### Vaginal Cancer
 
@@ -226,7 +224,7 @@ asymptomatic and not easily visible, but induration may be palpable. Two-thirds 
 
 ### Examination of the Cervix
 
-The location of the squamocolumnar junction, the border between squamous (ectocervical) and mucous (endocervical)
+The location of the squamocolumnar junction, the border between squamous (ectocervical) and mucous (endocervical) epithelia, changes location over a lifespan.
 
 <a id="p536"></a>**[p. 536]**
 
@@ -236,7 +234,7 @@ The location of the squamocolumnar junction, the border between squamous (ectoce
 
 CEE, conjugated equine estrogen; FDA, Food and Drug Administration. Modified with permission from Crean-Tate KK, Faubion SS, Pederson HJ, et al. Management of genitourinary syndrome of menopause in female cancer patients: a focus on vaginal hormonal therapy. Am J Obstet Gynecol. 2020;222(2):103–113.
 
-epithelia, changes location over a lifespan. It is usually within the endocervical canal in older women and not visible. Its importance lies in the fact that it is the most common site of cervical neoplasia. Cystic structures near this border are almost invariably Nabothian cysts. These are not true cysts, but collections of mucus trapped during metaplastic transition, when squamous cells cover mucus-secreting crypts. They do not require biopsy. Any lesion whose benignity is uncertain should be biopsied or referred. Cytology is a screening test and alone is not an appropriate evaluation of a visible lesion.
+It is usually within the endocervical canal in older women and not visible. Its importance lies in the fact that it is the most common site of cervical neoplasia. Cystic structures near this border are almost invariably Nabothian cysts. These are not true cysts, but collections of mucus trapped during metaplastic transition, when squamous cells cover mucus-secreting crypts. They do not require biopsy. Any lesion whose benignity is uncertain should be biopsied or referred. Cytology is a screening test and alone is not an appropriate evaluation of a visible lesion.
 
 ### Cervical Cancer
 
@@ -246,15 +244,13 @@ cervical cancer deaths are in this age group. Most of these are in unscreened or
 
 ### Cervical Cancer Screening (Table 36-4)
 
-The excess deaths from this mostly preventable malignancy are only avoided through screening, including “adequate” screening of older women. Screening older women provides equivalent benefit to screening younger women, that is, an equivalent reduction in severe cervical intraepithelial neoplasia (CIN) and, by inference, of cancer. However, due to low cancer incidence and long lead time, routine screening after age 65 provides little benefit if women have been adequately screened prior to this. The key to safe discontinuation is knowing the patient’s screening and risk factor history. The three main issues in
+The excess deaths from this mostly preventable malignancy are only avoided through screening, including “adequate” screening of older women. Screening older women provides equivalent benefit to screening younger women, that is, an equivalent reduction in severe cervical intraepithelial neoplasia (CIN) and, by inference, of cancer. However, due to low cancer incidence and long lead time, routine screening after age 65 provides little benefit if women have been adequately screened prior to this. The key to safe discontinuation is knowing the patient’s screening and risk factor history. The three main issues in older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.
 
 <a id="p537"></a>**[p. 537]**
 
 ![Table 36-4](hazzard8e_ch36_table-36-4_p537.webp)
 
 *TABLE 36-4 ■ CRITERIA (ALL OF WHICH SHOULD BE MET PRIOR TO DISCONTINUING CERVICAL CANCER SCREENING)*
-
-older women are (1) when to discontinue screening, (2) in whom to continue screening, and until what point, and (3) the best screening modalities.
 
 Cervical cancer screening has evolved from microscopy of exfoliated cells in the vagina to detect current cancer, introduced by Georgios Papanikolaou in 1928, to prevention of cancer through HPV genotyping, with or without cervical cytology. Testing options, recommendations, and guidelines have changed several times in recent years, and will continue to evolve. Cervical cytology with HPV co-testing should be obtained every 5 years in women over age 30. Updated guidelines and algorithms are available from the American Society for Colposcopy and Cervical Pathology (www.asccp.org).
 
@@ -292,7 +288,7 @@ Abnormal vaginal bleeding occurs in up to 20% of postmenopausal women, 10% to 20
 
 endometrial hyperplasia or neoplasia. Studies invariably analyze “postmenopausal” as one group, so these statistics misrepresent the risks in older women. Older women bleed less often, but older age increases the risk of malignancy and of a higher-grade cancer. Although most women with postmenopausal bleeding will be referred to a gynecologist, a focused history and examination will ensure the best referral. A rectal polyp, urethral mucosal prolapse, vulvovaginal pathology, or neglected pessary may be discovered.
 
-All pelvic bleeding sources should be investigated, including hematuria, hematochezia, vulvovaginal pathology, and trauma (Table 36-5). The external genitalia, vagina, and cervix are inspected for ulcerations, atrophy, abrasions, polyps, etc. If the cervix appears normal, screening with
+All pelvic bleeding sources should be investigated, including hematuria, hematochezia, vulvovaginal pathology, and trauma (Table 36-5). The external genitalia, vagina, and cervix are inspected for ulcerations, atrophy, abrasions, polyps, etc. If the cervix appears normal, screening with both cytology and HPV genotyping (co-testing) is advisable unless recently performed.
 
 ![Table 36-5](hazzard8e_ch36_table-36-5_p538.webp)
 
@@ -300,7 +296,7 @@ All pelvic bleeding sources should be investigated, including hematuria, hematoc
 
 <a id="p539"></a>**[p. 539]**
 
-both cytology and HPV genotyping (co-testing) is advisable unless recently performed. An abnormal appearing cervix warrants biopsy. Bimanual and rectal examinations will help rule out pelvic masses, tissue induration, and rectal pathology.
+An abnormal appearing cervix warrants biopsy. Bimanual and rectal examinations will help rule out pelvic masses, tissue induration, and rectal pathology.
 
 Regardless of other findings, the endometrium must be evaluated with a biopsy or transvaginal ultrasound in the setting of postmenopausal bleeding. Office biopsy can have greater than 99% sensitivity, but not all devices achieve this. ACOG states that endometrial sampling may be deferred if the endometrial thickness is 4 mm or less. However, biopsy for tissue diagnosis is preferable to sonography to evaluate the endometrium in older women or in those with recurrent or persistent bleeding regardless of imaging.
 
@@ -384,7 +380,7 @@ POP can be quite bothersome for older women. Incidence and prevalence rates of P
 
 ### Evaluation of Pelvic Organ Prolapse
 
-Clinical evaluation includes careful history and physical examination (Table 36-6). Symptoms should be identified to help gauge the degree of bother experienced by the patient, which in turn can help determine the types of treatment that can be considered. In patients with little symptomatic bother and minimal other signs or symptoms,
+Clinical evaluation includes careful history and physical examination (Table 36-6). Symptoms should be identified to help gauge the degree of bother experienced by the patient, which in turn can help determine the types of treatment that can be considered. In patients with little symptomatic bother and minimal other signs or symptoms, observation may be adequate.
 
 <a id="p542"></a>**[p. 542]**
 
@@ -392,7 +388,7 @@ Clinical evaluation includes careful history and physical examination (Table 36-
 
 *TABLE 36-6 ■ EVALUATION AND MANAGEMENT OF PELVIC ORGAN PROLAPSE*
 
-observation may be adequate. Careful pelvic examination is critical in making the correct diagnosis of POP. Prolapse of the anterior vaginal wall is a cystocele, and the posterior vaginal wall is typically a rectocele. Loss of support of the vaginal apex may include small bowel which is known as an enterocele. Uterine prolapse may also occur due to loss of support of the cardinal or uterosacral ligaments. Complete vaginal eversion may occur in women with a prior hysterectomy, or “procidentia” if the uterus is in situ.
+Careful pelvic examination is critical in making the correct diagnosis of POP. Prolapse of the anterior vaginal wall is a cystocele, and the posterior vaginal wall is typically a rectocele. Loss of support of the vaginal apex may include small bowel which is known as an enterocele. Uterine prolapse may also occur due to loss of support of the cardinal or uterosacral ligaments. Complete vaginal eversion may occur in women with a prior hysterectomy, or “procidentia” if the uterus is in situ.
 
 Physical examination is important for complete assessment. On simple inspection, it can be difficult to differentiate the portion of the vagina involved in the prolapse. A single-blade speculum is useful for this purpose. The speculum is initially inserted to depress the posterior vaginal wall. The speculum is then reinserted in the reverse position to elevate the anterior vaginal wall allowing inspection of the posterior compartment for evidence of rectocele. Asking the patient to cough and Valsalva can help to demonstrate prolapse that may increase with abdominal straining. It can be useful to also examine the patient in the standing position if possible, as some prolapse may only be evident with standing.
 
@@ -410,7 +406,7 @@ Rectal prolapse involves protrusion of the rectum through the anal sphincter wit
 
 Several different systems have been designed to grade the degree of POP based on anatomic changes. The
 
-Baden-Walker system was commonly used in clinical practice, and classifies the degree of prolapse based on whether it extends beyond the midpoint of the vagina or beyond the vaginal introitus, when it is more likely to become symptomatic. The POP-Q system is more commonly used in
+Baden-Walker system was commonly used in clinical practice, and classifies the degree of prolapse based on whether it extends beyond the midpoint of the vagina or beyond the vaginal introitus, when it is more likely to become symptomatic. The POP-Q system is more commonly used in research settings but is also useful in a simplified approach in defining the leading edge of the prolapse.
 
 <a id="p544"></a>**[p. 544]**
 
@@ -418,7 +414,7 @@ Baden-Walker system was commonly used in clinical practice, and classifies the d
 
 *FIGURE 36-5. Sagittal view of a rectocele.*
 
-research settings but is also useful in a simplified approach in defining the leading edge of the prolapse. It includes multiple anatomic measurements in relation to the vaginal introitus. In most systems, the hymenal ring is used to define the vaginal introitus. A clear understanding and documentation of the extent of prolapse is useful for surgical planning and for following progress over time (Figure 36-7).
+It includes multiple anatomic measurements in relation to the vaginal introitus. In most systems, the hymenal ring is used to define the vaginal introitus. A clear understanding and documentation of the extent of prolapse is useful for surgical planning and for following progress over time (Figure 36-7).
 
 ### Treatment of Pelvic Organ Prolapse
 
@@ -434,7 +430,7 @@ Nonsurgical treatment of POP and UI includes such treatment as behavioral therap
 
 With respect to pelvic floor muscle exercises, they may limit the progression of mild prolapse and related symptoms, but less response has been noted with prolapse beyond the vaginal introitus. Pelvic floor muscle exercises are usually employed to treat accompanying urinary and/ or fecal incontinence. Results are generally dependent on patient motivation and the patient’s willingness to comply with an exercise treatment program.
 
-The use of a pessary has been considered an excellent option for nonsurgical management of POP and UI. Patient acceptance is relatively high when appropriately counseled. There are a number of different sizes and shapes
+The use of a pessary has been considered an excellent option for nonsurgical management of POP and UI. Patient acceptance is relatively high when appropriately counseled. There are a number of different sizes and shapes for pessaries and most of them are made from silicone.
 
 ![Figure 36-6](hazzard8e_ch36_figure-36-6_p544.webp)
 
@@ -446,7 +442,7 @@ The use of a pessary has been considered an excellent option for nonsurgical man
 
 *FIGURE 36-7. Treatment of pelvic organ prolapse. (Reproduced with permission from Bump RC, Mattiasson A, Bø K, et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175[1]:10–17.)*
 
-for pessaries and most of them are made from silicone. The risk factors for a failed fitting include a large genital hiatus and a short vaginal length. Pessaries provide pelvic organ support within the vaginal vault. There are two categories of pessaries for POP: support pessaries and space-filling pessaries. The ring pessary (with a diaphragm) is one of the most used support pessaries while the Gellhorn pessary is a commonly used space-filling pessary. Most women who have a stage II or stage III prolapse are successfully fitted with ring pessaries while women with stage IV prolapse usually require a Gellhorn pessary.
+The risk factors for a failed fitting include a large genital hiatus and a short vaginal length. Pessaries provide pelvic organ support within the vaginal vault. There are two categories of pessaries for POP: support pessaries and space-filling pessaries. The ring pessary (with a diaphragm) is one of the most used support pessaries while the Gellhorn pessary is a commonly used space-filling pessary. Most women who have a stage II or stage III prolapse are successfully fitted with ring pessaries while women with stage IV prolapse usually require a Gellhorn pessary.
 
 Some of the possible complications from pessaries include odor and vaginal discharge. There may also be a failure to retain a pessary or the pessary may be too large, which could lead to excoriation or irritation. There may also be increased stress incontinence with reduction of the vaginal prolapse and in rare instances more severe complications such as fistula formation.
 
@@ -532,7 +528,7 @@ ACOG Practice Bulletin No. 149. Endometrial cancer.
 
 Obstet Gynecol. 2015;125(4):1006–1026. SGO Clinical Practice Statement. Screening for Lynch
 
-syndrome in endometrial cancer. March 2014. [https:// www.sgo.org/clinical-practice/guidelines/screeningfor-lynch-syndrome-in-endometrial-cancer/](<https://www.sgo.org/wp-content/uploads/2016/10/2016-SGO-Genetics-Toolkit3.pdf> "The 2014 statement has moved. The Society of Gynecologic Oncology genetics toolkit covers Lynch syndrome screening."). Accessed December 12, 2020.
+syndrome in endometrial cancer. March 2014. [https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer/](<https://www.sgo.org/wp-content/uploads/2016/10/2016-SGO-Genetics-Toolkit3.pdf> "The 2014 statement has moved. The Society of Gynecologic Oncology genetics toolkit covers Lynch syndrome screening."). Accessed December 12, 2020.
 
 ### Ovary/Adnexal Mass
 

@@ -55,7 +55,7 @@ In the chapter’s GOLD framework, LAMA is generally the first long-acting bronc
 
 After an exacerbation, ask what the patient could do before admission and what now provokes breathlessness. Pulmonary rehabilitation combines supervised endurance and strength training with education, pacing and a plan for activity at home. It improves exercise tolerance and quality of life and reduces hospital use. Persistent symptoms despite optimized medication justify referral even with severe obstruction, advanced age or comorbidity. Arrange smoking-cessation support and reconcile the inhalers before discharge (p1256–1258, 1261).
 
-Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformity and a rigid chest wall compound the loss of respiratory reserve. An abnormal Timed Up and Go can guide balance training and selection of a walking aid. A high GDS prompts assessment of mood, while a low MMSE prompts observation of technique. Each finding changes a different part of care (p1237–1238, 1241, 1247–1248, 1255, 1258).
+Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformity and a rigid chest wall compound the loss of respiratory reserve. Balance training is effective, and a rollator can improve walking tolerance in people with severe disability (p1258). Depression is a common comorbidity of COPD (p1241, p1247). Cognitive impairment can make an inhaler hard to use correctly and should inform device selection (p1248, p1255).
 
 <span data-exam-ids="mcq-6a3a4989b7a53b19593f44a7" data-reader-metadata="exam"></span>For the June 2023 historical question, the 80-year-old receives **PCV13 followed by PPSV23** in addition to influenza vaccination. The distractors repeat both products every five years or add Hib vaccination simply because of COPD. The pneumococcal schedule in the textbook predates the 20-valent conjugate vaccine used in Israel. See the Israeli context below (Ch 11 p165; Ch 81 pp1255–1256).
 
@@ -100,12 +100,12 @@ Check gait, falls, frailty, weight trajectory and bone health. Vertebral deformi
 
 ### Pharmacologic management (stable COPD)
 - **COPD inhaled treatment:** offer a short-acting rescue bronchodilator. Hazzard generally uses a LAMA first for long-acting bronchodilation. In Group D, high symptom burden, frequent exacerbations and blood eosinophils **≥300 cells/mL** in the text support adding ICS to LABA (pp1253–1254). *[sic — Table 81-7, p1246, uses cells/µL.]*
-  > Current practice (not the book): GOLD 2026 generally favors **LABA/LAMA** for symptomatic group B or exacerbation-prone group E patients and considers **LABA/LAMA/ICS** in group E at eosinophils **≥300 cells/μL**. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. [GOLD treatment algorithms](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29).
+  > Current practice (not the book): GOLD 2026 generally favors **LABA/LAMA** for symptomatic group B or exacerbation-prone group E patients and considers **LABA/LAMA/ICS** in group E at eosinophils **≥300 cells/μL**. Following exacerbations on LABA/LAMA, ICS benefit is more likely as the eosinophil count rises. Concomitant asthma requires an ICS-containing regimen. [GOLD treatment algorithms](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=30).
 - ICS risks in older adults: **1.2–1.6-fold** increased pneumonia risk (highest with older age, frailty, low BMI, high dose, eosinophils **<100 cells/mL** in the text *[sic — Table 81-7 uses cells/µL]*); consider osteoporosis prevention during long-term treatment, especially given accelerated bone loss above **1000 mcg/day** fluticasone-equivalent; subcapsular cataracts are established with systemic steroids, while causation with ICS is less certain; atypical mycobacterial infection (p1253–1254).
 - Roflumilast: oral PDE4-inhibitor for severe obstruction + chronic bronchitis + history of exacerbations (p1254).
 - Clinical phenotypes steer add-on therapy beyond bronchodilators: bronchiectasis → airway-clearance techniques (not ICS-focused); emphysema → consider LVRS/transplant or α1-antiprotease (if AAT-deficient); COPD-asthma overlap/eosinophilic COPD → consider biologics; COPD-OSA overlap → positive airway pressure (Table 81-7, p1246).
 
-> Current practice (not the book): In exacerbation-prone COPD with eosinophils ≥300/µL despite optimized inhaled treatment, dupilumab reduced exacerbations in BOREAS and NOTUS. The trials selected patients with chronic productive cough. Mepolizumab also reduced moderate or severe exacerbations in eosinophilic COPD in MATINEE. These results concern selected phenotypes. [NOTUS trial, 2024 and MATINEE, 2025](https://pubmed.ncbi.nlm.nih.gov/38767614/).
+> Current practice (not the book): In exacerbation-prone COPD with eosinophils ≥300/µL despite optimized inhaled treatment, dupilumab reduced exacerbations in BOREAS and NOTUS. The trials selected patients with chronic productive cough. Mepolizumab also reduced moderate or severe exacerbations in eosinophilic COPD in MATINEE. These results concern selected phenotypes. [NOTUS trial, 2024](https://pubmed.ncbi.nlm.nih.gov/38767614/) and [MATINEE, 2025](https://doi.org/10.1056/NEJMoa2413181).
 - Azithromycin **250 mg daily or 3×/week** reduces exacerbations in former smokers; watch for QTc, hearing loss, resistance; maintenance may be considered for frequent exacerbators despite maximal triple inhalers when worsening airflow obstruction and airway inflammation drive symptoms, without hearing impairment, resting tachycardia or other arrhythmia, apparent QTc-prolongation risk, or clinical/radiographic NTM evidence, with NTM assessment before regular use (p1254).
 - Theophylline: goal level **8–12 mcg/mL**; narrow therapeutic window, rarely used now (p1255).
 
@@ -175,11 +175,11 @@ Two-thirds of those with chronic-bronchitis symptoms and half of those with phys
 <details><summary>Answer</summary>
 
 Hazzard reports benefit from ICS/LABA with eosinophils **≥300 cells/mL** and high symptom burden plus frequent exacerbations (Group D). ICS-associated pneumonia risk rises with **<100 cells/mL**, older age, frailty, low BMI or high dose. The chapter discusses ICS withdrawal with **<300 cells/mL**, particularly **<100 cells/mL** (pp1253–1254). *[sic — all three units are printed per mL in the prose; Table 81-7 on p1246 uses cells/µL.]*
-> Current practice (not the book): GOLD expresses these eosinophil counts in cells/µL. [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=29).
+> Current practice (not the book): GOLD expresses these eosinophil counts in cells/µL. [GOLD Figure 3.10](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=32).
 
 </details>
 
-**7. What peak inspiratory flow (PIF) does a dry powder inhaler (DPI) require, and which device is preferred when PIF is inadequate?**
+**7. What peak inspiratory flow (PIF) does a dry powder inhaler (DPI) require, and which device offers an advantage when PIF is inadequate?**
 
 <details><summary>Answer</summary>
 

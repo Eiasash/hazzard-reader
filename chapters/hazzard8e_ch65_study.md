@@ -160,7 +160,7 @@ Medically complex, cognitively impaired, or bipolar/psychotic-feature depression
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-5b7cd8474f47b3387f03b012"><span>June 2022 Q47</span> Risk of prolonged grief</a> <a class="study-source-link" href="?chapter=66#p1024" aria-label="Related teaching, Ch 66 · p1024">Ch 66 · p1024</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d999fc66e84432d68688a775"><span>2020 Q37</span> Interpreting PHQ-9</a> <a class="study-source-link" href="?chapter=65#p1009" aria-label="8e teaching passage, p1009">p1009</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-d999fc66e84432d68688a775"><span>2020 Q37</span> Interpreting PHQ-9</a> <a class="study-source-link" href="?chapter=65#p1012" aria-label="8e teaching passage, p1012">p1012</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-92a6c079601ca0714a4342c5"><span>May 2024 Q16</span> Minor versus major depression</a> <a class="study-source-link" href="?chapter=65#p1011" aria-label="exam reference, p1011">p1011</a></p>
 
