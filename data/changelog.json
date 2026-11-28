@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v343",
+      "date": "2026-11-28",
+      "changes": [
+        "Chapter 77 Study and its recall card now describe the ESC guidance on gastroprotection using the patient’s overall bleeding risk."
+      ]
+    },
+    {
       "version": "v342",
       "date": "2026-11-28",
       "changes": [
