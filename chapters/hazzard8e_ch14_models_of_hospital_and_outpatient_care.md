@@ -117,7 +117,7 @@ The ACE program also pays attention to patients’ needs throughout their hospit
 
 The ACE model was initially studied on a medicalsurgical nursing unit (the ACE unit). Three randomized clinical trials confirm the benefits of the ACE unit compared to usual care. Compared to patients receiving usual care those admitted to the ACE units were discharged with
 
-less disability and a shorter hospital length of stay. They were also less likely to transition to a skilled nursing facility. Total costs of hospitalization were slightly lower on the ACE unit. Trends toward less hospital-associated disability at discharge were shown in one study, with lower rates of disability or nursing home placement 1 year later. Caregivers, nurses, and physicians report higher satisfaction with patient care on the ACE unit compared to usual care. Other benefits of ACE demonstrated in the clinical trials and programs with elements similar to ACE included fewer patients falls and use of physical restraints, better performance-based mobility, and reduced 30-day hospital readmissions. The most consistent outcomes of trials of ACE are significant reductions in length of hospital stay and costs. These findings provide compelling evidence that ACE units present health care systems an opportunity to realign the goals of improving the patient experience, providing high-quality care, reducing costs, and avoiding hospitalacquired conditions (consistent with the “triple aim”).
+less disability and a shorter hospital length of stay. They were also less likely to transition to a skilled nursing facility. Total costs of hospitalization were slightly lower on the ACE unit. Trends toward less hospital-associated disability at discharge were shown in one study, with lower rates of disability or nursing home placement 1 year later. Caregivers, nurses, and physicians report higher satisfaction with patient care on the ACE unit compared to usual care. Other benefits of ACE demonstrated in the clinical trials and programs with elements similar to ACE included fewer patients falls and use of physical restraints, better performance-based mobility, and reduced 30-day hospital readmissions. The most consistent outcomes of trials of ACE are significant reductions in length of hospital stay and costs. These findings provide compelling evidence that ACE units present health care systems an opportunity to realign the goals of improving the patient experience, providing high-quality care, reducing costs, and avoiding hospital-acquired conditions (consistent with the “triple aim”).
 
 The strength of ACE units is their scalability in a health care system or large hospital. Clinicians have found it most feasible to define which older adults should not be admitted to the ACE unit (eg, those who need intensive care or those with unstable vital signs). Patient care is more efficient than usual care and additional costs for startup of the unit are modest compared to usual care once a unit is mature and necessary environmental alterations have been completed.
 
@@ -203,7 +203,7 @@ NICHE can be implemented in hospitals, long-term care facilities, and home healt
 
 ### STRIDE Programs
 
-There are two geriatric models called “STRIDE.” One is hospital-based and was studied in Veterans Affairs Medical Centers. The second is a falls prevention intervention that was deployed in outpatient primary care practices. The latter program is described in the section on CommunityBased Models.
+There are two geriatric models called “STRIDE.” One is hospital-based and was studied in Veterans Affairs Medical Centers. The second is a falls prevention intervention that was deployed in outpatient primary care practices. The latter program is described in the section on Community-Based Models.
 
 ### VA-Based STRIDE Program
 
@@ -259,7 +259,7 @@ The GRACE model of care appears to be cost-effective for low income patients who
 
 Several other hospitals, academic medical centers, and Department of Veterans Affairs Medical Centers have adopted the GRACE model of care. The GRACE model has been expanded to chronically ill homebound older patients as a home visitation program that includes physicians, nurse practitioners, and social workers. GRACE has been used successfully as a care transitions program for older adults who are discharged home from a hospital or
 
-skilled nursing facility. GRACE has the potential to provide coordinated care management of enrolled patients across the care continuum with shared responsibility between patients, medical care providers, and the core team. It provides geriatricians an opportunity to serve in a consultative role to the interdisciplinary team and to be the primary care physician in various settings. The geriatrician’s expertise in chronic care management, interdisciplinary team care, knowledge of geriatric conditions, and training in systembased practice brings value to the health care system and insurance plans.
+skilled nursing facility. GRACE has the potential to provide coordinated care management of enrolled patients across the care continuum with shared responsibility between patients, medical care providers, and the core team. It provides geriatricians an opportunity to serve in a consultative role to the interdisciplinary team and to be the primary care physician in various settings. The geriatrician’s expertise in chronic care management, interdisciplinary team care, knowledge of geriatric conditions, and training in system-based practice brings value to the health care system and insurance plans.
 
 ### Program of All-Inclusive Care for the Elderly
 
@@ -389,7 +389,7 @@ Fulmer T, Mate KS, Berman A. The age-friendly health system imperative. J Am Ger
 
 Fulmer T, Patel P, Levy N, et al. Moving toward a global age-friendly ecosystem. J Am Geriatr Soc. 2020;68: 1936–1940.
 
-Ganz DA, Latham NK. Prevention of falls in communitydwelling older adults. N Engl J Med. 2020;382(8): 734–743.
+Ganz DA, Latham NK. Prevention of falls in community-dwelling older adults. N Engl J Med. 2020;382(8): 734–743.
 
 Gill TM, McGloin JM, Shelton A, et al. Optimizing retention in a pragmatic trial of community-living older persons: the STRIDE Study. J Am Geriatr Soc. 2020;68: 1242–1249.
 

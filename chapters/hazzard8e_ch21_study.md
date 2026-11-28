@@ -12,7 +12,7 @@ Study summary of Chapter 21; the book and the full chapter are the reference.
 **Medicines and overlooked symptoms**
 - Medication review should include actual use, nonprescription products, multiple prescribers/pharmacies, adverse effects and affordability (p288).
 - Explain antibiotic indications, harms and resistance; unnecessary prescriptions and leftover use remain concerns (p288-289).
-- Most respondents discussed **how often to take** an opioid with the prescriber. Fewer discussed side effects, when to reduce the dose, overdose or addiction. Ask about leftover pills and safe disposal (p289–290).
+- Among respondents who filled an opioid prescription, 90% discussed **how often to take** it with the prescriber. Fewer discussed side effects, when to reduce the dose, overdose or addiction. Ask about leftover pills and safe disposal (p289–290).
 - The poll asked about marijuana’s **pain-relief benefits**: 31% thought it definitely relieved pain and 38% thought it probably did. These are respondents’ beliefs (p290).
 - Invite sexual-health discussions. Ask about urinary incontinence: some women do not raise it because they consider it mild or a normal part of aging (p290–292).
 - Dental coverage/costs affect access. Explain why a requested test or treatment may provide little benefit rather than assuming patients want more care (p292).
@@ -20,7 +20,7 @@ Study summary of Chapter 21; the book and the full chapter are the reference.
 **Access, decisions and daily life**
 - Telehealth and patient portals can improve access but technical barriers, privacy, examination limits and unequal uptake matter (p293).
 - Discuss expected health-care costs around retirement. In the poll, 13% of adults aged 50–64 went without medical care because of cost in the prior year. Some postponed retirement to retain employer-sponsored coverage (p294).
-- Advance planning links care to values and chosen decision makers.
+- Advance planning links care to values and chosen decision makers (pp294–295).
 - Screen for food insecurity and connect with assistance. Emergency plans should address supplies, evacuation and communication (p296-297).
 - Pets may support companionship and activity but also create cost, mobility or fall concerns; dementia caregivers may need more support and training (p297-298).
 - Loneliness increased in early pandemic surveys. Home/neighborhood resources affect isolation, safe activity and ability to follow public-health advice (p298-300).
@@ -155,9 +155,9 @@ No past exam questions are mapped to this chapter in the 2020–2026 reference l
 
 <details><summary>Answer</summary>Many felt it was not serious enough, had other issues to discuss or did not consider it a health problem. (p291–292)</details>
 
-**9. What might be missed if a clinician assumes a patient is asking for another test?**
+**9. What did older adults report about unnecessary testing and treatment?**
 
-<details><summary>Answer</summary>The patient may be concerned about harm, cost or unnecessary testing. Discuss what the result would change and why a test may offer little benefit. (p292)</details>
+<details><summary>Answer</summary>Only 14% agreed that more medical treatment is usually better. A quarter thought their own provider often recommended unnecessary care, and 54% said this of providers in general. (p292)</details>
 
 **10. Why distinguish the offer of telehealth from actual uptake?**
 

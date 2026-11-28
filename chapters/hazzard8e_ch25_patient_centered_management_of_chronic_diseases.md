@@ -74,13 +74,11 @@ Self-management support interventions are recognized as an integral component of
 
 *TABLE 25-1 ■ KEY CHARACTERISTICS OF FOUR HEALTH BEHAVIOR THEORIES AND MODELS THAT ARE THE THEORETICAL BASIS OF MANY PATIENT-FACING AND COMMUNITY-BASED SELF-MANAGEMENT SUPPORT INTERVENTIONS*
 
-
 The chronic care model was developed as a framework to describe the effective delivery of care for chronic diseases. It considers how the community, health care system, practice setting, and patients interact through six components of chronic care delivery: delivery system design, self-management support, decision support, clinical information systems, leading to a proactive practice team and informed, engaged patients.
 
 ![Table 25-2](hazzard8e_ch25_table-25-2_p348.webp)
 
 *TABLE 25-2 ■ KEY CHARACTERISTICS OF THREE COMMON FRAMEWORKS FOR CHRONIC DISEASE MANAGEMENT*
-
 
 The Patient-Centered Medical Home was developed over 15 years ago by the major primary care professional organizations: the American Academy of Pediatrics, the American Academy of Family Physicians, the American College of Physicians, and the American Osteopathic Association. Although it has evolved over the years, it is based on several key principles including continuity and accessibility of care, team-based care, trained and prepared staff and efficient clinical operation, patient engagement, care coordination and integration, effective health information, and ongoing quality improvement. Similarly, the 10 principles of effective primary care were articulated in 2014 by Bodenheimer as including “4 foundational elements— engaged leadership, data-driven improvement, empanelment, and team-based care—that assist the implementation of the other 6 building blocks—patient-team partnership, population management, continuity of care, prompt access to care, comprehensiveness and care coordination, and a template of the future.” These models are completely consistent with ambulatory geriatric practice and have in common team-based and coordinated care, “whole-patient” orientation, access and continuity of care, and recognition of the importance of ongoing quality improvement. Geriatrics care, however, also explicitly recognizes the challenges of multimorbidity, functional impairment, frailty, and serious illness among older adult patients, which adds even more complexity to chronic care delivery for these patients.
 
@@ -104,7 +102,6 @@ Figure 25-1 illustrates a framework for understanding self-management approaches
 
 *FIGURE 25-1. Heterogeneity of patients drives appropriate use of guidelines. The heterogeneity among older adults and how health status, including multimorbidity and function, determine the appropriateness of chronic disease guidelines for clinical decision making. HF, heart failure. (Adapted with permission from Blaum CS, Rosen J, Naik AD, et al. Feasibility of implementing patient priorities care for older adults with multiple chronic conditions. J Am Geriatr Soc. 2018;66[10]:2009–2016.)*
 
-
 <a id="p350"></a>**[p. 350]**
 
 as persons age and acquire additional chronic conditions. Many trials and studies exclude people with MCC, or with cognitive impairment, or people of advanced age, or with serious illness, or with disability, that is, people with complex health status. For such people the results of the studies cannot be extrapolated.
@@ -124,7 +121,6 @@ Many of these interventions have been developed for primary care, although for s
 ![Table 25-3](hazzard8e_ch25_table-25-3_p350.webp)
 
 *TABLE 25-3 ■ SELF-MANAGEMENT SUPPORT TARGETS, TYPES, AND STRATEGIES*
-
 
 <a id="p351"></a>**[p. 351]**
 
@@ -218,7 +214,6 @@ The presence of MCC exposes an older adult to significant risk for adverse outco
 
 *TABLE 25-4 ■ PATIENT SELF-MANAGEMENT ACTIVITIES*
 
-
 In addition to the burden of illness, adults with MCC face an excessive burden of treatment that impacts their daily life, relationships, and well-being. Multimorbidity imposes burdens on older adults and their caregivers related to frequent health system interactions, demands for self-care activities, and medication burdens from polypharmacy and drug interactions (Table 25-4). Burden of treatment consists of the everyday demands arising from interacting with the health system and frequent clinician visits, negotiating conflicting information about symptoms and treatments, adapting recommendations into daily routines, managing medications, and relying on supportive services.
 
 Patients with MCC and their family caregivers spend 2 hours a day on self-care plus an additional 2 hours for every visit to a health care facility (ie, travel time, wait time, and time receiving care). Patients with Medicare typically visit five or more specialists annually. Higher burden is associated with poor medication adherence and morbidity. For older adults with cognitive and functional impairment, the capacity to manage the complexities of treatment is often diminished. Over time, the persistent imbalances between complexity and capacity create stress, fatigue, and inability to perform necessary care tasks, which then results in poorer health outcomes. Burden of treatment for older adults with MCC is not only considered a harm in and of itself, but also impacts health care access, use, self-management, and health outcomes.
@@ -233,7 +228,6 @@ A paradigm shift in clinical decision making that results in the provision of th
 
 *FIGURE 25-2. Veterans Administration Whole Health Program. The Veterans Administration’s Whole Health Program provides a whole-person, patient-centered, comprehensive view of health, and its components are described within circles. For example, the “Me” component involves the patient’s identification of ‘what matters most to you’ and working toward a personal health plan by identifying missions, aspirations, purpose, and shared goals. The next circle is your self-care. These are the circumstances and choices you make in your everyday life. The next circle represents professional care you receive. Professional care may include tests, medications, supplements, surgeries, examinations, treatments, and counseling. This also includes complementary approaches such as acupuncture and mind-body therapies. The fourth circle represents the people and groups with whom you are connected. (Data from US Department of Veterans Affairs Whole Health [https:// www.va.gov/WHOLEHEALTH/circle-of-health/index.asp](<https://www.va.gov/WHOLEHEALTH/circle-of-health/index.asp>).)*
 
-
 Whole Health Program (Figure 25-2), which focuses on the array of health, social, spiritual, and wellness needs of whole persons rather than a narrow focus on prolonging life and eliminating symptoms.
 
 Investigators have demonstrated that older adults with MCC describe a consistent set of health-related priorities (“what matters most”) that typically include: social and spiritual engagement; function and independence; life enjoyment activities and roles; and managing health that balances quality with quantity of life. Older adults with MCC report wanting their clinicians to know their priorities (and assume they do know them), but few patients describe having specific discussions about their priorities. Outcome goals that help older adults with MCC live according to what matters most to them, within the context
@@ -242,16 +236,15 @@ of what treatments they are willing and able to engage in, should be the basis f
 
 Another prominent approach is Patient Priorities Care (PPC) (Figure 25-3), which also seeks to align clinical decision making for people with MCC with their health outcome goals and care preferences to deliver care that matters to people.
 
-The key premise of such approaches is that people are much more likely to engage in their care, partner with clinicians to achieve the goals that matter to them, and self-manage care that respects and aligns with their preferences, when they are willing and able to achieve
+The key premise of such approaches is that people are much more likely to engage in their care, partner with clinicians to achieve the goals that matter to them, and self-manage care that respects and aligns with their preferences, when they are willing and able to achieve their goals, that is, what matters to them.
 
 ![Figure 25-3](hazzard8e_ch25_figure-25-3_p356.webp)
 
 *FIGURE 25-3. The key steps involved in Patient Priorities Care are illustrated. Patient health priorities are identified either through a self-directed process ( https://myhealthpriorities.org/) or with a health professional. The health priorities are transmitted to the patient’s clinician who then considers whether current or potential interventions are consistent with patient’s health priorities. Clinicians and patients align care with the identified health priorities by using the patient’s priorities as a focus of communication and decision making, as a target of serial trails to start, stop, or continue care, and to reconcile decisions when different perspectives exist. Self-management support is provided to assist the patient if necessary to carry out the clinical interventions that will help the patient achieve or make progress on her/his priorities.(Reproduced with permission from Mary Tinetti and Aanand Naik 2021.)*
 
-
 <a id="p357"></a>**[p. 357]**
 
-their goals, that is, what matters to them. The PPC and the whole health approach are completely consistent with health behavioral theories for successful patient chronic care self-management: care that stresses goal setting, patient communication and engagement with clinicians, self-efficacy, and removing barriers to care.
+The PPC and the whole health approach are completely consistent with health behavioral theories for successful patient chronic care self-management: care that stresses goal setting, patient communication and engagement with clinicians, self-efficacy, and removing barriers to care.
 
 The case scenario presented illustrates the problems a patient with MCC can face in self-management, and how a new approach to clinical decision making and care delivery can simplify his treatment burden, and direct self-management and self-management support toward his personal health outcome goals.
 

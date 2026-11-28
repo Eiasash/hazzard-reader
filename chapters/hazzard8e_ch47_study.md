@@ -152,7 +152,7 @@ Chronic indwelling catheter: reserve for urinary retention causing overflow inco
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7fdc07afc2be6fd590641b66"><span>June 2022 Q70</span> Detrusor changes with age</a> <a class="study-source-link" href="?chapter=47#p700" aria-label="8e teaching passage, p700">p700</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7fdc07afc2be6fd590641b66"><span>June 2022 Q70</span> Detrusor changes with age</a> <a class="study-source-link" href="?chapter=47#p701" aria-label="Related teaching, p701">p701</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a77459f28aa5bea68b87e0b9"><span>June 2023 Q2</span> Innervation during filling</a> <a class="study-source-link" href="?chapter=47#p700" aria-label="exam reference, p700">p700</a></p>
 
@@ -182,7 +182,7 @@ Chronic indwelling catheter: reserve for urinary retention causing overflow inco
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-30f0309dc8329f9569c19e59"><span>June 2025 Q66</span> Somatic pelvic floor control</a> <a class="study-source-link" href="?chapter=47#p700" aria-label="exam reference, p700">p700</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-16901cf73d684c18a48a5302"><span>December 2021 Q43</span> Pelvic floor training</a> <a class="study-source-link" href="?chapter=47#p703" aria-label="8e teaching passage, p703">p703</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-16901cf73d684c18a48a5302"><span>December 2021 Q43</span> Pelvic floor training</a> <a class="study-source-link" href="?chapter=47#p709" aria-label="Related teaching, p709">p709</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-93174381fd654b82b0cca672"><span>June 2023 Q62</span> Functional incontinence in dementia</a> <a class="study-source-link" href="?chapter=47#p707" aria-label="exam reference, p707">p707</a></p>
 
@@ -206,9 +206,9 @@ Roughly 60%–70% reduction; a 2- to 4-week trial is needed before concluding a 
 
 </details>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c5345b7ff1fe72dfb2afcbb8"><span>June 2022 Q30</span> Finasteride adverse effects</a> <a class="study-source-link" href="?chapter=47#p712" aria-label="8e teaching passage, p712">p712</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c5345b7ff1fe72dfb2afcbb8"><span>June 2022 Q30</span> Finasteride adverse effects</a> <a class="study-source-link" href="?chapter=47#p713" aria-label="Related teaching, p713">p713</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-01cdc59c55369cf2a42ea5c5"><span>September 2024 Q22</span> Adverse effects of BPH drugs</a> <a class="study-source-link" href="?chapter=47#p712" aria-label="exam reference, p712">p712</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-01cdc59c55369cf2a42ea5c5"><span>September 2024 Q22</span> Adverse effects of BPH drugs</a> <a class="study-source-link" href="?chapter=47#p713" aria-label="Related teaching, p713">p713</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-3452f8f6cfd764cc9e8162f6"><span>September 2024 Q50</span> Finasteride mechanism</a> <a class="study-source-link" href="?chapter=47#p713" aria-label="exam reference, p713">p713</a></p>
 

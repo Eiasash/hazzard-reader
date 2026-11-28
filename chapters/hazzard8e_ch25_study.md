@@ -16,7 +16,7 @@ Study summary of Chapter 25; the book and the full chapter are the reference.
 - Disease-specific interventions can improve selected outcomes, but effects and outcome measures vary; evidence for multimorbidity support is less developed (p351-354).
 - Housing, food, finances, access, trust and culture shape the ability to self-manage; community resources and tailored support matter (p354-355).
 - Applying multiple guidelines can create drug–drug, drug–disease and disease–disease harms, alongside treatment burden (p355).
-- The book describes **2 hours/day** of self-care plus another **2 hours/visit** spent in health facilities for patients with multiple chronic conditions and caregivers (p355).
+- The book describes **2 hours/day** of self-care plus another **2 hours/visit** including travel, waiting and care at the facility for patients with multiple chronic conditions and caregivers (p355).
 
 **Care around priorities**
 - Ask what outcomes matter and what treatments the patient is willing and able to undertake; independence and meaningful activities may outweigh disease targets (p355-356).
@@ -80,7 +80,7 @@ The evidence specifically addressing people with multiple chronic conditions is 
 
 ### Treatment burden, equity and conflicting instructions
 
-Table 25-4 makes the workload visible. Count not only tablets but refills, monitoring, recognition of adverse effects, trips for blood tests, specialist appointments, imaging, procedures, discomfort and recovery. The book describes approximately **two hours a day** on health-related tasks and an additional **two hours per visit** in health facilities for patients with multiple conditions and caregivers. These are estimates of effort, not a universal budget. Ask which task consumes a disproportionate share of this household's time and whether it is essential to a goal the patient wants to pursue (p355).
+Table 25-4 makes the workload visible. Count not only tablets but refills, monitoring, recognition of adverse effects, trips for blood tests, specialist appointments, imaging, procedures, discomfort and recovery. The book describes approximately **two hours a day** on health-related tasks and an additional **two hours per visit** per facility visit, including travel, waiting and care for patients with multiple conditions and caregivers. These are estimates of effort, not a universal budget. Ask which task consumes a disproportionate share of this household's time and whether it is essential to a goal the patient wants to pursue (p355).
 
 Consider interactions at three levels. A drug for one problem can worsen another condition; two drugs can interact; and one disease can make another disease's self-management task impossible. For example, a person may understand the need for monitoring but be unable to read the display or climb the steps to the clinic. The caregiver doing the transport may also be the person preparing meals and assisting with medicines. A missed appointment can reflect competing obligations rather than unwillingness. Ask about cost, trust, food, housing, transport and the local services actually available before interpreting that absence (p353–355, p357–358).
 

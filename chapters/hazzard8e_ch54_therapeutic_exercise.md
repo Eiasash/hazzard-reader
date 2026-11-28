@@ -6,7 +6,7 @@ Kerry L. Hildreth, Kathleen M. Gavin, Christine M. Swanson, Sarah J. Wherry, Ker
 
 > Not cited in the 2020-2026 past papers.
 
-> **Source and method.** Printed pages 805-816, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 805-815, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p805"></a>**[p. 805]**
 
@@ -328,5 +328,3 @@ Lauber D. Differential effects of strength versus power training on bone mineral
 cise in individuals with and without cardiovascular disease: 2007 update. Circulation. 2007;116:572–584. Zoico E, Di Francesco V, Guralnik JM, et al. Physical dis-
 
 ability and muscular strength in relation to obesity and different body composition indexes in a sample of healthy elderly women. Int J Obes Relat Metab Disord. 2004;28:234–241.
-
-<a id="p816"></a>**[p. 816]**

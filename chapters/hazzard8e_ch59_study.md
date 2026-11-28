@@ -6,7 +6,7 @@ Establish cognitive decline from the person's usual function, then interpret the
 
 ## Risk factors and biology
 
-Age is the strongest established risk factor discussed in Hazzard. A family with younger-onset disease in successive generations raises a different question: a pathogenic mutation in APP, PSEN1 or PSEN2 can cause autosomal dominant AD. Among the familial mutations grouped in the chapter, PSEN1 accounts for about 78%. APP maps to chromosome 21, which also explains the relevance of APP dosage in Down syndrome. The mutation distribution that answers it is on <a href="?chapter=59#p897">p897</a>–<a href="?chapter=59#p898">898</a> (<a href="?chapter=59#p894">p894</a>–<a href="?chapter=59#p895">895</a>, <a href="?chapter=59#p897">897</a>–<a href="?chapter=59#p898">898</a>).
+Age is the strongest established risk factor discussed in Hazzard. A family with younger-onset disease in successive generations raises a different question: a pathogenic mutation in APP, PSEN1 or PSEN2 can cause autosomal dominant AD. Among the familial mutations grouped in the chapter, PSEN1 accounts for about 78%. APP maps to chromosome 21, which also explains the relevance of APP dosage in Down syndrome. See the chapter’s discussion of familial mutations (<a href="?chapter=59#p897">pp897–898</a>).
 
 **>6 million Americans**, **>44 million worldwide** have AD or a related dementia (<a href="?chapter=59#p894">p894</a>).
 
@@ -154,7 +154,7 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 ## Test yourself
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-969d468917902ea022b54f50"><span>June 2026 Q82</span> Abstraction on the MoCA</a> <a class="study-source-link" href="?chapter=9#p138" aria-label="8e teaching passage, p138">p138</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-969d468917902ea022b54f50"><span>June 2026 Q82</span> Abstraction on the MoCA</a> <a class="study-source-link" href="?chapter=9#p140" aria-label="Related teaching, p140">p140</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f1b068fb860ad775dde65af8"><span>June 2022 Q18</span> Age and Alzheimer risk</a> <a class="study-source-link" href="?chapter=59#p894" aria-label="8e teaching passage, p894">p894</a></p>
 
@@ -180,7 +180,7 @@ When pneumonia occurs, consider relief of suffering and possible prolongation of
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-a0fa9b557074f9332ce13a1b"><span>December 2021 Q19</span> Management of MCI</a> <a class="study-source-link" href="?chapter=59#p896" aria-label="8e teaching passage, p896">p896</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-1c4533a4cd0e8662d06d60b3"><span>December 2021 Q75</span> Progression from MCI</a> <a class="study-source-link" href="?chapter=59#p896" aria-label="8e teaching passage, p896">p896</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-1c4533a4cd0e8662d06d60b3"><span>December 2021 Q75</span> Progression from MCI</a> <a class="study-source-link" href="?chapter=59#p907" aria-label="Related teaching, p907">p907</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-6512e0a92fe1fe2be71f47ee"><span>June 2026 Q36</span> Function distinguishes MCI</a> <a class="study-source-link" href="?chapter=59#p896" aria-label="exam reference, p896">p896</a></p>
 
@@ -224,7 +224,7 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-08e57c41fba38974834cfcc7"><span>December 2021 Q78</span> Treatment expectations</a> <a class="study-source-link" href="?chapter=59#p910" aria-label="8e teaching passage, p910">p910</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-432e69e7294ba1333bbb87f6"><span>June 2023 Q35</span> Memantine after drug intolerance</a> <a class="study-source-link" href="?chapter=59#p910" aria-label="exam reference, p910">p910</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-432e69e7294ba1333bbb87f6"><span>June 2023 Q35</span> Memantine after drug intolerance</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="Related teaching, p911">p911</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-aa26bdef996a98dd1c649114"><span>2020 Q87</span> Donepezil and the ECG</a> <a class="study-source-link" href="?chapter=59#p911" aria-label="8e teaching passage, p911">p911</a></p>
 
@@ -240,7 +240,7 @@ Hazzard reports ARIA in **34–36%** of high-dose participants. Of those with AR
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-dfce84d3a202c484afe8b6bc"><span>May 2024 Q87</span> Sleep effects of donepezil</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7dd1def9d494cc738077131"><span>September 2024 Q61</span> Adverse effects of memantine</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="exam reference, p912">p912</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-f7dd1def9d494cc738077131"><span>September 2024 Q61</span> Adverse effects of memantine</a> <a class="study-source-link" href="?chapter=59#p913" aria-label="Related teaching, p913">p913</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-987cf6b109f3fe9f8d976b83"><span>June 2026 Basic Q102</span> Drug-related presyncope</a> <a class="study-source-link" href="?chapter=59#p912" aria-label="Supporting evidence: donepezil adverse effects, Table 59-7, p912">p912</a></p>
 

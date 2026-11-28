@@ -2,6 +2,13 @@
   "schema": 1,
   "releases": [
     {
+      "version": "v341",
+      "date": "2026-11-28",
+      "changes": [
+        "Corrected book and law references, practice explanations and table images. Chapters now keep interrupted sentences together, and Notebook separates saved questions from saved topics."
+      ]
+    },
+    {
       "version": "v340",
       "date": "2026-11-28",
       "changes": [

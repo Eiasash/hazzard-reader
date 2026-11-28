@@ -207,9 +207,7 @@ the United States: prevalence estimates from a nationally representative study. 
 
 Mosqueda L, Burnight K, Gironda MW, Moore AA,
 
-Robinson J, Olsen B. The abuse intervention model: a pragmatic approach to intervention for elder mistreatment. J Am Geriatr Soc. 2016;64(9):1879–1883. National Center for Elder Abuse. The Elder Justice Road-
-
-map: A Stakeholder Initiative to Respond to an Emerging Health, Justice, Financial, and Social Crisis. [https://www](<https://www.justice.gov/file/852856/download>) .justice.gov/file/852856/download. Accessed June 3, 2021. Pillemer K, Burnes D, Riffin C, Lachs MS. Elder abuse:
+Robinson J, Olsen B. The abuse intervention model: a pragmatic approach to intervention for elder mistreatment. J Am Geriatr Soc. 2016;64(9):1879–1883. National Center for Elder Abuse. The Elder Justice Roadmap: A Stakeholder Initiative to Respond to an Emerging Health, Justice, Financial, and Social Crisis. [https://www.justice.gov/file/852856/download](<https://www.justice.gov/file/852856/download>). Accessed June 3, 2021. Pillemer K, Burnes D, Riffin C, Lachs MS. Elder abuse:
 
 global situation, risk factors, and prevention strategies. Gerontologist. 2016;56(Suppl 2):S194–205. Pillemer K, Finkelhor D. The prevalence of elder abuse: a
 
@@ -219,7 +217,7 @@ injury patterns associated with physical elder abuse: analysis of legally adjudi
 
 sion in long-term care facilities: an understudied problem. Aggress Violent Behav. 2008;13(2):77–87. Under the Radar: New York State Elder Abuse Prevalence
 
-Study: Self-Reported Prevalence and Documented Case Surveys 2012. [https://ocfs.ny.gov/main/reports/](<https://elderabuse.weill.cornell.edu/sites/default/files/undertheradar051211.pdf> "Original New York elder-abuse prevalence study, author-hosted copy") Under%20the%20Radar%2005%2012%2011%20 final%20report.pdf. Accessed June 3, 2021.
+Study: Self-Reported Prevalence and Documented Case Surveys 2012. [https://ocfs.ny.gov/main/reports/Under%20the%20Radar%2005%2012%2011%20final%20report.pdf](<https://elderabuse.weill.cornell.edu/sites/default/files/undertheradar051211.pdf> "Original New York elder-abuse prevalence study, author-hosted copy"). Accessed June 3, 2021.
 
 <a id="p727"></a>**[p. 727]**
 

@@ -153,7 +153,7 @@ window.HazzardSimulation = (() => {
       const r=v.history[v.session.id],practice=practiceIds(v.session);
       return '<section class="practice-result"><h2>'+esc(label(r.sitting))+'</h2><p class="mcq-score-value">'+r.correct+' / '+r.total+'</p><p>'+Math.round(r.correct/r.total*100)+'% of scored questions correct</p><p class="meta">Time used: '+elapsed(r.timeMs)+(r.automatic?' · Time expired; automatically submitted':'')+'</p>'+
         (r.sitting==='2022-Jun-Basic'?'<p class="meta">The exam score follows the Basic-track appeal key. Review scheduling follows the question bank key.</p>':'')+
-        '<div class="practice-result-actions"><button class="primary" data-sim="review">Review answers ('+v.session.ids.length+')</button><button data-sim="practice-missed" '+(!practice.length?'disabled':'')+'>Practise missed, unanswered or flagged ('+practice.length+')</button><button data-sim="setup">Choose another exam</button></div></section>'+appealHTML(v.session)+historyHTML(v);
+        '<div class="practice-result-actions"><button class="primary" data-sim="review">Review answers ('+v.session.ids.length+')</button><button data-sim="practice-missed" '+(!practice.length?'disabled':'')+'>Practice missed, unanswered or flagged ('+practice.length+')</button><button data-sim="setup">Choose another exam</button></div></section>'+appealHTML(v.session)+historyHTML(v);
     }
     function render(){
       if(lifetime.signal.aborted)return;
@@ -161,6 +161,7 @@ window.HazzardSimulation = (() => {
       window.HazzardAnswerHighlights?.attach(null);
       try{
         const v=read(),s=v.session;let html='';
+        host.toggleAttribute('data-timed-exam',!!s&&s.status==='running'&&!setup);
         if(controller.active)onHeader?.(s?.status==='submitted'&&!setup?(reviewing?'Exam answers':'Exam result'):'Exam simulation',!!s&&!setup&&(s.status!=='submitted'||reviewing));
         if(s&&!setup&&!readySittings.has(s.sitting)){
           host.innerHTML='<div class="mcq-page" role="status">Opening sitting…</div>';

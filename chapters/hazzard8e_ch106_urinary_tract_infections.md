@@ -224,13 +224,19 @@ Shorter length of therapy, similar to what is described for community-dwelling o
 
 ## PREVENTION
 
-Cranberry Formulations Cranberry juice has been used as a home remedy for prevention and treatment of UTI for decades, although the evidence to support this intervention as a prevention strategy is still debated. Cranberry proanthocyanidin (PAC) is the active ingredient in cranberry that is thought to inhibit adherence of P-fimbriated E coli to uroepithelial cell receptors. However, a Cochrane review evaluating use of cranberry containing products (ie, juice, tablets, or capsules) did not find significant evidence that any of these products prevented UTI in women compared to placebo, water, or no treatment. Another study examining cranberry capsules containing 36 to 108 mg of PAC found a trend toward a decrease in bacteriuria plus pyuria in LTC residents, suggesting formulations with higher doses of PAC may be beneficial. A systematic review and meta-analysis of only RCTs did conclude that cranberry products reduced UTI recurrence in women with at least three UTIs in a 1-year period (risk ratio [RR] 0.53; 95% CI, 0.33–0.83). However, because of the substantial heterogeneity across trials, the authors mention that this conclusion should be interpreted with great caution. A more recent systematic review and meta-analysis of seven randomized trials came to similar conclusion. They found cranberry reduced the risk of UTI by 26% (pooled RR: 0.74; 95% CI, 0.55–0.98; I<sup>2</sup> = 54%) in healthy women at risk for UTI. However, most of the studies had small sample size and there were significant limitations due to which the authors noted that larger high-quality studies are needed to confirm these findings. Given the issues of volume and glucose load for a cranberry juice supplement and size and cost of cranberry capsules, further investigation of cranberry supplements in older adults is warranted prior to recommending either product as a prevention strategy. Even though more recent urology guidelines stated that clinicians may offer cranberry prophylaxis for recurrent UTI (while acknowledging the limitations), AMDA UTI consensus statement for PALTC setting concluded that current evidence does not support the use of cranberry products for the prevention of UTI.
+### Cranberry Formulations
 
-Vaginal Estrogen In older adults, declining estrogen levels are thought to lead to declining levels of lactobacilli in the vaginal tract and thus, increase colonization of the perineal area with organisms such as E coli. Topical estrogen appears to be a safe and potentially effective method for prevention of UTI in postmenopausal women. A systematic review and meta-analysis evaluated the evidence regarding use of vaginal estrogens as a prevention strategy for recurrent UTI in postmenopausal women. Both RCTs included in this study found that vaginal estrogen (vaginal cream containing 0.5 mg of estriol or vaginal ring with 2 mg estradiol) significantly reduced the risk of UTI in postmenopausal women (RR 0.25; 95% CI, 0.13–0.50; and RR 0.64; 95% CI,
+Cranberry juice has been used as a home remedy for prevention and treatment of UTI for decades, although the evidence to support this intervention as a prevention strategy is still debated. Cranberry proanthocyanidin (PAC) is the active ingredient in cranberry that is thought to inhibit adherence of P-fimbriated E coli to uroepithelial cell receptors. However, a Cochrane review evaluating use of cranberry containing products (ie, juice, tablets, or capsules) did not find significant evidence that any of these products prevented UTI in women compared to placebo, water, or no treatment. Another study examining cranberry capsules containing 36 to 108 mg of PAC found a trend toward a decrease in bacteriuria plus pyuria in LTC residents, suggesting formulations with higher doses of PAC may be beneficial. A systematic review and meta-analysis of only RCTs did conclude that cranberry products reduced UTI recurrence in women with at least three UTIs in a 1-year period (risk ratio [RR] 0.53; 95% CI, 0.33–0.83). However, because of the substantial heterogeneity across trials, the authors mention that this conclusion should be interpreted with great caution. A more recent systematic review and meta-analysis of seven randomized trials came to similar conclusion. They found cranberry reduced the risk of UTI by 26% (pooled RR: 0.74; 95% CI, 0.55–0.98; I<sup>2</sup> = 54%) in healthy women at risk for UTI. However, most of the studies had small sample size and there were significant limitations due to which the authors noted that larger high-quality studies are needed to confirm these findings. Given the issues of volume and glucose load for a cranberry juice supplement and size and cost of cranberry capsules, further investigation of cranberry supplements in older adults is warranted prior to recommending either product as a prevention strategy. Even though more recent urology guidelines stated that clinicians may offer cranberry prophylaxis for recurrent UTI (while acknowledging the limitations), AMDA UTI consensus statement for PALTC setting concluded that current evidence does not support the use of cranberry products for the prevention of UTI.
+
+### Vaginal Estrogen
+
+In older adults, declining estrogen levels are thought to lead to declining levels of lactobacilli in the vaginal tract and thus, increase colonization of the perineal area with organisms such as E coli. Topical estrogen appears to be a safe and potentially effective method for prevention of UTI in postmenopausal women. A systematic review and meta-analysis evaluated the evidence regarding use of vaginal estrogens as a prevention strategy for recurrent UTI in postmenopausal women. Both RCTs included in this study found that vaginal estrogen (vaginal cream containing 0.5 mg of estriol or vaginal ring with 2 mg estradiol) significantly reduced the risk of UTI in postmenopausal women (RR 0.25; 95% CI, 0.13–0.50; and RR 0.64; 95% CI,
 
 0.47–0.86, respectively). However, their pooled effect was not significant (RR 0.42; 95% CI, 0.16–1.10). In one of the study that described significant decrease in incidence of UTI in the vaginal estriol group as compared to placebo group (0.5 vs 5.9 episodes per-patient year, p < 0.001), reported side effects of vaginal estrogen use included vaginal irritation, burning or itching. However, the side effects were described as mild and self-limited. As benefits of vaginal estrogens appear to outweigh potential minor side effect concerns most experts including recent urology guidelines and AMDA UTI consensus statement for PALTC settings recommend considering vaginal estrogen therapy for prevention of recurrent UTI in older women. Vaginal estrogen has not been demonstrated to increase the risk of estrogen-dependent cancer (eg, breast cancer). However, clinicians are recommended to coordinate with patients’ oncologists when considering vaginal estrogen therapy for those who either have personal history or are at high risk for estrogen-dependent cancer.
 
-Suppressive Antibiotics In general, prolonged suppressive antimicrobial therapy for prevention of UTI in older adults should be avoided. It may be considered when there is persistent or recurrent morbidity attributable to UTI. Such circumstances are uncommon, but might include recurrent invasive infection in the presence of an underlying genitourinary abnormality that cannot be corrected, persistent infected stones where suppressive therapy may prevent further stone enlargement, frequent symptomatic recurrences from a prostatic source, or with chronic renal failure. Antimicrobial selection for suppressive therapy is individualized, based on susceptibilities of the infecting organism and tolerance. Deciding whether to use antibiotic prophylaxis must be determined based on the frequency of UTI, severity of symptoms, and possibility of adverse effects of chronic antimicrobial use such as development of Clostridioides difficile colitis, selection of multidrug-resistant organisms and various other adverse drug reactions. Patients should also be made aware of the risks and benefits for choosing suppressive antibiotics for prevention of UTI. For many older adults, these risks are likely to outweigh any benefit and suppressive therapy is seldom indicated. More recently, a matched cohort study compared older adults with UTI receiving antibiotic prophylaxis (defined as antibiotic treatment for at least 30 days) that was started within 30 days after a positive urine culture to those who did not receive prophylaxis (but received the treatment). Antibiotic prophylaxis recipients were at higher risk of emergency department visits or hospitalizations for UTI, sepsis or bloodstream infection (HR, 1.33; 95% CI, 1.12–1.57), acquisition of antibiotic resistance to any urinary antibiotics (HR, 1.31; 95% CI, 1.18–1.44), developing C difficile infections (HR, 1.56; 95% CI, 1.05–2.23), and experiencing general medical adverse events (HR, 1.62; 95% CI, 1.11–2.29). Recent urology guidelines state that clinicians may prescribe antibiotic prophylaxis to decrease
+### Suppressive Antibiotics
+
+In general, prolonged suppressive antimicrobial therapy for prevention of UTI in older adults should be avoided. It may be considered when there is persistent or recurrent morbidity attributable to UTI. Such circumstances are uncommon, but might include recurrent invasive infection in the presence of an underlying genitourinary abnormality that cannot be corrected, persistent infected stones where suppressive therapy may prevent further stone enlargement, frequent symptomatic recurrences from a prostatic source, or with chronic renal failure. Antimicrobial selection for suppressive therapy is individualized, based on susceptibilities of the infecting organism and tolerance. Deciding whether to use antibiotic prophylaxis must be determined based on the frequency of UTI, severity of symptoms, and possibility of adverse effects of chronic antimicrobial use such as development of Clostridioides difficile colitis, selection of multidrug-resistant organisms and various other adverse drug reactions. Patients should also be made aware of the risks and benefits for choosing suppressive antibiotics for prevention of UTI. For many older adults, these risks are likely to outweigh any benefit and suppressive therapy is seldom indicated. More recently, a matched cohort study compared older adults with UTI receiving antibiotic prophylaxis (defined as antibiotic treatment for at least 30 days) that was started within 30 days after a positive urine culture to those who did not receive prophylaxis (but received the treatment). Antibiotic prophylaxis recipients were at higher risk of emergency department visits or hospitalizations for UTI, sepsis or bloodstream infection (HR, 1.33; 95% CI, 1.12–1.57), acquisition of antibiotic resistance to any urinary antibiotics (HR, 1.31; 95% CI, 1.18–1.44), developing C difficile infections (HR, 1.56; 95% CI, 1.05–2.23), and experiencing general medical adverse events (HR, 1.62; 95% CI, 1.11–2.29). Recent urology guidelines state that clinicians may prescribe antibiotic prophylaxis to decrease
 
 <a id="p1714"></a>**[p. 1714]**
 
@@ -268,7 +274,9 @@ identifying opportunities for improvement, implementing action plan for improvem
 
 tools for system change (eg, standardized physician order set forms; and an active monitoring sheet), and educational clinical vignettes addressing the diagnosis and treatment of suspected uncomplicated cystitis. Monthly web-based coaching calls were held for staff of intervention nursing homes and the facilities received quarterly feedback reports regarding management of uncomplicated cystitis. Overall antibiotic use was lower and fewer unlikely cystitis cases were treated in the intervention group without any increase in all-cause hospitalizations or death. Furthermore C difficile infection rates were also lower in the intervention as compared to the control nursing homes.
 
-Evaluation and Management of UTI Near End of Life Antimicrobials are usually overused at end-of-life and in the setting of advanced dementia, often without a known source of infection. That being said, UTIs can carry a heavy symptom burden. Thus, the decision to evaluate symptoms and subsequent management of a confirmed UTI are influenced greatly by the goals of care and life expectancy of the individual. If a patient is able to reliably report symptoms, and is expected to survive long enough to benefit from antimicrobial treatment, it would be appropriate to consider routine care. Enrollment in hospice alone should not be a barrier to receiving work-up and treatment of UTIs. However, antibiotic therapy has risks along with the potential benefits for a patient and should not be presented as a benign treatment plan. A discussion of potential side effects, risk for infection with resistant organisms, and any medical monitoring that is required for the selected antibiotic
+### Evaluation and Management of UTI Near End of Life
+
+Antimicrobials are usually overused at end-of-life and in the setting of advanced dementia, often without a known source of infection. That being said, UTIs can carry a heavy symptom burden. Thus, the decision to evaluate symptoms and subsequent management of a confirmed UTI are influenced greatly by the goals of care and life expectancy of the individual. If a patient is able to reliably report symptoms, and is expected to survive long enough to benefit from antimicrobial treatment, it would be appropriate to consider routine care. Enrollment in hospice alone should not be a barrier to receiving work-up and treatment of UTIs. However, antibiotic therapy has risks along with the potential benefits for a patient and should not be presented as a benign treatment plan. A discussion of potential side effects, risk for infection with resistant organisms, and any medical monitoring that is required for the selected antibiotic
 
 ![Figure 106-3](hazzard8e_ch106_figure-106-3_p1716.webp)
 
@@ -286,78 +294,69 @@ UTI is the most common infection occurring in older populations. The management 
 
 ## FURTHER READING
 
-Arinzon Z, Shabat S, Peisakh A, Bemer Y. Clinical presen-
 
-tation of urinary tract infection (UTI) differs with aging in women. Arch Gerontol Geriatr. 2012;55(1):145–147. Ashraf MS, Gaur S, Bushen OY, et al. Diagnosis, treatment,
+- Arinzon Z, Shabat S, Peisakh A, Bemer Y. Clinical presentation of urinary tract infection (UTI) differs with aging in women. Arch Gerontol Geriatr. 2012;55(1):145–147.
 
-and prevention of urinary tract infections in post-acute and long-term care settings: a consensus statement from AMDA’s Infection Advisory Subcommittee. J Am Med Dir Assoc. 2020;21(1):12–24.e2. Centers for Disease Control and Prevention. Core Ele-
+- Ashraf MS, Gaur S, Bushen OY, et al. Diagnosis, treatment, and prevention of urinary tract infections in post-acute and long-term care settings: a consensus statement from AMDA’s Infection Advisory Subcommittee. J Am Med Dir Assoc. 2020;21(1):12–24.e2.
 
-ments of Antibiotic Stewardship. [https://www.cdc.gov/](<https://www.cdc.gov/antibiotic-use/core-elements/index.html>) antibiotic-use/core-elements/index.html. Accessed August 29, 2021. D’Agata E, Loeb MB, Mitchell SL. Challenges in assessing
+- Centers for Disease Control and Prevention. Core Elements of Antibiotic Stewardship. [https://www.cdc.gov/antibiotic-use/core-elements/index.html](<https://www.cdc.gov/antibiotic-use/core-elements/index.html>). Accessed August 29, 2021.
 
-nursing home residents with advanced dementia for suspected urinary tract infections. J Am Geriatr Soc. 2013;61(1):62–66. Drekonja DM, Rector TS, Cutting A, Johnson JR. Urinary
+- D’Agata E, Loeb MB, Mitchell SL. Challenges in assessing nursing home residents with advanced dementia for suspected urinary tract infections. J Am Geriatr Soc. 2013;61(1):62–66.
 
-tract infection in male veterans: treatment patterns and outcomes. JAMA Intern Med. 2013;173(1):62–68. Eure TR, Stone ND, Mungai EA, Bell JM, Thompson ND.
+- Drekonja DM, Rector TS, Cutting A, Johnson JR. Urinary tract infection in male veterans: treatment patterns and outcomes. JAMA Intern Med. 2013;173(1):62–68.
 
-Antibiotic-resistant pathogens associated with urinary tract infections in nursing homes: summary of data reported to the National Healthcare Safety Network Long-Term Care Facility Component, 2013–2017. Infect Control Hosp Epidemiol. 2021;42(1):31–36. Falagas ME, Kotsantis IK, Vouloumanou EK, Rafailidis PI.
+- Eure TR, Stone ND, Mungai EA, Bell JM, Thompson ND. Antibiotic-resistant pathogens associated with urinary tract infections in nursing homes: summary of data reported to the National Healthcare Safety Network Long-Term Care Facility Component, 2013–2017. Infect Control Hosp Epidemiol. 2021;42(1):31–36.
 
-Antibiotics versus placebo in the treatment of women with uncomplicated cystitis: a meta-analysis of randomized controlled trials. J Infect. 2009;58(2):91–102.
+- Falagas ME, Kotsantis IK, Vouloumanou EK, Rafailidis PI. Antibiotics versus placebo in the treatment of women with uncomplicated cystitis: a meta-analysis of randomized controlled trials. J Infect. 2009;58(2):91–102.
 
-Gordon LB, Waxman MJ, Ragsdale L, Mermel LA. Over-
+- Gordon LB, Waxman MJ, Ragsdale L, Mermel LA. Overtreatment of presumed urinary tract infection in older women presenting to the emergency department. J Am Geriatr Soc. 2013;61(5):788–792.
 
-treatment of presumed urinary tract infection in older women presenting to the emergency department. J Am Geriatr Soc. 2013;61(5):788–792. Gould CV, Umscheid CA, Agarwal RK, Kuntz G, Pegues
+- Gould CV, Umscheid CA, Agarwal RK, Kuntz G, Pegues DA; Healthcare Infection Control Practices Advisory Committee. Guideline for prevention of catheterassociated urinary tract infections 2009. Infect Control Hosp Epidemiol. 2010;31(4):319–326.
 
-DA; Healthcare Infection Control Practices Advisory Committee. Guideline for prevention of catheterassociated urinary tract infections 2009. Infect Control Hosp Epidemiol. 2010;31(4):319–326. Gupta K, Hooton TM, Naber KG, et al. International
+- Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5): e103–e120.
 
-clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: a 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5): e103–e120. High KP, Bradley SF, Gravenstein S, et al. Clinical prac-
+- High KP, Bradley SF, Gravenstein S, et al. Clinical practice guideline for the evaluation of fever and infection in older adult residents of long-term care facilities: 2008 update by the Infectious Diseases Society of America. Clin Infect Dis. 2009;48(2):149–171.
 
-tice guideline for the evaluation of fever and infection in older adult residents of long-term care facilities: 2008 update by the Infectious Diseases Society of America. Clin Infect Dis. 2009;48(2):149–171. Hooton TM, Bradley SF, Cardenas DD, et al. Diagnosis,
+- Hooton TM, Bradley SF, Cardenas DD, et al. Diagnosis, prevention, and treatment of catheter-associated urinary tract infection in adults: 2009 International Clinical Practice Guidelines from the Infectious Diseases Society of America. Clin Infect Dis. 2010;50(5):625–663.
 
-prevention, and treatment of catheter-associated urinary tract infection in adults: 2009 International Clinical Practice Guidelines from the Infectious Diseases Society of America. Clin Infect Dis. 2010;50(5):625–663. Huang AJ, Brown JS, Boyko EJ, et al. Clinical significance of
+- Huang AJ, Brown JS, Boyko EJ, et al. Clinical significance of postvoid residual volume in older ambulatory women. J Am Geriatr Soc. 2011;59(8):1452–1458. <a id="p1718"></a>**[p. 1718]**
 
-postvoid residual volume in older ambulatory women. J Am Geriatr Soc. 2011;59(8):1452–1458.
+- Juthani-Mehta M, Malani PN, Mitchell SL. Antimicrobials at the end of life: an opportunity to improve palliative care and infection management. JAMA. 2015; 314(19):2017–2018.
 
-<a id="p1718"></a>**[p. 1718]**
+- Juthani-Mehta M, Quagliarello V, Perrelli E, Towle V, Van Ness PH, Tinetti M. Clinical features to identify urinary tract infection in nursing home residents: a cohort study. J Am Geriatr Soc. 2009;57(6):963–970.
 
-Juthani-Mehta M, Malani PN, Mitchell SL. Antimicro-
+- Juthani-Mehta M, Tinetti M, Perrelli E, Towle V, Van Ness PH, Quagliarello V. Diagnostic accuracy of criteria for urinary tract infection in a cohort of nursing home residents. J Am Geriatr Soc. 2007;55(7):1072–1077.
 
-bials at the end of life: an opportunity to improve palliative care and infection management. JAMA. 2015; 314(19):2017–2018. Juthani-Mehta M, Quagliarello V, Perrelli E, Towle V,
+- Knottnerus BJ, Geerlings SE, Moll van Charante EP, ter Riet G. Women with symptoms of uncomplicated urinary tract infection are often willing to delay antibiotic treatment: a prospective cohort study. BMC Fam Pract. 2013;14:71.
 
-Van Ness PH, Tinetti M. Clinical features to identify urinary tract infection in nursing home residents: a cohort study. J Am Geriatr Soc. 2009;57(6):963–970. Juthani-Mehta M, Tinetti M, Perrelli E, Towle V, Van Ness
+- Krein SL, Greene MT, King B, et al. Assessing a National Collaborative Program to Prevent Catheter-Associated Urinary Tract Infection in a Veterans Health Administration Nursing Home Cohort. Infect Control Hosp Epidemiol. 2018;39(7):820–825.
 
-PH, Quagliarello V. Diagnostic accuracy of criteria for urinary tract infection in a cohort of nursing home residents. J Am Geriatr Soc. 2007;55(7):1072–1077. Knottnerus BJ, Geerlings SE, Moll van Charante EP, ter Riet
+- Little P, Moore MV, Turner S, et al. Effectiveness of five different approaches in management of urinary tract infection: randomised controlled trial. BMJ. 2010;340:c199.
 
-G. Women with symptoms of uncomplicated urinary tract infection are often willing to delay antibiotic treatment: a prospective cohort study. BMC Fam Pract. 2013;14:71. Krein SL, Greene MT, King B, et al. Assessing a National
+- Loeb M, Bentley DW, Bradley S, et al. Development of minimum criteria for the initiation of antibiotics in residents of long-term-care facilities: results of a consensus conference. Infection Control Hosp Epidemiol. 2001; 22(2):120–124.
 
-Collaborative Program to Prevent Catheter-Associated Urinary Tract Infection in a Veterans Health Administration Nursing Home Cohort. Infect Control Hosp Epidemiol. 2018;39(7):820–825. Little P, Moore MV, Turner S, et al. Effectiveness of five dif-
+- Mody L, Greene MT, Meddings J, et al. A national implementation project to prevent catheter-associated urinary tract infection in nursing home residents. JAMA Intern Med. 2017;177(8):1154–1162.
 
-ferent approaches in management of urinary tract infection: randomised controlled trial. BMJ. 2010;340:c199. Loeb M, Bentley DW, Bradley S, et al. Development of
+- Nace DA, Hanlon JT, Crnich CJ, et al. A multifaceted antimicrobial stewardship program for the treatment of uncomplicated cystitis in nursing home residents. JAMA Intern Med. 2020;180(7):944–951.
 
-minimum criteria for the initiation of antibiotics in residents of long-term-care facilities: results of a consensus conference. Infection Control Hosp Epidemiol. 2001; 22(2):120–124. Mody L, Greene MT, Meddings J, et al. A national imple-
+- Nace DA, Perera SK, Hanlon JT, et al. The Improving Outcomes of UTI Management in Long-Term Care Project (IOU) Consensus Guidelines for the Diagnosis of Uncomplicated Cystitis in Nursing Home Residents. J Am Med Dir Assoc. 2018;19(9):765–769.e3.
 
-mentation project to prevent catheter-associated urinary tract infection in nursing home residents. JAMA Intern Med. 2017;177(8):1154–1162. Nace DA, Hanlon JT, Crnich CJ, et al. A multifaceted anti-
+- Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83–e110.
 
-microbial stewardship program for the treatment of uncomplicated cystitis in nursing home residents. JAMA Intern Med. 2020;180(7):944–951. Nace DA, Perera SK, Hanlon JT, et al. The Improving Out-
+- Ong Lopez AMC, Tan CJL, Yabon AS 2nd, Masbang AN. Symptomatic treatment (using NSAIDS) versus antibiotics in uncomplicated lower urinary tract infection: a meta-analysis and systematic review of randomized controlled trials. BMC Infect Dis. 2021;21(1):619.
 
-comes of UTI Management in Long-Term Care Project (IOU) Consensus Guidelines for the Diagnosis of Uncomplicated Cystitis in Nursing Home Residents. J Am Med Dir Assoc. 2018;19(9):765–769.e3.
+- Perrotta C, Aznar M, Mejia R, Albert X, Ng CW. Oestrogens for preventing recurrent urinary tract infection in postmenopausal women. Cochrane Database Syst Rev. 2008(2):CD005131.
 
-Nicolle LE, Gupta K, Bradley SF, et al. Clinical Practice
+- Rogers MA, Fries BE, Kaufman SR, Mody L, McMahon LF Jr, Saint S. Mobility and other predictors of hospitalization for urinary tract infection: a retrospective cohort study. BMC Geriatr. 2008;8:31.
 
-Guideline for the Management of Asymptomatic Bacteriuria: 2019 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2019;68(10):e83–e110. Ong Lopez AMC, Tan CJL, Yabon AS 2nd, Masbang AN.
+- Rowe TA, Jump RLP, Andersen BM, et al. Reliability of nonlocalizing signs and symptoms as indicators of the presence of infection in nursing-home residents. Infect Control Hosp Epidemiol. 2020;1–10.
 
-Symptomatic treatment (using NSAIDS) versus antibiotics in uncomplicated lower urinary tract infection: a meta-analysis and systematic review of randomized controlled trials. BMC Infect Dis. 2021;21(1):619. Perrotta C, Aznar M, Mejia R, Albert X, Ng CW. Oestro-
+- Stone ND, Ashraf MS, Calder J, et al. Surveillance definitions of infections in long-term care facilities: revisiting the McGeer criteria. Infect Cont Hosp Ep. 2012; 33(10):965–977.
 
-gens for preventing recurrent urinary tract infection in postmenopausal women. Cochrane Database Syst Rev. 2008(2):CD005131. Rogers MA, Fries BE, Kaufman SR, Mody L, McMahon
+- Thompson ND, Penna A, Eure TR, et al. Epidemiology of antibiotic use for urinary tract infection in nursing home residents. J Am Med Dir Assoc. 2020;21(1):91–96.
 
-LF Jr, Saint S. Mobility and other predictors of hospitalization for urinary tract infection: a retrospective cohort study. BMC Geriatr. 2008;8:31. Rowe TA, Jump RLP, Andersen BM, et al. Reliability of
+- Thompson ND, Stone ND, Brown CJ, et al. Antimicrobial use in a cohort of us nursing homes, 2017. JAMA. 2021;325(13):1286–1295.
 
-nonlocalizing signs and symptoms as indicators of the presence of infection in nursing-home residents. Infect Control Hosp Epidemiol. 2020;1–10. Stone ND, Ashraf MS, Calder J, et al. Surveillance defi-
+- Toolkit 1. Start an Antimicrobial Stewardship Program. Agency for Healthcare Research and Quality. Available at: [https://www.ahrq.gov/nhguide/toolkits/implement-monitor-sustain-program/toolkit1-start-program.html](<https://www.ahrq.gov/nhguide/toolkits/implement-monitor-sustain-program/toolkit1-start-program.html>). Accessed August 29, 2021.
 
-nitions of infections in long-term care facilities: revisiting the McGeer criteria. Infect Cont Hosp Ep. 2012; 33(10):965–977. Thompson ND, Penna A, Eure TR, et al. Epidemiology
-
-of antibiotic use for urinary tract infection in nursing home residents. J Am Med Dir Assoc. 2020;21(1):91–96. Thompson ND, Stone ND, Brown CJ, et al. Antimicro-
-
-bial use in a cohort of us nursing homes, 2017. JAMA. 2021;325(13):1286–1295. Toolkit 1. Start an Antimicrobial Stewardship Program.
-
-Agency for Healthcare Research and Quality. Available at: [https://www.ahrq.gov/nhguide/toolkits/implementmonitor-sustain-program/toolkit1-start-program.html](<https://www.ahrq.gov/nhguide/toolkits/implement-monitor-sustain-program/toolkit1-start-program.html>). Accessed August 29, 2021. van Buul LW, Vreeken HL, Bradley SF, et al. The devel-
-
-opment of a decision tool for the empiric treatment of suspected urinary tract infection in frail older adults: a Delphi consensus procedure. J Am Med Dir Assoc. 2018;19(9):757–764.
+- van Buul LW, Vreeken HL, Bradley SF, et al. The development of a decision tool for the empiric treatment of suspected urinary tract infection in frail older adults: a Delphi consensus procedure. J Am Med Dir Assoc. 2018;19(9):757–764.

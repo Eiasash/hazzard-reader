@@ -10,7 +10,7 @@ David J. Meyers, Heidi Wold, Joseph G. Ouslander
 
 <a id="p263"></a>**[p. 263]**
 
-The purpose of this chapter is to provide an overview of value-based care as it currently exists in the United States, and to highlight aspects of common value-based care models that are most relevant to the care of older adults. In many respects, geriatricians and other geriatric health professionals are in a position to make these value-based care models successful and to assume leadership roles in them. Value-based care requires health professionals to work as interprofessional teams and participate in care coordination across settings of care, to understand evidence-based care and as well as its limitations in older adults, and to practice personcentered care in the context of evidence and many other factors important to patients—all skills that geriatricians and other geriatric health professionals have developed.
+The purpose of this chapter is to provide an overview of value-based care as it currently exists in the United States, and to highlight aspects of common value-based care models that are most relevant to the care of older adults. In many respects, geriatricians and other geriatric health professionals are in a position to make these value-based care models successful and to assume leadership roles in them. Value-based care requires health professionals to work as interprofessional teams and participate in care coordination across settings of care, to understand evidence-based care and as well as its limitations in older adults, and to practice person-centered care in the context of evidence and many other factors important to patients—all skills that geriatricians and other geriatric health professionals have developed.
 
 #### Learning Objectives
 
@@ -28,7 +28,7 @@ The purpose of this chapter is to provide an overview of value-based care as it 
 
 2. Several alternative payment models are relevant to care for older adults. Examples include the Medicare Advantage (MA) program, accountable care organizations (ACOs), Programs of All-Inclusive for the Elderly (PACE), Institutional Special Needs Plans (ISNPs), the Merit-Based Incentive Payment System, and the Skilled Nursing Facility Value-Based Purchasing Program (SNF VBP).
 
-3. There is no silver bullet in achieving valuebased care. Rather, each initiative has strengths and drawbacks and forms a part of the greater whole.
+3. There is no silver bullet in achieving value-based care. Rather, each initiative has strengths and drawbacks and forms a part of the greater whole.
 
 At the same time, older adults with multiple comorbidities and related health care needs are likely to benefit from being in one or more value-based care models when implemented effectively. These individuals are especially susceptible to the potential for excess diagnostic testing, therapeutic intervention, and related complications and costs that are common in the Medicare fee-for-service system. Value-based care mitigates the incentives that create this situation and can therefore result in better outcomes and lower costs for the vulnerable older population.
 
@@ -160,7 +160,7 @@ The PACE model serves nursing home eligible seniors’ chronic care needs and th
 
 ![Table 19-3 (continued)](hazzard8e_ch19_table-19-3-continued_p269.webp)
 
-*TABLE 19-3 MODELS OF CARE (CONTINUED)*
+*TABLE 19-3 ■ MODELS OF CARE (CONTINUED)*
 
 
 <a id="p270"></a>**[p. 270]**
@@ -243,7 +243,7 @@ see Medicare patients. Under MIPS, individual providers or group practices selec
 
 #### Skilled nursing facility value-based purchasing
 
-In 2018, CMS implemented the Skilled Nursing Facility ValueBased Purchasing (SNF VBP) program. All SNFs that receive Medicare payments were required to participate in the program, which evaluates SNF performance on hospital readmissions. SNFs that performed poorly on the readmission’s metric could be subject to a 2% reduction in Medicare payments, while top performing SNFs could receive bonus payments of up to 2% of Medicare payments. In 2019, SNFs with readmission rates above 18% were penalized. Similar to the hospital VPB programs, there are no other structural components that facilities subject to this model needed to implement, but the strong financial incentive is designed to encourage SNFs to change their practices to reduce adverse outcomes.
+In 2018, CMS implemented the Skilled Nursing Facility Value-Based Purchasing (SNF VBP) program. All SNFs that receive Medicare payments were required to participate in the program, which evaluates SNF performance on hospital readmissions. SNFs that performed poorly on the readmission’s metric could be subject to a 2% reduction in Medicare payments, while top performing SNFs could receive bonus payments of up to 2% of Medicare payments. In 2019, SNFs with readmission rates above 18% were penalized. Similar to the hospital VPB programs, there are no other structural components that facilities subject to this model needed to implement, but the strong financial incentive is designed to encourage SNFs to change their practices to reduce adverse outcomes.
 
 #### Bundled payment programs
 
@@ -317,7 +317,9 @@ Barnett ML, Wilcock A, McWilliams JM, et al. Two-year evaluation of mandatory bu
 
 Centers for Medicare and Medicaid Services. (n.d.). CMS Innovation Center. https://www.cms.gov/Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs. Accessed December 14, 2021.
 
-Centers for Medicare and Medicaid Services. (n.d.). Institutional Special Needs Plans (I-SNPs). Retrieved <a id="p276"></a>**[p. 276]** January 13, 2021. [https://www.cms.gov/Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs](<https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/institutional>).
+<a id="p276"></a>**[p. 276]**
+
+Centers for Medicare and Medicaid Services. (n.d.). Institutional Special Needs Plans (I-SNPs). Retrieved January 13, 2021. [https://www.cms.gov/Medicare/Health-Plans/SpecialNeedsPlans/I-SNPs](<https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans/institutional>).
 
 Choosing Wisely. (2019). American Geriatrics Society: Ten Things Clinicians and Patients Should Question. https://www.choosingwisely.org/societies/americangeriatrics-society/. Accessed December 14, 2021.
 
@@ -325,7 +327,7 @@ Daras LC, Vadnais A, Pogue YZ, et al. Nearly one in five skilled nursing facilit
 
 Dhingra L, Lipson K, Dieckmann NF, Chen J, Bookbinder M, Portenoy R. Institutional special needs plans and hospice enrollment in nursing homes: a national analysis. J Am Geriatr Soc. 2019;67(12):2537–2544.
 
-McGarry BE, Grabowski DC. Managed care for longstay nursing home residents: an evaluation of institutional special needs plans. Am J Manag Care. 2019; 25(9):438–443.
+McGarry BE, Grabowski DC. Managed care for long-stay nursing home residents: an evaluation of institutional special needs plans. Am J Manag Care. 2019; 25(9):438–443.
 
 McWilliams JM, Hatfield LA, Chernew ME, Landon BE, Schwartz AL. Early performance of Accountable Care Organizations in Medicare. N Engl J Med. 2016;374(24):2357–2366.
 

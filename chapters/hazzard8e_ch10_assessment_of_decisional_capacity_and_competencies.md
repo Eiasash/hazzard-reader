@@ -157,32 +157,27 @@ An individual’s ability to consent to participate in research is complex. Beca
 
 ## FURTHER READING
 
-Applebaum PS. Assessment of patient’s competence to
 
-consent to treatment. N Engl J Med. 2007;357:1834–1840. Dunn LB, Nowrangi MA, Palmer BW, Jeste DV, Saks ER. Assess-
+- Applebaum PS. Assessment of patient’s competence to consent to treatment. N Engl J Med. 2007;357:1834–1840.
 
-ing decisional capacity for clinical research or treatment: a review of instruments. Am J Psychiatry. 2006;163:1323–1334. Dy SM, Tanjala SP. Key concepts relevant to quality of
+- Dunn LB, Nowrangi MA, Palmer BW, Jeste DV, Saks ER. Assessing decisional capacity for clinical research or treatment: a review of instruments. Am J Psychiatry. 2006;163:1323–1334.
 
-complex and shared decision-making in health care: a literature review. Soc Sci Med. 2012;74:582–587. Edwards A, Elwyn G, Covey J, Matthews E, Pill R.
+- Dy SM, Tanjala SP. Key concepts relevant to quality of complex and shared decision-making in health care: a literature review. Soc Sci Med. 2012;74:582–587.
 
-Presenting risk information—a review of the effects of “framing” and other manipulations on patient outcomes. J Health Comm. 2001;6:61–82. Holzer JC, Gansler DA, Moczynski NP, et al. Cognitive
+- Edwards A, Elwyn G, Covey J, Matthews E, Pill R. Presenting risk information—a review of the effects of “framing” and other manipulations on patient outcomes. J Health Comm. 2001;6:61–82.
 
-functions in the informed consent evaluation process: a pilot study. J Am Acad Psychiatry Law. 1997;25:531–540. Marson DC. Loss of competency in Alzheimer’s disease:
+- Holzer JC, Gansler DA, Moczynski NP, et al. Cognitive functions in the informed consent evaluation process: a pilot study. J Am Acad Psychiatry Law. 1997;25:531–540.
 
-conceptual and psychometric approaches. Int J Law Psychiatry. 2001;24:267–283.
+- Marson DC. Loss of competency in Alzheimer’s disease: conceptual and psychometric approaches. Int J Law Psychiatry. 2001;24:267–283.
 
-Montello M. Narrative ethics. Hastings Cent Rep. 2014;44:
+- Montello M. Narrative ethics. Hastings Cent Rep. 2014;44: S2–S6.
 
-S2–S6. O’Connor D, Hall MI, Donnelly M. Assessing capacity
+- O’Connor D, Hall MI, Donnelly M. Assessing capacity within a context of abuse or neglect. J Elder Abuse Negl. 2009;21:156–159.
 
-within a context of abuse or neglect. J Elder Abuse Negl. 2009;21:156–159. Peisah C, Sorinmade OA, Mitchell L, Hertogh CM.
+- Peisah C, Sorinmade OA, Mitchell L, Hertogh CM. Decisional capacity: toward an inclusionary approach. Int Psychogeriatr. 2013;25:1571–1579.
 
-Decisional capacity: toward an inclusionary approach. Int Psychogeriatr. 2013;25:1571–1579. Pennington C, Davey K, ter Meulen R, Coulthard E, Kehoe
+- Pennington C, Davey K, ter Meulen R, Coulthard E, Kehoe PG. Tools for testing decision-making capacity in dementia. Age Ageing. 2018;47(6):778–784.
 
-PG. Tools for testing decision-making capacity in dementia. Age Ageing. 2018;47(6):778–784. Roberts LW. Informed consent and the capacity for volun-
+- Roberts LW. Informed consent and the capacity for voluntarism. Am J Psy. 2002;159:705–712.
 
-tarism. Am J Psy. 2002;159:705–712. Wendler D, Prasad K. Core safeguards for clinical research
-
-with adults who are unable to consent. Ann Int Med. 2001;135:514–523.
-
-<a id="p156"></a>**[p. 156]**
+- Wendler D, Prasad K. Core safeguards for clinical research with adults who are unable to consent. Ann Int Med. 2001;135:514–523. <a id="p156"></a>**[p. 156]**

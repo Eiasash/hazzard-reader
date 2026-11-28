@@ -193,7 +193,7 @@ may under some circumstances actually increase mortality. Conversely, for the mo
 
 The famous observation of Hayflick that human diploid fibroblasts cease to grow in culture after a limited number of population doublings sparked a line of experimentation that continues to yield important insights into the molecular control of cell growth, differentiation, and neoplastic transformation. Human fibroblasts placed in tissue culture will divide until approximately 50 cell doublings have occurred, after which the remaining cells survive indefinitely in a healthy but nondividing state. In the 1970s and 1980s, this “clonal senescence” model seemed to be an attractive approach to study the genetics and cell biology of aging. It is now clear that growth cessation of continuously passaged human fibroblasts is caused principally by the progressive loss of telomeric DNA at the ends of each chromosome at each mitosis, which occurs in cells that lack a specialized enzyme complex called telomerase. Critically shortened telomeres induce a DNA damage response in the cell, leading to senescence or cell death. Short telomeres can influence intracellular signaling to hamper mitochondrial function, thereby impairing cellular metabolism, suggesting that damaged telomeres might exert effects even in tissues such as the liver that are largely postmitotic.
 
-Telomeres and cancer (also see Chapter 82) Telomeredependent clonal senescence clearly plays a critical role in the protection of humans from many forms of cancer. Telomerase is turned on, and telomere attrition prevented, in approximately 90% of malignant tumors in humans. Genomic sequencing efforts have revealed that individuals with mutations that chronically elevate telomerase activity, or increase the accessibility of telomeres to telomerase, are at increased risk for a variety of cancers.
+Telomeres and cancer (also see Chapter 82) Telomere-dependent clonal senescence clearly plays a critical role in the protection of humans from many forms of cancer. Telomerase is turned on, and telomere attrition prevented, in approximately 90% of malignant tumors in humans. Genomic sequencing efforts have revealed that individuals with mutations that chronically elevate telomerase activity, or increase the accessibility of telomeres to telomerase, are at increased risk for a variety of cancers.
 
 Studies of the role of telomeres and telomerase in the biology of aging in mice have produced controversial findings. Mice have much longer telomeres than humans, but live much shorter lives. The rate at which telomeres shorten, however, is more rapid in mice than in humans, and mouse strains engineered to have elevated telomerase show increased cancer rates, consistent with a role for telomere length as a contributor to malignancy in mice, as in humans. Paradoxically, elevated telomerase function may improve some aspects of health in mice carrying other alleles that block many forms of neoplasia, though with no effect on maximum lifespan, a provocative observation worth further exploration. As indicated in Figure 1-7,
 
@@ -347,46 +347,43 @@ Preparation of this chapter was supported by NIH grants AG022303, AG023122, and 
 
 ## FURTHER READING
 
-Austad SN. Why We Age: What Science Is Discovering About
 
-the Body’s Journey Through Life. Chichester, UK: Wiley; 1999. Bartke A, Wright JC, Mattison JA, Ingram DK, Miller RA,
+- Austad SN. Why We Age: What Science Is Discovering About the Body’s Journey Through Life. Chichester, UK: Wiley; 1999.
 
-Roth GS. Extending the lifespan of long-lived mice. Nature. 2001;414:412. Brooks-Wilson AR. Genetics of healthy aging and longev-
+- Bartke A, Wright JC, Mattison JA, Ingram DK, Miller RA, Roth GS. Extending the lifespan of long-lived mice. Nature. 2001;414:412.
 
-ity. Hum Genet. 2013;132:1323–1338. Harper JM, Salmon AB, Leiser SF, Galecki AT, Miller RA.
+- Brooks-Wilson AR. Genetics of healthy aging and longevity. Hum Genet. 2013;132:1323–1338.
 
-Skin-derived fibroblasts from long-lived species are resistant to some, but not all, lethal stresses and to the mitochondrial inhibitor rotenone. Aging Cell. 2007;6: 1–13. Harrison DE, Strong R, Sharp ZD, et al. Rapamycin fed
+- Harper JM, Salmon AB, Leiser SF, Galecki AT, Miller RA. Skin-derived fibroblasts from long-lived species are resistant to some, but not all, lethal stresses and to the mitochondrial inhibitor rotenone. Aging Cell. 2007;6: 1–13.
 
-late in life extends lifespan in genetically heterogeneous mice. Nature. 2009;460(7253):392–395. Kapahi P, Boulton ME, Kirkwood TB. Positive correlation
+- Harrison DE, Strong R, Sharp ZD, et al. Rapamycin fed late in life extends lifespan in genetically heterogeneous mice. Nature. 2009;460(7253):392–395.
 
-between mammalian life span and cellular resistance to stress. Free Radic Biol Med. 1999;26(5–6):495–500. Kenyon C, Chang J, Gensch E, Rudner A, Tabtiang R.
+- Kapahi P, Boulton ME, Kirkwood TB. Positive correlation between mammalian life span and cellular resistance to stress. Free Radic Biol Med. 1999;26(5–6):495–500.
 
-A C. elegans mutant that lives twice as long as wild type. Nature. 1993;366(6454):461–464. Kirkwood T. Time of Our Lives: The Science of Human
+- Kenyon C, Chang J, Gensch E, Rudner A, Tabtiang R. A C. elegans mutant that lives twice as long as wild type. Nature. 1993;366(6454):461–464.
 
-Aging. Chichester, UK: Oxford University Press; 2000. Lombard DB, Miller RA. Aging, disease, and longevity in
+- Kirkwood T. Time of Our Lives: The Science of Human Aging. Chichester, UK: Oxford University Press; 2000.
 
-mice. In: Sprott Richard L, ed. Annual Review of Gerontology and Geriatrics. Vol. 34. New York, NY: Springer Publishing Company; 2014.
+- Lombard DB, Miller RA. Aging, disease, and longevity in mice. In: Sprott Richard L, ed. Annual Review of Gerontology and Geriatrics. Vol. 34. New York, NY: Springer Publishing Company; 2014.
 
-Lopez-Otin C, Blasco MA, Partridge L, Serrano M, Kroemer G.
+- Lopez-Otin C, Blasco MA, Partridge L, Serrano M, Kroemer G. The hallmarks of aging. Cell. 2013;153:1194–1217.
 
-The hallmarks of aging. Cell. 2013;153:1194–1217. Miller RA. Cell stress and aging: new emphasis on multi-
+- Miller RA. Cell stress and aging: new emphasis on multiplex resistance mechanisms. J Gerontol A Biol Sci Med Sci. 2009;64(2):179–182.
 
-plex resistance mechanisms. J Gerontol A Biol Sci Med Sci. 2009;64(2):179–182. Miller RA. “Dividends” from research on aging—can bio-
+- Miller RA. “Dividends” from research on aging—can biogerontologists, at long last, find something useful to do? J Gerontol A Biol Sci Med Sci. 2009;64(2):157–160.
 
-gerontologists, at long last, find something useful to do? J Gerontol A Biol Sci Med Sci. 2009;64(2):157–160. Miller RA. Extending life: scientific prospects and political
+- Miller RA. Extending life: scientific prospects and political obstacles. Milbank Quart. 2002;80:155–174.
 
-obstacles. Milbank Quart. 2002;80:155–174. Miller RA. Genes against aging. J Gerontol A Biol Sci Med
+- Miller RA. Genes against aging. J Gerontol A Biol Sci Med Sci. 2012;67(5):495–502.
 
-Sci. 2012;67(5):495–502. Morimoto RI. Stress, aging, and neurodegenerative disease.
+- Morimoto RI. Stress, aging, and neurodegenerative disease. N Engl J Med. 2006;355:2254–2255.
 
-N Engl J Med. 2006;355:2254–2255. Olshansky SJ, Hayflick L, Perls TT. Anti-aging medicine:
+- Olshansky SJ, Hayflick L, Perls TT. Anti-aging medicine: the hype and the reality. J Gerontol Ser A Biol Sci Med Sci. 2004;59:B513–B514.
 
-the hype and the reality. J Gerontol Ser A Biol Sci Med Sci. 2004;59:B513–B514. Olshansky SJ, Perry D, Miller RA, Butler RN. In pursuit of
+- Olshansky SJ, Perry D, Miller RA, Butler RN. In pursuit of the longevity dividend: what should we be doing to prepare for the unprecedented aging of humanity? Scientist. 2006;20:28–36.
 
-the longevity dividend: what should we be doing to prepare for the unprecedented aging of humanity? Scientist. 2006;20:28–36. Stipp D. The Youth Pill: Scientists at the Brink of an Anti-Aging
+- Stipp D. The Youth Pill: Scientists at the Brink of an Anti-Aging Revolution. New York, NY: Penguin Books; 2010.
 
-Revolution. New York, NY: Penguin Books; 2010. Tatar M, Bartke A, Antebi A. The endocrine regulation
+- Tatar M, Bartke A, Antebi A. The endocrine regulation of aging by insulin-like signals. Science. 2003;299: 1346–1351.
 
-of aging by insulin-like signals. Science. 2003;299: 1346–1351. Weindruch R, Sohal RS. Caloric intake and aging. N Engl J
-
-Med. 1997;337:986–994.
+- Weindruch R, Sohal RS. Caloric intake and aging. N Engl J Med. 1997;337:986–994.

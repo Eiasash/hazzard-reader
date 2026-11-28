@@ -69,7 +69,7 @@ Subclinical coronary disease is common well before the first recognized event. A
 
 LDL, total cholesterol and triglycerides generally rise through middle and early old age. A later fall in cholesterol can accompany malnutrition, inflammation or frailty, and healthier survivors also influence comparisons across age groups. A low current LDL therefore does not erase a history of coronary disease. ApoB-containing particles and lipoprotein(a) provide additional information about atherogenic burden, while LDL remains a major treatment target (pp1134–1135).
 
-A rise or fall in troponin above the upper reference limit signifies acute myocardial injury. Diagnosing MI also requires evidence of ischemia. In type 1 MI a coronary plaque event leads to thrombosis. In type 2 MI anemia, sepsis, tachyarrhythmia, hypoxia or another stressor disrupts the oxygen supply–demand balance. Treat the precipitating illness and assess underlying coronary risk. Antithrombotic and invasive strategies appropriate for acute plaque thrombosis may add harm when the primary problem is bleeding or severe illness (pp1136, 1138–1140).
+A rise or fall in troponin with at least one value above the 99th percentile indicates acute myocardial injury; diagnosing infarction also requires evidence of ischemia. Diagnosing MI also requires evidence of ischemia. In type 1 MI a coronary plaque event leads to thrombosis. In type 2 MI anemia, sepsis, tachyarrhythmia, hypoxia or another stressor disrupts the oxygen supply–demand balance. Treat the precipitating illness and assess underlying coronary risk. Antithrombotic and invasive strategies appropriate for acute plaque thrombosis may add harm when the primary problem is bleeding or severe illness (pp1136, 1138–1140).
 
 ## Revascularization, frailty and recovery
 
@@ -98,7 +98,7 @@ For an older patient undergoing PCI, radial access can reduce access-site bleedi
 
 **Assessment**
 - New, progressive or refractory symptoms need expedited, sometimes inpatient evaluation. Assess symptoms and risk factors rather than dismissing complaints because of age (p1137).
-- Functional testing remains useful; modified exercise or pharmacologic stress protocols can accommodate limitations (p1133).
+- Functional testing remains useful; modified exercise or pharmacologic stress protocols can accommodate limitations (pp1133–1134, 1138).
 - After MI, assess ventricular function and coronary severity. For NSTEMI, invasive assessment versus an ischemia-driven approach depends on risk and clinical context (p1143).
 
 **Management & drugs**

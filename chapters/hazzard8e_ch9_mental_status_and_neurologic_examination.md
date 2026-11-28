@@ -10,7 +10,9 @@ James E. Galvin, Michelle M. Marrero
 
 ## THE NEUROLOGY OF AGING
 
-What Is Normal Neurologic Aging The diagnosis of neurologic disease in the older adult requires recognition not only of abnormal signs and symptoms but also an understanding of what changes are expected as part of the normal aging process. To distinguish neurologic dysfunction related to disease from the neurologic changes associated with normal aging, the clinician must conduct a comprehensive mental status and neurologic examination. When establishing a neurologic diagnosis, the clinical history (ie, history of the present illness, past medical history, social habits, occupational experience, family illness, and disorders) assists the clinician in generating a differential diagnosis that can be further explored and refined by pertinent observations documented on the mental status and neurologic examinations. One of the most vital tools for the diagnosis of neurologic disorders is to perform a comprehensive neurologic examination.
+### What Is Normal Neurologic Aging
+
+The diagnosis of neurologic disease in the older adult requires recognition not only of abnormal signs and symptoms but also an understanding of what changes are expected as part of the normal aging process. To distinguish neurologic dysfunction related to disease from the neurologic changes associated with normal aging, the clinician must conduct a comprehensive mental status and neurologic examination. When establishing a neurologic diagnosis, the clinical history (ie, history of the present illness, past medical history, social habits, occupational experience, family illness, and disorders) assists the clinician in generating a differential diagnosis that can be further explored and refined by pertinent observations documented on the mental status and neurologic examinations. One of the most vital tools for the diagnosis of neurologic disorders is to perform a comprehensive neurologic examination.
 
 #### Learning Objectives
 
@@ -40,7 +42,9 @@ What Is Normal Neurologic Aging The diagnosis of neurologic disease in the older
 
 The mental status assessment should evaluate cognition, emotion, and behavior. Because cognitive and affective disorders occur commonly in older adults, historical information should be obtained not only from the patient but a reliable informant such as the spouse, adult child, or caregiver. The neurologic examination should be performed on all older adults regardless of the chief complaint as up to 60% of older patients have either a primary or secondary neurologic sign or symptom. A complete mental status and neurologic examination provides the necessary data to develop reasonable diagnostic hypotheses and drive the necessary laboratory, imaging, or specialized assessments to care for the patient.
 
-Age-Related Changes in the Neurologic Examination Before discussion of the individual components of the examination, it would be useful to discuss changes that are expected as part of the aging process (Table 9-1). Normal age-related changes are due to progressive and irreversible changes associated with tissue senescence and the inability of nervous system to repair and regenerate secondary to the ravages of time. The frequency and qualitative characteristics of these changes vary from individual to individual but
+### Age-Related Changes in the Neurologic Examination
+
+Before discussion of the individual components of the examination, it would be useful to discuss changes that are expected as part of the aging process (Table 9-1). Normal age-related changes are due to progressive and irreversible changes associated with tissue senescence and the inability of nervous system to repair and regenerate secondary to the ravages of time. The frequency and qualitative characteristics of these changes vary from individual to individual but
 
 <a id="p134"></a>**[p. 134]**
 
@@ -70,11 +74,15 @@ Changes in deep tendon reflexes The most common ageassociated change is the depr
 
 There is no substitution for a carefully elicited history detailing the onset, duration, quality, and location of symptoms. The history helps the clinician develop a differential diagnosis and focus on the neurologic examination. The history will also guide the formulation of diagnostic evaluations and develop a treatment plan. In addition, a compassionate clinician will be able to build a trusting relationship with the patient that will enhance patient adherence to medical recommendations. As a general comment, to avoid bias, it is often useful to gather historical facts de novo and not read other records or review laboratory studies such as imaging before taking the history and performing the physical examination. Here we discuss two aspects of neurologic history taking—from the patient, and when available from an informant.
 
-The Neurologic History From the Patient An accurate history requires that absolute attention is paid to detail, both verbal (what the patient is saying) and nonverbal (what the patient is doing). This is critical to match the chief complaint with the patient’s body language. For example, someone complaining about severe low back pain that appears to be sitting comfortably in the chair may raise suspicion. Likewise, the older adult who offers no complaints but is noted to have a rest tremor should prompt more detailed questioning. One of the most important attributes of a skilled clinician is the ability to be a good listener and to focus in on critical historical points. The most effective historians gather information by a combination of open-ended and structured questions. After asking the patient why they are in office and offer a chance to express concerns or worries in their own words, specific topics can be addressed by focused questioning.
+### The Neurologic History From the Patient
+
+An accurate history requires that absolute attention is paid to detail, both verbal (what the patient is saying) and nonverbal (what the patient is doing). This is critical to match the chief complaint with the patient’s body language. For example, someone complaining about severe low back pain that appears to be sitting comfortably in the chair may raise suspicion. Likewise, the older adult who offers no complaints but is noted to have a rest tremor should prompt more detailed questioning. One of the most important attributes of a skilled clinician is the ability to be a good listener and to focus in on critical historical points. The most effective historians gather information by a combination of open-ended and structured questions. After asking the patient why they are in office and offer a chance to express concerns or worries in their own words, specific topics can be addressed by focused questioning.
 
 Another important aspect of the history is to elicit qualitative and quantitative aspects of the chief complaint. It is not enough to elicit a history of a “headache” or “pain.” What are the characteristics of the complaint, when did it start, what makes it better, what makes it worse? Has this happened before, and if so, did it present in the same fashion? Use simple scales to quantify the extent of the complaint by asking, “On a scale of 1 to 10, with 10 being the worst (symptom)....” These qualities can help focus a differential diagnosis and help to build trust with the patient. For example, the onset and characteristics of the headache might guide the clinician in the diagnosis and workup of headaches that may need an emergent intervention. For instance, a “thunderclap” severe headache associated with meningeal signs on examination may be suggestive of a subarachnoid hemorrhage or reversible cerebral vasoconstriction syndrome while a chronic headache with no “red flags” on history or examination might be a primary benign headache that needs no emergent intervention.
 
-The Neurologic History From an Informant In many instances, gathering information from a third party will be invaluable in determining the onset, duration, and extent of the neurologic problem. In cases where there are problems with cognition or alertness, this may be the only reliable way to gather information. Again, using both open-ended and structured questions will often provide the clinician with important information about the chief complaint and assist in the development of a differential diagnosis. If possible, interviewing the informant in an area separate from the patient may provide a true picture of what is transpiring.
+### The Neurologic History From an Informant
+
+In many instances, gathering information from a third party will be invaluable in determining the onset, duration, and extent of the neurologic problem. In cases where there are problems with cognition or alertness, this may be the only reliable way to gather information. Again, using both open-ended and structured questions will often provide the clinician with important information about the chief complaint and assist in the development of a differential diagnosis. If possible, interviewing the informant in an area separate from the patient may provide a true picture of what is transpiring.
 
 ## MENTAL STATUS EXAMINATION
 
@@ -256,13 +264,13 @@ Cranial nerve VII: facial The facial nerve supplies the facial musculature, lacr
 
 *Table 9-6. Types of nystagmus and ocular oscillations. Printed p. 144.*
 
-Cranial nerve VIII: cochlear and vestibular Hearing and vestibular function are mediated by the eighth cranial nerve. Evaluation of hearing at the bedside is sometimes difficult. Use of a 512-Hz tuning fork can help discriminate conduction from sensorineural hearing loss. The Rinne test is done by placing a vibrating tuning fork on the mastoid process. As soon as the patient is unable to detect sound, the tuning fork is moved to a position near the external auditory canal. If the patient has normal hearing, air conduction should be better than bone conduction. If the patient has conduction
+Cranial nerve VIII: cochlear and vestibular Hearing and vestibular function are mediated by the eighth cranial nerve. Evaluation of hearing at the bedside is sometimes difficult. Use of a 512-Hz tuning fork can help discriminate conduction from sensorineural hearing loss. The Rinne test is done by placing a vibrating tuning fork on the mastoid process. As soon as the patient is unable to detect sound, the tuning fork is moved to a position near the external auditory canal. If the patient has normal hearing, air conduction should be better than bone conduction. If the patient has conduction deafness, the sound will not be heard because of pathology in the middle ear.
 
 ![Table 9-7](hazzard8e_ch9_table-9-7_p144.webp)
 
 *Table 9-7. Causes of ptosis in the older adult. Printed p. 144.*
 
-deafness, the sound will not be heard because of pathology in the middle ear. In nerve deafness, air conduction is better than bone conduction, but both will be reduced. The Weber test looks for lateralization. The tuning fork is placed in the middle of the skull and the patient is asked to decide where they best hear the sound. In normal hearing, the sound is heard equally in both ears. In conduction deafness, vibrations are best heard in the abnormal ear. In nerve deafness, the sound is best appreciated in the normal ear. Decreased hearing for high-pitched sounds and lack of perception of background noise are common findings in normal aging and by themselves should not be considered a pathologic finding. Sensorineural deafness
+In nerve deafness, air conduction is better than bone conduction, but both will be reduced. The Weber test looks for lateralization. The tuning fork is placed in the middle of the skull and the patient is asked to decide where they best hear the sound. In normal hearing, the sound is heard equally in both ears. In conduction deafness, vibrations are best heard in the abnormal ear. In nerve deafness, the sound is best appreciated in the normal ear. Decreased hearing for high-pitched sounds and lack of perception of background noise are common findings in normal aging and by themselves should not be considered a pathologic finding. Sensorineural deafness
 
 ![Table 9-8](hazzard8e_ch9_table-9-8_p144.webp)
 
@@ -400,50 +408,46 @@ This chapter was supported by grants from the National Institute on Aging (R01 A
 
 ## FURTHER READING
 
-Aminoff MJ, Josephson SA. Neurology and General
+- Aminoff MJ, Josephson SA. Neurology and General Medicine. 5th ed. New York, NY: Academic Press; 2014.
 
-Medicine. 5th ed. New York, NY: Academic Press; 2014. Burns A, Lawlor B, Craig S. Assessment Scales in Old Age
+- Burns A, Lawlor B, Craig S. Assessment Scales in Old Age Psychiatry. 2nd ed. London, UK: Martin Dunitz; 2004.
 
-Psychiatry. 2nd ed. London, UK: Martin Dunitz; 2004. Claussen CF, Pandey A. Neurootological differentiations in
+- Claussen CF, Pandey A. Neurootological differentiations in endogenous tinnitus. Int Tinnitus J. 2009;15:174–184.
 
-endogenous tinnitus. Int Tinnitus J. 2009;15:174–184. Cummings JL. The Neuropsychiatry of Alzheimer’s Disease and
+- Cummings JL. The Neuropsychiatry of Alzheimer’s Disease and Related Dementias. London, UK: Martin Dunitz; 2003.
 
-Related Dementias. London, UK: Martin Dunitz; 2003. Galvin JE, Powlishta KK, Wilkins K, et al. Predictors of
+- Galvin JE, Powlishta KK, Wilkins K, et al. Predictors of preclinical Alzheimer disease and dementia: a clinicopathologic study. Arch Neurol. 2005;62:758–765.
 
-preclinical Alzheimer disease and dementia: a clinicopathologic study. Arch Neurol. 2005;62:758–765. Galvin JE, Roe C, Coats M, et al. The AD8: a brief infor-
+- Galvin JE, Roe C, Coats M, et al. The AD8: a brief informant interview to detect dementia. Neurology. 2005; 65:559–564.
 
-mant interview to detect dementia. Neurology. 2005; 65:559–564. Galvin JE. The Quick Dementia Rating System (QDRS):
+- Galvin JE. The Quick Dementia Rating System (QDRS): a rapid dementia staging tool. Alzheimer Dem (DADM). 2015;1:249–259.
 
-a rapid dementia staging tool. Alzheimer Dem (DADM). 2015;1:249–259. Galvin JE. Using informant and performance screen-
+- Galvin JE. Using informant and performance screening methods to detect mild cognitive impairment and dementia. Curr Rep Gerontol. 2018;7:19–25.
 
-ing methods to detect mild cognitive impairment and dementia. Curr Rep Gerontol. 2018;7:19–25. Goodwin VA, Abbott RA, Whear R, et al. Multiple com-
+- Goodwin VA, Abbott RA, Whear R, et al. Multiple component interventions for preventing falls and fall-related injuries among older people: a systematic review and meta-analysis. BMC Geriatr. 2014;14:15.
 
-ponent interventions for preventing falls and fall-related injuries among older people: a systematic review and meta-analysis. BMC Geriatr. 2014;14:15. Graff-Radford J, Jones DT, Graff-Radford NR. Pathophysiol-
+- Graff-Radford J, Jones DT, Graff-Radford NR. Pathophysiology of language, speech and emotions in neurodegenerative disease. Parkinsonism Relat Disord. 2014;20(suppl 1): S49–S53.
 
-ogy of language, speech and emotions in neurodegenerative disease. Parkinsonism Relat Disord. 2014;20(suppl 1): S49–S53. Jones HR, Srinivasan J, Allman GJ, Baker RA. Netter’s
+- Jones HR, Srinivasan J, Allman GJ, Baker RA. Netter’s Neurology. 2nd ed. Philadelphia, PA: Elsevier Saunders; 2011.
 
-Neurology. 2nd ed. Philadelphia, PA: Elsevier Saunders; 2011.
+- Karantzoulis S, Galvin JE. Distinguishing Alzheimer’s disease from other major forms of dementia. Expert Rev Neurother. 2011;11:1579–1591.
 
-Karantzoulis S, Galvin JE. Distinguishing Alzheimer’s
+- Massano J, Bhatia KP. Clinical approach to Parkinson’s disease: features, diagnosis, and principles of management. Cold Spring Harb Perspect Med. 2012;2(6):a008870.
 
-disease from other major forms of dementia. Expert Rev Neurother. 2011;11:1579–1591. Massano J, Bhatia KP. Clinical approach to Parkinson’s
+- Nelson PT, Alafuzoff I, Bigio EH, et al. Correlation of Alzheimer disease neuropathologic changes with cognitive status: a review of the literature. J Neuropathol Exp Neurol. 2012;71:362–381.
 
-disease: features, diagnosis, and principles of management. Cold Spring Harb Perspect Med. 2012;2(6):a008870. Nelson PT, Alafuzoff I, Bigio EH, et al. Correlation of
+- O’Brien M. Aids to Examination of the Peripheral Nervous System. London, UK: Saunders Ltd; 2010.
 
-Alzheimer disease neuropathologic changes with cognitive status: a review of the literature. J Neuropathol Exp Neurol. 2012;71:362–381. O’Brien M. Aids to Examination of the Peripheral Nervous
+- Posner JB, Saper CB, Schiff N, Plum F. Plum and Posner’s Diagnosis of Stupor and Coma. 4th ed. New York, NY: Oxford University Press; 2007.
 
-System. London, UK: Saunders Ltd; 2010. Posner JB, Saper CB, Schiff N, Plum F. Plum and Posner’s
+- Robins Wahlin RB, Byrne GJ. Personality changes in Alzheimer’s disease: a systematic review. Int J Geriatr Psychiatry. 2011;26:1019–1029.
 
-Diagnosis of Stupor and Coma. 4th ed. New York, NY: Oxford University Press; 2007. Robins Wahlin RB, Byrne GJ. Personality changes in
+- Ropper A, Samuels M. Adams and Victor’s Principle of Neurology. 10th ed. New York, NY: McGraw-Hill Professional; 2014.
 
-Alzheimer’s disease: a systematic review. Int J Geriatr Psychiatry. 2011;26:1019–1029. Ropper A, Samuels M. Adams and Victor’s Principle of
+- Salthouse TA. Trajectories of normal cognitive aging. Psychol Aging. 2019;34(1):17–24.
 
-Neurology. 10th ed. New York, NY: McGraw-Hill Professional; 2014. Salthouse TA. Trajectories of normal cognitive aging.
+- Seraji-Bzorgzad N, Paulson H, Heidebrink J. Neurologic examination in the elderly. Handb Clin Neurol. 2019; 167:73–88.
 
-Psychol Aging. 2019;34(1):17–24. Seraji-Bzorgzad N, Paulson H, Heidebrink J. Neurologic
+- Stone J, Zeman A, Sharpe M. Functional weakness and sensory disturbance. J Neurol Neurosurg Psychiatry. 2002;73:241–245.
 
-examination in the elderly. Handb Clin Neurol. 2019; 167:73–88. Stone J, Zeman A, Sharpe M. Functional weakness and
-
-sensory disturbance. J Neurol Neurosurg Psychiatry. 2002;73:241–245. Weiner RD, Blazer DG, Steffens DC. Essentials of Geriatric
-
-Psychiatry. 2nd ed. Arlington, VA: APA Publishing; 2012.
+- Weiner RD, Blazer DG, Steffens DC. Essentials of Geriatric Psychiatry. 2nd ed. Arlington, VA: APA Publishing; 2012.

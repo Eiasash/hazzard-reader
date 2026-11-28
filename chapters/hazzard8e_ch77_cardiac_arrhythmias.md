@@ -157,7 +157,11 @@ Other physiologic pacing methodology is evolving such as HIS bundle pacing (HBP)
 
 ![Table 77-4](hazzard8e_ch77_table77-4_p1199.png)
 
+<details><summary>View printed Table 77-5</summary>
+
 ![Table 77-5](hazzard8e_ch77_table77-5_p1199.png)
+
+</details>
 
 **Table 77-5 — Indications for Cardiac Resynchronization Therapy (CRT), as printed in the table** *(p. 1199)*
 

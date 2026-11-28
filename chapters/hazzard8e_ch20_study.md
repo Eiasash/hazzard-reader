@@ -13,8 +13,8 @@ Study summary of Chapter 20; the book and the full chapter are the reference.
 **Match help to the setting**
 - Home care addresses adaptation, caregiving, safety, finances, medication misuse, abuse and end-of-life issues; services vary across agencies (p279).
 - Community agencies combine direct support, mental health care, education, service development and policy roles (p280).
-- Nursing homes and assisted living require psychosocial assessment, adjustment support, resident advocacy and work with families and staff (p280).
-- Hospital discharge planning starts early; assess practical capacity and connect the patient with appropriate community or institutional support (p280-281).
+- Social work in nursing homes and assisted living involves psychosocial assessment, adjustment support, resident advocacy and work with families and staff; assisted living does not require a staff social worker, and roles vary more than in skilled nursing facilities (p280).
+- In acute care, social workers screen for risk, counsel patients and families, and help plan discharge (p280-281).
 - Hospice/palliative social work addresses loss, family communication, psychosocial and spiritual needs, transitions and bereavement (p281).
 
 **Vulnerability and assessment**
@@ -66,7 +66,7 @@ Community health and mental health agencies may combine counseling and case mana
 
 Long-term residential care introduces a different source of distress: an institution has become the person's home. Ask which routines, relationships and choices matter and what changed at admission. The social worker can help a resident adapt, advocate when preferences are overlooked, and support families who feel grief or guilt about placement. Staff may interpret withdrawal as a fixed characteristic unless someone learns that the person stopped participating after losing contact with an important companion. Work with the facility and the family to bring that information into the care plan (p280).
 
-In the hospital, discharge preparation starts early enough to resolve a practical obstacle before medical readiness. Determine the previous living situation, what has changed functionally, whether a caregiver is willing and able to help, and which equipment or services can actually be obtained. If relatives disagree about destination, assess whether the disagreement concerns safety, finances, values or an unrealistic assumption about the help one person can provide. Placement, home support and rehabilitation are distinct options. A safe move requires communication with the agency or team receiving the patient (p280–281).
+During hospital discharge planning, the social worker assesses caregiving needs, available support, financial barriers and the home environment. Determine the previous living situation, what has changed functionally, whether a caregiver is willing and able to help, and which equipment or services can actually be obtained. If relatives disagree about destination, assess whether the disagreement concerns safety, finances, values or an unrealistic assumption about the help one person can provide. Placement, home support and rehabilitation are distinct options. A safe move requires communication with the agency or team receiving the patient (p280–281).
 
 Hospice and palliative settings bring anticipatory loss, family communication, spiritual concerns, practical planning and bereavement to the foreground. Table 20-3 includes helping patients and families understand options, express preferences and access needed support. Someone may wish to remain at home while a partner fears being unable to manage symptoms overnight. Both positions should be heard. Explore what assistance is available and whether it addresses the specific concern. A preference for dying at home is meaningful without being sufficient proof that such a plan is safe or sustainable (p281).
 
@@ -86,7 +86,7 @@ One way to detect overlapping barriers is to ask who the patient would actually 
 
 ### Recognizing possible harm without deciding too early who caused it
 
-Table 20-4 distinguishes physical, emotional, sexual and financial abuse from neglect. A person with pressure wounds, poor hygiene, inadequate intake or unsafe housing requires assessment of needs and safety, but one finding alone rarely identifies its cause. Disability, limited resources, inadequate caregiving, self-neglect or deliberate mistreatment may produce overlapping signs. Document the observation and clarify what help was required, who agreed to provide it and what actually occurred. A discrepancy between accounts warrants further investigation without automatically establishing intent (p283–284).
+Table 20-4 distinguishes physical abuse, psychological abuse, sexual abuse, financial exploitation and neglect, including self-neglect. A person with pressure wounds, poor hygiene, inadequate intake or unsafe housing requires assessment of needs and safety, but one finding alone rarely identifies its cause. Disability, limited resources, inadequate caregiving, self-neglect or deliberate mistreatment may produce overlapping signs. Document the observation and clarify what help was required, who agreed to provide it and what actually occurred. A discrepancy between accounts warrants further investigation without automatically establishing intent (p283–284).
 
 Financial exploitation may have fewer obvious physical signs. Ask about sudden difficulty paying for necessities, control of money and whether transactions reflect the person's wishes. A relative who helps with banking can be a valued support, a source of risk, or both in different respects. Interview the patient in circumstances that permit an account free of intimidation. If the person is afraid that disclosure will lead to loss of the only available caregiver, the safety plan must address the dependence as well as the suspected exploitation (p283–284).
 
@@ -140,7 +140,7 @@ No past exam questions are mapped to this chapter in the 2020–2026 reference l
 
 **7. How can a community social worker reach people beyond those receiving individual counseling?**
 
-<details><summary>Answer</summary>Through community education, consultation, group programs, service development and work on local policy. (p280)</details>
+<details><summary>Answer</summary>Through community education, consultation, group programs, service development and work on local policy. (pp279–280)</details>
 
 **8. What should be established before relying on a family discharge plan?**
 

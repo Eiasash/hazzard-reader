@@ -27,7 +27,16 @@ window.HazzardLawCards = (() => {
     if(baseLanguage==='en'){
       node.dir='ltr';node.lang='en';
       // The native paragraph algorithm orders the Hebrew terms in English prose.
-      node.append(document.createTextNode(value));isolateLocators(node,englishLocators);HazzardChapterContent.formatHebrewReferences(node);return;
+      node.append(document.createTextNode(value));isolateLocators(node,englishLocators);
+      for(const child of [...node.childNodes]){
+        if(child.nodeType!==Node.TEXT_NODE)continue;
+        const pieces=child.data.split(/([\u0590-\u05ff]+(?:[ \t־’'"״׳-]+[\u0590-\u05ff]+)*)/gu);
+        if(pieces.length===1)continue;
+        const fragment=document.createDocumentFragment();
+        pieces.forEach((part,i)=>{if(i%2){const run=document.createElement('bdi');run.dir='rtl';run.lang='he';run.textContent=part;fragment.append(run);}else fragment.append(part);});
+        child.replaceWith(fragment);
+      }
+      HazzardChapterContent.formatHebrewReferences(node);return;
     }
     if(rtl){node.dir='rtl';node.lang='he';}
     parts.forEach((part,i)=>{

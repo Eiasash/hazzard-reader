@@ -4,7 +4,7 @@ Cheryl D. Bernstein, Simge Yonter, Aishwarya Pradeep, Jay P. Shah, Debra K. Wein
 
 > **Status.** Checked against the book.
 
-> **Source and method.** Printed pages 1643-1666, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 1643-1665, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p1643"></a>**[p. 1643]**
 
@@ -342,48 +342,43 @@ For both fibromyalgia and MPS, individualized approaches to treatment are recomm
 
 ## FURTHER READING
 
-Bell T, Trost Z, Buelow MT, et al. Meta-analysis of cognitive
 
-performance in fibromyalgia. J Clin Exp Neuropsychol. 2018;40(7):698–714. Borg-Stein J, Iaccarion MA. Myofascial pain syndrome treat-
+- Bell T, Trost Z, Buelow MT, et al. Meta-analysis of cognitive performance in fibromyalgia. J Clin Exp Neuropsychol. 2018;40(7):698–714.
 
-ments. Phys Med Rehabil Clin N Am. 2014;25:357–374. Clauw, DJ. Fibromyalgia: a clinical review. JAMA. 2014;
+- Borg-Stein J, Iaccarion MA. Myofascial pain syndrome treatments. Phys Med Rehabil Clin N Am. 2014;25:357–374.
 
-311(15):1547–1555. Dommerholt J, Bron C, Franssen J. Myofascial trigger
+- Clauw, DJ. Fibromyalgia: a clinical review. JAMA. 2014; 311(15):1547–1555.
 
-points: an evidence-informed review. J Man Manip Ther. 2006;14(4):203–221. Fernández-de-las-Peñas C, Dommerholt J. International
+- Dommerholt J, Bron C, Franssen J. Myofascial trigger points: an evidence-informed review. J Man Manip Ther. 2006;14(4):203–221.
 
-consensus on diagnostic criteria and clinical considerations of myofascial trigger points: a Delphi study. Pain Medicine. 2018;19:142–150. Gerwin RD. Classification, epidemiology, and natural his-
+- Fernández-de-las-Peñas C, Dommerholt J. International consensus on diagnostic criteria and clinical considerations of myofascial trigger points: a Delphi study. Pain Medicine. 2018;19:142–150.
 
-tory of myofascial pain syndrome. Curr Pain Headache Rep. 2001;5(5):412–420. Gerwin RD. Diagnosis of myofascial pain syndrome. Phys
+- Gerwin RD. Classification, epidemiology, and natural history of myofascial pain syndrome. Curr Pain Headache Rep. 2001;5(5):412–420.
 
-Med Rehabil Clin N Am. 2014;25:341–355. Giamberardino MA, Affaitati G, Fabrizio A, Costantini R.
+- Gerwin RD. Diagnosis of myofascial pain syndrome. Phys Med Rehabil Clin N Am. 2014;25:341–355.
 
-Myofascial pain syndromes and their evaluation. Best Pract Res Clin Rheumatol. 2011;25(2):185–198. Gunn CC. Neuropathic myofascial pain syndromes. In:
+- Giamberardino MA, Affaitati G, Fabrizio A, Costantini R. Myofascial pain syndromes and their evaluation. Best Pract Res Clin Rheumatol. 2011;25(2):185–198.
 
-Loeser JD, Butler SH, Chapman CR, Turk DC, eds. Bonica’s Management of Pain. Philadelphia: Lippincott Williams & Wilkins; 2001. Hauser W, Walitt B, Fitzcharles M, Sommer C. Review of
+- Gunn CC. Neuropathic myofascial pain syndromes. In: Loeser JD, Butler SH, Chapman CR, Turk DC, eds. Bonica’s Management of Pain. Philadelphia: Lippincott Williams & Wilkins; 2001.
 
-pharmacological therapies in fibromyalgia syndrome. Arthritis Res Ther. 2014;16(1):201. Jones GT, Atzeni F, Beasley M, et al. The prevalence of
+- Hauser W, Walitt B, Fitzcharles M, Sommer C. Review of pharmacological therapies in fibromyalgia syndrome. Arthritis Res Ther. 2014;16(1):201.
 
-fibromyalgia in the general population: a comparison of
+- Jones GT, Atzeni F, Beasley M, et al. The prevalence of fibromyalgia in the general population: a comparison of the American College of Rheumatology 1990, 2010, and modified 2010 classification criteria. Arthritis Rheumatol. 2015;67(2):568–575.
 
-the American College of Rheumatology 1990, 2010, and modified 2010 classification criteria. Arthritis Rheumatol. 2015;67(2):568–575. Macfarlane GJ, Kronisch C, Dean LE, et al. EULAR revised
+- Macfarlane GJ, Kronisch C, Dean LE, et al. EULAR revised recommendations for the management of fibromyalgia. Ann Rheum Dis. 2017;76(2):318–328.
 
-recommendations for the management of fibromyalgia. Ann Rheum Dis. 2017;76(2):318–328. Nuesch E, Hauser W, Bernardy K. Comparative efficacy
+- Nuesch E, Hauser W, Bernardy K. Comparative efficacy of pharmacological and non-pharmacological interventions in fibromyalgia: network meta-analysis. Ann Rheum Dis. 2013;12:955–962.
 
-of pharmacological and non-pharmacological interventions in fibromyalgia: network meta-analysis. Ann Rheum Dis. 2013;12:955–962. Phillips K, Clauw DJ. Central pain mechanisms in the
+- Phillips K, Clauw DJ. Central pain mechanisms in the rheumatic diseases: future directions. Arthritis Rheum. 2013;65(2):291–302.
 
-rheumatic diseases: future directions. Arthritis Rheum. 2013;65(2):291–302. Sarzi-Puttini P, Giorgi V, Marotto D, et al. Fibromyalgia:
+- Sarzi-Puttini P, Giorgi V, Marotto D, et al. Fibromyalgia: an update on clinical characteristics, aetiopathogenesis and treatment. Nat Rev Rheumatol. 2020;16(11): 645–660.
 
-an update on clinical characteristics, aetiopathogenesis and treatment. Nat Rev Rheumatol. 2020;16(11): 645–660. Shah JP, Thaker N, Heimur J, Aredo JV, Sikdar S, Gerber
+- Shah JP, Thaker N, Heimur J, Aredo JV, Sikdar S, Gerber LH. Myofascial trigger points then and now: a historical and scientific perspective. PM R 7. 2015;746–761.
 
-LH. Myofascial trigger points then and now: a historical and scientific perspective. PM R 7. 2015;746–761. Simons DG, Travell JG, Simons LS. Travell & Simons’
+- Simons DG, Travell JG, Simons LS. Travell & Simons’ Myofascial Pain and Dysfunction: The Trigger Point Manual, 2nd ed. Baltimore: Williams & Wilkins; 1999.
 
-Myofascial Pain and Dysfunction: The Trigger Point Manual, 2nd ed. Baltimore: Williams & Wilkins; 1999. Sluka KA, Clauw DJ. Neurobiology of fibromyalgia and
+- Sluka KA, Clauw DJ. Neurobiology of fibromyalgia and chronic widespread pain. Neuroscience. 2016;338: 114–129.
 
-chronic widespread pain. Neuroscience. 2016;338: 114–129. Srbely JZ. New trends in the treatment and management
+- Srbely JZ. New trends in the treatment and management of myofascial pain syndrome. Curr Pain Headache Rep. 2010;14:346–352.
 
-of myofascial pain syndrome. Curr Pain Headache Rep. 2010;14:346–352. Weiner DK. Office management of chronic pain in the
-
-elderly. Am J Med. 2007;120(4):306–315.
-
-<a id="p1666"></a>**[p. 1666]**
+- Weiner DK. Office management of chronic pain in the elderly. Am J Med. 2007;120(4):306–315.

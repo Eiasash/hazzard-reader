@@ -56,7 +56,9 @@ Dysphagia profoundly influences quality of life (QOL). Patients with swallowing 
 
 Swallowing is an orchestrated activity that balances the competing behaviors of ingestion, speaking, and breathing. Approximately 30 oral and pharyngeal muscle pairs and multiple nerves must perform precisely on cue so that the upper aerodigestive tract is reconfigured from a mechanism that channels air for breathing and speaking (Figure 31-1) to a food-propelling mechanism that accomplishes ingestion (Figure 31-2). The four morphologic regions serving these purposes are the oral cavity, pharynx, larynx, and esophagus. Of these, the first three collectively are termed the upper aerodigestive tract because they also serve the airwaydependent functions of respiration and speech production. In humans, with our upright posture, it is the adjacent position of the anatomy for breathing to the anatomy for food passage that facilitates gravitational influences on food to flow into an unprotected airway. Such anatomy and physiology require precision to satisfy the delicate balance between swallowing physiology and breathing—each a life-sustaining function that must occur during cessation of its counterpart. Thus, a basic understanding of the relationship between the anatomic components and the functional interaction of this mechanism is essential to an understanding of normal swallowing and the effects of age and age-related diseases on it.
 
-Normal Swallowing Swallowing is an integrated neuromuscular process consisting of a combination of volitional and relatively automatic movements. Although normal swallowing is usually conceptualized as a continuous sequence of events, the process of deglutition has been conveniently described as occurring in two, three, or four phases or stages. Moreover, the system engaged in swallowing can be divided into two basic structural subsystems, horizontal and vertical (Figure 31-3), that mirror the direction of bolus flow and the potential for gravitational influence on it.
+### Normal Swallowing
+
+Swallowing is an integrated neuromuscular process consisting of a combination of volitional and relatively automatic movements. Although normal swallowing is usually conceptualized as a continuous sequence of events, the process of deglutition has been conveniently described as occurring in two, three, or four phases or stages. Moreover, the system engaged in swallowing can be divided into two basic structural subsystems, horizontal and vertical (Figure 31-3), that mirror the direction of bolus flow and the potential for gravitational influence on it.
 
 Horizontal subsystem The oral cavity components comprise the horizontal subsystem, which handles the initial, largely volitional, processing and transport phases of swallowing— the swallow preparatory phase and the oral transport phase. The swallow preparatory phase is characterized by food acceptance, containment, and manipulation. The lips and the buccal musculature act in complex patterns, varying the size and shape of the oral opening to allow acceptance and/ or containment of food within the oral cavity. The process of chemically changing the material requires that numerous labial and lingual glands secrete into the oral cavity an enzyme-rich fluid that maintains and lubricates the mucosa and is directly incorporated into the food. Textural manipulation of food and the mechanical formation of a bolus once it is modified by saliva are accomplished largely by the tongue. The tongue positions the bolus between the teeth and moves in a complex three-dimensional chewing pattern if the bolus requires mastication. The moistening of the food in the oral cavity is essential for normal bolus transit
 
@@ -100,13 +102,15 @@ Several mechanisms ensure the redundancy by which airway protection is accomplis
 
 This hyolaryngeal elevation and anterior movement, coupled with retraction of the tongue base, covers the laryngeal vestibule and diverts the bolus laterally around the airway. Timely relaxation and opening of the upper esophageal sphincter (UES) permits continuous vertical passage of the bolus into the esophagus. The UES functions as a mechanical valve. For it to open normally, four criteria must be met: (1) relaxation of muscle tone, (2) compliant tissue, (3) traction force provided by sufficient hyolaryngeal excursion, and (4) pulsion force imparted by the bolus. In normal swallowing, UES relaxation and opening occur prior to bolus arrival at the hypopharynx.
 
-Neurophysiology of Oropharyngeal Swallowing Historically, swallowing was largely viewed as a sequence of pharyngeal and esophageal events and was defined as reflexive. However, it is now clear that normal swallowing is a patterned response rather than a traditional reflex.
+### Neurophysiology of Oropharyngeal Swallowing
+
+Historically, swallowing was largely viewed as a sequence of pharyngeal and esophageal events and was defined as reflexive. However, it is now clear that normal swallowing is a patterned response rather than a traditional reflex.
 
 Sensorimotor control of swallowing requires the coordinated activity to be distributed across both the cranial and spinal nerve systems, including the peripheral nerves, their central nuclei, and their neural centers, as summarized in Table 31-2. This neural network spans all levels of the neuraxis from the cerebrum superiorly to the brain stem and spinal nerves inferiorly and muscles and
 
 end organs at the periphery. This relatively diffuse network is designed to integrate and sequence both the volitional and automatic actions of swallowing.
 
-Healthy persons depend on a highly automated neuromuscular sensorimotor process that intricately coordinates the activities of chewing, swallowing, and airway protection. To accomplish a normal swallow, which occurs
+Healthy persons depend on a highly automated neuromuscular sensorimotor process that intricately coordinates the activities of chewing, swallowing, and airway protection. To accomplish a normal swallow, which occurs in 2 seconds or less, the muscles of chewing interact with 26 pairs of striated pharyngeal and laryngeal muscles (see Table 31-2).
 
 ![Table 31-2](hazzard8e_ch31_table-31-2_p441.webp)
 
@@ -114,19 +118,19 @@ Healthy persons depend on a highly automated neuromuscular sensorimotor process 
 
 <a id="p442"></a>**[p. 442]**
 
-in 2 seconds or less, the muscles of chewing interact with 26 pairs of striated pharyngeal and laryngeal muscles (see Table 31-2). Optimal structural integrity and precise neural mediation result in continuous, rapid bolus flow from the mouth to the esophagus (Figures 31-5A, B, and C) that
+Optimal structural integrity and precise neural mediation result in continuous, rapid bolus flow from the mouth to the esophagus (Figures 31-5A, B, and C) that accommodates variations in bolus size, texture, and temperature and the individual’s intent to swallow, chew, or just hold the bolus in the mouth.
 
 ![Figure 31-5](hazzard8e_ch31_figure-31-5_p442.webp)
 
 *FIGURE 31-5. Healthy young swallowing documented with video- fluoroscopy. A. Bolus in oral cavity, ready to be swallowed. B. Bolus appears as a “column” of material swiftly moving through the pharynx. C. Oropharynx cleared of material when the swallow is completed. (Adapted with permission from Robbins J. Normal swallowing and aging. Semin Neurol. 1996;16[4]:309–317.)*
 
-accommodates variations in bolus size, texture, and temperature and the individual’s intent to swallow, chew, or just hold the bolus in the mouth.
-
 ## SENESCENT SWALLOWING
 
 Traditional thinking suggests that the causes of dysphagia are always disease-related, with direct or indirect damage to effector end-organ systems of swallowing. However, the swallowing changes with healthy aging, progressive changes of the anatomy, and physiology of the oropharyngeal swallowing mechanism put the older population at increased risk for dysphagia (Figure 31-6). Dysphagia occurs when an older healthy adult with diminished functional reserve is faced with increased stressors that elicit dysphagia only in a vulnerable individual. Such stressors include central nervous system (CNS)-altering medications, mechanical perturbations (eg, a nasogastric [NG] tube or a tracheostomy), or medical conditions (eg, frailty).
 
-Age-Associated Changes in Swallowing The swallow of an older healthy adult is relatively slow. In people older than 65, the initiation of laryngeal and pharyngeal events, including laryngeal vestibule closure, maximal hyolaryngeal excursion, and upper UES opening, takes longer than in adults younger than 45. Although the specific neural underpinnings have not been confirmed, oral events may become uncoupled from the pharyngeal response. Thus, in older healthy adults, the bolus may remain adjacent to an open airway by pooling or pocketing in the pharyngeal recesses longer than in younger adults (Figure 31-7).
+### Age-Associated Changes in Swallowing
+
+The swallow of an older healthy adult is relatively slow. In people older than 65, the initiation of laryngeal and pharyngeal events, including laryngeal vestibule closure, maximal hyolaryngeal excursion, and upper UES opening, takes longer than in adults younger than 45. Although the specific neural underpinnings have not been confirmed, oral events may become uncoupled from the pharyngeal response. Thus, in older healthy adults, the bolus may remain adjacent to an open airway by pooling or pocketing in the pharyngeal recesses longer than in younger adults (Figure 31-7).
 
 Aspiration and airway penetration are the most significant adverse clinical outcomes of misdirected bolus flow, as reflected in the high rates of pneumonia with increasing age and disease. While airway invasion is generally believed to be absent in healthy adults, under demanding conditions (eg, endurance = demanding), older individuals are less able to compensate and are more at risk for aspiration than younger people. Findings such as these differentiate presbyphagia from clinically abnormal swallowing.
 
@@ -146,13 +150,17 @@ Age-related changes in the generation of lingual pressure also define presbyphag
 
 of low viscosity (eg, water, tea), by their composition, are likely to move more quickly than the physiology to handle them safely and thus put older people at increased risk for aspiration.
 
-Neurophysiologic Correlates of Senescent Swallowing The relationship between slower swallowing and increased number and severity of periventricular white-matter hyperintensities (PVHs) in the brain suggests that voluntary control of swallowing is mediated by corticobulbar pathways traveling within the periventricular white matter. These PVHs may explain, at least in part, the relatively asymptomatic decline in oropharyngeal motor performance observed in older people. Cerebral atrophy, a common finding in asymptomatic older individuals, may be another contributing factor to presbyphagia.
+### Neurophysiologic Correlates of Senescent Swallowing
+
+The relationship between slower swallowing and increased number and severity of periventricular white-matter hyperintensities (PVHs) in the brain suggests that voluntary control of swallowing is mediated by corticobulbar pathways traveling within the periventricular white matter. These PVHs may explain, at least in part, the relatively asymptomatic decline in oropharyngeal motor performance observed in older people. Cerebral atrophy, a common finding in asymptomatic older individuals, may be another contributing factor to presbyphagia.
 
 Changes in the periphery with age may be a function of changes in various sensory mechanisms or caused by muscle atrophy. Similar to the age-related loss of limb skeletal muscle, there are changes with age in muscle composition, muscle tension, muscle strength, and muscle contraction in facial, masticatory, and lingual musculature. Rather than reflecting CNS deterioration, slowed swallowing that remains coordinated and effective, as found in most healthy old people, may represent a compensatory strategy for achieving pressure-generation values that may be critical to successful bolus propulsion.
 
 ## DIFFERENTIAL CONSIDERATIONS FOR DYSPHAGIA AND ASPIRATION
 
-Etiologies Older adults are at increased risk for developing dysphagia because of a number of age-associated phenomena, comorbid conditions, and medications. By targeting highrisk groups and intervening with acceptable compensatory and rehabilitative approaches, it is hoped that the ultimate burden of dysphagia on the geriatric population will decline.
+### Etiologies
+
+Older adults are at increased risk for developing dysphagia because of a number of age-associated phenomena, comorbid conditions, and medications. By targeting highrisk groups and intervening with acceptable compensatory and rehabilitative approaches, it is hoped that the ultimate burden of dysphagia on the geriatric population will decline.
 
 As illustrated in Figure 31-6, decreased physiologic reserve can combine with a number of age-related, disease-related, or iatrogenic changes to transform an at-risk individual into an older adult with dysphagia. Sarcopenia, described in detail in Chapter 49, affects the head and neck musculature involved in swallowing. In fact, anterior and posterior isometric tongue pressure positively correlates with hand grip strength and with jump height and power. Furthermore, sarcopenia and worsening frailty status predict dysphagia prevalence in older adults.
 
@@ -198,13 +206,15 @@ An altered level of attention and cognition may also produce special concerns wi
 
 Several different treatments can either directly or indirectly damage swallowing effector organs as described previously. Head and neck cancer surgeries, some spinal cord surgeries, thyroid surgeries, and any intervention that can jeopardize the recurrent laryngeal nerve may result in dysphagia. A number of chemotherapy and radiotherapy regimes can cause oropharyngeal injury. The prospective outcome of dysphagia should be incorporated into the risk-benefit discussions of these procedures.
 
-Symptoms Medical history plays a critical role in establishing a diagnosis of dysphagia (Table 31-6). A detailed history can elucidate the proper diagnosis in some dysphagic adults and is
+### Symptoms
+
+Medical history plays a critical role in establishing a diagnosis of dysphagia (Table 31-6). A detailed history can elucidate the proper diagnosis in some dysphagic adults and is an important first step in the evaluation process.
 
 ![Table 31-5](hazzard8e_ch31_table-31-5_p446.webp)
 
 *TABLE 31-5 ■ MECHANISMS BY WHICH COMMON MEDICATIONS CONTRIBUTE TO DYSPHAGIA*
 
-an important first step in the evaluation process. Dysphagia may present in a more subtle fashion, without symptoms, but with recurring exacerbations of an underlying disease such as chronic obstructive pulmonary disease.
+Dysphagia may present in a more subtle fashion, without symptoms, but with recurring exacerbations of an underlying disease such as chronic obstructive pulmonary disease.
 
 Patients may initially complain of difficulty swallowing liquids, solid food, or pills. Caregivers or nursing personnel may note such difficulties experienced by the patient including “pocketing” of pills within the oral cavity. The patient may report more effort needed while eating. The patient or the patient’s observant family members may complain of the increased time needed to complete a meal. The patient or the practitioner may identify weight loss without any other localizing explanation. However, clinicians must distinguish these dysphagia or aspiration symptoms from a myriad of other common health problems that may mimic dysphagia in older adults. For example, in frail individuals, depression or early Parkinsonism may be manifested solely by weight loss and slowed eating. Without a complete history, these patients may be sent for a dysphagia work-up before an attempt is made to manage their “root problem.”
 
@@ -260,7 +270,9 @@ such as tucking the chin, which are shown under fluoroscopy to improve direction
 
 Although videofluoroscopy is the instrumental method most commonly used to assess swallowing, it is limited in the following ways:
 
-1. The amount of information obtained is restricted to a few minutes in an effort to limit radiation exposure. 2. The environment can be distracting for patients with cognitive deficits. 3. The material ingested is barium, not food, and may not simulate the swallow evoked when real food is used as a stimulus (taste, smell).
+1. The amount of information obtained is restricted to a few minutes in an effort to limit radiation exposure.
+2. The environment can be distracting for patients with cognitive deficits.
+3. The material ingested is barium, not food, and may not simulate the swallow evoked when real food is used as a stimulus (taste, smell).
 
 Despite these limitations and exposure to a small amount of radiation (equivalent to 2 years of natural background radiation or a set of dental x-rays), videofluoroscopy is preferred for the breadth of information it provides with regard to anatomy, physiology, bolus flow, and assessment of trial intervention.
 
@@ -278,7 +290,9 @@ Adherence to dysphagia-related recommendations, whether thickened liquids or an 
 
 <span id="ch31-rehabilitation"></span>Treatment for dysphagia is usually compensatory, rehabilitative, or a combination of the two approaches. Compensatory interventions avoid or reduce the effects of impaired structures or neuropathology and resultant disordered physiology and biomechanics on bolus flow. Rehabilitative interventions have the capacity to directly improve dysphagia at the biological level. That is, the targets of therapy are aspects of anatomic structures (eg, muscle) or neural circuitry that may have a direct influence on physiology, biomechanics, and bolus flow.
 
-Compensatory Dysphagia Interventions Traditionally, interventions for dysphagia in older patients are compensatory in nature and are directed at modifying bolus flow by targeting neuromuscularly induced pathobiomechanics or by adapting the environment.
+### Compensatory Dysphagia Interventions
+
+Traditionally, interventions for dysphagia in older patients are compensatory in nature and are directed at modifying bolus flow by targeting neuromuscularly induced pathobiomechanics or by adapting the environment.
 
 Postural adjustments Postural adjustments are relatively simple to teach to a patient, require little effort to employ, and can eliminate misdirection of bolus flow through biomechanical adjustment. A general postural rule for facilitating safe swallowing is to eat in an upright posture so that the vertical phase of the oropharyngeal swallow capitalizes on gravitational forces at work. For patients with hemiparesis, a common strategy is a head turn toward the hemiparetic side, effectively closing off that side to bolus entry and facilitating bolus transit through the nonparetic pharyngeal channel. If the pathophysiologic condition is the uncoupling of the oral from the pharyngeal phase of the swallow, a simple chin tuck (45 degrees) reduces the speed of bolus passage, thereby giving the neural system time to initiate the pharyngeal and airway protection events prior to bolus entry.
 
@@ -288,7 +302,14 @@ Food and liquid rate and amounts Although we live in a “fast food” society, 
 
 dysphagia take longer to eat. Eating an adequate amount of food becomes a challenge not only because of the increased time required to do so but also because fatigue frequently becomes an issue. Typically, smaller amounts per swallow are less likely to enter or block the airway, but in individuals who experience a sensory loss in the mouth or throat, larger amounts of food or liquid may be necessary to trigger a swallow. To promote a safe, efficient swallow in most individuals with swallowing and chewing difficulties, the following recommendations are useful:
 
-• Eat slowly and allow enough time for a meal. • Do not eat or drink when rushed or tired. • Take small amounts of food or liquid into the mouth— use a teaspoon rather than a tablespoon. • Concentrate on swallowing—eliminate distractions like television. • Avoid mixing solid food and liquid in the same mouthful. • Place the food on the stronger side of the mouth if there is unilateral weakness. • Alternate between liquids and solids. • Use sauces, condiments, and gravies to facilitate cohesive bolus formation and prevent pocketing or small food particles from entering the airway.
+- Eat slowly and allow enough time for a meal.
+- Do not eat or drink when rushed or tired.
+- Take small amounts of food or liquid into the mouth—use a teaspoon rather than a tablespoon.
+- Concentrate on swallowing—eliminate distractions like television.
+- Avoid mixing solid food and liquid in the same mouthful.
+- Place the food on the stronger side of the mouth if there is unilateral weakness.
+- Alternate between liquids and solids.
+- Use sauces, condiments, and gravies to facilitate cohesive bolus formation and prevent pocketing or small food particles from entering the airway.
 
 Adaptive equipment Eating and drinking aids can assist in placing, directing, and controlling the bolus of food or liquid and in maintaining proper head posture while eating. For example, modified cups with cutout rims (placed over the bridge of the nose) or straws prevent a backward head tilt when drinking to the bottom of a cup. A backward head tilt, which results in neck extension, should be avoided in most cases because when the head is tilted back, food and liquid are more likely to be misdirected into the airway. A speech pathologist or swallowing clinician can make suggestions regarding appropriate aids for optimizing swallowing safety and satisfaction. Occupational therapists are experts in the area of adaptive equipment and can be helpful in obtaining products that are often available only commercially.
 
@@ -312,11 +333,17 @@ Given that progressive resistance training appears to be safe and effective for 
 
 ## OPTIMIZING SWALLOWING AND RELATED HEALTH THROUGH PREVENTION
 
-Medications Minimizing medications that may put a patient at risk for dysphagia is an important goal. Furthermore, pills are often described by patients as being difficult to swallow. Patients should be informed about medications that can be crushed, can be mixed with foods, or are available in liquid form. Pill-induced damage to the esophagus can occur if pills are taken when lying down or with inadequate amounts of liquid.
+### Medications
 
-<span id="ch31-oral-care"></span>Oral Hygiene Poor oral hygiene is a risk factor for pneumonia, and aspiration of saliva, whether or not it is combined with food or fluid, can increase the likelihood of infection. The risk for periodontal disease as well as dental caries increases with age. Therefore, patients should be encouraged to perform oral hygiene several times a day and undergo periodic dental examinations. Furthermore, products to relieve oral dryness in the form of saliva substitutes, as well as alcoholfree mouth care products, can be recommended.
+Minimizing medications that may put a patient at risk for dysphagia is an important goal. Furthermore, pills are often described by patients as being difficult to swallow. Patients should be informed about medications that can be crushed, can be mixed with foods, or are available in liquid form. Pill-induced damage to the esophagus can occur if pills are taken when lying down or with inadequate amounts of liquid.
 
-TuBe or Not TuBe—Oral Versus Nonoral Intake Oropharyngeal dysphagia is potentially life threatening. In the older population, critical decisions often must be made that impact on the patient’s safety, health, and QOL. Among these perplexing issues is the question of continuing oral intake or providing nonoral enteral or parenteral nutrition. This dilemma is also reviewed in Chapter 30.
+### <span id="ch31-oral-care"></span>Oral Hygiene
+
+Poor oral hygiene is a risk factor for pneumonia, and aspiration of saliva, whether or not it is combined with food or fluid, can increase the likelihood of infection. The risk for periodontal disease as well as dental caries increases with age. Therefore, patients should be encouraged to perform oral hygiene several times a day and undergo periodic dental examinations. Furthermore, products to relieve oral dryness in the form of saliva substitutes, as well as alcoholfree mouth care products, can be recommended.
+
+### TuBe or Not TuBe—Oral Versus Nonoral Intake
+
+Oropharyngeal dysphagia is potentially life threatening. In the older population, critical decisions often must be made that impact on the patient’s safety, health, and QOL. Among these perplexing issues is the question of continuing oral intake or providing nonoral enteral or parenteral nutrition. This dilemma is also reviewed in Chapter 30.
 
 Enteral nutrition, the delivery of nutritive products to the digestive system through nonoral means, is often selected for the temporary prevention of aspiration in acutely ill patients. It also is chosen for permanent replacement in patients whose disease process results in confirmed or suspected swallowing-related aspiration or malnutrition and dehydration. In the case of longer-term or permanent nutritive supplementation, the clinician’s impressions often direct decisions relating to tube feeding for weeks, months,
 

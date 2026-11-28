@@ -361,6 +361,3 @@ Drs. Jerome Hershman, Sima Hassani, and Mary Samuels wrote this chapter in the 6
 - Trivalle C, Doucet J, Chassagne P, et al. Differences in the signs and symptoms of hyperthyroidism in older and younger patients. _J Am Geriatr Soc_ . 1996;44(1):50–53.
 
 - Wells SA, Asa SL, Dralle H, et al. Revised American Thyroid Association guidelines for the management of medullary thyroid carcinoma. _Thyroid_ . 2015;25(6):567–610.
-
-<a id="p1558"></a>**[p. 1558]**
-

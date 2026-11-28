@@ -511,7 +511,4 @@ patients with community-acquired pneumonia. _Am J Respir Crit Care Med_ . 1994;1
 
 - von Baum H, Welte T, Marre R, Suttorp N, Ewig S. Community-acquired pneumonia through _Enterobacteriaceae_ and _Pseudomonas aeruginosa_ : diagnosis, incidence and predictors. _Eur Respir J_ . 2010;35:598–605.
 
-- UpToDate. [https://www-uptodate-com.m-husc.a17.csinet](<https://www.uptodate.com/contents/treatment-of-drug-resistant-pulmonary-tuberculosis-in-adults>). es/contents/treatment-of-drug-resistant-pulmonarytuberculosis-in-adults?search=tuberculosis&source= search_result&selectedTitle=8~150&usage_type= default&display_rank=8.
-
-<a id="p1698"></a>**[p. 1698]**
-
+- UpToDate. [https://www-uptodate-com.m-husc.a17.csinet.es/contents/treatment-of-drug-resistant-pulmonary-tuberculosis-in-adults?search=tuberculosis&source=search_result&selectedTitle=8~150&usage_type=default&display_rank=8](<https://www.uptodate.com/contents/treatment-of-drug-resistant-pulmonary-tuberculosis-in-adults>).

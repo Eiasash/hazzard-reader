@@ -34,14 +34,6 @@ Hematologic malignancies represent varied diseases ranging from indolent to aggr
 
 6. Chronic lymphocytic leukemia (CLL) is the most common leukemia in the Western Hemisphere and may be expected to be encountered in a geriatric practice. Older symptomatic patients with and without comorbidity can benefit from targeted therapy regimens.
 
-The effectiveness of treatments has improved substantially over recent decades for most hematologic malignancies. Unfortunately, the response rates and cure rates for older patients have lagged behind for a number of reasons, including in some cases: more resistant tumor biology, presence of multiple chronic conditions, and functional impairments that decrease treatment tolerance. Underrepresentation of older adults in clinical trials remains a limitation. With the increased focus on clinical trials designed specifically for older adults and the ongoing development of less toxic, targeted therapies, opportunities for effective treatment of older adults with hematologic malignancies continue to improve.
-
-## MYELODYSPLASTIC SYNDROMES
-
-Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic disorders characterized by ineffective hematopoiesis and peripheral blood cytopenias. In these diseases, cells of the affected lineage are unable to undergo maturation and differentiation, resulting in cytopenias. MDS can be indolent or progress rapidly to bone marrow failure. The major clinical significance of these disorders is the morbidity associated with profound cytopenias and the potential to evolve into acute myeloid leukemia (AML). MDS is associated with impaired quality of life and high health care utilization with an estimated 3-year survival rate of 45%. Approximately 15,000 to 20,000 new cases are diagnosed annually in the United States, and about 80% of these are among adults older than age 70.
-
-<a id="p1484"></a>**[p. 1484]**
-
 7. Modern classification systems for lymphomas are evolving rapidly and incorporate immunophenotyping and genetics.
 
 8. Comorbidity and frailty are strong modifiers of prognosis and must be incorporated into treatment planning.
@@ -55,6 +47,14 @@ Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic
 12. All patients with PCDs require evaluation for associated abnormalities, that is, “CRAB” criteria: hypercalcemia, renal insufficiency, anemia, or bone lesions.
 
 13. Prevention of complications in those with multiple myeloma includes intravenous bisphosphonates to reduce the risk of pathologic fractures or painful lytic lesions requiring radiation; and infection prophylaxis with pneumococcal vaccine, annual influenza vaccine, and, for patients receiving certain treatments, herpes zoster prophylaxis with acyclovir or valacyclovir.
+
+The effectiveness of treatments has improved substantially over recent decades for most hematologic malignancies. Unfortunately, the response rates and cure rates for older patients have lagged behind for a number of reasons, including in some cases: more resistant tumor biology, presence of multiple chronic conditions, and functional impairments that decrease treatment tolerance. Underrepresentation of older adults in clinical trials remains a limitation. With the increased focus on clinical trials designed specifically for older adults and the ongoing development of less toxic, targeted therapies, opportunities for effective treatment of older adults with hematologic malignancies continue to improve.
+
+## MYELODYSPLASTIC SYNDROMES
+
+Myelodysplastic syndromes (MDS) are a heterogenous group of clonal hematopoietic disorders characterized by ineffective hematopoiesis and peripheral blood cytopenias. In these diseases, cells of the affected lineage are unable to undergo maturation and differentiation, resulting in cytopenias. MDS can be indolent or progress rapidly to bone marrow failure. The major clinical significance of these disorders is the morbidity associated with profound cytopenias and the potential to evolve into acute myeloid leukemia (AML). MDS is associated with impaired quality of life and high health care utilization with an estimated 3-year survival rate of 45%. Approximately 15,000 to 20,000 new cases are diagnosed annually in the United States, and about 80% of these are among adults older than age 70.
+
+<a id="p1484"></a>**[p. 1484]**
 
 Diagnosis and Work-Up Diagnosis of MDS relies mainly on peripheral blood and bone marrow findings. The diagnosis should be suspected in older individuals presenting with cytopenia. In clinical studies, the majority of patients have a hemoglobin of less than 11, platelet count less than 100,000, and an absolute neutrophil count less than 1000 at the time of diagnosis. However, careful attention should be paid to consistent decreases in blood counts over time in an older adult, which may signify early developing MDS. A frequent presentation is progressive macrocytic anemia in an older adult followed by developing pancytopenia. Many patients are asymptomatic at the time of diagnosis. However, careful history-taking should include questions regarding recurrent infections, bruising, and bleeding. The differential diagnosis for suspected MDS includes AML, aplastic anemia, megaloblastic anemia (B12 and folate deficiency), copper deficiency, viral infections (HIV), large granular lymphocytic leukemia, and heavy metal poisoning.
 
@@ -74,7 +74,7 @@ Selection of treatment for patients with MDS depends not only on disease risk st
 
 requiring assistance with instrumental activities of daily living (IADLs), impaired cognition, or mobility limitation were associated with higher likelihood to discontinue therapy early. Studies evaluating strategies for assessing frailty among MDS patients are presented in Table 95-3. Use of geriatric assessment and frailty screening can assist in treatment decision-making and guide supportive care.
 
-Treatment Treatment strategies emphasize targeting higher-risk MDS and subgroups defined by specific cytogenetic abnormalities. Current treatment recommendations involve a riskadapted therapeutic approach (outlined in Table 95-4). Supportive care, aimed at controlling symptoms related to cytopenias, is indicated for all patients and is the mainstay of treatment for lower-risk patients or frail patients. Supportive care often includes red cell and platelet transfusions and antibiotics for infection. Hematopoietic growth factors such as erythropoietin are used to try to minimize transfusion requirements in responding patients. Those most likely to benefit have lower risk IPSS-R scores, serum erythropoietin level less than 500 mU/mL, low transfusion requirement, and shorter interval between diagnosis and treatment. A subcutaneously administered recombinant fusion protein targeting Smad2/3 signaling, luspaterceptaamt, decreased transfusion requirements for patients with low-/intermediate-risk MDS with ringed sideroblasts that
+Treatment Treatment strategies emphasize targeting higher-risk MDS and subgroups defined by specific cytogenetic abnormalities. Current treatment recommendations involve a risk-adapted therapeutic approach (outlined in Table 95-4). Supportive care, aimed at controlling symptoms related to cytopenias, is indicated for all patients and is the mainstay of treatment for lower-risk patients or frail patients. Supportive care often includes red cell and platelet transfusions and antibiotics for infection. Hematopoietic growth factors such as erythropoietin are used to try to minimize transfusion requirements in responding patients. Those most likely to benefit have lower risk IPSS-R scores, serum erythropoietin level less than 500 mU/mL, low transfusion requirement, and shorter interval between diagnosis and treatment. A subcutaneously administered recombinant fusion protein targeting Smad2/3 signaling, luspaterceptaamt, decreased transfusion requirements for patients with low-/intermediate-risk MDS with ringed sideroblasts that
 
 ![Table 95-2](hazzard8e_ch95_table-95-2_p1485.webp)
 
@@ -166,7 +166,7 @@ The disease characteristically proceeds through three phases: chronic (present i
 
 of the chronic phase is highly variable. In the chronic phase, the disease is easily controlled without aggressive therapy. Many patients are asymptomatic (diagnosis prompted by leukocytosis), common symptoms include fatigue, weight loss, and abdominal fullness or pain related to splenomegaly. The accelerated phase begins with gradual increases in white cells, platelets, and spleen size. Initially good maturation persists, but eventually more blasts are seen in the peripheral blood. The terminal phase of the disease is indistinguishable from acute leukemia. The blasts have myeloid surface markers in 85% of the patients and lymphoid markers in the remaining 15%.
 
-Treatment for CML has changed dramatically in the past decades, altering the natural history of this disease. Imatinib mesylate (Gleevec; STI-571), a targeted tyrosine kinase inhibitor (TKI), designed specifically for the treatment of CML (in oral formulation), proved to have significant activity in the blast phase and accelerated phase of CML. In chronic phase CML, imatinib mesylate yielded marked improvements in clinical and cytogenetic responses, rates of disease progression, and treatmentrelated toxicity compared to previously used IFN-α plus lowdose ara-C in a randomized clinical trial. Based on these results, imatinib mesylate replaced interferon regimens as the standard of care for patients with chronic phase CML. Imatinib is very well tolerated, which is particularly relevant for the older adult population. Responses are durable with many patients maintaining response now after well over a decade of therapy. More potent, second-generation, tyrosine kinase inhibitors (ie, dasatinib, nilotinib, bosutinib) produce more rapid and better responses than imatinib in first-line treatment although no difference in overall survival has been demonstrated to date. These drugs are also active in patients who have progressed on imatinib providing sequential treatment options prior to consideration of cytotoxic therapy. Adherence to daily administration is critical for successful treatment of CML with careful monitoring of response to determine when other therapies should be considered. PCR techniques provide a highly sensitive and reliable method to monitor response to treatments. Long-term follow-up data from imatinib clinical trials show that cytogenetic and molecular responses are durable and there are low rates of cumulative or late toxic effects. Choice if first line therapy for CML for older adults is informed by concurrent comorbid conditions such as heart failure, risk of cardiotoxicity, QT prolongation, and thrombosis. Imatinib has the longest term safety data and remains an appealing standard for many older adults.
+Treatment for CML has changed dramatically in the past decades, altering the natural history of this disease. Imatinib mesylate (Gleevec; STI-571), a targeted tyrosine kinase inhibitor (TKI), designed specifically for the treatment of CML (in oral formulation), proved to have significant activity in the blast phase and accelerated phase of CML. In chronic phase CML, imatinib mesylate yielded marked improvements in clinical and cytogenetic responses, rates of disease progression, and treatmentrelated toxicity compared to previously used IFN-α plus low-dose ara-C in a randomized clinical trial. Based on these results, imatinib mesylate replaced interferon regimens as the standard of care for patients with chronic phase CML. Imatinib is very well tolerated, which is particularly relevant for the older adult population. Responses are durable with many patients maintaining response now after well over a decade of therapy. More potent, second-generation, tyrosine kinase inhibitors (ie, dasatinib, nilotinib, bosutinib) produce more rapid and better responses than imatinib in first-line treatment although no difference in overall survival has been demonstrated to date. These drugs are also active in patients who have progressed on imatinib providing sequential treatment options prior to consideration of cytotoxic therapy. Adherence to daily administration is critical for successful treatment of CML with careful monitoring of response to determine when other therapies should be considered. PCR techniques provide a highly sensitive and reliable method to monitor response to treatments. Long-term follow-up data from imatinib clinical trials show that cytogenetic and molecular responses are durable and there are low rates of cumulative or late toxic effects. Choice if first line therapy for CML for older adults is informed by concurrent comorbid conditions such as heart failure, risk of cardiotoxicity, QT prolongation, and thrombosis. Imatinib has the longest term safety data and remains an appealing standard for many older adults.
 
 Allogeneic stem cell transplantation in the chronic phase remains a consideration for curative treatment for younger patients, primarily those with suboptimal response to TKIs. It has minimal role in older patients because of the morbidity and mortality of this treatment and availability of therapies to control disease. TKIs should be the initial treatment for both the accelerated and blastic phases of
 
@@ -230,7 +230,7 @@ Epidemiology In 2021, an estimated 90,390 individuals will be diagnosed with lym
 
 With the aging of the population, the United States is projected to witness increases in incidence of NHL by 67% and HL by 70% in older adults by the year 2030. This fact is evidenced as well by the increasing median age of individuals with NHL over the last two decades. Consequently, the interplay between aging biology, comorbidity, and competing risks is ever more prevalent for the treating oncologist.
 
-## Non-Hodgkin Lymphoma
+### Non-Hodgkin Lymphoma
 
 World health organization classification system Although lymphoma classification has remained a complicated endeavor, iterative changes in the classification systems over the past 30 years have increasingly integrated cell of origin (B, T, NK), morphology, immunophenotype, and genetic and clinical features to define disease. The recent WHO updates have more broadly integrated new diseases and subtypes identified in the past, affirmed the importance of detecting viral entities in some diagnoses (eg, EBV, HHV8,
 
@@ -316,9 +316,7 @@ The Fondazione Italiana Linfomi (FIL) integrated a CGA tool into a trial treatme
 
 Pharmacologic Considerations for Older NHL Patients
 
-Neuropathic agents: Vinca alkaloids (vincristine, vinblastine), cisplatin,
-
-oxaliplatin, brentuximab vedotin, bortezomib. A number of approved agents for the treatment of NHL are associated with peripheral and autonomic neuropathy. In the older individual, although grade 3 neuropathy generally provokes drug modification or cessation, grade 2 neuropathy may interfere with ADL/IADLs, increase the risk of falls, and impact quality -of-life (QOL). Dose reductions and omissions need to be balanced against the potential benefit in a given scenario.
+Neuropathic agents: Vinca alkaloids (vincristine, vinblastine), cisplatin, oxaliplatin, brentuximab vedotin, bortezomib. A number of approved agents for the treatment of NHL are associated with peripheral and autonomic neuropathy. In the older individual, although grade 3 neuropathy generally provokes drug modification or cessation, grade 2 neuropathy may interfere with ADL/IADLs, increase the risk of falls, and impact quality-of-life (QOL). Dose reductions and omissions need to be balanced against the potential benefit in a given scenario.
 
 Anthracycline. Doxorubicin is one of the most active and essential agents in the treatment of aggressive histologies such as DLBCL and HL. The anthracyclines are associated with a defined risk of anthracycline-induced cardiomyopathy that is related to cumulative dose (although rarely idiopathic), with risk increasing significantly with doxorubicin equivalents in excess of 400 mg/m<sup>2</sup> lifetime. Hypertension is an established risk factor. Infusional doxorubicin
 
@@ -328,7 +326,7 @@ Small Molecule Inhibitors Ibrutinib is a small molecule inhibitor of Bruton tyro
 
 Idelalisib is a small molecule inhibitor of PI3 kinase-δ that is FDA approved for patients with CLL/SLL and refractory FL. This drug has been associated with fatal and/or serious hepatotoxicity, severe diarrhea or colitis, pneumonitis, and intestinal perforation. Hepatic abnormalities typically resolve with interruption of drug dosing; patients can frequently resume therapy.
 
-## Diffuse Large B-Cell Lymphoma
+### Diffuse Large B-Cell Lymphoma
 
 Introduction Diffuse large B-cell lymphoma (DLBCL) is the most common subtype of NHL both in the United States and globally, representing roughly 30% of all new diagnosis. With a median age at diagnosis of greater than or equal to 65 years, DLBCL is in many ways a disease of older individuals. With the aging population, there is a pressing need to understand age-related host and disease factors, how they impact therapeutic choices and outcomes, and to develop specific strategies to address these factors.
 
@@ -344,7 +342,7 @@ Patients who relapse following RCHOP chemotherapy have a poor prognosis, even wh
 
 Prephase Concept and Reduced Intensity Often at initial presentation, disease-related factors impair host performance status and are associated with treatment-associated morbidity and mortality. The German NHL high-grade study group has utilized a concept termed “prephase” to mitigate the impact of decreased functional status initially. Employing a week of corticosteroid and a single dose of vincristine before the initiation of therapy, the RICOVER60 study suggested there was a 50% reduction in cycle 1 and 2 TRM as a consequence of this maneuver.
 
-Reduced Dose or Nonanthracycline-Based Curative Intent In clinical scenarios where RCHOP is not deemed feasible, there exist a variety of dose-reduced regimens, with relative dose intensities of 50% to 70% standard dosing, and nonanthracycline regimens that maintain curative potential (Table 95-12). In general, the trade-off includes a reduction in efficacy with the advantage of reduced toxicity and TRM. Direct comparative data are frequently lacking in
+Reduced Dose or Nonanthracycline-Based Curative Intent In clinical scenarios where RCHOP is not deemed feasible, there exist a variety of dose-reduced regimens, with relative dose intensities of 50% to 70% standard dosing, and non-anthracycline regimens that maintain curative potential (Table 95-12). In general, the trade-off includes a reduction in efficacy with the advantage of reduced toxicity and TRM. Direct comparative data are frequently lacking in
 
 this area, with data more frequently culled from retrospective cohorts or phase II trials.
 
@@ -362,15 +360,15 @@ It is important to recognize the potential toxicity for CAR-T infusions. The com
 
 refractory DLBCL found that outcomes of response and survival were similar to slightly better for older versus younger patients (patients 65 years or older made up one-quarter of the trial cohort). However, the incidence of grade more than or equal to 3 neurologic toxicity was higher (44% vs 28%) in the older age cohort. Future studies are needed to identify which older patients are optimal candidates for CAR-T therapy through understanding of patient preferences, risk of toxicity, and functional status.
 
-## Follicular Lymphoma/Indolent Lymphomas
+### Follicular Lymphoma/Indolent Lymphomas
 
 Introduction Follicular lymphoma (FL) is the second most common NHL histology in the United States, accounting for approximately 30% of new cases. FL is the prototypical indolent or slow-growing lymphoma, characterized by systemic disease with a protracted disease course associated with waxing and waning adenopathy that is frequently asymptomatic and may not require therapy. Average survival can exceed 15 years.
 
 Most patients with FL will present with painless adenopathy, with bone marrow involvement in up to 70%. FL remains a chronic illness that is characterized by the need for intermittent therapy with generally shorter and shorter response intervals. Marked heterogeneity does exist in disease course, with perhaps 10% to 15% of patients experiencing a more aggressive disease course with shorter survival.
 
-Indications for therapy Many patients will present with advanced-stage disease but will not require immediate intervention. Asymptomatic patients with low burden of disease may be expectantly monitored with no detrimental effect on overall survival. Randomized studies have shown that the early initiation of therapy did not improve longterm disease-specific or overall survival, supporting an expectant monitoring approach. The median time from diagnosis to treatment in controlled settings has generally been about 3 years. Spontaneous regression of adenopathy in FL may occur in 10% to 15% of patients. Indications for therapy, which is generally chemoimmunotherapy in the modern era, are derived from clinical trial criteria established by the French in the context of clinical trials (termed the GELF criteria) and adopted by the NCCN guidelines. These criteria generally relate to tumor burden (Table 95-13).
+Indications for therapy Many patients will present with advanced-stage disease but will not require immediate intervention. Asymptomatic patients with low burden of disease may be expectantly monitored with no detrimental effect on overall survival. Randomized studies have shown that the early initiation of therapy did not improve long-term disease-specific or overall survival, supporting an expectant monitoring approach. The median time from diagnosis to treatment in controlled settings has generally been about 3 years. Spontaneous regression of adenopathy in FL may occur in 10% to 15% of patients. Indications for therapy, which is generally chemoimmunotherapy in the modern era, are derived from clinical trial criteria established by the French in the context of clinical trials (termed the GELF criteria) and adopted by the NCCN guidelines. These criteria generally relate to tumor burden (Table 95-13).
 
-Therapy—Localized disease While expectant monitoring may be reasonable in some patients with localized indolent lymphoma, others will require therapy. Radiation alone may be an option for 5% to 10% of patients who present with localized disease (stage I or II), with roughly 50% of patients remaining long-term disease free. Patients with bulky FL are generally managed according to advancedstage strategies.
+Therapy—Localized disease While expectant monitoring may be reasonable in some patients with localized indolent lymphoma, others will require therapy. Radiation alone may be an option for 5% to 10% of patients who present with localized disease (stage I or II), with roughly 50% of patients remaining long-term disease free. Patients with bulky FL are generally managed according to advanced-stage strategies.
 
 Therapy—Advanced-stage disease
 
@@ -382,7 +380,7 @@ Chemoimmunotherapy Therapy for advanced-stage FL is generally indicated when the
 
 are not curative, so the goal of treatment is resolution of disease symptoms and maintenance of remission, balanced with toxicity. FL are very responsive to immunotherapy alone and in combination with chemotherapy, as well as radiation, with a rapid expansion of available agents in the current era. In almost all instances, the addition of rituximab to a chemotherapy backbone has consistently resulted in improved response rates and increased PFS, as well as of evidence of increased OS. Alkylator-based regimens (eg, RCHOP and R-CVP), purine analogue regimens (eg, R-FCM), and rituximab-bendamustine have all been evaluated in the frontline treatment of symptomatic FL. Overall response rates are generally in the 80% to 95% range, with median response durations over 2 years. For older frail patients, low-dose targeted radiation or single-agent rituximab may provide effective palliation.
 
-Relapsed Disease At relapse, the selection of salvage regimens depends on the efficacy and tolerability of prior therapies. Rituximab is generally included if the benefit from initial therapy was more than 6 months, and data support maintenance rituximab in the relapsed setting as well. Radioimmunotherapy with <sup>90</sup>Y-ibritumomab tiuxetan and 131I-tositumumab represents an effective approach and is a particular consideration in older patients with comorbidities not appropriate for chemotherapy. The oral phosphatidylinositol 3-kinase (PI3K) inhibitor idelalisib has proven safety and efficacy in relapsed indolent NHL refractory to rituximab and alkylators. Other aggressive options as used in relapsed/refractory DLBCL, such as ASCT or CAR-T therapy may be considered for select patients with short remission duration (< 2 years) from initial chemoimmunotherapy induction.
+Relapsed Disease At relapse, the selection of salvage regimens depends on the efficacy and tolerability of prior therapies. Rituximab is generally included if the benefit from initial therapy was more than 6 months, and data support maintenance rituximab in the relapsed setting as well. Radioimmunotherapy with <sup>90</sup>Y-ibritumomab tiuxetan and <sup>131</sup>I-tositumumab represents an effective approach and is a particular consideration in older patients with comorbidities not appropriate for chemotherapy. The oral phosphatidylinositol 3-kinase (PI3K) inhibitor idelalisib has proven safety and efficacy in relapsed indolent NHL refractory to rituximab and alkylators. Other aggressive options as used in relapsed/refractory DLBCL, such as ASCT or CAR-T therapy may be considered for select patients with short remission duration (< 2 years) from initial chemoimmunotherapy induction.
 
 Risk of transformation Up to half of patients may experience transformation to a more aggressive biology that approximates DLBCL in appearance. Clinically, transformation is often heralded by a rapidly growing nodal mass, new-onset B symptoms, hypercalcemia, elevated
 
@@ -390,7 +388,9 @@ Risk of transformation Up to half of patients may experience transformation to a
 
 LDH, increased Ki67%, and higher standardized uptake values (SUVs) on FDG-PET. Once transformation is documented, treatment generally follows DLBCL paradigms to eradicate the aggressive life-threatening clone. Median survival following transformation is reported at less than 2 years.
 
-Hodgkin Lymphoma While HL median age of diagnosis is 39 years, there is a bimodal age peak of distribution, with peaks of incidence in the 20s to 30s and again in the 60s to 70s. Older patients pose a particularly difficult dynamic for the treatment team. If therapy can be given safely, these patients can be cured. However, many patients are not given dose-intense chemotherapy due to perceived or actual risk of toxicity. Older patients are also less represented in clinical trials (< 5% of HL trial demographics are older) leaving less guidance and fewer advancements in the treatment of older patients. Hence, there remains a significant gap in curability for older patients due to disease biology, aging-associated vulnerabilities, and therapy administered.
+### Hodgkin Lymphoma
+
+While HL median age of diagnosis is 39 years, there is a bimodal age peak of distribution, with peaks of incidence in the 20s to 30s and again in the 60s to 70s. Older patients pose a particularly difficult dynamic for the treatment team. If therapy can be given safely, these patients can be cured. However, many patients are not given dose-intense chemotherapy due to perceived or actual risk of toxicity. Older patients are also less represented in clinical trials (< 5% of HL trial demographics are older) leaving less guidance and fewer advancements in the treatment of older patients. Hence, there remains a significant gap in curability for older patients due to disease biology, aging-associated vulnerabilities, and therapy administered.
 
 Biology and outcomes in older patients HL is characterized by the presence of malignant multinucleated giant cells, termed “Reed-Sternberg” cells, that have a typical immunohistochemical profile with expression of CD15 and CD30. Four histologic subtypes are recognized: nodular sclerosis, mixed cellularity, lymphocyte-rich, and lymphocytedepleted classical HL. Another subtype of HL, nodular lymphocyte-predominant Hodgkin lymphoma (NLPHL), is even rarer, both in terms of incidence (only 5% of all HL) and presentation at advanced age.
 
@@ -434,7 +434,7 @@ Urine immunofixation Urine immunofixation, like serum immunofixation, is more se
 
 Serum-free light chain assay The serum-free light chain is a quantitative measure of excess kappa or lambda light chains produced by a plasma cell clone. Under normal circumstances, a slight excess of light chains is produced relative to heavy chains in the production of intact immunoglobulins, resulting in small quantities of kappa and lambda light chains free in the serum. The ratio of kappa to lambda light chains is roughly 1:1, with the normal range of ratios of kappa to lambda ranging from 0.26 to 1.65. In a clonal PCD, the ratio will either be greater than the upper limit of normal with a kappa paraprotein, or less than the lower limit of normal with a lambda paraprotein. Notably, as the light chains are renally cleared, the absolute level of kappa and lambda light chains may be elevated in patients with renal impairment, but the ratio will remain close to normal.
 
-## Monoclonal Gammopathy of Undetermined Significance
+### Monoclonal Gammopathy of Undetermined Significance
 
 Definition MGUS is an asymptomatic premalignant condition characterized by the presence of a monoclonal protein in the serum or urine. The 2014 International Myeloma Working Group (IMWG) criteria defined that a diagnosis of MGUS requires a total serum M-component less than
 
@@ -448,9 +448,9 @@ Definition MGUS is an asymptomatic premalignant condition characterized by the p
 
 30 g/L, with bone marrow plasma cells (or lymphoplasmacytic cells in the case of an IgM paraprotein) less than 10% and no end-organ damage related to the monoclonal protein (eg, “CRAB” criteria: hypercalcemia, renal insufficiency, anemia, or bone lesions) or amyloidosis (see Table 95-14).
 
-Epidemiology The prevalence of MGUS in the United States is approximately 3% and ranges from 1% to 5% in other countries throughout the world. It increases in prevalence with age, and is more common in men and AfricanAmericans. Additional risk factors include having a primary relative with a history of MGUS or myeloma, exposure to pesticides, rural residence, and possibly obesity.
+Epidemiology The prevalence of MGUS in the United States is approximately 3% and ranges from 1% to 5% in other countries throughout the world. It increases in prevalence with age, and is more common in men and African-Americans. Additional risk factors include having a primary relative with a history of MGUS or myeloma, exposure to pesticides, rural residence, and possibly obesity.
 
-Pathophysiology (classification) MGUS may be classified as IgG, IgA, light chain MGUS, or IgM MGUS. MGUS may progress to multiple myeloma, solitary plasmacytoma, or primary amyloidosis. IgM MGUS generally does not progress to multiple myeloma, but to Waldenström macroglobulinemia or amyloidosis. The rate of progression to symptomatic myeloma is about 1% per year; high-, highintermediate, low-intermediate, and low-risk groups are defined based on the type of monoclonal protein, level of the M-spike, and whether the serum-free light chain ratio is normal.
+Pathophysiology (classification) MGUS may be classified as IgG, IgA, light chain MGUS, or IgM MGUS. MGUS may progress to multiple myeloma, solitary plasmacytoma, or primary amyloidosis. IgM MGUS generally does not progress to multiple myeloma, but to Waldenström macroglobulinemia or amyloidosis. The rate of progression to symptomatic myeloma is about 1% per year; high-, high-intermediate, low-intermediate, and low-risk groups are defined based on the type of monoclonal protein, level of the M-spike, and whether the serum-free light chain ratio is normal.
 
 Presentation MGUS may be discovered when the patient is undergoing evaluation for another disorder and is found to have a monoclonal protein. This may include evaluation for anemia, renal insufficiency, proteinuria, osteoporosis or fractures, hypergammaglobulinemia, or peripheral neuropathy.
 
@@ -460,7 +460,7 @@ Evaluation The identification of a monoclonal protein requires evaluation for th
 
 Management MGUS does not require treatment. Patients identified as having MGUS are followed at 6- to 12-month intervals for progression to a malignant disorder, with monitoring for anemia, renal insufficiency, hypercalcemia, or bone lesions.
 
-## Smoldering Myeloma
+### Smoldering Myeloma
 
 Definition Smoldering myeloma is intermediate between MGUS and symptomatic multiple myeloma, defined as the presence of an IgG or IgA monoclonal protein greater than
 
@@ -476,7 +476,7 @@ Nonpharmacologic Patients with smoldering myeloma should be followed at 3- to 6-
 
 Drugs Previously, only observation was recommended for patients with smoldering myeloma. Data are emerging demonstrating a benefit to treatment with the immunomodulatory agent lenalidomide in individuals with intermediate or high-risk smoldering myeloma, with delay of progression to myeloma and the development of myeloma-related end organ damage.
 
-## Multiple Myeloma
+### Multiple Myeloma
 
 Definition Multiple myeloma is the malignant clonal proliferation of plasma cells with related end-organ damage, including hypercalcemia caused by lytic bone lesions, anemia, and renal insufficiency, which may be caused by hypercalcemia or light chain nephropathy.
 
@@ -488,7 +488,7 @@ Presentation The most common presenting symptom is bone pain, present in three o
 
 Evaluation Evaluation includes a thorough history and physical examination, seeking evidence of end-organ damage. Examination may reveal pallor, indicative of anemia, kyphosis related to vertebral compression fractures, or mental status changes due to hypercalcemia. Laboratory evaluation includes CBCs, comprehensive metabolic profile, serum protein electrophoresis and immunofixation, urine protein electrophoresis and immunofixation, quantitative immunoglobulins, serum-free light chains, lactate dehydrogenase, and β2-microglobulin. Radiographic evaluation begins with advanced bone imaging, such as low-dose whole body CT, PET-CT, or whole body MRI. Skeletal survey alone is no longer considered adequate for detection of myeloma bone lesions. Notably, nuclear medicine bone scans are generally negative in multiple myeloma, given that myeloma bone lesions are purely lytic. Finally, pathologic confirmation of the diagnosis is obtained with bone marrow core biopsy and aspirate. The bone marrow aspirate is also sent for cytogenetics and FISH for chromosomal abnormalities commonly seen in multiple myeloma.
 
-Pathophysiology (classification) The current staging system used for multiple myeloma is the Revised-International Staging System. This system, replacing the older DurieSalmon staging system and its precursor International Staging System, requires the serum albumin, β2-microglobulin, and lactate dehydrogenase levels as well as the presence or absence of higher risk chromosomal abnormalities, including t4;14, t14;16, and del 17p.
+Pathophysiology (classification) The current staging system used for multiple myeloma is the Revised-International Staging System. This system, replacing the older Durie-Salmon staging system and its precursor International Staging System, requires the serum albumin, β2-microglobulin, and lactate dehydrogenase levels as well as the presence or absence of higher risk chromosomal abnormalities, including t4;14, t14;16, and del 17p.
 
 Management The management of multiple myeloma in older adults can be complex.
 
@@ -542,7 +542,7 @@ Comorbidity The presence of comorbidities is prognostic in older adults with mul
 
 corticosteroids due to hyperglycemia. Patients and clinicians may have concerns about using carfilzomib in the presence of underlying cardiac disease given risk for dyspnea.
 
-## Solitary Plasmacytomas
+### Solitary Plasmacytomas
 
 Definition Solitary plasmacytomas are malignant proliferations of plasma cells located either in bone or soft tissue, in the absence of other evidence of end-organ damage, and with no or minimal (< 10%) plasma cells in the bone marrow (see Table 95-14).
 
@@ -558,7 +558,7 @@ Nonpharmacologic The treatment for solitary plasmacytoma is radiation therapy, w
 
 Drugs Systemic therapy as for multiple myeloma is utilized in the setting of a radiation-refractory solitary plasmacytoma or progression to multiple myeloma.
 
-## Primary Amyloidosis
+### Primary Amyloidosis
 
 Definition Amyloidosis is a heterogenous group of rare disorders characterized by the deposition of amyloid fibrils in soft tissues. Nearly 30 different amyloidogenic proteins have been implicated; herein we focus exclusively on AL amyloidosis, where a monoclonal PCD results in the formation of amyloidogenic kappa or lambda light chains.
 

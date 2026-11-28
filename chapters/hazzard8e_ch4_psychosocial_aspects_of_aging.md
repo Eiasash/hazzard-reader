@@ -451,60 +451,51 @@ Finally, a third theme is the strong association between social engagement and w
 
 ## FURTHER READING
 
-Albert SM, Freedman VA. Public Health and Aging: Maxi-
 
-mizing Function and Well-Being. New York, NY: Springer Publishing Company; 2010. Albert SM, Logsdon RG, eds. Assessing Quality of Life in
+- Albert SM, Freedman VA. Public Health and Aging: Maximizing Function and Well-Being. New York, NY: Springer Publishing Company; 2010.
 
-Alzheimer’s Disease. New York, NY: Springer Publishing Company; 2000. Aldwin CM, Park CL, Spiro AS III, eds. Handbook of Health
+- Albert SM, Logsdon RG, eds. Assessing Quality of Life in Alzheimer’s Disease. New York, NY: Springer Publishing Company; 2000.
 
-Psychology and Aging. New York, NY: Guilford Press; 2007. Anderson ND, Damianakis T, Kröger E, et al. The benefits
+- Aldwin CM, Park CL, Spiro AS III, eds. Handbook of Health Psychology and Aging. New York, NY: Guilford Press; 2007.
 
-associated with volunteering among seniors: a critical review and recommendations for future research. Psychol Bull. 2014;140(6):1505–1533. Carstensen LL, Mikels JA, Mather M. Aging and the
+- Anderson ND, Damianakis T, Kröger E, et al. The benefits associated with volunteering among seniors: a critical review and recommendations for future research. Psychol Bull. 2014;140(6):1505–1533.
 
-intersection of cognition, motivation and emotion. In: Birren J, Schaie KW, eds. Handbook of the Psychology of Aging. 6th ed. San Diego, CA: Academic Press; 2006.
+- Carstensen LL, Mikels JA, Mather M. Aging and the intersection of cognition, motivation and emotion. In: Birren J, Schaie KW, eds. Handbook of the Psychology of Aging. 6th ed. San Diego, CA: Academic Press; 2006.
 
-Chochinov HM, Kristjanson LJ, Breitbart W, et al. Effect
+- Chochinov HM, Kristjanson LJ, Breitbart W, et al. Effect of dignity therapy on distress and end-of-life experience in terminally ill patients: a randomised controlled trial. Lancet Oncol. 2011;12(8):753–762.
 
-of dignity therapy on distress and end-of-life experience in terminally ill patients: a randomised controlled trial. Lancet Oncol. 2011;12(8):753–762. Cohen S. Social relationships and health. Am Psychol.
+- Cohen S. Social relationships and health. Am Psychol. 2004;59:676–684.
 
-2004;59:676–684. Cohen S, Pressman SD. Positive affect and health. Curr Dir
+- Cohen S, Pressman SD. Positive affect and health. Curr Dir Psychol Sci. 2006;15(3):122–125.
 
-Psychol Sci. 2006;15(3):122–125. Epel E, Burke HM, Adler N, Wolkowitz O, Sidney S,
+- Epel E, Burke HM, Adler N, Wolkowitz O, Sidney S, Seeman T. Socio-economic status and the anabolic/ catabolic neuroendocrine balance. Ann Behav Med. 2006;31:50–80.
 
-Seeman T. Socio-economic status and the anabolic/ catabolic neuroendocrine balance. Ann Behav Med. 2006;31:50–80. Felix C, Rosano C, Zhu X, Flatt JD, Rosso AL. Greater social
+- Felix C, Rosano C, Zhu X, Flatt JD, Rosso AL. Greater social engagement and greater gray matter microstructural integrity in brain regions relevant to dementia. J Gerontol B Psychol Sci Soc Sci. 2021;76(6):1027–1035.
 
-engagement and greater gray matter microstructural integrity in brain regions relevant to dementia. J Gerontol B Psychol Sci Soc Sci. 2021;76(6):1027–1035. Fried LP, Carlson MC, Freedman M, et al. A social
+- Fried LP, Carlson MC, Freedman M, et al. A social model for health promotion for an aging population: <a id="p82"></a>**[p. 82]** initial evidence on the Experience Corps model. J Urban Health. 2004;81(1):64–78.
 
-model for health promotion for an aging population:
+- Gans D. The nexus of informal and formal elder care. J Comp Fam Stud. 2013;44(4):415–424.
 
-<a id="p82"></a>**[p. 82]**
+- Gans D, Silverstein M, Lowenstein A. Do religious children care more and provide more care to older parents? A study of filial norms and behavior across five nations. Response to Comment. J Comp Fam Stud. 2010;41(4):632–637.
 
-initial evidence on the Experience Corps model. J Urban Health. 2004;81(1):64–78. Gans D. The nexus of informal and formal elder care.
+- Hawkley LC, Cacioppo JT. Loneliness matters: a theoretical and empirical review of consequences and mechanisms. Ann Behav Med. 2010;40:218–227.
 
-J Comp Fam Stud. 2013;44(4):415–424. Gans D, Silverstein M, Lowenstein A. Do religious children
+- Lawton MP, DeVoe MR, Parmelee P. Relationship of events and affect in the daily life of an elderly population. Psychol Aging. 1995;10(3):469–477.
 
-care more and provide more care to older parents? A study of filial norms and behavior across five nations. Response to Comment. J Comp Fam Stud. 2010;41(4):632–637. Hawkley LC, Cacioppo JT. Loneliness matters: a theoretical
+- Lawton MP, Kleban MH, Dean J. Affect and age: cross-sectional comparisons of structure and prevalence. Psychol Aging. 1993;8(2):165–175.
 
-and empirical review of consequences and mechanisms. Ann Behav Med. 2010;40:218–227. Lawton MP, DeVoe MR, Parmelee P. Relationship of events
+- Lawton MP, Moss M, Hoffman C, Grant R, Ten Have T, Kleban MH. Health, valuation of life, and the wish to live. Gerontologist. 1999;39:406–416.
 
-and affect in the daily life of an elderly population. Psychol Aging. 1995;10(3):469–477. Lawton MP, Kleban MH, Dean J. Affect and age:
+- Lawton MP, Moss MS, Winter L, Hoffman C. Motivation in later life: personal projects and well-being. Psychol Aging. 2002;17(4):539–547.
 
-cross-sectional comparisons of structure and prevalence. Psychol Aging. 1993;8(2):165–175. Lawton MP, Moss M, Hoffman C, Grant R, Ten Have T,
+- Levine C, ed. Family Caregivers on the Job: Moving Beyond ADLs and IADLs. New York, NY: United Hospital Fund; 2004.
 
-Kleban MH. Health, valuation of life, and the wish to live. Gerontologist. 1999;39:406–416. Lawton MP, Moss MS, Winter L, Hoffman C. Motivation
+- Seaman JB, Bear TM, Documet PI, Sereika SM, Albert SM. Hospice and family involvement with end-of-life care: results from a population-based survey. Am J Hosp Palliat Care. 2016;33(2):130–135.
 
-in later life: personal projects and well-being. Psychol Aging. 2002;17(4):539–547.
+- Shear K, Frank E, Houck PR, Reynolds CF III. Treatment of complicated grief: a randomized trial. JAMA. 2005;293(21):2601–2608.
 
-Levine C, ed. Family Caregivers on the Job: Moving Beyond
+- Sudore RL, Lum HD, You JJ, et al. Defining advance care planning for adults: a consensus definition from a multidisciplinary Delphi panel. J Pain Symptom Manage. 2017;53(5):821–832.
 
-ADLs and IADLs. New York, NY: United Hospital Fund; 2004. Seaman JB, Bear TM, Documet PI, Sereika SM, Albert
+- Wang M. Profiling retirees in the retirement transition and adjustment process: examining the longitudinal change patterns of retirees’ psychological well-being. J Appl Psychol. 2007;92:455–474.
 
-SM. Hospice and family involvement with end-of-life care: results from a population-based survey. Am J Hosp Palliat Care. 2016;33(2):130–135. Shear K, Frank E, Houck PR, Reynolds CF III. Treat-
-
-ment of complicated grief: a randomized trial. JAMA. 2005;293(21):2601–2608. Sudore RL, Lum HD, You JJ, et al. Defining advance care
-
-planning for adults: a consensus definition from a multidisciplinary Delphi panel. J Pain Symptom Manage. 2017;53(5):821–832. Wang M. Profiling retirees in the retirement transition and
-
-adjustment process: examining the longitudinal change patterns of retirees’ psychological well-being. J Appl Psychol. 2007;92:455–474. World Health Organization. Global Age-Friendly Cities:
-
-A Guide. Geneva, Switzerland: WHO Press; 2007. [http://www.who.int/ageing/publications/Global_age](<https://www.who.int/publications/i/item/9789241547307>)_ friendly_cities_Guide_English.pdf. Accessed February 3, 2021.
+- World Health Organization. Global Age-Friendly Cities: A Guide. Geneva, Switzerland: WHO Press; 2007. [http://www.who.int/ageing/publications/Global_age_friendly_cities_Guide_English.pdf](<https://www.who.int/publications/i/item/9789241547307>). Accessed February 3, 2021.

@@ -71,14 +71,30 @@ window.HazzardDrugs = (() => {
         link.href='?chapter=drugs&'+(group?'drug='+encodeURIComponent(group.id):'drugSearch='+encodeURIComponent(entry.class));
         body.append(link);
       }
-      const brands=(entry.israeliBrands||[]).filter(brand=>brand.name&&brand.sourceUrl);
+      const groups=new Map();
+      for(const registration of entry.israeliBrands||[]){
+        if(!registration.name||!registration.sourceUrl)continue;
+        const tidy=value=>(value||'').trim().replace(/\s+/g,' ').replace(/\s*\/\s*/g,'/');
+        const name=tidy(registration.name),hebrewName=tidy(registration.hebrewName);
+        const key=JSON.stringify([normalize(name),normalize(hebrewName),registration.form||'',registration.routes||[]]);
+        if(!groups.has(key))groups.set(key,{name,hebrewName,sourceUrl:registration.sourceUrl,registrations:[]});
+        groups.get(key).registrations.push(registration);
+      }
+      const brands=[...groups.values()];
       if(brands.length){
         const group=el('details','','drug-links drug-brands'),list=el('ul');
         group.append(el('summary','Israeli brands · '+brands.length),list);
         for(const brand of brands){
           const row=el('li'),source=el('a',brand.name);source.href=brand.sourceUrl;
           if(brand.hebrewName){source.append(' · ',el('bdi',brand.hebrewName));}
-          row.append(source);list.append(row);
+          row.append(source);
+          if(brand.registrations.length>1){
+            const details=el('details'),sources=el('ul');
+            details.append(el('summary','Registrations ('+brand.registrations.length+')'),sources);
+            for(const reg of brand.registrations){const li=el('li'),a=el('a',reg.registrationNumber);a.href=reg.sourceUrl;li.append(a);sources.append(li);}
+            row.append(details);
+          }
+          list.append(row);
         }
         body.append(group);
       }
@@ -90,7 +106,21 @@ window.HazzardDrugs = (() => {
         const list = el('ul');
         for (const p of passages) {
           const row = el('li'), link = el('a', locationLabel(p)); link.href = passageURL(p);
-          row.append(link, el('p', (p.image ? 'Table entry · ' : '') + p.excerpt, 'drug-excerpt')); list.append(row);
+          row.append(link);
+          if(p.sourceLocator){
+            row.append(el('small',p.pageArt?.length?'Printed page with tables or figures':'Mention on the printed page'));
+            if(p.excerpt && normalize(p.excerpt)!==normalize(entry.name)){
+              const wording=el('details'),title=el('summary','Printed wording');
+              wording.append(title,el('p',p.excerpt,'drug-excerpt'));row.append(wording);
+            }
+            for(const asset of p.pageArt||[]){
+              const named=asset.match(/_(table|figure)-?(\d+[-.][\da-z]+)(?:[-_.])/i);
+              const label=named?named[1][0].toUpperCase()+named[1].slice(1)+' '+named[2].replace('.','-'):'Page image';
+              const imageLink=el('a','Open '+label);
+              imageLink.href='chapters/'+encodeURIComponent(asset);row.append(imageLink);
+            }
+          }else row.append(el('p', (p.image ? 'Table entry · ' : '') + p.excerpt, 'drug-excerpt'));
+          list.append(row);
         }
         group.append(list); body.append(group);
       }
@@ -134,7 +164,7 @@ window.HazzardDrugs = (() => {
         else if (new URL(location.href).searchParams.get('drug') === entry.id) remember('');
         if(row.open&&!populated){populated=true;body.textContent='Loading references…';try{const item=await loadEntry(entry);body.replaceChildren();detailsFor(item,body);}catch(error){populated=false;body.textContent=error.message;}}
       });
-      if (entry.id === selected) row.open = true;
+      if (entry.id === selected || (entry.previousId && entry.previousId === selected)) row.open = true;
       return row;
     }
 
@@ -173,7 +203,7 @@ window.HazzardDrugs = (() => {
         fragment.append(heading);
         const jump=el('button',letter);jump.type='button';jump.dataset.letter=letter;jump.setAttribute('aria-label','Jump to '+letter);jumps.append(jump);
         for(const entry of groups.get(letter)){
-          const row=entryRow(entry,selectedID);fragment.append(row);if(entry.id===selectedID)selected=row;
+          const row=entryRow(entry,selectedID);fragment.append(row);if(entry.id===selectedID||entry.previousId===selectedID)selected=row;
         }
       }
       letters.replaceChildren(jumps);letters.hidden=groups.size<2;

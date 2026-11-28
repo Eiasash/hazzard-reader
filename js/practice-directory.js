@@ -3,7 +3,7 @@ window.HazzardPracticeDirectory = (() => {
   const PAGE = 16;
   const kinds = [['past','Official'],['practice','Practice'],['all','All']];
   const clean = value => String(value || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-  const heading = (q) => q.kind === 'past' ? HazzardMCQ.sourceLabel(q) : q.sourceChecked ? 'Source-checked practice' : 'Practice';
+  const heading = (q) => q.kind === 'past' ? HazzardMCQ.sourceLabel(q) : q.sourceChecked ? 'Book-verified practice' : 'Practice';
   let optionsRequest,optionText;
   const prepared=new Map(),memberships=new Map();
   function chapterIds(chapter){

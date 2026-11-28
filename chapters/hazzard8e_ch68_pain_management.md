@@ -278,7 +278,7 @@ There are various complementary and alternative therapies that can potentially r
 
 - By the 2019 American Geriatrics Society Beers Criteria<sup>®</sup> Update Expert Panel. American Geriatrics Society 2019 Updated AGS Beers Criteria<sup>®</sup> for potentially inappropriate medication use in older adults. _J Am Geriatr Soc_ . 2019;67(4):674–694.
 
-- Centers for Disease Control and Prevention. (2016, January 1). Increases in drug and opioid overdose deaths— United States, 2000–2014. _Morbidity and Mortality Weekly Report_ . [https://www.cdc.gov/mmwr/preview/](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6450a3.htm>) mmwrhtml/mm6450a3.htm?s_cid=mm6450a3_w. Accessed May 29, 2021.
+- Centers for Disease Control and Prevention. (2016, January 1). Increases in drug and opioid overdose deaths— United States, 2000–2014. _Morbidity and Mortality Weekly Report_ . [https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6450a3.htm?s_cid=mm6450a3_w](<https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6450a3.htm>). Accessed May 29, 2021.
 
 - Chau DL, Walker V, Pai L, Cho LM. Opiates and elderly: use and side effects. _Clin Interv Aging_ . 2008;3(2):273–278.
 
@@ -288,7 +288,7 @@ There are various complementary and alternative therapies that can potentially r
 
    - Adults — United States, 2016. _MMWR Morb Mortal Wkly Rep_ 2018;67:1001–1006.
 
-- Department of Health and Human Services. (2016). Opioids in Medicare Part D: Concerns about extreme use and questionable prescribing. _Office of the Inspector General_ . [https://oig.hhs.gov/oei/reports/oei-02-17-00250](<https://oig.hhs.gov/reports/all/2017/opioids-in-medicare-part-d-concerns-about-extreme-use-and-questionable-prescribing/>) .asp. Accessed May 29, 2021.
+- Department of Health and Human Services. (2016). Opioids in Medicare Part D: Concerns about extreme use and questionable prescribing. _Office of the Inspector General_ . [https://oig.hhs.gov/oei/reports/oei-02-17-00250.asp](<https://oig.hhs.gov/reports/all/2017/opioids-in-medicare-part-d-concerns-about-extreme-use-and-questionable-prescribing/>). Accessed May 29, 2021.
 
 - Dowell D, Haegerich TM, Chou R. CDC guideline for prescribing opioids for chronic pain—United States, 2016. _MMWR Recomm Rep_ . 2016;65(No. RR-1):1–49.
 

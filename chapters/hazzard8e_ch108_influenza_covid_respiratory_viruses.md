@@ -57,7 +57,7 @@ Young, healthy individuals with influenza characteristically present with a sudd
 
 ## Specific Diagnostic Tests
 
-The traditional method to detect influenza has been viral culture, which is limited by moderate diagnostic accuracy and delay in obtaining results ( **Table 108-1** ). Rapid tests include direct fluorescent antigen (DFA), or direct immunofluorescence, where monoclonal antibodies labeled with fluorescent material are directed to influenza cell coat antigens. A result can be reported within hours. Rapid enzyme-linked immunosorbent assay (ELISA) tests are
+The traditional method to detect influenza has been viral culture, which is limited by moderate diagnostic accuracy and delay in obtaining results ( **Table 108-1** ). Rapid tests include direct fluorescent antigen (DFA), or direct immunofluorescence, where monoclonal antibodies labeled with fluorescent material are directed to influenza cell coat antigens. A result can be reported within hours. Rapid enzyme-linked immunosorbent assay (ELISA) tests are commercially available but are very insensitive in older adults, with sensitivities as low as 20%.
 
 <a id="p1735"></a>**[p. 1735]**
 
@@ -69,7 +69,7 @@ The traditional method to detect influenza has been viral culture, which is limi
 
 <sup>a</sup>Interpretation complicated by vaccination.
 
-commercially available but are very insensitive in older adults, with sensitivities as low as 20%. Nucleic acid amplification testing, such as RT-PCR, is the most promising test since it is over 95% sensitive and specific and the turnaround time can be rapid. The drawback, however, is that not all laboratories are capable of performing PCR daily.
+Nucleic acid amplification testing, such as RT-PCR, is the most promising test since it is over 95% sensitive and specific and the turnaround time can be rapid. The drawback, however, is that not all laboratories are capable of performing PCR daily.
 
 ## Infection Control Aspects
 
@@ -254,4 +254,3 @@ Concerns about emerging coronaviruses have been growing even prior to the COVID-
 - Reichert TA, Sugaya N, Fedson DS, et al. The Japanese experience with vaccinating school children against influenza. _N Engl J Med_ . 2001;344:889–896.
 
 - Talbot HK, Falsey AR. The diagnosis of viral respiratory disease in older adults. _Clin Infect Dis_ . 2010;50:747–751.
-

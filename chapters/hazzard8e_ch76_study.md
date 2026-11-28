@@ -106,8 +106,8 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 - (1) Reduced β-adrenergic responsiveness — receptor **desensitization**, not reduced receptor density (p1167).
 - (2) Increased arterial stiffness → increased afterload/impedance to LV ejection (p1168).
 - (3) Altered diastolic filling — impaired early relaxation, increased reliance on atrial "kick": up to **30–40%** of LV end-diastolic volume from atrial contraction in older adults (vs a small fraction in youth) (p1168–1169).
-- (4) Altered mitochondrial energy metabolism — normal at rest, can't meet demand under stress (p1170).
-- Restrictive Doppler filling pattern (A-wave <**50%** of E-wave amplitude) = advanced disease with poor prognosis, not attributable to aging alone (p1169).
+- (4) Altered mitochondrial energy metabolism — normal at rest, often unable to meet increased ATP demand under stress (p1170).
+- Restrictive Doppler filling pattern (A-wave <**50%** of E-wave amplitude) = a pattern that tends to indicate poor prognosis and almost always occurs in advanced cardiac disease, not attributable to aging alone (pp1169–1170).
 
 ### Etiology & Precipitants
 - HTN + CAD account for **>70%** of HF causes (p1170).
@@ -129,7 +129,7 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 > Current practice (not the book): Contemporary HF classifications use LVEF ≤40% for HFrEF, 41–49% for HFmrEF and ≥50% for HFpEF. HFimpEF denotes a previous LVEF ≤40% with subsequent improvement to >40%. Above 40%, evidence of increased filling pressures supports the clinical HF diagnosis. [AHA/ACC/HFSA heart failure guideline, 2022](https://pubmed.ncbi.nlm.nih.gov/35363499/).
 - No single clinical feature reliably distinguishes HFREF from HFPEF; echo/MRI/radionuclide angiography needed (p1175).
 - **>50%** of older HF patients have HFPEF (p1184).
-- **70–80%** of older HFPEF patients have hypertension (p1186).
+- **At least 70–80%** of older HFPEF patients have hypertension (p1186).
 
 ### Nonpharmacologic Management
 - Nonadherence/behavioral factors drive readmission: **64%** of exacerbations tied to medication/diet nonadherence in one study, and emotional/environmental factors contributed to **26%** of readmissions; in a 140-patient cohort (age ≥70), **47%** were readmitted within 90 days (p1176).
@@ -186,7 +186,9 @@ When frailty, malnutrition or poor access makes the treatment plan difficult to 
 
 ### Exam traps
 - **Two EF numbers for HFREF, not a contradiction — a general range narrowed to a working cutoff**: the chapter first gives the general literature range ("less than 40% to 50%"), then explicitly adopts **EF <45%** as its working definition for HFREF (**≥45%** for HFPEF) for the rest of the discussion (p1175). A question could test either number.
-- The three **guideline-recommended HFrEF beta blockers** are carvedilol, metoprolol succinate and bisoprolol. US labeling for bisoprolol alone is for hypertension, although its HFrEF efficacy is established. Among 2,128 patients aged ≥70, SENIORS found a benefit from nebivolol on the composite of death or cardiovascular hospitalization. These are separate evidence and regulatory questions (p1179).
+- The three **guideline-recommended HFrEF beta blockers** are carvedilol, metoprolol succinate and bisoprolol. Hazzard states that all three have US approval for heart failure. Among 2,128 patients aged ≥70, SENIORS found a benefit from nebivolol on the composite of death or cardiovascular hospitalization (p1179).
+
+  > Current practice (not the book): US prescribing information for bisoprolol alone lists hypertension as its indication. [Bisoprolol prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2564646d-183c-4759-8726-155a4c22aa2b).
 - Digoxin lowers HF hospitalizations but has **no mortality benefit** in either HFREF (DIG trial) or HFPEF (DIG ancillary) — a trap for assuming any drug that reduces hospitalizations also reduces mortality (p1182, p1188).
 
 ## Recall
@@ -260,7 +262,7 @@ Hazzard lists **creatinine ≥2.5 mg/dL** or **preexisting hyperkalemia** as con
 
 <details><summary>Answer</summary>
 
-The clearest CRT indication is symptomatic NYHA II, III or ambulatory IV HFrEF despite guideline-directed treatment, **EF ≤35%**, sinus rhythm, **LBBB** and **QRS ≥150 ms**. CRT can improve function and survival in selected octogenarians. An ICD prevents arrhythmic sudden death (p1184).
+The clearest CRT indication is symptomatic NYHA II, III or ambulatory IV HFrEF despite guideline-directed treatment, **EF ≤35%**, sinus rhythm, **LBBB** and **QRS ≥150 ms**. CRT can improve function and survival in selected octogenarians. An ICD prevents arrhythmic sudden death (p1184; Ch 77 Table 77-5, p1199; AHA/ACC/HFSA 2022).
 
 </details>
 

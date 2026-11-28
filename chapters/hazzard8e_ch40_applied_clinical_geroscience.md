@@ -26,7 +26,7 @@ Sherlock Holmes in The Adventures of Sherlock Holmes. Arthur Conan Doyle (1892)
 
 #### Key Clinical Points
 
-1. Aging is a universal human experience that looms large in popular and commercial culture. Geroscience is a new field, and some of the early interventions being studied include repurposed drugs or overthe-counter agents that target aging mechanisms.
+1. Aging is a universal human experience that looms large in popular and commercial culture. Geroscience is a new field, and some of the early interventions being studied include repurposed drugs or over-the-counter agents that target aging mechanisms.
 
 2. Common sense clinical judgment should prevail when providers are asked about using such substances ahead of rigorous clinical data and Food and Drug Administration (FDA) approvals. A plausible link to mechanisms of aging does not mean an intervention will be effective or risk-free. Unregulated clinics are not the same thing as carefully controlled and regulated clinical trials.
 
@@ -208,11 +208,11 @@ There are many potential outcome measures that capture aspects of fundamental ag
 
 for the following outcome measures in clinical trials of geroscience-based therapies: (1) mortality; (2) active life expectancy or expected disability-free survival; (3) markers of geriatric syndromes including gait speed, frailty indices, assessments of physical and cognitive functions, and activities of daily living; (4) accumulation of age-related diseases and co-occurrence with disabilities and geriatric syndromes; (5) composite outcomes from subsets of chronic diseases; and (6) other outcomes, including the rate of accumulation of new, age-related diseases, as well as indices of multimorbidity, such as the Charlson Comorbidity Index. Consideration for grouping chronic diseases with shared risk factors and underlying mechanisms into the same categories has been proposed in order to distinguish that an intervention is effective in slowing the aging process rather than having an effect related to a particular shared mechanistic pathway. Additional potential clinical outcome measures are listed in Table 40-4.
 
-Outcome measures for geroscience clinical trials should be designed to evaluate time to onset of a new, age-related chronic disease as well as to assess major agerelated functional outcomes (mobility, cognitive function, or activities of daily living limitation) and biomarkers of aging as secondary and tertiary outcomes (see biomarkers section on next page). Key features of this design are a primary clinical outcome that represents diverse disease families that are not expected to share etiologic mechanisms except as related to primary aging processes. The secondary outcome related to functional changes is only partially explained by multimorbidity and so key aspects of physical decline likely also reflect fundamental aging.
+Outcome measures for geroscience clinical trials should be designed to evaluate time to onset of a new, age-related chronic disease as well as to assess major age-related functional outcomes (mobility, cognitive function, or activities of daily living limitation) and biomarkers of aging as secondary and tertiary outcomes (see biomarkers section on next page). Key features of this design are a primary clinical outcome that represents diverse disease families that are not expected to share etiologic mechanisms except as related to primary aging processes. The secondary outcome related to functional changes is only partially explained by multimorbidity and so key aspects of physical decline likely also reflect fundamental aging.
 
 ### Populations
 
-Geroscience-based clinical trials must adopt a geriatriccentric design so as to not arbitrarily exclude individuals with coexisting chronic diseases or those who reside in diverse settings, to assure appropriate functional outcome measures, and to avoid focusing on interventions that target only single disease states. These principles optimize
+Geroscience-based clinical trials must adopt a geriatric-centric design so as to not arbitrarily exclude individuals with coexisting chronic diseases or those who reside in diverse settings, to assure appropriate functional outcome measures, and to avoid focusing on interventions that target only single disease states. These principles optimize
 
 <a id="p601"></a>**[p. 601]**
 
@@ -268,7 +268,7 @@ clinics are not the same thing as carefully controlled and regulated clinical tr
 
 Despite the rapidly growing scientific foundation of geroscience, and the promise for transforming the health and health care of older adults, translational
 
-progress has been slow. Many of these barriers are related to the newness of the field. Geroscience is a new branch of translational research requiring a unique combination of expertise in geriatric medicine, biology of aging, clinical research methods, and clinical research in older adults that few investigators possess. In spite of these challenges, the geroscience approach holds promise as a means of leveraging advances in the biology of aging to make tangible strides toward improving human health with aging. Geriatricians and other clinicians who are fully focused on the care of older adults will need to acquire and maintain content expertise in geroscience and in the use of geroscienceguided therapies in order to optimally function as specialists and providers.
+progress has been slow. Many of these barriers are related to the newness of the field. Geroscience is a new branch of translational research requiring a unique combination of expertise in geriatric medicine, biology of aging, clinical research methods, and clinical research in older adults that few investigators possess. In spite of these challenges, the geroscience approach holds promise as a means of leveraging advances in the biology of aging to make tangible strides toward improving human health with aging. Geriatricians and other clinicians who are fully focused on the care of older adults will need to acquire and maintain content expertise in geroscience and in the use of geroscience-guided therapies in order to optimally function as specialists and providers.
 
 ## FURTHER READING
 

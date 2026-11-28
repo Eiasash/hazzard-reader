@@ -489,9 +489,9 @@ window.HazzardEvidence = (() => {
       if(!ids.size)continue;
       const line=document.createElement('p'),link=document.createElement('a'),status=document.createElement('span');
       line.dataset.readerMetadata='exam';line.className='section-practice';
-      line.id='practise-section-'+(counts.length+1);
+      line.id='practice-section-'+(counts.length+1);
       link.href=HazzardMCQ.sessionURL([...ids])+'&sectionPractice=1';
-      link.textContent='Practise the '+ids.size+' exam question'+(ids.size===1?'':'s')+' on this section';
+      link.textContent='Practice the '+ids.size+' exam question'+(ids.size===1?'':'s')+' on this section';
       line.append(link,status);
       if(end)end.before(line);else copy.append(line);
       counts.push({element:status,ids:[...ids]});

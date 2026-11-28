@@ -4,7 +4,7 @@ Valerie Shuman, Caterina Rosano, Jennifer S. Brach
 
 > **Status.** Checked against the book.
 
-> **Source and method.** Printed pages 741-758, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 741-757, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p741"></a>**[p. 741]**
 
@@ -48,7 +48,7 @@ in life roles, such as shopping for family members. Mobility disability is often
 
 ### Classification Methods for Mobility
 
-Mobility classification is often driven by a tacit assumption of orderedness. Few single current instruments assess the full range of mobility from the lowest levels of rolling over in bed to the highest levels of endurance and coordination required for athletics or dance. The PatientReported Outcomes Measurement Information System (PROMIS<sup>®</sup>) measures, an NIH-funded initiative, include both computer-adaptive tests and fixed short forms that are highly comprehensive assessments of domains, such as mobility. These batteries are used in both research
+Mobility classification is often driven by a tacit assumption of orderedness. Few single current instruments assess the full range of mobility from the lowest levels of rolling over in bed to the highest levels of endurance and coordination required for athletics or dance. The Patient-Reported Outcomes Measurement Information System (PROMIS<sup>®</sup>) measures, an NIH-funded initiative, include both computer-adaptive tests and fixed short forms that are highly comprehensive assessments of domains, such as mobility. These batteries are used in both research
 
 and clinical practice. Mobility assessment tools for older adults generally address one or more of the following three mobility levels: nonambulatory, ambulatory, and vigorous, corresponding broadly to Tinetti’s levels of frail, transitional, and vigorous mobility status. Mobility levels are surprisingly stable. While day-to-day variability does occur, people in general tend to remain in one level or decline very gradually unless a major event has occurred. Within the nonambulatory level, there are important mobility skills that affect independence in personal care activities, care needs, and demand for human help; these activities include bed mobility, self-transfer skills, and wheelchair mobility. Within the vigorous mobility level, the degree of fitness, as represented by the ability to perform demanding or challenging mobility activities, may be a useful indicator of the extent of physiologic reserve. As an indicator of the extent of physiologic reserve, vigorous mobility status may be a marker of ability to tolerate physiologic stressors such as acute illness, surgery, or periods of reduced activity.
 
@@ -102,7 +102,7 @@ Higher-level mobility problems, defined as difficulty walking a quarter mile or 
 
 ### Risk of Adverse Consequences Associated with Mobility Status
 
-Mobility problems have serious consequences. Mobility status predicts mortality. Older people with difficulty walking 2 km or climbing one flight of stairs are twice as likely to die during the next 8 years compared to those with no difficulty. Mortality risk is even higher among those who have mobility difficulty and are also physically inactive. Poor mobility performance, even in the absence of selfreported mobility limitations, is an independent predictor of death. Among persons who report no mobility problems, gait speed less than 1.0 m/s is associated with an increased risk of death. Older persons who have a 0.1 m/s decline in gait speed over 1 year have a double risk of dying during the subsequent 5 years, whereas older persons who have a 0.1 m/s improvement in gait speed over 1 year have a 40% decreased risk of dying in the following 8 years. Improving mobility through exercise is associated with reduced risk of future falls. In a pooled analysis of over 30,000 communitydwelling older adults, each 0.1 m/s faster gait speed was associated with a 13% reduction in risk of mortality.
+Mobility problems have serious consequences. Mobility status predicts mortality. Older people with difficulty walking 2 km or climbing one flight of stairs are twice as likely to die during the next 8 years compared to those with no difficulty. Mortality risk is even higher among those who have mobility difficulty and are also physically inactive. Poor mobility performance, even in the absence of self-reported mobility limitations, is an independent predictor of death. Among persons who report no mobility problems, gait speed less than 1.0 m/s is associated with an increased risk of death. Older persons who have a 0.1 m/s decline in gait speed over 1 year have a double risk of dying during the subsequent 5 years, whereas older persons who have a 0.1 m/s improvement in gait speed over 1 year have a 40% decreased risk of dying in the following 8 years. Improving mobility through exercise is associated with reduced risk of future falls. In a pooled analysis of over 30,000 community-dwelling older adults, each 0.1 m/s faster gait speed was associated with a 13% reduction in risk of mortality.
 
 Poor mobility performance is an independent predictor of future self-care difficulty and mobility disability. Among community-dwelling persons older than 70 years without disability, baseline physical performance score was a powerful predictor of incident disability in both activities of daily living and in higher-level mobility disability. Mobility self-report and performance have been shown to predict disability in older populations from numerous
 
@@ -341,5 +341,3 @@ and treatment of mobility decline in older persons. J Gerontol A Biol Sci Med Sc
 unsupervised mobility assessment in movement disorders. Lancet Neurol. 2020;19(5):462–470. Wennberg AM, Savica R, Mielke MM. Association between
 
 various brain pathologies and gait disturbance. Dement Geriatr Cogn Disord. 2017;43(3–4):128–143.
-
-<a id="p758"></a>**[p. 758]**

@@ -40,8 +40,10 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 - Legionella urinary antigen detects only serogroup I but has sensitivity **>90%** for that serogroup (p1685).
 - Admission criteria: **PSI ≥ III** or **CURB-65 ≥ 2**; a short-stay unit is a safe, cost-effective alternative for patients with CURB-65 of 2 or PSI of III (p1687).
 - CURB-65 scoring (Table 105-4, p1686): 1 pt each for confusion, urea **>44 mg/dL** (BUN >20), RR **≥30**, SBP **<90** or DBP **≤60**, age **≥65**; mortality by score — **0-1** low (0.7%-2.1%, consider outpatient), **2** intermediate (9.2%), **3** high (15%, admit), **4-5** **>40%** (admit, consider ICU).
-- SCAP severity score (Table 105-5, p1686): major criteria — pH **<7.30** (13 pts), SBP **<90 mm Hg** (11 pts); minor criteria — confusion (5 pts), BUN **>30 mg/dL** (5 pts), RR **>30** (9 pts), multilobar/bilateral CXR (5 pts), PaO2 **<54 mm Hg** or PaO2/FiO2 **<250** (6 pts), age **≥80** (5 pts); risk — low **0-1** (<10 pts), intermediate **2** (10-19 pts), high **3-4** (20 points or more).
-- SMART-COP score (Table 105-6, p1687): SBP **<90** (2 pts), multilobar involvement (1 pt), albumin **<3.5 g/dL** (1 pt), RR age-adjusted (1 pt: **≤50y ≥25/min**, **>50y ≥30/min**), tachycardia **≥125** (1 pt), confusion (1 pt), oxygenation age-adjusted (2 pts: **≤50y** PaO2 **<70** or SpO2 **≤93%** or PaO2/FiO2 **<333**; **>50y** PaO2 **<60** or SpO2 **≤90%** or PaO2/FiO2 **<250**), pH **<7.35** (2 pts); risk for needing vasopressor/intensive respiratory support — **0-2** low, **3-4** moderate, **5-6** high, **≥7** very high (Charles et al., Clin Infect Dis 2008; the original score places age 50 in the younger group).
+- SCAP severity score (Table 105-5, p1686): major criteria — pH **<7.30** (13 pts), SBP **<90 mm Hg** (11 pts); minor criteria — confusion (5 pts), BUN **>30 mg/dL** (5 pts), RR **>30** (9 pts), multilobar/bilateral CXR (5 pts), PaO2 **<54 mm Hg** or PaO2/FiO2 **<250** (6 pts), age **≥80** (5 pts); risk — low **0-1** (<10 pts), intermediate **2** (10-19 pts), high **3-4** (**>20 points** [sic]; the printed footnote leaves exactly 20 unassigned).
+- SMART-COP score (Table 105-6, p1687): SBP **<90** (2 pts), multilobar involvement (1 pt), albumin **<3.5 g/dL** (1 pt), RR age-adjusted (1 pt: **<50y ≥25/min**, **≥50y ≥30/min**), tachycardia **≥125** (1 pt), confusion (1 pt), oxygenation age-adjusted (2 pts: **<50y** PaO2 **<70** or SpO2 **≤93%** or PaO2/FiO2 **<333**; **≥50y** PaO2 **<60** or SpO2 **≤90%** or PaO2/FiO2 **<250**), pH **<7.35** (2 pts); risk for needing vasopressor/intensive respiratory support — **0-2** low, **3-4** moderate, **5-6** high, **≥7** very high [sic, printed age boundary].
+
+  > Current practice (not the book): The original SMART-COP rule places a patient aged exactly 50 in the younger group. [Charles et al., 2008, SMART-COP](https://doi.org/10.1086/589754).
 - Discharge readiness: HR **<100 bpm**, RR **<24/min**, axillary temperature **<37.2°C (<98.96°F)**, systolic BP **>90 mm Hg**, SpO2 **>90%**, plus baseline awareness and oral tolerance; most patients stabilize by hospital day **3-4**, up to **7 days** if frail (p1687).
 
 ## Management Framework & Treatment
@@ -101,97 +103,97 @@ Study summary of Chapter 105; the book and the full chapter are the reference.
 
 ## Recall
 
-**2. What four items make up the Shorr MDRO risk score, and what does a score of zero mean?**
+**1. What four items make up the Shorr MDRO risk score, and what does a score of zero mean?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-2"><summary>Answer</summary>
 
 Recent hospitalization (4 pts), admission from long-term care (3 pts), hemodialysis (2 pts), critical illness (1 pt); a score of 0 carries an 84% negative predictive value for MDRO (p1682).
 
 </details>
 
-**3. What rates of ESBL-producing *Klebsiella* were found among pneumonia isolates in the US vs Europe?**
+**2. What rates of ESBL-producing *Klebsiella* were found among pneumonia isolates in the US vs Europe?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-3"><summary>Answer</summary>
 
 In the cited surveillance study, 20% of isolated Klebsiella spp. in the United States and 35% in Europe were ESBL-producing (p1683).
 
 </details>
 
-**4. In what fraction of cases can the initial chest x-ray be falsely negative, and what should be done if suspicion for pneumonia remains?**
+**3. In what fraction of cases can the initial chest x-ray be falsely negative, and what should be done if suspicion for pneumonia remains?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-4"><summary>Answer</summary>
 
 Up to 30% (more often with dehydration or neutropenia); repeat the film at 24-48 hours (p1684).
 
 </details>
 
-**6. What are the sensitivity/specificity of the pneumococcal urinary antigen test, and what limits its use in relapse or treatment-response assessment?**
+**4. What are the sensitivity/specificity of the pneumococcal urinary antigen test, and what limits its use in relapse or treatment-response assessment?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-6"><summary>Answer</summary>
 
 Sensitivity >60%, specificity >90%; it stays positive for about 3 months after resolution of the pneumonia (p1685).
 
 </details>
 
-**7. What PSI and CURB-65 thresholds define criteria for hospital admission?**
+**5. What PSI and CURB-65 thresholds define criteria for hospital admission?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-7"><summary>Answer</summary>
 
 PSI ≥ III or CURB-65 ≥ 2 (p1687).
 
 </details>
 
-**8. What vital-sign criteria define readiness for hospital discharge, and by what day do most patients stabilize?**
+**6. What vital-sign criteria define readiness for hospital discharge, and by what day do most patients stabilize?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-8"><summary>Answer</summary>
 
 HR <100 bpm, RR <24/min, axillary temperature <37.2°C (<98.96°F), systolic BP >90 mm Hg, SpO2 >90%, good awareness and oral tolerance; most stabilize by hospital day 3-4 (up to 7 days if frail) (p1687).
 
 </details>
 
-**9. How is antibiotic treatment failure defined, and what mortality risk does it carry?**
+**7. How is antibiotic treatment failure defined, and what mortality risk does it carry?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-9"><summary>Answer</summary>
 
 No clinical stability by 3-4 days, or deterioration/respiratory failure/septic shock in the first 72 hours; associated with a fivefold increase in mortality. But in older patients with severe pneumonia or serious comorbidity (eg, severe COPD, untreated heart failure), stability may take longer without implying therapeutic failure (p1690).
 
 </details>
 
-**10. What duration of antibiotic therapy is sufficient for most older adults with pneumonia, and when should it be extended?**
+**8. What duration of antibiotic therapy is sufficient for most older adults with pneumonia, and when should it be extended?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-10"><summary>Answer</summary>
 
 5-7 days; extend for infection by *Legionella*, resistant gram-negative bacilli, or MRSA, or for persistent fever beyond 72 hours, persistence of more than one criterion of clinical instability, inadequate initial coverage, or complications (p1690).
 
 </details>
 
-**12. Roughly what fraction of the world's population is estimated to be infected with *M tuberculosis*, and what is the bimodal age pattern of TB incidence?**
+**9. Roughly what fraction of the world's population is estimated to be infected with *M tuberculosis*, and what is the bimodal age pattern of TB incidence?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-12"><summary>Answer</summary>
 
 About 25% (>1.7 billion people); incidence peaks at 15-35 years and again after 65 years (p1691).
 
 </details>
 
-**13. What is the two-step tuberculin test protocol in older adults, and why is it used?**
+**10. What is the two-step tuberculin test protocol in older adults, and why is it used?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-13"><summary>Answer</summary>
 
 Older adults have increased cutaneous anergy; if the first TST is negative (induration <10 mm), a second test is done at 2 weeks. A positive result is induration ≥10 mm and an increase of ≥6 mm over the first test (p1693).
 
 </details>
 
-**14. What isoniazid hepatotoxicity rate is seen in patients over 65, compared with those under 65?**
+**11. What isoniazid hepatotoxicity rate is seen in patients over 65, compared with those under 65?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-14"><summary>Answer</summary>
 
 Up to 4%-5% in patients >65 years, versus <1% in those <65 years (p1694).
 
 </details>
 
-**15. At what bilirubin or transaminase thresholds should hepatotoxic TB drugs be stopped?**
+**12. At what bilirubin or transaminase thresholds should hepatotoxic TB drugs be stopped?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="105s:recall-15"><summary>Answer</summary>
 
 Bilirubin ≥3 mg/dL, or transaminases >5x the upper limit of normal (>3x ULN if the patient has symptoms of hepatitis) (p1696).
 

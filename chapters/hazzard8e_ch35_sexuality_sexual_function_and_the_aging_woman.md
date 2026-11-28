@@ -30,7 +30,7 @@ Sociological evidence about sexuality of women in middle and later life has incr
 
 3. Older women who identify as members of a sexual minority group are marginalized and stigmatized in medical care generally, and they are particularly vulnerable with respect to receiving appropriate medical attention for their sexual concerns.
 
-The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, populationrepresentative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter ([https://www.norc.org/Research/Projects/Pages/nationalsocial-life-health-and-aging-project.aspx](https://www.norc.org/research/projects/national-social-life-health-and-aging-project.html)). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/ studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
+The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, populationrepresentative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter ([https://www.norc.org/Research/Projects/Pages/national-social-life-health-and-aging-project.aspx](https://www.norc.org/research/projects/national-social-life-health-and-aging-project.html)). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
 
 <a id="p504"></a>**[p. 504]**
 
@@ -481,7 +481,7 @@ MA: Little, Brown and Company; 1966. Moyer VA. Screening for intimate partner vi
 
 abuse of elderly and vulnerable adults: U.S. preventive services task force recommendation statement. Ann Intern Med. 2013;158(6):478–486. National Institutes of Health. PROMIS: dynamic tools to
 
-measure health outcomes from the patient perspective. https://www.healthmeasures.net/explore-measurementsystems/promis. Accessed December 13, 2021. National Institute on Aging. AgePage: sexuality in later life;
+measure health outcomes from the patient perspective. https://www.healthmeasures.net/explore-measurement-systems/promis. Accessed December 13, 2021. National Institute on Aging. AgePage: sexuality in later life;
 
 Revised 2017. [http://www.nia.nih.gov/sites/default/files/sexuality_in_later_life_0.pdf](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>). Accessed December 14, 2020. Parish SJ, Hahn SR, Goldstein SW, et al. The international
 
@@ -493,9 +493,7 @@ of care for the identification of sexual concerns and problems in women. Mayo Cl
 
 Consensus Conference P. Genitourinary syndrome of menopause: new terminology for vulvovaginal atrophy from the International Society for the Study of Women’s Sexual Health and the North American Menopause Society. Maturitas. 2014;79(3):349–354. Russell BA, Bachmann GA, Chudnoff S, et al. Find-
 
-ing solutions for female sexual dysfunction. The American Congress of Obstetricians and Gynecologists; 2010. https://www.womentc.com/wp-content/
-
-uploads/2014/04/Finding-Solutions-for-FSD-ACOG. pdf. Accessed December 13, 2021. Simon JA, Davis SR, Althof SE, et al. Sexual well-being after
+ing solutions for female sexual dysfunction. The American Congress of Obstetricians and Gynecologists; 2010. https://www.womentc.com/wp-content/uploads/2014/04/Finding-Solutions-for-FSD-ACOG.pdf. Accessed December 13, 2021. Simon JA, Davis SR, Althof SE, et al. Sexual well-being after
 
 menopause: an International Menopause Society White Paper. Climacteric. 2018;21(5):415–427. US Department of Health and Human Services, Centers
 
