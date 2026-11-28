@@ -13,7 +13,7 @@ Study summary of Chapter 39; the book and the full chapter are the reference.
 - Mild hypothermia at **32–35°C** generally responds to insulation and a warm environment; active external heating may cause vasodilation and hypovolemic shock (p584).
 - Below **32°C**, the book calls for **active core rewarming**. It describes rapid instillation and removal of **40°C potassium-free peritoneal dialysate** as a core rewarming method (p584).
 
-> Current practice (not the book): For moderate or severe hypothermia with vital signs, use active external and minimally invasive rewarming as appropriate. Hemodynamic instability or risk of arrest warrants transport to a center capable of extracorporeal life support. - [European Resuscitation Council, 2025, Figure 5](https://www.erc.edu/media/wwufbysp/gl2025-06-spec-circ-e.pdf).
+> Current practice (not the book): For moderate or severe hypothermia with vital signs, use active external and minimally invasive rewarming as appropriate. Hemodynamic instability or risk of arrest warrants transport to a center capable of extracorporeal life support. [European Resuscitation Council, 2025, Figure 5](https://www.erc.edu/media/wwufbysp/gl2025-06-spec-circ-e.pdf).
 
 - Insulin is ineffective below **30°C**; drug metabolism and responsiveness change during hypothermia and rewarming, allowing accumulation and subsequent toxicity (p584).
 - Heatstroke needs rapid cooling and supportive care. Remove clothing, cool skin and monitor temperature, fluid balance and cardiovascular status to avoid hypothermic overshoot (p585).

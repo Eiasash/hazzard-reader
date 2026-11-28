@@ -23,7 +23,7 @@ Study summary of Chapter 80 - Respiratory System and Selected Pulmonary Disorder
 
 From a maximal inspiration the patient blows out as hard and completely as possible. FEV1 is the volume out in the first second. FVC is the volume of the entire forced breath. Weaker recoil and earlier airway closure disproportionately reduce early emptying. A smaller fraction of the breath therefore leaves in the first second.
 
-> Current practice (not the book): Compare the patient's ratio with its age-appropriate lower limit and interpret it alongside symptoms and exposures before diagnosing airway disease. [ERS/ATS lung function interpretation standard, Table 1](https://doi.org/10.1183/13993003.01499-2021).
+> Current practice (not the book): Compare the patient's ratio with its age-appropriate lower limit and interpret it alongside symptoms and exposures before diagnosing airway disease. [ERS/ATS lung function interpretation standard, limits of normal and airflow obstruction](https://doi.org/10.1183/13993003.01499-2021).
 
 <span data-exam-ids="mcq-e2505429368dfde81cea15ac" data-exam-read-page="1231" data-reader-metadata="exam"></span>
 

@@ -140,7 +140,7 @@ window.HazzardFlashcards = (() => {
       const priority = session.order === 'missed' && rank != null ? [' · Missed question', ' · Missed topic', ' · Missed chapter'][rank] || '' : '';
       element('flashcardCount').textContent = 'Chapter ' + card.chapter + ' · ' + (session.position + 1) + ' of ' + session.ids.length + priority + grade;
       question.textContent = card.front;
-      const [printed,...practice]=card.back.split(/\n(?:>\s*)?Current practice \(not the book\):\s*/);
+      const [printed,...practice]=card.back.split(/(?:^|\s+)(?:>\s*)?Current practice \(not the book\):\s*/i);
       const back=element('flashcardBack');back.replaceChildren();
       appendAnswerText(back, printed, card.answerSource);
       for (const text of practice) {

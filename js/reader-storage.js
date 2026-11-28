@@ -84,7 +84,7 @@ window.HazzardStorage = (() => {
   else if(key===BOOKMARK_KEY)valid=Array.isArray(value)&&value.every(place);
   else if(key===MOCK_KEY)valid=progress(value)&&stringList(value.ids);
   else if(key===DRILL_KEY)valid=isRecord(value)&&(value.chapters===undefined||isRecord(value.chapters)&&Object.entries(value.chapters).every(([id,p])=>/^(?:\d+s|laws)$/.test(id)&&progress(p)));
-  else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean');
+  else if(key===READING_KEY)valid=isRecord(value)&&isRecord(value.chapters)&&Object.values(value.chapters).every(p=>isRecord(p)&&Number.isFinite(p.ratio)&&p.ratio>=0&&p.ratio<=1&&typeof p.read==='boolean'&&(p.readAt===undefined||Number.isSafeInteger(p.readAt)&&p.readAt>=0));
   else if(key===MISSED_KEY)valid=isRecord(value)&&isRecord(value.questions)&&Object.entries(value.questions).every(([id,p])=>/^(?:\d+s|laws):(?:recall-)?\d+$/.test(id)&&isRecord(p)&&(p.grade===0||p.grade===1)&&Number.isFinite(p.at));
   else if(key===HazzardAnswerHighlights.KEY)valid=HazzardAnswerHighlights.valid(value);
   else if(key===HazzardFlashcards.KEY)valid=HazzardFlashcards.valid(value);

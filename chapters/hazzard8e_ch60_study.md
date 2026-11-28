@@ -100,7 +100,7 @@ Pimavanserin **34 mg**/day — FDA-approved for Parkinson disease psychosis; con
 
 > **Current practice: Reconciling the Parkinson psychosis doses.** Table 60-8 agrees with the current US dose. Chapter 61 gives an older 17-mg schedule on [p946](?chapter=61#p946). The current dose is 34 mg **once daily**, reduced to 10 mg once daily with a strong CYP3A4 inhibitor. [Nuplazid label, 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b).
 
-> **Current practice: Brexpiprazole indications.** brexpiprazole received FDA approval in May 2023 for agitation associated with Alzheimer dementia; its boxed warning states increased mortality in older patients with dementia-related psychosis treated with antipsychotics - AGS Alternatives 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40697073/">Table 3</a> footnote e, article p12; FDA announcement, 11 May 2023, approval and boxed-warning paragraphs
+> **Current practice: Brexpiprazole indications.** Brexpiprazole is approved for agitation associated with dementia due to Alzheimer’s disease, excluding as-needed (PRN) use; the class boxed warning covers increased mortality in older patients with dementia-related psychosis, and the drug is not approved for dementia-related psychosis without Alzheimer-associated agitation - AGS Alternatives 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40697073/">Table 3</a> footnote e, article p12; [FDA prescribing information, boxed warning and §1](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/205422s009lbl.pdf).
 
 Paroxetine — anticholinergic properties, should be avoided in older adults (<a href="?chapter=60#p930">p930</a>); anticholinergic effects may increase delirium risk, and may cause withdrawal effects due to short half-life (<a href="?chapter=60#p929">p929</a>).
 
@@ -122,13 +122,13 @@ Escitalopram is the S-enantiomer of citalopram. Hazzard describes S-CitAD as ong
 
 Mirtazapine — sedating at lower doses; in the sleep pilot, 8 received mirtazapine and 16 placebo (24 total). Nighttime sleep did not improve and daytime sleepiness increased. <a href="?chapter=60#p930">Page 930</a> misstates the treatment-group size. [Scoralick et al., methods and results](https://pubmed.ncbi.nlm.nih.gov/26818096/).
 
-> **Current practice: Mirtazapine for agitation.** In SYMBAD, mirtazapine did not improve agitation more than placebo in dementia. More deaths occurred in the mirtazapine group, an exploratory safety signal. Avoid using it solely as a presumed safer treatment for agitation. [SYMBAD trial, 2021](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7727fe84-f6cc-4b31-bc00-1ecf741ad361).
+> **Current practice: Mirtazapine for agitation.** In SYMBAD, mirtazapine did not improve agitation more than placebo in dementia. More deaths occurred in the mirtazapine group, an exploratory safety signal. Avoid using it solely as a presumed safer treatment for agitation. [SYMBAD trial, 2021](https://pubmed.ncbi.nlm.nih.gov/34688369/).
 
 Bupropion — avoid with a history of seizures or psychotic symptoms (<a href="?chapter=60#p930">p930</a>).
 
 Desipramine — the other preferred TCA in <a href="?chapter=60#book-table-60-9">Table 60-9</a>; therapeutic window **150–300 ng/mL** (higher than nortriptyline's — don't conflate the two), similar side-effect profile (<a href="?chapter=60#p929">p929</a>).
 
-> **Current practice: Secondary-amine tricyclics in older adults.** Nortriptyline and desipramine are both on the 2023 Beers list of antidepressants with strong anticholinergic activity. Sedation and orthostatic hypotension are additional concerns when considering either agent in dementia. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
+> **Current practice: Secondary-amine tricyclics in older adults.** Nortriptyline and desipramine are strongly anticholinergic antidepressants that the 2023 Beers Criteria strongly recommend avoiding in older adults. Sedation and orthostatic hypotension are additional concerns when considering either agent in dementia. [AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/).
 
 TCAs overall are limited by a high adverse-event burden compared to SSRIs/SNRIs (<a href="?chapter=60#p930">p930</a>).
 

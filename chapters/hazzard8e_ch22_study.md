@@ -62,7 +62,7 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 
 **Risk depends on the indication.** For nursing-home residents with dementia, reserve antipsychotics for situations in which the benefit clearly outweighs the risk, such as behavior posing a **risk to the resident or others**. Reassess the need and consider dose reduction or discontinuation (p308). Review the reason for prolonged acid suppression, including erosive esophagitis. Beers advises avoiding scheduled proton-pump inhibitors beyond eight weeks unless an ongoing indication warrants maintenance ([AGS Beers Criteria, Table 2, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC12478568/)).
 
-> Current practice (not the book): the 2019 Beers criteria make an explicit exception for bipolar disorder in their antipsychotic warning. The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when nonpharmacologic measures fail or cannot be used and the person threatens substantial harm to self or others — [AGS Beers Criteria 2019, Table 2](https://doi.org/10.1111/jgs.15767) and [AGS Beers Criteria 2023, Table 2](https://doi.org/10.1111/jgs.18372).
+> Current practice (not the book): Both the 2019 and 2023 Beers criteria make an explicit exception for bipolar disorder. The 2023 AGS Beers Criteria reserve antipsychotics for dementia-related behavior when documented nonpharmacologic measures have failed, the person threatens substantial harm to self or others, or both. [AGS Beers Criteria 2019, Table 2](https://doi.org/10.1111/jgs.15767) · [AGS Beers Criteria 2023, Table 2](https://doi.org/10.1111/jgs.18372).
 
 **Consider the specific adverse effect.** The older exam questions pair fever and neutropenia with clozapine, new joint symptoms and suspected pericardial inflammation with hydralazine, and prolonged PPI use with fractures, enteric infection or interstitial nephritis. Identifying an exposure focuses the examination and laboratory investigation. The description alone does not prove drug causation (Hazzard p928, p1287, p1322–1323, p1624–1625).
 
@@ -97,7 +97,7 @@ In June 2026 Q80, sinus rhythm at review did not establish that the indication h
 - Use weight- and renal-based dosing where appropriate, particularly with narrow therapeutic indices; estimated filtration and prescribing decision support can help (p303).
 - Beers and STOPP/START support decisions alongside patient preferences, pharmacy review and other clinical tools (p303).
 
-> Current practice (not the book): Opioids can worsen delirium. Avoid combining an opioid with gabapentin or pregabalin because of sedation and respiratory depression, except during a transition or when a gabapentinoid is being used to reduce the opioid dose. Use caution even in those exceptions. [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372).
+> Current practice (not the book): Opioids can worsen delirium. Avoid combining an opioid with gabapentin or pregabalin because of sedation and respiratory depression, except when transitioning from the opioid to gabapentin or pregabalin or when a gabapentinoid is being used to reduce the opioid dose. Use caution even in those exceptions. [AGS Beers Criteria, 2023, Tables 2–5](https://doi.org/10.1111/jgs.18372).
 
 **Management & deprescribing**
 - DRUGS: Discuss goals, Review medications, Use tools/frameworks, apply a Geriatric approach, and Stop medications where appropriate (p313).

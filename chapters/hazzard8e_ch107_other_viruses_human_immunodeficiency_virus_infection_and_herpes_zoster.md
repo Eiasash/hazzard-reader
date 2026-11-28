@@ -303,83 +303,73 @@ The ACIP provides no recommendation, either for or against, the use of RZV in im
 ## FURTHER READING
 
 ### HIV
+- American Academy of HIV Medicine: HIV & Aging Clinical Recommendations. Available at: [https://aahivmeducation.org/hiv-age/contents](<https://aahivm.org/wp-content/uploads/2017/02/Aging-report-working-document-FINAL-12.1.pdf> "AAHIVM HIV and Aging Consensus Project clinical recommendations"). Updated May 13, 2020. Accessed December 1, 2020.
 
-American Academy of HIV Medicine: HIV & Aging Clin-
+- Back D, Marzolini C. The challenge of HIV treatment in an era of polypharmacy. J Int AIDS Soc. 2020;23(2):e25449.
 
-ical Recommendations. Available at: [https://aahivmeducation.org/hiv-age/contents](<https://aahivm.org/wp-content/uploads/2017/02/Aging-report-working-document-FINAL-12.1.pdf> "AAHIVM HIV and Aging Consensus Project clinical recommendations"). Updated May 13, 2020. Accessed December 1, 2020. Back D, Marzolini C. The challenge of HIV treatment in an
+- CD4+ Count-Guided Interruption of Antiretroviral Treatment. N Engl J Med. 2006;355(22):2283–2296.
 
-era of polypharmacy. J Int AIDS Soc. 2020;23(2):e25449. CD4+ Count-Guided Interruption of Antiretroviral Treat-
+- Centers for Disease Control and Prevention. HIV and Older Americans. Available at: [https://www.cdc.gov/hiv/group/age/olderamericans/index.html](<https://stacks.cdc.gov/view/cdc/149188>). Updated September 14, 2020. Accessed January 6, 2021.
 
-ment. N Engl J Med. 2006;355(22):2283–2296. Centers for Disease Control and Prevention. HIV and
+- Costagliola D. Demographics of HIV and aging. Curr Opin HIV AIDS. 2014;9(4):294–301.
 
-Older Americans. Available at: [https://www.cdc.gov/hiv/group/age/olderamericans/index.html](<https://stacks.cdc.gov/view/cdc/149188>). Updated September 14, 2020. Accessed January 6, 2021. Costagliola D. Demographics of HIV and aging. Curr Opin
+- Deeks SG. HIV infection, inflammation, immunosenescence, and aging. Annu Rev Med. 2011;62:141–155.
 
-HIV AIDS. 2014;9(4):294–301. Deeks SG. HIV infection, inflammation, immunosenes-
+- Deeks SG, Lewin SR, Havlir DV. The end of AIDS: HIV infection as a chronic disease. Lancet. 2013;382(9903): 1525–1533.
 
-cence, and aging. Annu Rev Med. 2011;62:141–155. Deeks SG, Lewin SR, Havlir DV. The end of AIDS: HIV
+- Erlandson KM, Karris MY. HIV and aging: reconsidering the approach to management of comorbidities. Infect Dis Clin North Am. 2019;33(3):769–786.
 
-infection as a chronic disease. Lancet. 2013;382(9903): 1525–1533. Erlandson KM, Karris MY. HIV and aging: reconsidering
+- Freiberg MS, Chang CC, Kuller LH, et al. HIV infection and the risk of acute myocardial infarction. JAMA Intern Med. 2013;173(8):614–622.
 
-the approach to management of comorbidities. Infect Dis Clin North Am. 2019;33(3):769–786. Freiberg MS, Chang CC, Kuller LH, et al. HIV infection
+- Greene M, Covinsky KE, Valcour V, et al. Geriatric syndromes in older HIV-infected adults. J Acquir Immune Defic Syndr. 2015;69(2):161–167.
 
-and the risk of acute myocardial infarction. JAMA Intern Med. 2013;173(8):614–622. Greene M, Covinsky KE, Valcour V, et al. Geriatric syn-
+- Hasse B, Ledergerber B, Furrer H, et al. Morbidity and aging in HIV-infected persons: the Swiss HIV cohort study. Clin Infect Dis. 2011;53(11):1130–1139.
 
-dromes in older HIV-infected adults. J Acquir Immune Defic Syndr. 2015;69(2):161–167. Hasse B, Ledergerber B, Furrer H, et al. Morbidity and
+- High KP, Brennan M, Clifford DB, et al. HIV and aging: state of knowledge and areas of critical need for research. A report to the NIH Office of AIDS Research by the HIV and Aging Working Group. J Acquir Immune Defic Syndr. 2012;60(suppl 1):S1–18.
 
-aging in HIV-infected persons: the Swiss HIV cohort study. Clin Infect Dis. 2011;53(11):1130–1139. High KP, Brennan M, Clifford DB, et al. HIV and aging:
+- Jones A, Cremin I, Abdullah F, et al. Transformation of HIV from pandemic to low-endemic levels: a public health approach to combination prevention. Lancet. 2014;384(9939):272.
 
-state of knowledge and areas of critical need for research.
+- Mahale P, Engels EA, Coghill AE, Kahn AR, Shiels MS. Cancer risk in older persons living with human immunodeficiency virus infection in the United States. Clin Infect Dis. 2018;67(1):50–57.
 
-A report to the NIH Office of AIDS Research by the HIV and Aging Working Group. J Acquir Immune Defic Syndr. 2012;60(suppl 1):S1–18. Jones A, Cremin I, Abdullah F, et al. Transformation of
+- Montoya JL, Jankowski CM, O’Brien KK, et al. Evidence-informed practical recommendations for increasing physical activity among persons living with HIV. AIDS. 2019;33(6):931–939.
 
-HIV from pandemic to low-endemic levels: a public health approach to combination prevention. Lancet. 2014;384(9939):272. Mahale P, Engels EA, Coghill AE, Kahn AR, Shiels MS.
+- Pahwa S, Deeks S, Zou S, et al. NIH Workshop on HIV-Associated Comorbidities, Coinfections, and Complications: Summary and Recommendation for Future Research. J Acquir Immune Defic Syndr. 2021;86(1):11–18.
 
-Cancer risk in older persons living with human immunodeficiency virus infection in the United States. Clin Infect Dis. 2018;67(1):50–57. Montoya JL, Jankowski CM, O’Brien KK, et al. Evidence-
+- Pathai S, Bajillan H, Landay AL, High KP. Is HIV a model of accelerated or accentuated aging? J Gerontol A Biol Sci Med Sci. 2014;69(7):833–842.
 
-informed practical recommendations for increasing physical activity among persons living with HIV. AIDS. 2019;33(6):931–939. Pahwa S, Deeks S, Zou S, et al. NIH Workshop on HIV-
+- Panel on Antiretroviral Guidelines for Adults and Adolescents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at [https://clinicalinfo.hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf](<https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv>). Accessed December 20, 2020.
 
-Associated Comorbidities, Coinfections, and Complications: Summary and Recommendation for Future Research. J Acquir Immune Defic Syndr. 2021;86(1):11–18. Pathai S, Bajillan H, Landay AL, High KP. Is HIV a model
+- Piggott DA, Erlandson KM, Yarasheski KE. Frailty in HIV: epidemiology, biology, measurement, interventions, and research needs. Curr HIV/AIDS Rep. 2016; 13(6):340–348.
 
-of accelerated or accentuated aging? J Gerontol A Biol Sci Med Sci. 2014;69(7):833–842. Panel on Antiretroviral Guidelines for Adults and Adoles-
-
-cents. Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV. Department of Health and Human Services. Available at [https://clinicalinfo.hiv.gov/sites/default/files/inline-files/AdultandAdolescentGL.pdf](<https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv>). Accessed December 20, 2020. Piggott DA, Erlandson KM, Yarasheski KE. Frailty in
-
-HIV: epidemiology, biology, measurement, interventions, and research needs. Curr HIV/AIDS Rep. 2016; 13(6):340–348. Sangarlangkarn A, Merlin JS, Tucker RO, Kelley AS.
-
-Advance care planning and HIV infection in the era
+- Sangarlangkarn A, Merlin JS, Tucker RO, Kelley AS. Advance care planning and HIV infection in the era of antiretroviral therapy: a review. Top Antivir Med. 2017;23(5):174–180.
 
 <a id="p1731"></a>**[p. 1731]**
 
-of antiretroviral therapy: a review. Top Antivir Med. 2017;23(5):174–180. Schouten J, Wit FW, Stolte IG, et al. AGEhIV Cohort Study
+- Schouten J, Wit FW, Stolte IG, et al. AGEhIV Cohort Study Group. Cross-sectional comparison of the prevalence of age-associated comorbidities and their risk factors between HIV-infected and uninfected individuals: the AGEhIV cohort study. Clin Infect Dis. 2014;59(12):1787–1797.
 
-Group. Cross-sectional comparison of the prevalence of age-associated comorbidities and their risk factors between HIV-infected and uninfected individuals: the AGEhIV cohort study. Clin Infect Dis. 2014;59(12):1787–1797. Siegler EL, Brennan-Ing M. Adapting systems of care
+- Siegler EL, Brennan-Ing M. Adapting systems of care for people aging with HIV. J Assoc Nurses AIDS Care. 2017;28(5):698–707.
 
-for people aging with HIV. J Assoc Nurses AIDS Care. 2017;28(5):698–707. Singh HK, Del Carmen T, Freeman R, Glesby MJ, Siegler EL.
+- Singh HK, Del Carmen T, Freeman R, Glesby MJ, Siegler EL. From one syndrome to many: incorporating geriatric consultation into HIV care. Clin Infect Dis. 2017;65(3):501–506.
 
-From one syndrome to many: incorporating geriatric consultation into HIV care. Clin Infect Dis. 2017;65(3):501–506. Smit M, Brinkman K, Geerlings S, et al. Future challenges for
-
-clinical care of an ageing population infected with HIV: a modelling study. Lancet Infect Dis. 2015;15(7):810–808.
+- Smit M, Brinkman K, Geerlings S, et al. Future challenges for clinical care of an ageing population infected with HIV: a modelling study. Lancet Infect Dis. 2015;15(7):810–808.
 
 ### HERPES ZOSTER
+- Cohen JI. Herpes zoster. N Engl J Med. 2013;369:255–263.
 
-Cohen JI. Herpes zoster. N Engl J Med. 2013;369:255–263. Cunningham AL, Lal H, Kovac M, et al. ZOE-70 Study Group.
+- Cunningham AL, Lal H, Kovac M, et al. ZOE-70 Study Group. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375: 1019–1032.
 
-Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375: 1019–1032. Curran D, Kim JH, Matthews S, et al. Recombinant zoster
+- Curran D, Kim JH, Matthews S, et al. Recombinant zoster vaccine is efficacious and safe in frail individuals. J Am Geriatr Soc. 2021;69(3):744–752.
 
-vaccine is efficacious and safe in frail individuals. J Am Geriatr Soc. 2021;69(3):744–752.
+- Dooling KL, Guo A, Patel M, et al. Recommendations of the advisory committee on immunization practices for use of herpes zoster vaccines. MMWR Morb Mortal Wkly Rep. 2018;67:103–108.
 
-Dooling KL, Guo A, Patel M, et al. Recommendations of
+- Forbes HJ, Bhaskaran K, Thomas SL, et al. Quantification of risk factors for postherpetic neuralgia in herpes zoster patients: a cohort study. Neurology. 2016;87(1):94–102.
 
-the advisory committee on immunization practices for use of herpes zoster vaccines. MMWR Morb Mortal Wkly Rep. 2018;67:103–108. Forbes HJ, Bhaskaran K, Thomas SL, et al. Quantification
+- Johnson RW, Rice ASC. Postherpetic neuralgia. N Engl J Med. 2014;371:1526–1533.
 
-of risk factors for postherpetic neuralgia in herpes zoster patients: a cohort study. Neurology. 2016;87(1):94–102. Johnson RW, Rice ASC. Postherpetic neuralgia. N Engl J
+- Kawai K, Gebremeskel BG, Acosta CJ. Systemic review of incidence and complications of herpes zoster: towards a global perspective. BMJ Open. 2014;4(6):e004833.
 
-Med. 2014;371:1526–1533. Kawai K, Gebremeskel BG, Acosta CJ. Systemic review of
+- Lal H, Cunningham AL, Godeaux O, et al. ZOE-50 Study Group. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. N Engl J Med. 2015;372:2087–2096.
 
-incidence and complications of herpes zoster: towards a global perspective. BMJ Open. 2014;4(6):e004833. Lal H, Cunningham AL, Godeaux O, et al. ZOE-
+- Schmader KE, Levin MJ, Grupping K, et al. The impact of reactogenicity after the first dose of recombinant zoster vaccine upon the physical functioning and quality of life of older adults: an open phase III trial. J Gerontol A Biol Sci Med Sci. 2019;74:1212–1224.
 
-50 Study Group. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. N Engl J Med. 2015;372:2087–2096. Schmader KE, Levin MJ, Grupping K, et al. The impact of
-
-reactogenicity after the first dose of recombinant zoster vaccine upon the physical functioning and quality of life of older adults: an open phase III trial. J Gerontol A Biol Sci Med Sci. 2019;74:1212–1224. Yawn BP, Saddier P, Wollan PC, St Sauver JL, Kurland MJ,
-
-Sy LS. A population-based study of the incidence and complication rates of herpes zoster before zoster vaccine introduction. Mayo Clin Proc. 2007;82:1341–1349.
+- Yawn BP, Saddier P, Wollan PC, St Sauver JL, Kurland MJ, Sy LS. A population-based study of the incidence and complication rates of herpes zoster before zoster vaccine introduction. Mayo Clin Proc. 2007;82:1341–1349.

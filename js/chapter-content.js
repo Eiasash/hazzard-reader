@@ -331,29 +331,6 @@ function presentChapter(copy,chapter,title){
       const caption=document.createElement('figcaption');figure.append(caption);caption.append(next);
     }
   }
-  // These original scans include the same printed captions as the chapter.
-  // The dimensions stop in the verified white gutter above the caption. The
-  // viewer always receives the complete original scan, including its legend.
-  const crops={
-    '42':[[759,900,561],[1346,873,731],[1346,811,604],[1240,1098,958],[1119,742,657]],
-    '55':[[1346,405,224],[1340,817,609],[1340,877,637]]
-  }[base];
-  if(crops){
-    for(const [i,[width,height,artHeight]] of crops.entries()){
-      const name='hazzard8e_ch'+base+'_figure'+base+'-'+(i+1)+'.png',img=copy.querySelector('img[src$="/'+name+'"]');
-      if(!img||Number(img.getAttribute('width'))!==width||Number(img.getAttribute('height'))!==height)continue;
-      const label='FIGURE '+base+'-'+(i+1)+'.',caption=[...copy.querySelectorAll('p')].find(p=>p.textContent.trim().toUpperCase().startsWith(label));
-      if(!caption)continue;
-      const clip=document.createElement('span');clip.className='book-art-crop';clip.style.aspectRatio=width+' / '+artHeight;
-      img.before(clip);clip.append(img);caption.classList.add('printed-figure-caption');
-      const figcaption=img.closest('figure')?.querySelector('figcaption');
-      if(figcaption?.contains(caption)){
-        const details=caption.closest('details');
-        if(details){details.open=true;if(base==='55')figcaption.classList.add('continuous-caption');}
-      }
-      else if(figcaption&&figcaption.textContent.trim().toLowerCase()==='figure '+base+'-'+(i+1))figcaption.dataset.imageLabelOnly='';
-    }
-  }
   for(const img of copy.querySelectorAll('img:not(a img,button img)')){
     img.tabIndex=0;img.setAttribute('role','button');img.setAttribute('aria-haspopup','dialog');
     img.addEventListener('keydown',event=>{if(['Enter',' '].includes(event.key)){event.preventDefault();img.click();}});
@@ -378,6 +355,13 @@ function presentChapter(copy,chapter,title){
       summary.dataset.readerMetadata='source-label';summary.textContent='Sources';details.append(summary);
       if(sourceLine){p.before(details);details.append(p);}
       else{p.after(details);for(let node=first;node;){const next=node.nextSibling;details.append(node);node=next;}}
+      // Keep terminal punctuation on its citation even when each link occupies a separate row.
+      for(const link of details.querySelectorAll('a[href]')){
+        let tail=link.nextSibling;
+        while(tail&&/^[\s.,;:)]*$/u.test(tail.textContent)){
+          const following=tail.nextSibling;link.append(tail);tail=following;
+        }
+      }
       details.open=!!details.querySelector('[data-marked],[data-mark-key]');
     }
   }

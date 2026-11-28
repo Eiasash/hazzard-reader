@@ -50,7 +50,7 @@ RLS affects up to **8%** of older adults; **1.5 to 2 times** more common in wome
 
 PLMS last **0.5–10 seconds**, occur **5–90 seconds** apart and comprise **at least four** consecutive movements. Hazzard requires **at least 15 movements per hour** in addition to the clinical criteria for PLMD (<a href="?chapter=44#p651">pp651</a>–<a href="?chapter=44#p652">652</a>).
 
-> **Current practice: Periodic limb movement disorder.** The AASM adult PLMD definition uses **>15/hour** with clinically significant sleep disturbance or daytime dysfunction unexplained by another disorder. [AASM RLS guideline, recommendations 3 and 11](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
+> **Current practice: Periodic limb movement disorder.** The AASM adult PLMD definition uses **>15/hour** with clinically significant sleep disturbance or daytime dysfunction unexplained by another disorder, in the absence of sleep disorders strongly associated with periodic limb movements (such as RLS, untreated obstructive sleep apnea, REM sleep behavior disorder or narcolepsy). [AASM RLS guideline, Introduction](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
 
 PLMS coexist with RLS (**80%–90%**), RBD (**70%**), narcolepsy (**45%–65%**) — PLMD is a diagnosis of exclusion (<a href="?chapter=44#p651">p651</a>).
 

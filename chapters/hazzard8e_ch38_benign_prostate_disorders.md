@@ -66,7 +66,9 @@ of daily living [IADLs]) are strongly associated with older age. Over half of me
 
 ## PATHOPHYSIOLOGY
 
-Hyperplasia Prostate hyperplasia occurs when prostate cell proliferation exceeds programmed cell death (apoptosis) as a result of stimulated cell growth, inhibition of apoptosis, or both.
+### Hyperplasia
+
+Prostate hyperplasia occurs when prostate cell proliferation exceeds programmed cell death (apoptosis) as a result of stimulated cell growth, inhibition of apoptosis, or both.
 
 BPH occurs predominantly in the prostatic periurethral transitional zone, unlike prostate cancer, which tends to occur in more peripheral areas. BPH and prostate cancer are genetically distinct, and one is not a risk factor for the other.
 
@@ -82,13 +84,17 @@ The development of stromal and epithelial hyperplasia in BPH is androgen- and ag
 
 The divergence in prevalence between BPH, BPE, BOO, and LUTS results from many lower urinary tract factors (Table 38-1). In addition, numerous medical conditions, medications, and functional impairment may cause or worsen LUTS independent of prostate disease (see Chapter 47 on incontinence).
 
-Risk Factors Factors associated with the development of benign prostate disease and LUTS include age, physical inactivity, high meat and fat intake (especially polyunsaturated fats), diabetes, high insulin levels, obesity, low high-density lipoprotein levels, and arteriovascular disease. Vasectomy is not a risk factor and the data on smoking are inconclusive. Potentially modifiable risk factors for BPH and/or LUTS are obesity, a diet high in meat and fat, medications (antidepressants), and physical inactivity.
+### Risk Factors
+
+Factors associated with the development of benign prostate disease and LUTS include age, physical inactivity, high meat and fat intake (especially polyunsaturated fats), diabetes, high insulin levels, obesity, low high-density lipoprotein levels, and arteriovascular disease. Vasectomy is not a risk factor and the data on smoking are inconclusive. Potentially modifiable risk factors for BPH and/or LUTS are obesity, a diet high in meat and fat, medications (antidepressants), and physical inactivity.
 
 ## EVALUATION
 
 Benign prostate disease may be asymptomatic, but most commonly presents with LUTS; other symptoms include urinary retention, recurrent urinary tract infections (UTIs), or hematuria (from prostatic varices). Figure 38-5 lists the recommended evaluation and management in men presenting with LUTS suggestive of benign prostate disease from the American Urological Association (AUA) 2021 guideline on the management of BPH. The sections below highlight aspects of the evaluation especially relevant to older men.
 
-History The evaluation of older men with LUTS closely parallels that of older persons with urinary incontinence (UI; see Chapter 47). The history should include the onset, progression, and associated factors for the common LUTS (slow stream, urgency, nocturia, etc), and quantification of LUTS using a symptom index (see below). Distinguishing between “irritative” and “obstructive” LUTS is not useful, because the terms are poorly specific and do not correlate with symptom bother, severity,
+### History
+
+The evaluation of older men with LUTS closely parallels that of older persons with urinary incontinence (UI; see Chapter 47). The history should include the onset, progression, and associated factors for the common LUTS (slow stream, urgency, nocturia, etc), and quantification of LUTS using a symptom index (see below). Distinguishing between “irritative” and “obstructive” LUTS is not useful, because the terms are poorly specific and do not correlate with symptom bother, severity,
 
 ![Table 38-1](hazzard8e_ch38_table-38-1_p558.webp)
 
@@ -102,7 +108,9 @@ History The evaluation of older men with LUTS closely parallels that of older pe
 
 or physiologic measures. Older men always should be evaluated for causes of LUTS other than prostate disease. The history and review of systems should question patients about hematuria, dysuria, and pelvic pain (rare in benign prostate disease, more suggestive of infection, bladder stone, prostate or bladder cancers); episodes of urinary retention; cardiac symptoms (regarding possible congestive heart failure in patients with nocturia); bowel and sexual function; type and amount of fluid intake (in relationship to frequency and nocturia symptoms); and sleep disturbance. All medications (including nonprescription drugs) must be reviewed, with a focus on drugs that can decrease detrusor contractility (anticholinergics, calcium channel blockers), diuretics, drugs that can cause pedal edema and contribute to nocturia, and α-adrenergic agents.
 
-Symptom Indices The International Prostate Symptom Score (IPSS) and American Urological Association Symptom Index (AUASI) are identical indices that quantify the severity of
+### Symptom Indices
+
+The International Prostate Symptom Score (IPSS) and American Urological Association Symptom Index (AUASI) are identical indices that quantify the severity of
 
 BPH-associated LUTS on a scale 0 to 35; scores of 0 to 7 indicate mild symptoms, 8 to 19 moderate, and 20 to 35 severe (Table 38-2). An additional question, not tallied in the total score, assesses disease-specific quality-of-life impact. The IPSS is widely translated. A change in AUASI of ± 5 points has an 80% probability of indicating a true clinical change. The threshold for clinical change varies with symptoms severity (minimum perceptible difference is 2 points for AUASI < 20 and 6 points for AUASI ≥ 20). Any magnitude of change, however, may be caused by interval changes in comorbidity and medications and not prostate disease.
 
@@ -130,15 +138,21 @@ The impact of LUTS on quality of life is critical to evaluate because it is the 
 
 many prostate-specific treatments are not very effective for it.
 
-Nocturia Nocturia is defined as voiding at least once during the normal hours of sleep. Almost 80% of older men have nocturia, which is the most bothersome of all of the LUTS associated with benign prostate disease. Moreover, nocturia 2 or more times a night is associated with hypertension, cardiovascular disease, and increased mortality. The three main causes of nocturia are LUT pathophysiology, nocturnal polyuria, and sleep disturbance (Table 38-4). The latter two causes are especially important in older men because of the many age-related changes, comorbid conditions, and medications that can cause them.
+### Nocturia
+
+Nocturia is defined as voiding at least once during the normal hours of sleep. Almost 80% of older men have nocturia, which is the most bothersome of all of the LUTS associated with benign prostate disease. Moreover, nocturia 2 or more times a night is associated with hypertension, cardiovascular disease, and increased mortality. The three main causes of nocturia are LUT pathophysiology, nocturnal polyuria, and sleep disturbance (Table 38-4). The latter two causes are especially important in older men because of the many age-related changes, comorbid conditions, and medications that can cause them.
 
 <span id="ch38-nocturnal-output"></span>Nocturnal polyuria is defined as the excretion of one-third or greater of the daily (24-hour) urine output during normal sleeping hours. Older persons are prone to nocturnal polyuria, possibly due to higher nocturnal atrial natriuretic peptide levels and/or altered secretion of vasopressin. Some older persons may excrete 50% or more of their 24-hour urine output during the night. For this reason, one episode of nocturia is considered normal in older persons and even the best treatment may not be able to completely eliminate nocturia. Another cause of nocturnal polyuria is peripheral edema; because edema fluid mobilizes when the patient reclines, leading to increased urine output. Sleep apnea is an underappreciated cause of nocturnal polyuria; apnea should be suspected when the patient or his partner report loud snoring, apneic periods, excessive daytime sleepiness, and morning headaches, and in men who are obese and/or have hypertension. Tools such as the Epworth Sleepiness Scale or STOP-BANG can help assess apnea risk. Importantly, treatment of apnea with continuous positive airway pressure (CPAP) reduces nocturia. (See Chapter 44 on sleep disorders.)
 
 When aroused owing to primary sleep disorders, patients may sense their bladder volume (which tends to be higher at night) and get up and void, and report these episodes as “nocturia.” Common causes of sleep disturbance in older persons include age-related changes in sleep architecture (see Chapter 44), pain (eg, from arthritis), depression, restless leg syndrome, gastric reflux, pulmonary and cardiac diseases, dementia, Parkinson disease, and the effects of many medications (see Table 38-4).
 
-Physical Examination Given the many medical causes of LUTS in older men, a complete physical examination is required and should include evaluation of cognition, function, and mobility. In men with impaired emptying without other evident cause, a neurologic examination should include the bulbocavernosus reflex, anal wink, and perineal sensation to assess sacral nerve integrity. Digital rectal examination (DRE) should be done to assess prostate nodularity, rectal tone, masses, and stool impaction. DRE is not accurate for assessing prostate volume, even when performed by specialists, because BPH adenomas can occur in the anterior and median lobes that are inaccessible to rectal palpation. Prostate volume is not associated with BOO, and is important only for decisions regarding surgical approach for prostatectomy. Although higher volume is associated with disease progression and response to 5α-reductase inhibitor treatment, it should not be routinely assessed for this purpose because accurate measurement requires ultrasound.
+### Physical Examination
 
-Laboratory Tests Only urinalysis is needed in routine assessment, primarily to check for microscopic hematuria. The decision of whether to do PSA testing in men with LUTS should follow the recommended guidelines for prostate cancer screening (see Chapter 90 on prostate cancer). Serum creatinine is not
+Given the many medical causes of LUTS in older men, a complete physical examination is required and should include evaluation of cognition, function, and mobility. In men with impaired emptying without other evident cause, a neurologic examination should include the bulbocavernosus reflex, anal wink, and perineal sensation to assess sacral nerve integrity. Digital rectal examination (DRE) should be done to assess prostate nodularity, rectal tone, masses, and stool impaction. DRE is not accurate for assessing prostate volume, even when performed by specialists, because BPH adenomas can occur in the anterior and median lobes that are inaccessible to rectal palpation. Prostate volume is not associated with BOO, and is important only for decisions regarding surgical approach for prostatectomy. Although higher volume is associated with disease progression and response to 5α-reductase inhibitor treatment, it should not be routinely assessed for this purpose because accurate measurement requires ultrasound.
+
+### Laboratory Tests
+
+Only urinalysis is needed in routine assessment, primarily to check for microscopic hematuria. The decision of whether to do PSA testing in men with LUTS should follow the recommended guidelines for prostate cancer screening (see Chapter 90 on prostate cancer). Serum creatinine is not
 
 <a id="p562"></a>**[p. 562]**
 
@@ -148,15 +162,19 @@ Laboratory Tests Only urinalysis is needed in routine assessment, primarily to c
 
 required because of the extremely low prevalence of renal insufficiency in men with LUTS. Vitamin B12 level may be considered in men with a high PVR or urinary retention.
 
-Postvoiding Residual and Urine Flow Rate PVR is not required in the initial evaluation, especially in men with mild-moderate LUTS who can be managed with watchful waiting or medical therapy. PVR is small in randomly selected community men (75th percentile, 35 mL). In a large trial of men with moderate LUTS, the baseline mean PVR was 110 ± 74 mL. PVR correlates modestly with prostate volume, but is not significantly associated with age, AUASI, quality-of-life indices, BOO, or the need for invasive therapy.
+### Postvoiding Residual and Urine Flow Rate
+
+PVR is not required in the initial evaluation, especially in men with mild-moderate LUTS who can be managed with watchful waiting or medical therapy. PVR is small in randomly selected community men (75th percentile, 35 mL). In a large trial of men with moderate LUTS, the baseline mean PVR was 110 ± 74 mL. PVR correlates modestly with prostate volume, but is not significantly associated with age, AUASI, quality-of-life indices, BOO, or the need for invasive therapy.
 
 PVR should be considered in men with complex neurologic disease (eg, Parkinson disease, spinal cord injury), new impairment in renal function without other evident cause, medications that can decrease detrusor contractility (anticholinergics, opiates, calcium channel blockers), or who have failed empiric therapy. Inability to pass a urethral catheter for PVR measurement is more likely a result of sphincter spasm than BOO; this can be overcome using intraurethral lidocaine jelly and patient relaxation. Older men tend to have a larger PVR in the morning, which can increase within-patient PVR variability.
 
 Urine peak flow rate measurement is commonly used in urologic practice. In the AUA BPH guideline, flow rate can be considered in the initial evaluation, and recommended in men who inadequately respond to medical therapy. Low urine flow rate is not specific for BOO, as it can also occur with impaired detrusor contractility (intrinsic or extrinsic [eg, from medications]) and/or a low bladder volume. A normal peak flow rate is very sensitive for BOO (peak flow > 12 mL/s with void ≥ 150 mL excludes BOO).
 
-<span id="ch38-bladder-diary"></span>Frequency-Volume Charts (Bladder Diaries) Frequency-volume charts are very helpful to determine if polyuria contributes to frequency and/or nocturia symptoms (Table 38-5). To complete the diary, the patient records the time and volume of all voids (continent and incontinent). Several studies (albeit primarily in women) confirm that bladder diaries are reliable and valid, especially when done for 3 days.
+### <span id="ch38-bladder-diary"></span>Frequency-Volume Charts (Bladder Diaries)
 
-#### Specialized Testing
+Frequency-volume charts are very helpful to determine if polyuria contributes to frequency and/or nocturia symptoms (Table 38-5). To complete the diary, the patient records the time and volume of all voids (continent and incontinent). Several studies (albeit primarily in women) confirm that bladder diaries are reliable and valid, especially when done for 3 days.
+
+### Specialized Testing
 
 Urodynamic studies Urodynamic studies are not required in the initial evaluation of men with LUTS, especially in men with mild-moderate symptoms, The AUA guideline recommends urodynamics, along with PVR and frequency voiding charts, in men who have inadequate response to medical therapy. Urodynamics may also be considered in frail older men (especially those with Parkinson disease or spinal cord injury) who desire surgical treatment, in order to exclude conditions such as detrusor hyperactivity with impaired contractility. The urodynamic tests to evaluate LUTS are cystometry and pressure-flow study. Cystometry measures bladder pressure during filling to determine detrusor stability (vs overactivity), contractility, and compliance. <span id="ch38-pressure-flow"></span>The standard for diagnosing BOO is pressure-flow study, which simultaneously measures flow rate versus bladder pressure during voiding. A high bladder pressure combined with a low flow rate is indicative of BOO.
 
@@ -172,9 +190,13 @@ in this group, hydronephrosis is usually only found in men who also have PVR gre
 
 ## MANAGEMENT
 
-Overview For the majority of men, treatment of benign prostate disease will focus on management of LUTS. Generally, fewer than 10% will need upfront surgical intervention for severe obstruction, urinary retention, or gross hematuria. This section focuses on stepped, evidence-based management of LUTS based on the AUA BPH guideline (see Figure 38-5 and Table 38-6), emphasizing shared decision making. The discussion assumes that contributory multimorbidity, medications, and impairments have been addressed and minimized to the extent possible.
+### Overview
 
-Shared Decision Making Treatment decisions must be patient-centered because benign prostate disease has variable impact on patients and
+For the majority of men, treatment of benign prostate disease will focus on management of LUTS. Generally, fewer than 10% will need upfront surgical intervention for severe obstruction, urinary retention, or gross hematuria. This section focuses on stepped, evidence-based management of LUTS based on the AUA BPH guideline (see Figure 38-5 and Table 38-6), emphasizing shared decision making. The discussion assumes that contributory multimorbidity, medications, and impairments have been addressed and minimized to the extent possible.
+
+### Shared Decision Making
+
+Treatment decisions must be patient-centered because benign prostate disease has variable impact on patients and
 
 only a small absolute risk of morbidity. No treatment prolongs life or guarantees durable cure, and watchful waiting and lifestyle changes provide relief with little risk for many men. Only the small minority of men with hematuria, significant renal impairment, hydronephrosis, recurrent UTIs, retention, and large PVR (eg, over 200 mL) require immediate referral to a urologist. Issues to discuss in making management decisions include symptom severity and quality-of-life impact, risk for disease progression, preferences for immediate versus delayed symptom improvement, likely treatment outcomes and adverse effects, short- and long-term costs, and ability to comply with long-term monitoring. Providers should offer guidance in tailoring treatment so that men are supported in—and not burdened by—decision making. There are video and print decision aids to help both patients and providers weigh treatment risks and benefits. Men with nocturia should be offered prostate-specific medical and invasive therapy only after treatment of any contributing polyuria and/or sleep disturbance.
 
@@ -194,7 +216,9 @@ Multiple medical problems, frailty, and short life expectancy need not preclude 
 
 Treatment decisions include the efficacy, durability, and associated adverse effects of therapy. Table 38-6 summarizes 2021 AUA guideline statements on treatment along with associated geriatric considerations. Figure 38-5 shows the suggested treatment algorithm modified from the 2021 AUA guideline.
 
-General Geriatric Medicine Considerations in BPH/LUTS Treatment Management of benign prostate disease and LUTS in older men should incorporate important principles central to the practice of geriatric medicine. These are as follows:
+### General Geriatric Medicine Considerations in BPH/LUTS Treatment
+
+Management of benign prostate disease and LUTS in older men should incorporate important principles central to the practice of geriatric medicine. These are as follows:
 
 • Goals of care: Specific treatments may be effective for some, but not other individuals with LUTS, and have differing time to maximum effect. It is important to ask these questions: Which LUTS are the most bothersome or troubling to the patient and/or caregiver? How urgent is symptom relief? To what degree is the patient accepting of possible surgical treatment? How does the time course of treatment fit within the patient’s remaining life expectancy?
 
@@ -202,7 +226,9 @@ General Geriatric Medicine Considerations in BPH/LUTS Treatment Management of be
 
 • Appropriate prescribing: These principles include starting at the lowest possible dose, and avoidance of drug-drug and drug-disease interactions. For example, all α-blockers can cause significant hypotension (especially in patients with hypertension), several interact with other drugs that induce or inhibit the P450 system, and doxazosin can exacerbate congestive heart failure. The half-lives of silodosin (34 hours) and tamsulosin (15 hours) may allow for off-label, less than daily dosing.
 
-<span id="ch38-retention"></span>Indications for Urology Referral Absolute indications for prompt urologic referral and intervention are urinary retention (> 250–300 mL—acute or chronic), recurrent UTIs, bladder stones, and hematuria (gross and microscopic). Urology referral should also be considered for men with LUTS and prior bladder or prostate cancer, history of urethral stricture, complicated neurologic disease (Parkinson disease, spinal cord injury), and those who fail noninvasive treatment.
+### <span id="ch38-retention"></span>Indications for Urology Referral
+
+Absolute indications for prompt urologic referral and intervention are urinary retention (> 250–300 mL—acute or chronic), recurrent UTIs, bladder stones, and hematuria (gross and microscopic). Urology referral should also be considered for men with LUTS and prior bladder or prostate cancer, history of urethral stricture, complicated neurologic disease (Parkinson disease, spinal cord injury), and those who fail noninvasive treatment.
 
 ### Medical Therapy
 

@@ -300,10 +300,9 @@ burdensome to patients already managing multiple medical conditions. Moreover, i
 
 ## FURTHER READING
 
+- Advisory Committee on Immunization Practices. Vaccine recommendations of the ACIP. http://www.cdc.gov/vaccines/hcp/acip-recs/index.html. Accessed Feb 15, 2021.
 
-- Advisory Committee on Immunization Practices. Vaccine recommendations of the ACIP. http://www.cdc.gov/ vaccines/hcp/acip-recs/index.html. Accessed Feb 15, 2021.
-
-- American Cancer Society. Guidelines for the early detection of cancer. https://www.cancer.org/healthy/ find-cancer-early/cancer-screening-guidelines/americancancer-society-guidelines-for-the-early-detection-ofcancer.html. Accessed Feb 15, 2021.
+- American Cancer Society. Guidelines for the early detection of cancer. https://www.cancer.org/healthy/find-cancer-early/cancer-screening-guidelines/american-cancer-society-guidelines-for-the-early-detection-of-cancer.html. Accessed Feb 15, 2021.
 
 - Artaud F, Dugravot A, Sabia S, Singh-Manoux A, Tzourio C, Elbaz A. Unhealthy behaviours and disability in older adults: three-city Dijon cohort study. BMJ. 2013; 347:f4240.
 
@@ -333,7 +332,7 @@ burdensome to patients already managing multiple medical conditions. Moreover, i
 
 - Shaukat A, Mongin SJ, Geisser MS, et al. Long-term mortality after screening for colorectal cancer. N Engl J Med. 2013;369(12):1106–1114.
 
-- US Preventive Services Task Force. Recommendations for Primary Care Practice. October 2014. [http://www](<https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics>) .uspreventiveservicestaskforce.org/Page/Name/ recommendations. Accessed Jan 27, 2015.
+- US Preventive Services Task Force. Recommendations for Primary Care Practice. October 2014. [http://www.uspreventiveservicestaskforce.org/Page/Name/recommendations](<https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics>). Accessed Jan 27, 2015.
 
 - Van Ravesteyn NT, Stout NK, Schechter CB, et al. Benefits and harms of mammography screening after age 74 years: model estimates of overdiagnosis. J Natl Cancer Inst. 2015;107(7):djv103.
 
@@ -347,4 +346,4 @@ burdensome to patients already managing multiple medical conditions. Moreover, i
 
 - Wilson SR, Knowles SB, Huang Q, Fink A. The prevalence of harmful and hazardous alcohol consumption in older U.S. adults. JGIM. 2014;29(2):312–319.
 
-- Zauber AG, Winawer SJ, O’Brien MJ, et al. Colonoscopic polypectomy and long-term prevention of colorectalcancer deaths. N Engl J Med. 2012;366:687–696.
+- Zauber AG, Winawer SJ, O’Brien MJ, et al. Colonoscopic polypectomy and long-term prevention of colorectal-cancer deaths. N Engl J Med. 2012;366:687–696.

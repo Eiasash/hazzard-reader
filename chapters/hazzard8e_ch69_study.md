@@ -18,7 +18,7 @@ Study summary of Chapter 69; the book and the full chapter are the reference.
 - Protein supplementation, thyroid supplementation for subclinical hypothyroidism and testosterone have not shown promise in the studies summarized here (p1073).
 - Psychostimulant evidence is mixed. Methylphenidate can cause hypertension and tachycardia; avoid psychostimulants with known cardiovascular disease or arrhythmias (p1073).
 
-> Current practice (not the book): For cancer-related fatigue, first assess reversible causes and consider exercise, cognitive behavioral therapy or mindfulness-based measures as appropriate. ASCO/SIO does not recommend routine psychostimulants or wakefulness agents for this indication. [ASCO/SIO fatigue guideline, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12082589/).
+> Current practice (not the book): For cancer-related fatigue, first assess reversible contributors; during and after treatment ASCO/SIO strongly recommends exercise, cognitive behavioral therapy and mindfulness-based programs. In advanced cancer or at the end of life CBT may be offered, evidence for exercise is insufficient, and the guideline advises against wakefulness agents and routine psychostimulants. [ASCO/SIO fatigue guideline, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12082589/).
 
 **Breathlessness**
 - Patient self-report is the most appropriate measure; breathlessness need not correlate with hypoxia, hypercarbia or tachypnea (p1073).

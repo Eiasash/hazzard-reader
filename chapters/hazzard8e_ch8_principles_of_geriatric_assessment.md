@@ -372,7 +372,6 @@ Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in t
 
 ## FURTHER READING
 
-
 - Borneman T, Ferrell B, Puchalski CM. Evaluation of the FICA tool for spiritual assessment. J Pain Symptom Manage. 2010;40:163.
 
 - Boureau AS, Trochu JN, Colliard C, et al. Determinants in treatment decision-making in older patients with symptomatic severe aortic stenosis. Maturitas. 2015; 82(1):128–133.
@@ -387,7 +386,9 @@ Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in t
 
 - Deschodt M, Flamaing J, Haentjens P, Boonen S, Milisen K. Impact of geriatric consultation teams on clinical outcome in acute hospitals: a systematic review and meta-analysis. BMC Med. 2013;11:48.
 
-- Eamer G, Taheri A, Chen SS, et al. Comprehensive geriatric assessment for older people admitted to <a id="p132"></a>**[p. 132]** a surgical service. Cochrane Database Syst Rev. 2018;1(1): CD012485.
+- Eamer G, Taheri A, Chen SS, et al. Comprehensive geriatric assessment for older people admitted to a surgical service. Cochrane Database Syst Rev. 2018;1(1): CD012485.
+
+<a id="p132"></a>**[p. 132]**
 
 - Ellis G, Gardner M, Tsiachristas A, et al. Comprehensive geriatric assessment for older adults admitted to hospital. Cochrane Database Syst Rev. 2017;9(9):CD006211.
 
@@ -395,11 +396,11 @@ Sonja Rosen, MD, and Heather B. Schikedanz, MD, contributed to this chapter in t
 
 - Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–156.
 
-- Ganz DA, Latham NK. Fall prevention in communitydwelling older adults. Reply. N Engl J Med. 2020;382(26): 2581–2582.
+- Ganz DA, Latham NK. Fall prevention in community-dwelling older adults. Reply. N Engl J Med. 2020;382(26): 2581–2582.
 
 - Hemmy LS, Linskens EJ, Silverman PC, et al. Brief cognitive tests for distinguishing clinical Alzheimer-type dementia from mild cognitive impairment or normal cognition in older adults with suspected cognitive impairment. Ann Intern Med. 2020;172(10):678–687.
 
-- Jennings LA, Reuben DB, Kim SB, et al. Targeting a highrisk group for fall prevention: strategies for health plans. Am J Manag Care. 2015;21(9):e519-526.
+- Jennings LA, Reuben DB, Kim SB, et al. Targeting a high-risk group for fall prevention: strategies for health plans. Am J Manag Care. 2015;21(9):e519-526.
 
 - Reuben DB, Jennings LA. Putting goal-oriented patient care into practice. J Am Geriatr Soc. 2019;67(7): 1342–1344.
 

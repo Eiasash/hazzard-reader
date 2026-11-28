@@ -47,7 +47,7 @@ A medication review may reveal that the proposed treatment addresses an adverse 
 
 The table's **10 numbered entries** include a printing duplication: the assisted-feeding recommendation appears as both the first and second item. Count the numbered lines and distinct text separately if reviewing it. Its other examples include inappropriate tight glycemic targeting, treating bacteriuria without compatible symptoms and ordering cancer screening without considering life expectancy, overdiagnosis and downstream treatment. The value question is the expected net benefit under the specified conditions, not whether a procedure, test or medicine is intrinsically wasteful in every indication (p264).
 
-> Current practice (not the book): The AGS Choosing Wisely list’s second item advises against using antipsychotics as the first choice for behavioral and psychological symptoms of dementia. The assisted-feeding entry is duplicated in printed Table 19-1 [sic]. [AGS Choosing Wisely, item 2, 2015](https://www.healthinaging.org/sites/default/files/pdf/Choosing.Wisely.Ten_.Things.pdf).
+> Current practice (not the book): The AGS Choosing Wisely list’s second item advises against using antipsychotics as the first choice for behavioral and psychological symptoms of dementia. The assisted-feeding entry is duplicated in printed Table 19-1 [sic]. [AGS Choosing Wisely, item 2, 2013](https://www.healthinaging.org/sites/default/files/pdf/Choosing.Wisely.Ten_.Things.pdf).
 
 ### Identify who carries financial risk and for which event
 

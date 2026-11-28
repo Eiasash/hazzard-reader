@@ -22,7 +22,9 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 **A patient in sinus rhythm at discharge can still need stroke prevention.** Infection may reveal an underlying tendency to AF. In the two exam cases, age 75 supplies two CHA₂DS₂-VASc points and prior MI supplies one. A mechanical fall six months earlier calls for attention to tripping hazards. It does not in itself offset the benefit of anticoagulation. At age 75, 70 kg and normal kidney function, the man takes the usual apixaban AF dose of **5 mg twice daily**. Arrange follow-up for recurrent AF and reassess stroke and bleeding risks (pp. 1202–1205, Tables 77-7 to 77-9).
 
-> Current practice (not the book): for AF with stable coronary disease more than one year after revascularization or CAD not requiring revascularization, oral anticoagulation alone is recommended over adding antiplatelet therapy when there is no history of stent thrombosis. Arrange follow-up after AF during acute illness — [ACC/AHA/ACCP/HRS AF guideline, §§6.8.2 and 10.10](https://doi.org/10.1161/CIR.0000000000001193).
+> Current practice (not the book): For AF with stable coronary disease more than one year after revascularization or CAD not requiring revascularization, oral anticoagulation alone is recommended over adding antiplatelet therapy when there is no history of stent thrombosis. [2023 AF guideline, §6.8.2](https://doi.org/10.1161/CIR.0000000000001193).
+
+> Current practice (not the book): After AF identified during acute illness or surgery, outpatient follow-up for thromboembolic risk assessment, anticoagulation decisions and AF surveillance can be beneficial because recurrence is common. [2023 AF guideline, §10.10](https://doi.org/10.1161/CIR.0000000000001193).
 
 <span data-exam-ids="mcq-ef2bb73ec06eb89fbd6291e8" data-reader-metadata="exam"></span>
 
@@ -48,11 +50,11 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 **For rhythm control, read across the row for the underlying heart disease.** Flecainide and propafenone are options in structurally normal hearts but are unsuitable with ischemic myocardial disease or HFrEF. Table 77-6 lists amiodarone and dofetilide for AF with reduced EF. Amiodarone is the choice offered after a recent admission with NYHA IV heart failure. Dofetilide is the choice offered in the separate case with ischemic cardiomyopathy and EF 35% (Table 77-6, p1201).
 
-> Current practice (not the book): dofetilide initiation requires renal dosing and inpatient QT monitoring; amiodarone warrants surveillance for extracardiac toxicity. Avoid dronedarone after recent decompensation or with advanced symptomatic heart failure. [ACC/AHA/ACCP/HRS AF guideline, §§8.3.1–8.3.2](https://doi.org/10.1161/CIR.0000000000001193).
+> Current practice (not the book): dofetilide initiation requires renal dosing and inpatient QT monitoring; amiodarone warrants surveillance for extracardiac toxicity. Avoid dronedarone after recent decompensation or with advanced symptomatic heart failure. [ACC/AHA/ACCP/HRS AF guideline, §§8.3.1–8.3.3](https://doi.org/10.1161/CIR.0000000000001193).
 
 **Which evidence applies to this patient?** The chapter describes rate control for older patients with mild symptoms and notes that an AFFIRM analysis in patients older than 70 associated antiarrhythmic therapy with higher all-cause mortality (p1201). Electrical cardioversion can restore sinus rhythm. Catheter ablation is more effective than drugs at suppressing AF, but the need for stroke prevention still depends on stroke risk. CABANA did not show superiority for its primary composite endpoint in the intention-to-treat comparison (pp1200–1202).
 
-> Current practice (not the book): rhythm control early after diagnosis and rhythm control in selected patients with heart failure can improve outcomes. Consider symptoms, treatment tolerance, stage of AF and patient preferences — [ACC/AHA/ACCP/HRS AF guideline, 2023, §8.1](https://doi.org/10.1161/CIR.0000000000001193).
+> Current practice (not the book): rhythm control early after diagnosis and rhythm control in selected patients with heart failure can improve outcomes. Consider symptoms, treatment tolerance, stage of AF and patient preferences. [ACC/AHA/ACCP/HRS AF guideline, 2023, §8.1](https://doi.org/10.1161/CIR.0000000000001193).
 
 ## A pause, a block or a shockable rhythm
 
@@ -64,7 +66,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 **Primary prevention asks who remains at risk after recovery.** In ischemic heart failure, an EF of 35% and NYHA class III symptoms six months after MI fit the usual criteria despite guideline-directed therapy, provided meaningful survival beyond a year is expected. Two weeks after MI and one month after bypass surgery are too early for routine primary-prevention implantation. The book specifies **>40 days after MI or >90 days after revascularization**. A further indication is prior MI with NSVT, **EF ≤40%** and inducible sustained monomorphic VT on electrophysiologic study (p1206). **Secondary prevention asks what caused the arrest.** A survivor of VF without a reversible trigger can qualify even with EF 45%. VF confined to an acute reversible ischemic event requires a different assessment. The June 2023 question leaves the timing of VF unspecified. In very old adults, discuss function, cognition, competing illness and the patient's priorities before implanting a device (pp. 1206–1207).
 
-> Current practice (not the book): the guideline uses **at least 40 days after MI** and **at least 90 days after revascularization**, with **LVEF ≤30%** in NYHA I; anticipated meaningful survival exceeds one year — [AHA/ACC/HRS ICD decision aid](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2018/VASCD-Guideline-Tool.pdf).
+> Current practice (not the book): the guideline uses **at least 40 days after MI** and **at least 90 days after revascularization**, with **LVEF ≤30%** in NYHA I; anticipated meaningful survival exceeds one year. [AHA/ACC/HRS ICD decision aid](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2018/VASCD-Guideline-Tool.pdf).
 
 ## Other chapter decisions
 
@@ -72,11 +74,11 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 
 **Pacing and resynchronization.** Sinus node disease and AV block have different electrocardiographic signatures. Frequent right ventricular pacing can worsen synchrony, ventricular function and mitral regurgitation. An indication for pacing with substantial anticipated RV pacing and impaired EF is a different CRT pathway from symptomatic heart failure with LBBB and a broad QRS (pp1197–1200, Tables 77-3 to 77-5).
 
-> Current practice (not the book): after TAVR, new AV block with persistent symptoms or hemodynamic instability warrants permanent pacing before discharge; other new conduction disturbances may warrant surveillance — [ACC/AHA/HRS bradycardia guideline, §8.1.2.4](https://doi.org/10.1161/CIR.0000000000000628).
+> Current practice (not the book): after TAVR, persistent new AV block associated with symptoms or hemodynamic instability warrants permanent pacing before discharge; other new conduction disturbances may warrant surveillance. [ACC/AHA/HRS bradycardia guideline, §8.1.2.4](https://doi.org/10.1161/CIR.0000000000000628).
 
 **An embolic stroke without documented AF.** Trials of empiric anticoagulation for embolic stroke of undetermined source did not reduce recurrent stroke compared with aspirin. Prolonged monitoring may reveal occult AF. In a patient with a pacemaker, inspect the stored electrogram to confirm that a recorded atrial high-rate episode is genuine. Duration and baseline stroke risk matter when discussing anticoagulation for device-detected episodes. Left atrial appendage occlusion is a separate option in selected patients unsuitable for long-term anticoagulation. It requires a plan for postimplant antithrombotic treatment and imaging (pp. 1202–1203).
 
-> Current practice (not the book): For device-detected subclinical AF, ARTESiA found fewer strokes or systemic emboli with apixaban than aspirin, but more major bleeding. NOAH-AFNET 6 found no significant reduction in its primary efficacy composite with edoxaban and more safety events. Review episode duration, stroke risk and bleeding risk before anticoagulating. [ARTESiA, 2024](https://pubmed.ncbi.nlm.nih.gov/37952132/) and [NOAH-AFNET 6, 2023](https://pubmed.ncbi.nlm.nih.gov/37622677/).
+> Current practice (not the book): For device-detected subclinical AF, ARTESiA found fewer strokes or systemic emboli with apixaban than aspirin, but more major bleeding. NOAH-AFNET 6 found no significant reduction in its primary efficacy composite with edoxaban and more safety events. Review episode duration, stroke risk and bleeding risk before anticoagulating. [ARTESiA, 2024](https://pubmed.ncbi.nlm.nih.gov/37952132/) · [NOAH-AFNET 6, 2023](https://pubmed.ncbi.nlm.nih.gov/37622677/).
 
 **Flutter, SVT and ventricular ectopy.** Typical flutter uses the cavotricuspid isthmus. Ablation can interrupt that circuit, while stroke prevention still depends on embolic risk. AV nodal reentry is the commonest SVT mechanism described in older patients. For a stable regular narrow-complex tachycardia, vagal maneuvers and adenosine can interrupt AV node-dependent reentry. Instability calls for synchronized cardioversion. Pre-excited AF is an important exception to AV nodal blockade. Incidental nonsustained VT prompts a search for structural disease, ischemia and impaired EF before deciding on prognosis or a device (p. 1206, Table 77-10).
 
@@ -113,20 +115,21 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 - DOACs preferred over warfarin as first-line stroke prevention **for nonvalvular AF** — valvular AF (moderate–severe MS or mechanical valve) needs warfarin regardless of score; no dabigatran/rivaroxaban/edoxaban in ESRD/dialysis (Table 77-8, p1203); apixaban and edoxaban show lower major-bleeding risk in patients **75 years** or older (p1202), while full-dose dabigatran and rivaroxaban carry increased GI bleeding risk (p1202 recommends a PPI with these agents).
 
 > Current practice (not the book): In FRAIL-AF, switching frail adults aged 75 or older with AF from monitored VKA therapy to a DOAC increased major or clinically relevant nonmajor bleeding without a demonstrated reduction in thromboembolism. A stable VKA regimen merits its own continuation decision. [FRAIL-AF randomized trial, 2023](https://pubmed.ncbi.nlm.nih.gov/37634130/).
-  > Current practice (not the book): individualize gastroprotection according to the patient's overall bleeding risk. [ESC 2024 AF guideline, §6.7.1](https://doi.org/10.1093/eurheartj/ehae176).
+
+> Current practice (not the book): individualize gastroprotection according to the patient's overall bleeding risk. [ESC 2024 AF guideline, §6.7.1](https://doi.org/10.1093/eurheartj/ehae176).
 - **WATCHMAN:** p1203 describes **warfarin to INR 2–3 for 45 days**. If TEE confirms complete LAA closure, stop warfarin and use **aspirin plus clopidogrel for 6 months, then long-term aspirin**. For high bleeding risk, the chapter describes six months of clopidogrel plus long-term aspirin without oral anticoagulation.
 
-> Current practice (not the book): After percutaneous left atrial appendage occlusion, the antithrombotic regimen depends on the implanted device, its labeling, bleeding risk and follow-up imaging. Current device-specific options can include a DOAC-based approach or dual antiplatelet therapy; the original WATCHMAN warfarin schedule does not apply to every device. [ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC11095842/).
+> Current practice (not the book): After percutaneous left atrial appendage occlusion, the antithrombotic regimen depends on the implanted device, its labeling, bleeding risk and follow-up imaging. Current device-specific options can include a DOAC-based approach or dual antiplatelet therapy; use the studied regimen and device instructions, with TEE or cardiac CT at 45–90 days to assess for peridevice leak or device-related thrombus. [SCAI/HRS consensus on transcatheter appendage closure, 2023, statements 11–12](https://doi.org/10.1016/j.jcin.2023.01.011).
 
 **DOACs** (Table 77-9, p1204–1205)
 - **Dabigatran:** Table 77-9 gives **150 mg twice daily** or **110 mg twice daily** with concomitant verapamil, age **≥80**, or increased GI-bleeding risk. In RE-LY, 150 mg reduced stroke/systemic embolism by 34% with similar major bleeding to warfarin; 110 mg had similar efficacy and about 20% less major bleeding. The specific reversal agent is **idarucizumab** (p1204).
-  > Current practice (not the book): 110 mg twice daily for AF is a jurisdiction-dependent regimen, including in European prescribing information; the US adult AF label does not include this regimen — [EMA Pradaxa product information](https://www.ema.europa.eu/en/documents/product-information/pradaxa-epar-product-information_en.pdf).
+  > Current practice (not the book): 110 mg twice daily for AF is a jurisdiction-dependent regimen, including in European prescribing information; the US adult AF label does not include this regimen. [EMA Pradaxa product information](https://www.ema.europa.eu/en/documents/product-information/pradaxa-epar-product-information_en.pdf).
 - **Rivaroxaban:** Table 77-9 gives **20 mg daily**, or **15 mg daily at CrCl 30–49 mL/min**. ROCKET-AF found noninferior stroke prevention and a similar major-bleeding rate versus warfarin. The book lists **andexanet alfa (Andexxa)** for reversal (p1204).
-  > Current practice (not the book): US NVAF labeling gives 20 mg with the evening meal for CrCl >50 mL/min or 15 mg with the evening meal for CrCl ≤50 mL/min within labeled renal-use conditions. US sales of Andexxa ended December 22, 2025 — [Xarelto prescribing information](https://www.jnjlabels.com/package-insert/product-monograph/prescribing-information/XARELTO-pi.pdf), [FDA Andexxa safety communication](https://www.fda.gov/safety/medical-product-safety-information/update-safety-andexxa-astrazeneca-fda-safety-communication).
+  > Current practice (not the book): US NVAF labeling gives 20 mg with the evening meal for CrCl >50 mL/min or 15 mg with the evening meal for CrCl ≤50 mL/min within labeled renal-use conditions. US sales of Andexxa ended December 22, 2025. [Xarelto prescribing information](https://www.jnjlabels.com/package-insert/product-monograph/prescribing-information/XARELTO-pi.pdf), [FDA Andexxa safety communication](https://www.fda.gov/safety/medical-product-safety-information/update-safety-andexxa-astrazeneca-fda-safety-communication).
 - **Apixaban for AF:** 5 mg twice daily, reduced to 2.5 mg twice daily when **at least two** criteria apply: age **≥80 years**, weight **<60 kg**, serum creatinine **≥1.5 mg/dL**. ARISTOTLE found 21% less stroke/systemic embolism and 31% less major bleeding versus warfarin (Table 77-9, p1205).
   > Current practice (not the book): the Eliquis label's weight criterion is body weight **≤60 kg** (not <60) — Eliquis prescribing information §2.1 (BMS).
 - **Edoxaban:** Table 77-9 gives **60 mg once daily**, reduced to **30 mg once daily** for at least one of: CrCl **30–50 mL/min**, weight **≤60 kg**, or concurrent cyclosporine, dronedarone, erythromycin or ketoconazole (p1205). ENGAGE AF found both dose strategies noninferior for stroke/systemic embolism in the primary analysis, with less major bleeding.
-  > Current practice (not the book): US adult NVAF labeling gives 60 mg daily for CrCl >50 to 95 mL/min or 30 mg daily for CrCl 15–50 mL/min. Avoid use for NVAF with CrCl >95 mL/min — [Savaysa prescribing information, §2.1](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/206316s019lbl.pdf).
+  > Current practice (not the book): US adult NVAF labeling gives 60 mg daily for CrCl >50 to 95 mL/min or 30 mg daily for CrCl 15–50 mL/min. Avoid use for NVAF with CrCl >95 mL/min. [Savaysa prescribing information, §2.1](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/206316s019lbl.pdf).
 
 **Other tachyarrhythmias**
 - Atrial flutter: cavotricuspid-isthmus ablation success **> 90–95%** (p1206), complications **< 1–2%** (p1206).
@@ -149,7 +152,7 @@ The discussion on pp. 1200 and 1207 reflects the US context. For Israeli patient
 
 **1. In a nursing-home resident, orthostatic hypotension is defined by what blood-pressure drop, and how prevalent is it in frail older nursing-home residents?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-1"><summary>Answer</summary>
 
 Sustained SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of frail nursing-home residents (p1193).
 
@@ -157,7 +160,7 @@ Sustained SBP drop ≥ 20 mmHg or DBP drop ≥ 10 mmHg on standing; up to 50% of
 
 **2. Name the four subtypes of orthostatic hypotension.**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-2"><summary>Answer</summary>
 
 Initial (immediate, within 15 s), classic (within 3 min), delayed (>3 min), and neurogenic (autonomic-nervous-system dysfunction) (p1194).
 
@@ -165,7 +168,7 @@ Initial (immediate, within 15 s), classic (within 3 min), delayed (>3 min), and 
 
 **3. What defines the cardioinhibitory type of vasovagal response, and at what age is dual-chamber pacing considered reasonable for recurrent vasovagal syncope with spontaneous pauses?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-3"><summary>Answer</summary>
 
 A cardioinhibitory vasovagal response may produce a pause **≥3 seconds** or a heart rate **<40/min for more than 10 seconds**. Dual-chamber pacing may be reasonable in selected patients **over 40** with recurrent vasovagal syncope and documented prolonged spontaneous pauses (p1194).
 
@@ -173,7 +176,7 @@ A cardioinhibitory vasovagal response may produce a pause **≥3 seconds** or a 
 
 **4. What carotid sinus massage finding defines carotid sinus hypersensitivity, and what additional feature makes it carotid sinus syndrome?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-4"><summary>Answer</summary>
 
 A pause ≥ 3 seconds or a systolic BP drop ≥ 50 mmHg during carotid sinus massage; carotid sinus syndrome requires that this be accompanied by symptoms of syncope or presyncope (p1195).
 
@@ -181,7 +184,7 @@ A pause ≥ 3 seconds or a systolic BP drop ≥ 50 mmHg during carotid sinus mas
 
 **5. What proportion of permanent pacemakers are placed in patients 65 or older, and what is the leading indication in this age group?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-5"><summary>Answer</summary>
 
 More than 80%; sinoatrial (sinus node) dysfunction is the leading indication (p1193).
 
@@ -189,64 +192,64 @@ More than 80%; sinoatrial (sinus node) dysfunction is the leading indication (p1
 
 **6. What are the highest-likelihood-to-respond criteria for cardiac resynchronization therapy?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-6"><summary>Answer</summary>
 
 LVEF ≤ 35%, sinus rhythm, LBBB, QRS ≥ 150 ms, NYHA class II, III, or ambulatory IV (p1199).
 
 </details>
 
-**8. After TAVR, what percentage of patients develop new LBBB, and what percentage develop high-degree AV block?**
+**7. After TAVR, what percentage of patients develop new LBBB, and what percentage develop high-degree AV block?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-8"><summary>Answer</summary>
 
 New LBBB in 19% to 55%; high-degree AVB in 10% (p1200).
 
 </details>
 
-**10. How many patients were randomized in the CABANA trial, and was catheter ablation superior to antiarrhythmic drugs for the primary composite endpoint?**
+**8. How many patients were randomized in the CABANA trial, and was catheter ablation superior to antiarrhythmic drugs for the primary composite endpoint?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-10"><summary>Answer</summary>
 
 2,204 patients; catheter ablation was NOT superior to AAD for the primary endpoint (all-cause mortality, disabling stroke, serious bleeding, or cardiac arrest) at 5 years, though it did reduce AF recurrence and the combined death/cardiovascular-hospitalization secondary endpoint (p1201).
 
 </details>
 
-**11. What CHA2DS2-VASc score threshold triggers anticoagulation in men versus women, and what is the maximum possible score?**
+**9. What CHA2DS2-VASc score threshold triggers anticoagulation in men versus women, and what is the maximum possible score?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-11"><summary>Answer</summary>
 
 ≥ 2 in men or ≥ 3 in women (p1203, Table 77-8); maximum score is 9 (p1202, Table 77-7A).
 
 </details>
 
-**12. On the HAS-BLED score, what ranges represent low versus high bleeding risk?**
+**10. On the HAS-BLED score, what ranges represent low versus high bleeding risk?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-12"><summary>Answer</summary>
 
 0–2 = low risk; 3–9 = high risk (p1202).
 
 </details>
 
-**13. Which two DOACs show a lower major-bleeding risk than warfarin in patients 75 years or older, and which two carry an increased risk of GI bleeding at full dose?**
+**11. Which two DOACs show a lower major-bleeding risk than warfarin in patients 75 years or older, and which two carry an increased risk of GI bleeding at full dose?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-13"><summary>Answer</summary>
 
 Apixaban and edoxaban show lower major bleeding; full-dose dabigatran and rivaroxaban are associated with increased GI bleeding risk (p1202). Hazzard recommends a PPI with these agents.
 > Current practice (not the book): the 2024 ESC guideline individualizes gastroprotection according to the patient's overall bleeding risk.
 
 </details>
 
-**14. What was the initial warfarin regimen in the original WATCHMAN studies, and what should follow-up imaging assess before changing antithrombotic therapy?**
+**12. What was the initial warfarin regimen in the original WATCHMAN studies, and what should follow-up imaging assess before changing antithrombotic therapy?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-14"><summary>Answer</summary>
 
 Hazzard gives **warfarin to INR 2–3 for 45 days**, then discontinues warfarin if TEE confirms complete LAA closure. Follow with **aspirin and clopidogrel for 6 months**, then **long-term aspirin** (p1203).
 
 </details>
 
-**15. What are the primary-prevention ICD criteria for ischemic cardiomyopathy, including the required time from MI or revascularization?**
+**13. What are the primary-prevention ICD criteria for ischemic cardiomyopathy, including the required time from MI or revascularization?**
 
-<details><summary>Answer</summary>
+<details data-recall-key="77s:recall-15"><summary>Answer</summary>
 
 After MI, the book gives **>40 days after MI or >90 days after revascularization** and, on GDMT, **EF ≤35% with NYHA II–III** or **EF <30% with NYHA I**. A separate indication after MI is NSVT with **EF ≤40%** and **inducible sustained monomorphic VT** on electrophysiologic study (p1206).
 

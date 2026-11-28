@@ -30,14 +30,6 @@ window.HazzardStudyHome = (() => {
     try {
       const progress = notebook(keys.reading, null);
       const done = new Set(Object.entries(progress?.chapters || {}).filter(([, p]) => p.read).map(([id]) => id));
-      // Older notebooks kept a completed page as a saved position or bookmark.
-      for (const key of [keys.place, keys.bookmarks]) {
-        try {
-          const value = notebook(key, null);
-          const saved = Array.isArray(value) ? value : [...Object.values(value?.chapters || {}), value?.last];
-          for (const place of saved) if (place?.ratio >= 0.9999) done.add(place.chapter);
-        } catch (error) { if (!progress) throw error; }
-      }
       finished = done;
     } catch { /* An unreadable notebook is different from an empty one. */ }
     return finished;

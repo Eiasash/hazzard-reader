@@ -216,9 +216,9 @@ If clinicians start to feel especially negative emotions toward patients, or fee
 
 <a id="p1017"></a>**[p. 1017]**
 
-**Table 65-1 — Challenges with treating older adults who have depression**
-
 ![Table 65-1](hazzard8e_ch65_table65-1_p1017.png)
+
+**Table 65-1 — Challenges with treating older adults who have depression**
 
 > *Table 65-1 reproduced as a page image (printed p. 1017) — the grid did not extract reliably as text for this fast build.*
 
@@ -324,4 +324,3 @@ Many thanks to Charles F. Reynolds, III, MD, for his contributions to the Depres
 - Wu C-H, Farley JF, Gaynes BN. The association between antidepressant dosage titration and medication adherence among patients with depression. _Depress Anxiety._ 2012;29:506–514.
 
 <a id="p1020"></a>**[p. 1020]**
-

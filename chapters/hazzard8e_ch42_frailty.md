@@ -26,7 +26,7 @@ Luigi Ferrucci, Jeremy D. Walston
 7. Frailty ascertainment is essential to optimize medical and surgical treatment of older persons who may be vulnerable to related adverse outcomes.
 8. The paradigm of precision medicine provides an ideal entry point for frailty measurement into clinical medicine.
 
-### Introduction
+## Introduction
 
 Over the past century, the science of clinical medicine, the identification of risk factors for disease  states, and the discovery of specific pathophysiologic mechanisms have greatly improved treatment and preventive strategies and increased longevity around the world. From 1900 to 2013, and in spite of the aging of the population, the percentage of the population who died every year fell from 2.5% to 0.7% and life expectancy at birth rose from 47 to 79 years. Death rates have been strongly affected by improvement in living conditions, availability of energy and clean water, and later on by smoking reduction, treatment of hyperlipidemia and hypertension, and to some extent progress in medicine. For example, heart disease death rates declined by almost two-thirds during the past 50 years, and stroke rates declined by more than three-quarters (http://www.cdc.gov). In spite of the relative success in the early detection of major diseases, the current approach remains “watch and wait” and then intervene to manage the symptoms of many chronic diseases. As a consequence, the mortality of chronic disease patients declined, and many older adults live into a period of life characterized by disease-related multimorbidity and disability (see Chapter 2).
 
@@ -36,13 +36,13 @@ Geriatrics is the medical specialty that first developed the concept that a spec
 
 by multimorbidity, disability, and geriatric syndromes, although mechanisms for such differential response are still not understood. In other words, to understand and potentially improve the health of their patients, geriatricians should complement their knowledge of internal medicine with sound theory about how multimorbidity, frailty, and functional and cognitive impairment affect prognosis, response to treatments, care needs, and quality of life. As the recognition of rising burden that the aging of the population imposes on people, families, the health care system, and the society as a whole, we have started asking whether the burden imposed by aging was unavoidable or, at least to some extent, could be prevented or “compressed.” In this chapter, we describe the concept of “frailty” as relevant both in the assessment and care of older patients as well as a “state of reference” in the science aimed at identifying individuals who are aging faster than others and at developing interventions that slow down aging and prevents its consequences.
 
-### From Comprehensive Geriatric Assessment To Frailty
+## From Comprehensive Geriatric Assessment To Frailty
 
 Historically, a major focus of geriatric medicine has been to conceptually capture the complexity of older patients and develop standard tools for measuring it. This effort has demonstrated unequivocally that health status in older
 
 patients is best measured by the ability to function in the environment and that functional status provides powerful prognostic information on multiple adverse health outcomes independent of disease status. An array of large epidemiologic studies provided robust evidence that even minor declines in physical function are associated with substantial deterioration of quality of life, are good metrics of disease severity progression, are more accurate and predictive than traditional organ-specific measures, and provide prognostic information for multiple health-related outcomes, including health care resources utilization, progression of disability, and mortality. This bulk of knowledge created the premises for the conceptualization of frailty as a status of susceptibility that is related to diseases, but evolves independently.
 
-### Frailty Conceptual Development And The “Layers” Of Frailty
+## Frailty Conceptual Development And The “Layers” Of Frailty
 
 Most health care professionals recognize that there are complexities that are unique to geriatric patients. Despite extensive research with a focus on the development of functional assessment tools and overall functional status, there is still a vacuum of knowledge about the complexity of aging and its relationship with diseases and disability. Understanding physical and cognitive function is clearly important, but this understanding often does not provide clear and specific paths to interventions. Furthermore, since addressing each single disease does not necessarily require information on functional status, ouside the world of geriatric assessment functional status has often been ignored.
 
@@ -73,7 +73,7 @@ oxidative capacity and reduced energetic efficiency, which likely contribute to 
 
 In parallel to the conceptual development of frailty as a clinical entity with profound functional consequences and poor prognosis, its biological basis is being investigated. The biological basis of frailty represents the deeper, third layer of the onion-like frailty syndrome model, which is mechanistic and still largely hypothetical. Attempts to understand the core mechanisms of frailty provide the basis for making a connection between the biology of aging and the experience of geriatric practice. As explained in Chapter 40, the geroscience hypothesis is that accelerated aging-related biological processes (“hallmarks of aging”) drive the accumulation of tissue and organ damage across many physiologic systems that eventually leads the development of the aging-related phenotype including frailty and other geriatric syndromes. The identification of these mechanisms and the development of pathophysiological changes is at the front edge of the science of frailty and ultimately has strong potential for translation. Interestingly, most of the “hallmarks of aging” may trigger an inflammatory response. For example, senescent cells produce large quantities of proinflammatory cytokines and chemokines that appear in the circulation. Unrepaired DNA damage causes genomic instability that further precipitates cellular senescence. Damaged mitochondria not eliminated and recycled due to defective mitophagy can trigger both the production of interleukin 1 (IL-1) and IL-18 through the NLP3 inflammasome and type I interferons through the stimulator of interferon genes (STING) signaling pathway. Because of this connection, it has been proposed that “inflammaging” is a global biomarker of the mechanisms involved in the biology of aging.
 
-### From Speculation To Practice: Operational Definitions Of Frailty
+## From Speculation To Practice: Operational Definitions Of Frailty
 
 Functional assessment attempts to assess and track the consequences of physiologic declines that occur with aging and to characterize the consequences regardless of the causes and mostly for management purposes.
 
@@ -113,13 +113,14 @@ Functional assessment attempts to assess and track the consequences of physiolog
 - Vision and/or hearing deficits
 
 <a id="p619"></a>**[p. 619]**
+
 ![Figure 42-2](hazzard8e_ch42_figure42-2.png)
 
 > *FIGURE 42-2. Schematic representation of the pathologic vicious cycle proposed to lead to a progressive decline in health and function according to the physical frailty model. (Reproduced with permission from Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. _J Gerontol A Biol Sci Med Sci._ 2001;56[3]:M146–M156.)*
 
 In contrast, the concept of frailty implies the existence of underlying pathophysiologic mechanisms responsible for the phenotypical manifestations. Although different interpretative frameworks for frailty have been developed, with different operational criteria, most connect frailty directly or indirectly with the biology of aging. In summary, individuals become frail when their residual resilience capacity can no longer cope with the simple stress of being alive. This is the reason why frailty can rapidly progress and is associated with very high risk of disability and mortality.
 
-### Frailty As A Syndrome Or Phenotype
+## Frailty As A Syndrome Or Phenotype
 
 The operational model of frailty developed by Linda Fried and others working in the Cardiovascular Health Study (CHS) hypothesized the existence of an identifiable phenotype of frailty and has been supported by a large body of strong methodological work. According to this model, frailty is the result of dysregulation of the stress response systems responsible for organismal resilience, leading to loss of homeostatic capabilities, increased susceptibility to stress, and the emergence of a distinct syndromic phenotype that is predictive of a range of adverse clinical outcomes. The syndromic attribution to frailty in CHS was later validated by the Women’s Health and Aging Study, and implies that the criteria used for the clinical definition are not exhaustive of the syndrome but rather represent biomarkers that in the aggregate allow for the identification of a group of subjects likely to be affected by the intended condition with some level of sensitivity and specificity.
 
@@ -153,16 +154,18 @@ The phenotypic approach to frailty is appealing because it can be assessed easil
 
 _Adapted with permission from Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001;56(3):M146–M156._
 
-### Frailty As A Deficit Accumulation
+## Frailty As A Deficit Accumulation
 
 Another major school of thought that has been a mainstream in frailty research is the approach developed by Ken Rockwood and colleagues. In this approach, frailty is considered an accumulation of illnesses, signs, symptoms, and laboratory abnormalities, based on the observation that “the more things individuals have wrong with them, the higher the likelihood that they will be frail.” Using data from two population-based Canadian studies, Rockwood and his collaborators combined a series of 70 measurements (jointly referred to as “deficits”) in order to generate a multisystem, broad, graded, and conceptually simple
 
 <a id="p621"></a>**[p. 621]**
+
 ![Table 42-3](hazzard8e_ch42_table42-3_p621.png)
 
 > *Table 42-3 reproduced as a page image (printed p. 621) — the grid did not extract reliably as text for this fast build.*
 
 <a id="p622"></a>**[p. 622]**
+
 ![Table 42-3](hazzard8e_ch42_table42-3_p622.png)
 
 > *Table 42-3 reproduced as a page image (printed p. 622) — the grid did not extract reliably as text for this fast build.*
@@ -179,7 +182,7 @@ However, the purely stochastic nature of the FI definition of frailty limits any
 
 The Edmonton Frail Scale (EFS) is a clinical tool for the assessment of frailty now used widely. The EFS was developed for clinicians who have limited time but want to evaluate frailty in their practice even though they may not have specialized geriatric training. The EFS assesses nine domains: cognition, general health status, functional independence, social support, medication use, nutrition, mood, continence, and functional performance. The EFS provides information on frailty and vulnerability that is organized into domains that are consistent with a comprehensive geriatric assessment. The EFS has been validated against many other screening tools, such as the Mini Mental State Examination and the Geriatric Depression Scale, in hospitalized older patients.
 
-### Other Operational Definitions Of Frailty
+## Other Operational Definitions Of Frailty
 
 There are many other operational definitions of frailty beyond the ones described above, although most of them arise from the already discussed concepts. The most relevant operational definitions are summarized in **Table 42-3** . The wide variety and number of published tools document the very lively discussion in the field about the definition and interpretation of frailty, which has occupied many hours in meetings, workshops, and roundtables.
 
@@ -233,7 +236,7 @@ Age-related changes occur also at the level of the peripheral nervous system, es
 
 leads to changes in fiber-type composition because denervation occurs preferentially in the fast muscle fibers with reinnervation occurring by axonal sprouting from slow fibers. As a consequence, motor units decrease in number and become progressively larger but less functional with aging, leading to reductions in fine motor control. Furthermore, the efficiency of segmental demyelination-remyelination processes declines with aging, resulting in slower nerve conduction and consequent decreased sensation as well as slower reflexes.
 
-### The Epidemiology Of Frailty
+## The Epidemiology Of Frailty
 
 The prevalence of frailty varies enormously among studies according to different definitions, countries, and settings. Among community-dwelling adults aged 65 and older the average prevalence is 11% (but the reported range is 4.0%– 59%). Use of a broader definition of frailty results in a higher prevalence than use of the Fried tool (14% vs 10%). Moreover, prevalence of frailty increases with age, reaching 16% in individuals aged 80 to 84 and 26% in those aged 85 or older. Independent of the type of definition, the prevalence is higher in women than men (Fried Scale: 9.6% vs 5.2%; FI: 39% vs 37%). The relationship between frailty and body mass index (BMI) is U-shaped, with higher rates of frailty in individuals at both low and very high BMI. The prevalence of frailty has varied from 27% to 80% in older hospitalized patients and from 30% to 70% in institutionalized older adults. Using the CHS definition, exhaustion seems to be the criterion that contributes most to frailty status and most likely to appear first, followed by the other criteria.
 
@@ -245,11 +248,11 @@ Finally, using the Fried definition, nearly 60% of people older than age 70 have
 
 dynamic process in which older adults gradually progress through different frailty states suggests the opportunity for prevention.
 
-### Cognition, Dementia, And Frailty
+## Cognition, Dementia, And Frailty
 
 Traditionally, operationalization of frailty has been mostly focused on the physical aspects of the syndrome. However, the contribution of cognition to frailty and their complex interrelationship have been increasingly recognized. There is a higher prevalence of cognitive impairment and lower cognitive performance in frail older adults than in fit ones. Moreover, frailty increases the risk of future cognitive decline and incident dementia. As a consequence, the term “cognitive frailty” has been used to describe a clinical condition characterized by the simultaneous occurrence of both physical frailty and cognitive impairment, in the absence of a diagnosis of dementia or underlying neurologic conditions. In particular, the operational definition of cognitive frailty is based on the following criteria: (1) physical frailty; (2) mild cognitive impairment (MCI), according to the Clinical Dementia Rating (CDR, score equal to 0.5); and (3) exclusion of Alzheimer disease (AD) and other dementias. Moreover, it has been suggested that the occurrence of physical frailty should precede the onset of cognitive impairment, in order to differentiate between a physically driven cognitive decline versus a cognitive deterioration independent of physical conditions. Furthermore, frailty is a significant effect modifier in the pathway to dementia. In particular, the risk of dementia associated with accumulation of brain pathology as evidenced by neuroimaging is substantially higher in those who are frail compared to those who are not frail, although the mechanism of this synergic association is not clear. Future research in this field should better define the epidemiology and clinical presentation of this condition as well as the underlying biological and pathophysiologic pathways.
 
-### Frailty In The Context Of Specific Medical Conditions
+## Frailty In The Context Of Specific Medical Conditions
 
 The robust scientific progress generated in understanding functional status as a prognostic marker has induced other specialties to incorporate frailty into clinical decision making.
 
@@ -307,7 +310,7 @@ higher baseline levels and steeper increases over time of IL-6 strongly predicte
 
 The relationship between multimorbidity and the basic biological mechanisms of frailty is still largely unexplored. Age-related pathologies once thought to be distinct from each other are now understood to share the same underlying molecular and cellular mechanisms, some of which are also the biological underpinnings of the aging process.
 
-### Geroscience As A Possible Interface Between Frailty And Precision Medicine
+## Geroscience As A Possible Interface Between Frailty And Precision Medicine
 
 The manifesto of geroscience (see Chapter 40) embraces the conceptual approach outlined in the onion frailty model. According to this view, slowing down aging would be considerably more effective to improve the health of older persons than addressing any disease or risk factor separately. Although biological mechanisms of aging are still poorly understood, research in animal models strongly suggests that the rate of aging can be modified and even reversed by several nonpharmacological and pharmacological interventions (see Chapter 1). Some of the hypothetical mechanisms of the biology of aging can now be tested in humans to verify whether one or more of them are related and change in parallel with frailty, thereby validating the hypothesis that they are true drivers of the aging process. While it would be difficult and prohibitively expensive to apply routinely sophisticated techniques of molecular biology to the evaluation of frail older patients, it may be possible to identify basic biomarkers that capture the biological nature of the processes at the core of frailty. These processes (illustrated in **Figure 42-5** ) could be targeted for potential interventions.
 
@@ -339,4 +342,3 @@ The new paradigm of precision medicine provides an almost ideal entry for the fr
 - Walston J, Bandeen-Roche K, Buta B, et al. Moving frailty toward clinical practice: NIA Intramural Frailty Science Symposium Summary. _J Am Geriatr Soc._ 2019; 67(8):1559–1564.
 
 <a id="p632"></a>**[p. 632]**
-

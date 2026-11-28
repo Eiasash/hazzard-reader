@@ -6,7 +6,7 @@ Monica Christmas, Kaitlyn Fruin, Stacy Tessler Lindau
 
 > [Official questions linked to this chapter](?chapter=35s&view=questions&source=past).
 
-> **Source and method.** Printed pages 503-526, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 503-525, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p503"></a>**[p. 503]**
 
@@ -30,7 +30,7 @@ Sociological evidence about sexuality of women in middle and later life has incr
 
 3. Older women who identify as members of a sexual minority group are marginalized and stigmatized in medical care generally, and they are particularly vulnerable with respect to receiving appropriate medical attention for their sexual concerns.
 
-The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, populationrepresentative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter ([https://www.norc.org/Research/Projects/Pages/national-social-life-health-and-aging-project.aspx](https://www.norc.org/research/projects/national-social-life-health-and-aging-project.html)). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
+The 2005–2006 National Social Life, Health and Aging Project (NSHAP), funded by the National Institutes of Health, provided the first comprehensive, population-representative biosocial data on sexuality among middle age and older women and men in the United States, and it informs many of the insights presented in this chapter ([https://www.norc.org/Research/Projects/Pages/national-social-life-health-and-aging-project.aspx](https://www.norc.org/research/projects/national-social-life-health-and-aging-project.html)). In 2010 and 2011 (NSHAP Wave II), 75% of participants in the baseline NSHAP study (Wave I) participated in follow-up interviews. Between 2015 and 2016, 2409 surviving Wave I respondents and an additional new cohort of respondents born between 1948 and 1965 participated in Wave III (accessed at https://www.icpsr.umich.edu/web/NACDA/studies/36873). This chapter first locates older women’s sexuality in a sociodemographic context, then describes sexual activity, behaviors, and problems experienced by women in later life; reviews physiologic changes that affect
 
 <a id="p504"></a>**[p. 504]**
 
@@ -45,7 +45,6 @@ Sexual behavior can result in health problems, such as sexually transmitted infe
 ![Figure 35-1](hazzard8e_ch35_figure-35-1_p504.webp)
 
 *FIGURE 35-1. The interactive biopsychosocial model.*
-
 
 In this model, health comprises biological, psychological, and social components and is conceptualized as jointly produced by a woman in conjunction with her spouse or other intimate partner(s). Joint production of health means that partners contribute assets (or liabilities) to the “health endowment,” and these assets and liabilities impact the health of the other(s). The hourglass shape symbolizes the dynamic nature of both health and intimate relationships over time. Clinically, this model can be used as a mnemonic for the broad domains of inquiry pertinent to assessing a patient’s sexual history and reminds the clinician of the importance of ascertaining the presence, and health, of the patient’s intimate partner(s).
 
@@ -63,16 +62,13 @@ Lack of formal sexuality education combined with widely restrictive social, reli
 
 *FIGURE 35-2. Prevalence of relationships and sexual activity by age and health status. Note: Red symbols denote men; yellow symbols denote women. (Reproduced with permission from Lindau ST, Schumm LP, Laumann EO, et al. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774.)*
 
-
 In addition, older women perceive physicians to be poorly trained to deal with patients’ sexual concerns and that physicians presume older women to be asexual or disinterested (see Table 35-2).
 
 Aging of the baby boomers, the generation of the sexual revolution, is increasing demand for medical attention to sexual matters. Although male longevity is expected to increase, older women will continue to outnumber older men through 2050; this presents a significant gender disparity in the opportunity for formation of new sexual relationships in later life and, in some cases, results in multiple women sharing a single male partner. Little is known about the health implications of emerging trends among older adults including nonmonogamy, rising rates of divorce, unmarried cohabitation, same-sex marriages, and later life dating.
 
 ### Sexuality and Cognitive Function
 
-Until recently, most of what was known about sexuality in the context of cognitive dysfunction derived from studies of sexual behavior among people with dementia living
-
-in nursing home settings. NSHAP Wave II included the first nationally representative study of sexuality among community-dwelling people with cognitive impairment and dementia. This study found that cognitively impaired men were much more likely than women to be partnered (83% vs 57%), about half of all partnered women and men with cognitive impairment, including 40% of those aged 80 to 91, were sexually active. Sexual problems, including a lack of interest in sex, were reported by a quarter of men and one in ten women with cognitive impairment. Yet, very few cognitively impaired people had addressed sexual function concerns with their partner or a physician. Because cognitive impairment can impede consent for sexual activity, and an individual’s understanding of sex or ability to express their desire for sex can wax and wane in the course of dementia, it makes sense to include an individual’s wishes for sexual activity in their documentation of advance directives. NSHAP, in fact, reported that 14% of women and 17% of men with cognitive impairment engaged in obligatory sex or sex without feeling aroused. Currently, an estimated 3 million older people with cognitive impairment or dementia are both community-dwelling and sexually active.
+Until recently, most of what was known about sexuality in the context of cognitive dysfunction derived from studies of sexual behavior among people with dementia living in nursing home settings. NSHAP Wave II included the first nationally representative study of sexuality among community-dwelling people with cognitive impairment and dementia. This study found that cognitively impaired men were much more likely than women to be partnered (83% vs 57%), about half of all partnered women and men with cognitive impairment, including 40% of those aged 80 to 91, were sexually active. Sexual problems, including a lack of interest in sex, were reported by a quarter of men and one in ten women with cognitive impairment. Yet, very few cognitively impaired people had addressed sexual function concerns with their partner or a physician. Because cognitive impairment can impede consent for sexual activity, and an individual’s understanding of sex or ability to express their desire for sex can wax and wane in the course of dementia, it makes sense to include an individual’s wishes for sexual activity in their documentation of advance directives. NSHAP, in fact, reported that 14% of women and 17% of men with cognitive impairment engaged in obligatory sex or sex without feeling aroused. Currently, an estimated 3 million older people with cognitive impairment or dementia are both community-dwelling and sexually active.
 
 <a id="p506"></a>**[p. 506]**
 
@@ -80,19 +76,17 @@ in nursing home settings. NSHAP Wave II included the first nationally representa
 
 *TABLE 35-1 ■ OLDER WOMEN’S VIEWS ON SEXUALITY AND AGING*
 
-
 This number is expected to double by 2050. Best practice for care of older adults with cognitive impairment should include early and ongoing discussion about the effects of impairment on sexual function, sexual behavior (which can include an increase or change in sexual behavior in some cases), and decision making about engaging in partnered sexual activity.
 
 ### Sexuality in Long-Term Care Institutions and Palliative Care
 
 The early literature on sexuality and aging in the nursing home or long-term care setting focused on strategies for staff to restrict this behavior. Residents of long-term care institutions are less likely to be sexually active than community-residing older adults, and they cite lack of partners, lack of privacy, lack of interest, sexual dysfunction, and negative attitudes of staff as limiting sexual expression. Older lesbian, bisexual, and transgender individuals are at increased risk of stigma and discrimination, especially in settings where the right to privacy is limited.
 
-Increasingly, as a human rights matter, long-term care institutions provide private rooms for residents and have trained their providers to understand and accept sexuality in a respectful manner. Sometimes, sexual relationships form among people with dementia who have, but may not remember, a communityresiding spouse.
+Increasingly, as a human rights matter, long-term care institutions provide private rooms for residents and have trained their providers to understand and accept sexuality in a respectful manner. Sometimes, sexual relationships form among people with dementia who have, but may not remember, a community-residing spouse.
 
 ![Table 35-2](hazzard8e_ch35_table-35-2_p506.webp)
 
 *TABLE 35-2 ■ OLDER WOMEN’S PERCEPTIONS ABOUT BARRIERS TO DISCUSSING SEX WITH A PHYSICIAN*
-
 
 Likewise, community-residing spouses may initiate new intimate relationships while maintaining involvement with and commitment to their institutionalized spouse. The implications of these relationships for health and integrity in later life are a growing reality, but poorly understood and often a cause of distress for families. Sexual exploitation and abuse of older women living in residential facilities (and in the community) are poorly documented, but vulnerability is heightened by cognitive impairment, which can interfere with a woman’s ability to consent to sexual relations.
 
@@ -112,9 +106,7 @@ As compared with findings for younger women, women 57 years and older reported f
 
 In the NSHAP baseline study, 5% of women reported ever having a female sexual partner and only five women (0.3%) reported currently being in a relationship with another woman. Although population data on lesbian relationships at older ages are only just beginning to emerge, estimates from the younger population suggest that women in this study may have underreported same-sex relationships. Qualitative research and clinical experience reveals cases of older women choosing or demonstrating receptivity to intimacy with female partners for the first time in later life. Some women explain this as a choice caused by the scarcity of males in later life, while others are fulfilling, for the first time, a lifelong interest. The Caring and Aging with Pride study (2010), a national community-based survey of lesbian, gay, bisexual, transsexual (LGBT) aging, found that among individuals 50 years and older, lesbian and bisexual adults were less likely to have a partner or be married than people identifying as heterosexual.
 
-The low representation of sexual minorities in studies of older adults, the frequent exclusion of older adults in studies of sexual minorities, and the lack of inclusion of questions ascertaining sexual orientation in routine research practice render older LGBT adults largely invisible in most research. This invisibility is perpetuated in clinical settings when providers do not ask about sexual orientation and when patients feel unsafe disclosing their sexual orientation. Further research is necessary to understand the barriers to accessing care and the health needs of aging sexual minorities so that culturally competent care and targeted interventions can be delivered. With marriage equality
-
-declared a constitutional right, older adults who identify as members of a sexual minority group will be more likely to disclose their status in research, clinical, and institutional living settings.
+The low representation of sexual minorities in studies of older adults, the frequent exclusion of older adults in studies of sexual minorities, and the lack of inclusion of questions ascertaining sexual orientation in routine research practice render older LGBT adults largely invisible in most research. This invisibility is perpetuated in clinical settings when providers do not ask about sexual orientation and when patients feel unsafe disclosing their sexual orientation. Further research is necessary to understand the barriers to accessing care and the health needs of aging sexual minorities so that culturally competent care and targeted interventions can be delivered. With marriage equality declared a constitutional right, older adults who identify as members of a sexual minority group will be more likely to disclose their status in research, clinical, and institutional living settings.
 
 ### Sexual Activity
 
@@ -128,7 +120,6 @@ Sexually active life expectancy projects population patterns of sexual activity 
 
 *FIGURE 35-3. Sexually active life expectancy. (Adapted with permission from Lindau ST, Gavrilova N. Sex, health, and years of sexually active life gained due to good health: evidence from two US population based cross sectional surveys of ageing. BMJ. 2010;340:c810.)*
 
-
 <a id="p508"></a>**[p. 508]**
 
 Further research is needed to evaluate the potential impact of sexually active life expectancy projections on individual health behavior. The sexually active life expectancy measure also quantifies years of sexually active life lost in the absence of knowledge and treatments to preserve sexual function as people age.
@@ -137,9 +128,7 @@ Further research is needed to evaluate the potential impact of sexually active l
 
 Among sexually active women, approximately half reported having one bothersome sexual problem; almost one-third reported having two. The most common sexual problems experienced by older women are summarized in Table 35-3. Lack of interest in sex, pain with intercourse, unpleasurable sex, and inability to experience orgasm are much more common among older women as compared to men and somewhat more common compared to younger women. Because some sexually inactive women discontinued sexual activity as a result of bothersome sexual problems, the NSHAP baseline study underestimates the prevalence of problems in the whole population. On the other hand, many women engage in sex despite bothersome problems. The rewards or gains of sexual engagement may outweigh the experience of sexual pain or lack of physical pleasure; some women may obligatorily participate in sex to satisfy their partner while others may lack agency to refuse.
 
-Problems related to sexuality in later life can result from sexually transmitted infection, trauma, and sexual
-
-violence or abuse. These topics are discussed below. Sexual dysfunction, including clinical diagnosis and treatment, is discussed later in this chapter.
+Problems related to sexuality in later life can result from sexually transmitted infection, trauma, and sexual violence or abuse. These topics are discussed below. Sexual dysfunction, including clinical diagnosis and treatment, is discussed later in this chapter.
 
 ### Sexually Transmitted Infections (STIs)
 
@@ -151,18 +140,15 @@ Viral infections, including genital herpes simplex virus (HSV) and human papillo
 
 *TABLE 35-3 ■ MOST COMMON SEXUAL PROBLEMS AMONG A POPULATION-BASED SAMPLE OF OLDER WOMEN IN THE UNITED STATES (N = 1550)*
 
-
 <a id="p509"></a>**[p. 509]**
 
 HSV-2 seroprevalence among men and women 70 years and older based on NHANES III data (1988–1994) was 28%, but women had a higher overall prevalence than men and rates were much higher among African-Americans (74%) and Mexican Americans (45%). High-risk, or oncogenic, HPV (HR-HPV) prevalence among women aged 57 to 85, based on 2005–2006 NSHAP data, was 6% and did not vary significantly across age or racial/ethnic groups. The prevalence of HR-HPV among older women is similar to that documented by NHANES for women aged 50 to 59. HR-HPV is an important factor in both cervical dysplasia and cervical cancer, a leading cause of female cancer death in the world. In the United States, about 20% of cervical cancer cases, but more than a third of cervical cancer deaths, occur in women aged 65 and older. Most screening and prevention strategies, including HPV vaccine, use age-based eligibility criteria that exclude older women.
 
 The rate of new HIV infection among older women in the United States, particularly those of minority racial and ethnic groups, has been increasing over the last several years, due mostly to transmission by heterosexual sex. Mucosal atrophy (vaginal, rectal) related to menopausal estrogen depletion increases an older woman’s susceptibility to mucosal tears and abrasions that can facilitate HIV transmission. In 2010, 27% of Americans diagnosed with HIV/AIDS after age 50 were women. Public health messages regarding HIV/AIDS prevention and detection do not target older women, and physicians rarely offer HIV counseling or testing to this group. The effects of HIV/AIDS and treatments on sexual function among older women have been minimally investigated. Please see Chapter 107 for further discussion of HIV in later life.
 
-STI prevention strategies for older adults have not been well-tested. Counseling women with new or multiple sexual partners warrants discussion of STI prevention, including education about barrier methods such as male and female condoms and dental dams (for oral sex) (Figure 35-4). Few older adults, including those in nonmarital sexual relationships, report using condoms. Condom use by older couples to prevent STIs may be compromised by the belief that condoms are not necessary if there is no risk of pregnancy; by changes in male and female physiology that occur with age;
+STI prevention strategies for older adults have not been well-tested. Counseling women with new or multiple sexual partners warrants discussion of STI prevention, including education about barrier methods such as male and female condoms and dental dams (for oral sex) (Figure 35-4). Few older adults, including those in nonmarital sexual relationships, report using condoms. Condom use by older couples to prevent STIs may be compromised by the belief that condoms are not necessary if there is no risk of pregnancy; by changes in male and female physiology that occur with age; and by knowledge, communication, and cultural barriers as seen in younger age groups. A male condom is best applied when the penis is fully erect, but for some older men, full erection may not occur until after coitus is initiated. Female condom use does not require a fully erect penis and may be preferable for some couples.
 
-and by knowledge, communication, and cultural barriers as seen in younger age groups. A male condom is best applied when the penis is fully erect, but for some older men, full erection may not occur until after coitus is initiated. Female condom use does not require a fully erect penis and may be preferable for some couples.
-
-For women, increased susceptibility to condominduced vaginal irritation or abrasion may result from vaginal dryness and/or atrophy caused by estrogen depletion. Foreplay is encouraged to stimulate full penile erection and maximal female arousal before attempting vaginal or other penetration. Use of water or silicone type lubricants is recommended to reduce vaginal and vulvar friction in couples using condoms (oil-based lubricants can reduce condom effectiveness). Because they dry quickly, water-based lubricants may actually increase vaginal friction. Condoms with spermicide are not necessary for post-reproductive age women and should be avoided because they have a shorter shelf-life and have been associated with urinary tract infection in younger women. Nonlatex male and female condoms and dental dams are available for individuals with latex sensitivities and allergies, and they have physical and performance properties that some individuals may prefer. Male and female condoms and dental dams are for onetime use only.
+For women, increased susceptibility to condom-induced vaginal irritation or abrasion may result from vaginal dryness and/or atrophy caused by estrogen depletion. Foreplay is encouraged to stimulate full penile erection and maximal female arousal before attempting vaginal or other penetration. Use of water or silicone type lubricants is recommended to reduce vaginal and vulvar friction in couples using condoms (oil-based lubricants can reduce condom effectiveness). Because they dry quickly, water-based lubricants may actually increase vaginal friction. Condoms with spermicide are not necessary for post-reproductive age women and should be avoided because they have a shorter shelf-life and have been associated with urinary tract infection in younger women. Nonlatex male and female condoms and dental dams are available for individuals with latex sensitivities and allergies, and they have physical and performance properties that some individuals may prefer. Male and female condoms and dental dams are for one-time use only.
 
 Medicare annual wellness visits are an ideal opportunity for physicians to assess their patients’ sexual history, although sexual history-taking is not included in the CMS quick reference document for the annual wellness visit. Medicare does cover HIV testing, and, for at-risk individuals, chlamydia, gonorrhea, syphilis, and hepatitis B tests. People at increased risk of STIs can receive up to two individual 20- to 30-minute, intensive in-person behavioral counseling sessions each year. These counseling sessions can include education, skills training, and guidance on safe sexual behavior and may help mitigate the competing clinical issues that prevent discussion of safer-sex practices during routine visits.
 
@@ -174,21 +160,17 @@ Early life events, including sexual trauma in the form of abuse, exploitation, g
 
 *FIGURE 35-4. Barrier methods of sexual protection. Latex male condom (left), nitrile female condom (middle), dental dam (right).*
 
-
 <a id="p510"></a>**[p. 510]**
 
 Lifetime estimates among older women indicate that 20% to 26% of women experience intimate partner violence; nearly 40% in one study reported that this was severe, including forced sex or sexual contact. In the NSHAP baseline study, 9% of women aged 57 to 85 reported a lifetime history of forced sex (which may or may not have been with an intimate partner); of these, nearly 40% reported that the most recent event occurred at or younger than age 19 and 16% reported that the most recent event occurred after age 40. Sexual dysfunction, particularly conditions such as vaginismus, dyspareunia, inability to experience orgasm, lack of pleasure with sex, and disturbing fantasies are more common among women with a history of sexual trauma, violence, or abuse. In conjunction with medical treatment and/or physical therapy, psychotherapy can be effective in helping women cope with sexual violence and experience positive sexual relationships.
 
-Elder mistreatment, or abuse, discussed in Chapter 48, is defined by the US CDC to include sexual abuse or abusive sexual contact but is not limited to an intimate partner. In fact, lack of a spouse or other partner,
-
-cognitive impairment, and institutionalization are risk factors for female sexual abuse and rape in later life. Very little is known about how commonly older women experience sexual violence or abuse; 3% of women aged 60 and older in one study reported having been pressured to have sex in a way they did not like or want since age 55. Few older women report that a physician has ever asked questions to ascertain sexual victimization. There is not sufficient evidence to support the accuracy of existing screening tools to identify abuse in older adults, and studies of interventions to address sexual trauma focus almost exclusively on younger women, perhaps explaining why physicians may feel ill-prepared to screen for victimization among older women. Screening questions for identifying intimate partner violence in the clinical setting are summarized in Table 35-4 and should be part of routine assessment of the older woman.
+Elder mistreatment, or abuse, discussed in Chapter 48, is defined by the US CDC to include sexual abuse or abusive sexual contact but is not limited to an intimate partner. In fact, lack of a spouse or other partner, cognitive impairment, and institutionalization are risk factors for female sexual abuse and rape in later life. Very little is known about how commonly older women experience sexual violence or abuse; 3% of women aged 60 and older in one study reported having been pressured to have sex in a way they did not like or want since age 55. Few older women report that a physician has ever asked questions to ascertain sexual victimization. There is not sufficient evidence to support the accuracy of existing screening tools to identify abuse in older adults, and studies of interventions to address sexual trauma focus almost exclusively on younger women, perhaps explaining why physicians may feel ill-prepared to screen for victimization among older women. Screening questions for identifying intimate partner violence in the clinical setting are summarized in Table 35-4 and should be part of routine assessment of the older woman.
 
 In acute or emergency care settings, intimate partner violence and sexual abuse should be considered when a woman presents with physical injury, vague symptoms (especially in recurrent visits), acute mental status changes, and/or is accompanied by a partner or other individual who interferes with the patient’s interaction with health care providers.
 
 ![Table 35-4](hazzard8e_ch35_table-35-4_p510.webp)
 
 *TABLE 35-4 ■ SAMPLE INTIMATE PARTNER VIOLENCE SCREENING QUESTIONS*
-
 
 <a id="p511"></a>**[p. 511]**
 
@@ -200,11 +182,9 @@ According to Masters and Johnson, the female sexual response is more variable th
 
 The pattern of female sexual response may vary across time and relationships, although little is known empirically about the physiology of the female sexual response cycle in later life or in the context of very long-term (several decades or more) relationships. Psycho-emotional changes, and changes in physical appearance with age, can negatively or positively affect an older woman’s feeling of attractiveness, and can influence her interest in sex. Some women indicate decreased psychological inhibition about physical appearance or improved self-image with age, both of which can be sexually liberating.
 
-As men age, the sexual response becomes more similar to that of women (a phenomenon some refer to as “feminization of the male sexual response cycle”). Tactile stimulation and foreplay are increasingly important for older male arousal, the time to erection and orgasm is longer, and latency between orgasms (the refractory period) is increased. Because few older men or women are aware of
+As men age, the sexual response becomes more similar to that of women (a phenomenon some refer to as “feminization of the male sexual response cycle”). Tactile stimulation and foreplay are increasingly important for older male arousal, the time to erection and orgasm is longer, and latency between orgasms (the refractory period) is increased. Because few older men or women are aware of these phenomena, these changes often cause unnecessary anxiety and shame, leading some couples to cease sexual activity as a consequence. The changes to sexual physiology that occur with age may be beneficial to some couples, as the mutual need for foreplay and the longer arousal phase in men makes it easier for some couples to experience simultaneous orgasm. Older couples should be provided basic information about the normative changes to sexual function that occur with aging. The National Institute on Aging offers an “AgePage” on this topic ([http://www.nia.nih.gov/health/publication/sexuality-later-life](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>)); the American Association of Retired Persons (AARP) also offers accessible, consumer-focused information about sexuality and intimacy in its publications. WomanLab.org, a resource from the University of Chicago Program in Integrative Sexual Medicine, was codeveloped with aging women to fill gaps in public and clinician understanding of female sexuality in the context of aging and illness.
 
-these phenomena, these changes often cause unnecessary anxiety and shame, leading some couples to cease sexual activity as a consequence. The changes to sexual physiology that occur with age may be beneficial to some couples, as the mutual need for foreplay and the longer arousal phase in men makes it easier for some couples to experience simultaneous orgasm. Older couples should be provided basic information about the normative changes to sexual function that occur with aging. The National Institute on Aging offers an “AgePage” on this topic ([http://www.nia.nih.gov/health/publication/sexuality-later-life](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>)); the American Association of Retired Persons (AARP) also offers accessible, consumer-focused information about sexuality and intimacy in its publications. WomanLab.org, a resource from the University of Chicago Program in Integrative Sexual Medicine, was codeveloped with aging women to fill gaps in public and clinician understanding of female sexuality in the context of aging and illness.
-
-Building on the pioneering work of Masters and Johnson, Basson proposed a widely referenced intimacybased, cyclical model of the female sexual response that incorporates the quality and duration of the relationship as well as the psycho-emotional component of female sexuality (Figure 35-5B). In women, sexual desire may occur before or following sexual arousal. This model emphasizes the role of intimacy in generating female sexual desire and suggests that lack of intimacy and unsatisfying sexual encounters can raise the threshold for interest and arousal in a subsequent sexual encounter. Rather than linear and discrete, the phases of the female sexual response are described by Basson as variably overlapping in a way that “blends mind and body.”
+Building on the pioneering work of Masters and Johnson, Basson proposed a widely referenced intimacy-based, cyclical model of the female sexual response that incorporates the quality and duration of the relationship as well as the psycho-emotional component of female sexuality (Figure 35-5B). In women, sexual desire may occur before or following sexual arousal. This model emphasizes the role of intimacy in generating female sexual desire and suggests that lack of intimacy and unsatisfying sexual encounters can raise the threshold for interest and arousal in a subsequent sexual encounter. Rather than linear and discrete, the phases of the female sexual response are described by Basson as variably overlapping in a way that “blends mind and body.”
 
 Further empirical characterization of the physiology and psychosocial aspects of the female sexual response cycle in later life, including how it might fluctuate within relationships over long durations of time, across relationships, and with aging, is needed both to inform women’s expectations and the clinical approach to older women’s sexuality.
 
@@ -217,7 +197,6 @@ Effects of senescence on the endocrine, neurovascular, musculoskeletal, genitour
 ![Figure 35-5](hazzard8e_ch35_figure-35-5_p512.webp)
 
 *FIGURE 35-5. A. Masters’ and Johnson’s models of sexual response cycles for females and males. Note: In female sexual response cycle, A, B, and C refer to three different sexual response patterns found in females. B. Adaptation (blue) of Basson’s model (pink) of the partnered female sexual response cycle highlighting features pertinent to older women (blue). (A, Reproduced with permission from Masters W, Johnson V. Human Sexual Response. Boston, MA: Little, Brown and Company; 1966. B, Adapted with permission from Basson R. The female sexual response: a different model. J Sex Marital Ther. 2000;26[1]:51–65.)*
-
 
 <a id="p513"></a>**[p. 513]**
 
@@ -233,7 +212,6 @@ Testosterone, along with dehydroepiandrosterone (DHEA), plays an important role 
 
 *TABLE 35-5 ■ AGE-ASSOCIATED GENITOURINARY CHANGES & SYMPTOMS*
 
-
 However, the FDA has not approved testosterone for this indication. Use of testosterone or DHEA to treat female sexual dysfunction is currently off-label in the United States and most countries, and requires close monitoring for side effects. Although rare, irreversible deepening of the voice and growth of facial hair may occur with testosterone use. In the 2019 Global Consensus Position Statement, an international task force found physiologic dosing of testosterone was not associated with severe side effects; however, long-term safety and efficacy have not been established in postmenopausal women.
 
 <a id="p514"></a>**[p. 514]**
@@ -242,10 +220,7 @@ However, the FDA has not approved testosterone for this indication. Use of testo
 
 *FIGURE 35-6. Central and peripheral effects on sexual function. Note: + indicates a positive effect, − indicates a negative effect, ? indicates the effect is unknown; 5-HT: 5-hydroxytryptamine (serotonin). (Adapted with permission from Clayton AH. Sexual function and dysfunction in women. Psychiatr Clin North Am. 2003;26[3]:673–682.)*
 
-
-Figure 35-6 summarizes central and peripheral hormonal mediators of sexual function (see also Chapter 97). Understanding centrally mediated neuroendocrine changes that occur with senescence is an active area of discovery, focused heavily on understanding cognitive pathophysiology. In women and female animal studies, interest in the cascade of neuroendocrine events resulting in menopause has been similarly driven by an effort to understand the role of sex hormones and hormone therapy in neuroplasticity
-
-and degeneration, as well as by efforts to treat female infertility. Application of this knowledge to female sexual function in later life, particularly sex differences in endocrine regulation of the sexual response cycle, is nascent.
+Figure 35-6 summarizes central and peripheral hormonal mediators of sexual function (see also Chapter 97). Understanding centrally mediated neuroendocrine changes that occur with senescence is an active area of discovery, focused heavily on understanding cognitive pathophysiology. In women and female animal studies, interest in the cascade of neuroendocrine events resulting in menopause has been similarly driven by an effort to understand the role of sex hormones and hormone therapy in neuroplasticity and degeneration, as well as by efforts to treat female infertility. Application of this knowledge to female sexual function in later life, particularly sex differences in endocrine regulation of the sexual response cycle, is nascent.
 
 Aside from its peripheral effects, estrogen plays an important central role via direct membrane receptor activity and modulation of neurotransmitters. Estrogen appears to exert neurotrophic and neuroprotective activity in the brain that mitigates hypothalamic damage that occurs with age. Estrogen also interacts with serotonin and norepinephrine metabolism, which may explain the role of estrogen depletion in sleep, mood, memory, and, through these and no doubt other mechanisms, the female sexual response cycle in later life.
 
@@ -267,9 +242,7 @@ Phosphodiesterase inhibitors are used in men to treat neurovascular causes of er
 
 ### Musculoskeletal System and Body Fat
 
-Parity, childbirth-related injury, pelvic or lower extremity trauma, obesity, and sedentariness can compromise the integrity of the vulvar, pelvic floor, and lower extremity musculature, contributing to incontinence and pelvic organ prolapse. Effective contraction and relaxation of the peri-introital, perineal, and pelvic floor muscles are important for penetration, arousal, orgasm, and the relaxation phase following orgasm. Loss of flexibility of hip muscles and compromised stability and mobility of hip joints, commonly experienced by women with arthritis or hip fracture, can interfere with sexual functioning in later life. Skeletal changes in the hips and vertebrae caused by loss of bone density, osteoporosis, vertebral compression and fracture, and arthritis can make vaginal penetration, particularly using “missionary” (female supine with hips and knees flexed) position, difficult and may be accommodated by use of alternative sexual positioning such as side-lying or
-
-sex without vaginal penetration. Prevention and treatment of these conditions with attention to maximizing musculoskeletal strength and flexibility can improve overall physical functioning and help preserve sexual capacity for aging women. Endorphin release associated with pleasurable sexual activity may help alleviate musculoskeletal pain.
+Parity, childbirth-related injury, pelvic or lower extremity trauma, obesity, and sedentariness can compromise the integrity of the vulvar, pelvic floor, and lower extremity musculature, contributing to incontinence and pelvic organ prolapse. Effective contraction and relaxation of the peri-introital, perineal, and pelvic floor muscles are important for penetration, arousal, orgasm, and the relaxation phase following orgasm. Loss of flexibility of hip muscles and compromised stability and mobility of hip joints, commonly experienced by women with arthritis or hip fracture, can interfere with sexual functioning in later life. Skeletal changes in the hips and vertebrae caused by loss of bone density, osteoporosis, vertebral compression and fracture, and arthritis can make vaginal penetration, particularly using “missionary” (female supine with hips and knees flexed) position, difficult and may be accommodated by use of alternative sexual positioning such as side-lying or sex without vaginal penetration. Prevention and treatment of these conditions with attention to maximizing musculoskeletal strength and flexibility can improve overall physical functioning and help preserve sexual capacity for aging women. Endorphin release associated with pleasurable sexual activity may help alleviate musculoskeletal pain.
 
 Although more than a third of women age 65 and older are obese, little is known about the effect of obesity on older women’s sexual function and satisfaction. Research is further complicated by women’s varying self-appraisals of their body size and attractiveness, the frequent co-occurrence of obesity and chronic disease among older women, and the potentially different contributions of abdominal adiposity, generalized obesity, and relative weight gain postmenopause.
 
@@ -291,8 +264,7 @@ There is ample evidence that older women, including those who are not currently 
 
 ![Figure 35-7](hazzard8e_ch35_figure-35-7_p516.webp)
 
-*FIGURE 35-7. Examples of image and text indicating freedom from discrimination for lesbian, gay, bisexual, transsexual (LGBT) patients. Front (top left) and back (top right) of brochure for the Program in Integrative Sexual Medicine at the University of Chicago, showing rainbow flag icon indicating that LGBT patients are welcome; bottom: excerpt from patient bill of rights and responsibilities for the Cook County Health and Hospitals System indicating nondiscrimination policy. (Top, Reproduced with permission from anneryanphoto.com. Bottom, [https://cookcountyhealth.org/wp-content/uploads/2014-03-27Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf](<https://cookcountyhealth.org/wp-content/uploads/2014-03-27-Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf>).)*
-
+*FIGURE 35-7. Examples of image and text indicating freedom from discrimination for lesbian, gay, bisexual, transsexual (LGBT) patients. Front (top left) and back (top right) of brochure for the Program in Integrative Sexual Medicine at the University of Chicago, showing rainbow flag icon indicating that LGBT patients are welcome; bottom: excerpt from patient bill of rights and responsibilities for the Cook County Health and Hospitals System indicating nondiscrimination policy. (Top, Reproduced with permission from anneryanphoto.com. Bottom, [https://cookcountyhealth.org/wp-content/uploads/2014-03-27-Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf](<https://cookcountyhealth.org/wp-content/uploads/2014-03-27-Pt-Bill-of-Rights_2013-07-11-FINAL-English.pdf>).)*
 
 Table 35-6 lists basic sexual history questions that can be incorporated into a routine geriatrics encounter and should be tailored to the individual’s needs.
 
@@ -312,10 +284,7 @@ The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5)
 
 *TABLE 35-6 ■ SEXUAL HISTORY-TAKING AND SEXUAL EDUCATION IN THE ROUTINE GERIATRICS ENCOUNTER*
 
-
-Population estimates of sexual problems from the cross-sectional NSHAP study (Figure 35-8) and other studies are useful for quantifying the baseline prevalence of sexual problems in later life, or even bothersome sexual
-
-problems, but should not be expected to translate precisely into population rates of female sexual dysfunction, clinically defined. Prevalence estimates for older women can be estimated from prior studies, but are needed for the newly defined classes of genitopelvic pain/penetration disorder and female sexual interest/arousal disorder.
+Population estimates of sexual problems from the cross-sectional NSHAP study (Figure 35-8) and other studies are useful for quantifying the baseline prevalence of sexual problems in later life, or even bothersome sexual problems, but should not be expected to translate precisely into population rates of female sexual dysfunction, clinically defined. Prevalence estimates for older women can be estimated from prior studies, but are needed for the newly defined classes of genitopelvic pain/penetration disorder and female sexual interest/arousal disorder.
 
 <a id="p518"></a>**[p. 518]**
 
@@ -323,17 +292,13 @@ problems, but should not be expected to translate precisely into population rate
 
 *TABLE 35-7A ■ THE PLISSIT MODEL FOR ADDRESSING SEXUAL HEALTH NEEDS*
 
-
 ### Causes of Female Sexual Dysfunction
 
-Sexual dysfunction in later life can be primary, such as a lifelong history of bothersome low sexual desire, or secondary. Secondary causes include (1) interpersonal and personal psychological factors including depression and substance use, (2) biological factors including a wide spectrum of illnesses, injuries, physical disabilities, and their medical and surgical treatments (note that earlier life illness such as cancer and its treatment may have long-lasting effects on sexual function in survivors), and (3) social factors. The patient’s psychosexual history and her current partner’s
-
-physical and mental health, medications, substance use, and sexual function must also be investigated in order to gain a full picture of the patient’s sexual functioning and to appropriately tailor therapeutic interventions. Common medications implicated among iatrogenic causes of sexual dysfunction are summarized in Table 35-9. Evidence for the effects of drugs on sexual dysfunction is mixed overall and very limited with respect to older females, specifically. Treatment of underlying disease and health concerns, including common problems like incontinence, vaginal atrophy, sleep dysfunction, and depression, is an essential first step to addressing sexual function problems. Sexual side effects of medications can be offset by improvement of disease-related symptoms and better overall health.
+Sexual dysfunction in later life can be primary, such as a lifelong history of bothersome low sexual desire, or secondary. Secondary causes include (1) interpersonal and personal psychological factors including depression and substance use, (2) biological factors including a wide spectrum of illnesses, injuries, physical disabilities, and their medical and surgical treatments (note that earlier life illness such as cancer and its treatment may have long-lasting effects on sexual function in survivors), and (3) social factors. The patient’s psychosexual history and her current partner’s physical and mental health, medications, substance use, and sexual function must also be investigated in order to gain a full picture of the patient’s sexual functioning and to appropriately tailor therapeutic interventions. Common medications implicated among iatrogenic causes of sexual dysfunction are summarized in Table 35-9. Evidence for the effects of drugs on sexual dysfunction is mixed overall and very limited with respect to older females, specifically. Treatment of underlying disease and health concerns, including common problems like incontinence, vaginal atrophy, sleep dysfunction, and depression, is an essential first step to addressing sexual function problems. Sexual side effects of medications can be offset by improvement of disease-related symptoms and better overall health.
 
 ![Table 35-7B](hazzard8e_ch35_table-35-7b_p518.webp)
 
 *TABLE 35-7B ■ THERAPEUTIC MOMENT MODEL FOR ADDRESSING SEXUAL HEALTH NEEDS AS FOLLOWS:*
-
 
 <a id="p519"></a>**[p. 519]**
 
@@ -341,13 +306,11 @@ physical and mental health, medications, substance use, and sexual function must
 
 *TABLE 35-8 ■ DEFINITIONS OF FEMALE SEXUAL DYSFUNCTION FROM THE DSM-5*
 
-
 <a id="p520"></a>**[p. 520]**
 
 ![Table 35-8 (continued)](hazzard8e_ch35_table-35-8-continued_p520.webp)
 
 *TABLE 35-8 ■ DEFINITIONS OF FEMALE SEXUAL DYSFUNCTION FROM THE DSM-5*
-
 
 ![Figure 35-8](hazzard8e_ch35_figure-35-8_p520.webp)
 
@@ -355,13 +318,11 @@ physical and mental health, medications, substance use, and sexual function must
 
 > *[sic — Both Hazzard’s Table 35-3 footnote (p508) and Figure 35-8 caption (p520) include the added condition of having a sexual problem. The NSHAP study reports individual problems among sexually active respondents, including people who did not have the particular problem counted.]* [Lindau et al., NEJM, 2007](https://pubmed.ncbi.nlm.nih.gov/17715410/).
 
-
 <a id="p521"></a>**[p. 521]**
 
 ![Table 35-9](hazzard8e_ch35_table-35-9_p521.webp)
 
 *TABLE 35-9 ■ DRUGS IMPLICATED IN SEXUAL DYSFUNCTION, ALTHOUGH RESEARCH IS NEEDED TO BUILD THE EVIDENCE BASE FOR THE EFFECTS OF MEDICATION ON FEMALE SEXUAL FUNCTION*
-
 
 ### Clinical Evaluation of Sexual Dysfunction
 
@@ -373,7 +334,6 @@ Although many adult female sexual function problems have a psychosocial componen
 
 *TABLE 35-10 ■ QUESTIONS TO ASSESS SEXUAL DYSFUNCTION IN THE PRIMARY CARE SETTING*
 
-
 Details of the routine gynecologic examination can be found in Chapter 36. A vulvar cotton swab test can be used to quantify and localize vulvar pain, although some have questioned specificity of this test. Graded vaginal dilators can be used to demonstrate to the patient her vaginal capacity and to educate
 
 <a id="p522"></a>**[p. 522]**
@@ -382,9 +342,7 @@ her about dilation, a useful modality in women seeking to resume sexual intercou
 
 ### Clinical Management of Female Sexual Dysfunction
 
-Although the evidence base for treatment of sexual problems in women is growing, few studies to date include women 65 years and older. Treatment of many sexual problems benefits from an interdisciplinary approach when possible, including thorough medical evaluation, and in some cases, physical and/or psychotherapy. Despite improved coverage of mental health services for Medicare beneficiaries, very few mental health professionals with expertise in geriatrics are also certified in sex therapy. The overview of clinical management presented here draws heavily on recommendations by the Female Sexual Dysfunction Practice Bulletin (Number 2013) updated in 2019 by the American College of Obstetricians and Gynecologists (ACOG), as well as the International Menopause Society White Paper
-
-on sexual well-being after menopause, and uses DSM-5 classifications. It aims to give primary care providers initial treatment options. If available and affordable, referral to a specialist with experience in treatment of female sexual dysfunction may be optimal. Psychotherapy, including couples’ and sex therapy, cognitive-behavioral approaches, mindfulness, and sensate focus techniques have been successfully implemented for treatment of female sexual dysfunction and can be adapted to the needs of older women and couples.
+Although the evidence base for treatment of sexual problems in women is growing, few studies to date include women 65 years and older. Treatment of many sexual problems benefits from an interdisciplinary approach when possible, including thorough medical evaluation, and in some cases, physical and/or psychotherapy. Despite improved coverage of mental health services for Medicare beneficiaries, very few mental health professionals with expertise in geriatrics are also certified in sex therapy. The overview of clinical management presented here draws heavily on recommendations by the Female Sexual Dysfunction Practice Bulletin (Number 2013) updated in 2019 by the American College of Obstetricians and Gynecologists (ACOG), as well as the International Menopause Society White Paper on sexual well-being after menopause, and uses DSM-5 classifications. It aims to give primary care providers initial treatment options. If available and affordable, referral to a specialist with experience in treatment of female sexual dysfunction may be optimal. Psychotherapy, including couples’ and sex therapy, cognitive-behavioral approaches, mindfulness, and sensate focus techniques have been successfully implemented for treatment of female sexual dysfunction and can be adapted to the needs of older women and couples.
 
 ### Genitopelvic Pain/Penetration Disorder
 
@@ -394,22 +352,19 @@ Genitopelvic pain/penetration disorder is more common during and after menopause
 
 *TABLE 35-11 ■ OVERVIEW OF VAGINAL LUBRICANTS AND MOISTURIZERS*
 
-
 <a id="p523"></a>**[p. 523]**
 
-Vaginal dilation with graded dilators or other devices and behavioral, sex, or couples’ therapy are additional modalities that benefit many women with sexual pain disorders. Although, not FDA approved for treatment of VVA, energybased laser devices, such as microablative fractional CO2 and Erbium YAG lasers have shown promising short-term benefit in alleviation of symptoms due to VVA. It is important to note that in 2018 the US FDA issued warnings about injuries attributed to intravaginal lasers used as treatment for VVA.
+Vaginal dilation with graded dilators or other devices and behavioral, sex, or couples’ therapy are additional modalities that benefit many women with sexual pain disorders. Although, not FDA approved for treatment of VVA, energy-based laser devices, such as microablative fractional CO₂ and Erbium YAG lasers have shown promising short-term benefit in alleviation of symptoms due to VVA. It is important to note that in 2018 the US FDA issued warnings about injuries attributed to intravaginal lasers used as treatment for VVA.
 
 ### Orgasm Disorder
 
-Management depends heavily on whether the disorder is lifelong or acquired and situational or generalized. Acquired situational orgasmic disorder is most common and occurs in the setting of decreased libido and/or relational strain. Treatment primarily focuses on instruction in masturbation, also known as “sexual skills training.” Because older women, particularly those 75 years and older, report less experience with masturbation (some report they have never masturbated), ability to assess orgasmic ability may be limited. Encouragement to selfstimulate either manually or with a vibrator must take into account the woman’s experience with and attitudes about masturbation. Psychotherapy to assess psychological issues and attitudes regarding orgasm and to complement physical interventions may be necessary. Education about vulvar anatomy, the role of the clitoris in orgasm, and variations in female orgasm may be therapeutic for some women. Women with arousal disorders also commonly have difficulty experiencing orgasm, so evaluation of arousal should be included in women with this complaint. Sleep dysfunction is a common comorbidity in women with libido, arousal, and orgasm disorders.
+Management depends heavily on whether the disorder is lifelong or acquired and situational or generalized. Acquired situational orgasmic disorder is most common and occurs in the setting of decreased libido and/or relational strain. Treatment primarily focuses on instruction in masturbation, also known as “sexual skills training.” Because older women, particularly those 75 years and older, report less experience with masturbation (some report they have never masturbated), ability to assess orgasmic ability may be limited. Encouragement to self-stimulate either manually or with a vibrator must take into account the woman’s experience with and attitudes about masturbation. Psychotherapy to assess psychological issues and attitudes regarding orgasm and to complement physical interventions may be necessary. Education about vulvar anatomy, the role of the clitoris in orgasm, and variations in female orgasm may be therapeutic for some women. Women with arousal disorders also commonly have difficulty experiencing orgasm, so evaluation of arousal should be included in women with this complaint. Sleep dysfunction is a common comorbidity in women with libido, arousal, and orgasm disorders.
 
 ### Medical Therapy for Female Sexual Dysfunction
 
 Currently there are three FDA-approved medical treatments for postmenopausal women experiencing sexual dysfunction: conjugated equine estrogen, ospemifene, and intravaginal prasterone, as discussed earlier. Other systemic and local exogenous estrogen products, especially local vulvovaginal estrogen cream and vaginal estrogen tablets and rings, are commonly used off-label to treat dyspareunia in menopausal women.
 
-Hormone products have not been approved for use to treat female sexual interest/arousal disorder, but women treated with these products for VVA may experience improvement in desire and arousal that results from alleviation of dyspareunia. Two pharmaceuticals have been approved for treatment of “hypoactive sexual desire disorder,” a term that was eliminated with the 2013 revisions to the DSM-5: flibanserin, a serotonin agonist/ antagonist taken daily by mouth; and bremelanotide, a
-
-melanocortin-receptor-4 agonist given as a self-injection as needed before a sexual encounter. Neither drug has been approved for use in postmenopausal women
+Hormone products have not been approved for use to treat female sexual interest/arousal disorder, but women treated with these products for VVA may experience improvement in desire and arousal that results from alleviation of dyspareunia. Two pharmaceuticals have been approved for treatment of “hypoactive sexual desire disorder,” a term that was eliminated with the 2013 revisions to the DSM-5: flibanserin, a serotonin agonist/ antagonist taken daily by mouth; and bremelanotide, a melanocortin-receptor-4 agonist given as a self-injection as needed before a sexual encounter. Neither drug has been approved for use in postmenopausal women
 
 Androgen therapy, including testosterone and DHEA formulations, is being used off-label in some cases for treatment of sexual interest/arousal disorder. Systematic reviews have not shown efficacy with any of the DHEA formulations, but testosterone use has shown some benefit. However, side effects can be irreversible and safety is not established in older women. Tibolone, a synthetic steroid hormone, has been investigated for the treatment of sexual dysfunction in postmenopausal women but evidence of its benefits is limited and it is not approved by the FDA. Treatment of depression can improve sexual desire and interest, but some antidepressants, particularly selective serotonin reuptake inhibitors (SSRIs), can inhibit sexual interest. There is limited clinical data to inform treatment options for SSRI-induced sexual dysfunction, but decreasing or ceasing the SSRI dose, switching antidepressants, or using bupropion in combination with SSRIs to offset this side effect may be effective for some women.
 
@@ -423,76 +378,65 @@ Many aspects of older women’s health have been neglected by researchers and cl
 
 <a id="p524"></a>**[p. 524]**
 
-Many older women engage in sexual relationships despite sexual problems and pain, while others discontinue sex caused by problems that could be treated. Physicians caring for older women can positively impact their patients’ sexual functioning and overall well-being by initiating and fostering an open and ongoing dialogue about sexual matters in the context of healthy aging or in relation to medical conditions and their treatments. Public health messaging and medical education addressing the continued importance of sexual health discussions past reproductive age could help normalize late life female sexuality and validate older women’s sexual health concerns. Research is needed to establish trajectories of older women’s sexuality
-
-with aging especially among people identifying with racial, ethnic, and sexual minority groups, and to provide an evidence base for diagnosis and treatment of female sexual dysfunction in later life.
+Many older women engage in sexual relationships despite sexual problems and pain, while others discontinue sex caused by problems that could be treated. Physicians caring for older women can positively impact their patients’ sexual functioning and overall well-being by initiating and fostering an open and ongoing dialogue about sexual matters in the context of healthy aging or in relation to medical conditions and their treatments. Public health messaging and medical education addressing the continued importance of sexual health discussions past reproductive age could help normalize late life female sexuality and validate older women’s sexual health concerns. Research is needed to establish trajectories of older women’s sexuality with aging especially among people identifying with racial, ethnic, and sexual minority groups, and to provide an evidence base for diagnosis and treatment of female sexual dysfunction in later life.
 
 ## ACKNOWLEDGMENTS
 
 We would like to acknowledge Amber Matthews, BA, and Isabella Joslin, BA, research assistants in the Lindau Laboratory at the University of Chicago, for their contribution to the review and synthesis of the literature. Additionally, we would like to acknowledge Amber Matthews for her work on data visualization, figures, and editing.
 
 ## FURTHER READING
+- American College of Obstetricians and Gynecologists. Female sexual dysfunction. ACOG Practice Bulletin No. 213. Obstet Gynecol. 2019;134(1):203–205.
 
-American College of Obstetricians and Gynecologists.
+- American College of Obstetricians and Gynecologist. Sexual Health. ACOG Committee Opinion No 706 Summary. Obstet Gynecol. 2017;130(1):251–252.
 
-Female sexual dysfunction. ACOG Practice Bulletin No. 213. Obstet Gynecol. 2019;134(1):203–205. American College of Obstetricians and Gynecologist. Sex-
+- American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders: DSM-5. Washington, DC: American Psychiatric Association; 2013.
 
-ual Health. ACOG Committee Opinion No 706 Summary. Obstet Gynecol. 2017;130(1):251–252. American Psychiatric Association. Diagnostic and Statis-
+- Baron SR, Florendo J, Sandbo S, Mihai A, Lindau ST. Sexual pain disorders in women. Clinician Reviews; 2011. [http://www.clinicianreviews.com/the-publication/past-issues-single-view/sexual-pain-disorders-in-women/59f19a0743f02eceb02c4bd7196c235c.html](<https://www.mdedge.com/content/sexual-pain-disorders-women-0>). Accessed March 24, 2016.
 
-tical Manual of Mental Disorders: DSM-5. Washington, DC: American Psychiatric Association; 2013. Baron SR, Florendo J, Sandbo S, Mihai A, Lindau ST. Sex-
+- Basson R. The female sexual response: a different model. J Sex Marital Ther. 2000;26(1):51–65.
 
-ual pain disorders in women. Clinician Reviews; 2011. [http://www.clinicianreviews.com/the-publication/past-issues-single-view/sexual-pain-disorders-in-women/59f19a0743f02eceb02c4bd7196c235c.html](<https://www.mdedge.com/content/sexual-pain-disorders-women-0>). Accessed March 24, 2016. Basson R. The female sexual response: a different model.
+- Basson R, Wierman ME, Van Lankveld J, Brotto L. Reports: summary of the recommendations on sexual dysfunctions in women. J Sex Med. 2010;7(1):314–326.
 
-J Sex Marital Ther. 2000;26(1):51–65. Basson R, Wierman ME, Van Lankveld J, Brotto L. Reports:
+- Davis SR, Baber R, Panay N, et al. Global consensus position statement on the use of testosterone therapy for women. J Clin Endocrinol Metab. 2019;104(10):4660–4666.
 
-summary of the recommendations on sexual dysfunctions in women. J Sex Med. 2010;7(1):314–326. Davis SR, Baber R, Panay N, et al. Global consensus position
+- Fredriksen-Goldsen KI, Kim HJ, Emlet CA, et al. The Aging and Health Report: Disparities and Resilience among Lesbian, Gay, Bisexual, and Transgender Older Adults. Seattle, WA: Institute for Multigenerational Health; 2011.
 
-statement on the use of testosterone therapy for women. J Clin Endocrinol Metab. 2019;104(10):4660–4666. Fredriksen-Goldsen KI, Kim HJ, Emlet CA, et al. The Aging
+- Gaster B, Larson EB, Curtis JR. Advance directives for dementia: meeting a unique challenge. JAMA. 2017;318(22):2175–2176.
 
-and Health Report: Disparities and Resilience among Lesbian, Gay, Bisexual, and Transgender Older Adults. Seattle, WA: Institute for Multigenerational Health; 2011. Gaster B, Larson EB, Curtis JR. Advance directives
+- Hughes C. What you need to know about the Medicare preventive services expansion. Family Pract Manag. 2011;18(1):22–25.
 
-for dementia: meeting a unique challenge. JAMA. 2017;318(22):2175–2176. Hughes C. What you need to know about the Medicare
+- Islam RM, Bell RJ, Green S, Page MJ, Davis SR. Safety and efficacy of testosterone for women: a systematic review and meta-analysis of randomized controlled trial data. Lancet Diabetes Endocrinol. 2019;79(10):754–766.
 
-preventive services expansion. Family Pract Manag. 2011;18(1):22–25. Islam RM, Bell RJ, Green S, Page MJ, Davis SR. Safety and
+- Joy M, Weiss KJ. Consent for intimacy among persons with neurocognitive impairment. J Am Acad Psychiatry Law. 2018;46(3):286–294.
 
-efficacy of testosterone for women: a systematic review and meta-analysis of randomized controlled trial data. Lancet Diabetes Endocrinol. 2019;79(10):754–766.
+- Lindau ST, Dale W, Feldmeth G, et al. Sexuality and cognitive status: a U.S. nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018; 66(10):1902–1910.
 
-Joy M, Weiss KJ. Consent for intimacy among persons with
+- Lindau ST, Gavrilova N. Sex, health, and years of sexually active life gained due to good health: evidence from two US population based cross sectional surveys of ageing. BMJ. 2010;340:c810.
 
-neurocognitive impairment. J Am Acad Psychiatry Law. 2018;46(3):286–294. Lindau ST, Dale W, Feldmeth G, et al. Sexuality and cog-
+- Lindau ST, Laumann EO, Levinson W, Waite LJ. Synthesis of scientific disciplines in pursuit of health: the Interactive Biopsychosocial Model. Perspect Biol Med. 2003; 46(suppl 3):S74–S86.
 
-nitive status: a U.S. nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018; 66(10):1902–1910. Lindau ST, Gavrilova N. Sex, health, and years of sexually
+- Lindau ST, Schumm P, Laumann, EO, Levinson W, O’Muircheartaigh C, Waite L. A national study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357(8):762–774.
 
-active life gained due to good health: evidence from two US population based cross sectional surveys of ageing. BMJ. 2010;340:c810. Lindau ST, Laumann EO, Levinson W, Waite LJ. Synthesis
+- Lusti-Narasimhan M, Beard JR. Sexual health in older women. Bull World Health Organ. 2013;91(9):707–709.
 
-of scientific disciplines in pursuit of health: the Interactive Biopsychosocial Model. Perspect Biol Med. 2003; 46(suppl 3):S74–S86. Lindau ST, Schumm P, Laumann, EO, Levinson W,
+- Masters W, Johnson V. Human Sexual Response. Boston, MA: Little, Brown and Company; 1966.
 
-O’Muircheartaigh C, Waite L. A national study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357(8):762–774. Lusti-Narasimhan M, Beard JR. Sexual health in older
+- Moyer VA. Screening for intimate partner violence and abuse of elderly and vulnerable adults: U.S. preventive services task force recommendation statement. Ann Intern Med. 2013;158(6):478–486.
 
-women. Bull World Health Organ. 2013;91(9):707–709. Masters W, Johnson V. Human Sexual Response. Boston,
+- National Institutes of Health. PROMIS: dynamic tools to measure health outcomes from the patient perspective. https://www.healthmeasures.net/explore-measurement-systems/promis. Accessed December 13, 2021.
 
-MA: Little, Brown and Company; 1966. Moyer VA. Screening for intimate partner violence and
+- National Institute on Aging. AgePage: sexuality in later life; Revised 2017. [http://www.nia.nih.gov/sites/default/files/sexuality_in_later_life_0.pdf](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>). Accessed December 14, 2020.
 
-abuse of elderly and vulnerable adults: U.S. preventive services task force recommendation statement. Ann Intern Med. 2013;158(6):478–486. National Institutes of Health. PROMIS: dynamic tools to
-
-measure health outcomes from the patient perspective. https://www.healthmeasures.net/explore-measurement-systems/promis. Accessed December 13, 2021. National Institute on Aging. AgePage: sexuality in later life;
-
-Revised 2017. [http://www.nia.nih.gov/sites/default/files/sexuality_in_later_life_0.pdf](<https://www.nia.nih.gov/health/sexuality/sexuality-and-intimacy-older-adults>). Accessed December 14, 2020. Parish SJ, Hahn SR, Goldstein SW, et al. The international
-
-society for the study of women’s sexual health process
+- Parish SJ, Hahn SR, Goldstein SW, et al. The international society for the study of women’s sexual health process of care for the identification of sexual concerns and problems in women. Mayo Clin Proc. 2019;94(5): 842–856.
 
 <a id="p525"></a>**[p. 525]**
 
-of care for the identification of sexual concerns and problems in women. Mayo Clin Proc. 2019;94(5): 842–856. Portman DJ, Gass ML. Vulvovaginal Atrophy Terminology
+- Portman DJ, Gass ML. Vulvovaginal Atrophy Terminology Consensus Conference P. Genitourinary syndrome of menopause: new terminology for vulvovaginal atrophy from the International Society for the Study of Women’s Sexual Health and the North American Menopause Society. Maturitas. 2014;79(3):349–354.
 
-Consensus Conference P. Genitourinary syndrome of menopause: new terminology for vulvovaginal atrophy from the International Society for the Study of Women’s Sexual Health and the North American Menopause Society. Maturitas. 2014;79(3):349–354. Russell BA, Bachmann GA, Chudnoff S, et al. Find-
+- Russell BA, Bachmann GA, Chudnoff S, et al. Finding solutions for female sexual dysfunction. The American Congress of Obstetricians and Gynecologists; 2010. https://www.womentc.com/wp-content/uploads/2014/04/Finding-Solutions-for-FSD-ACOG.pdf. Accessed December 13, 2021.
 
-ing solutions for female sexual dysfunction. The American Congress of Obstetricians and Gynecologists; 2010. https://www.womentc.com/wp-content/uploads/2014/04/Finding-Solutions-for-FSD-ACOG.pdf. Accessed December 13, 2021. Simon JA, Davis SR, Althof SE, et al. Sexual well-being after
+- Simon JA, Davis SR, Althof SE, et al. Sexual well-being after menopause: an International Menopause Society White Paper. Climacteric. 2018;21(5):415–427.
 
-menopause: an International Menopause Society White Paper. Climacteric. 2018;21(5):415–427. US Department of Health and Human Services, Centers
+- US Department of Health and Human Services, Centers for Medicare & Medicaid Services. Your guide to Medicare’s preventive services; Revised 2018. [https://www.medicare.gov/Pubs/pdf/10110-Medicare-Preventive-Services.pdf](<https://www.medicare.gov/publications/10110-your-guide-to-medicare-preventive-services.pdf>). Accessed December 13, 2021.
 
-for Medicare & Medicaid Services. Your guide to Medicare’s preventive services; Revised 2018. [https://www.medicare.gov/Pubs/pdf/10110-Medicare-Preventive-Services.pdf](<https://www.medicare.gov/publications/10110-your-guide-to-medicare-preventive-services.pdf>). Accessed December 13, 2021. World Health Organization. Defining Sexual Health: Report
-
-of Technical Consultation on Sexual Health. Geneva: World Health Organization; 2002.
-
-<a id="p526"></a>**[p. 526]**
+- World Health Organization. Defining Sexual Health: Report of Technical Consultation on Sexual Health. Geneva: World Health Organization; 2002.

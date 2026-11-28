@@ -10510,12 +10510,12 @@
       "81s:recall-5"
     ],
     "fromRecall": true,
-    "anchor": "p1253",
-    "page": 1253,
     "answerSource": {
       "label": "GOLD Figure 3.10",
       "href": "https://goldcopd.org/wp-content/uploads/2025/11/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV.pdf#page=32"
-    }
+    },
+    "anchor": "p1253",
+    "page": 1253
   },
   {
     "id": "ch81-study-recall-7",
@@ -10937,7 +10937,7 @@
     "id": "ch101-study-recall-11",
     "chapter": "101",
     "front": "When was belimumab first approved, and when was its indication expanded to lupus nephritis?",
-    "back": "Hazzard dates initial FDA approval to 2011 and the expanded active lupus nephritis indication to 2021 (pp1621–1622). Current practice (not the book): the US supplemental approval was issued in December 2020 — FDA approval letter, 2020.",
+    "back": "Hazzard dates initial FDA approval to 2011 and the expanded active lupus nephritis indication to 2021 (pp1621–1622). Current practice (not the book): the US supplemental approval was issued in December 2020. FDA approval letter, 2020.",
     "questionIds": [],
     "recallKeys": [
       "101s:recall-11"
@@ -11614,7 +11614,7 @@
     "id": "ch75-study-recall-4",
     "chapter": "75",
     "front": "What STS risk cutoff defines \"prohibitive\" surgical risk for TAVR consideration, and what is the durability caveat for TAVR valves?",
-    "back": "Hazzard defines prohibitive SAVR risk as STS predicted morbidity and mortality >50% due to comorbidity or serious irreversible conditions. It describes TAVR valve durability beyond five years as unknown (p1153). Current practice (not the book): the NOTION randomized trial subsequently reported 10-year outcomes in lower-risk patients — NOTION follow-up, 2024.",
+    "back": "Hazzard defines prohibitive SAVR risk as STS predicted morbidity and mortality >50% due to comorbidity or serious irreversible conditions. It describes TAVR valve durability beyond five years as unknown (p1153). Current practice (not the book): the NOTION randomized trial subsequently reported 10-year outcomes in lower-risk patients. NOTION follow-up, 2024.",
     "questionIds": [],
     "recallKeys": [
       "75s:recall-4"
@@ -11718,7 +11718,7 @@
     "id": "ch75-study-recall-13",
     "chapter": "75",
     "front": "What INR range and duration of anticoagulation apply to a bioprosthetic aortic valve without additional risk factors?",
-    "back": "Table 75-15 gives INR 2–3 for the first 3 months plus aspirin 75–100 mg daily after bioprosthetic aortic valve replacement without additional risk factors. For a mechanical aortic valve it gives INR 2–3, increasing to 2.5–3.5 with thromboembolic risk factors, plus aspirin 75–325 mg daily (p1161). Current practice (not the book): ACC/AHA considers VKA to a target INR of 2.5 for 3–6 months reasonable after selected surgical bioprosthetic aortic or mitral replacement — ACC/AHA 2020.",
+    "back": "Table 75-15 gives INR 2–3 for the first 3 months plus aspirin 75–100 mg daily after bioprosthetic aortic valve replacement without additional risk factors. For a mechanical aortic valve it gives INR 2–3, increasing to 2.5–3.5 with thromboembolic risk factors, plus aspirin 75–325 mg daily (p1161). Current practice (not the book): ACC/AHA considers VKA to a target INR of 2.5 for 3–6 months reasonable after surgical bioprosthetic aortic or mitral replacement in patients at low risk of bleeding. ACC/AHA 2020.",
     "questionIds": [],
     "recallKeys": [
       "75s:recall-13"
@@ -19578,7 +19578,7 @@
     "id": "ch25-study-11",
     "chapter": "25",
     "front": "How much time can health care consume in the example for multimorbidity?",
-    "back": "On average 2 hours per day for health-related tasks and 2 hours per visit for patients and caregivers (p355).",
+    "back": "On average 2 hours per day for health-related tasks and 2 hours per health care facility visit, including travel, waiting and care, for patients and family caregivers (p355).",
     "questionIds": [],
     "recallKeys": [
       "25s:11"

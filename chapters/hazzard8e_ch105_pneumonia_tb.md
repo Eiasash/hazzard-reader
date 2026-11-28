@@ -66,9 +66,9 @@ Differentiation depending on the immunocompetence of the host is essential, as t
 
 Depending on the place of acquisition, pneumonia is classified as either CAP or hospital-acquired pneumonia (HAP). CAP is pneumonia that presents outside the hospital setting (and may be further differentiated into health care–associated pneumonia [HCAP]—see commentary below). HAP occurs after more than 48 hours of hospital stay or during 10 to 14 days after a hospital discharge. This differentiation is important due to the spectrum in microbial etiology. The microorganisms most frequently isolated in HAP are enteric GNB ( _Klebsiella pneumoniae_ , _Escherichia coli_ , Ps, _Serratia marcescens_ , and _Enterobacter_ spp), followed by gram-positive cocci (SA). In severe HAP, Ps and _Acinetobacter_ spp are the most common among gram-negative bacteria. Viruses and fungi are isolated less frequently, but must be taken into account in immunocompromised patients. The etiology may vary depending on the period of time pneumonia develops. In early HAP (within 5 days), the most common etiology is enteric GNB ( _E coli_ , _K pneumoniae_ , _Proteus,_ and _Serratia_ ), _H influenzae_ , SA, and _S pneumoniae_ . In late HAP (more than 5 days), _Acinetobacter_ spp, Ps, and methicillin-resistant SA (MRSA) increase in frequency. There are additional, specific risk factors associated with certain microorganisms that can guide the clinician toward a specific diagnosis in HAP. These risk factors can be useful when deciding the antibiotic treatment to establish ( **Table 105-1** ).
 
-**Table 105-1 — Specific risk factors for hospital-acquired pneumonia**
-
 ![Table 105-1](hazzard8e_ch105_table105-1_p1681.png)
+
+**Table 105-1 — Specific risk factors for hospital-acquired pneumonia**
 
 > *Table 105-1 reproduced as a page image (printed p. 1681) — the grid did not extract reliably as text for this fast build.*
 
@@ -84,9 +84,9 @@ It has been published that the probability of Ps or MRSA infection is increased 
 
 Colonization of the oropharynx may favor pneumonia due to unusual microorganisms through microaspiration. This is more common in older adults compared to younger patients. Risk factors for less common pathogens are shown in **Table 105-2** .
 
-**Table 105-2 — Risk factors for infection by less common pathogens**
-
 ![Table 105-2](hazzard8e_ch105_table105-2_p1682.png)
+
+**Table 105-2 — Risk factors for infection by less common pathogens**
 
 > *Table 105-2 reproduced as a page image (printed p. 1682) — the grid did not extract reliably as text for this fast build.*
 
@@ -104,9 +104,9 @@ Finally, it is known that colonization by SA is more frequent when there has bee
 
 Viral etiologies are increasingly recognized with wider utilization of PCR-based respiratory virus panels. In particular, influenza and RSV cause substantial morbidity and mortality in older adults. In the context of outbreaks in institutionalized patients, pneumonia can be caused either by primary viral agents or by a bacterial superinfection from _S pneumoniae_ , SA, and _H influenzae_ . Other respiratory viruses, such as parainfluenza, metapneumovirus, adenovirus, rhinovirus, and coronavirus (except for SARS-CoV-2), usually cause less severe respiratory infections in immunocompetent adults.
 
-**Table 105-3 — Clinical and epidemiologic conditions related to specific pathogens**
-
 ![Table 105-3](hazzard8e_ch105_table105-3_p1683.png)
+
+**Table 105-3 — Clinical and epidemiologic conditions related to specific pathogens**
 
 > *Table 105-3 reproduced as a page image (printed p. 1683) — the grid did not extract reliably as text for this fast build.*
 
@@ -172,17 +172,17 @@ predicting hospital mortality and/or the need for mechanical ventilation or inot
 
 > *[sic — The artwork shows the Pneumonia Severity Index described on p1685. The resistant-pathogen diagram appears in Figure 105-1 on p1684.]*
 
-**Table 105-4 — Prognostic scales: CURB-65**
-
 ![Table 105-4](hazzard8e_ch105_table105-4_p1686.png)
+
+**Table 105-4 — Prognostic scales: CURB-65**
 
 > *Table 105-4 reproduced as a page image (printed p. 1686) — the grid did not extract reliably as text for this fast build.*
 
 The detection of frailty and vulnerability by screening scales, such as Identification of Seniors at Risk (ISAR) or Triage Risk Screening Tool (TRST), or comprehensive geriatric assessment is particularly valuable to predict short-term adverse outcomes and decision making about diagnostic and therapeutic procedures and the most appropriate site of care.
 
-**Table 105-5 — Prognostic scales: severity of community-acquired pneumonia (SCAP)**
-
 ![Table 105-5](hazzard8e_ch105_table105-5_p1686.png)
+
+**Table 105-5 — Prognostic scales: severity of community-acquired pneumonia (SCAP)**
 
 > *Table 105-5 reproduced as a page image (printed p. 1686) — the grid did not extract reliably as text for this fast build.*
 
@@ -192,9 +192,9 @@ There are other independent and dynamic factors that influence prognosis regardi
 
 the systemic inflammatory response. Therefore, the probability of bacteremia, the presence of sepsis, severe sepsis or septic shock, and the inclusion of biomarkers should be taken into account in the decision-making process. As discussed previously, sepsis may be underdiagnosed in older adults due to physiologic changes with aging.
 
-**Table 105-6 — Prognostic scales: SMART-COP**
-
 ![Table 105-6](hazzard8e_ch105_table105-6_p1687.png)
+
+**Table 105-6 — Prognostic scales: SMART-COP**
 
 > *Table 105-6 reproduced as a page image (printed p. 1687) — the grid did not extract reliably as text for this fast build.*
 
@@ -202,9 +202,9 @@ the systemic inflammatory response. Therefore, the probability of bacteremia, th
 
 Clinical guidelines recommend the use of prognostic scales, mainly PSI and CURB-65, for admission decision making. Patients with PSI greater than or equal to III or CURB-65 greater than or equal to 2 meet criteria for hospital admission. The SCAP, SMART-COP, or ATS/IDSA scales can be helpful when deciding on ICU admission. In addition, other issues should be considered regarding site of care such as functional, cognitive, and social factors that may affect the final location.
 
-**Table 105-7 — Prognostic scales: ATS/IDSA**
-
 ![Table 105-7](hazzard8e_ch105_table105-7_p1687.png)
+
+**Table 105-7 — Prognostic scales: ATS/IDSA**
 
 > *Table 105-7 reproduced as a page image (printed p. 1687) — the grid did not extract reliably as text for this fast build.*
 
@@ -228,21 +228,21 @@ The issue of frailty is more complex. Mildly frail seniors (ie, independent or n
 
 monitoring of clinical, functional, and cognitive areas and interventions to restore function to the previous baseline should be paramount and part of the overall treatment plan. The same antibiotic choices as those used for independent patients suffice.
 
-**Table 105-8 — Treatment of community-acquired pneumonia in older adults**
-
 ![Table 105-8](hazzard8e_ch105_table105-8_p1688.png)
+
+**Table 105-8 — Treatment of community-acquired pneumonia in older adults**
 
 > *Table 105-8 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
 
-**Table 105-9 — Directed antibiotic treatment in pneumonia for specific pathogens**
-
 ![Table 105-9](hazzard8e_ch105_table105-9_p1688.png)
+
+**Table 105-9 — Directed antibiotic treatment in pneumonia for specific pathogens**
 
 > *Table 105-9 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
 
-**Table 105-10 — Empirical antibiotic treatment for hospital-acquired pneumonia (HAP)**
-
 ![Table 105-10](hazzard8e_ch105_table105-10_p1688.png)
+
+**Table 105-10 — Empirical antibiotic treatment for hospital-acquired pneumonia (HAP)**
 
 > *Table 105-10 reproduced as a page image (printed p. 1688) — the grid did not extract reliably as text for this fast build.*
 
@@ -252,9 +252,9 @@ In moderate-severe frailty, the invasive diagnostic and therapeutic procedures d
 
 comorbidity and polypharmacy, making them more vulnerable to the occurrence of adverse drug reactions. In addition, there may be important risk factors that determine specific etiologic risk (MDRO or MRSA colonization, aspiration risk, etc). Antibiotic choices in such patients must include broader coverage in addition to routine pathogens.
 
-**Table 105-11 — Dosage of the main antibiotics used in pneumonia**
-
 ![Table 105-11](hazzard8e_ch105_table105-11_p1689.png)
+
+**Table 105-11 — Dosage of the main antibiotics used in pneumonia**
 
 > *Table 105-11 reproduced as a page image (printed p. 1689) — the grid did not extract reliably as text for this fast build.*
 
@@ -424,9 +424,9 @@ Treatment is usually based on the administration of isoniazid for 9 months, unle
 
 <a id="p1695"></a>**[p. 1695]**
 
-**Table 105-12 — Treatment of pulmonary tuberculosis**
-
 ![Table 105-12](hazzard8e_ch105_table105-12_p1695.png)
+
+**Table 105-12 — Treatment of pulmonary tuberculosis**
 
 > *Table 105-12 reproduced as a page image (printed p. 1695) — the grid did not extract reliably as text for this fast build.*
 

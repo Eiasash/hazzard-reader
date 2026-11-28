@@ -51,7 +51,7 @@ These questions test Israeli consent and end-of-life law. The newer links lead t
 
 **A positive carotid Doppler after a TIA, pp. 112–113, Table 7-2.** First ask whether the patient would accept endarterectomy and could benefit from it. Cognitive and functional limitations can reduce the chance of completing recovery. In the book's review of symptomatic patients with 70%–99% stenosis, Doppler and noncontrast MRA both had 84% specificity. False positives therefore matter if the next step is invasive angiography or surgery. Explain both the risk of investigating and the stroke that effective treatment might prevent.
 
-> Current practice (not the book): Use noninvasive carotid imaging to assess symptomatic stenosis in patients who could benefit from intervention. Confirm discrepant or uncertain results with an appropriate second modality; intra-arterial angiography is not routinely required for every positive screening duplex. [Noninvasive carotid imaging meta-analysis, 2006](https://pubmed.ncbi.nlm.nih.gov/16679163/).
+> Current practice (not the book): Use noninvasive carotid imaging to assess symptomatic stenosis in patients who could benefit from intervention. When endarterectomy is being considered, corroborate duplex stenosis estimates with CTA, MRA or repeat duplex by a second operator; reserve catheter angiography for significant discrepancies between noninvasive tests. [ESVS carotid guidelines, 2023, recommendations 2 and 5](https://doi.org/10.1016/j.ejvs.2022.04.011).
 
 ## Shared decisions and planning for loss of capacity
 

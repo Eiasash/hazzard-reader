@@ -52,13 +52,11 @@ Other home-based approaches offer one-time visits or assessments or care focused
 
 *TABLE 17-1 ■ LONG-TERM SERVICES AND SUPPORTS AND HOME-BASED MEDICAL CARE MODELS*
 
-
 <a id="p240"></a>**[p. 240]**
 
 ![Table 17-1](hazzard8e_ch17_table-17-1_p240.webp)
 
 *TABLE 17-1 ■ LONG-TERM SERVICES AND SUPPORTS AND HOME-BASED MEDICAL CARE MODELS*
-
 
 those conditions, with the goal of delaying disease progression and avoiding hospitalization. Community paramedicine programs use emergency medical services to deliver hospital triage or assessment. They typically target high utilizers of emergency department or hospital services, or may work collaboratively with home-based primary care programs. Home-based urgent care programs provide urgent care options, sometimes through apps that help locate a local home-based care provider or to connect via telemedicine; these are typically urgent, one-time visits and not longitudinal, ongoing care. Additional short-term home-based interventions have been shown more recently to support older adults who continue to live in their homes. Community Aging in Place, Advancing Better Living for Elders (CAPABLE) is an intervention that involves an interprofessional team (occupational therapist, nurse, and handyperson) to help patients achieve goals they set and has been shown to reduce disability as well as costs for inpatient care and long-term support services. Maximizing Independence (MIND) at Home is a home-based dementia care coordination program that uses community health workers as a liaison between patients with dementia and a team with dementia expertise, and also has been shown to reduce costs of inpatient care and LTSS.
 
@@ -73,7 +71,6 @@ This array of models can be framed as a quasi-continuum of care services for old
 ![Figure 17-1](hazzard8e_ch17_figure-17-1_p241.webp)
 
 *FIGURE 17-1. Home-based care delivery models across the continuum of care for older adults.*
-
 
 home-based primary care program. However, the concept of a continuum is a useful construct for organizing categories of LTSS and home-based medical care.
 
@@ -123,13 +120,11 @@ Transitional care focuses on patients at high risk of poor outcomes during the t
 
 *TABLE 17-2 ■ EVIDENCE FOR EFFECTIVENESS OF LONG-TERM SERVICES AND SUPPORTS (LTSS) AND HOME-BASED MEDICAL CARE (HBMC) MODELS*
 
-
 <a id="p245"></a>**[p. 245]**
 
 ![Table 17-2](hazzard8e_ch17_table-17-2_p245.webp)
 
 *TABLE 17-2 ■ EVIDENCE FOR EFFECTIVENESS OF LONG-TERM SERVICES AND SUPPORTS (LTSS) AND HOME-BASED MEDICAL CARE (HBMC) MODELS*
-
 
 As Table 17-2 indicates, an extensive home care literature includes a wide variety of interventions and target populations. While this heterogeneity creates significant difficulty in drawing conclusions about the effectiveness and cost-effectiveness of home care, the overall body of evidence suggests that specific models when appropriately targeted are probably effective.
 
@@ -173,7 +168,6 @@ LTSS and home-based medical care are a varied collection of services and models 
 
 ## FURTHER READING
 
-
 - Augustine MR, Davenport C, Ornstein KA, et al. Implementation of post-acute rehabilitation at home: a skilled nursing facility-substitutive model. J Am Geriatr Soc. 2020;68(7):1584–1593.
 
 - Caplan GA, Sulaiman NS, Mangin DA, Aimonino Ricauda N, Wilson AD, Barclay L. A meta-analysis of “hospital in the home.” Med J Aust. 2012;197(9):512–519.
@@ -212,14 +206,13 @@ LTSS and home-based medical care are a varied collection of services and models 
 
 - Totten AM, Hansen RN, Wagner J, et al. Telehealth for acute and chronic care consultations. Comparative Effectiveness Review No. 216. (Prepared by Pacific Northwest Evidence-based Practice Center under Contract No. 2902015-00009-I.) AHRQ Publication No. 19-EHC012-EF. Rockville, MD: Agency for Healthcare Research and Quality; April 2019. Posted final reports are located on the Effective Health Care Program search page. https://doi.org/10.23970/AHRQEPCCER216. Accessed December 14, 2021.
 
-- Valluru G, Yudin J, Patterson C, et al. Integrated homeand community-based services improve community survival among independence at home Medicare beneficiaries without increasing Medicaid costs. J Am Geriatr Soc. 2019;67(7):1495–1501.
+- Valluru G, Yudin J, Patterson C, et al. Integrated home- and community-based services improve community survival among independence at home Medicare beneficiaries without increasing Medicaid costs. J Am Geriatr Soc. 2019;67(7):1495–1501.
 
 - Willink A, Kasper J, Skehan ME, Wolff JL, Mulcahy J, Davis K. Are older americans getting the long-term services and supports they need? Issue Brief (Commonw Fund). 2019;2019:1–9.
 
 - Wysocki A, Butler M, Kane RL, Kane RA, Shippee T, Sainfort F. Long-term services and supports for older adults: a review of home and community-based services versus institutional care. J Aging Soc Policy. 2015;27(3): 255–279.
 
-- Zimbroff RM, Ritchie CS, Leff B, Sheehan OC. Home-based primary and palliative care in the medicaid program: systematic review of the literature. J Am Geriatr Soc. 2021;69(1):245–254. <a id="p248"></a>**[p. 248]**
-
+- Zimbroff RM, Ritchie CS, Leff B, Sheehan OC. Home-based primary and palliative care in the medicaid program: systematic review of the literature. J Am Geriatr Soc. 2021;69(1):245–254.
 
 ## Israeli context — סיווג, מסגרת ומימון
 

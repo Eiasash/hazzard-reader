@@ -78,7 +78,6 @@ Definitions of constipation in older people in medical and nursing literature ha
 - Large amount of feces (hard or soft) in rectum on digital examination and/or
 - Colonic fecal loading on abdominal radiograph
 
-
 The Rome IV symptom criteria are useful in defining constipation in older people ( **Table 87-1** ). The Rome criteria overlap with constipation-predominant irritable bowel syndrome (IBS-C). Diagnostic criteria for IBS require recurrent abdominal pain at least one day per week in the last three months, associated with two or more of the following: abdominal pain related to defecation, change in frequency of stool toward infrequent, or change in form of stool toward harder stools. IBS-C subtype includes more than one-fourth of the defecations with Bristol stool types 1 or 2 and less than one-fourth of defecations with Bristol stool types 6 or 7 ( **see Figure 87-1** ).
 
 ## Prevalence Of Constipation
@@ -180,9 +179,9 @@ Colonic motility depends on the integrity of the central and autonomic nervous s
 
 Certain intrinsic mechanisms for altered colonic function in older persons with constipation have been postulated from physiologic studies ( **Table 87-4** ). The colonic epithelia decrease the secretion of water and electrolytes with aging due to a decrease of numbers of crypts and nongoblet epithelial cells. Overall collagen deposition in the left side of the colon increases with aging, and this could alter colonic compliance and motility. Direct electrophysiologic measurement of colonic motor activity in older subjects has shown that the sigmoid motor response to intraluminal bisacodyl (a direct stimulant of the myenteric plexus) is diminished in patients who are constipated, implying a deficit in intrinsic innervation. Myenteric plexus dysfunction may partially account for impaired gut motility in older persons with constipation. The total number of neurons in the myenteric plexus decreases with increasing age, and this neuronal loss bears no relation to the presence of pseudomelanosis coli cells, implying that use of anthraquinone laxatives is not the primary cause. Interestingly, these aging effects on the colon are not present in caloric restricted mice.
 
-**Table 87-4 — Pathophysiological mechanisms for constipation in older people**
-
 ![Table 87-4](hazzard8e_ch87_table87-4_p1356.png)
+
+**Table 87-4 — Pathophysiological mechanisms for constipation in older people**
 
 > *Table 87-4 reproduced as a page image (printed p. 1356) — the grid did not extract reliably as text for this fast build.*
 
@@ -778,7 +777,6 @@ _Senna_ is a cheap and safe agent for use in older patients. A trial of cascara 
   - *Common side effects:* Diarrhea, headache
   - *Cardiovascular safety<sup>a</sup>:* No arrhythmic activity in atrial cells; inhibits hERG at very high μmol/L concentration; no clinically relevant adverse cardiac effects in large trials (> 4000 subjects)
 
-
 Note: Only agents that have been tested in phase 3 clinical trials are included. CC, chronic constipation.
 <sup>a</sup>In addition to the listed effects, none of the agents shown in this table affect QTc in healthy subjects.
 <sup>b</sup>Approved by the FDA
@@ -957,4 +955,3 @@ A practical algorithmic approach to assessment and treatment of constipation in 
 - Vijayvargiya P, Camilleri M. Use of prucalopride in adults with chronic idiopathic constipation. _Expert Rev Clin Pharmacol_ . 2019;12:579–589.
 
 - Wanden-Berghe C, Patino-Alonso MC, Galindo-Villardon P, et al. Complications associated with enteral nutrition: CAFANE Study. _Nutrients_ . 2019;11.
-

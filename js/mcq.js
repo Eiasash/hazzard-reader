@@ -208,12 +208,9 @@ window.HazzardMCQ = (() => {
     const page=host.querySelector('.mcq-page'),bar=page?.querySelector('.mcq-actions,.sim-actions');
     if(!bar)return;
     mountQuestionMenu(page);
-    for(const button of page.querySelectorAll('[data-mcq="unsure"],[data-revision="questions"],[data-sim="flag"]'))bar.append(button);
-    const confidence=page.querySelector('.mcq-confidence');
-    if(confidence&&!confidence.childElementCount)confidence.remove();
-    const next=bar.querySelector('[data-mcq="next"]'),unsure=bar.querySelector('[data-mcq="unsure"]'),save=bar.querySelector('[data-revision="questions"]');
+    const flags=page.querySelector('[data-sim="flag"]');if(flags)bar.append(flags);
+    const save=page.querySelector('[data-revision="questions"]');
     if(save){const saved=save.getAttribute('aria-pressed')==='true';save.textContent=saved?'Saved':'Save';save.setAttribute('aria-label',saved?'Remove saved question':'Save question');}
-    if(next){if(unsure)bar.insertBefore(unsure,next);if(save)bar.insertBefore(save,next);}
     if(host.classList.contains('mcq-bank')){
       positionActionBar(page,bar);return;
     }
@@ -312,8 +309,8 @@ window.HazzardMCQ = (() => {
   for(const id of ["mcq-3afbf0f9b72106238069c283", "mcq-eb930fa58023870834e4de2a", "mcq-87ded8958c78f614611129e7", "mcq-d83b57579731130f5223d128", "mcq-5590fc958a0c9be33349042f", "mcq-a7166eeee0950320121fee29", "mcq-019bf231802c4f0babcf3e65", "mcq-10e277586d2f7f61487d08fa", "mcq-5507c165c4e52230feb53668", "mcq-dbca0ec187cc977ffcb45a5e", "mcq-a9ee28406aba3bbef8715ceb", "mcq-06686a5c7dc4ec3d4dc6d195", "mcq-c34569120a71dde31a3d8c16"])RETIRED_IDS.add(id);
   for(const id of ["mcq-4eb7d8c6ec78250e52740308", "mcq-297fb7e6f60e37619a03938c", "mcq-8d25fea5556f4c89b2cf5562"])RETIRED_IDS.add(id);
   const retired=id=>RETIRED_IDS.has(currentId(id));
-  const STANDOUT_IDS=new Set(["mcq-06a15a9053f355094b929a71","mcq-200f8271168f1ad2caf96ecd","mcq-3b5ae1e2e9727c9436fce936","mcq-7b70f07311595f68ed7aa9ea","mcq-84bc251181428aa940215436","mcq-8e03aa83677e26959c3ac715","mcq-d3b0cdb450de242399ac74be"]);
-  const STANDOUT_CHAPTER_COUNTS={"88":1,"law":2};
+  const STANDOUT_IDS=new Set(["mcq-06a15a9053f355094b929a71","mcq-200f8271168f1ad2caf96ecd","mcq-7b70f07311595f68ed7aa9ea","mcq-8e03aa83677e26959c3ac715","mcq-d3b0cdb450de242399ac74be"]);
+  const STANDOUT_CHAPTER_COUNTS={"27":1,"31":1,"67":1,"7":1,"88":1};
   for(const id of RETIRED_IDS)STANDOUT_IDS.delete(id);
   const SETTINGS_KEY='hazzard-practice-settings-v1',PLACE_KEY='hazzard-practice-place-v1';
   const settingNames=['includeStandout','shufflePastOptions','generatedSelected','drillSelected'];
@@ -763,7 +760,7 @@ window.HazzardMCQ = (() => {
       }
       if(block.dir==='rtl')for(const bdi of block.querySelectorAll('bdi')){
         const next=bdi.nextSibling;
-        if(next?.nodeType===3&&/^[.,;:!?](?=\s*[א-ת]|\s*$)/u.test(next.data)){next.data='\u2060'+next.data;bdi.classList.add('mcq-terminal-latin');}
+        if(next?.nodeType===3&&/^[.,;:!?](?=\s*[א-ת]|\s*$)/u.test(next.data)){bdi.append(next.data[0]);next.deleteData(0,1);bdi.classList.add('mcq-terminal-latin');}
       }
       for(const bdi of block.querySelectorAll('bdi'))if(!bdi.textContent)bdi.remove();
     }
@@ -1374,13 +1371,13 @@ window.HazzardMCQ = (() => {
           content.innerHTML='<p role="alert">'+escape(error.message)+'</p><button data-mcq="retry-body">Try again</button>';
         });return;
       }
-      if(q.readerReference)evidence.questions[q.id]=q.readerReference;
+      if(q.officialReference)evidence.questions[q.id]=q.officialReference;
       const state=stateFor(q),review=HazzardReview.read().items[q.id],canUndo=lastAnswer?.id===q.id&&(lastAnswer.kind==='unsure'||lastAnswer.at===state.at&&state.checked),accepted=q.accepted||[q.c],correct=accepted.includes(state.selected),script=questionScript(q),letters=script.letters,order=optionOrder(q,bankMode);content.dataset.bankId=q.id;
       const savedArrival=arrivalId&&window.HazzardAnswerHighlights.items().some(m=>m.id===arrivalId&&m.questionId===q.id);
       content.innerHTML=(redoMode?'<p class="meta mcq-redo-progress">Changed question '+(position+1)+' of '+list.length+'</p>':'')+'<span class="'+(q.kind==='past'?'exam-badge':'mcq-practice-tag')+'">'+(escape(sourceLabel(q)))+'</span><p class="meta mcq-topic-label"><span class="mcq-topic-text">'+escape(membership(q).map(t=>topics[t]||'').join(' · '))+(/^ima-harrison-(?:21|22)e-ch\d+$/.test(q.chapter||'')?' · '+escape(q.chapterTitle):(rc=>rc.length===1&&['law','laws'].includes(rc[0])?' · Israeli law':rc.length?' · Chapter'+(rc.length>1?'s ':' ')+escape(rc.join(', ')):'')(evidence.questions[q.id]?.chapters?.length?evidence.questions[q.id].chapters.map(String):q.chapter?[String(q.chapter)]:[]))+'</span> <button class="mcq-topic-flag" data-mcq="flag" aria-label="Wrong topic: '+escape(topics[topicChoicesOf(topic).find(t=>membership(q).includes(Number(t)))??q.topic]||'this question')+'">'+(personal.flags[q.id]?.hidden||systemPrefs.flags[q.id]?.hidden?'Flagged':'Wrong topic')+'</button></p>'+(generated(q)?answerFlagButton(q)+'<span class="meta" data-generated-status role="status"></span>':'')+(q.label&&q.kind==='past'?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':'')+'<div class="mcq-stem mcq-mixed" dir="'+script.dir+'" lang="'+script.lang+'">'+stemHTML(q)+'</div>'+
         (state.olderVersion?'<p class="mcq-source-note" role="note">Answered on an older version. Saved answer retained; answer again to check this version.</p>':'')+(redoMode?'<div class="mcq-confidence">'+revisionButtons(q)+'</div>':'<div class="mcq-confidence"><button data-mcq="unsure" title="Add to review without changing your answer" aria-pressed="'+!!review?.unsure+'">'+(review?.unsure?'✓ Unsure':'Unsure')+'</button>'+(canUndo?'<button class="mcq-answer-undo" data-mcq="undo">Undo</button>':'')+revisionButtons(q)+'</div>'+unsureStatus(q,state,review))+revisionStatus()+
         (q.images||[]).map((url,i)=>'<button class="mcq-image" data-image="'+i+'" aria-label="Enlarge question image '+(i+1)+'"><img src="'+escape(url)+'" alt="Question image '+(i+1)+'" loading="lazy"></button>').join('')+
-        '<div class="mcq-options" role="group" aria-label="Answer options" dir="'+script.dir+'" lang="'+script.lang+'">'+order.map((i,display)=>'<div class="mcq-option-row'+(crossed.has(q.id,i)?' is-crossed':'')+'"><button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-choice-id"><span class="mcq-letter">'+(letters[display]||String(display+1))+'</span>'+(state.checked&&(accepted.includes(i)||state.selected===i)?'<span class="mcq-answer-mark">'+(accepted.includes(i)?'✓':'✕')+'</span>':'')+'</span><span class="mcq-mixed" dir="auto" lang="'+questionScript({q:q.o[i]}).lang+'">'+rich(q.o[i])+'</span></button><button type="button" class="mcq-cross" data-cross="'+i+'" aria-pressed="'+crossed.has(q.id,i)+'" aria-label="'+(crossed.has(q.id,i)?'Restore':'Cross out')+' option '+(letters[display]||String(display+1))+'" '+(state.checked?'hidden':'')+' ><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5"/></svg></button></div>').join('')+'</div>'+
+        '<div class="mcq-options" role="group" aria-label="Answer options" dir="'+script.dir+'" lang="'+script.lang+'">'+order.map((i,display)=>'<div class="mcq-option-row'+(crossed.has(q.id,i)?' is-crossed':'')+'"><button class="mcq-option '+(state.selected===i?'selected ':'')+(state.checked&&accepted.includes(i)?'correct ':'')+(state.checked&&state.selected===i&&!correct?'wrong':'')+'" data-option="'+i+'" aria-pressed="'+(state.selected===i)+'" '+(state.checked?'disabled':'')+'><span class="mcq-choice-id"><span class="mcq-letter">'+(letters[display]||String(display+1))+'</span>'+(state.checked&&(accepted.includes(i)||state.selected===i)?'<span class="mcq-answer-mark">'+(accepted.includes(i)?'✓':'✕')+'</span>':'')+'</span><span class="mcq-mixed" dir="auto" lang="'+questionScript({q:q.o[i]}).lang+'">'+rich(q.o[i])+'</span></button><button type="button" class="mcq-cross" title="Cross out or restore this option" data-cross="'+i+'" aria-pressed="'+crossed.has(q.id,i)+'" aria-label="'+(crossed.has(q.id,i)?'Restore':'Cross out')+' option '+(letters[display]||String(display+1))+'" '+(state.checked?'hidden':'')+' ><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 6c-1-2-3-3-5-3-3 0-5 1-5 4 0 2 2 3 5 4m-5 6c1 3 3 4 5 4 3 0 5-2 5-4 0-2-2-3-4-4M3 12h18"/></svg></button></div>').join('')+'</div>'+
         '<div class="mcq-actions">'+(state.checked&&!host.classList.contains('mcq-bank')&&!mockMode&&!reviewMode?'<button class="mcq-pill" data-mcq="next-unanswered" '+(!list.some((other,i)=>i!==position&&!stateFor(other).checked)?'disabled':'')+'>Next unanswered</button>':'')+'<button class="mcq-pill" data-mcq="prev" '+(position===0?'disabled':'')+'>Prev</button><button class="mcq-pill" data-mcq="next" '+((reviewMode&&!state.checked||!mockMode&&!reviewMode&&nextPosition(list)<0)?'disabled':'')+'>Next</button></div>'+
         (state.checked?'<p class="mcq-result '+(correct?'correct':'wrong')+'" dir="'+script.dir+'" lang="'+script.lang+'" role="status">'+(script.lang==='en'?(correct?'✓ Correct':'✕ Incorrect · '+accepted.map(i=>letters[order.indexOf(i)]).join(', ')):correct?'✓ תשובה נכונה':'✕ תשובה שגויה · '+(accepted.length>1?'תשובות מתקבלות: ':'התשובה הנכונה: ')+accepted.map(i=>letters[order.indexOf(i)]||String(order.indexOf(i)+1)).join(', '))+'</p>'+(q.kind==='past'&&order.some((n,i)=>n!==i)?'<p class="mcq-source-note mcq-official-order" dir="ltr">Options shuffled. Official paper order: answer '+accepted.map(i=>letters[i]).join(', ')+'</p>':'')+(q.label&&q.kind!=='past'?'<p class="mcq-source-note" role="note">'+sourceHTML(sourceTitle(q.label))+'</p>':''):'')+((state.checked||savedArrival)?'<section class="mcq-explanation" dir="auto" lang="'+questionScript({q:q.explanation}).lang+'"><h3 dir="'+script.dir+'">'+(script.lang==='he'?'הסבר':'Explanation')+'</h3><div class="mcq-mixed" dir="auto">'+explanationHTML(q,order)+'</div>'+explanationReviewHTML(q)+'</section>':'')+citationHTML(q);
       for(const image of content.querySelectorAll('img'))image.onerror=()=>{image.parentElement.replaceWith(Object.assign(document.createElement('p'),{textContent:'Question image unavailable. Reconnect to finish downloading the reader.'}));for(const b of content.querySelectorAll('[data-option]'))b.disabled=true;};
@@ -1523,9 +1520,14 @@ window.HazzardMCQ = (() => {
         const first=target?items.find(q=>q.id===currentId(target)):visible()[position];
         if(first&&!(mockMode&&building))await HazzardQuestionData.hydrate([first]);
         loaded=true;restoringView=restored;search.restore();
-        if(target&&items.some(q=>q.id===currentId(target)&&q.retired)){notice='This practice question has been retired. Saved answers are retained.';render();}
-        else if(target&&excluded(target)){const q=items.find(q=>q.id===currentId(target));host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(q?'<div class="mcq-stem" dir="auto">'+stemHTML(q)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';}
-        else if(target&&!restored){if(items.some(q=>q.id===currentId(target)&&!q.retired))jump(target);else{notice='That question is unavailable.';render();}}
+        if(target && first?.retired){
+          host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Retired practice question</h1><p role="note">This question has been retired. Your saved answers are kept.</p><div class="mcq-stem" dir="auto">'+stemHTML(first)+'</div><a href="?chapter=bank">Open question bank</a></div>';
+        }else if(target&&excluded(target)){
+          host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Question search</h1><div class="mcq-question"><p role="note">'+EXCLUDED_NOTE+'</p>'+(first?'<div class="mcq-stem" dir="auto">'+stemHTML(first)+'</div>':'')+'<a href="?chapter=bank">Open question bank</a></div></div>';
+        }else if(target&&!restored){
+          if(first)jump(target);
+          else host.innerHTML='<div class="mcq-page" data-unavailable-question><h1>Question unavailable</h1><p role="note">This question could not be found.</p><a href="?chapter=bank">Open question bank</a></div>';
+        }
         else{
           const rv=reviewMode?history.state?.reviewView:null;
           if(rv&&visible()[position]?.id===rv.id){lastAnswer=rv.lastAnswer||null;restoringView=true;}

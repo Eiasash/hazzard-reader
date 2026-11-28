@@ -255,9 +255,9 @@ Manual wheelchairs are lighter in weight than power chairs and are fairly easy t
 
 Prescribing a wheelchair for use is an important decision, and the advantages and disadvantages for each patient need to be considered. For patients who are able to walk, having a wheelchair may discourage walking, leading to decreased muscle strength and endurance and increasing the probability of falling. However, not prescribing a wheelchair as walking ability declines can negatively affect quality of life. Patients and families need to be counseled on appropriate use of a wheelchair based on their unique needs.
 
-**Table 55-5** illustrates some of the commonly prescribed types of canes, walkers, and power chairs and describes some of the benefits and drawbacks of using the different mobility aids as well as clinical situations in which the device might be useful.
-
 ![Table 55-5](hazzard8e_ch55_table55-5_p828.png)
+
+**Table 55-5** illustrates some of the commonly prescribed types of canes, walkers, and power chairs and describes some of the benefits and drawbacks of using the different mobility aids as well as clinical situations in which the device might be useful.
 
 > *Table 55-5 — Key features and clinical situations where ambulatory devices might be beneficial. Reproduced as a page image (printed p. 828).*
 

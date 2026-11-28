@@ -364,6 +364,7 @@ Renovascular hypertension is a common cause of potentially remediable secondary 
 Atherosclerosis accounts for almost 90% of cases in the geriatric population, with fibrous dysplasia comprising the rest, but the spectrum of diseases that can cause renovascular
 
 <a id="p1288"></a>**[p. 1288]**
+
 ![Table 83-3](hazzard8e_ch83_table83-3_p1288.png)
 
 > *Table 83-3 reproduced as a page image (printed p. 1288) — the grid did not extract reliably as text for this fast build.*

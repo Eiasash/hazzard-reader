@@ -368,7 +368,6 @@ Optimizing use of drug therapy is a critical priority for older adults and invol
 
 ## FURTHER READING
 
-
 - Abrahamsen B, Hansen RN, Rossing C. For which patient subgroups are there positive outcomes from a medication review? A systematic review. Pharm Pract (Granada). 2020; 18(4):1976.
 
 - Boyd CM, Darer J, Boult C, Fried LP, Boult L, Wu AW. Clinical practice guidelines and quality of care for older patients with multiple comorbid diseases: implications for pay for performance. JAMA. 2005;294(6):716–724.
@@ -393,7 +392,9 @@ Optimizing use of drug therapy is a critical priority for older adults and invol
 
 - Piggott KL, Mehta N, Wong CL, Rochon PA. Using a clinical process map to identify prescribing cascades in your patient. BMJ. 2020;368:m261.
 
-- Rochon PA, Gurwitz JH. The prescribing cascade revisited. Lancet. 2017;389(10081):1778–1780. <a id="p316"></a>**[p. 316]**
+- Rochon PA, Gurwitz JH. The prescribing cascade revisited. Lancet. 2017;389(10081):1778–1780.
+
+<a id="p316"></a>**[p. 316]**
 
 - Rochon PA, Petrovic M, Cherubini A, et al. Polypharmacy, inappropriate prescribing, and deprescribing in older people: through a sex and gender lens. Lancet Healthy Longevity. 2021;2(5):E290–E300.
 

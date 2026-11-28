@@ -101,13 +101,13 @@ Start with the indication, the drug and the bleeding risk of the operation. The 
 
 A recent DVT or pulmonary embolus changes the timing of elective surgery. Hazzard advises waiting at least **3 months** if possible. When surgery cannot wait, the chapter describes pre- and postoperative LMWH bridging in a warfarin-treated patient with recent VTE while **INR <2.0** (<a href="?chapter=27#p380">p380</a>).
 
-> **Current practice: Warfarin bridging.** most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk — [AHA/ACC 2024, §7.6](https://doi.org/10.1161/CIR.0000000000001285).
+> **Current practice: Warfarin bridging.** most warfarin-treated patients do not need perioperative bridging; consider it for selected patients with high thrombotic risk. [AHA/ACC 2024, §7.6](https://doi.org/10.1161/CIR.0000000000001285).
 
 **Anticoagulation: the regimen and qualifications printed in this edition** (<a href="?chapter=27#p380">p380</a>).
 
 **Warfarin, usual INR goal 2.0–3.0:** withhold **4 scheduled doses** to allow INR **<1.5** before surgery; a usual INR **>3.0** may need longer. Check INR on the surgery day. If excessive, the book describes vitamin K **1 mg IV** or **2.5 mg orally**, with further reversal within **24 hours**; for urgent reversal it names fresh frozen plasma. When INR is **<2.0**, consider other prophylactic antithrombotic interventions (<a href="?chapter=27#p380">p380</a>).
 
-> **Current practice: Urgent warfarin reversal.** For urgent reversal of warfarin, four-factor PCC corrects the vitamin K-dependent factor deficiency rapidly; give IV vitamin K for sustained reversal. Fresh frozen plasma is an alternative when PCC is unavailable. Distinguish this emergency pathway from a scheduled interruption before elective surgery. [AHA/ASA ICH guideline, 2022](https://doi.org/10.1161/STR.0000000000000407).
+> **Current practice: Urgent warfarin reversal.** In warfarin-associated spontaneous intracerebral hemorrhage with INR ≥2.0, use four-factor PCC in preference to fresh frozen plasma for rapid reversal; give IV vitamin K directly after factor replacement. With INR 1.3–1.9, PCC may be reasonable. Distinguish this emergency pathway from a scheduled interruption before elective surgery. [AHA/ASA ICH guideline, 2022](https://doi.org/10.1161/STR.0000000000000407).
 
 Clopidogrel inhibits platelets. Enoxaparin is an anticoagulant and cannot replace a P2Y12 inhibitor's effect on stent thrombosis. The older GRS knee-replacement question accepts both a five-to-seven-day interruption after a remote stent and continuation. Which course to take depends on surgical bleeding risk, thrombotic risk and the consequences of delaying surgery. Five to seven days is the expected interval to platelet-function recovery when interruption is chosen. [2024 AHA/ACC perioperative cardiovascular guideline, §7.5 and Table 12](https://doi.org/10.1161/CIR.0000000000001285)
 
@@ -189,7 +189,7 @@ More than 10% over 6 months or more than 5% over 1 month before surgery; screen 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-c69b8e39936a3e480b518b24"><span>2020 Q12</span> Cardiac perioperative mortality</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="Related teaching, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77f06f1660813e299868c240"><span>December 2021 Q36</span> Creatinine and cardiac risk</a> <a class="study-source-link" href="?chapter=27#ch27-rcri" aria-label="Related teaching, Related teaching">Related teaching</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-77f06f1660813e299868c240"><span>December 2021 Q36</span> Creatinine and cardiac risk</a> <a class="study-source-link" href="?chapter=27#ch27-rcri" aria-label="Related teaching">Related teaching</a></p>
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-368d1c6ff706583ac2c3f156"><span>June 2023 Q31</span> Stroke history and cardiac risk</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
@@ -197,9 +197,9 @@ More than 10% over 6 months or more than 5% over 1 month before surgery; screen 
 
 <p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-18b0ad7f9e472a626caf7cbe"><span>June 2025 Q39</span> Gas exchange and respiratory reserve</a> <a class="study-source-link" href="?chapter=27#p375" aria-label="exam reference, p375">p375</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7b6cc300fca7b2feb736490d"><span>June 2022 Q4</span> Preoperative stress imaging</a> <a class="study-source-link" href="?chapter=27#ch27-stress-imaging" aria-label="Related teaching, Related teaching">Related teaching</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-7b6cc300fca7b2feb736490d"><span>June 2022 Q4</span> Preoperative stress imaging</a> <a class="study-source-link" href="?chapter=27#ch27-stress-imaging" aria-label="Related teaching">Related teaching</a></p>
 
-<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0bc3f87851eec6c1dbe14f6a"><span>June 2022 Q11</span> When to stop clopidogrel</a> <a class="study-source-link" href="?chapter=27#ch27-clopidogrel" aria-label="Related teaching, Related teaching">Related teaching</a></p>
+<p class="study-question-row"><a href="?chapter=bank&amp;q=mcq-0bc3f87851eec6c1dbe14f6a"><span>June 2022 Q11</span> When to stop clopidogrel</a> <a class="study-source-link" href="?chapter=27#ch27-clopidogrel" aria-label="Related teaching">Related teaching</a></p>
 
 <details class="study-self-check" data-check-key="27s:recall-14"><summary>After DVT/PE, how long should elective surgery ideally wait, and when does the discussed warfarin bridging pathway apply?</summary>
 

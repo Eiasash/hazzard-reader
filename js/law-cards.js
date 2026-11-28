@@ -44,6 +44,7 @@ window.HazzardLawCards = (() => {
       if(!(i%2)){node.append(document.createTextNode(part));return;}
       const run=document.createElement('bdi');run.dir='ltr';if(/[A-Za-z]/.test(part))run.lang='en';run.textContent=part;node.append(run);
     });
+    if(rtl)HazzardChapterContent.formatHebrewReferences(node);
   }
   function read() {
     return promise ||= Promise.all(['data/law-cards.json','data/law-card-layout.json'].map(path=>fetch(path).then(response => {
@@ -103,7 +104,7 @@ window.HazzardLawCards = (() => {
   }
   function lesson(card,layout){
     const section=document.createElement('section');section.id='law-card-'+card.id;section.className='law-lesson';
-    const heading=document.createElement('h2');cardText(heading,card.title,layout);section.append(heading);
+    const heading=document.createElement('h2');cardText(heading,card.studyTitle||card.title,layout);section.append(heading);
     const list=document.createElement('ul');for(const text of new Set(card.bullets)){
       if(!text.trim())continue;
       const li=document.createElement('li');cardText(li,text,layout);list.append(li);
@@ -121,7 +122,7 @@ window.HazzardLawCards = (() => {
       const list=document.createElement('ul');
       for(const card of cards){
         if(card.id===selected)continue;
-        const li=document.createElement('li'),a=document.createElement('a');a.href=sourceURL(card.id);a.textContent=card.title;li.append(a);list.append(li);
+        const li=document.createElement('li'),a=document.createElement('a');a.href=sourceURL(card.id);a.textContent=card.studyTitle||card.title;li.append(a);list.append(li);
       }
       details.append(list);
     });

@@ -137,48 +137,48 @@ Checked against the book.
 
 ## Recall
 
-**2. Which node has the greatest pacemaker-cell loss, and why must its quoted percentage be qualified?**
-<details><summary>Answer</summary>
+**1. Which node has the greatest pacemaker-cell loss, and why must its quoted percentage be qualified?**
+<details data-recall-key="73s:recall-2"><summary>Answer</summary>
 The SA node. Table 73-1 gives 75% loss (p1116), whereas the narrative gives 90% by age 70 (p1117). AV nodal losses are more modest; the figures should not be transferred to the AV node.
 </details>
 
-**3. What happens to SR calcium storage and release between beats?**
-<details><summary>Answer</summary>
+**2. What happens to SR calcium storage and release between beats?**
+<details data-recall-key="73s:recall-3"><summary>Answer</summary>
 Accumulation, retention, and effective reuptake decrease; spontaneous leak increases, leaving less calcium available for the next contraction and slowing relaxation. The almost 50% reduction in reuptake is from old rat/mouse hearts; reduced SERCA content is also described in humans. (p1117)
 </details>
 
-**4. How does age-associated fibrosis differ from an infarct scar?**
-<details><summary>Answer</summary>
+**3. How does age-associated fibrosis differ from an infarct scar?**
+<details data-recall-key="73s:recall-4"><summary>Answer</summary>
 Increased interstitial collagen creates a diffuse delicate pattern rather than focal post-infarction scar patches. Ischemia and hypertension can accelerate it but are not required; human imaging studies of healthy aging are not uniform. (p1117)
 </details>
 
-**5. Does common amyloid deposition in very old hearts rule out clinically significant amyloid cardiomyopathy?**
-<details><summary>Answer</summary>
+**4. Does common amyloid deposition in very old hearts rule out clinically significant amyloid cardiomyopathy?**
+<details data-recall-key="73s:recall-5"><summary>Answer</summary>
 No. Deposition may increase diastolic stiffness, and in some patients the burden causes progressive heart failure. Systemic senile amyloidosis is much less common than atrium-restricted deposition. (p1117)
 </details>
 
-**6. What is the chapter's synthesis of indexed LV mass and LA size with healthy aging?**
-<details><summary>Answer</summary>
+**5. What is the chapter's synthesis of indexed LV mass and LA size with healthy aging?**
+<details data-recall-key="73s:recall-6"><summary>Answer</summary>
 LV mass usually shows no change to a slight reduction after body-size adjustment, while LA size commonly increases. LA size alone does not identify the cause of chronically raised filling pressure. (p1118)
 </details>
 
-**11. What distinguishes coronary atherosclerosis from Mönckeberg medial calcification in this chapter?**
-<details><summary>Answer</summary>
+**6. What distinguishes coronary atherosclerosis from Mönckeberg medial calcification in this chapter?**
+<details data-recall-key="73s:recall-11"><summary>Answer</summary>
 Atherosclerosis is disease; medial calcification is described as probably age-related degeneration. Aging also brings coronary dilation and tortuosity. (p1120)
 </details>
 
-**12. State the directions of change in PR/QRS/QT, LV relaxation, and aortic impedance.**
-<details><summary>Answer</summary>
+**7. State the directions of change in PR/QRS/QT, LV relaxation, and aortic impedance.**
+<details data-recall-key="73s:recall-12"><summary>Answer</summary>
 PR/QRS/QT lengthen; LV stiffness increases and relaxation decreases; aortic impedance increases as arteries stiffen. (Table 73-2, p1121)
 </details>
 
-**13. How do resting and maximum exercise heart rate differ with healthy aging?**
-<details><summary>Answer</summary>
+**8. How do resting and maximum exercise heart rate differ with healthy aging?**
+<details data-recall-key="73s:recall-13"><summary>Answer</summary>
 Resting rate is generally unchanged, while maximum exercise rate declines. The book's prediction for healthy adults is 208 − (0.7 × age). (p1121)
 </details>
 
-**14. Can a restrictive filling pattern or new regional wall-motion abnormality be dismissed as normal aging?**
-<details><summary>Answer</summary>
+**9. Can a restrictive filling pattern or new regional wall-motion abnormality be dismissed as normal aging?**
+<details data-recall-key="73s:recall-14"><summary>Answer</summary>
 No. Expected delayed relaxation should be interpreted against age norms; restrictive/pseudonormal filling suggests disease (p1123). Regional wall-motion abnormalities remain abnormal (p1124, p1127).
 </details>
 

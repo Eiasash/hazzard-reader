@@ -6,7 +6,7 @@ J. Lisa Tenover, Alvin M. Matsumoto
 
 > Not cited in the 2020-2026 past papers.
 
-> **Source and method.** Printed pages 547-554, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
+> **Source and method.** Printed pages 547-553, from the marked 8th-edition copy (PDF page = printed page + 34). Prose follows its text layer; tables and figures are source-page crops. The book is canonical.
 
 <a id="p547"></a>**[p. 547]**
 
@@ -40,9 +40,7 @@ Reasons reported by older men for not engaging in sexual activity are varied, in
 
 ### Changes in Male Sexual Physiology With Age
 
-Overall there is a gradual slowing of sexual physical response time as men age. It takes more time to achieve sexual arousal, complete the sexual act, and become rearoused
-
-for further sexual activity. Table 37-1 lists the specific changes in the male sexual response cycle with age. Some of the changes have been shown to be impacted, at least in part, by low testosterone levels, while others are unaffected by hormone levels.
+Overall there is a gradual slowing of sexual physical response time as men age. It takes more time to achieve sexual arousal, complete the sexual act, and become rearoused for further sexual activity. Table 37-1 lists the specific changes in the male sexual response cycle with age. Some of the changes have been shown to be impacted, at least in part, by low testosterone levels, while others are unaffected by hormone levels.
 
 ### The Aging Gay, Bisexual, or Transgender (GBT) Male
 
@@ -54,8 +52,7 @@ As of 2017, somewhere between 1.4% and 2.4% of older men identified themselves a
 
 *FIGURE 37-1. A. Prevalence, by age group, of male sexual activity with a partner in previous 12 months obtained from a survey of a probability sample of 3000 US adults age 57 to 85 and from a population-based cohort study of 3274 men age 75 to 95. B. Prevalence of male sexual activity with a partner in previous 12 months, by age group, and of cognitive status as determined by short cognitive assessment tool, obtained from a survey of a probability sample of community-dwelling men aged 62 to 91. (A, blue bars, Data from Lindau ST, Schumm LP, Laumann EO, Levinson W, O’Muircheartaigh CA, Waite LJ. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357[8]:762–774. A, red bars, Data from Hyde Z, Flicker L, Hankey GJ, et al. Prevalence of sexual activity and associated factors in men aged 75 to 95 years: a cohort study. Ann Intern Med. 2010;153[11]:693–702. B, Data from Lindau ST, Dale W, Feldmeth G, et al. Sexuality and cognitive status: a U.S. nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018;66[10]:1902–1910.)*
 
-
-may suffer additional problems. GBT older men can face discrimination when seeking health care, and many service providers are poorly prepared to work with them. Additionally, these older men are likely to suffer additional stress while trying to find a partner, especially if their living situation changes and they move into assistedliving facilities or nursing homes. While assisted living and long-term care facilities have been evolving to become more welcoming to the LGBT community, disparities in care still exist. Specific organizations that address issues of aging gay, bisexual, or transgender persons have formed across the country.
+may suffer additional problems. GBT older men can face discrimination when seeking health care, and many service providers are poorly prepared to work with them. Additionally, these older men are likely to suffer additional stress while trying to find a partner, especially if their living situation changes and they move into assisted-living facilities or nursing homes. While assisted living and long-term care facilities have been evolving to become more welcoming to the LGBT community, disparities in care still exist. Specific organizations that address issues of aging gay, bisexual, or transgender persons have formed across the country.
 
 Unprotected sex occurs in approximately 10% of older gay men. Compared to younger gay men, however, older gay men get tested less often for sexually transmitted diseases, including testing for acquired immunodeficiency syndrome (AIDS). The incidence of AIDS is increasing in older men. Education about safe sex practices is important for the older population. Older males with a history of anal sex need to be regularly examined for anal cancer, as the prevalence increases in such persons.
 
@@ -67,7 +64,6 @@ Older GBT males should be encouraged to make advance directives for health and t
 
 *TABLE 37-1 ■ CHANGES IN THE MALE SEXUAL RESPONSE CYCLE WITH AGE*
 
-
 facilitate the ability of their partners to make their health decisions.
 
 ### Sex in Long-Term Care
@@ -76,9 +72,7 @@ While there is no reason to believe the desire for intimacy is lost on entering 
 
 ### Sex and Cognitive Impairment/Dementia
 
-Development of cognitive impairment does not equate with loss of sexuality or sexual function. Although age-adjusted rates of partnered sexual activity are lower in those with worse cognitive function, the majority of community dwelling partnered older men with dementia are sexually active. In one study (Figure 37-1B), more than 40% of partnered men, ages 80 to 91 and who screened positive for dementia, were sexually active, although compared to
-
-the same age men with normal cognition, those men with dementia were more likely to report obligatory sex and sex without arousal. Issues of sexuality, however, can be especially complex for those individuals who have significant dementia and can include loss of partner recognition, loss of memory of past sexual activity, and role changes, where one’s sexual partner now also is one’s caregiver. Physicians of demented male patients need to ask the spouse or partner about sexual issues or conflicts. Placing the problems in the context of dementia can assist with discussion of coping strategies. Nonsexual ways of expressing one’s intimacy, such as touching, holding hands, and massages, might be suggested.
+Development of cognitive impairment does not equate with loss of sexuality or sexual function. Although age-adjusted rates of partnered sexual activity are lower in those with worse cognitive function, the majority of community dwelling partnered older men with dementia are sexually active. In one study (Figure 37-1B), more than 40% of partnered men, ages 80 to 91 and who screened positive for dementia, were sexually active, although compared to the same age men with normal cognition, those men with dementia were more likely to report obligatory sex and sex without arousal. Issues of sexuality, however, can be especially complex for those individuals who have significant dementia and can include loss of partner recognition, loss of memory of past sexual activity, and role changes, where one’s sexual partner now also is one’s caregiver. Physicians of demented male patients need to ask the spouse or partner about sexual issues or conflicts. Placing the problems in the context of dementia can assist with discussion of coping strategies. Nonsexual ways of expressing one’s intimacy, such as touching, holding hands, and massages, might be suggested.
 
 Inappropriate sexual behavior (ISB) in individuals with dementia reportedly ranges from 7% to 25% with higher prevalence in men, in residents of nursing facilities, and in persons with more severe cognitive impairment. There is no universally accepted definition of ISB, but it has been described as sexually related activities or heightened sexual drive that interferes with function and is pursued at inappropriate times or with nonconsenting persons. Included in ISB are unwanted verbal remarks, unwanted touching, disrobing, public masturbation, unwanted sexual advances, and sexual aggression. ISB can cause conflict between a patient’s autonomy and the prevention of psychological and physical trauma. It impacts families, care providers, and, especially in long-term care facilities, may threaten others who might be unable or unwilling to give informed consent.
 
@@ -96,8 +90,9 @@ The major categories of sexual dysfunction in older men include erectile dysfunc
 
 *FIGURE 37-2. Prevalence, by age group, of erectile dysfunction (ED) from a longitudinal population-based study of community-dwelling men, and the 10-year follow-up incidence of cardiovascular events as a function of baseline presence or absence of ED. (Data from Inman BA, Sauver JL, Jacobson DJ, et al. A population-based, longitudinal study of erectile dysfunction and future coronary artery disease. Mayo Clin Proc. 2009;84[2]:108–113.)*
 
+study of middle-aged and older men, the reported incidence of some degree of ED was 55% for men at age 60, and 65% for men at 70 years; the prevalence of total ED was 15% at age 70. In a population-based prospective cohort study in Olmsted County, Minnesota, ED prevalence was 6% in men aged 50 to 59, 17% in men aged 60 to 69, and 39% in men aged 70 and older (Figure 37-2).
 
-study of middle-aged and older men, the reported incidence of some degree of ED was 55% for men at age 60, and 65% for men at 70 years; the prevalence of total ED was 15% at age 70. In a population-based prospective cohort study in Olmsted County, Minnesota, ED prevalence was 6% in men aged 50 to 59, 17% in men aged 60 to 69, and 39% in men aged 70 and older (Figure 37-2). Libido is dependent on learned responses, general health-related quality of life, and, to some extent, serum testosterone levels. As will be discussed later in this chapter, testosterone levels decline in men with normal aging, and some men may reach levels that are low enough to affect libido. Similarly, treatment of prostate cancer with androgen deprivation therapy (ADT) resulting in severe testosterone deficiency can be associated with loss of libido.
+Libido is dependent on learned responses, general health-related quality of life, and, to some extent, serum testosterone levels. As will be discussed later in this chapter, testosterone levels decline in men with normal aging, and some men may reach levels that are low enough to affect libido. Similarly, treatment of prostate cancer with androgen deprivation therapy (ADT) resulting in severe testosterone deficiency can be associated with loss of libido.
 
 <span id="ch37-bereavement"></span>Performance anxiety is common in older men and often a result of equating masculinity with speed and magnitude of sexual activity. A man may become so preoccupied by his performance that his confidence and sexual capacity lessen, leading to ED. Depression and psychosocial stresses also are prevalent in older men and contribute to sexual problems. “Widower’s syndrome,” where a man fails to achieve erection after the death of spouse, is a reported entity.
 
@@ -105,14 +100,13 @@ Inability to reach climax or resolution of climax without ejaculation can occur.
 
 ### Erectile Dysfunction
 
-Etiologies Table 37-2 lists the major etiologies of ED. Vascular disease, which includes both atherosclerotic arterial
+**Etiologies** Table 37-2 lists the major etiologies of ED. Vascular disease, which includes both atherosclerotic arterial occlusive disease and corpora cavernosal venous leak, is the most common cause of ED.
 
 ![Table 37-2](hazzard8e_ch37_table-37-2_p550.webp)
 
 *TABLE 37-2 ■ MAJOR ETIOLOGIES OF ERECTILE DYSFUNCTION*
 
-
-occlusive disease and corpora cavernosal venous leak, is the most common cause of ED. The likely mechanism is that penile hypoxia leads to replacement of corpora smooth muscle by connective tissue, which results in impaired cavernosal expandability and inability to compress subtunical venules.
+The likely mechanism is that penile hypoxia leads to replacement of corpora smooth muscle by connective tissue, which results in impaired cavernosal expandability and inability to compress subtunical venules.
 
 <span id="ch37-vascular"></span>Cardiovascular disease (CVD) and ED share etiologies. Diabetes mellitus, hypertension, hyperlipidemia, and smoking are major risk factors for both ED and CVD. The penis is a high blood flow system during erectile function, so ED may be an early sign of vascular inadequacy on the basis of atherosclerosis. Numerous studies suggest that ED is one of the sentinel symptoms of occult CVD, particularly in men under the age of 70 (see Figure 37-2). It is recommended that men under the age of 70 presenting with ED should be provided appropriate screening and treatment for CVD.
 
@@ -158,7 +152,6 @@ The most common first-line therapy of ED is an oral phosphodiesterase type 5 (PD
 
 *TABLE 37-3 ■ CURRENT MEDICAL TREATMENT OPTIONS FOR ERECTILE DYSFUNCTION AVAILABLE IN THE UNITED STATES*
 
-
 have similar efficacy. Tadalafil has a longer duration of action and avanafil may have a more rapid onset of action compared to the others. Sildenafil and vardenafil must be taken on an empty stomach, as high-fat meals and/or alcohol delay their absorption, but food does not interfere significantly with the absorption of tadalafil or avanafil. They all require sexual stimulation to work effectively. Men with diabetes mellitus or after prostatectomy usually have more severe ED at baseline, so they often respond less well to PDE-5 inhibitors. Men who are hypogonadal may find PDE-5 inhibitors more effective if combined with testosterone therapy.
 
 <span id="ch37-nitrates"></span>PDE-5 inhibitors have some vasodilatory activity and interact with nitrates. Therefore they are contraindicated in men taking nitrates. Men with LUTS/BPH who are taking α-adrenergic blockers, medications which also can lower blood pressure, should be cautioned when starting a PDE-5 inhibitor. Most common side effects of these agents are headaches, flushing, rhinitis, dyspepsia, myalgias, dizziness, back pain, and lowering of blood pressure. Sildenafil and vardenafil have some cross-reactivity with PDE-6, which may explain some reports of visual disturbances (usually a “blue haze”) with use of these medications.
@@ -183,40 +176,31 @@ Oral α-adrenergic blockers, such as yohimbine or phentolamine, have been used t
 
 Meta-analyses have reported inconsistent effects of testosterone treatment on sexual function. Earlier meta-analyses utilized testosterone treatment trials in which men without symptoms or signs of testosterone deficiency or who had normal to low-normal testosterone levels were included. A more recent meta-analysis, however, included only the small number of randomized, placebo-controlled studies of 1779 men who had at least one symptom or sign of testosterone deficiency and morning testosterone concentration less than or equal to 300 ng/dL who received testosterone replacement therapy for more than or equal to 12 weeks. In this meta-analysis, compared to placebo, testosterone treatment of hypogonadal men was associated with a modest but significant improvement in libido, erectile function, and sexual satisfaction.
 
-The results of the Testosterone Trials (T Trials) are worth noting. This was a large, multi-center, doubleblind, placebo-controlled study in older men (average age 72 years) with unequivocal hypogonadism (symptoms and signs of testosterone deficiency and two morning total testosterone levels by mass spectrometry < 275 ng/dL) for no apparent reason other than age. More details of the T Trials are provided in Chapter 97. Of the 459 men
-
-with low sexual desire (low libido) enrolled in the Sexual Function Trial of the T Trials, testosterone versus placebo treatment for 1 year resulted in moderate and sustained improvements in sexual activity, libido, and erectile function in older men with age-associated hypogonadism. The effect of testosterone therapy on ED as assessed by the International Index of Erectile Function (IIEF) was clinically meaningful, but less than that reported for PDE-5 inhibitors. In contrast to improvements in libido and sexual activity in testosterone-treated men that correlated with incremental changes in serum total or free testosterone and estradiol levels, the improvement in ED did not correlate with sex steroid concentrations. Also, no threshold testosterone concentration was apparent for any of the sexual function outcomes.
+The results of the Testosterone Trials (T Trials) are worth noting. This was a large, multi-center, double-blind, placebo-controlled study in older men (average age 72 years) with unequivocal hypogonadism (symptoms and signs of testosterone deficiency and two morning total testosterone levels by mass spectrometry < 275 ng/dL) for no apparent reason other than age. More details of the T Trials are provided in Chapter 97. Of the 459 men with low sexual desire (low libido) enrolled in the Sexual Function Trial of the T Trials, testosterone versus placebo treatment for 1 year resulted in moderate and sustained improvements in sexual activity, libido, and erectile function in older men with age-associated hypogonadism. The effect of testosterone therapy on ED as assessed by the International Index of Erectile Function (IIEF) was clinically meaningful, but less than that reported for PDE-5 inhibitors. In contrast to improvements in libido and sexual activity in testosterone-treated men that correlated with incremental changes in serum total or free testosterone and estradiol levels, the improvement in ED did not correlate with sex steroid concentrations. Also, no threshold testosterone concentration was apparent for any of the sexual function outcomes.
 
 In contrast to men with hypogonadism, testosterone treatment does not improve libido, sexual activity or erectile function in men with normal testosterone (ie, eugonadal men). Also, in men with ED who fail to respond to PDE-5 inhibitors, the addition of testosterone treatment may improve erectile function as well as libido and sexual activity in men who have severe hypogonadism, but not in eugonadal men.
 
 ## FURTHER READING
+- Ahern T, Swiecicka A, Eendebak RJAH, et al. Natural history, risk factors, and clinical features of primary hypogonadism in ageing men: longitudinal data from the European Male Ageing Study. Clin Endocrinology. 2016;85:891–901.
 
-Ahern T, Swiecicka A, Eendebak RJAH, et al. Natural
+- American Geriatrics Society Ethics Committee. American Geriatrics Society care of lesbian, gay, bisexual and transgender older adults position statement. J Am Geriatr Soc. 2015;63:423–426.
 
-history, risk factors, and clinical features of primary hypogonadism in ageing men: longitudinal data from the European Male Ageing Study. Clin Endocrinology. 2016;85:891–901. American Geriatrics Society Ethics Committee. American
+- Araujo AB, Mohr BA, McKinlay JB. Changes in sexual function in middle-aged and older men: longitudinal data from the Massachusetts Male Aging Study. J Am Geriatr Soc. 2004;52:1502–1509.
 
-Geriatrics Society care of lesbian, gay, bisexual and transgender older adults position statement. J Am Geriatr Soc. 2015;63:423–426. Araujo AB, Mohr BA, McKinlay JB. Changes in sexual
+- Cunningham GR, Stephens-Shields AJ, Rosen RC, et al. Testosterone treatment and sexual function in older men with low testosterone levels. J Clin Endocrinol Metab. 2016;101(8):3096–3104.
 
-function in middle-aged and older men: longitudinal data from the Massachusetts Male Aging Study. J Am Geriatr Soc. 2004;52:1502–1509. Cunningham GR, Stephens-Shields AJ, Rosen RC, et al.
+- Finkelstein JS, Lee H, Burnett-Bowie SM, et al. Dose-response relationships between gonadal steroids and bone, body composition, and sexual function in aging men. J Clin Endocrinol Metab. 2020;105(8): 2779–2788.
 
-Testosterone treatment and sexual function in older men with low testosterone levels. J Clin Endocrinol Metab. 2016;101(8):3096–3104. Finkelstein JS, Lee H, Burnett-Bowie SM, et al. Dose-
+- Hay B, Cumming RG, Blyth FM, et al. The longitudinal relationship of sexual function and androgen status in older men: the Concord health and ageing in men project. J Clin Endocrinol Metab. 2015;100:1350–1358.
 
-response relationships between gonadal steroids and bone, body composition, and sexual function in aging men. J Clin Endocrinol Metab. 2020;105(8): 2779–2788. Hay B, Cumming RG, Blyth FM, et al. The longitudinal
+- Hyde Z, Flicker L, Hankey GJ, et al. Prevalence of sexual activity and associated factors in men aged 75 to 95 years. Ann Intern Med. 2010;153:693–702.
 
-relationship of sexual function and androgen status in
+- Inman BA, St. Sauver JL, Jacobson DJ, et al. A population-based, longitudinal study of erectile dysfunction and future coronary artery disease. Mayo Clin Proc. 2009;84: 108–113.
 
-older men: the Concord health and ageing in men project. J Clin Endocrinol Metab. 2015;100:1350–1358. Hyde Z, Flicker L, Hankey GJ, et al. Prevalence of sexual
+- Lindau ST, Dale W, Feldmeth G, et al. Sexuality and Cognitive Status: A U.S nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018;66: 1902–1910.
 
-activity and associated factors in men aged 75 to 95 years. Ann Intern Med. 2010;153:693–702. Inman BA, St. Sauver JL, Jacobson DJ, et al. A population-
+- Lindau ST, Schumm LP, Laumann EO, et al. A study of sexuality and health among older adults in the United States. N Engl J Med. 2007;357:762–774.
 
-based, longitudinal study of erectile dysfunction and future coronary artery disease. Mayo Clin Proc. 2009;84: 108–113. Lindau ST, Dale W, Feldmeth G, et al. Sexuality and Cog-
+- Ponce OJ, Spencer-Bonilla G, Alvarez-Villalobos N, et al. The efficacy and adverse events of testosterone replacement therapy in hypogonadal men: A systematic review and meta-analysis of randomized, placebo-controlled trials. J Clin Endocrinol Metab. 2018;103(5):1745–1754.
 
-nitive Status: A U.S nationally representative study of home-dwelling older adults. J Am Geriatr Soc. 2018;66: 1902–1910. Lindau ST, Schumm LP, Laumann EO, et al. A study of
-
-sexuality and health among older adults in the United States. N Engl J Med. 2007;357:762–774. Ponce OJ, Spencer-Bonilla G, Alvarez-Villalobos N, et al.
-
-The efficacy and adverse events of testosterone replacement therapy in hypogonadal men: A systematic review and meta-analysis of randomized, placebo-controlled trials. J Clin Endocrinol Metab. 2018;103(5):1745–1754. Snyder PJ, Bhasin S, Cunningham GR, et al. Effects of tes-
-
-tosterone treatment in older men. N Engl J Med. 2016; 374(7):611–624.
-
-<a id="p554"></a>**[p. 554]**
+- Snyder PJ, Bhasin S, Cunningham GR, et al. Effects of testosterone treatment in older men. N Engl J Med. 2016; 374(7):611–624.

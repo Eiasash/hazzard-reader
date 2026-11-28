@@ -12,7 +12,7 @@ function bindReaderInput({state, main, begin, wordAt, paint, commit, edit, close
   }
   function start(event,point,type){
     cancel();
-    if(browserSelectsReaderText()||isReaderControl(event.target))return;
+    if(browserSelectsReaderText()||(isReaderControl(event.target)&&!event.target.closest?.('[data-marked]')))return;
     const stroke=begin({target:event.target,button:type==='touch'?0:event.button,
       clientX:point.clientX,clientY:point.clientY,pointerId:point.identifier??event.pointerId,
       preventDefault:()=>event.preventDefault()});

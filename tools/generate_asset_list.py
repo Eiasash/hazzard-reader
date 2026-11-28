@@ -28,10 +28,14 @@ for name, pattern, replacement in [
             target.write(updated)
 # Reserve image layout from the actual files, including new chapter crops.
 image_sizes = {}
+printed_captions = set(json.loads((ROOT / 'data/printed-captions.json').read_bytes()))
 for image_path in sorted((ROOT / 'chapters').iterdir()):
     if image_path.suffix.lower() in {'.png', '.jpg', '.jpeg', '.gif', '.webp'}:
         with Image.open(image_path) as image:
-            image_sizes[image_path.name] = list(image.size)
+            dimensions = list(image.size)
+            if image_path.name in printed_captions:
+                dimensions.append(1)
+            image_sizes[image_path.name] = dimensions
 index_path = ROOT / 'index.html'
 with index_path.open(encoding='utf-8', newline='') as source:
     html = source.read()

@@ -46,7 +46,7 @@ window.HazzardDrugs = (() => {
   async function mount(copy) {
     copy.classList.add('drug-index');
     const panel = el('section'); panel.dataset.readerMetadata = 'drugs';
-    panel.innerHTML = '<input id="drugSearch" type="search" aria-label="Search drugs and classes" autocomplete="off" placeholder="Search drugs and classes">' +
+    panel.innerHTML = '<input id="drugSearch" type="search" aria-label="Search drugs and classes" autocomplete="off" placeholder="Search drugs or classes">' +
       '<div id="drugKind" class="choice-chips" role="group" aria-label="Show entries"><button type="button" data-kind="all">All</button><button type="button" data-kind="drug">Drugs</button><button type="button" data-kind="class">Classes</button></div>' +
       '<nav id="drugLetters" aria-label="Jump to a letter"></nav><p id="drugStatus" role="status" aria-live="polite">Loading drug index…</p><div id="drugResults"></div>';
     copy.append(panel);
@@ -65,38 +65,54 @@ window.HazzardDrugs = (() => {
       history.replaceState(history.state, '', url);
     }
     function detailsFor(entry, body) {
-      if(entry.kind!=='class' && entry.class){
-        const group=data.entries.find(item=>item.kind==='class' && normalize(item.name)===normalize(entry.class));
-        const link=el('a',group?'Open class: '+group.name:'Find drugs in this class');
-        link.href='?chapter=drugs&'+(group?'drug='+encodeURIComponent(group.id):'drugSearch='+encodeURIComponent(entry.class));
-        body.append(link);
+      if(entry.kind==='drug'){
+        const cls=data.entries.find(item=>item.kind==='class' && item.name===entry.class);
+        if(cls){
+          const link=el('a','Open class: '+cls.name);
+          link.href='?chapter=drugs&drug='+encodeURIComponent(cls.id);body.append(link);
+        }
+      }else{
+        const members=data.entries.filter(item=>item.kind==='drug' && item.class===entry.name);
+        if(members.length){
+          const panel=el('details','','drug-links'),list=el('ul');panel.open=true;
+          panel.append(el('summary','Drugs in this class · '+members.length),list);
+          for(const member of members){
+            const row=el('li'),link=el('a',member.name);
+            link.href='?chapter=drugs&drug='+encodeURIComponent(member.id);row.append(link);list.append(row);
+          }
+          body.append(panel);
+        }
       }
-      const groups=new Map();
-      for(const registration of entry.israeliBrands||[]){
-        if(!registration.name||!registration.sourceUrl)continue;
-        const tidy=value=>(value||'').trim().replace(/\s+/g,' ').replace(/\s*\/\s*/g,'/');
-        const name=tidy(registration.name),hebrewName=tidy(registration.hebrewName);
-        const key=JSON.stringify([normalize(name),normalize(hebrewName),registration.form||'',registration.routes||[]]);
-        if(!groups.has(key))groups.set(key,{name,hebrewName,sourceUrl:registration.sourceUrl,registrations:[]});
-        groups.get(key).registrations.push(registration);
-      }
-      const brands=[...groups.values()];
-      if(brands.length){
-        const group=el('details','','drug-links drug-brands'),list=el('ul');
-        group.append(el('summary','Israeli brands · '+brands.length),list);
+      function brandRows(brands){
+        const list=el('ul');
         for(const brand of brands){
-          const row=el('li'),source=el('a',brand.name);source.href=brand.sourceUrl;
-          if(brand.hebrewName){source.append(' · ',el('bdi',brand.hebrewName));}
-          row.append(source);
-          if(brand.registrations.length>1){
-            const details=el('details'),sources=el('ul');
-            details.append(el('summary','Registrations ('+brand.registrations.length+')'),sources);
-            for(const reg of brand.registrations){const li=el('li'),a=el('a',reg.registrationNumber);a.href=reg.sourceUrl;li.append(a);sources.append(li);}
+          const row=el('li'),link=el('a',brand.name);link.href=brand.sourceUrl;
+          if(brand.hebrewName)link.append(' · ',el('bdi',brand.hebrewName));
+          row.append(link);
+          if(brand.registrations?.length>1){
+            const details=el('details'),registrations=el('ul');
+            details.append(el('summary','Registrations ('+brand.registrations.length+')'),registrations);
+            for(const reg of brand.registrations){
+              const li=el('li'),source=el('a',[reg.registrationNumber,reg.form,...reg.routes].filter(Boolean).join(' · '));
+              source.href=reg.sourceUrl;li.append(source);registrations.append(li);
+            }
             row.append(details);
           }
           list.append(row);
         }
-        body.append(group);
+        return list;
+      }
+      if(entry.israeliBrands?.length){
+        const panel=el('details','','drug-links drug-brands');
+        panel.append(el('summary','Israeli brands · '+entry.israeliBrands.length),brandRows(entry.israeliBrands));body.append(panel);
+      }
+      if(entry.israeliCombinations?.length){
+        const panel=el('details','','drug-links drug-brands');
+        panel.append(el('summary','Israeli combination products'));
+        for(const product of entry.israeliCombinations){
+          panel.append(el('strong',product.ingredients.join(' + ')),brandRows(product.brands));
+        }
+        body.append(panel);
       }
       for (const [type, heading] of [['chapter', 'Book passages'], ['study', 'Study summaries']]) {
         const passages = entry.passages.filter(p => p.kind === type);
@@ -108,11 +124,8 @@ window.HazzardDrugs = (() => {
           const row = el('li'), link = el('a', locationLabel(p)); link.href = passageURL(p);
           row.append(link);
           if(p.sourceLocator){
-            row.append(el('small',p.pageArt?.length?'Printed page with tables or figures':'Mention on the printed page'));
-            if(p.excerpt && normalize(p.excerpt)!==normalize(entry.name)){
-              const wording=el('details'),title=el('summary','Printed wording');
-              wording.append(title,el('p',p.excerpt,'drug-excerpt'));row.append(wording);
-            }
+            if(p.excerpt)row.append(el('p',p.excerpt,'drug-excerpt'));
+            else row.append(el('small',p.pageArt?.length?'Printed page with tables or figures':'Mention on the printed page'));
             for(const asset of p.pageArt||[]){
               const named=asset.match(/_(table|figure)-?(\d+[-.][\da-z]+)(?:[-_.])/i);
               const label=named?named[1][0].toUpperCase()+named[1].slice(1)+' '+named[2].replace('.','-'):'Page image';
@@ -155,7 +168,10 @@ window.HazzardDrugs = (() => {
       const row = el('details', '', 'drug-entry'); row.id = 'drug-' + entry.id;
       const summary = el('summary'), name = el('strong', entry.name), meta = el('span', entry.kind === 'class' ? 'Drug class' : entry.class || (entry.bankOnly?'Question bank only':''), 'drug-class');
       const passages=entry.passages,questions=entry.questions;
-      summary.append(name,meta,el('small',counts(passages,questions)));
+      const caption=el('span','','drug-row-caption');
+      const amount=el('small',passages+(passages===1?' passage':' passages')+' · '+questions+(questions===1?' Q':' Qs'));
+      amount.setAttribute('aria-label',counts(passages,questions));
+      caption.append(meta,amount);summary.append(name,caption);
       const body = el('div', '', 'drug-body'); row.append(summary, body);
       let populated = false;
       row.addEventListener('toggle', async () => {
@@ -170,7 +186,7 @@ window.HazzardDrugs = (() => {
 
     const letters=panel.querySelector('#drugLetters');
     let data,searchIndex;
-    const initial=name=>(normalize(name).match(/^[a-z]/)?.[0]||'#').toUpperCase();
+    const initial=name=>(normalize(name).replace(/^α/,'alpha').replace(/^β/,'beta').replace(/^μ/,'mu').match(/^[a-z]/)?.[0]||'#').toUpperCase();
     letters.addEventListener('click',event=>{
       const button=event.target.closest('[data-letter]');if(!button)return;
       const heading=document.getElementById('drug-letter-'+button.dataset.letter);
@@ -206,6 +222,7 @@ window.HazzardDrugs = (() => {
           const row=entryRow(entry,selectedID);fragment.append(row);if(entry.id===selectedID||entry.previousId===selectedID)selected=row;
         }
       }
+      letters.style.setProperty('--drug-columns',String(groups.size>13?Math.ceil(groups.size/2):Math.max(1,groups.size)));
       letters.replaceChildren(jumps);letters.hidden=groups.size<2;
       results.replaceChildren(fragment);
       if(!matches.length)results.append(el('p','No matching drug or class.'));

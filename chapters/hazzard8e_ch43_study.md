@@ -68,7 +68,7 @@ Alternatives with good predictive accuracy: Alternate Step Test, Sit-to-Stand Te
 
 Hospital (UK NICE): automatically assess all patients **65+**, or **50–64 with a risk condition** (e.g., recent stroke) (<a href="?chapter=43#p637">p637</a>).
 
-> **Current practice: Inpatient fall assessment.** NICE recommends comprehensive falls assessment for the defined inpatient groups and advises against falls prediction tools. Vitamin D should not be offered solely to prevent falls; address other indications, including deficiency. [NICE NG249, 2025](https://www.nice.org.uk/guidance/ng249).
+> **Current practice: Inpatient fall assessment.** NICE recommends comprehensive falls assessment for the defined inpatient groups and advises against falls prediction tools. NICE finds insufficient evidence to recommend vitamin D specifically to reduce falls and advises following national vitamin D guidance for bone and muscle health. [NICE NG249, 2025](https://www.nice.org.uk/guidance/ng249/chapter/Recommendations).
 
 RACF: CaHFRiS screen items — **MMSE < 17**, impulsivity, reduced standing balance, walking-frame use, a fall in the past year, antidepressant/hypnotic-anxiolytic use; absolute 6-month fall risk ranges **0% (no factors) → 100% (≥6 factors)** (<a href="?chapter=43#p637">p637</a>).
 

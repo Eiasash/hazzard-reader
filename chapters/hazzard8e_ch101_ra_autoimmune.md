@@ -470,9 +470,9 @@ More than 100 drugs have now been implicated in DIL ( **Table 101-10** ), althou
 
 disease, patients with “classical” DIL have a milder illness and a more restricted autoantibody profile. Antihistone antibodies are present in high frequencies in DIL associated with drugs such as procainamide or hydralazine but are not as frequently seen in patients with drugs such as minocycline or anti-TNF agents. The incidence of DIL has been estimated to be approximately 15,000 to 20,000 per year, with between 30,000 and 50,000 patients currently affected in the United States.
 
-**Table 101-10 — Drugs implicated in drug-induced lupus**
-
 ![Table 101-10](hazzard8e_ch101_table101-10_p1624.png)
+
+**Table 101-10 — Drugs implicated in drug-induced lupus**
 
 > *Table 101-10 as printed (p. 1624).*
 
@@ -587,4 +587,3 @@ _Data from Curtis JR, Johnson SR, Anthony DD, et al. American College of Rheumat
 - Vivino FB, Carsons SE, Foulks G, et al. New treatment guidelines for Sjögren’s disease. _Rheum Dis Clin North Am_ . 2016;42(3):531–551.
 
 - Yung RL, Richardson BC. Drug-induced rheumatic syndromes. _Bull Rheum Dis_ . 2002;51(4):1–5.
-

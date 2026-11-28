@@ -74,9 +74,9 @@ For infection prevention, distinguish exposure reduction from treatment. In the 
 
 The chapter's preventive table also illustrates why vaccination and prophylactic regimens need a date as well as an indication. It lists zoster vaccination as a one-time intervention for selected residents and isoniazid **300 mg/day for 9–12 months** for selected tuberculin converters. These are statements from the printed table. Assess previous vaccination, the resident's exposure and risk, concomitant treatment and the ability to monitor for toxicity when translating a prevention decision into an order (p232).
 
-> Current practice (not the book): In the United States, CDC recommends two doses of recombinant zoster vaccine for adults aged 50 or older and for immunocompromised adults aged 19 or older. - [CDC shingles vaccine recommendations, 2024](https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html).
+> Current practice (not the book): In the United States, CDC recommends two doses of recombinant zoster vaccine for adults aged 50 or older and for immunocompromised adults aged 19 or older. [CDC shingles vaccine recommendations, 2024](https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html).
 
-> Current practice (not the book): Exclude active tuberculosis before treating latent infection. CDC and the National Tuberculosis Coalition of America preferentially recommend short rifamycin-based regimens when suitable. Interactions with other medicines may affect the choice. - [CDC latent tuberculosis treatment guidance, 2025](https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html).
+> Current practice (not the book): Exclude active tuberculosis before treating latent infection. CDC and the National Tuberculosis Coalition of America preferentially recommend short rifamycin-based regimens when suitable. Interactions with other medicines may affect the choice. [CDC latent tuberculosis treatment guidance, 2025](https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html).
 
 ### Detecting a change, monitoring on site and arranging transfer
 

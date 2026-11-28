@@ -58,7 +58,6 @@ Lung cancer is broadly characterized into non–small-cell lung cancer (NSCLC) v
 
 *TABLE 91-1 ■ OVERVIEW OF LUNG CANCER STAGING, EPIDEMIOLOGY, AND TREATMENT*
 
-
 EGFR, epidermal growth factor receptor; ICI, immune checkpoint inhibitor; PCI, prophylactic cranial irradiation; RT, radiation therapy; TKI, tyrosine kinase inhibitor; TNM, tumor, node, metastasis.
 
 NSCLC, adenocarcinoma accounts for the most common histologic type followed by squamous cell carcinoma. Less prevalent subtypes recognized by the World Health Organization (WHO) include large-cell carcinoma, adenosquamous carcinoma, sarcomatoid carcinoma, and carcinoid tumors. Bronchoalveolar carcinoma is currently classified under adenocarcinoma. Multiple conceptual changes have been incorporated within the updated pathological classification. These include the use of immunohistochemistry throughout the classification, an emphasis on genetic studies, and in particular, the integration of molecular testing to help personalize treatment strategies for patients with advanced lung.
@@ -147,13 +146,13 @@ The other major breakthrough is the introduction of targeted therapy to early-st
 
 patients, the primary endpoint, was not reached in the osimertinib arm compared with 20.4 months in the placebo arm (HR, 0.17; 95% CI, 0.12–0.23; p < .0001). Results showed that the EGFR-targeted therapy with osimertinib reduced the risk of disease recurrence or death by 83% in this patient population. Although adapting the results of this study is still under debate, given the lack of overall survival benefit and concerns about long-term toxicity and financial burden, it highlights the importance of performing molecular testing in all stages of NSCLC cases to identify candidates for targeted therapy.
 
-Because of the treatment intensity involved, among older adults, geriatric assessments play an important clinical role in the selection of those patients who are most likely to benefit from more intensive combined modality treatment since no prospective data exist to guide decisionmaking. Optimization of comorbidities, functional status, cancer symptoms, social support, and geriatric syndromes would prove useful because of the increased morbidity of these therapeutic approaches employed in stage III NSCLC.
+Because of the treatment intensity involved, among older adults, geriatric assessments play an important clinical role in the selection of those patients who are most likely to benefit from more intensive combined modality treatment since no prospective data exist to guide decision-making. Optimization of comorbidities, functional status, cancer symptoms, social support, and geriatric syndromes would prove useful because of the increased morbidity of these therapeutic approaches employed in stage III NSCLC.
 
 ### Stage IV
 
 Over half of patients with NSCLC will have distant metastases at the time of diagnosis, for which the goal of treatment is palliative, not curative. Platinum-based doublets have been the SOC as first-line therapy, showing improved survival and quality of life among fit older patients. In the last decade, the identification of activating molecular alterations and the development of new targeted therapies and ICI have changed the treatment of advanced NSCLC. Initial molecular testing of the tumor sample to determine therapy in NSCLC is endorsed by multiple organizations and considered a SOC. In the absence of molecular alteration, early incorporation of immunotherapy guided by the tumor proportion score of programmed death-ligand 1 (PD-L1) improves overall survival. In addition, the early introduction of palliative and supportive care remains a main cornerstone of lung cancer treatment.
 
-When a molecular alteration is identified (ie, EGFR, ALK), targeting the mutation results in better disease control, improved quality of life, and longer progression-free survival compared to standard chemotherapy. Molecular alterations are usually mutually exclusive and more common in patients identified as either never-smokers, longtime exsmokers, or light smokers (< 15 packs per year), but they can be found among patients with a smoking history. Association between molecular alteration and age is not strongly established, yet MET skip mutation tends to have a higher prevalence in older women. There are currently multiple biomarkers with effective matched targeted therapy approved by the FDA in the settings of advanced NSCLC. Due to the high efficacy and favorable toxicity profile of those agents, clinical trials have frequently included older adults. The evidence of efficacy among older adults can be retrieved from subgroup analysis, with key trials of first-line therapy in advanced NSCLC summarized in Table 91-2.
+When a molecular alteration is identified (ie, EGFR, ALK), targeting the mutation results in better disease control, improved quality of life, and longer progression-free survival compared to standard chemotherapy. Molecular alterations are usually mutually exclusive and more common in patients identified as either never-smokers, longtime ex-smokers, or light smokers (< 15 packs per year), but they can be found among patients with a smoking history. Association between molecular alteration and age is not strongly established, yet MET skip mutation tends to have a higher prevalence in older women. There are currently multiple biomarkers with effective matched targeted therapy approved by the FDA in the settings of advanced NSCLC. Due to the high efficacy and favorable toxicity profile of those agents, clinical trials have frequently included older adults. The evidence of efficacy among older adults can be retrieved from subgroup analysis, with key trials of first-line therapy in advanced NSCLC summarized in Table 91-2.
 
 Epidermal growth factor receptor (EGFR) is the most established genomic biomarker in NSCLC, with multiple effective EGFR tyrosine kinase inhibitors (TKIs), including gefitinib and erlotinib (first-generation), afatinib and dacomitinib (second-generation), and osimertinib (third-generation). The two main sensitizing mutations are EGFR L858R and EGFR exon 19 deletion. Multiple studies compared first-generation EGFR TKIs with chemotherapy, and later with second-generation TKIs showing superior results. In subgroup analyses, these trials showed that TKIs had comparable benefits in older adults (aged > 65 years), but analyses of toxicities specific to older adults were not reported. Retrospective studies showed that although generally well tolerated, older adults treated with first-generation TKIs encountered more adverse events requiring dose reduction. Osimertinib is a third-generation TKI that selectively inhibits EGFR-sensitizing mutation and EGFR Thr790Met (T790M) mutation, which is the most common acquired resistance to first- and second-generation TKIs. Recently, osimertinib was approved as an initial therapy for EGFR-mutant NSCLC, based on the FLAURA trial that showed superior outcomes, improved overall survival, and efficacy in patients with central nervous system (CNS) metastases. Around 46% of the enrolled patients were 65 years or older, and the benefit of osimertinib was maintained. Unlike first-generation TKIs, osimertinib is more tolerable with a favorable toxicity profile. Further NSCLC FDA-approved matched therapies to actionable mutations in NSCLC are listed in Table 91-2.
 
@@ -167,7 +166,6 @@ After the introduction of pembrolizumab in biomarker-selected patients (PD-L1 > 
 
 *TABLE 91-2 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITH TARGETABLE MOLECULAR ALTERATIONS (CONTINUED)*
 
-
 (Continued)
 
 <a id="p1429"></a>**[p. 1429]**
@@ -175,7 +173,6 @@ After the introduction of pembrolizumab in biomarker-selected patients (PD-L1 > 
 ![Table 91-2 (continued)](hazzard8e_ch91_table-91-2-continued_p1429.webp)
 
 *TABLE 91-2 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITH TARGETABLE MOLECULAR ALTERATIONS (CONTINUED)*
-
 
 ALK, anaplastic lymphoma kinase; ALT, alanine aminotransferase; AST, aspartate aminotransferase; CI, confidence interval; EGFR, epidermal growth factor receptor; HR, hazard ratio; m, months; mDoR, median duration of response; mOS, median overall survival; mPFS, median progression-free survival; NR, not reported; ORR, objective response rate; TKI, tyrosine kinase inhibitor.
 
@@ -188,7 +185,6 @@ Although data are limited, age is not a contraindication for chemotherapy. Histo
 ![Table 91-3](hazzard8e_ch91_table-91-3_p1430.webp)
 
 *TABLE 91-3 ■ FIRST-LINE TREATMENT FOR PATIENTS WITH METASTATIC NON–SMALL-CELL LUNG CANCER WITHOUT TARGETABLE MOLECULAR ALTERATIONS*
-
 
 CI, confidence interval; HR, hazard ratio; ICI, immune checkpoint inhibitor; m, months; mOS, median overall survival; mPFS, median progression-free survival; NR, not reported; ORR, objective response rate; PD-L1, programmed death ligand 1; TPS, tumor proportion score.
 
@@ -218,7 +214,7 @@ Because of the risk of CNS involvement and as a site of relapse in patients with
 
 Upon relapse, disease is usually divided into sensitive relapse (> 3 months after completing first-line chemotherapy) or resistant relapse (< 3 months). Platinum-based chemotherapy plus etoposide remains a very good option for sensitive disease. For decades, treatment for refractory disease apart from camptothecins (ie, topotecan, irinotecan) has been limited. Topotecan is associated with a response rate of 15% to 30% and survival of 4 to 8 months (depending on platinum-sensitivity status to initial treatment) and comes with a very high cost of hematological and nonhematological toxicity. A new major breakthrough is the FDA approval for lurbinectedin in both sensitive and refractory relapse settings based on a single-arm phase II study (N = 105). After a median follow-up of 17.1 months, lurbinectedin had a high response rate of 35.2% with manageable safety profile. Common side effects include hematological toxicity, transaminitis, elevated creatinine, nausea, and fatigue. Although the outcome
 
-of older adults was not reported, lurbinectedin can be a reasonable option given its acceptable toxicity profile that can be managed with granulocyte colony-stimulating factor (G-CSF) prophylaxis. Patients with platinumrefractory SCLC whose disease progresses on or fails to respond to additional therapy are unlikely to benefit from further therapy.
+of older adults was not reported, lurbinectedin can be a reasonable option given its acceptable toxicity profile that can be managed with granulocyte colony-stimulating factor (G-CSF) prophylaxis. Patients with platinum-refractory SCLC whose disease progresses on or fails to respond to additional therapy are unlikely to benefit from further therapy.
 
 ## THE ROLE OF PALLIATIVE AND SUPPORTIVE CARE
 
@@ -246,8 +242,7 @@ Currently in clinical practice, physicians use age, PS, and an overall “gestal
 
 ## FURTHER READING
 
-
-- Aberle DR, Adams AM, Berg CD, et al. Reduced lungcancer mortality with low-dose computed tomographic screening. N Engl J Med. 2011;365(5):395–409.
+- Aberle DR, Adams AM, Berg CD, et al. Reduced lung-cancer mortality with low-dose computed tomographic screening. N Engl J Med. 2011;365(5):395–409.
 
 - Antonia SJ, Villegas A, Daniel D, et al. Durvalumab after chemoradiotherapy in stage III non–small-cell lung cancer. N Engl J Med. 2017;377(20):1919–1929.
 

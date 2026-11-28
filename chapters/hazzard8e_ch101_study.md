@@ -30,7 +30,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - ACR functional class I–IV (**Table 101-3**) (p1611)
 - >10 yr RA duration → risk of **cervical spine/atlantoaxial instability** — assess before intubation (p1612)
 - **Vectra DA** is a 12-protein blood test for RA disease activity. Hazzard describes it as US FDA-approved and as a complement to clinical judgment (p1612).
-  > Current practice (not the book): Labcorp identifies Vectra as its laboratory-developed test and states that it lacks FDA clearance or approval — [Labcorp sample report, test 504965, 2022](https://files.labcorp.com/testmenu-d8/sample_reports/504965.pdf).
+  > Current practice (not the book): Labcorp identifies Vectra as its laboratory-developed test and states that it lacks FDA clearance or approval. [Labcorp sample report, test 504965, 2022](https://files.labcorp.com/testmenu-d8/sample_reports/504965.pdf).
 - Rheumatoid nodules in up to **40%** of seropositive White patients; pleuritis/pericarditis in **20–30%** (usually asymptomatic) (p1613)
 
 ## RA — pharmacotherapy (Table 101-4, Table 101-5)
@@ -38,7 +38,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - Methotrexate monotherapy = first-line for DMARD-naïve moderate-high activity, started **without short- or long-term glucocorticoids** (2021 ACR guideline) (p1615, p1616)
 - Hydroxychloroquine dose **5 mg/kg**; **annual ocular screening**, preferably with OCT — avoid in macular degeneration/inoperable dense cataracts (p1614)
 
-> Current practice (not the book): Use actual body weight when calculating hydroxychloroquine dose and generally stay at or below 5 mg/kg/day. Baseline retinal assessment and subsequent screening depend on duration, kidney function and other toxicity risks. OCT and fundus autofluorescence are core screening methods in the updated recommendations. [AAO hydroxychloroquine retinopathy recommendations](https://pubmed.ncbi.nlm.nih.gov/26992838/).
+> Current practice (not the book): Use actual body weight when calculating hydroxychloroquine dose and generally stay at or below 5 mg/kg/day. Baseline retinal assessment and subsequent screening depend on duration, kidney function and other toxicity risks. OCT and wide-pattern fundus autofluorescence are core screening methods in the updated recommendations. [AAO hydroxychloroquine retinopathy recommendations, 2025 revision](https://pubmed.ncbi.nlm.nih.gov/41232611/).
 - Biologic/tsDMARD added if not at target on max-tolerated methotrexate, preferred over triple csDMARD therapy (p1615, p1616)
 
 > Current practice (not the book): US labeling reserves tofacitinib, baricitinib and upadacitinib for patients with an inadequate response or intolerance to at least one TNF blocker. The boxed warnings address major cardiovascular events, cancer, thrombosis and death. Discuss these risks before treatment, particularly in older adults with cardiovascular risk, a smoking history or malignancy risk. [FDA JAK-inhibitor safety communication, 2021](https://www.fda.gov/safety/medical-product-safety-information/janus-kinase-jak-inhibitors-drug-safety-communication-fda-requires-warnings-about-increased-risk).
@@ -69,7 +69,7 @@ Study summary of Chapter 101; the book and the full chapter are the reference.
 - LOL diagnostic delay averages **2–3 years**; female:male ratio **4:1** in LOL vs **9:1** in younger-onset lupus (p1621)
 - LOL symptom frequencies (**Table 101-8**): arthritis/arthralgia **60%**, rash **47%**, cytopenias **45%**, interstitial pneumonitis **41%**, serositis **32%**, glomerulonephritis only **24%** — milder, less classic disease than YOL (p1621)
 - **Belimumab** (anti-BAFF) was the first lupus drug in its class to receive FDA approval in **2011**. Hazzard dates the expanded indication for active lupus nephritis to **2021**. Voclosporin, an oral calcineurin inhibitor, also received FDA approval for adult active lupus nephritis with background immunosuppression, with its role in older patients untested (pp1621–1622).
-  > Current practice (not the book): the US supplemental approval for belimumab in adult active lupus nephritis was issued in **December 2020** — [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
+  > Current practice (not the book): the US supplemental approval for belimumab in adult active lupus nephritis was issued in **December 2020**. [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
 
 ## Sjögren syndrome
 
@@ -167,7 +167,7 @@ LOL has a female:male ratio of about 4:1, versus about 9:1 in younger-onset lupu
 <details data-recall-key="101s:recall-11"><summary>Answer</summary>
 
 Hazzard dates initial FDA approval to **2011** and the expanded active lupus nephritis indication to **2021** (pp1621–1622).
-> Current practice (not the book): the US supplemental approval was issued in **December 2020** — [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
+> Current practice (not the book): the US supplemental approval was issued in **December 2020**. [FDA approval letter, 2020](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125370Orig1s073_761043Orig1s013ltr.pdf).
 
 </details>
 

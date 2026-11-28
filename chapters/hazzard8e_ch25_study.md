@@ -80,7 +80,7 @@ The evidence specifically addressing people with multiple chronic conditions is 
 
 ### Treatment burden, equity and conflicting instructions
 
-Table 25-4 makes the workload visible. Count not only tablets but refills, monitoring, recognition of adverse effects, trips for blood tests, specialist appointments, imaging, procedures, discomfort and recovery. The book describes approximately **two hours a day** on health-related tasks and an additional **two hours per visit** per facility visit, including travel, waiting and care for patients with multiple conditions and caregivers. These are estimates of effort, not a universal budget. Ask which task consumes a disproportionate share of this household's time and whether it is essential to a goal the patient wants to pursue (p355).
+Table 25-4 makes the workload visible. Count not only tablets but refills, monitoring, recognition of adverse effects, trips for blood tests, specialist appointments, imaging, procedures, discomfort and recovery. The book describes approximately **two hours a day** on health-related tasks and an additional **two hours per facility visit** for patients with multiple conditions and their caregivers, including travel, waiting and care. These are estimates of effort, not a universal budget. Ask which task consumes a disproportionate share of this household's time and whether it is essential to a goal the patient wants to pursue (p355).
 
 Consider interactions at three levels. A drug for one problem can worsen another condition; two drugs can interact; and one disease can make another disease's self-management task impossible. For example, a person may understand the need for monitoring but be unable to read the display or climb the steps to the clinic. The caregiver doing the transport may also be the person preparing meals and assisting with medicines. A missed appointment can reflect competing obligations rather than unwillingness. Ask about cost, trust, food, housing, transport and the local services actually available before interpreting that absence (p353–355, p357–358).
 
@@ -92,7 +92,7 @@ The case on p357 concerns an 80-year-old man with diabetes, hypertension and sta
 
 The book lists his actual regimen so the reader can see the workload. His glucose-lowering medicines are metformin **500 mg twice daily**, glyburide **10 mg twice daily** and insulin glargine **15 units nightly**. He also takes aspirin **81 mg daily**, furosemide **40 mg twice daily**, extended-release metoprolol **100 mg daily**, lisinopril **10 mg twice daily**, spironolactone **25 mg daily** and atorvastatin **80 mg daily**. Tamsulosin **0.4 mg nightly** and acetaminophen **650 mg twice daily** add symptom-directed treatment. These doses describe this patient's starting list. Read it alongside his fatigue, fall concerns, glucose checks, foot care, weighing and travel to multiple specialists. The clinical question is what can safely be simplified while preserving the outcomes he values (p357–358).
 
-> Current practice (not the book): Glyburide carries a greater risk of prolonged hypoglycemia than short-acting sulfonylureas. Review it with the basal insulin when assessing this patient’s risk and treatment burden. [AGS Beers Criteria, 2023, Table 2](https://doi.org/10.1111/jgs.18372).
+> Current practice (not the book): Avoid sulfonylureas as first- or second-line monotherapy or add-on therapy unless substantial barriers prevent the use of safer, more effective agents. If one is needed, prefer a short-acting drug such as glipizide; glyburide and glimepiride pose a greater risk of prolonged hypoglycemia, especially relevant when reviewing concomitant basal insulin. [AGS Beers Criteria, 2023, Table 2](https://doi.org/10.1111/jgs.18372).
 
 The primary clinician tried reducing a beta-blocker and later insulin, but different specialists increased the treatments again. The case does not establish that either drug is the cause of fatigue or should always be stopped. It shows why a monitored trial is uninterpretable when the reason for it, intended outcome and follow-up are not shared. Identify the main activity the patient wants to regain, review the likely benefits and burdens of each intervention, agree who will coordinate changes and communicate the rationale. A trial also needs a stopping or restart decision if symptoms worsen or the hoped-for benefit does not appear (p357–358).
 
@@ -159,7 +159,7 @@ The Patient Priorities Care comparison in a large private practice included prim
 
 **11. How much time can health care consume in the example for multimorbidity?**
 
-<details><summary>Answer</summary>On average <strong>2 hours per day</strong> for health-related tasks and <strong>2 hours per visit</strong> for patients and caregivers (p355).</details>
+<details><summary>Answer</summary>On average <strong>2 hours per day</strong> for health-related tasks and <strong>2 hours per health care facility visit</strong>, including travel, waiting and care, for patients and family caregivers (p355).</details>
 
 **12. What makes an outcome goal actionable?**
 

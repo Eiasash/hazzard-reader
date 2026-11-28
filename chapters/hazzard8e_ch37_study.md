@@ -31,7 +31,7 @@ An erection requires both arterial inflow and trapping of blood within the corpo
 
 **Chest discomfort changes the priority.** Diabetes, hypertension, smoking and dyslipidemia increase both coronary and penile vascular risk. The association between new erectile dysfunction and previously unrecognized vascular disease is especially informative below age 70. In the practice case the man already has exertional symptoms (p550, Figure 37-2).
 
-> Current practice (not the book): Evaluate possible ischemia and exercise tolerance before treatment. Stress testing can clarify indeterminate risk when clinically appropriate. [EAU, 2026, Figure 5.3, adapted from Princeton IV](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction).
+> Current practice (not the book): Evaluate possible ischemia and exercise tolerance before treatment. Patients at intermediate or indeterminate cardiovascular risk need exercise stress testing before resuming sexual activity; if they cannot exercise, pharmacologic stress imaging can help reclassify their risk. [EAU, 2026, Figure 5.3, adapted from Princeton IV](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction).
 
 **Diabetes affects two pathways.** Autonomic neuropathy can impair initiation of the response while vascular injury limits blood supply. Age, diabetes duration and evidence of complications predict erectile difficulty better than the degree of hyperglycemia. A markedly elevated HbA1c matters for diabetes care, but it cannot identify the cause on its own. Erectile difficulty sometimes prompts the first diagnosis of diabetes (p. 550).
 
@@ -62,7 +62,7 @@ For someone who smokes or drinks heavily, the history identifies a potentially r
 
 > Current practice (not the book): The product labels permit sildenafil, vardenafil, tadalafil and avanafil with or without food. High-fat meals can delay absorption of some agents. Counsel about timing and prohibit concurrent nitrates. [Sildenafil US prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e).
 
-  > Current practice (not the book): Avanafil may be taken with or without food. A high-fat meal can delay peak concentration. [FDA prescribing information, 2022, §§2.1, 12.3](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202276s020lbl.pdf).
+  > Current practice (not the book): Avanafil may be taken with or without food. A high-fat meal can delay peak concentration. [FDA prescribing information, 2022, §§2.2, 12.3](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202276s020lbl.pdf).
 - These agents are contraindicated with nitrates; caution with alpha blockers because of hypotension. Headache, flushing and dyspepsia are common (p552).
 
 > Current practice (not the book): Alongside nitrates, guanylate cyclase stimulators such as riociguat are contraindicated with PDE-5 inhibitors because of hypotension. [Sildenafil US label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e).

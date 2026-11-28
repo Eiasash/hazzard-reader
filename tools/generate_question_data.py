@@ -25,12 +25,14 @@ def generate():
     references = build_exam_references()['questions']
     chapters = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))['chapters']
     chapter_titles = {str(c['number']): c['title'] for c in chapters}
+    reader_chapters = {}
     for q in all_questions:
         reference = references.get(q['id'], {})
         if 'bankChapter' in reference:
             chapter = reference['bankChapter']
             title = reference.get('bankChapterTitle') or ('' if chapter is None else chapter_titles[chapter])
-            q = {**q, 'chapter': chapter, 'chapterTitle': title}
+            if (q.get('chapter'), q.get('chapterTitle')) != (chapter, title):
+                reader_chapters[q['id']] = [chapter, title]
         # Hash prefixes keep chunk URLs stable when questions are added or moved.
         chunk = q['id'][4:6]
         chunks.setdefault(chunk, []).append(q)
@@ -39,7 +41,7 @@ def generate():
         if 'sourceChecked' in q:
             row['sourceChecked'] = {k: v for k, v in q['sourceChecked'].items() if k == 'changedAt'}
         catalog.append(row)
-    outputs = {'data/mcq/catalog.json': catalog, 'data/mcq/content-changes.json': [{'id': q['id'], 'label': 'Practice \u00b7 '+q['q'][:90], 'changedAt': q['sourceChecked']['changedAt'], 'release': q['sourceChecked']['release'], 'content_changed': True} for q in all_questions if q.get('content_changed')]}
+    outputs = {'data/mcq/reader-chapters.json': reader_chapters, 'data/mcq/catalog.json': catalog, 'data/mcq/content-changes.json': [{'id': q['id'], 'label': 'Practice \u00b7 '+q['q'][:90], 'changedAt': q['sourceChecked']['changedAt'], 'release': q['sourceChecked']['release'], 'content_changed': True} for q in all_questions if q.get('content_changed')]}
     # Chapters search uses catalogue stems and these options. Explanations
     # and images can stay in their individual question chunks.
     outputs['data/mcq/search-options.json'] = {q['id']: q['o'] for q in all_questions if not q.get('retired')}
@@ -48,6 +50,20 @@ def generate():
         path = ROOT / name
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(value, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8', newline='\n')
+    # Keep the synchronous sidebar counts generated from the same IDs and reader assignments.
+    ui = ROOT / 'js/mcq.js'
+    source = ui.read_text(encoding='utf-8')
+    included = set(json.loads(re.search(r'const STANDOUT_IDS=new Set\((\[[^\n]+?\])\);', source).group(1)))
+    counts = {}
+    for q in catalog:
+        if q['id'] in included and not q.get('retired'):
+            chapter = str(reader_chapters.get(q['id'], [q.get('chapter')])[0])
+            counts[chapter] = counts.get(chapter, 0) + 1
+    encoded = json.dumps(counts, sort_keys=True, separators=(',', ':'))
+    source, matches = re.subn(r'const STANDOUT_CHAPTER_COUNTS=\{[^\n]+?\};', lambda _: 'const STANDOUT_CHAPTER_COUNTS=' + encoded + ';', source)
+    if matches != 1:
+        raise ValueError('Missing hidden-practice count declaration')
+    ui.write_text(source, encoding='utf-8', newline='\n')
     return outputs
 
 def editorial_inputs(chapter=None):
