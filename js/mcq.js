@@ -1465,7 +1465,21 @@ window.HazzardMCQ = (() => {
         let view=history.state?.mcqView;
         const tabVisit=history.state?.hazzardTabReturn?history.state.hazzardPracticeTab:null;
         const target=(bankMode||directoryPick)&&!reviewMode&&!tabVisit&&!(history.state?.hazzardTabReturn&&view?.id)?new URL(location.href).searchParams.get('q'):null;
-        if(bankMode&&!reviewMode&&!redoMode&&!specialScope()&&!view&&!target&&!location.hash){try{view=JSON.parse(localStorage.getItem(VIEW_KEY));}catch{notice='Saved question position could not be read.';}}
+        if(bankMode&&!reviewMode&&!redoMode&&!specialScope()&&!location.hash){
+          // The browser may restore a question URL before its history entry.
+          // Reuse its saved view only when it belongs to this exact question.
+          const directQuestion=target&&[...params.keys()].every(key=>key==='chapter'||key==='q');
+          if((!view&&!target)||directQuestion){
+            try{
+              const saved=HazzardStorage.readProtected(VIEW_KEY,()=>null);
+              if(!target)view=saved;
+              else if(validView(saved)&&currentId(saved.id)===currentId(target)){
+                if(!validView(view)||currentId(view.id)!==currentId(target))view=saved;
+                keepReloadPosition=true;
+              }
+            }catch{notice='Saved question position could not be read.';}
+          }
+        }
         const explicitMissed=bankMode&&location.hash==='#missed'&&new URL(location.href).searchParams.get('practiceResume')!=='1';
         const samePlace=!reviewMode&&!specialScope()&&!explicitMissed&&!(mockMode&&new URL(location.href).searchParams.get('n')==='builder')&&!new URL(location.href).searchParams.has('statsFilter')&&!target&&resumePlace&&resumePlace.screen===practiceScreen();
         if(!samePlace&&(redoMode||explicitMissed))crossed.clear();
