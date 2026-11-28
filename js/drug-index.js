@@ -1,6 +1,7 @@
 /* Read-only navigation. Names/classes come from the book; no answer-store writes. */
 window.HazzardDrugs = (() => {
-  let pending, full;
+  let pending;
+  const buckets = new Map();
   const normalize = text => text.normalize('NFKC').toLocaleLowerCase().replace(/[‐‑–—−]/g, '-');
   const el = (tag, text, className) => {
     const node = document.createElement(tag);
@@ -13,23 +14,25 @@ window.HazzardDrugs = (() => {
   }
   function load() {
     if(pending)return pending;
-    const path=window.HazzardDrugSummary||'data/drug-index.json';
+    const path='data/drug-lookup.json';
     const early=window.HazzardEarlyFetch?.get(path);window.HazzardEarlyFetch?.delete(path);
     return pending=(early||fetch(path)).then(response => {
       if (!response.ok) throw Error('Drug index unavailable. Reconnect and retry.');
       return response.json();
-    }).catch(error => { pending = null; throw error; });
+    }).then(data => ({entries:data})).catch(error => { pending = null; throw error; });
   }
   async function loadEntry(entry){
-    if(!entry.part)return entry;
-    if(navigator.onLine){
-      try{const res=await fetch(entry.part);if(res.ok)return await res.json();}catch{}
+    const file=entry.detailFile;
+    if(!buckets.has(file)){
+      const request=fetch(file).then(response=>{
+        if(!response.ok)throw Error('Drug references unavailable. Reconnect and retry.');
+        return response.json();
+      }).catch(error=>{buckets.delete(file);throw error;});
+      buckets.set(file,request);
     }
-    full ||= fetch('data/drug-index.json').then(async res=>{
-      if(!res.ok)throw Error('Drug references unavailable.');
-      const data=await res.json();return new Map(data.entries.map(row=>[row.id,row]));
-    }).catch(error=>{full=null;throw error;});
-    const item=(await full).get(entry.id);if(!item)throw Error('Drug references unavailable.');return item;
+    const item=(await buckets.get(file))[entry.id];
+    if(!item)throw Error('Drug references unavailable.');
+    return item;
   }
   function passageURL(p) {
     const anchor=p.target?'search-'+encodeURIComponent(JSON.stringify({excerpt:p.excerpt,...p.target})):encodeURIComponent(p.anchor);
@@ -62,6 +65,12 @@ window.HazzardDrugs = (() => {
       history.replaceState(history.state, '', url);
     }
     function detailsFor(entry, body) {
+      if(entry.kind!=='class' && entry.class){
+        const group=data.entries.find(item=>item.kind==='class' && normalize(item.name)===normalize(entry.class));
+        const link=el('a',group?'Open class: '+group.name:'Find drugs in this class');
+        link.href='?chapter=drugs&'+(group?'drug='+encodeURIComponent(group.id):'drugSearch='+encodeURIComponent(entry.class));
+        body.append(link);
+      }
       const brands=(entry.israeliBrands||[]).filter(brand=>brand.name&&brand.sourceUrl);
       if(brands.length){
         const group=el('details','','drug-links drug-brands'),list=el('ul');
@@ -99,6 +108,11 @@ window.HazzardDrugs = (() => {
       body.append(questions);
       const sources = el('details', '', 'drug-links drug-sources');
       sources.append(el('summary', 'References'));
+      if(entry.classSource){
+        const link=el('a',entry.classSource.label);
+        link.href=entry.classSource.url;
+        sources.append(link);
+      }
       for (const s of entry.sources) {
         const page=s.page||(/^p\d+$/.test(s.anchor)?Number(s.anchor.slice(1)):null);
         if(!page)continue;
@@ -110,7 +124,7 @@ window.HazzardDrugs = (() => {
     function entryRow(entry,selected){
       const row = el('details', '', 'drug-entry'); row.id = 'drug-' + entry.id;
       const summary = el('summary'), name = el('strong', entry.name), meta = el('span', entry.kind === 'class' ? 'Drug class' : entry.class || (entry.bankOnly?'Question bank only':''), 'drug-class');
-      const passages=entry.passageCount??entry.passages.length,questions=entry.questionCount??entry.questions.length;
+      const passages=entry.passages,questions=entry.questions;
       summary.append(name,meta,el('small',counts(passages,questions)));
       const body = el('div', '', 'drug-body'); row.append(summary, body);
       let populated = false;
@@ -181,13 +195,9 @@ window.HazzardDrugs = (() => {
     input.oninput=()=>{remember('');render();};paintFilter();
     await open();
   }
-  let lookup,lookupNames;
+  let lookupNames;
   async function search(query){
-    lookup ||= fetch('data/drug-lookup.json').then(response=>{
-      if(!response.ok)throw Error('Drug lookup unavailable');
-      return response.json();
-    }).catch(async()=>{const data=await load();return data.entries.map(d=>({id:d.id,name:d.name,class:d.class,kind:d.kind,aliases:[...d.aliases,...(d.brandNames||d.israeliBrands?.flatMap(b=>[b.name,b.hebrewName].filter(Boolean))||[])],passages:d.passageCount??d.passages.length,questions:d.questionCount??d.questions.length}));}).catch(error=>{lookup=null;throw error;});
-    const match=HazzardSearchTerms.compile(query),entries=await lookup;
+    const match=HazzardSearchTerms.compile(query),{entries}=await load();
     lookupNames ||= entries.map(entry=>({entry,names:[entry.name,...entry.aliases].map(HazzardSearchTerms.prepare)}));
     return lookupNames.map(({entry,names})=>({entry,rank:Math.min(...names.map(match.rank)),nameRank:match.rank(names[0])}))
       .filter(hit=>Number.isFinite(hit.rank)).sort((a,b)=>a.rank-b.rank||a.nameRank-b.nameRank).slice(0,10).map(hit=>hit.entry);

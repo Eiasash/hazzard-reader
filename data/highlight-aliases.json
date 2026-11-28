@@ -50730,5 +50730,35 @@
     "id": "u61",
     "old": "Fast build from the book; not lane-reviewed.",
     "new": "Checked against the book."
+  },
+  {
+    "chapter": "75s",
+    "id": "u116",
+    "old": "Indications for valve replacement in aortic stenosis",
+    "new": "Indications for valve replacement in aortic stenosis (excerpt)"
+  },
+  {
+    "chapter": "77s",
+    "id": "u112",
+    "old": "Primary-prevention ICD (p1206): on GDMT, ischemic cardiomyopathy >40 days after MI or >90 days after revascularization with LVEF ≤35% and NYHA II–III, or LVEF <30% and NYHA I. For nonischemic cardiomyopathy: LVEF ≤35% with NYHA II–III despite GDMT.",
+    "new": "Primary-prevention ICD (p1206): on GDMT, ischemic cardiomyopathy >40 days after MI or >90 days after revascularization with LVEF ≤35% and NYHA II–III, or LVEF <30% and NYHA I, or prior MI with nonsustained VT, LVEF ≤40% and sustained monomorphic VT inducible at electrophysiologic study. For nonischemic cardiomyopathy: LVEF ≤35% with NYHA II–III despite GDMT."
+  },
+  {
+    "chapter": "law",
+    "id": "u162",
+    "old": "לא נמצא (היקף): נוהל 3.4.2 חל על נותני שירות למאושפזים ב\"קוד\" משרד הבריאות, ונוהל 01-09 רק על סיווג כסיעודי/תשוש נפש.",
+    "new": "נוהל 3.4.2 עוסק באשפוז במימון משרד הבריאות."
+  },
+  {
+    "chapter": "law",
+    "id": "u163",
+    "old": "מעבר של מטופל שיקומי (מימון קופה) בתום שיקום לסיעודי-מורכב אינו מוסדר במסמכים שבידינו.",
+    "new": "קביעת המצב התפקודי לפני העברה מבית חולים כללי נדונה בחוזר משרד הבריאות."
+  },
+  {
+    "chapter": "law",
+    "id": "u164",
+    "old": "גם נוהל ספציפי בשם \"שיבוץ בתום שיקום\" ב-Downloads; שני הנהלים שלעיל (0.2.1 ו-3.4.2) הם הקרובים ביותר שנמצאו, ומכסים את ההגדרות ואת שרשרת ההחלטה, אך לא מסמך נפרד תחת אותו שם מדויק.",
+    "new": "ראו חוזר 26/2010 וההנחיות להעברה למסגרת אשפוז אחרת."
   }
 ]

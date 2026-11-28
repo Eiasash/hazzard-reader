@@ -47,6 +47,30 @@ def check(notebook, root, output):
                     return !parts.length||!['',' '].some(sep=>clean(parts.map(p=>p.textContent).join(sep))===clean(m.text));
                   }).map(([id])=>id);
                 }""", records)
+                # A sentence can move to a different display unit when an edition changes.
+                # Opening and removing its Notebook row must still address its saved ID.
+                if records:
+                    page.locator('#appTabs [data-tab="notebook"]').click()
+                    page.evaluate("()=>HazzardRouter.settled()")
+                    current = page.locator("#notebookCurrent")
+                    if not current.evaluate("group=>group.open"):
+                        current.locator(":scope > summary").click()
+                    rows = page.locator("#notebookMarks [data-notebook-mark]")
+                    rows.first.wait_for(state="attached")
+                    mismatches = rows.evaluate_all("""(rows, saved) => {
+                      const clean=text=>text.replace(/\\s+/gu,' ').trim();
+                      const seen=new Set(), errors=[];
+                      for(const row of rows){
+                        const id=row.dataset.notebookMark;
+                        const text=row.querySelector('button').cloneNode(true);
+                        text.querySelectorAll('small').forEach(node=>node.remove());
+                        const words=clean(text.textContent.replace(/^\\d+\\.\\s*/u,''));
+                        if(seen.has(id)||!saved[id]||words!==clean(saved[id].text)) errors.push(id);
+                        seen.add(id);
+                      }
+                      return [...errors,...Object.keys(saved).filter(id=>!seen.has(id))];
+                    }""", records)
+                    failures = list(dict.fromkeys(failures + mismatches))
                 report["chapters"][chapter] = {"total": len(records), "exact": len(records) - len(failures)}
                 report["failures"].extend(f"{chapter}/{key}" for key in failures)
             notebook_items = page.evaluate("()=>HazzardAnswerHighlights.notebookItems()")

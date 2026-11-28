@@ -131,7 +131,7 @@ Study summary of Chapter 77; the book and the full chapter are the reference.
 **Other tachyarrhythmias**
 - Atrial flutter: cavotricuspid-isthmus ablation success **> 90–95%** (p1206), complications **< 1–2%** (p1206).
 - SVT: AVNRT is the most common type in older adults. β-blockers and CCBs are first-line therapy (p1206); acute options in Table 77-10 include vagal maneuvers and adenosine, with synchronized cardioversion if hemodynamically unstable or refractory to adenosine (Table 77-10, p1206); ablation success **85%** (p1206) to better than **95%** (p1206), major complications **< 2–3%** (p1206).
-- **Primary-prevention ICD (p1206):** on GDMT, ischemic cardiomyopathy **>40 days after MI or >90 days after revascularization** with **LVEF ≤35% and NYHA II–III**, or **LVEF <30% and NYHA I**. For nonischemic cardiomyopathy: LVEF ≤35% with NYHA II–III despite GDMT.
+- **Primary-prevention ICD (p1206):** on GDMT, ischemic cardiomyopathy **>40 days after MI or >90 days after revascularization** with **LVEF ≤35% and NYHA II–III**, or **LVEF <30% and NYHA I**, or prior MI with nonsustained VT, **LVEF ≤40%** and sustained monomorphic VT inducible at electrophysiologic study. For nonischemic cardiomyopathy: LVEF ≤35% with NYHA II–III despite GDMT.
 - ICD secondary prevention: cardiac arrest from VT/VF not from a reversible cause; spontaneous sustained VT with structural heart disease; or unexplained syncope with inducible hemodynamically significant VT/VF at EPS when drug therapy is ineffective, not tolerated, or not preferred (p1206).
 
 **End-of-life device management**

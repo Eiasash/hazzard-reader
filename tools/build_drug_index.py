@@ -671,8 +671,8 @@ def build(destination=None, audit=None, book=None):
         for label in item['class'].split(' / '):
             if norm(label).strip() in {'','medication','drug','drug class','unclassified'}:
                 continue
-            # Membership is explicit in the reviewed catalogue. A class term may
-            # contribute a question link, but never a molecular book passage.
+            # Named ingredients contribute to their class page. Generic class
+            # mentions are not evidence for any particular member drug.
             associated=set().union(*(class_names.get(t,set()) for t in forms(label,True)))
             if not associated:
                 key='class:'+norm(label)
@@ -743,21 +743,16 @@ def build(destination=None, audit=None, book=None):
                 if identity in ids:
                     info[identity]['direct'].update(terms)
                     info[identity]['fields'].add(field)
-                for member in members.get(identity,()):
-                    info[member]['class'].update(terms)
-                    info[member]['fields'].add(field)
                 for parent in classes_of.get(identity,()):
                     info[parent]['member'].update(terms)
                     info[parent]['fields'].add(field)
         for identity,evidence in info.items():
             official=q['kind']=='past'
             result={'id':q['id'],'kind':q['kind'],'label':str(q['t']).replace('-Subspec','')+' · Q'+str(q.get('examNumber')) if official else 'Practice · '+clean(bank_text(q['q'])),
-                    'matchFields':sorted(evidence['fields']),'terms':sorted(evidence['direct']|evidence['class']|evidence['member']),
-                    'match':'name' if evidence['direct'] else 'class' if evidence['class'] else 'member'}
+                    'matchFields':sorted(evidence['fields']),'terms':sorted(evidence['direct']|evidence['member']),
+                    'match':'name' if evidence['direct'] else 'member'}
             if official:
                 result.update(sitting=q['t'].replace('-Subspec',''),number=q.get('examNumber'))
-            if evidence['class']:
-                result['classTerms']=sorted(evidence['class'])
             if evidence['member']:
                 result['memberTerms']=sorted(evidence['member'])
             qlinks[identity].append(result)
@@ -858,6 +853,7 @@ def build(destination=None, audit=None, book=None):
                 sources.append({'chapter':published['chapter'],'page':published['page'],'anchor':published['anchor'],
                                 'quote':published['excerpt'],**({'image':published['image']} if published.get('image') else {})})
         records.append({'id':identity,'name':item['name'],'kind':item.get('kind','drug'),'class':item['class'],
+                        **({'classSource':item['classSource']} if 'classSource' in item else {}),
                         'aliases':item.get('aliases',[]),'israeliBrands':item.get('israeliBrands',[]),'sources':sources,
                         'bankOnly':bool(item.get('bankOnly') and not passages),'bankSources':bank_sources,
                         'passages':sorted(passages,key=lambda v:(int(v['chapter'].rstrip('s')),v['kind']=='study',v['page'])),
